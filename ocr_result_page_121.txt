@@ -1,0 +1,130 @@
+OCR结果 - 第 121 页
+==================================================
+处理的图像: temp_page_120_processed.png
+原始PDF页面: 121
+
+详细结果:
+[{'input_path': 'temp_page_120_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1306,   26],
+       ...,
+       [1306,  115]], shape=(4, 2), dtype=int16), array([[155, 183],
+       ...,
+       [154, 239]], shape=(4, 2), dtype=int16), array([[158, 267],
+       ...,
+       [157, 311]], shape=(4, 2), dtype=int16), array([[250, 338],
+       ...,
+       [249, 389]], shape=(4, 2), dtype=int16), array([[164, 413],
+       ...,
+       [163, 460]], shape=(4, 2), dtype=int16), array([[165, 486],
+       ...,
+       [164, 533]], shape=(4, 2), dtype=int16), array([[164, 559],
+       ...,
+       [163, 605]], shape=(4, 2), dtype=int16), array([[164, 633],
+       ...,
+       [164, 681]], shape=(4, 2), dtype=int16), array([[163, 708],
+       ...,
+       [164, 756]], shape=(4, 2), dtype=int16), array([[248, 784],
+       ...,
+       [249, 829]], shape=(4, 2), dtype=int16), array([[247, 853],
+       ...,
+       [247, 902]], shape=(4, 2), dtype=int16), array([[162, 927],
+       ...,
+       [163, 975]], shape=(4, 2), dtype=int16), array([[  3, 953],
+       ...,
+       [  0, 976]], shape=(4, 2), dtype=int16), array([[ 160,  998],
+       ...,
+       [ 161, 1048]], shape=(4, 2), dtype=int16), array([[ 163, 1072],
+       ...,
+       [ 164, 1116]], shape=(4, 2), dtype=int16), array([[ 165, 1147],
+       ...,
+       [ 166, 1187]], shape=(4, 2), dtype=int16), array([[ 240, 1367],
+       ...,
+       [ 240, 1412]], shape=(4, 2), dtype=int16), array([[ 450, 1438],
+       ...,
+       [ 450, 1482]], shape=(4, 2), dtype=int16), array([[ 451, 1508],
+       ...,
+       [ 451, 1553]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['119', '称“尊绅公司”)，泰嘉公司为尊绅公司的全资子公司，设备已于', '2019年3月8日抵达钦州保税港区。', '会议拟请园区管委会副巡视员谢东刚牵头，尽快组织钦州', '港海关、钦州保税港区管委会经济发展处及园区相关部门召开', '专项协调会，专题研究尊绅公司项目设备注资到泰嘉公司事宜；', '请泰嘉公司尽快完成设备评估及董事会相关决议，完善相关资', '料；请经济发展局、投资合作局、行政审批服务局对接服务具', '体工作，尽快完成泰嘉公司注资事宜。', '三、加快土地出让工作', '请泰嘉公司尽快开展各项项目前期工作，确定项目用地时', '间，明确各项工作推进的计划及时间表，园区管委会配合项目', '做', '组，尽快启动项目一期土地出让工作；请泰嘉公司加强与钦州', '市相关部门的沟通，尽快确定代建项目公司组建方案，推动项', '目代建工作，争取按计划实现项目开工建设。', '参会人员：广西泰嘉光电科技有限公司许于辰、陈婵娟、', '刘德福、谢斌。经济发展局庄严，财政局陈自宏、', '吴锡东，投资合作局覃耿、郭庆辉。'], 'rec_scores': [0.9606520533561707, 0.9830359220504761, 0.9966288805007935, 0.9981973767280579, 0.9966133832931519, 0.9938339591026306, 0.9984643459320068, 0.9849801063537598, 0.9982083439826965, 0.9990067481994629, 0.9989627003669739, 0.9987109899520874, 0.23518049716949463, 0.9957977533340454, 0.9985007643699646, 0.9989227056503296, 0.9936984181404114, 0.9931210875511169, 0.9713285565376282], 'rec_polys': [array([[1306,   26],
+       ...,
+       [1306,  115]], shape=(4, 2), dtype=int16), array([[155, 183],
+       ...,
+       [154, 239]], shape=(4, 2), dtype=int16), array([[158, 267],
+       ...,
+       [157, 311]], shape=(4, 2), dtype=int16), array([[250, 338],
+       ...,
+       [249, 389]], shape=(4, 2), dtype=int16), array([[164, 413],
+       ...,
+       [163, 460]], shape=(4, 2), dtype=int16), array([[165, 486],
+       ...,
+       [164, 533]], shape=(4, 2), dtype=int16), array([[164, 559],
+       ...,
+       [163, 605]], shape=(4, 2), dtype=int16), array([[164, 633],
+       ...,
+       [164, 681]], shape=(4, 2), dtype=int16), array([[163, 708],
+       ...,
+       [164, 756]], shape=(4, 2), dtype=int16), array([[248, 784],
+       ...,
+       [249, 829]], shape=(4, 2), dtype=int16), array([[247, 853],
+       ...,
+       [247, 902]], shape=(4, 2), dtype=int16), array([[162, 927],
+       ...,
+       [163, 975]], shape=(4, 2), dtype=int16), array([[  3, 953],
+       ...,
+       [  0, 976]], shape=(4, 2), dtype=int16), array([[ 160,  998],
+       ...,
+       [ 161, 1048]], shape=(4, 2), dtype=int16), array([[ 163, 1072],
+       ...,
+       [ 164, 1116]], shape=(4, 2), dtype=int16), array([[ 165, 1147],
+       ...,
+       [ 166, 1187]], shape=(4, 2), dtype=int16), array([[ 240, 1367],
+       ...,
+       [ 240, 1412]], shape=(4, 2), dtype=int16), array([[ 450, 1438],
+       ...,
+       [ 450, 1482]], shape=(4, 2), dtype=int16), array([[ 451, 1508],
+       ...,
+       [ 451, 1553]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1306, ...,  115],
+       ...,
+       [ 451, ..., 1553]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 119
+2. 称“尊绅公司”)，泰嘉公司为尊绅公司的全资子公司，设备已于
+3. 2019年3月8日抵达钦州保税港区。
+4. 会议拟请园区管委会副巡视员谢东刚牵头，尽快组织钦州
+5. 港海关、钦州保税港区管委会经济发展处及园区相关部门召开
+6. 专项协调会，专题研究尊绅公司项目设备注资到泰嘉公司事宜；
+7. 请泰嘉公司尽快完成设备评估及董事会相关决议，完善相关资
+8. 料；请经济发展局、投资合作局、行政审批服务局对接服务具
+9. 体工作，尽快完成泰嘉公司注资事宜。
+10. 三、加快土地出让工作
+11. 请泰嘉公司尽快开展各项项目前期工作，确定项目用地时
+12. 间，明确各项工作推进的计划及时间表，园区管委会配合项目
+13. 做
+14. 组，尽快启动项目一期土地出让工作；请泰嘉公司加强与钦州
+15. 市相关部门的沟通，尽快确定代建项目公司组建方案，推动项
+16. 目代建工作，争取按计划实现项目开工建设。
+17. 参会人员：广西泰嘉光电科技有限公司许于辰、陈婵娟、
+18. 刘德福、谢斌。经济发展局庄严，财政局陈自宏、
+19. 吴锡东，投资合作局覃耿、郭庆辉。

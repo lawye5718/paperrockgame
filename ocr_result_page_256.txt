@@ -1,0 +1,135 @@
+OCR结果 - 第 256 页
+==================================================
+处理的图像: temp_page_255_processed.png
+原始PDF页面: 256
+
+详细结果:
+[{'input_path': 'temp_page_255_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[135, 140],
+       ...,
+       [133, 178]], shape=(4, 2), dtype=int16), array([[593, 246],
+       ...,
+       [594, 323]], shape=(4, 2), dtype=int16), array([[136, 360],
+       ...,
+       [134, 405]], shape=(4, 2), dtype=int16), array([[198, 424],
+       ...,
+       [197, 472]], shape=(4, 2), dtype=int16), array([[137, 476],
+       ...,
+       [135, 528]], shape=(4, 2), dtype=int16), array([[145, 537],
+       ...,
+       [143, 588]], shape=(4, 2), dtype=int16), array([[135, 595],
+       ...,
+       [133, 636]], shape=(4, 2), dtype=int16), array([[196, 660],
+       ...,
+       [193, 699]], shape=(4, 2), dtype=int16), array([[1113,  897],
+       ...,
+       [1051,  973]], shape=(4, 2), dtype=int16), array([[ 890,  960],
+       ...,
+       [ 944, 1073]], shape=(4, 2), dtype=int16), array([[1143,  988],
+       ...,
+       [1116, 1062]], shape=(4, 2), dtype=int16), array([[ 746, 1032],
+       ...,
+       [ 747, 1071]], shape=(4, 2), dtype=int16), array([[1095, 1027],
+       ...,
+       [1095, 1062]], shape=(4, 2), dtype=int16), array([[1200, 1033],
+       ...,
+       [1187, 1046]], shape=(4, 2), dtype=int16), array([[1217, 1029],
+       ...,
+       [1217, 1060]], shape=(4, 2), dtype=int16), array([[1142, 1068],
+       ...,
+       [1119, 1102]], shape=(4, 2), dtype=int16), array([[ 748, 1087],
+       ...,
+       [ 748, 1126]], shape=(4, 2), dtype=int16), array([[ 903, 1085],
+       ...,
+       [ 907, 1134]], shape=(4, 2), dtype=int16), array([[ 750, 1137],
+       ...,
+       [ 750, 1190]], shape=(4, 2), dtype=int16), array([[ 752, 1209],
+       ...,
+       [ 753, 1247]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['附件1', '委托书', '中国电子工程设计院有限公司：', '根据《建设项目环境保护管理条例》(国务院第682号令)和家环保部公', '布的《建设项目环境影响评价分类管理名录》(生态环境部第1号令)行关规定.', '《超薄玻璃基板深加工项》域于新建项目，需要编写环境影响报告表，现委托', '贵单位进行环境影响评价工作。', '特此委托！', '技有', '嘉光电科', '爱', '委托单位：', '村技', '', '司', '司', '负责人：', '汤廉锋', '联系电话：1577196', '2019年10月2811'], 'rec_scores': [0.990654468536377, 0.999886691570282, 0.9949946999549866, 0.9403418898582458, 0.9168227314949036, 0.8823858499526978, 0.9472752809524536, 0.9647075533866882, 0.9880456924438477, 0.9536615610122681, 0.11196906864643097, 0.9819995164871216, 0.5174541473388672, 0.0, 0.80948406457901, 0.9955272078514099, 0.9436253309249878, 0.5044179558753967, 0.8896495699882507, 0.9812737107276917], 'rec_polys': [array([[135, 140],
+       ...,
+       [133, 178]], shape=(4, 2), dtype=int16), array([[593, 246],
+       ...,
+       [594, 323]], shape=(4, 2), dtype=int16), array([[136, 360],
+       ...,
+       [134, 405]], shape=(4, 2), dtype=int16), array([[198, 424],
+       ...,
+       [197, 472]], shape=(4, 2), dtype=int16), array([[137, 476],
+       ...,
+       [135, 528]], shape=(4, 2), dtype=int16), array([[145, 537],
+       ...,
+       [143, 588]], shape=(4, 2), dtype=int16), array([[135, 595],
+       ...,
+       [133, 636]], shape=(4, 2), dtype=int16), array([[196, 660],
+       ...,
+       [193, 699]], shape=(4, 2), dtype=int16), array([[1113,  897],
+       ...,
+       [1051,  973]], shape=(4, 2), dtype=int16), array([[ 890,  960],
+       ...,
+       [ 944, 1073]], shape=(4, 2), dtype=int16), array([[1143,  988],
+       ...,
+       [1116, 1062]], shape=(4, 2), dtype=int16), array([[ 746, 1032],
+       ...,
+       [ 747, 1071]], shape=(4, 2), dtype=int16), array([[1095, 1027],
+       ...,
+       [1095, 1062]], shape=(4, 2), dtype=int16), array([[1200, 1033],
+       ...,
+       [1187, 1046]], shape=(4, 2), dtype=int16), array([[1217, 1029],
+       ...,
+       [1217, 1060]], shape=(4, 2), dtype=int16), array([[1142, 1068],
+       ...,
+       [1119, 1102]], shape=(4, 2), dtype=int16), array([[ 748, 1087],
+       ...,
+       [ 748, 1126]], shape=(4, 2), dtype=int16), array([[ 903, 1085],
+       ...,
+       [ 907, 1134]], shape=(4, 2), dtype=int16), array([[ 750, 1137],
+       ...,
+       [ 750, 1190]], shape=(4, 2), dtype=int16), array([[ 752, 1209],
+       ...,
+       [ 753, 1247]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'rec_boxes': array([[ 133, ...,  183],
+       ...,
+       [ 752, ..., 1247]], shape=(20, 4), dtype=int16)}]
+
+解析后的文本:
+1. 附件1
+2. 委托书
+3. 中国电子工程设计院有限公司：
+4. 根据《建设项目环境保护管理条例》(国务院第682号令)和家环保部公
+5. 布的《建设项目环境影响评价分类管理名录》(生态环境部第1号令)行关规定.
+6. 《超薄玻璃基板深加工项》域于新建项目，需要编写环境影响报告表，现委托
+7. 贵单位进行环境影响评价工作。
+8. 特此委托！
+9. 技有
+10. 嘉光电科
+11. 爱
+12. 委托单位：
+13. 村技
+14. 
+15. 司
+16. 司
+17. 负责人：
+18. 汤廉锋
+19. 联系电话：1577196
+20. 2019年10月2811

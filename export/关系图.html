@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北海案件关系图</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #fff;
+        }
+        #root {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #flow-container {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+        /* 节点样式 */
+        .defendant {
+            background: #dc2626; /* 红色：被告人 */
+            color: white;
+            border: 3px solid #991b1b;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: 900;
+            width: 220px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        .intermediary {
+            background: #059669; /* 绿色：中间人 */
+            color: white;
+            border: 2px solid #047857;
+            padding: 10px;
+            border-radius: 8px;
+            width: 180px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .briber {
+            background: #3b82f6; /* 蓝色：行贿人/未遂 */
+            color: white;
+            border: 1px solid #1d4ed8;
+            padding: 8px;
+            border-radius: 6px;
+            width: 160px;
+            font-size: 12px;
+            text-align: center;
+        }
+        .money-held-by-wang {
+            background: #ef4444; /* 红底：被告人控制 */
+            color: white;
+            border: 2px dashed white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 180px;
+            text-align: left;
+            box-shadow: 0 2px 4px rgba(239, 68, 68, 0.4);
+        }
+        .money-held-by-intermediary {
+            background: #10b981; /* 绿底：中间人控制 */
+            color: white;
+            border: 1px solid #059669;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 180px;
+            text-align: left;
+        }
+        .money-held-by-briber {
+            background: #93c5fd; /* 浅蓝底：行贿人保管/未遂 */
+            color: #1e3a8a; 
+            border: 1px dashed #3b82f6;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 180px;
+            text-align: left;
+            font-style: italic;
+        }
+        .annotation {
+            font-size: 14px;
+            font-weight: bold;
+            background: #fff;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #333;
+        }
+        .node-container {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sub-label {
+            font-size: 11px;
+            opacity: 0.9;
+            margin-top: 4px;
+        }
+        .amount {
+            font-size: 11px;
+            margin-top: 4px;
+            padding-top: 2px;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .analysis-panel {
+            padding: 20px;
+            font-family: sans-serif;
+            border-top: 2px solid #eee;
+            background-color: #f8fafc;
+        }
+        .analysis-title {
+            margin-top: 0;
+            color: #334155;
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 10px;
+        }
+        .analysis-content {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .chart-container {
+            flex: 0 0 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .pie-chart {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(#dc2626 0% 5.3%, #10b981 5.3% 63.7%, #3b82f6 63.7% 100%);
+            margin-bottom: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .legend {
+            width: 100%;
+            font-size: 12px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+        .text-analysis {
+            flex: 1;
+            min-width: 300px;
+        }
+        .analysis-section {
+            margin-bottom: 15px;
+        }
+        .section-title {
+            margin: 0 0 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .section-content {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #334155;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div id="flow-container">
+            <svg></svg>
+        </div>
+        <div class="analysis-panel">
+            <h3 class="analysis-title">📊 资金实际流向与控制权分析 (总指控金额：7539万元)</h3>
+            <div class="analysis-content">
+                <div class="chart-container">
+                    <div class="pie-chart"></div>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #dc2626;"></span>
+                            <span>被告人实际占有: <b>5.3%</b> (400万)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #10b981;"></span>
+                            <span>中间人截留: <b>58.4%</b> (4402万)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #3b82f6;"></span>
+                            <span>空头支票/未遂: <b>36.3%</b> (2737万)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-analysis">
+                    <div class="analysis-section">
+                        <h4 class="section-title" style="color: #b91c1c;">🔴 "实际受贿"（入袋）</h4>
+                        <p class="section-content">
+                            请注意图表左上角的红色实线区域。只有事实九（林汉枫250万）和事实六（王慧150万）这两笔，共计<b>400万元</b>，确凿无疑地进入了王雄昌个人的控制范围（如炒股、现金收受）。<br/>
+                            相比之下，起诉书指控的总额是7539万。这意味着，<b>超过94%的指控金额，王雄昌并未发生物理上的接触或占有。</b>
+                        </p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="section-title" style="color: #047857;">🟢 "中间人截留"（底部绿色区域）</h4>
+                        <p class="section-content">
+                            在涉及廖炼炼、苏林、吴卫明、何斌的几起共同受贿中，资金几乎全部停留在中间人手中。
+                            特别是事实一和事实二，中间人截留了80%以上的利益，而王雄昌所谓的"份子钱"也是由廖炼炼"代为保管"。这种<b>"钱在别人手，罪在我头上"</b>的结构，退一万步讲，至少也应认定<b>从犯</b>。
+                        </p>
+                    </div>
+                    <div class="analysis-section">
+                        <h4 class="section-title" style="color: #1d4ed8;">🔵 "空头支票"（右侧蓝色区域）</h4>
+                        <p class="section-content">
+                            事实七（王晓毅）和事实八（蒋兆国）共计1000万元，标记为"行贿人保管"。这在图上显示为资金流动的死循环——钱根本没有离开行贿人的口袋。这部分金额应认定<b>无罪</b>、退一万步讲也是定<b>"不能犯未遂"</b>（行贿人根本没有支付能力和支付意愿）。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 节点数据
+        const nodes = [
+            // 1. 中心被告人
+            {
+                id: 'wang',
+                type: 'defendant',
+                label: '被告人：王雄昌',
+                subLabel: '实际经手极少，多为"知情"',
+                x: 600,
+                y: 350
+            },
+
+            // --- 左上角：实际经手 (红色) ---
+            {
+                id: 'note-direct',
+                type: 'annotation',
+                label: '一、实际占有 (红色区域)',
+                x: 100,
+                y: 50
+            },
+            {
+                id: 'fact9',
+                type: 'briber',
+                label: '事实九：林汉枫',
+                subLabel: '直接送现金/转账',
+                x: 50,
+                y: 120
+            },
+            {
+                id: 'money9',
+                type: 'money-held-by-wang',
+                label: '⚠️ 实际入袋',
+                amount: '250万元 (炒股获利)',
+                subLabel: '王雄昌亲自控制',
+                x: 50,
+                y: 220
+            },
+            {
+                id: 'fact6',
+                type: 'briber',
+                label: '事实六：王慧',
+                subLabel: '早期宁波任职期间',
+                x: 250,
+                y: 120
+            },
+            {
+                id: 'money6-real',
+                type: 'money-held-by-wang',
+                label: '⚠️ 实际入袋',
+                amount: '150万元',
+                subLabel: '王雄昌亲自收受',
+                x: 250,
+                y: 220
+            },
+            {
+                id: 'money6-fake',
+                type: 'money-held-by-briber',
+                label: '❌ 未遂/未付',
+                amount: '525万元',
+                subLabel: '尚未实际取得',
+                x: 250,
+                y: 300
+            },
+
+            // --- 右侧：承诺型/行贿人保管 (蓝色) ---
+            {
+                id: 'note-promise',
+                type: 'annotation',
+                label: '二、空头支票/未遂 (蓝色区域)',
+                x: 900,
+                y: 50
+            },
+            {
+                id: 'fact7',
+                type: 'briber',
+                label: '事实七：王晓毅',
+                subLabel: '口头承诺',
+                x: 900,
+                y: 120
+            },
+            {
+                id: 'money7',
+                type: 'money-held-by-briber',
+                label: '🔒 行贿人保管',
+                amount: '600万元',
+                subLabel: '钱仍在行贿人处',
+                x: 900,
+                y: 220
+            },
+            {
+                id: 'fact8',
+                type: 'briber',
+                label: '事实八：蒋兆国',
+                subLabel: '口头承诺',
+                x: 1100,
+                y: 120
+            },
+            {
+                id: 'money8',
+                type: 'money-held-by-briber',
+                label: '🔒 行贿人保管',
+                amount: '400万元',
+                subLabel: '钱仍在行贿人处',
+                x: 1100,
+                y: 220
+            },
+
+            // --- 底部：中间人控制 (绿色) ---
+            {
+                id: 'note-group',
+                type: 'annotation',
+                label: '三、中间人截留 (绿色区域)',
+                x: 500,
+                y: 500
+            },
+            
+            // 事实一 & 二 (廖炼炼团伙)
+            {
+                id: 'group1',
+                type: 'intermediary',
+                label: '中间人团伙',
+                subLabel: '廖炼炼、苏林、黎小宋',
+                x: 100,
+                y: 600
+            },
+            {
+                id: 'money1',
+                type: 'money-held-by-intermediary',
+                label: '🔒 廖炼炼保管 (事实一)',
+                amount: '340万元 (占20%)',
+                subLabel: '王雄昌从未经手',
+                x: 50,
+                y: 700
+            },
+            {
+                id: 'money1-rem',
+                type: 'money-held-by-intermediary',
+                label: '💸 团伙截留 (事实一)',
+                amount: '1360万+ (占80%)',
+                subLabel: '苏/黎实际占有',
+                x: 50,
+                y: 780
+            },
+            {
+                id: 'money2',
+                type: 'money-held-by-intermediary',
+                label: '🔒 廖炼炼保管 (事实二)',
+                amount: '180万元 (占20%)',
+                subLabel: '王雄昌从未经手',
+                x: 250,
+                y: 700
+            },
+            {
+                id: 'money2-rem',
+                type: 'money-held-by-intermediary',
+                label: '💸 团伙截留 (事实二)',
+                amount: '1000万+ (占80%)',
+                subLabel: '苏/黎实际占有',
+                x: 250,
+                y: 780
+            },
+
+            // 事实三 (谢斌/泰嘉)
+            {
+                id: 'intermediary-xie',
+                type: 'intermediary',
+                label: '中间人：谢斌',
+                subLabel: '泰嘉项目引进人',
+                x: 500,
+                y: 600
+            },
+            {
+                id: 'money3-xie',
+                type: 'money-held-by-intermediary',
+                label: '💸 谢斌占有',
+                amount: '400万元',
+                subLabel: '王雄昌仅"知情"',
+                x: 500,
+                y: 700
+            },
+            {
+                id: 'money3-fake',
+                type: 'money-held-by-briber',
+                label: '❌ 未遂 (画饼)',
+                amount: '1000万元',
+                subLabel: '许于辰无支付能力',
+                x: 500,
+                y: 780
+            },
+
+            // 事实四 (吴卫明)
+            {
+                id: 'intermediary-wu',
+                type: 'intermediary',
+                label: '中间人：吴卫明',
+                subLabel: '私营企业主',
+                x: 700,
+                y: 600
+            },
+            {
+                id: 'money4',
+                type: 'money-held-by-intermediary',
+                label: '💸 吴卫明占有',
+                amount: '约982万元',
+                subLabel: '王雄昌仅"知情/同意"',
+                x: 700,
+                y: 700
+            },
+
+            // 事实五 (何斌)
+            {
+                id: 'intermediary-he',
+                type: 'intermediary',
+                label: '中间人：何斌',
+                subLabel: '原国企老总',
+                x: 900,
+                y: 600
+            },
+            {
+                id: 'money5',
+                type: 'money-held-by-intermediary',
+                label: '💸 何斌占有',
+                amount: '400万元',
+                subLabel: '王雄昌仅"知情"',
+                x: 900,
+                y: 700
+            },
+            {
+                id: 'money5-fake',
+                type: 'money-held-by-briber',
+                label: '❌ 未遂',
+                amount: '200万元',
+                subLabel: '未实际取得',
+                x: 900,
+                y: 780
+            }
+        ];
+
+        // 连接线数据
+        const edges = [
+            { id: 'e-w-m9', source: 'fact9', target: 'money9', animated: true },
+            { id: 'e-m9-w', source: 'money9', target: 'wang', style: { stroke: '#ef4444', strokeWidth: 3 }, label: '实际流入' },
+            { id: 'e-w-m6', source: 'fact6', target: 'money6-real', animated: true },
+            { id: 'e-m6-w', source: 'money6-real', target: 'wang', style: { stroke: '#ef4444', strokeWidth: 3 }, label: '实际流入' },
+            { id: 'e-fact6-fake', source: 'fact6', target: 'money6-fake' },
+            { id: 'e-f7-m7', source: 'fact7', target: 'money7', animated: true },
+            { id: 'e-m7-w', source: 'money7', target: 'wang', style: { stroke: '#94a3b8', strokeDasharray: '5 5' }, label: '未物理转移' },
+            { id: 'e-f8-m8', source: 'fact8', target: 'money8', animated: true },
+            { id: 'e-m8-w', source: 'money8', target: 'wang', style: { stroke: '#94a3b8', strokeDasharray: '5 5' }, label: '未物理转移' },
+            { id: 'e-g1-m1', source: 'group1', target: 'money1', label: '保管' },
+            { id: 'e-g1-m1rem', source: 'group1', target: 'money1-rem', label: '截留' },
+            { id: 'e-g1-m2', source: 'group1', target: 'money2', label: '保管' },
+            { id: 'e-g1-m2rem', source: 'group1', target: 'money2-rem', label: '截留' },
+            { id: 'e-w-g1', source: 'wang', target: 'group1', style: { stroke: '#10b981', strokeDasharray: '5 5' }, label: '通过中间人' },
+            { id: 'e-xie-m3', source: 'intermediary-xie', target: 'money3-xie', label: '占有' },
+            { id: 'e-w-xie', source: 'wang', target: 'intermediary-xie', style: { stroke: '#10b981', strokeDasharray: '5 5' }, label: '知情' },
+            { id: 'e-wu-m4', source: 'intermediary-wu', target: 'money4', label: '占有' },
+            { id: 'e-w-wu', source: 'wang', target: 'intermediary-wu', style: { stroke: '#10b981', strokeDasharray: '5 5' }, label: '知情' },
+            { id: 'e-he-m5', source: 'intermediary-he', target: 'money5', label: '占有' },
+            { id: 'e-w-he', source: 'wang', target: 'intermediary-he', style: { stroke: '#10b981', strokeDasharray: '5 5' }, label: '知情' }
+        ];
+
+        // 渲染函数
+        function render() {
+            const container = document.getElementById('flow-container');
+            const svg = container.querySelector('svg');
+            
+            // 清空 SVG
+            while (svg.firstChild) {
+                svg.removeChild(svg.firstChild);
+            }
+            
+            // 渲染节点
+            nodes.forEach(node => {
+                const nodeEl = document.createElement('div');
+                nodeEl.className = `node-container ${node.type.replace(/-/g, '')}`;
+                nodeEl.style.left = `${node.x}px`;
+                nodeEl.style.top = `${node.y}px`;
+                nodeEl.dataset.id = node.id;
+                
+                const labelEl = document.createElement('div');
+                labelEl.textContent = node.label;
+                nodeEl.appendChild(labelEl);
+                
+                if (node.subLabel) {
+                    const subLabelEl = document.createElement('div');
+                    subLabelEl.className = 'sub-label';
+                    subLabelEl.textContent = node.subLabel;
+                    nodeEl.appendChild(subLabelEl);
+                }
+                
+                if (node.amount) {
+                    const amountEl = document.createElement('div');
+                    amountEl.className = 'amount';
+                    amountEl.innerHTML = '💰 ' + node.amount;
+                    nodeEl.appendChild(amountEl);
+                }
+                
+                container.appendChild(nodeEl);
+            });
+            
+            // 渲染连接线
+            edges.forEach(edge => {
+                const sourceNode = nodes.find(n => n.id === edge.source);
+                const targetNode = nodes.find(n => n.id === edge.target);
+                
+                if (sourceNode && targetNode) {
+                    // 计算节点中心点
+                    let sourceWidth, sourceHeight, targetWidth, targetHeight;
+                    
+                    switch(sourceNode.type) {
+                        case 'defendant':
+                            sourceWidth = 110;
+                            sourceHeight = 30;
+                            break;
+                        case 'intermediary':
+                            sourceWidth = 90;
+                            sourceHeight = 25;
+                            break;
+                        case 'briber':
+                            sourceWidth = 80;
+                            sourceHeight = 25;
+                            break;
+                        case 'money-held-by-wang':
+                        case 'money-held-by-intermediary':
+                        case 'money-held-by-briber':
+                            sourceWidth = 90;
+                            sourceHeight = 20;
+                            break;
+                        default:
+                            sourceWidth = 70;
+                            sourceHeight = 15;
+                    }
+                    
+                    switch(targetNode.type) {
+                        case 'defendant':
+                            targetWidth = 110;
+                            targetHeight = 30;
+                            break;
+                        case 'intermediary':
+                            targetWidth = 90;
+                            targetHeight = 25;
+                            break;
+                        case 'briber':
+                            targetWidth = 80;
+                            targetHeight = 25;
+                            break;
+                        case 'money-held-by-wang':
+                        case 'money-held-by-intermediary':
+                        case 'money-held-by-briber':
+                            targetWidth = 90;
+                            targetHeight = 20;
+                            break;
+                        default:
+                            targetWidth = 70;
+                            targetHeight = 15;
+                    }
+                    
+                    const sourceX = sourceNode.x + sourceWidth;
+                    const sourceY = sourceNode.y + sourceHeight;
+                    const targetX = targetNode.x + targetWidth;
+                    const targetY = targetNode.y + targetHeight;
+                    
+                    // 创建线条
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', sourceX);
+                    line.setAttribute('y1', sourceY);
+                    line.setAttribute('x2', targetX);
+                    line.setAttribute('y2', targetY);
+                    line.setAttribute('stroke', edge.style ? edge.style.stroke : '#666');
+                    line.setAttribute('stroke-width', edge.style ? edge.style.strokeWidth || 2 : 2);
+                    
+                    if (edge.style && edge.style.strokeDasharray) {
+                        line.setAttribute('stroke-dasharray', edge.style.strokeDasharray);
+                    }
+                    
+                    if (edge.animated) {
+                        line.classList.add('animated');
+                        // 添加动画效果
+                        const animate = document.createElementNS('http://www.w3.org/2000/svg', 'animate');
+                        animate.setAttribute('attributeName', 'stroke-dashoffset');
+                        animate.setAttribute('values', '0;-20');
+                        animate.setAttribute('dur', '1s');
+                        animate.setAttribute('repeatCount', 'indefinite');
+                        line.appendChild(animate);
+                    }
+                    
+                    svg.appendChild(line);
+                    
+                    // 添加箭头
+                    const arrow = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                    const angle = Math.atan2(targetY - sourceY, targetX - sourceX);
+                    const arrowSize = 6;
+                    const points = [
+                        `${targetX},${targetY}`,
+                        `${targetX - arrowSize * Math.cos(angle - Math.PI/6)},${targetY - arrowSize * Math.sin(angle - Math.PI/6)}`,
+                        `${targetX - arrowSize * Math.cos(angle + Math.PI/6)},${targetY - arrowSize * Math.sin(angle + Math.PI/6)}`
+                    ].join(' ');
+                    arrow.setAttribute('points', points);
+                    arrow.setAttribute('fill', edge.style ? edge.style.stroke : '#666');
+                    svg.appendChild(arrow);
+                    
+                    // 添加标签
+                    if (edge.label) {
+                        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                        text.setAttribute('x', (sourceX + targetX) / 2);
+                        text.setAttribute('y', (sourceY + targetY) / 2 - 5);
+                        text.setAttribute('text-anchor', 'middle');
+                        text.setAttribute('font-size', '12');
+                        text.setAttribute('fill', '#333');
+                        text.textContent = edge.label;
+                        svg.appendChild(text);
+                    }
+                }
+            });
+        }
+
+        // 页面加载完成后渲染
+        document.addEventListener('DOMContentLoaded', render);
+    </script>
+</body>
+</html>

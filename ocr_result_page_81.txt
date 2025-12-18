@@ -1,0 +1,190 @@
+OCR结果 - 第 81 页
+==================================================
+处理的图像: temp_page_80_processed.png
+原始PDF页面: 81
+
+详细结果:
+[{'input_path': 'temp_page_80_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[1327,    0],
+       ...,
+       [1327,  113]], shape=(4, 2), dtype=int16), array([[1006,   35],
+       ...,
+       [1016,  153]], shape=(4, 2), dtype=int16), array([[775,  73],
+       ...,
+       [775, 128]], shape=(4, 2), dtype=int16), array([[1146,  113],
+       ...,
+       [1146,  202]], shape=(4, 2), dtype=int16), array([[1109,  194],
+       ...,
+       [1108,  251]], shape=(4, 2), dtype=int16), array([[1235,  294],
+       ...,
+       [1235,  317]], shape=(4, 2), dtype=int16), array([[324, 447],
+       ...,
+       [324, 512]], shape=(4, 2), dtype=int16), array([[408, 524],
+       ...,
+       [408, 586]], shape=(4, 2), dtype=int16), array([[853, 624],
+       ...,
+       [853, 656]], shape=(4, 2), dtype=int16), array([[692, 654],
+       ...,
+       [692, 667]], shape=(4, 2), dtype=int16), array([[628, 705],
+       ...,
+       [626, 727]], shape=(4, 2), dtype=int16), array([[845, 717],
+       ...,
+       [845, 740]], shape=(4, 2), dtype=int16), array([[624, 727],
+       ...,
+       [626, 752]], shape=(4, 2), dtype=int16), array([[275, 751],
+       ...,
+       [276, 792]], shape=(4, 2), dtype=int16), array([[818, 782],
+       ...,
+       [804, 796]], shape=(4, 2), dtype=int16), array([[188, 809],
+       ...,
+       [188, 856]], shape=(4, 2), dtype=int16), array([[196, 874],
+       ...,
+       [196, 915]], shape=(4, 2), dtype=int16), array([[196, 940],
+       ...,
+       [197, 979]], shape=(4, 2), dtype=int16), array([[ 276, 1000],
+       ...,
+       [ 276, 1043]], shape=(4, 2), dtype=int16), array([[ 199, 1062],
+       ...,
+       [ 199, 1105]], shape=(4, 2), dtype=int16), array([[ 197, 1122],
+       ...,
+       [ 197, 1167]], shape=(4, 2), dtype=int16), array([[ 198, 1184],
+       ...,
+       [ 198, 1228]], shape=(4, 2), dtype=int16), array([[ 197, 1245],
+       ...,
+       [ 196, 1290]], shape=(4, 2), dtype=int16), array([[ 197, 1310],
+       ...,
+       [ 196, 1351]], shape=(4, 2), dtype=int16), array([[ 197, 1372],
+       ...,
+       [ 196, 1413]], shape=(4, 2), dtype=int16), array([[ 274, 1563],
+       ...,
+       [ 274, 1607]], shape=(4, 2), dtype=int16), array([[ 439, 1628],
+       ...,
+       [ 439, 1673]], shape=(4, 2), dtype=int16), array([[ 271, 1692],
+       ...,
+       [ 271, 1740]], shape=(4, 2), dtype=int16), array([[ 253, 1770],
+       ...,
+       [ 254, 1842]], shape=(4, 2), dtype=int16), array([[ 776, 1843],
+       ...,
+       [ 783, 1909]], shape=(4, 2), dtype=int16), array([[ 793, 1903],
+       ...,
+       [ 793, 1945]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['7', '提人：张勇', '75', '能庆伟', '2025.3.13.', '…', '广西钦保投资集团有限责任公司', '合丰泰项目专题会议纪要', '园', '4', '2', '5', '店', '2018年11月14日', '221', 'B座1209会议室组织召开司合.表承项目专题会议.会议', '就东莞市合丰泰光电科技有限公司的资金支持模式进行讨', '论。现形成会议纪要如下：', '会议审议了报来的《关于审定东莞市合丰泰光电科技', '有限公司资金支持模式的请示》，鉴于公司发展要求，会议', '研究决定，原则同意签订委托贷款合同，但需明确我公司', '收益及对方还款期限，同时请唐副总于12月10日前完善', '合丰泰的第三方协议风控手续．会议明确，今后公司所有', '签订的合同（模板）一律需经法律顾问审核，并由总经办', '统一对接法律顾问，要求法律顾问用邮件回复，便于追责。', '出席：何斌、唐伟军、王平金、蒋钦姣、黄宝宇、', '段继勇、黄治钦、颜珊、农艳、于秀', '记录：于秀。', '此材料共页，已向本人', '武', '2025.6.10'], 'rec_scores': [0.9990057349205017, 0.6258127689361572, 0.7916591167449951, 0.5661101341247559, 0.9122229814529419, 0.683073103427887, 0.9978595972061157, 0.9970293045043945, 0.6745254397392273, 0.22993741929531097, 0.4708127975463867, 0.32251298427581787, 0.10076282918453217, 0.9995782971382141, 0.5245148539543152, 0.9023333787918091, 0.9961511492729187, 0.9551960825920105, 0.9954808950424194, 0.9760498404502869, 0.9952507019042969, 0.9729454517364502, 0.9756064414978027, 0.9854066371917725, 0.9713887572288513, 0.9722196459770203, 0.9757689237594604, 0.9050506949424744, 0.8727790117263794, 0.5705744028091431, 0.9206212162971497], 'rec_polys': [array([[1327,    0],
+       ...,
+       [1327,  113]], shape=(4, 2), dtype=int16), array([[1006,   35],
+       ...,
+       [1016,  153]], shape=(4, 2), dtype=int16), array([[775,  73],
+       ...,
+       [775, 128]], shape=(4, 2), dtype=int16), array([[1146,  113],
+       ...,
+       [1146,  202]], shape=(4, 2), dtype=int16), array([[1109,  194],
+       ...,
+       [1108,  251]], shape=(4, 2), dtype=int16), array([[1235,  294],
+       ...,
+       [1235,  317]], shape=(4, 2), dtype=int16), array([[324, 447],
+       ...,
+       [324, 512]], shape=(4, 2), dtype=int16), array([[408, 524],
+       ...,
+       [408, 586]], shape=(4, 2), dtype=int16), array([[853, 624],
+       ...,
+       [853, 656]], shape=(4, 2), dtype=int16), array([[692, 654],
+       ...,
+       [692, 667]], shape=(4, 2), dtype=int16), array([[628, 705],
+       ...,
+       [626, 727]], shape=(4, 2), dtype=int16), array([[845, 717],
+       ...,
+       [845, 740]], shape=(4, 2), dtype=int16), array([[624, 727],
+       ...,
+       [626, 752]], shape=(4, 2), dtype=int16), array([[275, 751],
+       ...,
+       [276, 792]], shape=(4, 2), dtype=int16), array([[818, 782],
+       ...,
+       [804, 796]], shape=(4, 2), dtype=int16), array([[188, 809],
+       ...,
+       [188, 856]], shape=(4, 2), dtype=int16), array([[196, 874],
+       ...,
+       [196, 915]], shape=(4, 2), dtype=int16), array([[196, 940],
+       ...,
+       [197, 979]], shape=(4, 2), dtype=int16), array([[ 276, 1000],
+       ...,
+       [ 276, 1043]], shape=(4, 2), dtype=int16), array([[ 199, 1062],
+       ...,
+       [ 199, 1105]], shape=(4, 2), dtype=int16), array([[ 197, 1122],
+       ...,
+       [ 197, 1167]], shape=(4, 2), dtype=int16), array([[ 198, 1184],
+       ...,
+       [ 198, 1228]], shape=(4, 2), dtype=int16), array([[ 197, 1245],
+       ...,
+       [ 196, 1290]], shape=(4, 2), dtype=int16), array([[ 197, 1310],
+       ...,
+       [ 196, 1351]], shape=(4, 2), dtype=int16), array([[ 197, 1372],
+       ...,
+       [ 196, 1413]], shape=(4, 2), dtype=int16), array([[ 274, 1563],
+       ...,
+       [ 274, 1607]], shape=(4, 2), dtype=int16), array([[ 439, 1628],
+       ...,
+       [ 439, 1673]], shape=(4, 2), dtype=int16), array([[ 271, 1692],
+       ...,
+       [ 271, 1740]], shape=(4, 2), dtype=int16), array([[ 253, 1770],
+       ...,
+       [ 254, 1842]], shape=(4, 2), dtype=int16), array([[ 776, 1843],
+       ...,
+       [ 783, 1909]], shape=(4, 2), dtype=int16), array([[ 793, 1903],
+       ...,
+       [ 793, 1945]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1327, ...,  113],
+       ...,
+       [ 793, ..., 1948]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 7
+2. 提人：张勇
+3. 75
+4. 能庆伟
+5. 2025.3.13.
+6. …
+7. 广西钦保投资集团有限责任公司
+8. 合丰泰项目专题会议纪要
+9. 园
+10. 4
+11. 2
+12. 5
+13. 店
+14. 2018年11月14日
+15. 221
+16. B座1209会议室组织召开司合.表承项目专题会议.会议
+17. 就东莞市合丰泰光电科技有限公司的资金支持模式进行讨
+18. 论。现形成会议纪要如下：
+19. 会议审议了报来的《关于审定东莞市合丰泰光电科技
+20. 有限公司资金支持模式的请示》，鉴于公司发展要求，会议
+21. 研究决定，原则同意签订委托贷款合同，但需明确我公司
+22. 收益及对方还款期限，同时请唐副总于12月10日前完善
+23. 合丰泰的第三方协议风控手续．会议明确，今后公司所有
+24. 签订的合同（模板）一律需经法律顾问审核，并由总经办
+25. 统一对接法律顾问，要求法律顾问用邮件回复，便于追责。
+26. 出席：何斌、唐伟军、王平金、蒋钦姣、黄宝宇、
+27. 段继勇、黄治钦、颜珊、农艳、于秀
+28. 记录：于秀。
+29. 此材料共页，已向本人
+30. 武
+31. 2025.6.10

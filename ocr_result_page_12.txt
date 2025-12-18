@@ -1,0 +1,160 @@
+OCR结果 - 第 12 页
+==================================================
+处理的图像: temp_page_11_processed.png
+原始PDF页面: 12
+
+详细结果:
+[{'input_path': 'temp_page_11_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1300,    0],
+       ...,
+       [1300,  100]], shape=(4, 2), dtype=int16), array([[137, 197],
+       ...,
+       [137, 248]], shape=(4, 2), dtype=int16), array([[138, 270],
+       ...,
+       [138, 314]], shape=(4, 2), dtype=int16), array([[142, 338],
+       ...,
+       [141, 387]], shape=(4, 2), dtype=int16), array([[228, 409],
+       ...,
+       [228, 459]], shape=(4, 2), dtype=int16), array([[131, 472],
+       ...,
+       [130, 529]], shape=(4, 2), dtype=int16), array([[223, 549],
+       ...,
+       [223, 596]], shape=(4, 2), dtype=int16), array([[137, 618],
+       ...,
+       [137, 662]], shape=(4, 2), dtype=int16), array([[137, 688],
+       ...,
+       [137, 731]], shape=(4, 2), dtype=int16), array([[138, 759],
+       ...,
+       [138, 802]], shape=(4, 2), dtype=int16), array([[136, 831],
+       ...,
+       [136, 873]], shape=(4, 2), dtype=int16), array([[135, 900],
+       ...,
+       [135, 944]], shape=(4, 2), dtype=int16), array([[ 136,  970],
+       ...,
+       [ 136, 1012]], shape=(4, 2), dtype=int16), array([[ 134, 1039],
+       ...,
+       [ 134, 1080]], shape=(4, 2), dtype=int16), array([[ 130, 1108],
+       ...,
+       [ 130, 1150]], shape=(4, 2), dtype=int16), array([[ 132, 1177],
+       ...,
+       [ 132, 1217]], shape=(4, 2), dtype=int16), array([[ 218, 1247],
+       ...,
+       [ 218, 1292]], shape=(4, 2), dtype=int16), array([[ 129, 1320],
+       ...,
+       [ 129, 1361]], shape=(4, 2), dtype=int16), array([[ 216, 1389],
+       ...,
+       [ 216, 1433]], shape=(4, 2), dtype=int16), array([[ 218, 1458],
+       ...,
+       [ 218, 1503]], shape=(4, 2), dtype=int16), array([[ 219, 1525],
+       ...,
+       [ 219, 1572]], shape=(4, 2), dtype=int16), array([[ 127, 1594],
+       ...,
+       [ 127, 1640]], shape=(4, 2), dtype=int16), array([[ 130, 1665],
+       ...,
+       [ 130, 1709]], shape=(4, 2), dtype=int16), array([[ 104, 1866],
+       ...,
+       [ 115, 1986]], shape=(4, 2), dtype=int16), array([[ 935, 1889],
+       ...,
+       [ 936, 1930]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['6', '签订的金额为9000万元。我个人考虑到这样风险大，所以在实', '际给银行的转款中，并没有按照合同约定的金额转款，最终只转', '了8000万元。', '问：请你说一下上述委托贷款合同到期后该笔贷款的后续', '情况?', '答：2019年11月的时候，委托华夏银行钦州支行的贷款即', '将到期，由于东莞合丰泰公司无法按时偿还贷款本金，希望能延', '长贷款期限。我将这个情况向王雄昌汇报，王雄昌也同意东莞合', '丰泰公司的请求，便让我去跟银行沟通。我找到陈卫东，传达了', '王雄昌的指示，让陈卫东同意延长贷款期限，最终华夏银行钦州', '支行给东莞合丰泰公司延期6个月。延长期快到之前，陈卫东向', '我表示他们华夏银行不愿意再继续承接这笔委托贷款业务了。待', '延长期满后，华夏银行钦州支行让东莞合丰泰公司还完贷款的', '8000万元本金，再转回自贸开投集团（原钦保投集团），结清后', '就没有再继续承接这笔委托贷款业务。', '问：东莞合丰泰公司在华夏银行钦州支行办理的这笔委托贷', '款是否已经还清本金?', '答：这笔委托贷款本金东莞合丰泰公司已经偿还了。', '问：请你说说华夏银行钦州支行为什么不再续贷?', '答：银行跟我反映过，在放款过程中发现东莞合丰泰公司', '的财务状况存在问题，一个号称投资上百亿的项目，但这笔8000', '万元贷款的第一个月几十万的利息都不能及时缴纳，后续利息的', '签名：可斌', '第 7页共14页'], 'rec_scores': [0.9356164336204529, 0.9964607954025269, 0.9976956248283386, 0.9982345104217529, 0.9973365068435669, 0.9204719662666321, 0.997463047504425, 0.9991505742073059, 0.9971480965614319, 0.9987780451774597, 0.998282790184021, 0.9976107478141785, 0.9963700175285339, 0.9990285038948059, 0.9898813366889954, 0.9983294010162354, 0.9893330931663513, 0.960915207862854, 0.9982349276542664, 0.9756578207015991, 0.9972400665283203, 0.9968591332435608, 0.9977025985717773, 0.7539902329444885, 0.935928225517273], 'rec_polys': [array([[1300,    0],
+       ...,
+       [1300,  100]], shape=(4, 2), dtype=int16), array([[137, 197],
+       ...,
+       [137, 248]], shape=(4, 2), dtype=int16), array([[138, 270],
+       ...,
+       [138, 314]], shape=(4, 2), dtype=int16), array([[142, 338],
+       ...,
+       [141, 387]], shape=(4, 2), dtype=int16), array([[228, 409],
+       ...,
+       [228, 459]], shape=(4, 2), dtype=int16), array([[131, 472],
+       ...,
+       [130, 529]], shape=(4, 2), dtype=int16), array([[223, 549],
+       ...,
+       [223, 596]], shape=(4, 2), dtype=int16), array([[137, 618],
+       ...,
+       [137, 662]], shape=(4, 2), dtype=int16), array([[137, 688],
+       ...,
+       [137, 731]], shape=(4, 2), dtype=int16), array([[138, 759],
+       ...,
+       [138, 802]], shape=(4, 2), dtype=int16), array([[136, 831],
+       ...,
+       [136, 873]], shape=(4, 2), dtype=int16), array([[135, 900],
+       ...,
+       [135, 944]], shape=(4, 2), dtype=int16), array([[ 136,  970],
+       ...,
+       [ 136, 1012]], shape=(4, 2), dtype=int16), array([[ 134, 1039],
+       ...,
+       [ 134, 1080]], shape=(4, 2), dtype=int16), array([[ 130, 1108],
+       ...,
+       [ 130, 1150]], shape=(4, 2), dtype=int16), array([[ 132, 1177],
+       ...,
+       [ 132, 1217]], shape=(4, 2), dtype=int16), array([[ 218, 1247],
+       ...,
+       [ 218, 1292]], shape=(4, 2), dtype=int16), array([[ 129, 1320],
+       ...,
+       [ 129, 1361]], shape=(4, 2), dtype=int16), array([[ 216, 1389],
+       ...,
+       [ 216, 1433]], shape=(4, 2), dtype=int16), array([[ 218, 1458],
+       ...,
+       [ 218, 1503]], shape=(4, 2), dtype=int16), array([[ 219, 1525],
+       ...,
+       [ 219, 1572]], shape=(4, 2), dtype=int16), array([[ 127, 1594],
+       ...,
+       [ 127, 1640]], shape=(4, 2), dtype=int16), array([[ 130, 1665],
+       ...,
+       [ 130, 1709]], shape=(4, 2), dtype=int16), array([[ 104, 1866],
+       ...,
+       [ 115, 1986]], shape=(4, 2), dtype=int16), array([[ 935, 1889],
+       ...,
+       [ 936, 1930]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1300, ...,  100],
+       ...,
+       [ 935, ..., 1930]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 6
+2. 签订的金额为9000万元。我个人考虑到这样风险大，所以在实
+3. 际给银行的转款中，并没有按照合同约定的金额转款，最终只转
+4. 了8000万元。
+5. 问：请你说一下上述委托贷款合同到期后该笔贷款的后续
+6. 情况?
+7. 答：2019年11月的时候，委托华夏银行钦州支行的贷款即
+8. 将到期，由于东莞合丰泰公司无法按时偿还贷款本金，希望能延
+9. 长贷款期限。我将这个情况向王雄昌汇报，王雄昌也同意东莞合
+10. 丰泰公司的请求，便让我去跟银行沟通。我找到陈卫东，传达了
+11. 王雄昌的指示，让陈卫东同意延长贷款期限，最终华夏银行钦州
+12. 支行给东莞合丰泰公司延期6个月。延长期快到之前，陈卫东向
+13. 我表示他们华夏银行不愿意再继续承接这笔委托贷款业务了。待
+14. 延长期满后，华夏银行钦州支行让东莞合丰泰公司还完贷款的
+15. 8000万元本金，再转回自贸开投集团（原钦保投集团），结清后
+16. 就没有再继续承接这笔委托贷款业务。
+17. 问：东莞合丰泰公司在华夏银行钦州支行办理的这笔委托贷
+18. 款是否已经还清本金?
+19. 答：这笔委托贷款本金东莞合丰泰公司已经偿还了。
+20. 问：请你说说华夏银行钦州支行为什么不再续贷?
+21. 答：银行跟我反映过，在放款过程中发现东莞合丰泰公司
+22. 的财务状况存在问题，一个号称投资上百亿的项目，但这笔8000
+23. 万元贷款的第一个月几十万的利息都不能及时缴纳，后续利息的
+24. 签名：可斌
+25. 第 7页共14页

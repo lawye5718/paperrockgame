@@ -1,0 +1,75 @@
+OCR结果 - 第 140 页
+==================================================
+处理的图像: temp_page_139_processed.png
+原始PDF页面: 140
+
+详细结果:
+[{'input_path': 'temp_page_139_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1415, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1415, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1415, 3), dtype=uint8)}, 'dt_polys': [array([[1269,   76],
+       ...,
+       [1269,  111]], shape=(4, 2), dtype=int16), array([[134,  86],
+       ...,
+       [134, 117]], shape=(4, 2), dtype=int16), array([[131, 139],
+       ...,
+       [131, 174]], shape=(4, 2), dtype=int16), array([[1269,  134],
+       ...,
+       [1269,  171]], shape=(4, 2), dtype=int16), array([[130, 195],
+       ...,
+       [129, 230]], shape=(4, 2), dtype=int16), array([[1269,  198],
+       ...,
+       [1269,  235]], shape=(4, 2), dtype=int16), array([[128, 254],
+       ...,
+       [127, 288]], shape=(4, 2), dtype=int16), array([[1270,  259],
+       ...,
+       [1268,  295]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['109', '3.7.环保投资分析..', '3.8.“三同时”竣工验收一览表..', '109', '3.9.环保措施可靠性分析.', '116', '3.10.小结....', '116'], 'rec_scores': [0.9998907446861267, 0.9835434556007385, 0.9428493976593018, 0.9998965263366699, 0.9751071929931641, 0.9998791813850403, 0.9834337830543518, 0.9997240900993347], 'rec_polys': [array([[1269,   76],
+       ...,
+       [1269,  111]], shape=(4, 2), dtype=int16), array([[134,  86],
+       ...,
+       [134, 117]], shape=(4, 2), dtype=int16), array([[131, 139],
+       ...,
+       [131, 174]], shape=(4, 2), dtype=int16), array([[1269,  134],
+       ...,
+       [1269,  171]], shape=(4, 2), dtype=int16), array([[130, 195],
+       ...,
+       [129, 230]], shape=(4, 2), dtype=int16), array([[1269,  198],
+       ...,
+       [1269,  235]], shape=(4, 2), dtype=int16), array([[128, 254],
+       ...,
+       [127, 288]], shape=(4, 2), dtype=int16), array([[1270,  259],
+       ...,
+       [1268,  295]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1269, ...,  111],
+       ...,
+       [1268, ...,  298]], shape=(8, 4), dtype=int16)}]
+
+解析后的文本:
+1. 109
+2. 3.7.环保投资分析..
+3. 3.8.“三同时”竣工验收一览表..
+4. 109
+5. 3.9.环保措施可靠性分析.
+6. 116
+7. 3.10.小结....
+8. 116

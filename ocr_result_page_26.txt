@@ -1,0 +1,170 @@
+OCR结果 - 第 26 页
+==================================================
+处理的图像: temp_page_25_processed.png
+原始PDF页面: 26
+
+详细结果:
+[{'input_path': 'temp_page_25_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8)}, 'dt_polys': [array([[1326,    0],
+       ...,
+       [1326,  100]], shape=(4, 2), dtype=int16), array([[569, 111],
+       ...,
+       [568, 153]], shape=(4, 2), dtype=int16), array([[241, 198],
+       ...,
+       [241, 239]], shape=(4, 2), dtype=int16), array([[251, 277],
+       ...,
+       [250, 322]], shape=(4, 2), dtype=int16), array([[248, 353],
+       ...,
+       [248, 409]], shape=(4, 2), dtype=int16), array([[563, 582],
+       ...,
+       [563, 626]], shape=(4, 2), dtype=int16), array([[474, 717],
+       ...,
+       [474, 728]], shape=(4, 2), dtype=int16), array([[164, 754],
+       ...,
+       [165, 798]], shape=(4, 2), dtype=int16), array([[684, 745],
+       ...,
+       [617, 816]], shape=(4, 2), dtype=int16), array([[578, 772],
+       ...,
+       [546, 808]], shape=(4, 2), dtype=int16), array([[167, 841],
+       ...,
+       [168, 879]], shape=(4, 2), dtype=int16), array([[ 601,  977],
+       ...,
+       [ 600, 1024]], shape=(4, 2), dtype=int16), array([[ 236, 1069],
+       ...,
+       [ 238, 1115]], shape=(4, 2), dtype=int16), array([[ 419, 1067],
+       ...,
+       [ 420, 1114]], shape=(4, 2), dtype=int16), array([[ 163, 1153],
+       ...,
+       [ 164, 1201]], shape=(4, 2), dtype=int16), array([[ 162, 1238],
+       ...,
+       [ 163, 1283]], shape=(4, 2), dtype=int16), array([[ 165, 1321],
+       ...,
+       [ 166, 1362]], shape=(4, 2), dtype=int16), array([[ 233, 1399],
+       ...,
+       [ 235, 1446]], shape=(4, 2), dtype=int16), array([[ 161, 1485],
+       ...,
+       [ 162, 1530]], shape=(4, 2), dtype=int16), array([[ 152, 1565],
+       ...,
+       [ 153, 1609]], shape=(4, 2), dtype=int16), array([[ 227, 1643],
+       ...,
+       [ 228, 1689]], shape=(4, 2), dtype=int16), array([[ 224, 1725],
+       ...,
+       [ 225, 1770]], shape=(4, 2), dtype=int16), array([[ 144, 1802],
+       ...,
+       [ 145, 1856]], shape=(4, 2), dtype=int16), array([[ 990, 1828],
+       ...,
+       [ 959, 1860]], shape=(4, 2), dtype=int16), array([[1091, 1835],
+       ...,
+       [1063, 1899]], shape=(4, 2), dtype=int16), array([[ 845, 1890],
+       ...,
+       [ 833, 1983]], shape=(4, 2), dtype=int16), array([[ 693, 1939],
+       ...,
+       [ 693, 1965]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['23', '第七条还款计划', '委托贷款还款按下列第（1）种方式执行：', '(1)一次性还款', '(2) 其他：', '第八条付息方式', '7', '方按期、按规定收取利息，审方不能按时付息时，按规定按日计收本', '银行', 'NITIn', '金万分之任的违约金。', '第九条', '第9.1条', '若甲方未按约定期限还款，就逾期部分（包括被宣布', '全部或部分提前到期的借款本金和利息)，从逾期之日起按照逾期贷', '款罚息利率计收利息，直至清偿本息为止。逾期贷款罚息利率为第四', '条约定的借款利率尘浮50%；', '第9.2条若甲方未按约定用途使用贷款，就挪用部分，从挪用', '之日起按照挪用贷款罚息利率计收利息，直至清偿本息为止。挪用贷', '款罚息利率为第四条约定的借款利率上浮100%；', '第9.3条对既逾期又挪用的贷款，计收罚息和复利。', '对甲方不能按期支付的利息，以本合同约定的结息方式，贷款期', '内按照第四条约定的借款利率计收复利，贷款逾期后改按本款约定的', 'GUILIN', '公', '文斌', '5'], 'rec_scores': [0.9917730093002319, 0.9994185566902161, 0.9248257875442505, 0.9780904054641724, 0.8685285449028015, 0.9995203614234924, 0.19138586521148682, 0.9751809239387512, 0.9989553093910217, 0.6449919939041138, 0.8548938632011414, 0.9997463226318359, 0.9794095158576965, 0.9830018877983093, 0.9919103980064392, 0.9923422932624817, 0.9290628433227539, 0.9981757402420044, 0.9965357184410095, 0.973057210445404, 0.9771878123283386, 0.9982441663742065, 0.995843231678009, 0.9455206990242004, 0.11493710428476334, 0.5815954208374023, 0.9988942742347717], 'rec_polys': [array([[1326,    0],
+       ...,
+       [1326,  100]], shape=(4, 2), dtype=int16), array([[569, 111],
+       ...,
+       [568, 153]], shape=(4, 2), dtype=int16), array([[241, 198],
+       ...,
+       [241, 239]], shape=(4, 2), dtype=int16), array([[251, 277],
+       ...,
+       [250, 322]], shape=(4, 2), dtype=int16), array([[248, 353],
+       ...,
+       [248, 409]], shape=(4, 2), dtype=int16), array([[563, 582],
+       ...,
+       [563, 626]], shape=(4, 2), dtype=int16), array([[474, 717],
+       ...,
+       [474, 728]], shape=(4, 2), dtype=int16), array([[164, 754],
+       ...,
+       [165, 798]], shape=(4, 2), dtype=int16), array([[684, 745],
+       ...,
+       [617, 816]], shape=(4, 2), dtype=int16), array([[578, 772],
+       ...,
+       [546, 808]], shape=(4, 2), dtype=int16), array([[167, 841],
+       ...,
+       [168, 879]], shape=(4, 2), dtype=int16), array([[ 601,  977],
+       ...,
+       [ 600, 1024]], shape=(4, 2), dtype=int16), array([[ 236, 1069],
+       ...,
+       [ 238, 1115]], shape=(4, 2), dtype=int16), array([[ 419, 1067],
+       ...,
+       [ 420, 1114]], shape=(4, 2), dtype=int16), array([[ 163, 1153],
+       ...,
+       [ 164, 1201]], shape=(4, 2), dtype=int16), array([[ 162, 1238],
+       ...,
+       [ 163, 1283]], shape=(4, 2), dtype=int16), array([[ 165, 1321],
+       ...,
+       [ 166, 1362]], shape=(4, 2), dtype=int16), array([[ 233, 1399],
+       ...,
+       [ 235, 1446]], shape=(4, 2), dtype=int16), array([[ 161, 1485],
+       ...,
+       [ 162, 1530]], shape=(4, 2), dtype=int16), array([[ 152, 1565],
+       ...,
+       [ 153, 1609]], shape=(4, 2), dtype=int16), array([[ 227, 1643],
+       ...,
+       [ 228, 1689]], shape=(4, 2), dtype=int16), array([[ 224, 1725],
+       ...,
+       [ 225, 1770]], shape=(4, 2), dtype=int16), array([[ 144, 1802],
+       ...,
+       [ 145, 1856]], shape=(4, 2), dtype=int16), array([[ 990, 1828],
+       ...,
+       [ 959, 1860]], shape=(4, 2), dtype=int16), array([[1091, 1835],
+       ...,
+       [1063, 1899]], shape=(4, 2), dtype=int16), array([[ 845, 1890],
+       ...,
+       [ 833, 1983]], shape=(4, 2), dtype=int16), array([[ 693, 1939],
+       ...,
+       [ 693, 1965]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1326, ...,  100],
+       ...,
+       [ 693, ..., 1965]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 23
+2. 第七条还款计划
+3. 委托贷款还款按下列第（1）种方式执行：
+4. (1)一次性还款
+5. (2) 其他：
+6. 第八条付息方式
+7. 7
+8. 方按期、按规定收取利息，审方不能按时付息时，按规定按日计收本
+9. 银行
+10. NITIn
+11. 金万分之任的违约金。
+12. 第九条
+13. 第9.1条
+14. 若甲方未按约定期限还款，就逾期部分（包括被宣布
+15. 全部或部分提前到期的借款本金和利息)，从逾期之日起按照逾期贷
+16. 款罚息利率计收利息，直至清偿本息为止。逾期贷款罚息利率为第四
+17. 条约定的借款利率尘浮50%；
+18. 第9.2条若甲方未按约定用途使用贷款，就挪用部分，从挪用
+19. 之日起按照挪用贷款罚息利率计收利息，直至清偿本息为止。挪用贷
+20. 款罚息利率为第四条约定的借款利率上浮100%；
+21. 第9.3条对既逾期又挪用的贷款，计收罚息和复利。
+22. 对甲方不能按期支付的利息，以本合同约定的结息方式，贷款期
+23. 内按照第四条约定的借款利率计收复利，贷款逾期后改按本款约定的
+24. GUILIN
+25. 公
+26. 文斌
+27. 5

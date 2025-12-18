@@ -1,0 +1,160 @@
+OCR结果 - 第 91 页
+==================================================
+处理的图像: temp_page_90_processed.png
+原始PDF页面: 91
+
+详细结果:
+[{'input_path': 'temp_page_90_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[293,   2],
+       ...,
+       [293,  19]], shape=(4, 2), dtype=int16), array([[989,   0],
+       ...,
+       [988,  30]], shape=(4, 2), dtype=int16), array([[505,  94],
+       ...,
+       [502, 167]], shape=(4, 2), dtype=int16), array([[156, 218],
+       ...,
+       [156, 248]], shape=(4, 2), dtype=int16), array([[208, 271],
+       ...,
+       [207, 308]], shape=(4, 2), dtype=int16), array([[149, 328],
+       ...,
+       [148, 363]], shape=(4, 2), dtype=int16), array([[149, 383],
+       ...,
+       [148, 419]], shape=(4, 2), dtype=int16), array([[147, 436],
+       ...,
+       [146, 477]], shape=(4, 2), dtype=int16), array([[147, 497],
+       ...,
+       [146, 530]], shape=(4, 2), dtype=int16), array([[201, 554],
+       ...,
+       [201, 588]], shape=(4, 2), dtype=int16), array([[197, 606],
+       ...,
+       [197, 643]], shape=(4, 2), dtype=int16), array([[195, 663],
+       ...,
+       [195, 700]], shape=(4, 2), dtype=int16), array([[199, 726],
+       ...,
+       [199, 757]], shape=(4, 2), dtype=int16), array([[271, 723],
+       ...,
+       [271, 757]], shape=(4, 2), dtype=int16), array([[197, 785],
+       ...,
+       [197, 817]], shape=(4, 2), dtype=int16), array([[272, 784],
+       ...,
+       [272, 815]], shape=(4, 2), dtype=int16), array([[197, 844],
+       ...,
+       [197, 876]], shape=(4, 2), dtype=int16), array([[270, 843],
+       ...,
+       [270, 874]], shape=(4, 2), dtype=int16), array([[196, 901],
+       ...,
+       [196, 932]], shape=(4, 2), dtype=int16), array([[272, 900],
+       ...,
+       [272, 930]], shape=(4, 2), dtype=int16), array([[ 242, 1013],
+       ...,
+       [ 241, 1047]], shape=(4, 2), dtype=int16), array([[ 364, 1182],
+       ...,
+       [ 366, 1363]], shape=(4, 2), dtype=int16), array([[ 898, 1607],
+       ...,
+       [ 896, 1643]], shape=(4, 2), dtype=int16), array([[ 110, 1943],
+       ...,
+       [ 107, 1982]], shape=(4, 2), dtype=int16), array([[ 187, 1952],
+       ...,
+       [ 186, 1984]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['搜有限公司机器设许治', '中阳评报字[2019]第205号', '资产评估师承诺函', '广西泰嘉光电科技有限公司：', '受贵方委托，本评估机构对现存放在钦州保税港区三号路棉纺产业园4#仓库内、由', '广西钦州保税港区尊绅贸易有限公司第二期出资以实物资产形式投入贵公司的机器设', '备(8套、共787箱)，以2019年3月14日为基准日进行了价值评估，并形成了资产评估报告，', '为贵方了解以实物出资形式投入企业的设备类资产的市场公允价值提供参考依据。在本', '报告中披露的假设条件成立的前提下，我们承诺如下：', '一、具备相应的执业资格.', '二、评估对象和评估范图与评估业务约定书的约定一致。', '三、对评估对象及其所涉及的资产进行了必要的核实。', '四、', '根据资产评估准则和相关评估规范选用了评估方法。', '五、', '充分考虑了影响评估价值的因素。', '六、', '评估结论合理.', '七、', '评估工作未受到干预并独立进行。', '资产评估师签章：', '陈颜', '2019年3月18日', '0', '广西中阳资产评估事务所有限公司'], 'rec_scores': [0.6091420650482178, 0.9531233906745911, 0.9981664419174194, 0.9889622926712036, 0.9931589365005493, 0.9817318320274353, 0.9681118130683899, 0.9949650764465332, 0.9812803268432617, 0.9574294090270996, 0.983752965927124, 0.9969900250434875, 0.9708961248397827, 0.9988860487937927, 0.9801325798034668, 0.9973211884498596, 0.9836456775665283, 0.950229823589325, 0.9730169773101807, 0.9928786754608154, 0.9837538003921509, 0.574693500995636, 0.9997421503067017, 0.399734228849411, 0.975041925907135], 'rec_polys': [array([[293,   2],
+       ...,
+       [293,  19]], shape=(4, 2), dtype=int16), array([[989,   0],
+       ...,
+       [988,  30]], shape=(4, 2), dtype=int16), array([[505,  94],
+       ...,
+       [502, 167]], shape=(4, 2), dtype=int16), array([[156, 218],
+       ...,
+       [156, 248]], shape=(4, 2), dtype=int16), array([[208, 271],
+       ...,
+       [207, 308]], shape=(4, 2), dtype=int16), array([[149, 328],
+       ...,
+       [148, 363]], shape=(4, 2), dtype=int16), array([[149, 383],
+       ...,
+       [148, 419]], shape=(4, 2), dtype=int16), array([[147, 436],
+       ...,
+       [146, 477]], shape=(4, 2), dtype=int16), array([[147, 497],
+       ...,
+       [146, 530]], shape=(4, 2), dtype=int16), array([[201, 554],
+       ...,
+       [201, 588]], shape=(4, 2), dtype=int16), array([[197, 606],
+       ...,
+       [197, 643]], shape=(4, 2), dtype=int16), array([[195, 663],
+       ...,
+       [195, 700]], shape=(4, 2), dtype=int16), array([[199, 726],
+       ...,
+       [199, 757]], shape=(4, 2), dtype=int16), array([[271, 723],
+       ...,
+       [271, 757]], shape=(4, 2), dtype=int16), array([[197, 785],
+       ...,
+       [197, 817]], shape=(4, 2), dtype=int16), array([[272, 784],
+       ...,
+       [272, 815]], shape=(4, 2), dtype=int16), array([[197, 844],
+       ...,
+       [197, 876]], shape=(4, 2), dtype=int16), array([[270, 843],
+       ...,
+       [270, 874]], shape=(4, 2), dtype=int16), array([[196, 901],
+       ...,
+       [196, 932]], shape=(4, 2), dtype=int16), array([[272, 900],
+       ...,
+       [272, 930]], shape=(4, 2), dtype=int16), array([[ 242, 1013],
+       ...,
+       [ 241, 1047]], shape=(4, 2), dtype=int16), array([[ 364, 1182],
+       ...,
+       [ 366, 1363]], shape=(4, 2), dtype=int16), array([[ 898, 1607],
+       ...,
+       [ 896, 1643]], shape=(4, 2), dtype=int16), array([[ 110, 1943],
+       ...,
+       [ 107, 1982]], shape=(4, 2), dtype=int16), array([[ 187, 1952],
+       ...,
+       [ 186, 1984]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 293, ...,   19],
+       ...,
+       [ 186, ..., 1995]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 搜有限公司机器设许治
+2. 中阳评报字[2019]第205号
+3. 资产评估师承诺函
+4. 广西泰嘉光电科技有限公司：
+5. 受贵方委托，本评估机构对现存放在钦州保税港区三号路棉纺产业园4#仓库内、由
+6. 广西钦州保税港区尊绅贸易有限公司第二期出资以实物资产形式投入贵公司的机器设
+7. 备(8套、共787箱)，以2019年3月14日为基准日进行了价值评估，并形成了资产评估报告，
+8. 为贵方了解以实物出资形式投入企业的设备类资产的市场公允价值提供参考依据。在本
+9. 报告中披露的假设条件成立的前提下，我们承诺如下：
+10. 一、具备相应的执业资格.
+11. 二、评估对象和评估范图与评估业务约定书的约定一致。
+12. 三、对评估对象及其所涉及的资产进行了必要的核实。
+13. 四、
+14. 根据资产评估准则和相关评估规范选用了评估方法。
+15. 五、
+16. 充分考虑了影响评估价值的因素。
+17. 六、
+18. 评估结论合理.
+19. 七、
+20. 评估工作未受到干预并独立进行。
+21. 资产评估师签章：
+22. 陈颜
+23. 2019年3月18日
+24. 0
+25. 广西中阳资产评估事务所有限公司

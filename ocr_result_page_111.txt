@@ -1,0 +1,210 @@
+OCR结果 - 第 111 页
+==================================================
+处理的图像: temp_page_110_processed.png
+原始PDF页面: 111
+
+详细结果:
+[{'input_path': 'temp_page_110_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[131, 306],
+       ...,
+       [132, 347]], shape=(4, 2), dtype=int16), array([[1000,  318],
+       ...,
+       [1002,  360]], shape=(4, 2), dtype=int16), array([[1042,  348],
+       ...,
+       [1047,  414]], shape=(4, 2), dtype=int16), array([[1132,  411],
+       ...,
+       [1142,  491]], shape=(4, 2), dtype=int16), array([[216, 473],
+       ...,
+       [217, 507]], shape=(4, 2), dtype=int16), array([[215, 506],
+       ...,
+       [215, 543]], shape=(4, 2), dtype=int16), array([[1052,  903],
+       ...,
+       [1054,  951]], shape=(4, 2), dtype=int16), array([[207, 919],
+       ...,
+       [208, 962]], shape=(4, 2), dtype=int16), array([[161, 936],
+       ...,
+       [161, 959]], shape=(4, 2), dtype=int16), array([[1069,  962],
+       ...,
+       [1071,  997]], shape=(4, 2), dtype=int16), array([[1199,  954],
+       ...,
+       [1201,  992]], shape=(4, 2), dtype=int16), array([[ 206,  971],
+       ...,
+       [ 207, 1017]], shape=(4, 2), dtype=int16), array([[ 160,  986],
+       ...,
+       [ 160, 1028]], shape=(4, 2), dtype=int16), array([[1075, 1008],
+       ...,
+       [1078, 1052]], shape=(4, 2), dtype=int16), array([[1203, 1001],
+       ...,
+       [1205, 1042]], shape=(4, 2), dtype=int16), array([[ 205, 1024],
+       ...,
+       [ 208, 1072]], shape=(4, 2), dtype=int16), array([[ 157, 1034],
+       ...,
+       [ 157, 1071]], shape=(4, 2), dtype=int16), array([[1208, 1047],
+       ...,
+       [1210, 1089]], shape=(4, 2), dtype=int16), array([[ 158, 1086],
+       ...,
+       [ 158, 1119]], shape=(4, 2), dtype=int16), array([[ 207, 1078],
+       ...,
+       [ 208, 1118]], shape=(4, 2), dtype=int16), array([[ 890, 1095],
+       ...,
+       [ 868, 1262]], shape=(4, 2), dtype=int16), array([[1235, 1090],
+       ...,
+       [1235, 1133]], shape=(4, 2), dtype=int16), array([[ 938, 1103],
+       ...,
+       [ 967, 1148]], shape=(4, 2), dtype=int16), array([[ 159, 1135],
+       ...,
+       [ 159, 1166]], shape=(4, 2), dtype=int16), array([[ 204, 1128],
+       ...,
+       [ 206, 1170]], shape=(4, 2), dtype=int16), array([[1205, 1149],
+       ...,
+       [1208, 1188]], shape=(4, 2), dtype=int16), array([[ 158, 1181],
+       ...,
+       [ 158, 1216]], shape=(4, 2), dtype=int16), array([[ 208, 1173],
+       ...,
+       [ 211, 1216]], shape=(4, 2), dtype=int16), array([[ 208, 1218],
+       ...,
+       [ 209, 1266]], shape=(4, 2), dtype=int16), array([[ 158, 1229],
+       ...,
+       [ 158, 1264]], shape=(4, 2), dtype=int16), array([[ 971, 1221],
+       ...,
+       [ 971, 1242]], shape=(4, 2), dtype=int16), array([[ 209, 1265],
+       ...,
+       [ 210, 1320]], shape=(4, 2), dtype=int16), array([[ 160, 1280],
+       ...,
+       [ 160, 1320]], shape=(4, 2), dtype=int16), array([[ 280, 1592],
+       ...,
+       [ 280, 1610]], shape=(4, 2), dtype=int16), array([[ 406, 1651],
+       ...,
+       [ 406, 1686]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['OFOREKVEG', 'CT1520', '10月15日', '900万美金', 'Eonoftoaing', 'M', '', 'PhatoCANG60', '1', '', '500000.00', '', '心', '15600000', '50000000', 'K', '8', '0000009', '￥', '风', '西泰嘉', '50000', '光', '1', '', '0', 'i', 'Drg', '', '4', '1', '', '5', 't', '1'], 'rec_scores': [0.4827063977718353, 0.7661154270172119, 0.9439700245857239, 0.7736595273017883, 0.7273674011230469, 0.3375402092933655, 0.0, 0.42675361037254333, 0.9916362762451172, 0.0, 0.729752779006958, 0.0, 0.1609465479850769, 0.631918728351593, 0.5426914691925049, 0.547989547252655, 0.038043174892663956, 0.603744387626648, 0.23631125688552856, 0.47492843866348267, 0.9599403738975525, 0.4923185706138611, 0.975482702255249, 0.1381627768278122, 0.0, 0.5310353636741638, 0.2323702871799469, 0.4576444923877716, 0.0, 0.0582476481795311, 0.5312941670417786, 0.0, 0.07962207496166229, 0.1534927934408188, 0.945507824420929], 'rec_polys': [array([[131, 306],
+       ...,
+       [132, 347]], shape=(4, 2), dtype=int16), array([[1000,  318],
+       ...,
+       [1002,  360]], shape=(4, 2), dtype=int16), array([[1042,  348],
+       ...,
+       [1047,  414]], shape=(4, 2), dtype=int16), array([[1132,  411],
+       ...,
+       [1142,  491]], shape=(4, 2), dtype=int16), array([[216, 473],
+       ...,
+       [217, 507]], shape=(4, 2), dtype=int16), array([[215, 506],
+       ...,
+       [215, 543]], shape=(4, 2), dtype=int16), array([[1052,  903],
+       ...,
+       [1054,  951]], shape=(4, 2), dtype=int16), array([[207, 919],
+       ...,
+       [208, 962]], shape=(4, 2), dtype=int16), array([[161, 936],
+       ...,
+       [161, 959]], shape=(4, 2), dtype=int16), array([[1069,  962],
+       ...,
+       [1071,  997]], shape=(4, 2), dtype=int16), array([[1199,  954],
+       ...,
+       [1201,  992]], shape=(4, 2), dtype=int16), array([[ 206,  971],
+       ...,
+       [ 207, 1017]], shape=(4, 2), dtype=int16), array([[ 160,  986],
+       ...,
+       [ 160, 1028]], shape=(4, 2), dtype=int16), array([[1075, 1008],
+       ...,
+       [1078, 1052]], shape=(4, 2), dtype=int16), array([[1203, 1001],
+       ...,
+       [1205, 1042]], shape=(4, 2), dtype=int16), array([[ 205, 1024],
+       ...,
+       [ 208, 1072]], shape=(4, 2), dtype=int16), array([[ 157, 1034],
+       ...,
+       [ 157, 1071]], shape=(4, 2), dtype=int16), array([[1208, 1047],
+       ...,
+       [1210, 1089]], shape=(4, 2), dtype=int16), array([[ 158, 1086],
+       ...,
+       [ 158, 1119]], shape=(4, 2), dtype=int16), array([[ 207, 1078],
+       ...,
+       [ 208, 1118]], shape=(4, 2), dtype=int16), array([[ 890, 1095],
+       ...,
+       [ 868, 1262]], shape=(4, 2), dtype=int16), array([[1235, 1090],
+       ...,
+       [1235, 1133]], shape=(4, 2), dtype=int16), array([[ 938, 1103],
+       ...,
+       [ 967, 1148]], shape=(4, 2), dtype=int16), array([[ 159, 1135],
+       ...,
+       [ 159, 1166]], shape=(4, 2), dtype=int16), array([[ 204, 1128],
+       ...,
+       [ 206, 1170]], shape=(4, 2), dtype=int16), array([[1205, 1149],
+       ...,
+       [1208, 1188]], shape=(4, 2), dtype=int16), array([[ 158, 1181],
+       ...,
+       [ 158, 1216]], shape=(4, 2), dtype=int16), array([[ 208, 1173],
+       ...,
+       [ 211, 1216]], shape=(4, 2), dtype=int16), array([[ 208, 1218],
+       ...,
+       [ 209, 1266]], shape=(4, 2), dtype=int16), array([[ 158, 1229],
+       ...,
+       [ 158, 1264]], shape=(4, 2), dtype=int16), array([[ 971, 1221],
+       ...,
+       [ 971, 1242]], shape=(4, 2), dtype=int16), array([[ 209, 1265],
+       ...,
+       [ 210, 1320]], shape=(4, 2), dtype=int16), array([[ 160, 1280],
+       ...,
+       [ 160, 1320]], shape=(4, 2), dtype=int16), array([[ 280, 1592],
+       ...,
+       [ 280, 1610]], shape=(4, 2), dtype=int16), array([[ 406, 1651],
+       ...,
+       [ 406, 1686]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 131, ...,  347],
+       ...,
+       [ 406, ..., 1686]], shape=(35, 4), dtype=int16)}]
+
+解析后的文本:
+1. OFOREKVEG
+2. CT1520
+3. 10月15日
+4. 900万美金
+5. Eonoftoaing
+6. M
+7. 
+8. PhatoCANG60
+9. 1
+10. 
+11. 500000.00
+12. 
+13. 心
+14. 15600000
+15. 50000000
+16. K
+17. 8
+18. 0000009
+19. ￥
+20. 风
+21. 西泰嘉
+22. 50000
+23. 光
+24. 1
+25. 
+26. 0
+27. i
+28. Drg
+29. 
+30. 4
+31. 1
+32. 
+33. 5
+34. t
+35. 1

@@ -1,0 +1,165 @@
+OCR结果 - 第 169 页
+==================================================
+处理的图像: temp_page_168_processed.png
+原始PDF页面: 169
+
+详细结果:
+[{'input_path': 'temp_page_168_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[247, 135],
+       ...,
+       [247, 172]], shape=(4, 2), dtype=int16), array([[222, 241],
+       ...,
+       [222, 276]], shape=(4, 2), dtype=int16), array([[943, 327],
+       ...,
+       [942, 374]], shape=(4, 2), dtype=int16), array([[219, 351],
+       ...,
+       [219, 385]], shape=(4, 2), dtype=int16), array([[255, 454],
+       ...,
+       [256, 489]], shape=(4, 2), dtype=int16), array([[283, 554],
+       ...,
+       [284, 590]], shape=(4, 2), dtype=int16), array([[259, 657],
+       ...,
+       [259, 692]], shape=(4, 2), dtype=int16), array([[296, 760],
+       ...,
+       [296, 795]], shape=(4, 2), dtype=int16), array([[257, 862],
+       ...,
+       [257, 899]], shape=(4, 2), dtype=int16), array([[ 230,  963],
+       ...,
+       [ 230, 1004]], shape=(4, 2), dtype=int16), array([[ 530, 1051],
+       ...,
+       [ 530, 1083]], shape=(4, 2), dtype=int16), array([[ 655, 1054],
+       ...,
+       [ 655, 1082]], shape=(4, 2), dtype=int16), array([[ 166, 1116],
+       ...,
+       [ 167, 1150]], shape=(4, 2), dtype=int16), array([[ 181, 1174],
+       ...,
+       [ 182, 1208]], shape=(4, 2), dtype=int16), array([[ 182, 1233],
+       ...,
+       [ 183, 1268]], shape=(4, 2), dtype=int16), array([[ 111, 1294],
+       ...,
+       [ 111, 1325]], shape=(4, 2), dtype=int16), array([[ 184, 1351],
+       ...,
+       [ 185, 1385]], shape=(4, 2), dtype=int16), array([[ 110, 1410],
+       ...,
+       [ 110, 1445]], shape=(4, 2), dtype=int16), array([[ 187, 1466],
+       ...,
+       [ 188, 1503]], shape=(4, 2), dtype=int16), array([[ 112, 1520],
+       ...,
+       [ 110, 1559]], shape=(4, 2), dtype=int16), array([[ 191, 1580],
+       ...,
+       [ 192, 1617]], shape=(4, 2), dtype=int16), array([[ 192, 1638],
+       ...,
+       [ 193, 1673]], shape=(4, 2), dtype=int16), array([[ 195, 1696],
+       ...,
+       [ 194, 1729]], shape=(4, 2), dtype=int16), array([[ 121, 1748],
+       ...,
+       [ 120, 1784]], shape=(4, 2), dtype=int16), array([[ 199, 1813],
+       ...,
+       [ 198, 1844]], shape=(4, 2), dtype=int16), array([[ 687, 1887],
+       ...,
+       [ 687, 1917]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['玻璃基板 Glass substrate', '成膜前清洗工艺 Pre-cleaning', '反复5次', '成膜工艺 Thin film deposition', '涂光刻胶 Resist coating', '曝光工艺 Exposure', '显影工艺 Development', '刻蚀工艺 Etching', '剥离工艺 Resist striping', 'TFT阵列基板 Array substrate', '图2.1-4', '阵列工艺技术简图', '以下对各层的功能分别介绍如下：', '(1) 玻璃基板：采用无碱基板，玻璃基板是整个阵列工程的载体；', '(2) 首层ITO：采用氧化钢锡材料，使用溅射设备(Sputter/PVD)进行成膜，为半', '导体透明材料；', '(3) 栅电极金属：形成栅电极，采用AlL.艺进行，使用溅射设备(Sputter/PVD)进', '行成膜；', '(4) 绝缘层：a-SiTFT工艺使用SiNx作为绝缘层，使用增强型化学气相沉积进行', '成膜', '(5) 有源层：a-SiTFT工艺使用a-Si作为有源层，使用化学气相沉积进行成膜；', '(6) SD层：采用Al 靶材，使用溅射设备(Sputter/PVD)进行成膜;', '(7)Via层：为了保护TFT，采用SiNx或者SiO2作为保护层，使用化学气相沉积', '进行成膜;', '(8)像素层：采用氧化钢锡ITO材料，使用溅射设备镀膜；', '29'], 'rec_scores': [0.9383886456489563, 0.9739910960197449, 0.9989011287689209, 0.9795889258384705, 0.958645761013031, 0.9592335820198059, 0.978196382522583, 0.9815483093261719, 0.9474469423294067, 0.9523681998252869, 0.9967977404594421, 0.9873002767562866, 0.9259918332099915, 0.9671846628189087, 0.9374991655349731, 0.9285057783126831, 0.906406581401825, 0.8849151730537415, 0.9666815996170044, 0.9987313747406006, 0.955748438835144, 0.9151397943496704, 0.9761144518852234, 0.8759102821350098, 0.9479643702507019, 0.9998558759689331], 'rec_polys': [array([[247, 135],
+       ...,
+       [247, 172]], shape=(4, 2), dtype=int16), array([[222, 241],
+       ...,
+       [222, 276]], shape=(4, 2), dtype=int16), array([[943, 327],
+       ...,
+       [942, 374]], shape=(4, 2), dtype=int16), array([[219, 351],
+       ...,
+       [219, 385]], shape=(4, 2), dtype=int16), array([[255, 454],
+       ...,
+       [256, 489]], shape=(4, 2), dtype=int16), array([[283, 554],
+       ...,
+       [284, 590]], shape=(4, 2), dtype=int16), array([[259, 657],
+       ...,
+       [259, 692]], shape=(4, 2), dtype=int16), array([[296, 760],
+       ...,
+       [296, 795]], shape=(4, 2), dtype=int16), array([[257, 862],
+       ...,
+       [257, 899]], shape=(4, 2), dtype=int16), array([[ 230,  963],
+       ...,
+       [ 230, 1004]], shape=(4, 2), dtype=int16), array([[ 530, 1051],
+       ...,
+       [ 530, 1083]], shape=(4, 2), dtype=int16), array([[ 655, 1054],
+       ...,
+       [ 655, 1082]], shape=(4, 2), dtype=int16), array([[ 166, 1116],
+       ...,
+       [ 167, 1150]], shape=(4, 2), dtype=int16), array([[ 181, 1174],
+       ...,
+       [ 182, 1208]], shape=(4, 2), dtype=int16), array([[ 182, 1233],
+       ...,
+       [ 183, 1268]], shape=(4, 2), dtype=int16), array([[ 111, 1294],
+       ...,
+       [ 111, 1325]], shape=(4, 2), dtype=int16), array([[ 184, 1351],
+       ...,
+       [ 185, 1385]], shape=(4, 2), dtype=int16), array([[ 110, 1410],
+       ...,
+       [ 110, 1445]], shape=(4, 2), dtype=int16), array([[ 187, 1466],
+       ...,
+       [ 188, 1503]], shape=(4, 2), dtype=int16), array([[ 112, 1520],
+       ...,
+       [ 110, 1559]], shape=(4, 2), dtype=int16), array([[ 191, 1580],
+       ...,
+       [ 192, 1617]], shape=(4, 2), dtype=int16), array([[ 192, 1638],
+       ...,
+       [ 193, 1673]], shape=(4, 2), dtype=int16), array([[ 195, 1696],
+       ...,
+       [ 194, 1729]], shape=(4, 2), dtype=int16), array([[ 121, 1748],
+       ...,
+       [ 120, 1784]], shape=(4, 2), dtype=int16), array([[ 199, 1813],
+       ...,
+       [ 198, 1844]], shape=(4, 2), dtype=int16), array([[ 687, 1887],
+       ...,
+       [ 687, 1917]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 247, ...,  172],
+       ...,
+       [ 687, ..., 1917]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 玻璃基板 Glass substrate
+2. 成膜前清洗工艺 Pre-cleaning
+3. 反复5次
+4. 成膜工艺 Thin film deposition
+5. 涂光刻胶 Resist coating
+6. 曝光工艺 Exposure
+7. 显影工艺 Development
+8. 刻蚀工艺 Etching
+9. 剥离工艺 Resist striping
+10. TFT阵列基板 Array substrate
+11. 图2.1-4
+12. 阵列工艺技术简图
+13. 以下对各层的功能分别介绍如下：
+14. (1) 玻璃基板：采用无碱基板，玻璃基板是整个阵列工程的载体；
+15. (2) 首层ITO：采用氧化钢锡材料，使用溅射设备(Sputter/PVD)进行成膜，为半
+16. 导体透明材料；
+17. (3) 栅电极金属：形成栅电极，采用AlL.艺进行，使用溅射设备(Sputter/PVD)进
+18. 行成膜；
+19. (4) 绝缘层：a-SiTFT工艺使用SiNx作为绝缘层，使用增强型化学气相沉积进行
+20. 成膜
+21. (5) 有源层：a-SiTFT工艺使用a-Si作为有源层，使用化学气相沉积进行成膜；
+22. (6) SD层：采用Al 靶材，使用溅射设备(Sputter/PVD)进行成膜;
+23. (7)Via层：为了保护TFT，采用SiNx或者SiO2作为保护层，使用化学气相沉积
+24. 进行成膜;
+25. (8)像素层：采用氧化钢锡ITO材料，使用溅射设备镀膜；
+26. 29

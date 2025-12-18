@@ -1,0 +1,130 @@
+OCR结果 - 第 59 页
+==================================================
+处理的图像: temp_page_58_processed.png
+原始PDF页面: 59
+
+详细结果:
+[{'input_path': 'temp_page_58_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[222, 145],
+       ...,
+       [222, 189]], shape=(4, 2), dtype=int16), array([[148, 215],
+       ...,
+       [148, 255]], shape=(4, 2), dtype=int16), array([[223, 280],
+       ...,
+       [223, 327]], shape=(4, 2), dtype=int16), array([[149, 345],
+       ...,
+       [147, 395]], shape=(4, 2), dtype=int16), array([[226, 418],
+       ...,
+       [226, 457]], shape=(4, 2), dtype=int16), array([[417, 413],
+       ...,
+       [417, 454]], shape=(4, 2), dtype=int16), array([[469, 528],
+       ...,
+       [469, 574]], shape=(4, 2), dtype=int16), array([[206, 607],
+       ...,
+       [206, 642]], shape=(4, 2), dtype=int16), array([[302, 604],
+       ...,
+       [302, 647]], shape=(4, 2), dtype=int16), array([[204, 648],
+       ...,
+       [204, 688]], shape=(4, 2), dtype=int16), array([[303, 647],
+       ...,
+       [303, 690]], shape=(4, 2), dtype=int16), array([[233, 864],
+       ...,
+       [234, 908]], shape=(4, 2), dtype=int16), array([[ 236,  986],
+       ...,
+       [ 237, 1024]], shape=(4, 2), dtype=int16), array([[ 239, 1224],
+       ...,
+       [ 240, 1265]], shape=(4, 2), dtype=int16), array([[ 918, 1252],
+       ...,
+       [ 918, 1427]], shape=(4, 2), dtype=int16), array([[ 236, 1344],
+       ...,
+       [ 236, 1382]], shape=(4, 2), dtype=int16), array([[ 963, 1393],
+       ...,
+       [ 963, 1400]], shape=(4, 2), dtype=int16), array([[ 530, 1577],
+       ...,
+       [ 532, 1625]], shape=(4, 2), dtype=int16), array([[ 856, 1812],
+       ...,
+       [ 856, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['第7.1条本协议自双方法定代表人（负责人）或其授权代理人', '签字并加盖公章之日起生效.', '第7.2条本协议执行过程中的变更与解除须经双方书面协商', '一致。', '第7.3条', '本协议一式两份，甲乙双方各执一份。', '第八条双方约定的其他事项', '1.', '无', '2.', '无', '甲方（盖章）', '法定代表人（授权代理人）：', '乙方（盖章）：', '', '法定代表人或负责人：', '', '签署日期2021年7月6日', '何斌'], 'rec_scores': [0.9840245842933655, 0.9761120080947876, 0.996649980545044, 0.8862507343292236, 0.996334433555603, 0.9943157434463501, 0.9992440342903137, 0.9990127682685852, 0.9994847774505615, 0.996605396270752, 0.9993225336074829, 0.9784387946128845, 0.9602553248405457, 0.9221224784851074, 0.0, 0.9778352975845337, 0.0, 0.8923162221908569, 0.8031793832778931], 'rec_polys': [array([[222, 145],
+       ...,
+       [222, 189]], shape=(4, 2), dtype=int16), array([[148, 215],
+       ...,
+       [148, 255]], shape=(4, 2), dtype=int16), array([[223, 280],
+       ...,
+       [223, 327]], shape=(4, 2), dtype=int16), array([[149, 345],
+       ...,
+       [147, 395]], shape=(4, 2), dtype=int16), array([[226, 418],
+       ...,
+       [226, 457]], shape=(4, 2), dtype=int16), array([[417, 413],
+       ...,
+       [417, 454]], shape=(4, 2), dtype=int16), array([[469, 528],
+       ...,
+       [469, 574]], shape=(4, 2), dtype=int16), array([[206, 607],
+       ...,
+       [206, 642]], shape=(4, 2), dtype=int16), array([[302, 604],
+       ...,
+       [302, 647]], shape=(4, 2), dtype=int16), array([[204, 648],
+       ...,
+       [204, 688]], shape=(4, 2), dtype=int16), array([[303, 647],
+       ...,
+       [303, 690]], shape=(4, 2), dtype=int16), array([[233, 864],
+       ...,
+       [234, 908]], shape=(4, 2), dtype=int16), array([[ 236,  986],
+       ...,
+       [ 237, 1024]], shape=(4, 2), dtype=int16), array([[ 239, 1224],
+       ...,
+       [ 240, 1265]], shape=(4, 2), dtype=int16), array([[ 918, 1252],
+       ...,
+       [ 918, 1427]], shape=(4, 2), dtype=int16), array([[ 236, 1344],
+       ...,
+       [ 236, 1382]], shape=(4, 2), dtype=int16), array([[ 963, 1393],
+       ...,
+       [ 963, 1400]], shape=(4, 2), dtype=int16), array([[ 530, 1577],
+       ...,
+       [ 532, 1625]], shape=(4, 2), dtype=int16), array([[ 856, 1812],
+       ...,
+       [ 856, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 222, ...,  204],
+       ...,
+       [ 856, ..., 2000]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 第7.1条本协议自双方法定代表人（负责人）或其授权代理人
+2. 签字并加盖公章之日起生效.
+3. 第7.2条本协议执行过程中的变更与解除须经双方书面协商
+4. 一致。
+5. 第7.3条
+6. 本协议一式两份，甲乙双方各执一份。
+7. 第八条双方约定的其他事项
+8. 1.
+9. 无
+10. 2.
+11. 无
+12. 甲方（盖章）
+13. 法定代表人（授权代理人）：
+14. 乙方（盖章）：
+15. 
+16. 法定代表人或负责人：
+17. 
+18. 签署日期2021年7月6日
+19. 何斌

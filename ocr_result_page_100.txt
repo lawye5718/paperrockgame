@@ -1,0 +1,180 @@
+OCR结果 - 第 100 页
+==================================================
+处理的图像: temp_page_99_processed.png
+原始PDF页面: 100
+
+详细结果:
+[{'input_path': 'temp_page_99_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[710,  41],
+       ...,
+       [710,  82]], shape=(4, 2), dtype=int16), array([[879, 149],
+       ...,
+       [878, 200]], shape=(4, 2), dtype=int16), array([[937, 204],
+       ...,
+       [937, 245]], shape=(4, 2), dtype=int16), array([[935, 243],
+       ...,
+       [934, 285]], shape=(4, 2), dtype=int16), array([[980, 294],
+       ...,
+       [980, 326]], shape=(4, 2), dtype=int16), array([[222, 432],
+       ...,
+       [222, 471]], shape=(4, 2), dtype=int16), array([[225, 472],
+       ...,
+       [225, 508]], shape=(4, 2), dtype=int16), array([[169, 515],
+       ...,
+       [169, 550]], shape=(4, 2), dtype=int16), array([[217, 513],
+       ...,
+       [216, 553]], shape=(4, 2), dtype=int16), array([[762, 513],
+       ...,
+       [761, 557]], shape=(4, 2), dtype=int16), array([[233, 560],
+       ...,
+       [233, 602]], shape=(4, 2), dtype=int16), array([[777, 574],
+       ...,
+       [777, 595]], shape=(4, 2), dtype=int16), array([[165, 599],
+       ...,
+       [164, 636]], shape=(4, 2), dtype=int16), array([[397, 711],
+       ...,
+       [397, 740]], shape=(4, 2), dtype=int16), array([[1178,  720],
+       ...,
+       [1178,  749]], shape=(4, 2), dtype=int16), array([[147, 793],
+       ...,
+       [147, 851]], shape=(4, 2), dtype=int16), array([[244, 846],
+       ...,
+       [244, 893]], shape=(4, 2), dtype=int16), array([[248, 888],
+       ...,
+       [248, 934]], shape=(4, 2), dtype=int16), array([[ 176, 1000],
+       ...,
+       [ 176, 1044]], shape=(4, 2), dtype=int16), array([[1201, 1111],
+       ...,
+       [1201, 1151]], shape=(4, 2), dtype=int16), array([[1198, 1144],
+       ...,
+       [1198, 1186]], shape=(4, 2), dtype=int16), array([[1140, 1243],
+       ...,
+       [1141, 1291]], shape=(4, 2), dtype=int16), array([[1079, 1286],
+       ...,
+       [1070, 1322]], shape=(4, 2), dtype=int16), array([[ 189, 1408],
+       ...,
+       [ 189, 1440]], shape=(4, 2), dtype=int16), array([[ 187, 1456],
+       ...,
+       [ 186, 1501]], shape=(4, 2), dtype=int16), array([[ 180, 1565],
+       ...,
+       [ 180, 1615]], shape=(4, 2), dtype=int16), array([[ 261, 1601],
+       ...,
+       [ 261, 1644]], shape=(4, 2), dtype=int16), array([[ 262, 1636],
+       ...,
+       [ 262, 1676]], shape=(4, 2), dtype=int16), array([[ 187, 1726],
+       ...,
+       [ 186, 1773]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['', '日由开始', '本协设商中所', '察，自的议生数日期开', '疮康及', 'B', '20104009', '福', '', '出于2日', '方接摄好：解金', '精热极', '3', '', 'n', '，行的', '路，：托慧学有限', '动主场理电', '', 'to lhe.', '加', '方试按', '可', 'A', '：', '', '', '', '让先许可，术科协下的分部权利球义'], 'rec_scores': [0.0, 0.629770040512085, 0.6163825392723083, 0.4985315203666687, 0.3278573453426361, 0.4134429097175598, 0.6695464253425598, 0.07235349714756012, 0.0, 0.45514294505119324, 0.4255113899707794, 0.12223237752914429, 0.6266909241676331, 0.0, 0.7005478143692017, 0.46571969985961914, 0.4082719087600708, 0.3924444317817688, 0.0, 0.5077561736106873, 0.20492909848690033, 0.5759702324867249, 0.5364522933959961, 0.2273685783147812, 0.7348692417144775, 0.0, 0.0, 0.0, 0.32325583696365356], 'rec_polys': [array([[710,  41],
+       ...,
+       [710,  82]], shape=(4, 2), dtype=int16), array([[879, 149],
+       ...,
+       [878, 200]], shape=(4, 2), dtype=int16), array([[937, 204],
+       ...,
+       [937, 245]], shape=(4, 2), dtype=int16), array([[935, 243],
+       ...,
+       [934, 285]], shape=(4, 2), dtype=int16), array([[980, 294],
+       ...,
+       [980, 326]], shape=(4, 2), dtype=int16), array([[222, 432],
+       ...,
+       [222, 471]], shape=(4, 2), dtype=int16), array([[225, 472],
+       ...,
+       [225, 508]], shape=(4, 2), dtype=int16), array([[169, 515],
+       ...,
+       [169, 550]], shape=(4, 2), dtype=int16), array([[217, 513],
+       ...,
+       [216, 553]], shape=(4, 2), dtype=int16), array([[762, 513],
+       ...,
+       [761, 557]], shape=(4, 2), dtype=int16), array([[233, 560],
+       ...,
+       [233, 602]], shape=(4, 2), dtype=int16), array([[777, 574],
+       ...,
+       [777, 595]], shape=(4, 2), dtype=int16), array([[165, 599],
+       ...,
+       [164, 636]], shape=(4, 2), dtype=int16), array([[397, 711],
+       ...,
+       [397, 740]], shape=(4, 2), dtype=int16), array([[1178,  720],
+       ...,
+       [1178,  749]], shape=(4, 2), dtype=int16), array([[147, 793],
+       ...,
+       [147, 851]], shape=(4, 2), dtype=int16), array([[244, 846],
+       ...,
+       [244, 893]], shape=(4, 2), dtype=int16), array([[248, 888],
+       ...,
+       [248, 934]], shape=(4, 2), dtype=int16), array([[ 176, 1000],
+       ...,
+       [ 176, 1044]], shape=(4, 2), dtype=int16), array([[1201, 1111],
+       ...,
+       [1201, 1151]], shape=(4, 2), dtype=int16), array([[1198, 1144],
+       ...,
+       [1198, 1186]], shape=(4, 2), dtype=int16), array([[1140, 1243],
+       ...,
+       [1141, 1291]], shape=(4, 2), dtype=int16), array([[1079, 1286],
+       ...,
+       [1070, 1322]], shape=(4, 2), dtype=int16), array([[ 189, 1408],
+       ...,
+       [ 189, 1440]], shape=(4, 2), dtype=int16), array([[ 187, 1456],
+       ...,
+       [ 186, 1501]], shape=(4, 2), dtype=int16), array([[ 180, 1565],
+       ...,
+       [ 180, 1615]], shape=(4, 2), dtype=int16), array([[ 261, 1601],
+       ...,
+       [ 261, 1644]], shape=(4, 2), dtype=int16), array([[ 262, 1636],
+       ...,
+       [ 262, 1676]], shape=(4, 2), dtype=int16), array([[ 187, 1726],
+       ...,
+       [ 186, 1773]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 710, ...,   82],
+       ...,
+       [ 186, ..., 1780]], shape=(29, 4), dtype=int16)}]
+
+解析后的文本:
+1. 
+2. 日由开始
+3. 本协设商中所
+4. 察，自的议生数日期开
+5. 疮康及
+6. B
+7. 20104009
+8. 福
+9. 
+10. 出于2日
+11. 方接摄好：解金
+12. 精热极
+13. 3
+14. 
+15. n
+16. ，行的
+17. 路，：托慧学有限
+18. 动主场理电
+19. 
+20. to lhe.
+21. 加
+22. 方试按
+23. 可
+24. A
+25. ：
+26. 
+27. 
+28. 
+29. 让先许可，术科协下的分部权利球义

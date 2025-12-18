@@ -1,0 +1,150 @@
+OCR结果 - 第 37 页
+==================================================
+处理的图像: temp_page_36_processed.png
+原始PDF页面: 37
+
+详细结果:
+[{'input_path': 'temp_page_36_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1377,   29],
+       ...,
+       [1377,  106]], shape=(4, 2), dtype=int16), array([[480, 113],
+       ...,
+       [480, 167]], shape=(4, 2), dtype=int16), array([[877, 259],
+       ...,
+       [878, 304]], shape=(4, 2), dtype=int16), array([[230, 392],
+       ...,
+       [230, 439]], shape=(4, 2), dtype=int16), array([[225, 463],
+       ...,
+       [225, 510]], shape=(4, 2), dtype=int16), array([[351, 463],
+       ...,
+       [350, 510]], shape=(4, 2), dtype=int16), array([[419, 534],
+       ...,
+       [419, 583]], shape=(4, 2), dtype=int16), array([[412, 608],
+       ...,
+       [412, 658]], shape=(4, 2), dtype=int16), array([[413, 683],
+       ...,
+       [413, 732]], shape=(4, 2), dtype=int16), array([[211, 755],
+       ...,
+       [210, 806]], shape=(4, 2), dtype=int16), array([[208, 831],
+       ...,
+       [208, 885]], shape=(4, 2), dtype=int16), array([[199, 899],
+       ...,
+       [199, 966]], shape=(4, 2), dtype=int16), array([[ 197,  977],
+       ...,
+       [ 198, 1043]], shape=(4, 2), dtype=int16), array([[ 204, 1061],
+       ...,
+       [ 204, 1110]], shape=(4, 2), dtype=int16), array([[ 191, 1127],
+       ...,
+       [ 192, 1198]], shape=(4, 2), dtype=int16), array([[ 200, 1354],
+       ...,
+       [ 200, 1415]], shape=(4, 2), dtype=int16), array([[ 208, 1431],
+       ...,
+       [ 208, 1478]], shape=(4, 2), dtype=int16), array([[ 203, 1495],
+       ...,
+       [ 204, 1563]], shape=(4, 2), dtype=int16), array([[ 206, 1645],
+       ...,
+       [ 206, 1698]], shape=(4, 2), dtype=int16), array([[ 332, 1641],
+       ...,
+       [ 331, 1702]], shape=(4, 2), dtype=int16), array([[ 209, 1792],
+       ...,
+       [ 209, 1840]], shape=(4, 2), dtype=int16), array([[ 754, 1841],
+       ...,
+       [ 749, 1983]], shape=(4, 2), dtype=int16), array([[ 670, 1941],
+       ...,
+       [ 670, 1968]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['72', '委托贷款借款合同', '编号：NN0610720180015', '甲方（委托人）：广西钦保投资集团有限责任公司', '住', '所：广西钦州保税港区八大街I号，广西钦州保', '税港区国际商品直销中心2号楼2119.', '2218-2219号，广西钦州保税港区二号路东', '面、第八大街南面、港区二大街西面', '邮政编码：535099', '法定代表人：何斌', '电话：180>>702333', '传真：', '基本账户开户行：', '账号：', '住所：钦州市永福西大街10号', '邮政编码：535099', '法定代表人/主要负责人：卫东', '传', '真：', '西专（借款人）：东莞市合丰泰光电科民有限公司', '何斌', '2'], 'rec_scores': [0.6269513368606567, 0.9990402460098267, 0.9286801815032959, 0.9857410788536072, 0.9955742359161377, 0.9593259692192078, 0.955203115940094, 0.991436779499054, 0.9955081939697266, 0.9941912293434143, 0.9931241273880005, 0.9183870553970337, 0.9686158299446106, 0.9749777317047119, 0.9850489497184753, 0.9956532716751099, 0.9956609606742859, 0.9359273910522461, 0.9991052746772766, 0.9705408811569214, 0.8238649964332581, 0.7893731594085693, 0.9301564693450928], 'rec_polys': [array([[1377,   29],
+       ...,
+       [1377,  106]], shape=(4, 2), dtype=int16), array([[480, 113],
+       ...,
+       [480, 167]], shape=(4, 2), dtype=int16), array([[877, 259],
+       ...,
+       [878, 304]], shape=(4, 2), dtype=int16), array([[230, 392],
+       ...,
+       [230, 439]], shape=(4, 2), dtype=int16), array([[225, 463],
+       ...,
+       [225, 510]], shape=(4, 2), dtype=int16), array([[351, 463],
+       ...,
+       [350, 510]], shape=(4, 2), dtype=int16), array([[419, 534],
+       ...,
+       [419, 583]], shape=(4, 2), dtype=int16), array([[412, 608],
+       ...,
+       [412, 658]], shape=(4, 2), dtype=int16), array([[413, 683],
+       ...,
+       [413, 732]], shape=(4, 2), dtype=int16), array([[211, 755],
+       ...,
+       [210, 806]], shape=(4, 2), dtype=int16), array([[208, 831],
+       ...,
+       [208, 885]], shape=(4, 2), dtype=int16), array([[199, 899],
+       ...,
+       [199, 966]], shape=(4, 2), dtype=int16), array([[ 197,  977],
+       ...,
+       [ 198, 1043]], shape=(4, 2), dtype=int16), array([[ 204, 1061],
+       ...,
+       [ 204, 1110]], shape=(4, 2), dtype=int16), array([[ 191, 1127],
+       ...,
+       [ 192, 1198]], shape=(4, 2), dtype=int16), array([[ 200, 1354],
+       ...,
+       [ 200, 1415]], shape=(4, 2), dtype=int16), array([[ 208, 1431],
+       ...,
+       [ 208, 1478]], shape=(4, 2), dtype=int16), array([[ 203, 1495],
+       ...,
+       [ 204, 1563]], shape=(4, 2), dtype=int16), array([[ 206, 1645],
+       ...,
+       [ 206, 1698]], shape=(4, 2), dtype=int16), array([[ 332, 1641],
+       ...,
+       [ 331, 1702]], shape=(4, 2), dtype=int16), array([[ 209, 1792],
+       ...,
+       [ 209, 1840]], shape=(4, 2), dtype=int16), array([[ 754, 1841],
+       ...,
+       [ 749, 1983]], shape=(4, 2), dtype=int16), array([[ 670, 1941],
+       ...,
+       [ 670, 1968]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1377, ...,  106],
+       ...,
+       [ 670, ..., 1968]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 72
+2. 委托贷款借款合同
+3. 编号：NN0610720180015
+4. 甲方（委托人）：广西钦保投资集团有限责任公司
+5. 住
+6. 所：广西钦州保税港区八大街I号，广西钦州保
+7. 税港区国际商品直销中心2号楼2119.
+8. 2218-2219号，广西钦州保税港区二号路东
+9. 面、第八大街南面、港区二大街西面
+10. 邮政编码：535099
+11. 法定代表人：何斌
+12. 电话：180>>702333
+13. 传真：
+14. 基本账户开户行：
+15. 账号：
+16. 住所：钦州市永福西大街10号
+17. 邮政编码：535099
+18. 法定代表人/主要负责人：卫东
+19. 传
+20. 真：
+21. 西专（借款人）：东莞市合丰泰光电科民有限公司
+22. 何斌
+23. 2

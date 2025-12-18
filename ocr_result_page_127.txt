@@ -1,0 +1,150 @@
+OCR结果 - 第 127 页
+==================================================
+处理的图像: temp_page_126_processed.png
+原始PDF页面: 127
+
+详细结果:
+[{'input_path': 'temp_page_126_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[26, 15],
+       ...,
+       [26, 90]], shape=(4, 2), dtype=int16), array([[235, 170],
+       ...,
+       [234, 215]], shape=(4, 2), dtype=int16), array([[148, 230],
+       ...,
+       [147, 282]], shape=(4, 2), dtype=int16), array([[146, 298],
+       ...,
+       [145, 349]], shape=(4, 2), dtype=int16), array([[143, 366],
+       ...,
+       [142, 415]], shape=(4, 2), dtype=int16), array([[223, 442],
+       ...,
+       [222, 486]], shape=(4, 2), dtype=int16), array([[140, 506],
+       ...,
+       [140, 556]], shape=(4, 2), dtype=int16), array([[139, 574],
+       ...,
+       [138, 625]], shape=(4, 2), dtype=int16), array([[137, 647],
+       ...,
+       [136, 690]], shape=(4, 2), dtype=int16), array([[215, 718],
+       ...,
+       [214, 766]], shape=(4, 2), dtype=int16), array([[133, 787],
+       ...,
+       [133, 834]], shape=(4, 2), dtype=int16), array([[132, 853],
+       ...,
+       [128, 909]], shape=(4, 2), dtype=int16), array([[ 882, 1031],
+       ...,
+       [ 890, 1127]], shape=(4, 2), dtype=int16), array([[1051, 1081],
+       ...,
+       [1051, 1168]], shape=(4, 2), dtype=int16), array([[ 846, 1117],
+       ...,
+       [ 838, 1208]], shape=(4, 2), dtype=int16), array([[1026, 1162],
+       ...,
+       [1072, 1256]], shape=(4, 2), dtype=int16), array([[ 795, 1209],
+       ...,
+       [ 794, 1272]], shape=(4, 2), dtype=int16), array([[ 122, 1448],
+       ...,
+       [ 122, 1492]], shape=(4, 2), dtype=int16), array([[ 158, 1538],
+       ...,
+       [ 158, 1585]], shape=(4, 2), dtype=int16), array([[ 265, 1617],
+       ...,
+       [ 265, 1661]], shape=(4, 2), dtype=int16), array([[ 158, 1705],
+       ...,
+       [ 158, 1749]], shape=(4, 2), dtype=int16), array([[ 856, 1701],
+       ...,
+       [ 856, 1745]], shape=(4, 2), dtype=int16), array([[ 116, 1881],
+       ...,
+       [ 116, 1924]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['12)', '二、加强资金管理。你园区要切实落实财政资金管理的主体', '责任，制定资金管理办法，加强资金分配、使用、管理和监督检', '查，明确相关支出标准、资金申请和拨付程序，适时开展专项检', '查，并推进信息公开，主动接受社会监督。', '三、加强绩效评价．你园区要对照中期财政规划确定的政策', '目标，定期开展自我评价，形成年度自评报告并报送我局。自治', '区财政厅将加强督促检查，适时组织开展中期绩效评估，建立评', '估结果反馈和约谈制度.', '四、请你园区于2016年12月23日前将2017年资金安排计', '划报送我局(预算科)，待我局报自治区财政厅正式批复后实施项', '目。', '财', '诊', '领州市财政', '食', '20112月12', '政府信息公开选项：依申请公开', '抄送：自治区财政厅，本局综合科、国库科、经济建设科、监察室，市', '财政监督检查局.', '钦州市财政局办公室', '2016年12月12日印发', '- 2 -'], 'rec_scores': [0.6261017322540283, 0.9962643384933472, 0.9989660382270813, 0.9989972114562988, 0.9966129660606384, 0.9850534200668335, 0.996042788028717, 0.9985198378562927, 0.9481187462806702, 0.9973136186599731, 0.9704360365867615, 0.819381833076477, 0.9774712920188904, 0.09510636329650879, 0.5170695781707764, 0.04917502775788307, 0.9749905467033386, 0.9980883002281189, 0.9966212511062622, 0.9592812061309814, 0.9986775517463684, 0.9975519180297852, 0.8755441904067993], 'rec_polys': [array([[26, 15],
+       ...,
+       [26, 90]], shape=(4, 2), dtype=int16), array([[235, 170],
+       ...,
+       [234, 215]], shape=(4, 2), dtype=int16), array([[148, 230],
+       ...,
+       [147, 282]], shape=(4, 2), dtype=int16), array([[146, 298],
+       ...,
+       [145, 349]], shape=(4, 2), dtype=int16), array([[143, 366],
+       ...,
+       [142, 415]], shape=(4, 2), dtype=int16), array([[223, 442],
+       ...,
+       [222, 486]], shape=(4, 2), dtype=int16), array([[140, 506],
+       ...,
+       [140, 556]], shape=(4, 2), dtype=int16), array([[139, 574],
+       ...,
+       [138, 625]], shape=(4, 2), dtype=int16), array([[137, 647],
+       ...,
+       [136, 690]], shape=(4, 2), dtype=int16), array([[215, 718],
+       ...,
+       [214, 766]], shape=(4, 2), dtype=int16), array([[133, 787],
+       ...,
+       [133, 834]], shape=(4, 2), dtype=int16), array([[132, 853],
+       ...,
+       [128, 909]], shape=(4, 2), dtype=int16), array([[ 882, 1031],
+       ...,
+       [ 890, 1127]], shape=(4, 2), dtype=int16), array([[1051, 1081],
+       ...,
+       [1051, 1168]], shape=(4, 2), dtype=int16), array([[ 846, 1117],
+       ...,
+       [ 838, 1208]], shape=(4, 2), dtype=int16), array([[1026, 1162],
+       ...,
+       [1072, 1256]], shape=(4, 2), dtype=int16), array([[ 795, 1209],
+       ...,
+       [ 794, 1272]], shape=(4, 2), dtype=int16), array([[ 122, 1448],
+       ...,
+       [ 122, 1492]], shape=(4, 2), dtype=int16), array([[ 158, 1538],
+       ...,
+       [ 158, 1585]], shape=(4, 2), dtype=int16), array([[ 265, 1617],
+       ...,
+       [ 265, 1661]], shape=(4, 2), dtype=int16), array([[ 158, 1705],
+       ...,
+       [ 158, 1749]], shape=(4, 2), dtype=int16), array([[ 856, 1701],
+       ...,
+       [ 856, 1745]], shape=(4, 2), dtype=int16), array([[ 116, 1881],
+       ...,
+       [ 116, 1924]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[  26, ...,   90],
+       ...,
+       [ 116, ..., 1924]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 12)
+2. 二、加强资金管理。你园区要切实落实财政资金管理的主体
+3. 责任，制定资金管理办法，加强资金分配、使用、管理和监督检
+4. 查，明确相关支出标准、资金申请和拨付程序，适时开展专项检
+5. 查，并推进信息公开，主动接受社会监督。
+6. 三、加强绩效评价．你园区要对照中期财政规划确定的政策
+7. 目标，定期开展自我评价，形成年度自评报告并报送我局。自治
+8. 区财政厅将加强督促检查，适时组织开展中期绩效评估，建立评
+9. 估结果反馈和约谈制度.
+10. 四、请你园区于2016年12月23日前将2017年资金安排计
+11. 划报送我局(预算科)，待我局报自治区财政厅正式批复后实施项
+12. 目。
+13. 财
+14. 诊
+15. 领州市财政
+16. 食
+17. 20112月12
+18. 政府信息公开选项：依申请公开
+19. 抄送：自治区财政厅，本局综合科、国库科、经济建设科、监察室，市
+20. 财政监督检查局.
+21. 钦州市财政局办公室
+22. 2016年12月12日印发
+23. - 2 -

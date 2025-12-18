@@ -1,0 +1,140 @@
+OCR结果 - 第 173 页
+==================================================
+处理的图像: temp_page_172_processed.png
+原始PDF页面: 173
+
+详细结果:
+[{'input_path': 'temp_page_172_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[130, 142],
+       ...,
+       [128, 182]], shape=(4, 2), dtype=int16), array([[132, 278],
+       ...,
+       [132, 330]], shape=(4, 2), dtype=int16), array([[136, 339],
+       ...,
+       [134, 378]], shape=(4, 2), dtype=int16), array([[196, 401],
+       ...,
+       [196, 445]], shape=(4, 2), dtype=int16), array([[137, 455],
+       ...,
+       [137, 496]], shape=(4, 2), dtype=int16), array([[138, 511],
+       ...,
+       [138, 551]], shape=(4, 2), dtype=int16), array([[137, 564],
+       ...,
+       [137, 606]], shape=(4, 2), dtype=int16), array([[139, 621],
+       ...,
+       [139, 659]], shape=(4, 2), dtype=int16), array([[139, 677],
+       ...,
+       [139, 716]], shape=(4, 2), dtype=int16), array([[138, 734],
+       ...,
+       [138, 774]], shape=(4, 2), dtype=int16), array([[140, 791],
+       ...,
+       [140, 829]], shape=(4, 2), dtype=int16), array([[137, 846],
+       ...,
+       [137, 886]], shape=(4, 2), dtype=int16), array([[137, 903],
+       ...,
+       [137, 941]], shape=(4, 2), dtype=int16), array([[137, 962],
+       ...,
+       [137, 996]], shape=(4, 2), dtype=int16), array([[ 134, 1016],
+       ...,
+       [ 134, 1052]], shape=(4, 2), dtype=int16), array([[ 191, 1070],
+       ...,
+       [ 191, 1109]], shape=(4, 2), dtype=int16), array([[ 131, 1124],
+       ...,
+       [ 131, 1164]], shape=(4, 2), dtype=int16), array([[ 128, 1178],
+       ...,
+       [ 128, 1223]], shape=(4, 2), dtype=int16), array([[ 128, 1233],
+       ...,
+       [ 126, 1271]], shape=(4, 2), dtype=int16), array([[ 189, 1296],
+       ...,
+       [ 187, 1330]], shape=(4, 2), dtype=int16), array([[ 697, 1968],
+       ...,
+       [ 697, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1.1.1.3成盒工程（制屏工程，Cell）', '责从PI涂敷、固化、摩擦、液晶滴下、涂封框胶、紫外及热固化、切割、磨边、测试等', '各工序的生产。', '首先对加工完成的TFT/CF面板进行清洗，清洗工序使用超纯水和清洗剂清洗阵列', '基板及彩膜基板以去除表面污染物，再分别在两块基板上涂覆取向膜层（PI）形成取向', '层，用包裹了化纤或纯棉绒布的滚轮高速转动沿特定方向分别摩擦阵列基板和彩膜基板，', '这一过程称为取向层涂覆和摩擦取向处理，取向处理后在阵列基板或彩膜基板的显示屏', '上的显示区内滴入适量的液晶，在另一块基板上对应显示边界区域涂封边框胶，然后在', '真空环境下，将阵列基板和彩膜基板精确压合在一起，在封框胶封闭的显示区域内，液', '品均匀扩散，充满显示区域，同时在紫外光照射和加热条件下，封框胶固化，形成液晶', '盒。在一定条件下，液晶盒内的液晶层与取向层界面的液晶棒状分子会沿着摩擦方向排', '列，之后在分子间作用力影响下液品层内分子也会趋向规则排列。为提高生产效率，采', '用大尺寸剥离基板，可一次形成多种尺寸显示屏的阵列和彩膜。切割工序就是使各显示', '屏液晶盒相互分离，打磨玻璃边缘以消除玻璃面板的裂痕以及使得边缘光滑。为保证显', '示屏的相关特性，加入电学信号对成盒后的面板进行检测，检测合格，成盒工艺完成。', '即成盒过程是将阵列基板和彩色滤光片经清洗，表面涂敷取向膜、经固化、摩擦配', '向处理，在阵列基板进行液晶滴下，在彩膜基板涂布封筐胶及导通材料，两基板在真空', '中粘合、固化，即成盒。再根据下游厂家的需求进行盒分割，加入电信号作图像检查后', '即成为LCD面板（Panel）。', '成盒工艺技术简图见图4.1-7。', '33'], 'rec_scores': [0.9365100860595703, 0.9834335446357727, 0.9988018870353699, 0.9954344034194946, 0.9824630618095398, 0.9855502247810364, 0.9965201020240784, 0.9973483681678772, 0.9907886385917664, 0.9855604767799377, 0.9969785809516907, 0.9942260384559631, 0.9937624931335449, 0.9962558746337891, 0.9978788495063782, 0.9949780702590942, 0.996533215045929, 0.9917083382606506, 0.965129017829895, 0.996630072593689, 0.999019980430603], 'rec_polys': [array([[130, 142],
+       ...,
+       [128, 182]], shape=(4, 2), dtype=int16), array([[132, 278],
+       ...,
+       [132, 330]], shape=(4, 2), dtype=int16), array([[136, 339],
+       ...,
+       [134, 378]], shape=(4, 2), dtype=int16), array([[196, 401],
+       ...,
+       [196, 445]], shape=(4, 2), dtype=int16), array([[137, 455],
+       ...,
+       [137, 496]], shape=(4, 2), dtype=int16), array([[138, 511],
+       ...,
+       [138, 551]], shape=(4, 2), dtype=int16), array([[137, 564],
+       ...,
+       [137, 606]], shape=(4, 2), dtype=int16), array([[139, 621],
+       ...,
+       [139, 659]], shape=(4, 2), dtype=int16), array([[139, 677],
+       ...,
+       [139, 716]], shape=(4, 2), dtype=int16), array([[138, 734],
+       ...,
+       [138, 774]], shape=(4, 2), dtype=int16), array([[140, 791],
+       ...,
+       [140, 829]], shape=(4, 2), dtype=int16), array([[137, 846],
+       ...,
+       [137, 886]], shape=(4, 2), dtype=int16), array([[137, 903],
+       ...,
+       [137, 941]], shape=(4, 2), dtype=int16), array([[137, 962],
+       ...,
+       [137, 996]], shape=(4, 2), dtype=int16), array([[ 134, 1016],
+       ...,
+       [ 134, 1052]], shape=(4, 2), dtype=int16), array([[ 191, 1070],
+       ...,
+       [ 191, 1109]], shape=(4, 2), dtype=int16), array([[ 131, 1124],
+       ...,
+       [ 131, 1164]], shape=(4, 2), dtype=int16), array([[ 128, 1178],
+       ...,
+       [ 128, 1223]], shape=(4, 2), dtype=int16), array([[ 128, 1233],
+       ...,
+       [ 126, 1271]], shape=(4, 2), dtype=int16), array([[ 189, 1296],
+       ...,
+       [ 187, 1330]], shape=(4, 2), dtype=int16), array([[ 697, 1968],
+       ...,
+       [ 697, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 128, ...,  198],
+       ...,
+       [ 697, ..., 2000]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1.1.1.3成盒工程（制屏工程，Cell）
+2. 责从PI涂敷、固化、摩擦、液晶滴下、涂封框胶、紫外及热固化、切割、磨边、测试等
+3. 各工序的生产。
+4. 首先对加工完成的TFT/CF面板进行清洗，清洗工序使用超纯水和清洗剂清洗阵列
+5. 基板及彩膜基板以去除表面污染物，再分别在两块基板上涂覆取向膜层（PI）形成取向
+6. 层，用包裹了化纤或纯棉绒布的滚轮高速转动沿特定方向分别摩擦阵列基板和彩膜基板，
+7. 这一过程称为取向层涂覆和摩擦取向处理，取向处理后在阵列基板或彩膜基板的显示屏
+8. 上的显示区内滴入适量的液晶，在另一块基板上对应显示边界区域涂封边框胶，然后在
+9. 真空环境下，将阵列基板和彩膜基板精确压合在一起，在封框胶封闭的显示区域内，液
+10. 品均匀扩散，充满显示区域，同时在紫外光照射和加热条件下，封框胶固化，形成液晶
+11. 盒。在一定条件下，液晶盒内的液晶层与取向层界面的液晶棒状分子会沿着摩擦方向排
+12. 列，之后在分子间作用力影响下液品层内分子也会趋向规则排列。为提高生产效率，采
+13. 用大尺寸剥离基板，可一次形成多种尺寸显示屏的阵列和彩膜。切割工序就是使各显示
+14. 屏液晶盒相互分离，打磨玻璃边缘以消除玻璃面板的裂痕以及使得边缘光滑。为保证显
+15. 示屏的相关特性，加入电学信号对成盒后的面板进行检测，检测合格，成盒工艺完成。
+16. 即成盒过程是将阵列基板和彩色滤光片经清洗，表面涂敷取向膜、经固化、摩擦配
+17. 向处理，在阵列基板进行液晶滴下，在彩膜基板涂布封筐胶及导通材料，两基板在真空
+18. 中粘合、固化，即成盒。再根据下游厂家的需求进行盒分割，加入电信号作图像检查后
+19. 即成为LCD面板（Panel）。
+20. 成盒工艺技术简图见图4.1-7。
+21. 33

@@ -1,0 +1,155 @@
+OCR结果 - 第 147 页
+==================================================
+处理的图像: temp_page_146_processed.png
+原始PDF页面: 147
+
+详细结果:
+[{'input_path': 'temp_page_146_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1400, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1400, 2000, 3), dtype=uint8), 'output_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1400, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[969,  14],
+       ...,
+       [969,  66]], shape=(4, 2), dtype=int16), array([[1188,    5],
+       ...,
+       [1188,   73]], shape=(4, 2), dtype=int16), array([[1480,   20],
+       ...,
+       [1480,   71]], shape=(4, 2), dtype=int16), array([[1212,   82],
+       ...,
+       [1212,  112]], shape=(4, 2), dtype=int16), array([[1316,  196],
+       ...,
+       [1316,  224]], shape=(4, 2), dtype=int16), array([[1819,  231],
+       ...,
+       [1815,  399]], shape=(4, 2), dtype=int16), array([[693, 320],
+       ...,
+       [693, 340]], shape=(4, 2), dtype=int16), array([[926, 317],
+       ...,
+       [926, 331]], shape=(4, 2), dtype=int16), array([[1369,  329],
+       ...,
+       [1369,  354]], shape=(4, 2), dtype=int16), array([[1524,  344],
+       ...,
+       [1520,  385]], shape=(4, 2), dtype=int16), array([[715, 370],
+       ...,
+       [715, 378]], shape=(4, 2), dtype=int16), array([[1523,  396],
+       ...,
+       [1519,  437]], shape=(4, 2), dtype=int16), array([[969, 429],
+       ...,
+       [969, 446]], shape=(4, 2), dtype=int16), array([[214, 460],
+       ...,
+       [214, 487]], shape=(4, 2), dtype=int16), array([[1280,  460],
+       ...,
+       [1280,  488]], shape=(4, 2), dtype=int16), array([[1782,  465],
+       ...,
+       [1782,  493]], shape=(4, 2), dtype=int16), array([[196, 490],
+       ...,
+       [196, 517]], shape=(4, 2), dtype=int16), array([[1356,  498],
+       ...,
+       [1356,  525]], shape=(4, 2), dtype=int16), array([[1824,  554],
+       ...,
+       [1824,  657]], shape=(4, 2), dtype=int16), array([[777, 652],
+       ...,
+       [778, 673]], shape=(4, 2), dtype=int16), array([[277, 882],
+       ...,
+       [277, 910]], shape=(4, 2), dtype=int16), array([[326, 915],
+       ...,
+       [326, 944]], shape=(4, 2), dtype=int16), array([[1134, 1086],
+       ...,
+       [1134, 1107]], shape=(4, 2), dtype=int16), array([[ 812, 1209],
+       ...,
+       [ 813, 1236]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['公', 'T', '公', 'F', '3F', '马来大道', '西', 't', '①主产', '国', '中', 'A', '西', '超薄玻璃基板深加工项目', '超海玻璃基板深加二项目', '一', '(预留用地不在本次评价范围内）', '厂区', '鑫大道', '福：', '超海玻璃基板深加工项目', '（配营区）', '3', '图1.6-1总平面布置及排行点位示章图'], 'rec_scores': [0.7698537111282349, 0.35016417503356934, 0.6850333213806152, 0.18712148070335388, 0.9097284078598022, 0.9382942914962769, 0.37295159697532654, 0.7810577154159546, 0.510786235332489, 0.17103490233421326, 0.09979520738124847, 0.38723236322402954, 0.14567998051643372, 0.8138128519058228, 0.8609322905540466, 0.6207482218742371, 0.8144072890281677, 0.9742884635925293, 0.49707555770874023, 0.37617963552474976, 0.8803487420082092, 0.7838482856750488, 0.7515875101089478, 0.8190643787384033], 'rec_polys': [array([[969,  14],
+       ...,
+       [969,  66]], shape=(4, 2), dtype=int16), array([[1188,    5],
+       ...,
+       [1188,   73]], shape=(4, 2), dtype=int16), array([[1480,   20],
+       ...,
+       [1480,   71]], shape=(4, 2), dtype=int16), array([[1212,   82],
+       ...,
+       [1212,  112]], shape=(4, 2), dtype=int16), array([[1316,  196],
+       ...,
+       [1316,  224]], shape=(4, 2), dtype=int16), array([[1819,  231],
+       ...,
+       [1815,  399]], shape=(4, 2), dtype=int16), array([[693, 320],
+       ...,
+       [693, 340]], shape=(4, 2), dtype=int16), array([[926, 317],
+       ...,
+       [926, 331]], shape=(4, 2), dtype=int16), array([[1369,  329],
+       ...,
+       [1369,  354]], shape=(4, 2), dtype=int16), array([[1524,  344],
+       ...,
+       [1520,  385]], shape=(4, 2), dtype=int16), array([[715, 370],
+       ...,
+       [715, 378]], shape=(4, 2), dtype=int16), array([[1523,  396],
+       ...,
+       [1519,  437]], shape=(4, 2), dtype=int16), array([[969, 429],
+       ...,
+       [969, 446]], shape=(4, 2), dtype=int16), array([[214, 460],
+       ...,
+       [214, 487]], shape=(4, 2), dtype=int16), array([[1280,  460],
+       ...,
+       [1280,  488]], shape=(4, 2), dtype=int16), array([[1782,  465],
+       ...,
+       [1782,  493]], shape=(4, 2), dtype=int16), array([[196, 490],
+       ...,
+       [196, 517]], shape=(4, 2), dtype=int16), array([[1356,  498],
+       ...,
+       [1356,  525]], shape=(4, 2), dtype=int16), array([[1824,  554],
+       ...,
+       [1824,  657]], shape=(4, 2), dtype=int16), array([[777, 652],
+       ...,
+       [778, 673]], shape=(4, 2), dtype=int16), array([[277, 882],
+       ...,
+       [277, 910]], shape=(4, 2), dtype=int16), array([[326, 915],
+       ...,
+       [326, 944]], shape=(4, 2), dtype=int16), array([[1134, 1086],
+       ...,
+       [1134, 1107]], shape=(4, 2), dtype=int16), array([[ 812, 1209],
+       ...,
+       [ 813, 1236]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], 'rec_boxes': array([[ 969, ...,   66],
+       ...,
+       [ 812, ..., 1236]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 公
+2. T
+3. 公
+4. F
+5. 3F
+6. 马来大道
+7. 西
+8. t
+9. ①主产
+10. 国
+11. 中
+12. A
+13. 西
+14. 超薄玻璃基板深加工项目
+15. 超海玻璃基板深加二项目
+16. 一
+17. (预留用地不在本次评价范围内）
+18. 厂区
+19. 鑫大道
+20. 福：
+21. 超海玻璃基板深加工项目
+22. （配营区）
+23. 3
+24. 图1.6-1总平面布置及排行点位示章图

@@ -1,0 +1,135 @@
+OCR结果 - 第 66 页
+==================================================
+处理的图像: temp_page_65_processed.png
+原始PDF页面: 66
+
+详细结果:
+[{'input_path': 'temp_page_65_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8)}, 'dt_polys': [array([[1363,    5],
+       ...,
+       [1347,   86]], shape=(4, 2), dtype=int16), array([[134, 176],
+       ...,
+       [134, 228]], shape=(4, 2), dtype=int16), array([[139, 266],
+       ...,
+       [139, 306]], shape=(4, 2), dtype=int16), array([[138, 345],
+       ...,
+       [136, 394]], shape=(4, 2), dtype=int16), array([[210, 429],
+       ...,
+       [210, 475]], shape=(4, 2), dtype=int16), array([[137, 510],
+       ...,
+       [137, 550]], shape=(4, 2), dtype=int16), array([[137, 591],
+       ...,
+       [137, 631]], shape=(4, 2), dtype=int16), array([[134, 670],
+       ...,
+       [133, 712]], shape=(4, 2), dtype=int16), array([[547, 818],
+       ...,
+       [547, 859]], shape=(4, 2), dtype=int16), array([[209, 911],
+       ...,
+       [209, 952]], shape=(4, 2), dtype=int16), array([[ 132,  991],
+       ...,
+       [ 132, 1029]], shape=(4, 2), dtype=int16), array([[ 131, 1070],
+       ...,
+       [ 131, 1107]], shape=(4, 2), dtype=int16), array([[ 508, 1213],
+       ...,
+       [ 508, 1251]], shape=(4, 2), dtype=int16), array([[ 203, 1301],
+       ...,
+       [ 203, 1343]], shape=(4, 2), dtype=int16), array([[ 127, 1384],
+       ...,
+       [ 127, 1421]], shape=(4, 2), dtype=int16), array([[ 201, 1464],
+       ...,
+       [ 201, 1505]], shape=(4, 2), dtype=int16), array([[ 123, 1542],
+       ...,
+       [ 123, 1587]], shape=(4, 2), dtype=int16), array([[ 120, 1621],
+       ...,
+       [ 118, 1668]], shape=(4, 2), dtype=int16), array([[ 480, 1770],
+       ...,
+       [ 480, 1812]], shape=(4, 2), dtype=int16), array([[ 190, 1865],
+       ...,
+       [ 190, 1913]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', '仍选择提前还款应支付违约金__元.提前还款后，尚未归还的贷', '款仍按本合同约定的贷款利率执行；如有其它约定，三方另行签订补', '充协议。', '第9.2条乙方宣布贷款提前到期的，应提前5个工作日书面通', '知甲方及丙方，甲方按照贷款实际存续天数支付利息。自该通知送达', '甲方之日起5个工作日内，甲方应偿还全部贷款本金、应付利息、违', '约金等款项。', '第十条扣款方式', '甲方保证按第六条、第七条确定的还款计划归还贷款和贷款利', '息，若不能按期归还，则甲方同意由丙方从甲方的银行账户中直接扣', '收资金用于偿付贷款本金、利息及有关费用.', '第十一条相关费用的支付', '第11.1条甲方、乙方、丙方应根据相关法律规定各自缴纳相', '应的税收和其他费用。', '第11.2条甲方、乙方、丙方共同确认由丙方对本合同中甲方', '在丙方设立的账户进行监管，且丙方同意不收取资金监管费等任何相', '关费用。', '第十二条合同的变更和解除', '第12.1条本合同生效后，甲、乙、丙三方任何一方否得擅自'], 'rec_scores': [0.20504845678806305, 0.9553837180137634, 0.9928075075149536, 0.9949149489402771, 0.9907904267311096, 0.9936026334762573, 0.9946832060813904, 0.938707172870636, 0.9993462562561035, 0.9989231824874878, 0.993564784526825, 0.9676826596260071, 0.9992275238037109, 0.9961186647415161, 0.9402653574943542, 0.9937310814857483, 0.9965880513191223, 0.9892817139625549, 0.9996778964996338, 0.968722939491272], 'rec_polys': [array([[1363,    5],
+       ...,
+       [1347,   86]], shape=(4, 2), dtype=int16), array([[134, 176],
+       ...,
+       [134, 228]], shape=(4, 2), dtype=int16), array([[139, 266],
+       ...,
+       [139, 306]], shape=(4, 2), dtype=int16), array([[138, 345],
+       ...,
+       [136, 394]], shape=(4, 2), dtype=int16), array([[210, 429],
+       ...,
+       [210, 475]], shape=(4, 2), dtype=int16), array([[137, 510],
+       ...,
+       [137, 550]], shape=(4, 2), dtype=int16), array([[137, 591],
+       ...,
+       [137, 631]], shape=(4, 2), dtype=int16), array([[134, 670],
+       ...,
+       [133, 712]], shape=(4, 2), dtype=int16), array([[547, 818],
+       ...,
+       [547, 859]], shape=(4, 2), dtype=int16), array([[209, 911],
+       ...,
+       [209, 952]], shape=(4, 2), dtype=int16), array([[ 132,  991],
+       ...,
+       [ 132, 1029]], shape=(4, 2), dtype=int16), array([[ 131, 1070],
+       ...,
+       [ 131, 1107]], shape=(4, 2), dtype=int16), array([[ 508, 1213],
+       ...,
+       [ 508, 1251]], shape=(4, 2), dtype=int16), array([[ 203, 1301],
+       ...,
+       [ 203, 1343]], shape=(4, 2), dtype=int16), array([[ 127, 1384],
+       ...,
+       [ 127, 1421]], shape=(4, 2), dtype=int16), array([[ 201, 1464],
+       ...,
+       [ 201, 1505]], shape=(4, 2), dtype=int16), array([[ 123, 1542],
+       ...,
+       [ 123, 1587]], shape=(4, 2), dtype=int16), array([[ 120, 1621],
+       ...,
+       [ 118, 1668]], shape=(4, 2), dtype=int16), array([[ 480, 1770],
+       ...,
+       [ 480, 1812]], shape=(4, 2), dtype=int16), array([[ 190, 1865],
+       ...,
+       [ 190, 1913]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1347, ...,  101],
+       ...,
+       [ 190, ..., 1913]], shape=(20, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. 仍选择提前还款应支付违约金__元.提前还款后，尚未归还的贷
+3. 款仍按本合同约定的贷款利率执行；如有其它约定，三方另行签订补
+4. 充协议。
+5. 第9.2条乙方宣布贷款提前到期的，应提前5个工作日书面通
+6. 知甲方及丙方，甲方按照贷款实际存续天数支付利息。自该通知送达
+7. 甲方之日起5个工作日内，甲方应偿还全部贷款本金、应付利息、违
+8. 约金等款项。
+9. 第十条扣款方式
+10. 甲方保证按第六条、第七条确定的还款计划归还贷款和贷款利
+11. 息，若不能按期归还，则甲方同意由丙方从甲方的银行账户中直接扣
+12. 收资金用于偿付贷款本金、利息及有关费用.
+13. 第十一条相关费用的支付
+14. 第11.1条甲方、乙方、丙方应根据相关法律规定各自缴纳相
+15. 应的税收和其他费用。
+16. 第11.2条甲方、乙方、丙方共同确认由丙方对本合同中甲方
+17. 在丙方设立的账户进行监管，且丙方同意不收取资金监管费等任何相
+18. 关费用。
+19. 第十二条合同的变更和解除
+20. 第12.1条本合同生效后，甲、乙、丙三方任何一方否得擅自

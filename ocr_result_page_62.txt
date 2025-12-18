@@ -1,0 +1,155 @@
+OCR结果 - 第 62 页
+==================================================
+处理的图像: temp_page_61_processed.png
+原始PDF页面: 62
+
+详细结果:
+[{'input_path': 'temp_page_61_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[550, 240],
+       ...,
+       [550, 285]], shape=(4, 2), dtype=int16), array([[656, 247],
+       ...,
+       [656, 276]], shape=(4, 2), dtype=int16), array([[714, 242],
+       ...,
+       [714, 281]], shape=(4, 2), dtype=int16), array([[219, 305],
+       ...,
+       [218, 351]], shape=(4, 2), dtype=int16), array([[415, 314],
+       ...,
+       [415, 351]], shape=(4, 2), dtype=int16), array([[136, 363],
+       ...,
+       [134, 424]], shape=(4, 2), dtype=int16), array([[216, 460],
+       ...,
+       [216, 504]], shape=(4, 2), dtype=int16), array([[145, 541],
+       ...,
+       [146, 582]], shape=(4, 2), dtype=int16), array([[214, 616],
+       ...,
+       [214, 663]], shape=(4, 2), dtype=int16), array([[214, 694],
+       ...,
+       [214, 745]], shape=(4, 2), dtype=int16), array([[211, 776],
+       ...,
+       [212, 827]], shape=(4, 2), dtype=int16), array([[215, 862],
+       ...,
+       [216, 906]], shape=(4, 2), dtype=int16), array([[215, 945],
+       ...,
+       [216, 989]], shape=(4, 2), dtype=int16), array([[ 212, 1026],
+       ...,
+       [ 214, 1076]], shape=(4, 2), dtype=int16), array([[ 203, 1101],
+       ...,
+       [ 207, 1163]], shape=(4, 2), dtype=int16), array([[ 609, 1242],
+       ...,
+       [ 609, 1283]], shape=(4, 2), dtype=int16), array([[ 207, 1310],
+       ...,
+       [ 208, 1370]], shape=(4, 2), dtype=int16), array([[ 610, 1426],
+       ...,
+       [ 609, 1468]], shape=(4, 2), dtype=int16), array([[ 206, 1525],
+       ...,
+       [ 207, 1590]], shape=(4, 2), dtype=int16), array([[ 538, 1663],
+       ...,
+       [ 538, 1705]], shape=(4, 2), dtype=int16), array([[ 216, 1732],
+       ...,
+       [ 216, 1776]], shape=(4, 2), dtype=int16), array([[ 219, 1820],
+       ...,
+       [ 219, 1860]], shape=(4, 2), dtype=int16), array([[ 147, 1890],
+       ...,
+       [ 146, 1937]], shape=(4, 2), dtype=int16), array([[ 912, 1935],
+       ...,
+       [ 912, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['第一条', '', '贷款金额', '第1.1条', '乙方委托丙方向甲方发放贷款金额为人民币（大写）', '捌任万元。', '第1.2条乙方应于贷款发放日之前或当日将委托贷款资金划', '入乙方在丙方开立的下述委托贷款专户：', '户名：广西自贸区钦州港片区开发投资集团有限责任公司', '开户银行：桂林银行股份有限公司钦州市钦州港支行', '账号：660600080152100039', '第1.3条甲方接收委托贷款的账户信息如下：', '户名：广西泰嘉光电科技有限公司', '开户银行：桂林银行钦州市欲州港支行', '账号：660000012643000017', '条二条贷款用途', '甲方借款将用于泰嘉超藻玻璃基板深加工项目', '第三条贷款期限', '委托贷款期限自2020年6月2日至2021年6月28日。', '第四条贷款利率和利息', '第4.1条人民币贷款利率按下列第A种方式确定：', 'A.人民币固定利率：年利率为12.5%.以合同签订日前一个工作', '日对应最近一个月全国同业拆借中心最新公布的①(①.一年期；', '文武③'], 'rec_scores': [0.9998670220375061, 0.0, 0.999854326248169, 0.9983099699020386, 0.9936664700508118, 0.777722954750061, 0.9987171292304993, 0.9918674826622009, 0.991560161113739, 0.9977120161056519, 0.9612919092178345, 0.9796000123023987, 0.9948086142539978, 0.8581368923187256, 0.945437490940094, 0.9989789724349976, 0.8542877435684204, 0.9995455741882324, 0.8941402435302734, 0.9988613128662109, 0.9739732146263123, 0.9687420129776001, 0.925564706325531, 0.6622712016105652], 'rec_polys': [array([[550, 240],
+       ...,
+       [550, 285]], shape=(4, 2), dtype=int16), array([[656, 247],
+       ...,
+       [656, 276]], shape=(4, 2), dtype=int16), array([[714, 242],
+       ...,
+       [714, 281]], shape=(4, 2), dtype=int16), array([[219, 305],
+       ...,
+       [218, 351]], shape=(4, 2), dtype=int16), array([[415, 314],
+       ...,
+       [415, 351]], shape=(4, 2), dtype=int16), array([[136, 363],
+       ...,
+       [134, 424]], shape=(4, 2), dtype=int16), array([[216, 460],
+       ...,
+       [216, 504]], shape=(4, 2), dtype=int16), array([[145, 541],
+       ...,
+       [146, 582]], shape=(4, 2), dtype=int16), array([[214, 616],
+       ...,
+       [214, 663]], shape=(4, 2), dtype=int16), array([[214, 694],
+       ...,
+       [214, 745]], shape=(4, 2), dtype=int16), array([[211, 776],
+       ...,
+       [212, 827]], shape=(4, 2), dtype=int16), array([[215, 862],
+       ...,
+       [216, 906]], shape=(4, 2), dtype=int16), array([[215, 945],
+       ...,
+       [216, 989]], shape=(4, 2), dtype=int16), array([[ 212, 1026],
+       ...,
+       [ 214, 1076]], shape=(4, 2), dtype=int16), array([[ 203, 1101],
+       ...,
+       [ 207, 1163]], shape=(4, 2), dtype=int16), array([[ 609, 1242],
+       ...,
+       [ 609, 1283]], shape=(4, 2), dtype=int16), array([[ 207, 1310],
+       ...,
+       [ 208, 1370]], shape=(4, 2), dtype=int16), array([[ 610, 1426],
+       ...,
+       [ 609, 1468]], shape=(4, 2), dtype=int16), array([[ 206, 1525],
+       ...,
+       [ 207, 1590]], shape=(4, 2), dtype=int16), array([[ 538, 1663],
+       ...,
+       [ 538, 1705]], shape=(4, 2), dtype=int16), array([[ 216, 1732],
+       ...,
+       [ 216, 1776]], shape=(4, 2), dtype=int16), array([[ 219, 1820],
+       ...,
+       [ 219, 1860]], shape=(4, 2), dtype=int16), array([[ 147, 1890],
+       ...,
+       [ 146, 1937]], shape=(4, 2), dtype=int16), array([[ 912, 1935],
+       ...,
+       [ 912, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 550, ...,  285],
+       ...,
+       [ 912, ..., 2000]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 第一条
+2. 
+3. 贷款金额
+4. 第1.1条
+5. 乙方委托丙方向甲方发放贷款金额为人民币（大写）
+6. 捌任万元。
+7. 第1.2条乙方应于贷款发放日之前或当日将委托贷款资金划
+8. 入乙方在丙方开立的下述委托贷款专户：
+9. 户名：广西自贸区钦州港片区开发投资集团有限责任公司
+10. 开户银行：桂林银行股份有限公司钦州市钦州港支行
+11. 账号：660600080152100039
+12. 第1.3条甲方接收委托贷款的账户信息如下：
+13. 户名：广西泰嘉光电科技有限公司
+14. 开户银行：桂林银行钦州市欲州港支行
+15. 账号：660000012643000017
+16. 条二条贷款用途
+17. 甲方借款将用于泰嘉超藻玻璃基板深加工项目
+18. 第三条贷款期限
+19. 委托贷款期限自2020年6月2日至2021年6月28日。
+20. 第四条贷款利率和利息
+21. 第4.1条人民币贷款利率按下列第A种方式确定：
+22. A.人民币固定利率：年利率为12.5%.以合同签订日前一个工作
+23. 日对应最近一个月全国同业拆借中心最新公布的①(①.一年期；
+24. 文武③

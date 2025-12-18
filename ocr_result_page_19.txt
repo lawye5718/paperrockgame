@@ -1,0 +1,170 @@
+OCR结果 - 第 19 页
+==================================================
+处理的图像: temp_page_18_processed.png
+原始PDF页面: 19
+
+详细结果:
+[{'input_path': 'temp_page_18_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1285,    5],
+       ...,
+       [1296,  107]], shape=(4, 2), dtype=int16), array([[229, 194],
+       ...,
+       [229, 235]], shape=(4, 2), dtype=int16), array([[227, 256],
+       ...,
+       [227, 300]], shape=(4, 2), dtype=int16), array([[139, 320],
+       ...,
+       [139, 364]], shape=(4, 2), dtype=int16), array([[137, 383],
+       ...,
+       [137, 427]], shape=(4, 2), dtype=int16), array([[137, 449],
+       ...,
+       [137, 493]], shape=(4, 2), dtype=int16), array([[134, 511],
+       ...,
+       [134, 559]], shape=(4, 2), dtype=int16), array([[131, 578],
+       ...,
+       [131, 625]], shape=(4, 2), dtype=int16), array([[133, 648],
+       ...,
+       [133, 693]], shape=(4, 2), dtype=int16), array([[214, 716],
+       ...,
+       [214, 764]], shape=(4, 2), dtype=int16), array([[142, 785],
+       ...,
+       [142, 830]], shape=(4, 2), dtype=int16), array([[211, 851],
+       ...,
+       [211, 903]], shape=(4, 2), dtype=int16), array([[211, 920],
+       ...,
+       [211, 972]], shape=(4, 2), dtype=int16), array([[ 207,  986],
+       ...,
+       [ 207, 1043]], shape=(4, 2), dtype=int16), array([[ 210, 1059],
+       ...,
+       [ 210, 1108]], shape=(4, 2), dtype=int16), array([[ 206, 1123],
+       ...,
+       [ 206, 1179]], shape=(4, 2), dtype=int16), array([[ 208, 1196],
+       ...,
+       [ 208, 1246]], shape=(4, 2), dtype=int16), array([[ 122, 1268],
+       ...,
+       [ 122, 1316]], shape=(4, 2), dtype=int16), array([[ 207, 1333],
+       ...,
+       [ 207, 1385]], shape=(4, 2), dtype=int16), array([[ 171, 1387],
+       ...,
+       [ 172, 1452]], shape=(4, 2), dtype=int16), array([[ 629, 1452],
+       ...,
+       [ 629, 1542]], shape=(4, 2), dtype=int16), array([[ 687, 1547],
+       ...,
+       [ 687, 1606]], shape=(4, 2), dtype=int16), array([[ 112, 1654],
+       ...,
+       [ 111, 1766]], shape=(4, 2), dtype=int16), array([[ 656, 1687],
+       ...,
+       [ 655, 1743]], shape=(4, 2), dtype=int16), array([[ 754, 1770],
+       ...,
+       [ 756, 1829]], shape=(4, 2), dtype=int16), array([[ 109, 1853],
+       ...,
+       [ 110, 1965]], shape=(4, 2), dtype=int16), array([[ 949, 1891],
+       ...,
+       [ 948, 1936]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['16', '问：你说说对广西泰嘉项目的认识?', '答：现在广西泰嘉项目彻底崩盘，不单是国有资金无法追讨', '回来，已建的厂房也都烂尾，造成了巨大的国有资产损失，是无', '法补救的。广西泰嘉项目不仅严重破坏了钦州市的营商环境，而', '且还给钦州市带来不可以逆的负面影响。这个项目在推动过程中', '我向王雄昌反映过广西泰嘉公司资金实力差、利息常常逾期、银', '行催款很难等情况，并没有引起他的重视，王雄昌作为该项目的', '主要责任人有不可推卸的责任。', '问：本次询问中，有无非法羁押、刑讯逼供、威胁、引诱、', '欺骗或者以其他非法方法获取证词或者其他证据的情形?', '答：没有。', '问：你还有什么要补充的吗？', '答：没有。', '问：你以上所讲是否属实?', '答：属实。', '问：你看一下笔录，和你说的是否相符？如果记载有遗漏', '或者差错，可以提出补充或者改正。核对无误后请签字确认。', '答：好的。', '以上笔录共倾，我记看过，和我讲的相符。', '被询问人：新斌', '2025年5月27日', '询问人:詹惠阔', '记录人:', '22年5月27日', '签名：武', '第14页共14页'], 'rec_scores': [0.9057718515396118, 0.9821048378944397, 0.997588574886322, 0.9970002770423889, 0.9982842206954956, 0.9988271594047546, 0.9989657998085022, 0.9983916878700256, 0.9989737868309021, 0.9831663966178894, 0.9842377305030823, 0.989342212677002, 0.9561176300048828, 0.9872441291809082, 0.986278772354126, 0.9881511926651001, 0.985573410987854, 0.997654378414154, 0.9841291308403015, 0.875501811504364, 0.799310028553009, 0.9525812268257141, 0.8539906144142151, 0.8823283910751343, 0.8804619312286377, 0.8036800026893616, 0.9988576769828796], 'rec_polys': [array([[1285,    5],
+       ...,
+       [1296,  107]], shape=(4, 2), dtype=int16), array([[229, 194],
+       ...,
+       [229, 235]], shape=(4, 2), dtype=int16), array([[227, 256],
+       ...,
+       [227, 300]], shape=(4, 2), dtype=int16), array([[139, 320],
+       ...,
+       [139, 364]], shape=(4, 2), dtype=int16), array([[137, 383],
+       ...,
+       [137, 427]], shape=(4, 2), dtype=int16), array([[137, 449],
+       ...,
+       [137, 493]], shape=(4, 2), dtype=int16), array([[134, 511],
+       ...,
+       [134, 559]], shape=(4, 2), dtype=int16), array([[131, 578],
+       ...,
+       [131, 625]], shape=(4, 2), dtype=int16), array([[133, 648],
+       ...,
+       [133, 693]], shape=(4, 2), dtype=int16), array([[214, 716],
+       ...,
+       [214, 764]], shape=(4, 2), dtype=int16), array([[142, 785],
+       ...,
+       [142, 830]], shape=(4, 2), dtype=int16), array([[211, 851],
+       ...,
+       [211, 903]], shape=(4, 2), dtype=int16), array([[211, 920],
+       ...,
+       [211, 972]], shape=(4, 2), dtype=int16), array([[ 207,  986],
+       ...,
+       [ 207, 1043]], shape=(4, 2), dtype=int16), array([[ 210, 1059],
+       ...,
+       [ 210, 1108]], shape=(4, 2), dtype=int16), array([[ 206, 1123],
+       ...,
+       [ 206, 1179]], shape=(4, 2), dtype=int16), array([[ 208, 1196],
+       ...,
+       [ 208, 1246]], shape=(4, 2), dtype=int16), array([[ 122, 1268],
+       ...,
+       [ 122, 1316]], shape=(4, 2), dtype=int16), array([[ 207, 1333],
+       ...,
+       [ 207, 1385]], shape=(4, 2), dtype=int16), array([[ 171, 1387],
+       ...,
+       [ 172, 1452]], shape=(4, 2), dtype=int16), array([[ 629, 1452],
+       ...,
+       [ 629, 1542]], shape=(4, 2), dtype=int16), array([[ 687, 1547],
+       ...,
+       [ 687, 1606]], shape=(4, 2), dtype=int16), array([[ 112, 1654],
+       ...,
+       [ 111, 1766]], shape=(4, 2), dtype=int16), array([[ 656, 1687],
+       ...,
+       [ 655, 1743]], shape=(4, 2), dtype=int16), array([[ 754, 1770],
+       ...,
+       [ 756, 1829]], shape=(4, 2), dtype=int16), array([[ 109, 1853],
+       ...,
+       [ 110, 1965]], shape=(4, 2), dtype=int16), array([[ 949, 1891],
+       ...,
+       [ 948, 1936]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1285, ...,  107],
+       ...,
+       [ 948, ..., 1939]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 16
+2. 问：你说说对广西泰嘉项目的认识?
+3. 答：现在广西泰嘉项目彻底崩盘，不单是国有资金无法追讨
+4. 回来，已建的厂房也都烂尾，造成了巨大的国有资产损失，是无
+5. 法补救的。广西泰嘉项目不仅严重破坏了钦州市的营商环境，而
+6. 且还给钦州市带来不可以逆的负面影响。这个项目在推动过程中
+7. 我向王雄昌反映过广西泰嘉公司资金实力差、利息常常逾期、银
+8. 行催款很难等情况，并没有引起他的重视，王雄昌作为该项目的
+9. 主要责任人有不可推卸的责任。
+10. 问：本次询问中，有无非法羁押、刑讯逼供、威胁、引诱、
+11. 欺骗或者以其他非法方法获取证词或者其他证据的情形?
+12. 答：没有。
+13. 问：你还有什么要补充的吗？
+14. 答：没有。
+15. 问：你以上所讲是否属实?
+16. 答：属实。
+17. 问：你看一下笔录，和你说的是否相符？如果记载有遗漏
+18. 或者差错，可以提出补充或者改正。核对无误后请签字确认。
+19. 答：好的。
+20. 以上笔录共倾，我记看过，和我讲的相符。
+21. 被询问人：新斌
+22. 2025年5月27日
+23. 询问人:詹惠阔
+24. 记录人:
+25. 22年5月27日
+26. 签名：武
+27. 第14页共14页

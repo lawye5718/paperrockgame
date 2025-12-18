@@ -1,0 +1,155 @@
+OCR结果 - 第 134 页
+==================================================
+处理的图像: temp_page_133_processed.png
+原始PDF页面: 134
+
+详细结果:
+[{'input_path': 'temp_page_133_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[106, 105],
+       ...,
+       [104, 144]], shape=(4, 2), dtype=int16), array([[177, 176],
+       ...,
+       [176, 217]], shape=(4, 2), dtype=int16), array([[109, 236],
+       ...,
+       [107, 278]], shape=(4, 2), dtype=int16), array([[106, 298],
+       ...,
+       [105, 338]], shape=(4, 2), dtype=int16), array([[106, 360],
+       ...,
+       [105, 398]], shape=(4, 2), dtype=int16), array([[177, 423],
+       ...,
+       [176, 459]], shape=(4, 2), dtype=int16), array([[105, 476],
+       ...,
+       [104, 514]], shape=(4, 2), dtype=int16), array([[119, 535],
+       ...,
+       [118, 575]], shape=(4, 2), dtype=int16), array([[104, 594],
+       ...,
+       [103, 631]], shape=(4, 2), dtype=int16), array([[101, 655],
+       ...,
+       [100, 689]], shape=(4, 2), dtype=int16), array([[ 98, 713],
+       ...,
+       [ 96, 751]], shape=(4, 2), dtype=int16), array([[ 97, 767],
+       ...,
+       [ 96, 802]], shape=(4, 2), dtype=int16), array([[181, 842],
+       ...,
+       [181, 876]], shape=(4, 2), dtype=int16), array([[ 95, 901],
+       ...,
+       [ 94, 934]], shape=(4, 2), dtype=int16), array([[ 92, 959],
+       ...,
+       [ 91, 996]], shape=(4, 2), dtype=int16), array([[  90, 1021],
+       ...,
+       [  89, 1054]], shape=(4, 2), dtype=int16), array([[ 161, 1079],
+       ...,
+       [ 161, 1114]], shape=(4, 2), dtype=int16), array([[  84, 1135],
+       ...,
+       [  83, 1173]], shape=(4, 2), dtype=int16), array([[ 157, 1199],
+       ...,
+       [ 157, 1232]], shape=(4, 2), dtype=int16), array([[  86, 1260],
+       ...,
+       [  85, 1292]], shape=(4, 2), dtype=int16), array([[ 156, 1322],
+       ...,
+       [ 156, 1353]], shape=(4, 2), dtype=int16), array([[  85, 1381],
+       ...,
+       [  84, 1415]], shape=(4, 2), dtype=int16), array([[  82, 1441],
+       ...,
+       [  82, 1477]], shape=(4, 2), dtype=int16), array([[ 675, 1939],
+       ...,
+       [ 672, 1974]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1.5产业政策符合性', '政策符合性：本项目为超薄玻璃基板深加工项目，属于《产业结构调整指导目录(2019', '年本)》中“二十八、信息产业中，21、薄膜场效应品体管LCD（TFT-LCD)、有机发光二', '极管(OLED)、电子纸显示、激光显示、3D显示等新型平板显示器件、液晶面板产业用', '玻璃基板、电子及信息产业用盖板玻璃等关键部件及关键材料”，为国家产业政策鼓励类。', '厂址合理性：项目位于中-马钦州产业园内，土地利用性质为工业用地，项目所在地', '理位置优越，交通便利，排水通畅，水、电、气、热满足供应工程要求。项目建设符合', '《中国—马来西亚钦州产业园区总体规划》。项目选址位于工业园区内，周边100m范围', '内无村落，目前周边排污企业较少，无重污染企业，周边环境敏感度一般。项目产生的', '污染物较为简单，污染物浓度均较低，且都采取有效措施，对环境影响程度小，项目选', '址合理。。', '1.6总量控制分析', '《建设项目主要污染物排放总量指标审核及管理暂行办法》（环发（2014）97号）要', '求，主要污染物是指国家实施排放总量控制的污染物（化学需氧量、氨氮、二氧化硫、', '氮氧化物)、烟粉尘、挥发性有机物、重点重金属污染物、沿海地级及以上城市总氮和地', '方实施总量控制的特征污染物参照本办法执行。', '本项目涉及的总量审核指标为：化学需氧量、氨氮、二氧化硫、氮氧化物和挥发性', '有机物。', '据预测，化学需氧量1667.796ta、氨氮132.994Va、挥发性有机物79.083t/a、二氧化', '硫0.136t/a、氮氧化物49.893t/a。', '综上所述，超薄玻璃基板深加工项目在落实本报告环保措施后，污染物达标排放，', '对环境的影响在可接受的范围内。从环保角度分析，超薄玻璃基板深加工项目的建设是', '可行的。', '97'], 'rec_scores': [0.9995290040969849, 0.9603325128555298, 0.9534032344818115, 0.9776321053504944, 0.9935150146484375, 0.9764248728752136, 0.99228435754776, 0.9802912473678589, 0.9903586506843567, 0.9938188791275024, 0.8893346786499023, 0.9987907409667969, 0.9816557168960571, 0.995283305644989, 0.9915347695350647, 0.9993534088134766, 0.9938108921051025, 0.9988158941268921, 0.9769887924194336, 0.9503238797187805, 0.9979735612869263, 0.9938791394233704, 0.8879235982894897, 0.9995433688163757], 'rec_polys': [array([[106, 105],
+       ...,
+       [104, 144]], shape=(4, 2), dtype=int16), array([[177, 176],
+       ...,
+       [176, 217]], shape=(4, 2), dtype=int16), array([[109, 236],
+       ...,
+       [107, 278]], shape=(4, 2), dtype=int16), array([[106, 298],
+       ...,
+       [105, 338]], shape=(4, 2), dtype=int16), array([[106, 360],
+       ...,
+       [105, 398]], shape=(4, 2), dtype=int16), array([[177, 423],
+       ...,
+       [176, 459]], shape=(4, 2), dtype=int16), array([[105, 476],
+       ...,
+       [104, 514]], shape=(4, 2), dtype=int16), array([[119, 535],
+       ...,
+       [118, 575]], shape=(4, 2), dtype=int16), array([[104, 594],
+       ...,
+       [103, 631]], shape=(4, 2), dtype=int16), array([[101, 655],
+       ...,
+       [100, 689]], shape=(4, 2), dtype=int16), array([[ 98, 713],
+       ...,
+       [ 96, 751]], shape=(4, 2), dtype=int16), array([[ 97, 767],
+       ...,
+       [ 96, 802]], shape=(4, 2), dtype=int16), array([[181, 842],
+       ...,
+       [181, 876]], shape=(4, 2), dtype=int16), array([[ 95, 901],
+       ...,
+       [ 94, 934]], shape=(4, 2), dtype=int16), array([[ 92, 959],
+       ...,
+       [ 91, 996]], shape=(4, 2), dtype=int16), array([[  90, 1021],
+       ...,
+       [  89, 1054]], shape=(4, 2), dtype=int16), array([[ 161, 1079],
+       ...,
+       [ 161, 1114]], shape=(4, 2), dtype=int16), array([[  84, 1135],
+       ...,
+       [  83, 1173]], shape=(4, 2), dtype=int16), array([[ 157, 1199],
+       ...,
+       [ 157, 1232]], shape=(4, 2), dtype=int16), array([[  86, 1260],
+       ...,
+       [  85, 1292]], shape=(4, 2), dtype=int16), array([[ 156, 1322],
+       ...,
+       [ 156, 1353]], shape=(4, 2), dtype=int16), array([[  85, 1381],
+       ...,
+       [  84, 1415]], shape=(4, 2), dtype=int16), array([[  82, 1441],
+       ...,
+       [  82, 1477]], shape=(4, 2), dtype=int16), array([[ 675, 1939],
+       ...,
+       [ 672, 1974]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 104, ...,  158],
+       ...,
+       [ 672, ..., 1978]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1.5产业政策符合性
+2. 政策符合性：本项目为超薄玻璃基板深加工项目，属于《产业结构调整指导目录(2019
+3. 年本)》中“二十八、信息产业中，21、薄膜场效应品体管LCD（TFT-LCD)、有机发光二
+4. 极管(OLED)、电子纸显示、激光显示、3D显示等新型平板显示器件、液晶面板产业用
+5. 玻璃基板、电子及信息产业用盖板玻璃等关键部件及关键材料”，为国家产业政策鼓励类。
+6. 厂址合理性：项目位于中-马钦州产业园内，土地利用性质为工业用地，项目所在地
+7. 理位置优越，交通便利，排水通畅，水、电、气、热满足供应工程要求。项目建设符合
+8. 《中国—马来西亚钦州产业园区总体规划》。项目选址位于工业园区内，周边100m范围
+9. 内无村落，目前周边排污企业较少，无重污染企业，周边环境敏感度一般。项目产生的
+10. 污染物较为简单，污染物浓度均较低，且都采取有效措施，对环境影响程度小，项目选
+11. 址合理。。
+12. 1.6总量控制分析
+13. 《建设项目主要污染物排放总量指标审核及管理暂行办法》（环发（2014）97号）要
+14. 求，主要污染物是指国家实施排放总量控制的污染物（化学需氧量、氨氮、二氧化硫、
+15. 氮氧化物)、烟粉尘、挥发性有机物、重点重金属污染物、沿海地级及以上城市总氮和地
+16. 方实施总量控制的特征污染物参照本办法执行。
+17. 本项目涉及的总量审核指标为：化学需氧量、氨氮、二氧化硫、氮氧化物和挥发性
+18. 有机物。
+19. 据预测，化学需氧量1667.796ta、氨氮132.994Va、挥发性有机物79.083t/a、二氧化
+20. 硫0.136t/a、氮氧化物49.893t/a。
+21. 综上所述，超薄玻璃基板深加工项目在落实本报告环保措施后，污染物达标排放，
+22. 对环境的影响在可接受的范围内。从环保角度分析，超薄玻璃基板深加工项目的建设是
+23. 可行的。
+24. 97

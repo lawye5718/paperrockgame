@@ -1,0 +1,135 @@
+OCR结果 - 第 71 页
+==================================================
+处理的图像: temp_page_70_processed.png
+原始PDF页面: 71
+
+详细结果:
+[{'input_path': 'temp_page_70_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1352,   34],
+       ...,
+       [1352,   77]], shape=(4, 2), dtype=int16), array([[153, 148],
+       ...,
+       [152, 192]], shape=(4, 2), dtype=int16), array([[147, 231],
+       ...,
+       [147, 283]], shape=(4, 2), dtype=int16), array([[234, 309],
+       ...,
+       [234, 346]], shape=(4, 2), dtype=int16), array([[232, 379],
+       ...,
+       [232, 420]], shape=(4, 2), dtype=int16), array([[563, 536],
+       ...,
+       [563, 580]], shape=(4, 2), dtype=int16), array([[228, 622],
+       ...,
+       [228, 659]], shape=(4, 2), dtype=int16), array([[154, 700],
+       ...,
+       [153, 741]], shape=(4, 2), dtype=int16), array([[154, 783],
+       ...,
+       [153, 820]], shape=(4, 2), dtype=int16), array([[579, 927],
+       ...,
+       [579, 969]], shape=(4, 2), dtype=int16), array([[ 230, 1012],
+       ...,
+       [ 230, 1053]], shape=(4, 2), dtype=int16), array([[ 154, 1091],
+       ...,
+       [ 154, 1128]], shape=(4, 2), dtype=int16), array([[ 155, 1168],
+       ...,
+       [ 154, 1206]], shape=(4, 2), dtype=int16), array([[ 153, 1246],
+       ...,
+       [ 152, 1283]], shape=(4, 2), dtype=int16), array([[ 152, 1323],
+       ...,
+       [ 151, 1361]], shape=(4, 2), dtype=int16), array([[ 152, 1402],
+       ...,
+       [ 151, 1440]], shape=(4, 2), dtype=int16), array([[ 211, 1455],
+       ...,
+       [ 211, 1531]], shape=(4, 2), dtype=int16), array([[ 142, 1550],
+       ...,
+       [ 141, 1607]], shape=(4, 2), dtype=int16), array([[ 472, 1720],
+       ...,
+       [ 471, 1765]], shape=(4, 2), dtype=int16), array([[ 215, 1887],
+       ...,
+       [ 215, 1925]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['6', '有关的争议和纠纷，三方应协商解决，协商不成按下述第2种方式解', '决：', '1.将该争议提交仲裁委员会.', '2.在丙方所在地法院通过诉讼方式解决.', '第十八条生效、终止', '本协议自甲、乙、丙三方法定代表人（负责人）或其授权代理人', '签字或加盖名章（自然人签字）并加盖单位公章之日起生效，至本协', '议项下贷款本息全部清偿完毕后终止.', '第十九条其他', '第19.1条丙方有权依据有关法律法规或其他规范性文件的规', '定或金融监管机构的要求，将有关本合同的信息和其他相关信息提供', '给中国人民银行信用信息基础数据库或其他依法设立的信用数据库，', '供具有适当资格的机构或个人查询和使用，丙方也有权为本合同订立', '和履行之目的，通过中国人民银行信用信息基础数据库和其他依法设', '立的信用数据库查询甲方的相关信息.', '第19.2条本协议一式叁份，甲、乙、丙三方各执壹份，备', '案留存份.', '第二十条双方约定的其他事项', '2.'], 'rec_scores': [0.736187756061554, 0.9868360161781311, 0.831897497177124, 0.9696698784828186, 0.9788190126419067, 0.9980799555778503, 0.9898177981376648, 0.9966534376144409, 0.9888795018196106, 0.999786376953125, 0.9976568222045898, 0.998784601688385, 0.9973447322845459, 0.9957039952278137, 0.9983956217765808, 0.9789814949035645, 0.9150562882423401, 0.9044424295425415, 0.999348521232605, 0.9977340698242188], 'rec_polys': [array([[1352,   34],
+       ...,
+       [1352,   77]], shape=(4, 2), dtype=int16), array([[153, 148],
+       ...,
+       [152, 192]], shape=(4, 2), dtype=int16), array([[147, 231],
+       ...,
+       [147, 283]], shape=(4, 2), dtype=int16), array([[234, 309],
+       ...,
+       [234, 346]], shape=(4, 2), dtype=int16), array([[232, 379],
+       ...,
+       [232, 420]], shape=(4, 2), dtype=int16), array([[563, 536],
+       ...,
+       [563, 580]], shape=(4, 2), dtype=int16), array([[228, 622],
+       ...,
+       [228, 659]], shape=(4, 2), dtype=int16), array([[154, 700],
+       ...,
+       [153, 741]], shape=(4, 2), dtype=int16), array([[154, 783],
+       ...,
+       [153, 820]], shape=(4, 2), dtype=int16), array([[579, 927],
+       ...,
+       [579, 969]], shape=(4, 2), dtype=int16), array([[ 230, 1012],
+       ...,
+       [ 230, 1053]], shape=(4, 2), dtype=int16), array([[ 154, 1091],
+       ...,
+       [ 154, 1128]], shape=(4, 2), dtype=int16), array([[ 155, 1168],
+       ...,
+       [ 154, 1206]], shape=(4, 2), dtype=int16), array([[ 153, 1246],
+       ...,
+       [ 152, 1283]], shape=(4, 2), dtype=int16), array([[ 152, 1323],
+       ...,
+       [ 151, 1361]], shape=(4, 2), dtype=int16), array([[ 152, 1402],
+       ...,
+       [ 151, 1440]], shape=(4, 2), dtype=int16), array([[ 211, 1455],
+       ...,
+       [ 211, 1531]], shape=(4, 2), dtype=int16), array([[ 142, 1550],
+       ...,
+       [ 141, 1607]], shape=(4, 2), dtype=int16), array([[ 472, 1720],
+       ...,
+       [ 471, 1765]], shape=(4, 2), dtype=int16), array([[ 215, 1887],
+       ...,
+       [ 215, 1925]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1352, ...,   77],
+       ...,
+       [ 215, ..., 1925]], shape=(20, 4), dtype=int16)}]
+
+解析后的文本:
+1. 6
+2. 有关的争议和纠纷，三方应协商解决，协商不成按下述第2种方式解
+3. 决：
+4. 1.将该争议提交仲裁委员会.
+5. 2.在丙方所在地法院通过诉讼方式解决.
+6. 第十八条生效、终止
+7. 本协议自甲、乙、丙三方法定代表人（负责人）或其授权代理人
+8. 签字或加盖名章（自然人签字）并加盖单位公章之日起生效，至本协
+9. 议项下贷款本息全部清偿完毕后终止.
+10. 第十九条其他
+11. 第19.1条丙方有权依据有关法律法规或其他规范性文件的规
+12. 定或金融监管机构的要求，将有关本合同的信息和其他相关信息提供
+13. 给中国人民银行信用信息基础数据库或其他依法设立的信用数据库，
+14. 供具有适当资格的机构或个人查询和使用，丙方也有权为本合同订立
+15. 和履行之目的，通过中国人民银行信用信息基础数据库和其他依法设
+16. 立的信用数据库查询甲方的相关信息.
+17. 第19.2条本协议一式叁份，甲、乙、丙三方各执壹份，备
+18. 案留存份.
+19. 第二十条双方约定的其他事项
+20. 2.

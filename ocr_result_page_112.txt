@@ -1,0 +1,575 @@
+OCR结果 - 第 112 页
+==================================================
+处理的图像: temp_page_111_processed.png
+原始PDF页面: 112
+
+详细结果:
+[{'input_path': 'temp_page_111_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[504,  76],
+       ...,
+       [502, 131]], shape=(4, 2), dtype=int16), array([[212, 149],
+       ...,
+       [210, 200]], shape=(4, 2), dtype=int16), array([[139, 226],
+       ...,
+       [138, 277]], shape=(4, 2), dtype=int16), array([[138, 306],
+       ...,
+       [137, 353]], shape=(4, 2), dtype=int16), array([[192, 451],
+       ...,
+       [191, 475]], shape=(4, 2), dtype=int16), array([[366, 445],
+       ...,
+       [365, 469]], shape=(4, 2), dtype=int16), array([[554, 455],
+       ...,
+       [554, 481]], shape=(4, 2), dtype=int16), array([[650, 457],
+       ...,
+       [650, 481]], shape=(4, 2), dtype=int16), array([[720, 454],
+       ...,
+       [719, 480]], shape=(4, 2), dtype=int16), array([[805, 456],
+       ...,
+       [804, 482]], shape=(4, 2), dtype=int16), array([[890, 458],
+       ...,
+       [889, 484]], shape=(4, 2), dtype=int16), array([[384, 471],
+       ...,
+       [384, 496]], shape=(4, 2), dtype=int16), array([[971, 464],
+       ...,
+       [971, 488]], shape=(4, 2), dtype=int16), array([[1066,  465],
+       ...,
+       [1065,  486]], shape=(4, 2), dtype=int16), array([[402, 495],
+       ...,
+       [402, 517]], shape=(4, 2), dtype=int16), array([[153, 517],
+       ...,
+       [153, 537]], shape=(4, 2), dtype=int16), array([[188, 517],
+       ...,
+       [188, 540]], shape=(4, 2), dtype=int16), array([[551, 520],
+       ...,
+       [551, 543]], shape=(4, 2), dtype=int16), array([[645, 520],
+       ...,
+       [645, 542]], shape=(4, 2), dtype=int16), array([[717, 522],
+       ...,
+       [717, 543]], shape=(4, 2), dtype=int16), array([[802, 520],
+       ...,
+       [801, 545]], shape=(4, 2), dtype=int16), array([[880, 520],
+       ...,
+       [879, 545]], shape=(4, 2), dtype=int16), array([[967, 525],
+       ...,
+       [967, 549]], shape=(4, 2), dtype=int16), array([[1064,  527],
+       ...,
+       [1063,  551]], shape=(4, 2), dtype=int16), array([[357, 546],
+       ...,
+       [357, 567]], shape=(4, 2), dtype=int16), array([[151, 580],
+       ...,
+       [151, 601]], shape=(4, 2), dtype=int16), array([[188, 578],
+       ...,
+       [187, 602]], shape=(4, 2), dtype=int16), array([[349, 574],
+       ...,
+       [349, 595]], shape=(4, 2), dtype=int16), array([[548, 580],
+       ...,
+       [548, 609]], shape=(4, 2), dtype=int16), array([[647, 584],
+       ...,
+       [647, 607]], shape=(4, 2), dtype=int16), array([[717, 581],
+       ...,
+       [716, 606]], shape=(4, 2), dtype=int16), array([[803, 583],
+       ...,
+       [803, 609]], shape=(4, 2), dtype=int16), array([[884, 582],
+       ...,
+       [883, 608]], shape=(4, 2), dtype=int16), array([[965, 585],
+       ...,
+       [965, 610]], shape=(4, 2), dtype=int16), array([[1061,  587],
+       ...,
+       [1060,  611]], shape=(4, 2), dtype=int16), array([[388, 597],
+       ...,
+       [388, 623]], shape=(4, 2), dtype=int16), array([[187, 628],
+       ...,
+       [186, 652]], shape=(4, 2), dtype=int16), array([[346, 621],
+       ...,
+       [346, 645]], shape=(4, 2), dtype=int16), array([[155, 635],
+       ...,
+       [155, 645]], shape=(4, 2), dtype=int16), array([[548, 628],
+       ...,
+       [548, 657]], shape=(4, 2), dtype=int16), array([[641, 630],
+       ...,
+       [641, 657]], shape=(4, 2), dtype=int16), array([[717, 632],
+       ...,
+       [717, 653]], shape=(4, 2), dtype=int16), array([[803, 632],
+       ...,
+       [803, 654]], shape=(4, 2), dtype=int16), array([[879, 632],
+       ...,
+       [879, 657]], shape=(4, 2), dtype=int16), array([[965, 632],
+       ...,
+       [965, 657]], shape=(4, 2), dtype=int16), array([[1061,  634],
+       ...,
+       [1060,  658]], shape=(4, 2), dtype=int16), array([[381, 649],
+       ...,
+       [381, 667]], shape=(4, 2), dtype=int16), array([[186, 672],
+       ...,
+       [185, 700]], shape=(4, 2), dtype=int16), array([[356, 666],
+       ...,
+       [355, 690]], shape=(4, 2), dtype=int16), array([[150, 676],
+       ...,
+       [150, 697]], shape=(4, 2), dtype=int16), array([[548, 676],
+       ...,
+       [548, 705]], shape=(4, 2), dtype=int16), array([[645, 679],
+       ...,
+       [645, 704]], shape=(4, 2), dtype=int16), array([[714, 676],
+       ...,
+       [714, 705]], shape=(4, 2), dtype=int16), array([[801, 674],
+       ...,
+       [801, 708]], shape=(4, 2), dtype=int16), array([[882, 673],
+       ...,
+       [881, 707]], shape=(4, 2), dtype=int16), array([[965, 681],
+       ...,
+       [965, 706]], shape=(4, 2), dtype=int16), array([[1059,  681],
+       ...,
+       [1058,  705]], shape=(4, 2), dtype=int16), array([[375, 694],
+       ...,
+       [375, 718]], shape=(4, 2), dtype=int16), array([[186, 723],
+       ...,
+       [185, 748]], shape=(4, 2), dtype=int16), array([[379, 716],
+       ...,
+       [379, 742]], shape=(4, 2), dtype=int16), array([[151, 728],
+       ...,
+       [151, 744]], shape=(4, 2), dtype=int16), array([[549, 727],
+       ...,
+       [549, 754]], shape=(4, 2), dtype=int16), array([[644, 727],
+       ...,
+       [644, 755]], shape=(4, 2), dtype=int16), array([[716, 727],
+       ...,
+       [716, 753]], shape=(4, 2), dtype=int16), array([[800, 725],
+       ...,
+       [800, 755]], shape=(4, 2), dtype=int16), array([[882, 724],
+       ...,
+       [881, 754]], shape=(4, 2), dtype=int16), array([[963, 728],
+       ...,
+       [963, 758]], shape=(4, 2), dtype=int16), array([[1057,  727],
+       ...,
+       [1057,  759]], shape=(4, 2), dtype=int16), array([[345, 741],
+       ...,
+       [344, 766]], shape=(4, 2), dtype=int16), array([[1245,  738],
+       ...,
+       [1240,  750]], shape=(4, 2), dtype=int16), array([[186, 772],
+       ...,
+       [185, 796]], shape=(4, 2), dtype=int16), array([[330, 764],
+       ...,
+       [329, 788]], shape=(4, 2), dtype=int16), array([[150, 775],
+       ...,
+       [150, 792]], shape=(4, 2), dtype=int16), array([[545, 775],
+       ...,
+       [545, 803]], shape=(4, 2), dtype=int16), array([[642, 774],
+       ...,
+       [642, 804]], shape=(4, 2), dtype=int16), array([[714, 774],
+       ...,
+       [714, 802]], shape=(4, 2), dtype=int16), array([[799, 772],
+       ...,
+       [798, 803]], shape=(4, 2), dtype=int16), array([[879, 772],
+       ...,
+       [878, 802]], shape=(4, 2), dtype=int16), array([[963, 778],
+       ...,
+       [963, 803]], shape=(4, 2), dtype=int16), array([[1053,  776],
+       ...,
+       [1054,  803]], shape=(4, 2), dtype=int16), array([[344, 792],
+       ...,
+       [344, 813]], shape=(4, 2), dtype=int16), array([[185, 821],
+       ...,
+       [184, 845]], shape=(4, 2), dtype=int16), array([[362, 815],
+       ...,
+       [362, 836]], shape=(4, 2), dtype=int16), array([[545, 823],
+       ...,
+       [545, 852]], shape=(4, 2), dtype=int16), array([[642, 824],
+       ...,
+       [642, 851]], shape=(4, 2), dtype=int16), array([[714, 823],
+       ...,
+       [714, 848]], shape=(4, 2), dtype=int16), array([[800, 824],
+       ...,
+       [800, 849]], shape=(4, 2), dtype=int16), array([[879, 824],
+       ...,
+       [879, 850]], shape=(4, 2), dtype=int16), array([[963, 825],
+       ...,
+       [963, 850]], shape=(4, 2), dtype=int16), array([[1054,  824],
+       ...,
+       [1055,  852]], shape=(4, 2), dtype=int16), array([[343, 840],
+       ...,
+       [343, 861]], shape=(4, 2), dtype=int16), array([[307, 868],
+       ...,
+       [307, 897]], shape=(4, 2), dtype=int16), array([[479, 873],
+       ...,
+       [410, 938]], shape=(4, 2), dtype=int16), array([[637, 868],
+       ...,
+       [635, 892]], shape=(4, 2), dtype=int16), array([[712, 870],
+       ...,
+       [712, 894]], shape=(4, 2), dtype=int16), array([[797, 870],
+       ...,
+       [797, 895]], shape=(4, 2), dtype=int16), array([[873, 871],
+       ...,
+       [873, 896]], shape=(4, 2), dtype=int16), array([[958, 873],
+       ...,
+       [958, 894]], shape=(4, 2), dtype=int16), array([[429, 893],
+       ...,
+       [421, 950]], shape=(4, 2), dtype=int16), array([[1089,  893],
+       ...,
+       [1016,  962]], shape=(4, 2), dtype=int16), array([[ 914,  944],
+       ...,
+       [ 941, 1040]], shape=(4, 2), dtype=int16), array([[ 115, 1004],
+       ...,
+       [ 115, 1051]], shape=(4, 2), dtype=int16), array([[ 800, 1002],
+       ...,
+       [ 803, 1050]], shape=(4, 2), dtype=int16), array([[ 847, 1005],
+       ...,
+       [ 847, 1044]], shape=(4, 2), dtype=int16), array([[ 734, 1031],
+       ...,
+       [ 712, 1066]], shape=(4, 2), dtype=int16), array([[ 698, 1119],
+       ...,
+       [ 702, 1157]], shape=(4, 2), dtype=int16), array([[ 908, 1438],
+       ...,
+       [ 907, 1512]], shape=(4, 2), dtype=int16), array([[ 388, 1947],
+       ...,
+       [ 388, 1969]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['注资设备移交及验收证明', '广西钦州保税港区尊绅贸易有限公司将本公司购置，由帕修斯领袖号', '装运，于2019年3月8日抵达钦州保税港区的设备注资到广西泰嘉光电', '科技有限公司，设备移交时间2019年3月13日，移交清单如下：', 'ZS-OST1807-01', 'USED AUGNER.', '1套', '', '13611.45', '140590', '686.2', '姐光机', '32,840400', 'ZS-OST1807-01-004', 'USED', '2', 'ZS-OST1BO-OQCOATER/DEVELOPER', '1', '139.', '1745033', '251995', '241.02', '15000100', 'ZS-OST1807-02-141', '酸鼻装置..', '3', 'ZS-05T1807-03', 'USED CFF ALUGNER', '1套', '70', '8062499', '100005', '10057', '31,222,700', 'ZS-O5T1807-03-002', '锅光乳', 'ZS-OST1B07-04', 'USED CF COATER', '1', '1套', '2.10', '211404', '325420', 'BOA57', '15400000', 'Z5-0511807-04-005', '数基量', 'ZS-OST1807-05', 'USED DRY ETCH', '5', '1套', '46', '1100728', '137215.', '773.49', '15000000', 'ZS-05T1807.05-003', '田于制经备', 'ZS-OST1807-06', 'USED CVO', '6', '1', '70', '12758', '154045', '12326', '15443,000', 'ZS-O571807-06-001', '化学气短证设备', '心', 'ZS-0ST1807-07', 'USED CA TO SPUTTEA', '7', '1鲁', '7', '13164.34', '213090', '1522.08', '1324000', 'ZS-OST1007-07-015', '金时设备', 'ZS-0511807-08', 'USED SPUTTER', '1套', '黄', '182080.54', '315045', '1347.25', '15,082,000', 'ZS-OST1807-08-001', '百金的限设备', '金计', '贸易', '787', '118100744', '1430005', '11004.54', '137,40000', '', '电科技有限', '嘉光电', '移交人：', '电', '科', '嘉', '西', '2019年3月13日', ':'], 'rec_scores': [0.9996427893638611, 0.989999532699585, 0.9937075972557068, 0.9764657020568848, 0.9242801070213318, 0.9179359078407288, 0.767609179019928, 0.0, 0.8194251656532288, 0.8308641314506531, 0.883165717124939, 0.6039283871650696, 0.8818126320838928, 0.9426925778388977, 0.96941077709198, 0.9991843104362488, 0.7857661843299866, 0.9637510776519775, 0.793456494808197, 0.8332318663597107, 0.8846869468688965, 0.9422548413276672, 0.7457818984985352, 0.8449379205703735, 0.41170668601989746, 0.9960893392562866, 0.7964085936546326, 0.8309589624404907, 0.6509182453155518, 0.5099437236785889, 0.562270998954773, 0.9980282187461853, 0.7197445631027222, 0.8315008878707886, 0.8751003742218018, 0.5624261498451233, 0.8088749647140503, 0.9483026266098022, 0.26505130529403687, 0.573721706867218, 0.7014510035514832, 0.8024957776069641, 0.9897010326385498, 0.675279438495636, 0.9019575715065002, 0.8225875496864319, 0.28646883368492126, 0.9661620259284973, 0.8978405594825745, 0.5549211502075195, 0.5356389880180359, 0.9126311540603638, 0.980407178401947, 0.8261493444442749, 0.6719858646392822, 0.7234923839569092, 0.8412094116210938, 0.5608927607536316, 0.9143961668014526, 0.9020465016365051, 0.908811092376709, 0.8803116083145142, 0.8578208684921265, 0.7594588994979858, 0.9828053116798401, 0.9388044476509094, 0.8134325742721558, 0.835505485534668, 0.5775480270385742, 0.40521833300590515, 0.8585996031761169, 0.7375219464302063, 0.994392454624176, 0.5256595015525818, 0.7020503878593445, 0.7208780646324158, 0.7830212712287903, 0.8430235981941223, 0.7489262223243713, 0.8731208443641663, 0.5560240149497986, 0.8510459661483765, 0.9735361933708191, 0.5677648186683655, 0.14888831973075867, 0.6410234570503235, 0.7930434346199036, 0.9809754490852356, 0.6369022727012634, 0.9353129267692566, 0.5488126277923584, 0.7588226199150085, 0.9850385785102844, 0.7362397313117981, 0.7691009044647217, 0.8706082701683044, 0.8274962306022644, 0.7341732382774353, 0.0, 0.8034830093383789, 0.9486053586006165, 0.9710872173309326, 0.8138962984085083, 0.892250120639801, 0.9594748616218567, 0.8049472570419312, 0.9447005391120911, 0.3609323799610138], 'rec_polys': [array([[504,  76],
+       ...,
+       [502, 131]], shape=(4, 2), dtype=int16), array([[212, 149],
+       ...,
+       [210, 200]], shape=(4, 2), dtype=int16), array([[139, 226],
+       ...,
+       [138, 277]], shape=(4, 2), dtype=int16), array([[138, 306],
+       ...,
+       [137, 353]], shape=(4, 2), dtype=int16), array([[192, 451],
+       ...,
+       [191, 475]], shape=(4, 2), dtype=int16), array([[366, 445],
+       ...,
+       [365, 469]], shape=(4, 2), dtype=int16), array([[554, 455],
+       ...,
+       [554, 481]], shape=(4, 2), dtype=int16), array([[650, 457],
+       ...,
+       [650, 481]], shape=(4, 2), dtype=int16), array([[720, 454],
+       ...,
+       [719, 480]], shape=(4, 2), dtype=int16), array([[805, 456],
+       ...,
+       [804, 482]], shape=(4, 2), dtype=int16), array([[890, 458],
+       ...,
+       [889, 484]], shape=(4, 2), dtype=int16), array([[384, 471],
+       ...,
+       [384, 496]], shape=(4, 2), dtype=int16), array([[971, 464],
+       ...,
+       [971, 488]], shape=(4, 2), dtype=int16), array([[1066,  465],
+       ...,
+       [1065,  486]], shape=(4, 2), dtype=int16), array([[402, 495],
+       ...,
+       [402, 517]], shape=(4, 2), dtype=int16), array([[153, 517],
+       ...,
+       [153, 537]], shape=(4, 2), dtype=int16), array([[188, 517],
+       ...,
+       [188, 540]], shape=(4, 2), dtype=int16), array([[551, 520],
+       ...,
+       [551, 543]], shape=(4, 2), dtype=int16), array([[645, 520],
+       ...,
+       [645, 542]], shape=(4, 2), dtype=int16), array([[717, 522],
+       ...,
+       [717, 543]], shape=(4, 2), dtype=int16), array([[802, 520],
+       ...,
+       [801, 545]], shape=(4, 2), dtype=int16), array([[880, 520],
+       ...,
+       [879, 545]], shape=(4, 2), dtype=int16), array([[967, 525],
+       ...,
+       [967, 549]], shape=(4, 2), dtype=int16), array([[1064,  527],
+       ...,
+       [1063,  551]], shape=(4, 2), dtype=int16), array([[357, 546],
+       ...,
+       [357, 567]], shape=(4, 2), dtype=int16), array([[151, 580],
+       ...,
+       [151, 601]], shape=(4, 2), dtype=int16), array([[188, 578],
+       ...,
+       [187, 602]], shape=(4, 2), dtype=int16), array([[349, 574],
+       ...,
+       [349, 595]], shape=(4, 2), dtype=int16), array([[548, 580],
+       ...,
+       [548, 609]], shape=(4, 2), dtype=int16), array([[647, 584],
+       ...,
+       [647, 607]], shape=(4, 2), dtype=int16), array([[717, 581],
+       ...,
+       [716, 606]], shape=(4, 2), dtype=int16), array([[803, 583],
+       ...,
+       [803, 609]], shape=(4, 2), dtype=int16), array([[884, 582],
+       ...,
+       [883, 608]], shape=(4, 2), dtype=int16), array([[965, 585],
+       ...,
+       [965, 610]], shape=(4, 2), dtype=int16), array([[1061,  587],
+       ...,
+       [1060,  611]], shape=(4, 2), dtype=int16), array([[388, 597],
+       ...,
+       [388, 623]], shape=(4, 2), dtype=int16), array([[187, 628],
+       ...,
+       [186, 652]], shape=(4, 2), dtype=int16), array([[346, 621],
+       ...,
+       [346, 645]], shape=(4, 2), dtype=int16), array([[155, 635],
+       ...,
+       [155, 645]], shape=(4, 2), dtype=int16), array([[548, 628],
+       ...,
+       [548, 657]], shape=(4, 2), dtype=int16), array([[641, 630],
+       ...,
+       [641, 657]], shape=(4, 2), dtype=int16), array([[717, 632],
+       ...,
+       [717, 653]], shape=(4, 2), dtype=int16), array([[803, 632],
+       ...,
+       [803, 654]], shape=(4, 2), dtype=int16), array([[879, 632],
+       ...,
+       [879, 657]], shape=(4, 2), dtype=int16), array([[965, 632],
+       ...,
+       [965, 657]], shape=(4, 2), dtype=int16), array([[1061,  634],
+       ...,
+       [1060,  658]], shape=(4, 2), dtype=int16), array([[381, 649],
+       ...,
+       [381, 667]], shape=(4, 2), dtype=int16), array([[186, 672],
+       ...,
+       [185, 700]], shape=(4, 2), dtype=int16), array([[356, 666],
+       ...,
+       [355, 690]], shape=(4, 2), dtype=int16), array([[150, 676],
+       ...,
+       [150, 697]], shape=(4, 2), dtype=int16), array([[548, 676],
+       ...,
+       [548, 705]], shape=(4, 2), dtype=int16), array([[645, 679],
+       ...,
+       [645, 704]], shape=(4, 2), dtype=int16), array([[714, 676],
+       ...,
+       [714, 705]], shape=(4, 2), dtype=int16), array([[801, 674],
+       ...,
+       [801, 708]], shape=(4, 2), dtype=int16), array([[882, 673],
+       ...,
+       [881, 707]], shape=(4, 2), dtype=int16), array([[965, 681],
+       ...,
+       [965, 706]], shape=(4, 2), dtype=int16), array([[1059,  681],
+       ...,
+       [1058,  705]], shape=(4, 2), dtype=int16), array([[375, 694],
+       ...,
+       [375, 718]], shape=(4, 2), dtype=int16), array([[186, 723],
+       ...,
+       [185, 748]], shape=(4, 2), dtype=int16), array([[379, 716],
+       ...,
+       [379, 742]], shape=(4, 2), dtype=int16), array([[151, 728],
+       ...,
+       [151, 744]], shape=(4, 2), dtype=int16), array([[549, 727],
+       ...,
+       [549, 754]], shape=(4, 2), dtype=int16), array([[644, 727],
+       ...,
+       [644, 755]], shape=(4, 2), dtype=int16), array([[716, 727],
+       ...,
+       [716, 753]], shape=(4, 2), dtype=int16), array([[800, 725],
+       ...,
+       [800, 755]], shape=(4, 2), dtype=int16), array([[882, 724],
+       ...,
+       [881, 754]], shape=(4, 2), dtype=int16), array([[963, 728],
+       ...,
+       [963, 758]], shape=(4, 2), dtype=int16), array([[1057,  727],
+       ...,
+       [1057,  759]], shape=(4, 2), dtype=int16), array([[345, 741],
+       ...,
+       [344, 766]], shape=(4, 2), dtype=int16), array([[1245,  738],
+       ...,
+       [1240,  750]], shape=(4, 2), dtype=int16), array([[186, 772],
+       ...,
+       [185, 796]], shape=(4, 2), dtype=int16), array([[330, 764],
+       ...,
+       [329, 788]], shape=(4, 2), dtype=int16), array([[150, 775],
+       ...,
+       [150, 792]], shape=(4, 2), dtype=int16), array([[545, 775],
+       ...,
+       [545, 803]], shape=(4, 2), dtype=int16), array([[642, 774],
+       ...,
+       [642, 804]], shape=(4, 2), dtype=int16), array([[714, 774],
+       ...,
+       [714, 802]], shape=(4, 2), dtype=int16), array([[799, 772],
+       ...,
+       [798, 803]], shape=(4, 2), dtype=int16), array([[879, 772],
+       ...,
+       [878, 802]], shape=(4, 2), dtype=int16), array([[963, 778],
+       ...,
+       [963, 803]], shape=(4, 2), dtype=int16), array([[1053,  776],
+       ...,
+       [1054,  803]], shape=(4, 2), dtype=int16), array([[344, 792],
+       ...,
+       [344, 813]], shape=(4, 2), dtype=int16), array([[185, 821],
+       ...,
+       [184, 845]], shape=(4, 2), dtype=int16), array([[362, 815],
+       ...,
+       [362, 836]], shape=(4, 2), dtype=int16), array([[545, 823],
+       ...,
+       [545, 852]], shape=(4, 2), dtype=int16), array([[642, 824],
+       ...,
+       [642, 851]], shape=(4, 2), dtype=int16), array([[714, 823],
+       ...,
+       [714, 848]], shape=(4, 2), dtype=int16), array([[800, 824],
+       ...,
+       [800, 849]], shape=(4, 2), dtype=int16), array([[879, 824],
+       ...,
+       [879, 850]], shape=(4, 2), dtype=int16), array([[963, 825],
+       ...,
+       [963, 850]], shape=(4, 2), dtype=int16), array([[1054,  824],
+       ...,
+       [1055,  852]], shape=(4, 2), dtype=int16), array([[343, 840],
+       ...,
+       [343, 861]], shape=(4, 2), dtype=int16), array([[307, 868],
+       ...,
+       [307, 897]], shape=(4, 2), dtype=int16), array([[479, 873],
+       ...,
+       [410, 938]], shape=(4, 2), dtype=int16), array([[637, 868],
+       ...,
+       [635, 892]], shape=(4, 2), dtype=int16), array([[712, 870],
+       ...,
+       [712, 894]], shape=(4, 2), dtype=int16), array([[797, 870],
+       ...,
+       [797, 895]], shape=(4, 2), dtype=int16), array([[873, 871],
+       ...,
+       [873, 896]], shape=(4, 2), dtype=int16), array([[958, 873],
+       ...,
+       [958, 894]], shape=(4, 2), dtype=int16), array([[429, 893],
+       ...,
+       [421, 950]], shape=(4, 2), dtype=int16), array([[1089,  893],
+       ...,
+       [1016,  962]], shape=(4, 2), dtype=int16), array([[ 914,  944],
+       ...,
+       [ 941, 1040]], shape=(4, 2), dtype=int16), array([[ 115, 1004],
+       ...,
+       [ 115, 1051]], shape=(4, 2), dtype=int16), array([[ 800, 1002],
+       ...,
+       [ 803, 1050]], shape=(4, 2), dtype=int16), array([[ 847, 1005],
+       ...,
+       [ 847, 1044]], shape=(4, 2), dtype=int16), array([[ 734, 1031],
+       ...,
+       [ 712, 1066]], shape=(4, 2), dtype=int16), array([[ 698, 1119],
+       ...,
+       [ 702, 1157]], shape=(4, 2), dtype=int16), array([[ 908, 1438],
+       ...,
+       [ 907, 1512]], shape=(4, 2), dtype=int16), array([[ 388, 1947],
+       ...,
+       [ 388, 1969]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[ 502, ...,  151],
+       ...,
+       [ 388, ..., 1969]], shape=(108, 4), dtype=int16)}]
+
+解析后的文本:
+1. 注资设备移交及验收证明
+2. 广西钦州保税港区尊绅贸易有限公司将本公司购置，由帕修斯领袖号
+3. 装运，于2019年3月8日抵达钦州保税港区的设备注资到广西泰嘉光电
+4. 科技有限公司，设备移交时间2019年3月13日，移交清单如下：
+5. ZS-OST1807-01
+6. USED AUGNER.
+7. 1套
+8. 
+9. 13611.45
+10. 140590
+11. 686.2
+12. 姐光机
+13. 32,840400
+14. ZS-OST1807-01-004
+15. USED
+16. 2
+17. ZS-OST1BO-OQCOATER/DEVELOPER
+18. 1
+19. 139.
+20. 1745033
+21. 251995
+22. 241.02
+23. 15000100
+24. ZS-OST1807-02-141
+25. 酸鼻装置..
+26. 3
+27. ZS-05T1807-03
+28. USED CFF ALUGNER
+29. 1套
+30. 70
+31. 8062499
+32. 100005
+33. 10057
+34. 31,222,700
+35. ZS-O5T1807-03-002
+36. 锅光乳
+37. ZS-OST1B07-04
+38. USED CF COATER
+39. 1
+40. 1套
+41. 2.10
+42. 211404
+43. 325420
+44. BOA57
+45. 15400000
+46. Z5-0511807-04-005
+47. 数基量
+48. ZS-OST1807-05
+49. USED DRY ETCH
+50. 5
+51. 1套
+52. 46
+53. 1100728
+54. 137215.
+55. 773.49
+56. 15000000
+57. ZS-05T1807.05-003
+58. 田于制经备
+59. ZS-OST1807-06
+60. USED CVO
+61. 6
+62. 1
+63. 70
+64. 12758
+65. 154045
+66. 12326
+67. 15443,000
+68. ZS-O571807-06-001
+69. 化学气短证设备
+70. 心
+71. ZS-0ST1807-07
+72. USED CA TO SPUTTEA
+73. 7
+74. 1鲁
+75. 7
+76. 13164.34
+77. 213090
+78. 1522.08
+79. 1324000
+80. ZS-OST1007-07-015
+81. 金时设备
+82. ZS-0511807-08
+83. USED SPUTTER
+84. 1套
+85. 黄
+86. 182080.54
+87. 315045
+88. 1347.25
+89. 15,082,000
+90. ZS-OST1807-08-001
+91. 百金的限设备
+92. 金计
+93. 贸易
+94. 787
+95. 118100744
+96. 1430005
+97. 11004.54
+98. 137,40000
+99. 
+100. 电科技有限
+101. 嘉光电
+102. 移交人：
+103. 电
+104. 科
+105. 嘉
+106. 西
+107. 2019年3月13日
+108. :

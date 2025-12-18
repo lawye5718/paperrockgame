@@ -1,0 +1,100 @@
+OCR结果 - 第 54 页
+==================================================
+处理的图像: temp_page_53_processed.png
+原始PDF页面: 54
+
+详细结果:
+[{'input_path': 'temp_page_53_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1291,    0],
+       ...,
+       [1289,   75]], shape=(4, 2), dtype=int16), array([[469, 143],
+       ...,
+       [468, 188]], shape=(4, 2), dtype=int16), array([[265, 258],
+       ...,
+       [265, 302]], shape=(4, 2), dtype=int16), array([[183, 328],
+       ...,
+       [183, 373]], shape=(4, 2), dtype=int16), array([[180, 399],
+       ...,
+       [180, 440]], shape=(4, 2), dtype=int16), array([[511, 515],
+       ...,
+       [510, 559]], shape=(4, 2), dtype=int16), array([[237, 614],
+       ...,
+       [236, 681]], shape=(4, 2), dtype=int16), array([[160, 696],
+       ...,
+       [158, 745]], shape=(4, 2), dtype=int16), array([[242, 779],
+       ...,
+       [241, 825]], shape=(4, 2), dtype=int16), array([[163, 850],
+       ...,
+       [162, 895]], shape=(4, 2), dtype=int16), array([[241, 925],
+       ...,
+       [241, 974]], shape=(4, 2), dtype=int16), array([[ 263, 1072],
+       ...,
+       [ 261, 1118]], shape=(4, 2), dtype=int16), array([[1066, 1818],
+       ...,
+       [1056, 1986]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['5l', '第二十四条合同生效与终止', '24.1本台同自各方签署之日起生效，至本台同项下委托', '贷款本金、利息、复利、罚息、违约金、损害赔偿金和甲方', '为实现债权而发生的所有费用全部清偿时终止。', '第二十五条合同文本', '25.1本合同甲方壹份、乙方参份及丙方壹份，具有', '同等法律效力。', '25.2本合同项下有关附件为本合同组成部分，与本合同', '具有同等法律效力。', '25.3有关本台同的服务咨询(或投诉)联系电话：95577。', '(以下无正文)', '斌'], 'rec_scores': [0.7130769491195679, 0.9954983592033386, 0.9725309014320374, 0.9459292888641357, 0.9952385425567627, 0.9988995790481567, 0.8869525790214539, 0.9923176169395447, 0.9768852591514587, 0.9875489473342896, 0.9496371746063232, 0.8737743496894836, 0.7043896317481995], 'rec_polys': [array([[1291,    0],
+       ...,
+       [1289,   75]], shape=(4, 2), dtype=int16), array([[469, 143],
+       ...,
+       [468, 188]], shape=(4, 2), dtype=int16), array([[265, 258],
+       ...,
+       [265, 302]], shape=(4, 2), dtype=int16), array([[183, 328],
+       ...,
+       [183, 373]], shape=(4, 2), dtype=int16), array([[180, 399],
+       ...,
+       [180, 440]], shape=(4, 2), dtype=int16), array([[511, 515],
+       ...,
+       [510, 559]], shape=(4, 2), dtype=int16), array([[237, 614],
+       ...,
+       [236, 681]], shape=(4, 2), dtype=int16), array([[160, 696],
+       ...,
+       [158, 745]], shape=(4, 2), dtype=int16), array([[242, 779],
+       ...,
+       [241, 825]], shape=(4, 2), dtype=int16), array([[163, 850],
+       ...,
+       [162, 895]], shape=(4, 2), dtype=int16), array([[241, 925],
+       ...,
+       [241, 974]], shape=(4, 2), dtype=int16), array([[ 263, 1072],
+       ...,
+       [ 261, 1118]], shape=(4, 2), dtype=int16), array([[1066, 1818],
+       ...,
+       [1056, 1986]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1289, ...,   78],
+       ...,
+       [1056, ..., 2000]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. 5l
+2. 第二十四条合同生效与终止
+3. 24.1本台同自各方签署之日起生效，至本台同项下委托
+4. 贷款本金、利息、复利、罚息、违约金、损害赔偿金和甲方
+5. 为实现债权而发生的所有费用全部清偿时终止。
+6. 第二十五条合同文本
+7. 25.1本合同甲方壹份、乙方参份及丙方壹份，具有
+8. 同等法律效力。
+9. 25.2本合同项下有关附件为本合同组成部分，与本合同
+10. 具有同等法律效力。
+11. 25.3有关本台同的服务咨询(或投诉)联系电话：95577。
+12. (以下无正文)
+13. 斌

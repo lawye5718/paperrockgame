@@ -1,0 +1,155 @@
+OCR结果 - 第 67 页
+==================================================
+处理的图像: temp_page_66_processed.png
+原始PDF页面: 67
+
+详细结果:
+[{'input_path': 'temp_page_66_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1339,    0],
+       ...,
+       [1323,  103]], shape=(4, 2), dtype=int16), array([[149, 153],
+       ...,
+       [150, 195]], shape=(4, 2), dtype=int16), array([[219, 228],
+       ...,
+       [220, 285]], shape=(4, 2), dtype=int16), array([[152, 320],
+       ...,
+       [153, 365]], shape=(4, 2), dtype=int16), array([[151, 404],
+       ...,
+       [152, 445]], shape=(4, 2), dtype=int16), array([[506, 542],
+       ...,
+       [506, 583]], shape=(4, 2), dtype=int16), array([[225, 632],
+       ...,
+       [225, 669]], shape=(4, 2), dtype=int16), array([[223, 710],
+       ...,
+       [223, 750]], shape=(4, 2), dtype=int16), array([[236, 790],
+       ...,
+       [236, 832]], shape=(4, 2), dtype=int16), array([[148, 872],
+       ...,
+       [148, 912]], shape=(4, 2), dtype=int16), array([[148, 951],
+       ...,
+       [149, 991]], shape=(4, 2), dtype=int16), array([[ 236, 1029],
+       ...,
+       [ 236, 1070]], shape=(4, 2), dtype=int16), array([[ 150, 1109],
+       ...,
+       [ 151, 1149]], shape=(4, 2), dtype=int16), array([[ 151, 1186],
+       ...,
+       [ 151, 1227]], shape=(4, 2), dtype=int16), array([[ 238, 1265],
+       ...,
+       [ 238, 1303]], shape=(4, 2), dtype=int16), array([[ 149, 1345],
+       ...,
+       [ 150, 1382]], shape=(4, 2), dtype=int16), array([[ 149, 1421],
+       ...,
+       [ 150, 1460]], shape=(4, 2), dtype=int16), array([[ 148, 1500],
+       ...,
+       [ 149, 1538]], shape=(4, 2), dtype=int16), array([[ 233, 1576],
+       ...,
+       [ 233, 1616]], shape=(4, 2), dtype=int16), array([[ 147, 1659],
+       ...,
+       [ 148, 1697]], shape=(4, 2), dtype=int16), array([[ 231, 1735],
+       ...,
+       [ 231, 1776]], shape=(4, 2), dtype=int16), array([[ 139, 1817],
+       ...,
+       [ 140, 1861]], shape=(4, 2), dtype=int16), array([[1038, 1847],
+       ...,
+       [1038, 1935]], shape=(4, 2), dtype=int16), array([[1207, 1917],
+       ...,
+       [1207, 1955]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['64', '变更和解除本合同。', '第12.2条甲方可以在借款到期前日内向乙方申请展期，经', '乙方书面同意并书面通知丙方予以展期。除非经丙方同意，展期期限', '不能超过原贷款期限的一半，且展期次数不能超过一次。', '第十三条甲方的承诺与保证', '甲方在本合同签署之日作出如下陈述与保证:', '第13.1条若甲方为法人或其他组织的：', '(1)甲方系依法成立并合法存续的企业法人，拥有完全的民事', '权利能力和民事行为能力签署并履行本合同，并已取得了签署本合同', '所需的一切必要的许可、批准、登记及备案.', '（2)甲方签署和执行本合同是自愿的，是其真实意思的表示，', '并经过所有必需的合法授权及外部批准（如有），甲方为签署和执行', '本合同所需的手续均已合法地办理完毕并具有法律效力.', '（3）甲方签署及履行本合同，现在和将来均不会违反其签署的', '或对其本身或其资产具有约束力的任何文件，或违反其成立的批准文', '件、内部规章制度，或违反任何对甲方有约束力的法律、法规、行政', '安排、政府命令、司法裁决或与第三人的合同。', '(4)甲方保证其提供给丙方的全部资料是真实、完整和准确的，', '甲方未遗漏和隐瞒任何重要的事实.', '(5)甲方未涉及任何破产、清算、解散、合并、分立或类似法', '律程序，亦未发生任何可能导致涉及该等法律程序的事件一', '斌', '8'], 'rec_scores': [0.9571830034255981, 0.9647833704948425, 0.9856425523757935, 0.9826828837394714, 0.9851281642913818, 0.9994409680366516, 0.9779472351074219, 0.9943197965621948, 0.9908916354179382, 0.9983540773391724, 0.9755034446716309, 0.9671777486801147, 0.9927745461463928, 0.975307285785675, 0.9727975726127625, 0.9986810684204102, 0.9940072894096375, 0.9639431238174438, 0.9811107516288757, 0.9635475873947144, 0.9632827043533325, 0.9839653372764587, 0.4745666980743408, 0.32439321279525757], 'rec_polys': [array([[1339,    0],
+       ...,
+       [1323,  103]], shape=(4, 2), dtype=int16), array([[149, 153],
+       ...,
+       [150, 195]], shape=(4, 2), dtype=int16), array([[219, 228],
+       ...,
+       [220, 285]], shape=(4, 2), dtype=int16), array([[152, 320],
+       ...,
+       [153, 365]], shape=(4, 2), dtype=int16), array([[151, 404],
+       ...,
+       [152, 445]], shape=(4, 2), dtype=int16), array([[506, 542],
+       ...,
+       [506, 583]], shape=(4, 2), dtype=int16), array([[225, 632],
+       ...,
+       [225, 669]], shape=(4, 2), dtype=int16), array([[223, 710],
+       ...,
+       [223, 750]], shape=(4, 2), dtype=int16), array([[236, 790],
+       ...,
+       [236, 832]], shape=(4, 2), dtype=int16), array([[148, 872],
+       ...,
+       [148, 912]], shape=(4, 2), dtype=int16), array([[148, 951],
+       ...,
+       [149, 991]], shape=(4, 2), dtype=int16), array([[ 236, 1029],
+       ...,
+       [ 236, 1070]], shape=(4, 2), dtype=int16), array([[ 150, 1109],
+       ...,
+       [ 151, 1149]], shape=(4, 2), dtype=int16), array([[ 151, 1186],
+       ...,
+       [ 151, 1227]], shape=(4, 2), dtype=int16), array([[ 238, 1265],
+       ...,
+       [ 238, 1303]], shape=(4, 2), dtype=int16), array([[ 149, 1345],
+       ...,
+       [ 150, 1382]], shape=(4, 2), dtype=int16), array([[ 149, 1421],
+       ...,
+       [ 150, 1460]], shape=(4, 2), dtype=int16), array([[ 148, 1500],
+       ...,
+       [ 149, 1538]], shape=(4, 2), dtype=int16), array([[ 233, 1576],
+       ...,
+       [ 233, 1616]], shape=(4, 2), dtype=int16), array([[ 147, 1659],
+       ...,
+       [ 148, 1697]], shape=(4, 2), dtype=int16), array([[ 231, 1735],
+       ...,
+       [ 231, 1776]], shape=(4, 2), dtype=int16), array([[ 139, 1817],
+       ...,
+       [ 140, 1861]], shape=(4, 2), dtype=int16), array([[1038, 1847],
+       ...,
+       [1038, 1935]], shape=(4, 2), dtype=int16), array([[1207, 1917],
+       ...,
+       [1207, 1955]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[1323, ...,  115],
+       ...,
+       [1207, ..., 1955]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 64
+2. 变更和解除本合同。
+3. 第12.2条甲方可以在借款到期前日内向乙方申请展期，经
+4. 乙方书面同意并书面通知丙方予以展期。除非经丙方同意，展期期限
+5. 不能超过原贷款期限的一半，且展期次数不能超过一次。
+6. 第十三条甲方的承诺与保证
+7. 甲方在本合同签署之日作出如下陈述与保证:
+8. 第13.1条若甲方为法人或其他组织的：
+9. (1)甲方系依法成立并合法存续的企业法人，拥有完全的民事
+10. 权利能力和民事行为能力签署并履行本合同，并已取得了签署本合同
+11. 所需的一切必要的许可、批准、登记及备案.
+12. （2)甲方签署和执行本合同是自愿的，是其真实意思的表示，
+13. 并经过所有必需的合法授权及外部批准（如有），甲方为签署和执行
+14. 本合同所需的手续均已合法地办理完毕并具有法律效力.
+15. （3）甲方签署及履行本合同，现在和将来均不会违反其签署的
+16. 或对其本身或其资产具有约束力的任何文件，或违反其成立的批准文
+17. 件、内部规章制度，或违反任何对甲方有约束力的法律、法规、行政
+18. 安排、政府命令、司法裁决或与第三人的合同。
+19. (4)甲方保证其提供给丙方的全部资料是真实、完整和准确的，
+20. 甲方未遗漏和隐瞒任何重要的事实.
+21. (5)甲方未涉及任何破产、清算、解散、合并、分立或类似法
+22. 律程序，亦未发生任何可能导致涉及该等法律程序的事件一
+23. 斌
+24. 8

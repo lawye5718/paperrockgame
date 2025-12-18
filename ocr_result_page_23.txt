@@ -1,0 +1,200 @@
+OCR结果 - 第 23 页
+==================================================
+处理的图像: temp_page_22_processed.png
+原始PDF页面: 23
+
+详细结果:
+[{'input_path': 'temp_page_22_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[153, 219],
+       ...,
+       [152, 267]], shape=(4, 2), dtype=int16), array([[1312,  237],
+       ...,
+       [1340,  268]], shape=(4, 2), dtype=int16), array([[577, 343],
+       ...,
+       [576, 392]], shape=(4, 2), dtype=int16), array([[244, 415],
+       ...,
+       [243, 460]], shape=(4, 2), dtype=int16), array([[429, 417],
+       ...,
+       [428, 461]], shape=(4, 2), dtype=int16), array([[162, 485],
+       ...,
+       [160, 535]], shape=(4, 2), dtype=int16), array([[914, 485],
+       ...,
+       [879, 518]], shape=(4, 2), dtype=int16), array([[1118,  568],
+       ...,
+       [1051,  641]], shape=(4, 2), dtype=int16), array([[1071,  641],
+       ...,
+       [1039,  672]], shape=(4, 2), dtype=int16), array([[168, 669],
+       ...,
+       [168, 711]], shape=(4, 2), dtype=int16), array([[245, 752],
+       ...,
+       [244, 800]], shape=(4, 2), dtype=int16), array([[605, 798],
+       ...,
+       [605, 828]], shape=(4, 2), dtype=int16), array([[245, 838],
+       ...,
+       [245, 889]], shape=(4, 2), dtype=int16), array([[232, 899],
+       ...,
+       [233, 986]], shape=(4, 2), dtype=int16), array([[ 719,  985],
+       ...,
+       [ 727, 1017]], shape=(4, 2), dtype=int16), array([[ 241, 1004],
+       ...,
+       [ 242, 1063]], shape=(4, 2), dtype=int16), array([[ 777, 1017],
+       ...,
+       [ 745, 1068]], shape=(4, 2), dtype=int16), array([[ 243, 1090],
+       ...,
+       [ 244, 1137]], shape=(4, 2), dtype=int16), array([[ 267, 1138],
+       ...,
+       [ 267, 1171]], shape=(4, 2), dtype=int16), array([[ 241, 1166],
+       ...,
+       [ 242, 1228]], shape=(4, 2), dtype=int16), array([[ 242, 1261],
+       ...,
+       [ 244, 1312]], shape=(4, 2), dtype=int16), array([[ 412, 1306],
+       ...,
+       [ 371, 1349]], shape=(4, 2), dtype=int16), array([[ 443, 1353],
+       ...,
+       [ 513, 1429]], shape=(4, 2), dtype=int16), array([[ 612, 1395],
+       ...,
+       [ 611, 1440]], shape=(4, 2), dtype=int16), array([[ 509, 1436],
+       ...,
+       [ 509, 1536]], shape=(4, 2), dtype=int16), array([[ 256, 1483],
+       ...,
+       [ 258, 1529]], shape=(4, 2), dtype=int16), array([[ 610, 1620],
+       ...,
+       [ 611, 1665]], shape=(4, 2), dtype=int16), array([[ 187, 1632],
+       ...,
+       [ 156, 1686]], shape=(4, 2), dtype=int16), array([[ 154, 1691],
+       ...,
+       [ 130, 1717]], shape=(4, 2), dtype=int16), array([[ 252, 1714],
+       ...,
+       [ 251, 1778]], shape=(4, 2), dtype=int16), array([[ 556, 1836],
+       ...,
+       [ 554, 1883]], shape=(4, 2), dtype=int16), array([[ 265, 1899],
+       ...,
+       [ 263, 1949]], shape=(4, 2), dtype=int16), array([[ 707, 1971],
+       ...,
+       [ 707, 1995]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['方发放人民币委托贷款，三方经协商一致后订立本合同。', '茶', '第一条贷款金额、', '第1.1条', '乙方委托丙方向甲方发放贷款金额为人民币（大写）', '捌任万元整。', 'GUI', '银行', 'BANI', '入乙方在丙方开立的下述委托贷款专户：', '户名：广西自贸区钦州港片区开发投资集团有限责任公司', '', '开户银行：桂林银行股份有限公司钦州市钦州港支行', '账号：166000091098', 'A', '第1.3条甲方接收委托贷款的账户信息如下：', 'INK', '户名：广西泰嘉光电科技有限公司', '', '开户银行：桂林银行股份有限公司钦州市钦州港支行', '账号：660000012643000017.', 'BANK', '山', '第二条贷款用途', '“秦高超加工常', '甲方借款将用于', '第三条贷款期限', '', 'N!', '委托贷款期限自2021年2月日至2022年2月5日。', '第四条贷款利率和利息', '第4.1条人民币贷款利率按下列第A', '2'], 'rec_scores': [0.9808328151702881, 0.061509452760219574, 0.9704644680023193, 0.9972461462020874, 0.9969423413276672, 0.9063217639923096, 0.8115984797477722, 0.6349109411239624, 0.6863482594490051, 0.990548849105835, 0.9934699535369873, 0.0, 0.9966102838516235, 0.6754983067512512, 0.2960242033004761, 0.9579226970672607, 0.4816350042819977, 0.9876932501792908, 0.0, 0.978653609752655, 0.9533043503761292, 0.959918200969696, 0.08846992999315262, 0.9995425939559937, 0.3983079493045807, 0.9978953003883362, 0.9997581839561462, 0.0, 0.5636535882949829, 0.8844941854476929, 0.9992756843566895, 0.9968971014022827, 0.9994841814041138], 'rec_polys': [array([[153, 219],
+       ...,
+       [152, 267]], shape=(4, 2), dtype=int16), array([[1312,  237],
+       ...,
+       [1340,  268]], shape=(4, 2), dtype=int16), array([[577, 343],
+       ...,
+       [576, 392]], shape=(4, 2), dtype=int16), array([[244, 415],
+       ...,
+       [243, 460]], shape=(4, 2), dtype=int16), array([[429, 417],
+       ...,
+       [428, 461]], shape=(4, 2), dtype=int16), array([[162, 485],
+       ...,
+       [160, 535]], shape=(4, 2), dtype=int16), array([[914, 485],
+       ...,
+       [879, 518]], shape=(4, 2), dtype=int16), array([[1118,  568],
+       ...,
+       [1051,  641]], shape=(4, 2), dtype=int16), array([[1071,  641],
+       ...,
+       [1039,  672]], shape=(4, 2), dtype=int16), array([[168, 669],
+       ...,
+       [168, 711]], shape=(4, 2), dtype=int16), array([[245, 752],
+       ...,
+       [244, 800]], shape=(4, 2), dtype=int16), array([[605, 798],
+       ...,
+       [605, 828]], shape=(4, 2), dtype=int16), array([[245, 838],
+       ...,
+       [245, 889]], shape=(4, 2), dtype=int16), array([[232, 899],
+       ...,
+       [233, 986]], shape=(4, 2), dtype=int16), array([[ 719,  985],
+       ...,
+       [ 727, 1017]], shape=(4, 2), dtype=int16), array([[ 241, 1004],
+       ...,
+       [ 242, 1063]], shape=(4, 2), dtype=int16), array([[ 777, 1017],
+       ...,
+       [ 745, 1068]], shape=(4, 2), dtype=int16), array([[ 243, 1090],
+       ...,
+       [ 244, 1137]], shape=(4, 2), dtype=int16), array([[ 267, 1138],
+       ...,
+       [ 267, 1171]], shape=(4, 2), dtype=int16), array([[ 241, 1166],
+       ...,
+       [ 242, 1228]], shape=(4, 2), dtype=int16), array([[ 242, 1261],
+       ...,
+       [ 244, 1312]], shape=(4, 2), dtype=int16), array([[ 412, 1306],
+       ...,
+       [ 371, 1349]], shape=(4, 2), dtype=int16), array([[ 443, 1353],
+       ...,
+       [ 513, 1429]], shape=(4, 2), dtype=int16), array([[ 612, 1395],
+       ...,
+       [ 611, 1440]], shape=(4, 2), dtype=int16), array([[ 509, 1436],
+       ...,
+       [ 509, 1536]], shape=(4, 2), dtype=int16), array([[ 256, 1483],
+       ...,
+       [ 258, 1529]], shape=(4, 2), dtype=int16), array([[ 610, 1620],
+       ...,
+       [ 611, 1665]], shape=(4, 2), dtype=int16), array([[ 187, 1632],
+       ...,
+       [ 156, 1686]], shape=(4, 2), dtype=int16), array([[ 154, 1691],
+       ...,
+       [ 130, 1717]], shape=(4, 2), dtype=int16), array([[ 252, 1714],
+       ...,
+       [ 251, 1778]], shape=(4, 2), dtype=int16), array([[ 556, 1836],
+       ...,
+       [ 554, 1883]], shape=(4, 2), dtype=int16), array([[ 265, 1899],
+       ...,
+       [ 263, 1949]], shape=(4, 2), dtype=int16), array([[ 707, 1971],
+       ...,
+       [ 707, 1995]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 152, ...,  292],
+       ...,
+       [ 707, ..., 1995]], shape=(33, 4), dtype=int16)}]
+
+解析后的文本:
+1. 方发放人民币委托贷款，三方经协商一致后订立本合同。
+2. 茶
+3. 第一条贷款金额、
+4. 第1.1条
+5. 乙方委托丙方向甲方发放贷款金额为人民币（大写）
+6. 捌任万元整。
+7. GUI
+8. 银行
+9. BANI
+10. 入乙方在丙方开立的下述委托贷款专户：
+11. 户名：广西自贸区钦州港片区开发投资集团有限责任公司
+12. 
+13. 开户银行：桂林银行股份有限公司钦州市钦州港支行
+14. 账号：166000091098
+15. A
+16. 第1.3条甲方接收委托贷款的账户信息如下：
+17. INK
+18. 户名：广西泰嘉光电科技有限公司
+19. 
+20. 开户银行：桂林银行股份有限公司钦州市钦州港支行
+21. 账号：660000012643000017.
+22. BANK
+23. 山
+24. 第二条贷款用途
+25. “秦高超加工常
+26. 甲方借款将用于
+27. 第三条贷款期限
+28. 
+29. N!
+30. 委托贷款期限自2021年2月日至2022年2月5日。
+31. 第四条贷款利率和利息
+32. 第4.1条人民币贷款利率按下列第A
+33. 2

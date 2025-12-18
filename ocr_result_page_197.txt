@@ -1,0 +1,105 @@
+OCR结果 - 第 197 页
+==================================================
+处理的图像: temp_page_196_processed.png
+原始PDF页面: 197
+
+详细结果:
+[{'input_path': 'temp_page_196_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[167, 154],
+       ...,
+       [167, 207]], shape=(4, 2), dtype=int16), array([[110, 220],
+       ...,
+       [109, 259]], shape=(4, 2), dtype=int16), array([[173, 281],
+       ...,
+       [173, 321]], shape=(4, 2), dtype=int16), array([[110, 337],
+       ...,
+       [109, 375]], shape=(4, 2), dtype=int16), array([[172, 397],
+       ...,
+       [172, 431]], shape=(4, 2), dtype=int16), array([[108, 450],
+       ...,
+       [108, 487]], shape=(4, 2), dtype=int16), array([[171, 509],
+       ...,
+       [171, 543]], shape=(4, 2), dtype=int16), array([[186, 567],
+       ...,
+       [186, 602]], shape=(4, 2), dtype=int16), array([[171, 624],
+       ...,
+       [171, 658]], shape=(4, 2), dtype=int16), array([[185, 684],
+       ...,
+       [185, 718]], shape=(4, 2), dtype=int16), array([[170, 740],
+       ...,
+       [170, 775]], shape=(4, 2), dtype=int16), array([[167, 798],
+       ...,
+       [167, 838]], shape=(4, 2), dtype=int16), array([[103, 855],
+       ...,
+       [102, 889]], shape=(4, 2), dtype=int16), array([[ 695, 1976],
+       ...,
+       [ 695, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['酸性废气洗涤塔补水：洗涤塔循环水量约72000 m/d，补水按1%估算约720$m^3/d，', '其中蒸发损失144m^{3/d，排水576m^{3/d，进入含氟废水处理系统。', '碱性废气洗涤塔补水：洗涤塔循环水量约48000 m/d，补水按2%估算约960m{/d，', '其中蒸发损失192m^³3/d，排水768m^{3}/d，进入含氟废水处理系统。', '特殊废气洗涤塔补水：洗涤塔循环水量约68500m/d，补水按3%估算约2055m3/d，', '其中蒸发损失411m^{3/d，排水1644m^{3}/d，进入含氟废水处理系统。', '废水处理系统加药用水：900m3/d;', '(2)生活用水系统', '厂区生活用水量约400m/d，主要包括职工生活用水、工服清洗水、餐厅用水。', '(3)绿化用水系统', '厂区绿化及道路浇洒用水量约为600m/d。', '本项目生产区用水量见表2.3-1，生产区水量平衡见图2.3-1。本项日的用水量计算', '及水平衡以天为单位进行计算。', '58'], 'rec_scores': [0.8623567819595337, 0.8629717826843262, 0.9196586608886719, 0.8963629603385925, 0.9362642765045166, 0.8814723491668701, 0.9569776654243469, 0.92134690284729, 0.9808892011642456, 0.903855562210083, 0.9528935551643372, 0.9684617519378662, 0.9982509016990662, 0.999408483505249], 'rec_polys': [array([[167, 154],
+       ...,
+       [167, 207]], shape=(4, 2), dtype=int16), array([[110, 220],
+       ...,
+       [109, 259]], shape=(4, 2), dtype=int16), array([[173, 281],
+       ...,
+       [173, 321]], shape=(4, 2), dtype=int16), array([[110, 337],
+       ...,
+       [109, 375]], shape=(4, 2), dtype=int16), array([[172, 397],
+       ...,
+       [172, 431]], shape=(4, 2), dtype=int16), array([[108, 450],
+       ...,
+       [108, 487]], shape=(4, 2), dtype=int16), array([[171, 509],
+       ...,
+       [171, 543]], shape=(4, 2), dtype=int16), array([[186, 567],
+       ...,
+       [186, 602]], shape=(4, 2), dtype=int16), array([[171, 624],
+       ...,
+       [171, 658]], shape=(4, 2), dtype=int16), array([[185, 684],
+       ...,
+       [185, 718]], shape=(4, 2), dtype=int16), array([[170, 740],
+       ...,
+       [170, 775]], shape=(4, 2), dtype=int16), array([[167, 798],
+       ...,
+       [167, 838]], shape=(4, 2), dtype=int16), array([[103, 855],
+       ...,
+       [102, 889]], shape=(4, 2), dtype=int16), array([[ 695, 1976],
+       ...,
+       [ 695, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 167, ...,  218],
+       ...,
+       [ 695, ..., 1999]], shape=(14, 4), dtype=int16)}]
+
+解析后的文本:
+1. 酸性废气洗涤塔补水：洗涤塔循环水量约72000 m/d，补水按1%估算约720$m^3/d，
+2. 其中蒸发损失144m^{3/d，排水576m^{3/d，进入含氟废水处理系统。
+3. 碱性废气洗涤塔补水：洗涤塔循环水量约48000 m/d，补水按2%估算约960m{/d，
+4. 其中蒸发损失192m^³3/d，排水768m^{3}/d，进入含氟废水处理系统。
+5. 特殊废气洗涤塔补水：洗涤塔循环水量约68500m/d，补水按3%估算约2055m3/d，
+6. 其中蒸发损失411m^{3/d，排水1644m^{3}/d，进入含氟废水处理系统。
+7. 废水处理系统加药用水：900m3/d;
+8. (2)生活用水系统
+9. 厂区生活用水量约400m/d，主要包括职工生活用水、工服清洗水、餐厅用水。
+10. (3)绿化用水系统
+11. 厂区绿化及道路浇洒用水量约为600m/d。
+12. 本项目生产区用水量见表2.3-1，生产区水量平衡见图2.3-1。本项日的用水量计算
+13. 及水平衡以天为单位进行计算。
+14. 58

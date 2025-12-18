@@ -1,0 +1,155 @@
+OCR结果 - 第 51 页
+==================================================
+处理的图像: temp_page_50_processed.png
+原始PDF页面: 51
+
+详细结果:
+[{'input_path': 'temp_page_50_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[223, 118],
+       ...,
+       [223, 166]], shape=(4, 2), dtype=int16), array([[135, 196],
+       ...,
+       [136, 245]], shape=(4, 2), dtype=int16), array([[511, 344],
+       ...,
+       [511, 386]], shape=(4, 2), dtype=int16), array([[718, 343],
+       ...,
+       [718, 386]], shape=(4, 2), dtype=int16), array([[222, 492],
+       ...,
+       [222, 539]], shape=(4, 2), dtype=int16), array([[139, 566],
+       ...,
+       [139, 610]], shape=(4, 2), dtype=int16), array([[140, 642],
+       ...,
+       [140, 686]], shape=(4, 2), dtype=int16), array([[230, 718],
+       ...,
+       [230, 762]], shape=(4, 2), dtype=int16), array([[147, 792],
+       ...,
+       [147, 837]], shape=(4, 2), dtype=int16), array([[474, 944],
+       ...,
+       [474, 983]], shape=(4, 2), dtype=int16), array([[675, 944],
+       ...,
+       [676, 986]], shape=(4, 2), dtype=int16), array([[ 231, 1089],
+       ...,
+       [ 231, 1136]], shape=(4, 2), dtype=int16), array([[ 142, 1151],
+       ...,
+       [ 137, 1210]], shape=(4, 2), dtype=int16), array([[ 236, 1236],
+       ...,
+       [ 236, 1280]], shape=(4, 2), dtype=int16), array([[ 154, 1305],
+       ...,
+       [ 155, 1353]], shape=(4, 2), dtype=int16), array([[ 152, 1379],
+       ...,
+       [ 153, 1423]], shape=(4, 2), dtype=int16), array([[ 239, 1454],
+       ...,
+       [ 240, 1498]], shape=(4, 2), dtype=int16), array([[ 156, 1523],
+       ...,
+       [ 157, 1568]], shape=(4, 2), dtype=int16), array([[ 157, 1595],
+       ...,
+       [ 158, 1640]], shape=(4, 2), dtype=int16), array([[ 155, 1660],
+       ...,
+       [ 153, 1711]], shape=(4, 2), dtype=int16), array([[ 373, 1810],
+       ...,
+       [ 374, 1856]], shape=(4, 2), dtype=int16), array([[ 574, 1803],
+       ...,
+       [ 574, 1851]], shape=(4, 2), dtype=int16), array([[ 994, 1920],
+       ...,
+       [ 996, 2000]], shape=(4, 2), dtype=int16), array([[ 687, 1954],
+       ...,
+       [ 687, 1986]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['17.6因丙方违约给甲方造成任何其他损失的，应当承担', '赔偿责任。', '第十八条', '提前还款', '18.1丙方提前还款，应在还款日的十个工作日前书面通', '知甲方，并经甲方同意。如甲方不同意提前还款，丙方仍应', '按本合同约定执行。', '18.2对提前归还的委托贷款，根据该部分委托贷款金额', '和使用天数，按本合同第五条约定的利率计收利息。', '第十九条', '委托贷款展期', '19.1委托贷款到期，丙方可以向甲方申请委托贷款展', '期。', '19.2丙方应在委托贷款到期日的十五个工作日之前，向', '甲方提出委托贷款展期的书面申请和本合同担保人同意展', '期后继续承担担保义务的书面文件或甲方认可的新的担保。', '19.3甲方同意展期的，在委托贷款展期申请书上签署明', '确意见，加盖有效印章，乙方据此同甲方和丙方签订展期', '款协议。甲方不同意展期的，丙方仍应按本合同约定履行还', '款义务。', '第一十条', '合同的转让、变更与解除', '可', '16'], 'rec_scores': [0.9881572127342224, 0.990707278251648, 0.999639093875885, 0.9983713030815125, 0.9967387318611145, 0.9954543709754944, 0.9974585771560669, 0.9976593852043152, 0.9986351132392883, 0.9995427131652832, 0.9996435046195984, 0.9959395527839661, 0.9971132278442383, 0.9940586090087891, 0.9939053058624268, 0.9984667301177979, 0.9904510974884033, 0.9917266368865967, 0.9843376874923706, 0.9944165945053101, 0.9735115766525269, 0.9722467660903931, 0.6595785021781921, 0.9974265098571777], 'rec_polys': [array([[223, 118],
+       ...,
+       [223, 166]], shape=(4, 2), dtype=int16), array([[135, 196],
+       ...,
+       [136, 245]], shape=(4, 2), dtype=int16), array([[511, 344],
+       ...,
+       [511, 386]], shape=(4, 2), dtype=int16), array([[718, 343],
+       ...,
+       [718, 386]], shape=(4, 2), dtype=int16), array([[222, 492],
+       ...,
+       [222, 539]], shape=(4, 2), dtype=int16), array([[139, 566],
+       ...,
+       [139, 610]], shape=(4, 2), dtype=int16), array([[140, 642],
+       ...,
+       [140, 686]], shape=(4, 2), dtype=int16), array([[230, 718],
+       ...,
+       [230, 762]], shape=(4, 2), dtype=int16), array([[147, 792],
+       ...,
+       [147, 837]], shape=(4, 2), dtype=int16), array([[474, 944],
+       ...,
+       [474, 983]], shape=(4, 2), dtype=int16), array([[675, 944],
+       ...,
+       [676, 986]], shape=(4, 2), dtype=int16), array([[ 231, 1089],
+       ...,
+       [ 231, 1136]], shape=(4, 2), dtype=int16), array([[ 142, 1151],
+       ...,
+       [ 137, 1210]], shape=(4, 2), dtype=int16), array([[ 236, 1236],
+       ...,
+       [ 236, 1280]], shape=(4, 2), dtype=int16), array([[ 154, 1305],
+       ...,
+       [ 155, 1353]], shape=(4, 2), dtype=int16), array([[ 152, 1379],
+       ...,
+       [ 153, 1423]], shape=(4, 2), dtype=int16), array([[ 239, 1454],
+       ...,
+       [ 240, 1498]], shape=(4, 2), dtype=int16), array([[ 156, 1523],
+       ...,
+       [ 157, 1568]], shape=(4, 2), dtype=int16), array([[ 157, 1595],
+       ...,
+       [ 158, 1640]], shape=(4, 2), dtype=int16), array([[ 155, 1660],
+       ...,
+       [ 153, 1711]], shape=(4, 2), dtype=int16), array([[ 373, 1810],
+       ...,
+       [ 374, 1856]], shape=(4, 2), dtype=int16), array([[ 574, 1803],
+       ...,
+       [ 574, 1851]], shape=(4, 2), dtype=int16), array([[ 994, 1920],
+       ...,
+       [ 996, 2000]], shape=(4, 2), dtype=int16), array([[ 687, 1954],
+       ...,
+       [ 687, 1986]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 223, ...,  166],
+       ...,
+       [ 687, ..., 1986]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 17.6因丙方违约给甲方造成任何其他损失的，应当承担
+2. 赔偿责任。
+3. 第十八条
+4. 提前还款
+5. 18.1丙方提前还款，应在还款日的十个工作日前书面通
+6. 知甲方，并经甲方同意。如甲方不同意提前还款，丙方仍应
+7. 按本合同约定执行。
+8. 18.2对提前归还的委托贷款，根据该部分委托贷款金额
+9. 和使用天数，按本合同第五条约定的利率计收利息。
+10. 第十九条
+11. 委托贷款展期
+12. 19.1委托贷款到期，丙方可以向甲方申请委托贷款展
+13. 期。
+14. 19.2丙方应在委托贷款到期日的十五个工作日之前，向
+15. 甲方提出委托贷款展期的书面申请和本合同担保人同意展
+16. 期后继续承担担保义务的书面文件或甲方认可的新的担保。
+17. 19.3甲方同意展期的，在委托贷款展期申请书上签署明
+18. 确意见，加盖有效印章，乙方据此同甲方和丙方签订展期
+19. 款协议。甲方不同意展期的，丙方仍应按本合同约定履行还
+20. 款义务。
+21. 第一十条
+22. 合同的转让、变更与解除
+23. 可
+24. 16

@@ -1,0 +1,170 @@
+OCR结果 - 第 27 页
+==================================================
+处理的图像: temp_page_26_processed.png
+原始PDF页面: 27
+
+详细结果:
+[{'input_path': 'temp_page_26_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1224,   58],
+       ...,
+       [1166,  178]], shape=(4, 2), dtype=int16), array([[170, 145],
+       ...,
+       [172, 186]], shape=(4, 2), dtype=int16), array([[238, 217],
+       ...,
+       [239, 271]], shape=(4, 2), dtype=int16), array([[1323,  218],
+       ...,
+       [1351,  330]], shape=(4, 2), dtype=int16), array([[1328,  279],
+       ...,
+       [1295,  312]], shape=(4, 2), dtype=int16), array([[169, 307],
+       ...,
+       [170, 352]], shape=(4, 2), dtype=int16), array([[553, 442],
+       ...,
+       [554, 487]], shape=(4, 2), dtype=int16), array([[893, 488],
+       ...,
+       [893, 526]], shape=(4, 2), dtype=int16), array([[241, 537],
+       ...,
+       [242, 582]], shape=(4, 2), dtype=int16), array([[169, 618],
+       ...,
+       [169, 661]], shape=(4, 2), dtype=int16), array([[169, 698],
+       ...,
+       [169, 742]], shape=(4, 2), dtype=int16), array([[167, 778],
+       ...,
+       [167, 826]], shape=(4, 2), dtype=int16), array([[702, 922],
+       ...,
+       [669, 956]], shape=(4, 2), dtype=int16), array([[136, 945],
+       ...,
+       [136, 995]], shape=(4, 2), dtype=int16), array([[ 227, 1029],
+       ...,
+       [ 228, 1078]], shape=(4, 2), dtype=int16), array([[ 163, 1116],
+       ...,
+       [ 164, 1159]], shape=(4, 2), dtype=int16), array([[ 159, 1197],
+       ...,
+       [ 160, 1241]], shape=(4, 2), dtype=int16), array([[ 451, 1237],
+       ...,
+       [ 431, 1269]], shape=(4, 2), dtype=int16), array([[ 160, 1282],
+       ...,
+       [ 161, 1325]], shape=(4, 2), dtype=int16), array([[ 407, 1302],
+       ...,
+       [ 370, 1348]], shape=(4, 2), dtype=int16), array([[ 527, 1426],
+       ...,
+       [ 527, 1470]], shape=(4, 2), dtype=int16), array([[ 227, 1505],
+       ...,
+       [ 227, 1556]], shape=(4, 2), dtype=int16), array([[ 148, 1573],
+       ...,
+       [ 147, 1635]], shape=(4, 2), dtype=int16), array([[ 143, 1651],
+       ...,
+       [ 141, 1702]], shape=(4, 2), dtype=int16), array([[ 508, 1818],
+       ...,
+       [ 505, 1860]], shape=(4, 2), dtype=int16), array([[ 679, 1826],
+       ...,
+       [ 677, 1874]], shape=(4, 2), dtype=int16), array([[ 673, 1968],
+       ...,
+       [ 673, 1994]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['', '罚息利率计收复利.', '计收罚息和复利，遇合同约定的借款利率调整，自调整之日分', '学', 'BAN', '计算罚息和复利。', '第十条提前还款', '?', '第10.1条经乙方书面同意并通知丙方，甲方可以提前部分或', '全部归还贷款本金和利息。甲方提前归还本金应按照实际用款期间及', '本合同约定的贷款利率计算利息；如乙方不同意甲方提前还款的，甲', '方仍选择提前还款应支付违约金元.提前还款后，尚未归还的', 'BA', '补充协议。', '第10.2条乙方宣布贷款提前到期的，应提前5个工作日书面', '通知甲方及丙方，甲方按照贷款实际存续天数支付利息，自该通知送', '达甲方之日起5个工作日内，甲方应偿还全部贷款本金、应付利息', '2', '违约金等款项：', 'ANK', '第十一条扣款方式', '甲方保证按第六条、第七条确定的还款计划归还贷款和贷款利息，', '若不能按期归还，则甲方同意由丙方从甲方的银行账户中直接扣收资', '金用于偿付贷款本金、利息及有关费用.', '第十二条', '相关费用的支付', '5'], 'rec_scores': [0.0, 0.9621504545211792, 0.9944336414337158, 0.03514940291643143, 0.9882815480232239, 0.9507961273193359, 0.999422013759613, 0.3854149580001831, 0.9958438873291016, 0.9836405515670776, 0.9969068765640259, 0.987790584564209, 0.7230387926101685, 0.9269384145736694, 0.9958053231239319, 0.9958063364028931, 0.9890008568763733, 0.060243379324674606, 0.978239893913269, 0.7872384190559387, 0.9994939565658569, 0.9968624711036682, 0.9895063042640686, 0.9705206751823425, 0.9988435506820679, 0.9997709393501282, 0.7901678681373596], 'rec_polys': [array([[1224,   58],
+       ...,
+       [1166,  178]], shape=(4, 2), dtype=int16), array([[170, 145],
+       ...,
+       [172, 186]], shape=(4, 2), dtype=int16), array([[238, 217],
+       ...,
+       [239, 271]], shape=(4, 2), dtype=int16), array([[1323,  218],
+       ...,
+       [1351,  330]], shape=(4, 2), dtype=int16), array([[1328,  279],
+       ...,
+       [1295,  312]], shape=(4, 2), dtype=int16), array([[169, 307],
+       ...,
+       [170, 352]], shape=(4, 2), dtype=int16), array([[553, 442],
+       ...,
+       [554, 487]], shape=(4, 2), dtype=int16), array([[893, 488],
+       ...,
+       [893, 526]], shape=(4, 2), dtype=int16), array([[241, 537],
+       ...,
+       [242, 582]], shape=(4, 2), dtype=int16), array([[169, 618],
+       ...,
+       [169, 661]], shape=(4, 2), dtype=int16), array([[169, 698],
+       ...,
+       [169, 742]], shape=(4, 2), dtype=int16), array([[167, 778],
+       ...,
+       [167, 826]], shape=(4, 2), dtype=int16), array([[702, 922],
+       ...,
+       [669, 956]], shape=(4, 2), dtype=int16), array([[136, 945],
+       ...,
+       [136, 995]], shape=(4, 2), dtype=int16), array([[ 227, 1029],
+       ...,
+       [ 228, 1078]], shape=(4, 2), dtype=int16), array([[ 163, 1116],
+       ...,
+       [ 164, 1159]], shape=(4, 2), dtype=int16), array([[ 159, 1197],
+       ...,
+       [ 160, 1241]], shape=(4, 2), dtype=int16), array([[ 451, 1237],
+       ...,
+       [ 431, 1269]], shape=(4, 2), dtype=int16), array([[ 160, 1282],
+       ...,
+       [ 161, 1325]], shape=(4, 2), dtype=int16), array([[ 407, 1302],
+       ...,
+       [ 370, 1348]], shape=(4, 2), dtype=int16), array([[ 527, 1426],
+       ...,
+       [ 527, 1470]], shape=(4, 2), dtype=int16), array([[ 227, 1505],
+       ...,
+       [ 227, 1556]], shape=(4, 2), dtype=int16), array([[ 148, 1573],
+       ...,
+       [ 147, 1635]], shape=(4, 2), dtype=int16), array([[ 143, 1651],
+       ...,
+       [ 141, 1702]], shape=(4, 2), dtype=int16), array([[ 508, 1818],
+       ...,
+       [ 505, 1860]], shape=(4, 2), dtype=int16), array([[ 679, 1826],
+       ...,
+       [ 677, 1874]], shape=(4, 2), dtype=int16), array([[ 673, 1968],
+       ...,
+       [ 673, 1994]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1166, ...,  267],
+       ...,
+       [ 673, ..., 1994]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 
+2. 罚息利率计收复利.
+3. 计收罚息和复利，遇合同约定的借款利率调整，自调整之日分
+4. 学
+5. BAN
+6. 计算罚息和复利。
+7. 第十条提前还款
+8. ?
+9. 第10.1条经乙方书面同意并通知丙方，甲方可以提前部分或
+10. 全部归还贷款本金和利息。甲方提前归还本金应按照实际用款期间及
+11. 本合同约定的贷款利率计算利息；如乙方不同意甲方提前还款的，甲
+12. 方仍选择提前还款应支付违约金元.提前还款后，尚未归还的
+13. BA
+14. 补充协议。
+15. 第10.2条乙方宣布贷款提前到期的，应提前5个工作日书面
+16. 通知甲方及丙方，甲方按照贷款实际存续天数支付利息，自该通知送
+17. 达甲方之日起5个工作日内，甲方应偿还全部贷款本金、应付利息
+18. 2
+19. 违约金等款项：
+20. ANK
+21. 第十一条扣款方式
+22. 甲方保证按第六条、第七条确定的还款计划归还贷款和贷款利息，
+23. 若不能按期归还，则甲方同意由丙方从甲方的银行账户中直接扣收资
+24. 金用于偿付贷款本金、利息及有关费用.
+25. 第十二条
+26. 相关费用的支付
+27. 5

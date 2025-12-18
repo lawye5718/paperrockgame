@@ -1,0 +1,165 @@
+OCR结果 - 第 86 页
+==================================================
+处理的图像: temp_page_85_processed.png
+原始PDF页面: 86
+
+详细结果:
+[{'input_path': 'temp_page_85_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[647, 213],
+       ...,
+       [647, 231]], shape=(4, 2), dtype=int16), array([[640, 229],
+       ...,
+       [642, 269]], shape=(4, 2), dtype=int16), array([[643, 263],
+       ...,
+       [643, 285]], shape=(4, 2), dtype=int16), array([[786, 259],
+       ...,
+       [786, 280]], shape=(4, 2), dtype=int16), array([[643, 289],
+       ...,
+       [643, 318]], shape=(4, 2), dtype=int16), array([[787, 289],
+       ...,
+       [787, 315]], shape=(4, 2), dtype=int16), array([[639, 317],
+       ...,
+       [641, 340]], shape=(4, 2), dtype=int16), array([[777, 315],
+       ...,
+       [777, 335]], shape=(4, 2), dtype=int16), array([[642, 343],
+       ...,
+       [642, 370]], shape=(4, 2), dtype=int16), array([[638, 373],
+       ...,
+       [638, 394]], shape=(4, 2), dtype=int16), array([[638, 398],
+       ...,
+       [638, 427]], shape=(4, 2), dtype=int16), array([[712, 432],
+       ...,
+       [713, 463]], shape=(4, 2), dtype=int16), array([[633, 503],
+       ...,
+       [634, 524]], shape=(4, 2), dtype=int16), array([[634, 519],
+       ...,
+       [635, 541]], shape=(4, 2), dtype=int16), array([[634, 538],
+       ...,
+       [635, 566]], shape=(4, 2), dtype=int16), array([[810, 530],
+       ...,
+       [810, 561]], shape=(4, 2), dtype=int16), array([[518, 772],
+       ...,
+       [524, 907]], shape=(4, 2), dtype=int16), array([[ 890,  873],
+       ...,
+       [ 890, 1035]], shape=(4, 2), dtype=int16), array([[ 789, 1096],
+       ...,
+       [ 790, 1144]], shape=(4, 2), dtype=int16), array([[ 767, 1159],
+       ...,
+       [ 768, 1228]], shape=(4, 2), dtype=int16), array([[ 690, 1327],
+       ...,
+       [ 691, 1347]], shape=(4, 2), dtype=int16), array([[ 745, 1349],
+       ...,
+       [ 745, 1376]], shape=(4, 2), dtype=int16), array([[ 691, 1380],
+       ...,
+       [ 692, 1397]], shape=(4, 2), dtype=int16), array([[ 747, 1402],
+       ...,
+       [ 747, 1428]], shape=(4, 2), dtype=int16), array([[ 854, 1399],
+       ...,
+       [ 854, 1427]], shape=(4, 2), dtype=int16), array([[ 625, 1511],
+       ...,
+       [ 626, 1623]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['', '姓名章太武', 'SHEC', '22', '注别男', '民版汉', 'SL', 'REA', '出生1974年12月5日', 'DrovO', '住址广西钦州市钦南区钦州港', '勒沟西大街11号', 'GUOMN', 'SFWH HAUMA', '公民身份号码', '452802197412058713', '件与原件相符，由人提供。', '第武2025.4.27', '中华人民共和国', '居民身份证', 'CEWAT GHOYANK', '签发机关钦州市公安局钦南分局', 'ZYAUOOEWHH', '有效期限', '2012.08 15-2032.08.15', '接收人苏伟，张勇'], 'rec_scores': [0.0, 0.9482730031013489, 0.6393663883209229, 0.4853678345680237, 0.779855489730835, 0.8631086349487305, 0.2847249209880829, 0.4307316243648529, 0.9848708510398865, 0.35216817259788513, 0.9724477529525757, 0.9317560195922852, 0.5435017347335815, 0.6305275559425354, 0.9984096884727478, 0.9992282390594482, 0.5404940247535706, 0.7473046779632568, 0.9986885786056519, 0.9996715784072876, 0.6221726536750793, 0.9407065510749817, 0.6559479236602783, 0.6820583343505859, 0.9831327795982361, 0.8554731607437134], 'rec_polys': [array([[647, 213],
+       ...,
+       [647, 231]], shape=(4, 2), dtype=int16), array([[640, 229],
+       ...,
+       [642, 269]], shape=(4, 2), dtype=int16), array([[643, 263],
+       ...,
+       [643, 285]], shape=(4, 2), dtype=int16), array([[786, 259],
+       ...,
+       [786, 280]], shape=(4, 2), dtype=int16), array([[643, 289],
+       ...,
+       [643, 318]], shape=(4, 2), dtype=int16), array([[787, 289],
+       ...,
+       [787, 315]], shape=(4, 2), dtype=int16), array([[639, 317],
+       ...,
+       [641, 340]], shape=(4, 2), dtype=int16), array([[777, 315],
+       ...,
+       [777, 335]], shape=(4, 2), dtype=int16), array([[642, 343],
+       ...,
+       [642, 370]], shape=(4, 2), dtype=int16), array([[638, 373],
+       ...,
+       [638, 394]], shape=(4, 2), dtype=int16), array([[638, 398],
+       ...,
+       [638, 427]], shape=(4, 2), dtype=int16), array([[712, 432],
+       ...,
+       [713, 463]], shape=(4, 2), dtype=int16), array([[633, 503],
+       ...,
+       [634, 524]], shape=(4, 2), dtype=int16), array([[634, 519],
+       ...,
+       [635, 541]], shape=(4, 2), dtype=int16), array([[634, 538],
+       ...,
+       [635, 566]], shape=(4, 2), dtype=int16), array([[810, 530],
+       ...,
+       [810, 561]], shape=(4, 2), dtype=int16), array([[518, 772],
+       ...,
+       [524, 907]], shape=(4, 2), dtype=int16), array([[ 890,  873],
+       ...,
+       [ 890, 1035]], shape=(4, 2), dtype=int16), array([[ 789, 1096],
+       ...,
+       [ 790, 1144]], shape=(4, 2), dtype=int16), array([[ 767, 1159],
+       ...,
+       [ 768, 1228]], shape=(4, 2), dtype=int16), array([[ 690, 1327],
+       ...,
+       [ 691, 1347]], shape=(4, 2), dtype=int16), array([[ 745, 1349],
+       ...,
+       [ 745, 1376]], shape=(4, 2), dtype=int16), array([[ 691, 1380],
+       ...,
+       [ 692, 1397]], shape=(4, 2), dtype=int16), array([[ 747, 1402],
+       ...,
+       [ 747, 1428]], shape=(4, 2), dtype=int16), array([[ 854, 1399],
+       ...,
+       [ 854, 1427]], shape=(4, 2), dtype=int16), array([[ 625, 1511],
+       ...,
+       [ 626, 1623]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 647, ...,  231],
+       ...,
+       [ 625, ..., 1623]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 
+2. 姓名章太武
+3. SHEC
+4. 22
+5. 注别男
+6. 民版汉
+7. SL
+8. REA
+9. 出生1974年12月5日
+10. DrovO
+11. 住址广西钦州市钦南区钦州港
+12. 勒沟西大街11号
+13. GUOMN
+14. SFWH HAUMA
+15. 公民身份号码
+16. 452802197412058713
+17. 件与原件相符，由人提供。
+18. 第武2025.4.27
+19. 中华人民共和国
+20. 居民身份证
+21. CEWAT GHOYANK
+22. 签发机关钦州市公安局钦南分局
+23. ZYAUOOEWHH
+24. 有效期限
+25. 2012.08 15-2032.08.15
+26. 接收人苏伟，张勇

@@ -1,0 +1,110 @@
+OCR结果 - 第 116 页
+==================================================
+处理的图像: temp_page_115_processed.png
+原始PDF页面: 116
+
+详细结果:
+[{'input_path': 'temp_page_115_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[575, 110],
+       ...,
+       [575, 192]], shape=(4, 2), dtype=int16), array([[567, 221],
+       ...,
+       [567, 265]], shape=(4, 2), dtype=int16), array([[286, 363],
+       ...,
+       [287, 403]], shape=(4, 2), dtype=int16), array([[185, 427],
+       ...,
+       [185, 469]], shape=(4, 2), dtype=int16), array([[183, 495],
+       ...,
+       [183, 539]], shape=(4, 2), dtype=int16), array([[183, 563],
+       ...,
+       [182, 606]], shape=(4, 2), dtype=int16), array([[263, 636],
+       ...,
+       [263, 680]], shape=(4, 2), dtype=int16), array([[182, 710],
+       ...,
+       [181, 751]], shape=(4, 2), dtype=int16), array([[260, 784],
+       ...,
+       [260, 829]], shape=(4, 2), dtype=int16), array([[259, 861],
+       ...,
+       [259, 901]], shape=(4, 2), dtype=int16), array([[172, 924],
+       ...,
+       [171, 975]], shape=(4, 2), dtype=int16), array([[ 169,  997],
+       ...,
+       [ 168, 1044]], shape=(4, 2), dtype=int16), array([[ 166, 1067],
+       ...,
+       [ 164, 1116]], shape=(4, 2), dtype=int16), array([[ 237, 1146],
+       ...,
+       [ 235, 1192]], shape=(4, 2), dtype=int16), array([[ 822, 1539],
+       ...,
+       [ 822, 1598]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['备案公告', '桂资评备013号', '广西中阳资产评估事务所有限公司报来的《资产评估', '机构备案表》及有关材料收悉。根据《中华人民共和国资产', '评估法》《资产评估行业财政监督管理办法》的有关规定，', '予以备案.', '一、资产评估机构名称为广西中阳资产评估事务所有限', '公司，组织形式为有限责任制。', '二、执行合伙事务的合伙人（法定代表人）为陈勇先。', '三、资产评估机构的合伙人或者股东的基本情况，申报', '的资产评估专业人员基本情况等备案相关信息已录入备案', '信息管理系统，可通过财政部、中国资产评估协会官方网站', '进行查询。', '特此公告.', '年'], 'rec_scores': [0.9994486570358276, 0.999255895614624, 0.9977436065673828, 0.969983696937561, 0.9931904077529907, 0.9752470850944519, 0.9935429096221924, 0.9843778610229492, 0.9796422123908997, 0.9966292381286621, 0.9933106303215027, 0.9969225525856018, 0.9970199465751648, 0.8884103894233704, 0.9994156360626221], 'rec_polys': [array([[575, 110],
+       ...,
+       [575, 192]], shape=(4, 2), dtype=int16), array([[567, 221],
+       ...,
+       [567, 265]], shape=(4, 2), dtype=int16), array([[286, 363],
+       ...,
+       [287, 403]], shape=(4, 2), dtype=int16), array([[185, 427],
+       ...,
+       [185, 469]], shape=(4, 2), dtype=int16), array([[183, 495],
+       ...,
+       [183, 539]], shape=(4, 2), dtype=int16), array([[183, 563],
+       ...,
+       [182, 606]], shape=(4, 2), dtype=int16), array([[263, 636],
+       ...,
+       [263, 680]], shape=(4, 2), dtype=int16), array([[182, 710],
+       ...,
+       [181, 751]], shape=(4, 2), dtype=int16), array([[260, 784],
+       ...,
+       [260, 829]], shape=(4, 2), dtype=int16), array([[259, 861],
+       ...,
+       [259, 901]], shape=(4, 2), dtype=int16), array([[172, 924],
+       ...,
+       [171, 975]], shape=(4, 2), dtype=int16), array([[ 169,  997],
+       ...,
+       [ 168, 1044]], shape=(4, 2), dtype=int16), array([[ 166, 1067],
+       ...,
+       [ 164, 1116]], shape=(4, 2), dtype=int16), array([[ 237, 1146],
+       ...,
+       [ 235, 1192]], shape=(4, 2), dtype=int16), array([[ 822, 1539],
+       ...,
+       [ 822, 1598]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 575, ...,  192],
+       ...,
+       [ 822, ..., 1598]], shape=(15, 4), dtype=int16)}]
+
+解析后的文本:
+1. 备案公告
+2. 桂资评备013号
+3. 广西中阳资产评估事务所有限公司报来的《资产评估
+4. 机构备案表》及有关材料收悉。根据《中华人民共和国资产
+5. 评估法》《资产评估行业财政监督管理办法》的有关规定，
+6. 予以备案.
+7. 一、资产评估机构名称为广西中阳资产评估事务所有限
+8. 公司，组织形式为有限责任制。
+9. 二、执行合伙事务的合伙人（法定代表人）为陈勇先。
+10. 三、资产评估机构的合伙人或者股东的基本情况，申报
+11. 的资产评估专业人员基本情况等备案相关信息已录入备案
+12. 信息管理系统，可通过财政部、中国资产评估协会官方网站
+13. 进行查询。
+14. 特此公告.
+15. 年

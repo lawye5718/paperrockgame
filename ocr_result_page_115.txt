@@ -1,0 +1,90 @@
+OCR结果 - 第 115 页
+==================================================
+处理的图像: temp_page_114_processed.png
+原始PDF页面: 115
+
+详细结果:
+[{'input_path': 'temp_page_114_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[ 42,  67],
+       ...,
+       [ 41, 108]], shape=(4, 2), dtype=int16), array([[1034,   94],
+       ...,
+       [1035,  129]], shape=(4, 2), dtype=int16), array([[  35,  154],
+       ...,
+       [   2, 1301]], shape=(4, 2), dtype=int16), array([[185, 234],
+       ...,
+       [185, 268]], shape=(4, 2), dtype=int16), array([[277, 285],
+       ...,
+       [307, 334]], shape=(4, 2), dtype=int16), array([[556, 353],
+       ...,
+       [556, 399]], shape=(4, 2), dtype=int16), array([[1033,  630],
+       ...,
+       [1033,  676]], shape=(4, 2), dtype=int16), array([[918, 926],
+       ...,
+       [918, 962]], shape=(4, 2), dtype=int16), array([[ 913,  985],
+       ...,
+       [ 914, 1019]], shape=(4, 2), dtype=int16), array([[   7, 1486],
+       ...,
+       [   3, 1904]], shape=(4, 2), dtype=int16), array([[1190, 1921],
+       ...,
+       [1188, 1949]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['中华人民共和国国家工商行政管理总局监制', '企业信用信息公示系统网址：', 'GGSGGG', '日', '局', '登记机', '□', '2005年', '', 'SGGS', 'mSG'], 'rec_scores': [0.9984177947044373, 0.9938995838165283, 0.502791702747345, 0.4351455867290497, 0.7610765099525452, 0.9807048439979553, 0.3302527964115143, 0.9350064992904663, 0.0, 0.45891645550727844, 0.2265365868806839], 'rec_polys': [array([[ 42,  67],
+       ...,
+       [ 41, 108]], shape=(4, 2), dtype=int16), array([[1034,   94],
+       ...,
+       [1035,  129]], shape=(4, 2), dtype=int16), array([[  35,  154],
+       ...,
+       [   2, 1301]], shape=(4, 2), dtype=int16), array([[185, 234],
+       ...,
+       [185, 268]], shape=(4, 2), dtype=int16), array([[277, 285],
+       ...,
+       [307, 334]], shape=(4, 2), dtype=int16), array([[556, 353],
+       ...,
+       [556, 399]], shape=(4, 2), dtype=int16), array([[1033,  630],
+       ...,
+       [1033,  676]], shape=(4, 2), dtype=int16), array([[918, 926],
+       ...,
+       [918, 962]], shape=(4, 2), dtype=int16), array([[ 913,  985],
+       ...,
+       [ 914, 1019]], shape=(4, 2), dtype=int16), array([[   7, 1486],
+       ...,
+       [   3, 1904]], shape=(4, 2), dtype=int16), array([[1190, 1921],
+       ...,
+       [1188, 1949]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0], 'rec_boxes': array([[  41, ...,  124],
+       ...,
+       [1188, ..., 1957]], shape=(11, 4), dtype=int16)}]
+
+解析后的文本:
+1. 中华人民共和国国家工商行政管理总局监制
+2. 企业信用信息公示系统网址：
+3. GGSGGG
+4. 日
+5. 局
+6. 登记机
+7. □
+8. 2005年
+9. 
+10. SGGS
+11. mSG

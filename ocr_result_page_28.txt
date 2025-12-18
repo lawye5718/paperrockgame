@@ -1,0 +1,180 @@
+OCR结果 - 第 28 页
+==================================================
+处理的图像: temp_page_27_processed.png
+原始PDF页面: 28
+
+详细结果:
+[{'input_path': 'temp_page_27_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1341,    0],
+       ...,
+       [1343,   44]], shape=(4, 2), dtype=int16), array([[234, 121],
+       ...,
+       [233, 165]], shape=(4, 2), dtype=int16), array([[1212,  175],
+       ...,
+       [1177,  210]], shape=(4, 2), dtype=int16), array([[159, 196],
+       ...,
+       [157, 237]], shape=(4, 2), dtype=int16), array([[234, 281],
+       ...,
+       [233, 321]], shape=(4, 2), dtype=int16), array([[1347,  323],
+       ...,
+       [1322,  355]], shape=(4, 2), dtype=int16), array([[156, 355],
+       ...,
+       [155, 399]], shape=(4, 2), dtype=int16), array([[947, 365],
+       ...,
+       [866, 461]], shape=(4, 2), dtype=int16), array([[150, 431],
+       ...,
+       [147, 478]], shape=(4, 2), dtype=int16), array([[906, 445],
+       ...,
+       [866, 483]], shape=(4, 2), dtype=int16), array([[500, 583],
+       ...,
+       [498, 625]], shape=(4, 2), dtype=int16), array([[146, 751],
+       ...,
+       [145, 788]], shape=(4, 2), dtype=int16), array([[572, 747],
+       ...,
+       [527, 781]], shape=(4, 2), dtype=int16), array([[215, 832],
+       ...,
+       [215, 880]], shape=(4, 2), dtype=int16), array([[145, 919],
+       ...,
+       [144, 963]], shape=(4, 2), dtype=int16), array([[ 140, 1005],
+       ...,
+       [ 140, 1045]], shape=(4, 2), dtype=int16), array([[ 218, 1092],
+       ...,
+       [ 182, 1127]], shape=(4, 2), dtype=int16), array([[ 493, 1153],
+       ...,
+       [ 492, 1190]], shape=(4, 2), dtype=int16), array([[ 213, 1328],
+       ...,
+       [ 213, 1367]], shape=(4, 2), dtype=int16), array([[ 226, 1410],
+       ...,
+       [ 226, 1449]], shape=(4, 2), dtype=int16), array([[ 140, 1490],
+       ...,
+       [ 140, 1530]], shape=(4, 2), dtype=int16), array([[  46, 1560],
+       ...,
+       [ 106, 1620]], shape=(4, 2), dtype=int16), array([[ 130, 1566],
+       ...,
+       [ 130, 1620]], shape=(4, 2), dtype=int16), array([[ 127, 1626],
+       ...,
+       [ 173, 1671]], shape=(4, 2), dtype=int16), array([[ 224, 1652],
+       ...,
+       [ 224, 1690]], shape=(4, 2), dtype=int16), array([[ 140, 1731],
+       ...,
+       [ 140, 1768]], shape=(4, 2), dtype=int16), array([[ 140, 1810],
+       ...,
+       [ 140, 1851]], shape=(4, 2), dtype=int16), array([[ 977, 1828],
+       ...,
+       [ 946, 1863]], shape=(4, 2), dtype=int16), array([[ 678, 1918],
+       ...,
+       [ 678, 1946]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['A', '第12.1条甲方、乙方、丙方应根据相关法律规定各自缴纳相', 'ULIN', '应的税收和其他费用.', '第12.2条甲方、乙方、丙方共同确认由丙方对本合同中甲方', 'A', '在丙方设立的账户进行监管，且丙方同意不收取资金监管费等任何相', '林银行', '关费用。', 'GUILIN', '第十三条合同的变更和解除', '变更和解除本合同。', 'GU', '第13.2条甲方可以在借款到期前日内向乙方申请展期，经', '乙方书面同意并书面通知丙方予以展期，除非经丙方同意，展期期限', '不能超过原贷款期限的一半，且展期次数不能超过一次。', 'GUILIN', '第十四条甲方的承诺与保证', '第14.1条', '(1)甲方系依法成立并合法存续的企业法人，拥有完全的民事', '权利能力和民事行为能力签署并履行本合同，并已取得了签署本合同', '酒', '所需的一切必要的许可、批准、登记及备案。', 'L', '（2)甲方签署和执行本合同是自愿的，是其真实意思的表示，', '并经过所有必需的合法授权及外部批准（如有），甲方为签署和执行', '本合同所需的手续均已合法地办理完毕并具有法律效力。', 'UL', '7'], 'rec_scores': [0.20006082952022552, 0.9958353638648987, 0.8496279716491699, 0.9484266042709351, 0.9926151633262634, 0.8424174189567566, 0.9977276921272278, 0.9402220249176025, 0.9255823493003845, 0.979434072971344, 0.9995796084403992, 0.9978835582733154, 0.9557749032974243, 0.9933121204376221, 0.9804629683494568, 0.9959773421287537, 0.9418678879737854, 0.9994328618049622, 0.9994044303894043, 0.9762633442878723, 0.9985018968582153, 0.12710939347743988, 0.9722710847854614, 0.11059733480215073, 0.9457250237464905, 0.9940435290336609, 0.9941608309745789, 0.6898211240768433, 0.9997914433479309], 'rec_polys': [array([[1341,    0],
+       ...,
+       [1343,   44]], shape=(4, 2), dtype=int16), array([[234, 121],
+       ...,
+       [233, 165]], shape=(4, 2), dtype=int16), array([[1212,  175],
+       ...,
+       [1177,  210]], shape=(4, 2), dtype=int16), array([[159, 196],
+       ...,
+       [157, 237]], shape=(4, 2), dtype=int16), array([[234, 281],
+       ...,
+       [233, 321]], shape=(4, 2), dtype=int16), array([[1347,  323],
+       ...,
+       [1322,  355]], shape=(4, 2), dtype=int16), array([[156, 355],
+       ...,
+       [155, 399]], shape=(4, 2), dtype=int16), array([[947, 365],
+       ...,
+       [866, 461]], shape=(4, 2), dtype=int16), array([[150, 431],
+       ...,
+       [147, 478]], shape=(4, 2), dtype=int16), array([[906, 445],
+       ...,
+       [866, 483]], shape=(4, 2), dtype=int16), array([[500, 583],
+       ...,
+       [498, 625]], shape=(4, 2), dtype=int16), array([[146, 751],
+       ...,
+       [145, 788]], shape=(4, 2), dtype=int16), array([[572, 747],
+       ...,
+       [527, 781]], shape=(4, 2), dtype=int16), array([[215, 832],
+       ...,
+       [215, 880]], shape=(4, 2), dtype=int16), array([[145, 919],
+       ...,
+       [144, 963]], shape=(4, 2), dtype=int16), array([[ 140, 1005],
+       ...,
+       [ 140, 1045]], shape=(4, 2), dtype=int16), array([[ 218, 1092],
+       ...,
+       [ 182, 1127]], shape=(4, 2), dtype=int16), array([[ 493, 1153],
+       ...,
+       [ 492, 1190]], shape=(4, 2), dtype=int16), array([[ 213, 1328],
+       ...,
+       [ 213, 1367]], shape=(4, 2), dtype=int16), array([[ 226, 1410],
+       ...,
+       [ 226, 1449]], shape=(4, 2), dtype=int16), array([[ 140, 1490],
+       ...,
+       [ 140, 1530]], shape=(4, 2), dtype=int16), array([[  46, 1560],
+       ...,
+       [ 106, 1620]], shape=(4, 2), dtype=int16), array([[ 130, 1566],
+       ...,
+       [ 130, 1620]], shape=(4, 2), dtype=int16), array([[ 127, 1626],
+       ...,
+       [ 173, 1671]], shape=(4, 2), dtype=int16), array([[ 224, 1652],
+       ...,
+       [ 224, 1690]], shape=(4, 2), dtype=int16), array([[ 140, 1731],
+       ...,
+       [ 140, 1768]], shape=(4, 2), dtype=int16), array([[ 140, 1810],
+       ...,
+       [ 140, 1851]], shape=(4, 2), dtype=int16), array([[ 977, 1828],
+       ...,
+       [ 946, 1863]], shape=(4, 2), dtype=int16), array([[ 678, 1918],
+       ...,
+       [ 678, 1946]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1341, ...,   44],
+       ...,
+       [ 678, ..., 1946]], shape=(29, 4), dtype=int16)}]
+
+解析后的文本:
+1. A
+2. 第12.1条甲方、乙方、丙方应根据相关法律规定各自缴纳相
+3. ULIN
+4. 应的税收和其他费用.
+5. 第12.2条甲方、乙方、丙方共同确认由丙方对本合同中甲方
+6. A
+7. 在丙方设立的账户进行监管，且丙方同意不收取资金监管费等任何相
+8. 林银行
+9. 关费用。
+10. GUILIN
+11. 第十三条合同的变更和解除
+12. 变更和解除本合同。
+13. GU
+14. 第13.2条甲方可以在借款到期前日内向乙方申请展期，经
+15. 乙方书面同意并书面通知丙方予以展期，除非经丙方同意，展期期限
+16. 不能超过原贷款期限的一半，且展期次数不能超过一次。
+17. GUILIN
+18. 第十四条甲方的承诺与保证
+19. 第14.1条
+20. (1)甲方系依法成立并合法存续的企业法人，拥有完全的民事
+21. 权利能力和民事行为能力签署并履行本合同，并已取得了签署本合同
+22. 酒
+23. 所需的一切必要的许可、批准、登记及备案。
+24. L
+25. （2)甲方签署和执行本合同是自愿的，是其真实意思的表示，
+26. 并经过所有必需的合法授权及外部批准（如有），甲方为签署和执行
+27. 本合同所需的手续均已合法地办理完毕并具有法律效力。
+28. UL
+29. 7

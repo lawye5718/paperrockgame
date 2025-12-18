@@ -1,0 +1,245 @@
+OCR结果 - 第 166 页
+==================================================
+处理的图像: temp_page_165_processed.png
+原始PDF页面: 166
+
+详细结果:
+[{'input_path': 'temp_page_165_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[110, 110],
+       ...,
+       [109, 160]], shape=(4, 2), dtype=int16), array([[112, 198],
+       ...,
+       [111, 242]], shape=(4, 2), dtype=int16), array([[112, 278],
+       ...,
+       [112, 315]], shape=(4, 2), dtype=int16), array([[185, 342],
+       ...,
+       [184, 380]], shape=(4, 2), dtype=int16), array([[117, 400],
+       ...,
+       [117, 441]], shape=(4, 2), dtype=int16), array([[114, 459],
+       ...,
+       [114, 501]], shape=(4, 2), dtype=int16), array([[113, 519],
+       ...,
+       [113, 559]], shape=(4, 2), dtype=int16), array([[112, 580],
+       ...,
+       [112, 618]], shape=(4, 2), dtype=int16), array([[175, 644],
+       ...,
+       [174, 681]], shape=(4, 2), dtype=int16), array([[781, 696],
+       ...,
+       [780, 723]], shape=(4, 2), dtype=int16), array([[383, 727],
+       ...,
+       [383, 752]], shape=(4, 2), dtype=int16), array([[933, 719],
+       ...,
+       [933, 747]], shape=(4, 2), dtype=int16), array([[257, 748],
+       ...,
+       [257, 773]], shape=(4, 2), dtype=int16), array([[727, 747],
+       ...,
+       [726, 776]], shape=(4, 2), dtype=int16), array([[636, 767],
+       ...,
+       [636, 782]], shape=(4, 2), dtype=int16), array([[993, 779],
+       ...,
+       [994, 805]], shape=(4, 2), dtype=int16), array([[ 748,  906],
+       ...,
+       [ 746, 1023]], shape=(4, 2), dtype=int16), array([[242, 930],
+       ...,
+       [242, 960]], shape=(4, 2), dtype=int16), array([[1074,  953],
+       ...,
+       [1075,  981]], shape=(4, 2), dtype=int16), array([[1096, 1055],
+       ...,
+       [1097, 1083]], shape=(4, 2), dtype=int16), array([[ 420, 1185],
+       ...,
+       [ 420, 1210]], shape=(4, 2), dtype=int16), array([[ 258, 1195],
+       ...,
+       [ 258, 1221]], shape=(4, 2), dtype=int16), array([[ 630, 1194],
+       ...,
+       [ 630, 1213]], shape=(4, 2), dtype=int16), array([[ 703, 1191],
+       ...,
+       [ 704, 1217]], shape=(4, 2), dtype=int16), array([[ 955, 1194],
+       ...,
+       [ 955, 1220]], shape=(4, 2), dtype=int16), array([[1069, 1194],
+       ...,
+       [1069, 1220]], shape=(4, 2), dtype=int16), array([[ 342, 1211],
+       ...,
+       [ 342, 1237]], shape=(4, 2), dtype=int16), array([[ 459, 1230],
+       ...,
+       [ 459, 1254]], shape=(4, 2), dtype=int16), array([[ 781, 1230],
+       ...,
+       [ 780, 1254]], shape=(4, 2), dtype=int16), array([[ 647, 1261],
+       ...,
+       [ 648, 1286]], shape=(4, 2), dtype=int16), array([[ 912, 1253],
+       ...,
+       [ 911, 1278]], shape=(4, 2), dtype=int16), array([[ 544, 1331],
+       ...,
+       [ 544, 1364]], shape=(4, 2), dtype=int16), array([[ 167, 1372],
+       ...,
+       [ 168, 1407]], shape=(4, 2), dtype=int16), array([[ 186, 1433],
+       ...,
+       [ 186, 1460]], shape=(4, 2), dtype=int16), array([[ 184, 1488],
+       ...,
+       [ 184, 1519]], shape=(4, 2), dtype=int16), array([[ 184, 1544],
+       ...,
+       [ 184, 1575]], shape=(4, 2), dtype=int16), array([[ 184, 1598],
+       ...,
+       [ 185, 1628]], shape=(4, 2), dtype=int16), array([[ 187, 1649],
+       ...,
+       [ 187, 1684]], shape=(4, 2), dtype=int16), array([[ 109, 1705],
+       ...,
+       [ 109, 1735]], shape=(4, 2), dtype=int16), array([[ 175, 1753],
+       ...,
+       [ 174, 1789]], shape=(4, 2), dtype=int16), array([[ 111, 1806],
+       ...,
+       [ 111, 1843]], shape=(4, 2), dtype=int16), array([[ 683, 1857],
+       ...,
+       [ 683, 1883]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2．工程分析', '2.1.产品及工艺技术简述', '2.1.1．产品结构及工作原理简述', '薄膜晶体管液晶显示器(Thin Film Transistor Liquid Crystal Display，简称TFT-LCD)', '是将微电子技术与液品显示技术相结合的一种新技术。把在硅片上进行微电子精细加', '的技术，移植到在大面积玻璃上进行TFT阵列加工，再将该阵列基板与另一片带彩色滤', '色膜的基板，利用与业已成熟的LCD技术，形成个液晶盒，再经过后工序如偏光片贴', '覆等过程，最后形成液晶显示器件。', 'TFT-LCD的结构见图2.1-1。', 'Protecyve flm', 'Back matn', 'Common electrode', '出国', '', '1', "h'e", '888', '和', 'A', '有电：', 'A', '∴', '1__}', '', '∴', '1', 'TFT', "Display elec'rode", 'Pnsm sheet', 'scacer', '', '图2.1-1TFT-LCD结构示意图', 'TFT-LCD的基本单元结构可分为以下儿部分：', '（1）背光模块组：包括灯管、导光板、反射板、扩散板等部件，提供光的来源：', '(2)TFT玻璃基板，液晶，上下偏光板：形成偏振光，控制光线的通过与否；', '(3)彩色滤光片：提供TFT-LCD红、绿、蓝(光的三原色)的来源；', '(4)ITO透明导电层：提供透明的导电通路：', '(5) 间隔层Spacer：提供一固定高度给彩色滤光片和TFT玻璃基板。作为灌入液', '晶时的空间及作为上：下两层玻璃板的支撑。', 'TFT-LCD液品显示屏是两块带有电极的玻璃板，依托支垫物并I四周密封形成10', '微米以下空间填充液品材料的盒了。其构造包括玻璃基板、ITO膜、配向膜、偏光板等，', '26'], 'rec_scores': [0.9333470463752747, 0.9948781132698059, 0.9891170263290405, 0.9533573985099792, 0.9737998247146606, 0.9888129830360413, 0.9837705492973328, 0.9903560876846313, 0.9513413906097412, 0.8469786047935486, 0.8530113101005554, 0.957153856754303, 0.2012450098991394, 0.0, 0.27602335810661316, 0.5363955497741699, 0.4697664678096771, 0.04217252507805824, 0.9449036717414856, 0.652286946773529, 0.2253170609474182, 0.35055455565452576, 0.48135507106781006, 0.0, 0.48918917775154114, 0.46629178524017334, 0.9935243725776672, 0.9000869989395142, 0.9574704170227051, 0.9781400561332703, 0.0, 0.9869571328163147, 0.9639045596122742, 0.9542061686515808, 0.950725793838501, 0.9294285178184509, 0.9653888940811157, 0.9473841786384583, 0.9007188081741333, 0.9633957147598267, 0.9684006571769714, 0.9984971880912781], 'rec_polys': [array([[110, 110],
+       ...,
+       [109, 160]], shape=(4, 2), dtype=int16), array([[112, 198],
+       ...,
+       [111, 242]], shape=(4, 2), dtype=int16), array([[112, 278],
+       ...,
+       [112, 315]], shape=(4, 2), dtype=int16), array([[185, 342],
+       ...,
+       [184, 380]], shape=(4, 2), dtype=int16), array([[117, 400],
+       ...,
+       [117, 441]], shape=(4, 2), dtype=int16), array([[114, 459],
+       ...,
+       [114, 501]], shape=(4, 2), dtype=int16), array([[113, 519],
+       ...,
+       [113, 559]], shape=(4, 2), dtype=int16), array([[112, 580],
+       ...,
+       [112, 618]], shape=(4, 2), dtype=int16), array([[175, 644],
+       ...,
+       [174, 681]], shape=(4, 2), dtype=int16), array([[781, 696],
+       ...,
+       [780, 723]], shape=(4, 2), dtype=int16), array([[383, 727],
+       ...,
+       [383, 752]], shape=(4, 2), dtype=int16), array([[933, 719],
+       ...,
+       [933, 747]], shape=(4, 2), dtype=int16), array([[257, 748],
+       ...,
+       [257, 773]], shape=(4, 2), dtype=int16), array([[727, 747],
+       ...,
+       [726, 776]], shape=(4, 2), dtype=int16), array([[636, 767],
+       ...,
+       [636, 782]], shape=(4, 2), dtype=int16), array([[993, 779],
+       ...,
+       [994, 805]], shape=(4, 2), dtype=int16), array([[ 748,  906],
+       ...,
+       [ 746, 1023]], shape=(4, 2), dtype=int16), array([[242, 930],
+       ...,
+       [242, 960]], shape=(4, 2), dtype=int16), array([[1074,  953],
+       ...,
+       [1075,  981]], shape=(4, 2), dtype=int16), array([[1096, 1055],
+       ...,
+       [1097, 1083]], shape=(4, 2), dtype=int16), array([[ 420, 1185],
+       ...,
+       [ 420, 1210]], shape=(4, 2), dtype=int16), array([[ 258, 1195],
+       ...,
+       [ 258, 1221]], shape=(4, 2), dtype=int16), array([[ 630, 1194],
+       ...,
+       [ 630, 1213]], shape=(4, 2), dtype=int16), array([[ 703, 1191],
+       ...,
+       [ 704, 1217]], shape=(4, 2), dtype=int16), array([[ 955, 1194],
+       ...,
+       [ 955, 1220]], shape=(4, 2), dtype=int16), array([[1069, 1194],
+       ...,
+       [1069, 1220]], shape=(4, 2), dtype=int16), array([[ 342, 1211],
+       ...,
+       [ 342, 1237]], shape=(4, 2), dtype=int16), array([[ 459, 1230],
+       ...,
+       [ 459, 1254]], shape=(4, 2), dtype=int16), array([[ 781, 1230],
+       ...,
+       [ 780, 1254]], shape=(4, 2), dtype=int16), array([[ 647, 1261],
+       ...,
+       [ 648, 1286]], shape=(4, 2), dtype=int16), array([[ 912, 1253],
+       ...,
+       [ 911, 1278]], shape=(4, 2), dtype=int16), array([[ 544, 1331],
+       ...,
+       [ 544, 1364]], shape=(4, 2), dtype=int16), array([[ 167, 1372],
+       ...,
+       [ 168, 1407]], shape=(4, 2), dtype=int16), array([[ 186, 1433],
+       ...,
+       [ 186, 1460]], shape=(4, 2), dtype=int16), array([[ 184, 1488],
+       ...,
+       [ 184, 1519]], shape=(4, 2), dtype=int16), array([[ 184, 1544],
+       ...,
+       [ 184, 1575]], shape=(4, 2), dtype=int16), array([[ 184, 1598],
+       ...,
+       [ 185, 1628]], shape=(4, 2), dtype=int16), array([[ 187, 1649],
+       ...,
+       [ 187, 1684]], shape=(4, 2), dtype=int16), array([[ 109, 1705],
+       ...,
+       [ 109, 1735]], shape=(4, 2), dtype=int16), array([[ 175, 1753],
+       ...,
+       [ 174, 1789]], shape=(4, 2), dtype=int16), array([[ 111, 1806],
+       ...,
+       [ 111, 1843]], shape=(4, 2), dtype=int16), array([[ 683, 1857],
+       ...,
+       [ 683, 1883]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 109, ...,  166],
+       ...,
+       [ 683, ..., 1883]], shape=(42, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2．工程分析
+2. 2.1.产品及工艺技术简述
+3. 2.1.1．产品结构及工作原理简述
+4. 薄膜晶体管液晶显示器(Thin Film Transistor Liquid Crystal Display，简称TFT-LCD)
+5. 是将微电子技术与液品显示技术相结合的一种新技术。把在硅片上进行微电子精细加
+6. 的技术，移植到在大面积玻璃上进行TFT阵列加工，再将该阵列基板与另一片带彩色滤
+7. 色膜的基板，利用与业已成熟的LCD技术，形成个液晶盒，再经过后工序如偏光片贴
+8. 覆等过程，最后形成液晶显示器件。
+9. TFT-LCD的结构见图2.1-1。
+10. Protecyve flm
+11. Back matn
+12. Common electrode
+13. 出国
+14. 
+15. 1
+16. h'e
+17. 888
+18. 和
+19. A
+20. 有电：
+21. A
+22. ∴
+23. 1__}
+24. 
+25. ∴
+26. 1
+27. TFT
+28. Display elec'rode
+29. Pnsm sheet
+30. scacer
+31. 
+32. 图2.1-1TFT-LCD结构示意图
+33. TFT-LCD的基本单元结构可分为以下儿部分：
+34. （1）背光模块组：包括灯管、导光板、反射板、扩散板等部件，提供光的来源：
+35. (2)TFT玻璃基板，液晶，上下偏光板：形成偏振光，控制光线的通过与否；
+36. (3)彩色滤光片：提供TFT-LCD红、绿、蓝(光的三原色)的来源；
+37. (4)ITO透明导电层：提供透明的导电通路：
+38. (5) 间隔层Spacer：提供一固定高度给彩色滤光片和TFT玻璃基板。作为灌入液
+39. 晶时的空间及作为上：下两层玻璃板的支撑。
+40. TFT-LCD液品显示屏是两块带有电极的玻璃板，依托支垫物并I四周密封形成10
+41. 微米以下空间填充液品材料的盒了。其构造包括玻璃基板、ITO膜、配向膜、偏光板等，
+42. 26

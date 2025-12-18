@@ -1,0 +1,190 @@
+OCR结果 - 第 247 页
+==================================================
+处理的图像: temp_page_246_processed.png
+原始PDF页面: 247
+
+详细结果:
+[{'input_path': 'temp_page_246_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[149, 119],
+       ...,
+       [148, 153]], shape=(4, 2), dtype=int16), array([[144, 180],
+       ...,
+       [144, 226]], shape=(4, 2), dtype=int16), array([[231, 250],
+       ...,
+       [231, 286]], shape=(4, 2), dtype=int16), array([[154, 312],
+       ...,
+       [153, 347]], shape=(4, 2), dtype=int16), array([[153, 372],
+       ...,
+       [153, 405]], shape=(4, 2), dtype=int16), array([[154, 429],
+       ...,
+       [154, 461]], shape=(4, 2), dtype=int16), array([[216, 485],
+       ...,
+       [216, 515]], shape=(4, 2), dtype=int16), array([[154, 537],
+       ...,
+       [153, 570]], shape=(4, 2), dtype=int16), array([[153, 594],
+       ...,
+       [153, 625]], shape=(4, 2), dtype=int16), array([[153, 648],
+       ...,
+       [153, 682]], shape=(4, 2), dtype=int16), array([[154, 702],
+       ...,
+       [153, 737]], shape=(4, 2), dtype=int16), array([[156, 764],
+       ...,
+       [156, 792]], shape=(4, 2), dtype=int16), array([[212, 816],
+       ...,
+       [212, 850]], shape=(4, 2), dtype=int16), array([[154, 874],
+       ...,
+       [154, 907]], shape=(4, 2), dtype=int16), array([[155, 931],
+       ...,
+       [155, 962]], shape=(4, 2), dtype=int16), array([[ 213,  985],
+       ...,
+       [ 213, 1019]], shape=(4, 2), dtype=int16), array([[ 155, 1041],
+       ...,
+       [ 155, 1076]], shape=(4, 2), dtype=int16), array([[ 154, 1097],
+       ...,
+       [ 154, 1130]], shape=(4, 2), dtype=int16), array([[ 231, 1152],
+       ...,
+       [ 231, 1183]], shape=(4, 2), dtype=int16), array([[ 155, 1207],
+       ...,
+       [ 155, 1237]], shape=(4, 2), dtype=int16), array([[ 156, 1264],
+       ...,
+       [ 156, 1292]], shape=(4, 2), dtype=int16), array([[ 230, 1321],
+       ...,
+       [ 230, 1348]], shape=(4, 2), dtype=int16), array([[ 155, 1379],
+       ...,
+       [ 155, 1406]], shape=(4, 2), dtype=int16), array([[ 154, 1433],
+       ...,
+       [ 154, 1464]], shape=(4, 2), dtype=int16), array([[ 149, 1488],
+       ...,
+       [ 149, 1523]], shape=(4, 2), dtype=int16), array([[ 227, 1546],
+       ...,
+       [ 227, 1577]], shape=(4, 2), dtype=int16), array([[ 149, 1601],
+       ...,
+       [ 149, 1632]], shape=(4, 2), dtype=int16), array([[ 147, 1655],
+       ...,
+       [ 147, 1689]], shape=(4, 2), dtype=int16), array([[ 149, 1719],
+       ...,
+       [ 149, 1749]], shape=(4, 2), dtype=int16), array([[ 224, 1777],
+       ...,
+       [ 224, 1811]], shape=(4, 2), dtype=int16), array([[ 661, 1825],
+       ...,
+       [ 661, 1857]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['不同气体性质连接至厂务系统相应的废气处理装置，确保泄漏气体得到有效处', '置。', '(3)特种气体供应是由鱼类管车/钢瓶与气柜连接，通过输送管线进入气体', '分配箱VMB（Valuemanifold box)，经VMB再次调压后送入车间使用点。最易', '发生气体泄露的地方，基本集中在各管件与设备、管件与管件的接头部位，故防', '范的重点有以下三方面：', '1)管道与气柜阀门，对于有毒气体，针对气体的性质，如果气体的比重比', '空气重（氯气），则选择在管道与阀门连接处下方增加强通风，使泄漏处的气体', '迅速通过紧急通风管道进入厂务废气处理系统处理。在鱼类管车/钢瓶附近及气', '瓶控制柜内设置气体探头，一旦在气瓶控制柜内发生气体泄漏，则迅速切断气瓶', '的供气端，同时启动气体控制柜内的紧急排风，使泄漏出的气体迅速通过紧急排', '风系统进入厂务废气处理系统。', '2)在管件与管件联接处（VMB），VMB内设有气体探测器及紧急排风，一', '且发生气体泄漏，则通过白动联动系统迅速切断气瓶柜，并通过紧急排风将泄漏', '出的气体迅速通过厂务系统进行处理.', '3）所有气体管路均采用双芯管，并在外层管内布置若干探头，且自动联动', '系统在管路内发生正负0.05%的流量压力扰动，则迅速切断气体→VMB→机台，', '管路内的气体由于用量很小，即使发生泄漏，也不会形成无法控制的局势。', '(4)在液氨管车停放区域设置水喷淋设施，如发生液氨泄漏，启动喷淋设', '施，以中和泄漏氨气：管车停放区叫周设置地沟，用于事故废水的收集暂存。如', '有可能，将残余气体或漏出气体采用排风机送至厂务废气处理系统。', '（5）在氯气钢瓶存放区域设置碱液池，如发生氯气泄漏，将氯气钢瓶投入', '碱液池中，以中和去除钢瓶中剩余氯气。钢瓶存放区域四周设置地沟，用于事故', '废水的收集暂存。如有可能，将残余气体或漏出气体采用排风机送至厂务废气处', '理系统。', '(6)厂区内设置有毒有害气体在线监控系统。毒害气体检测系统将气体依', '特定的电位电解，测定所产生的电解电流，以检测气体的浓度，一旦发生气体泄', '漏并达到二级以上报警，系统就应切断气瓶柜供应段，泄漏以防止泄漏扩大。系', '统监控报警中心设专人24小时值班。', '（7)硅烷站和特气库内设计有消防设施和消防报警系统。', '108'], 'rec_scores': [0.9978983402252197, 0.9945216178894043, 0.9820528626441956, 0.9691395163536072, 0.9972111582756042, 0.9876258969306946, 0.9825434684753418, 0.9712722897529602, 0.9969465136528015, 0.9969248175621033, 0.9971944689750671, 0.9974517822265625, 0.9697076082229614, 0.9883289933204651, 0.9789593815803528, 0.980160117149353, 0.9893408417701721, 0.997746467590332, 0.9785772562026978, 0.966842532157898, 0.9970759153366089, 0.9599139094352722, 0.992173969745636, 0.996607780456543, 0.9977433681488037, 0.9871981143951416, 0.9956579208374023, 0.9972994923591614, 0.9982680082321167, 0.9768532514572144, 0.9996655583381653], 'rec_polys': [array([[149, 119],
+       ...,
+       [148, 153]], shape=(4, 2), dtype=int16), array([[144, 180],
+       ...,
+       [144, 226]], shape=(4, 2), dtype=int16), array([[231, 250],
+       ...,
+       [231, 286]], shape=(4, 2), dtype=int16), array([[154, 312],
+       ...,
+       [153, 347]], shape=(4, 2), dtype=int16), array([[153, 372],
+       ...,
+       [153, 405]], shape=(4, 2), dtype=int16), array([[154, 429],
+       ...,
+       [154, 461]], shape=(4, 2), dtype=int16), array([[216, 485],
+       ...,
+       [216, 515]], shape=(4, 2), dtype=int16), array([[154, 537],
+       ...,
+       [153, 570]], shape=(4, 2), dtype=int16), array([[153, 594],
+       ...,
+       [153, 625]], shape=(4, 2), dtype=int16), array([[153, 648],
+       ...,
+       [153, 682]], shape=(4, 2), dtype=int16), array([[154, 702],
+       ...,
+       [153, 737]], shape=(4, 2), dtype=int16), array([[156, 764],
+       ...,
+       [156, 792]], shape=(4, 2), dtype=int16), array([[212, 816],
+       ...,
+       [212, 850]], shape=(4, 2), dtype=int16), array([[154, 874],
+       ...,
+       [154, 907]], shape=(4, 2), dtype=int16), array([[155, 931],
+       ...,
+       [155, 962]], shape=(4, 2), dtype=int16), array([[ 213,  985],
+       ...,
+       [ 213, 1019]], shape=(4, 2), dtype=int16), array([[ 155, 1041],
+       ...,
+       [ 155, 1076]], shape=(4, 2), dtype=int16), array([[ 154, 1097],
+       ...,
+       [ 154, 1130]], shape=(4, 2), dtype=int16), array([[ 231, 1152],
+       ...,
+       [ 231, 1183]], shape=(4, 2), dtype=int16), array([[ 155, 1207],
+       ...,
+       [ 155, 1237]], shape=(4, 2), dtype=int16), array([[ 156, 1264],
+       ...,
+       [ 156, 1292]], shape=(4, 2), dtype=int16), array([[ 230, 1321],
+       ...,
+       [ 230, 1348]], shape=(4, 2), dtype=int16), array([[ 155, 1379],
+       ...,
+       [ 155, 1406]], shape=(4, 2), dtype=int16), array([[ 154, 1433],
+       ...,
+       [ 154, 1464]], shape=(4, 2), dtype=int16), array([[ 149, 1488],
+       ...,
+       [ 149, 1523]], shape=(4, 2), dtype=int16), array([[ 227, 1546],
+       ...,
+       [ 227, 1577]], shape=(4, 2), dtype=int16), array([[ 149, 1601],
+       ...,
+       [ 149, 1632]], shape=(4, 2), dtype=int16), array([[ 147, 1655],
+       ...,
+       [ 147, 1689]], shape=(4, 2), dtype=int16), array([[ 149, 1719],
+       ...,
+       [ 149, 1749]], shape=(4, 2), dtype=int16), array([[ 224, 1777],
+       ...,
+       [ 224, 1811]], shape=(4, 2), dtype=int16), array([[ 661, 1825],
+       ...,
+       [ 661, 1857]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 148, ...,  185],
+       ...,
+       [ 661, ..., 1857]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 不同气体性质连接至厂务系统相应的废气处理装置，确保泄漏气体得到有效处
+2. 置。
+3. (3)特种气体供应是由鱼类管车/钢瓶与气柜连接，通过输送管线进入气体
+4. 分配箱VMB（Valuemanifold box)，经VMB再次调压后送入车间使用点。最易
+5. 发生气体泄露的地方，基本集中在各管件与设备、管件与管件的接头部位，故防
+6. 范的重点有以下三方面：
+7. 1)管道与气柜阀门，对于有毒气体，针对气体的性质，如果气体的比重比
+8. 空气重（氯气），则选择在管道与阀门连接处下方增加强通风，使泄漏处的气体
+9. 迅速通过紧急通风管道进入厂务废气处理系统处理。在鱼类管车/钢瓶附近及气
+10. 瓶控制柜内设置气体探头，一旦在气瓶控制柜内发生气体泄漏，则迅速切断气瓶
+11. 的供气端，同时启动气体控制柜内的紧急排风，使泄漏出的气体迅速通过紧急排
+12. 风系统进入厂务废气处理系统。
+13. 2)在管件与管件联接处（VMB），VMB内设有气体探测器及紧急排风，一
+14. 且发生气体泄漏，则通过白动联动系统迅速切断气瓶柜，并通过紧急排风将泄漏
+15. 出的气体迅速通过厂务系统进行处理.
+16. 3）所有气体管路均采用双芯管，并在外层管内布置若干探头，且自动联动
+17. 系统在管路内发生正负0.05%的流量压力扰动，则迅速切断气体→VMB→机台，
+18. 管路内的气体由于用量很小，即使发生泄漏，也不会形成无法控制的局势。
+19. (4)在液氨管车停放区域设置水喷淋设施，如发生液氨泄漏，启动喷淋设
+20. 施，以中和泄漏氨气：管车停放区叫周设置地沟，用于事故废水的收集暂存。如
+21. 有可能，将残余气体或漏出气体采用排风机送至厂务废气处理系统。
+22. （5）在氯气钢瓶存放区域设置碱液池，如发生氯气泄漏，将氯气钢瓶投入
+23. 碱液池中，以中和去除钢瓶中剩余氯气。钢瓶存放区域四周设置地沟，用于事故
+24. 废水的收集暂存。如有可能，将残余气体或漏出气体采用排风机送至厂务废气处
+25. 理系统。
+26. (6)厂区内设置有毒有害气体在线监控系统。毒害气体检测系统将气体依
+27. 特定的电位电解，测定所产生的电解电流，以检测气体的浓度，一旦发生气体泄
+28. 漏并达到二级以上报警，系统就应切断气瓶柜供应段，泄漏以防止泄漏扩大。系
+29. 统监控报警中心设专人24小时值班。
+30. （7)硅烷站和特气库内设计有消防设施和消防报警系统。
+31. 108

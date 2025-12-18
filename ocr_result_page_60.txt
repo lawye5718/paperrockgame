@@ -1,0 +1,105 @@
+OCR结果 - 第 60 页
+==================================================
+处理的图像: temp_page_59_processed.png
+原始PDF页面: 60
+
+详细结果:
+[{'input_path': 'temp_page_59_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1248,   22],
+       ...,
+       [1259,  108]], shape=(4, 2), dtype=int16), array([[816,  87],
+       ...,
+       [816, 140]], shape=(4, 2), dtype=int16), array([[1062,  112],
+       ...,
+       [1068,  211]], shape=(4, 2), dtype=int16), array([[921, 152],
+       ...,
+       [917, 222]], shape=(4, 2), dtype=int16), array([[314, 166],
+       ...,
+       [313, 273]], shape=(4, 2), dtype=int16), array([[1191,  182],
+       ...,
+       [1197,  269]], shape=(4, 2), dtype=int16), array([[320, 263],
+       ...,
+       [320, 318]], shape=(4, 2), dtype=int16), array([[1128,  276],
+       ...,
+       [1132,  322]], shape=(4, 2), dtype=int16), array([[468, 724],
+       ...,
+       [469, 860]], shape=(4, 2), dtype=int16), array([[ 242,  915],
+       ...,
+       [ 243, 1040]], shape=(4, 2), dtype=int16), array([[ 372, 1679],
+       ...,
+       [ 375, 1749]], shape=(4, 2), dtype=int16), array([[ 384, 1768],
+       ...,
+       [ 384, 1820]], shape=(4, 2), dtype=int16), array([[ 262, 1851],
+       ...,
+       [ 267, 1944]], shape=(4, 2), dtype=int16), array([[ 903, 1915],
+       ...,
+       [ 908, 1977]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['', '26', '提承人：张勇', '潘柏佛', '桂林银行', '威伟', 'GUILIN BANK', '2025.3.13.', '桂林银行', '人民币委托贷款合同', '贷款种类：流贷', '合同编号：101004202000743-01', '此份材料共，已经我辩认。', '可文'], 'rec_scores': [0.0, 0.99894779920578, 0.6440228819847107, 0.49406877160072327, 0.9975442290306091, 0.11857285350561142, 0.9848887920379639, 0.9166528582572937, 0.9995015263557434, 0.9991023540496826, 0.885600209236145, 0.9142617583274841, 0.910576343536377, 0.8025648593902588], 'rec_polys': [array([[1248,   22],
+       ...,
+       [1259,  108]], shape=(4, 2), dtype=int16), array([[816,  87],
+       ...,
+       [816, 140]], shape=(4, 2), dtype=int16), array([[1062,  112],
+       ...,
+       [1068,  211]], shape=(4, 2), dtype=int16), array([[921, 152],
+       ...,
+       [917, 222]], shape=(4, 2), dtype=int16), array([[314, 166],
+       ...,
+       [313, 273]], shape=(4, 2), dtype=int16), array([[1191,  182],
+       ...,
+       [1197,  269]], shape=(4, 2), dtype=int16), array([[320, 263],
+       ...,
+       [320, 318]], shape=(4, 2), dtype=int16), array([[1128,  276],
+       ...,
+       [1132,  322]], shape=(4, 2), dtype=int16), array([[468, 724],
+       ...,
+       [469, 860]], shape=(4, 2), dtype=int16), array([[ 242,  915],
+       ...,
+       [ 243, 1040]], shape=(4, 2), dtype=int16), array([[ 372, 1679],
+       ...,
+       [ 375, 1749]], shape=(4, 2), dtype=int16), array([[ 384, 1768],
+       ...,
+       [ 384, 1820]], shape=(4, 2), dtype=int16), array([[ 262, 1851],
+       ...,
+       [ 267, 1944]], shape=(4, 2), dtype=int16), array([[ 903, 1915],
+       ...,
+       [ 908, 1977]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1248, ...,  108],
+       ...,
+       [ 903, ..., 1977]], shape=(14, 4), dtype=int16)}]
+
+解析后的文本:
+1. 
+2. 26
+3. 提承人：张勇
+4. 潘柏佛
+5. 桂林银行
+6. 威伟
+7. GUILIN BANK
+8. 2025.3.13.
+9. 桂林银行
+10. 人民币委托贷款合同
+11. 贷款种类：流贷
+12. 合同编号：101004202000743-01
+13. 此份材料共，已经我辩认。
+14. 可文

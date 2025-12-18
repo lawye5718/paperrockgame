@@ -1,0 +1,165 @@
+OCR结果 - 第 16 页
+==================================================
+处理的图像: temp_page_15_processed.png
+原始PDF页面: 16
+
+详细结果:
+[{'input_path': 'temp_page_15_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1303,    2],
+       ...,
+       [1299,   99]], shape=(4, 2), dtype=int16), array([[127, 184],
+       ...,
+       [127, 239]], shape=(4, 2), dtype=int16), array([[129, 257],
+       ...,
+       [129, 308]], shape=(4, 2), dtype=int16), array([[131, 327],
+       ...,
+       [131, 378]], shape=(4, 2), dtype=int16), array([[127, 396],
+       ...,
+       [127, 447]], shape=(4, 2), dtype=int16), array([[126, 461],
+       ...,
+       [122, 516]], shape=(4, 2), dtype=int16), array([[220, 542],
+       ...,
+       [220, 589]], shape=(4, 2), dtype=int16), array([[220, 612],
+       ...,
+       [220, 655]], shape=(4, 2), dtype=int16), array([[148, 681],
+       ...,
+       [148, 724]], shape=(4, 2), dtype=int16), array([[135, 747],
+       ...,
+       [134, 799]], shape=(4, 2), dtype=int16), array([[225, 823],
+       ...,
+       [225, 868]], shape=(4, 2), dtype=int16), array([[140, 891],
+       ...,
+       [140, 934]], shape=(4, 2), dtype=int16), array([[ 142,  961],
+       ...,
+       [ 142, 1002]], shape=(4, 2), dtype=int16), array([[ 229, 1029],
+       ...,
+       [ 229, 1072]], shape=(4, 2), dtype=int16), array([[ 140, 1097],
+       ...,
+       [ 140, 1138]], shape=(4, 2), dtype=int16), array([[ 141, 1163],
+       ...,
+       [ 141, 1206]], shape=(4, 2), dtype=int16), array([[ 136, 1230],
+       ...,
+       [ 136, 1275]], shape=(4, 2), dtype=int16), array([[ 137, 1301],
+       ...,
+       [ 137, 1344]], shape=(4, 2), dtype=int16), array([[ 134, 1368],
+       ...,
+       [ 134, 1416]], shape=(4, 2), dtype=int16), array([[ 129, 1437],
+       ...,
+       [ 129, 1487]], shape=(4, 2), dtype=int16), array([[ 130, 1508],
+       ...,
+       [ 130, 1557]], shape=(4, 2), dtype=int16), array([[ 129, 1578],
+       ...,
+       [ 129, 1628]], shape=(4, 2), dtype=int16), array([[ 131, 1653],
+       ...,
+       [ 132, 1697]], shape=(4, 2), dtype=int16), array([[ 213, 1719],
+       ...,
+       [ 213, 1770]], shape=(4, 2), dtype=int16), array([[ 116, 1871],
+       ...,
+       [ 119, 1951]], shape=(4, 2), dtype=int16), array([[ 940, 1878],
+       ...,
+       [ 940, 1920]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['13', '技集团有限公司（以下简称“深圳合丰泰集团”）和广西泰嘉公', '司法人许于辰及其配偶陈婵娟连带保证担保的解决方案。我将这', '个方案跟王雄昌汇报，王雄昌也同意该方案。结清前一笔委托贷', '款后，2021年7月，三方就按该方案签订了第二次委托贷款合', '同。', '问：请你讲讲陈婵娟的个人情况?', '答：陈婵娟，女，广东人，深圳市合丰泰科技集团有限公司', '（以下简称深圳合丰泰集团）法定代表人。许于辰和陈婵娟是夫', '妻关系。', '问：现在向你出示我们依法调取的《桂林银行人民币委托贷', '款借款合同》（编号为101004202104466-01，共16页）、《委托贷款', '协议书》（共4页)，请你仔细查阅并作说明?', '答：(接过文件阅读……15分钟后）经过我仔细查看，结合', '回忆，是桂林银行钦州分行与自贸开投集团和广西泰嘉公司签订', '第二次委托贷款合同，你们出示的材料显示：“均签订于2021年', '7月6日，委托贷款资金为8000万元，委托贷款期限为12个月，', '委托贷款利率为12.5%，手续费费率为贷款本金的年化3%0，共', '计24万元人民币，委托贷款本金由广西泰嘉公司于2022年7月', '5日一次性还清”，我们根据该合同委托贷款上述的8000万元给', '桂林银行钦州分行，具体资金往来以三方的财务转账凭证为准。', '另外，该贷款还让广西泰嘉公司提供了2套设备抵押及许于辰和', '陈婵娟提供连带保证担保。', '问：请你讲一讲两次委托贷款的合同为何不是同一家公司?', '签名:何文斌', '第11页共14页'], 'rec_scores': [0.7562092542648315, 0.994053304195404, 0.995459258556366, 0.9974207282066345, 0.9974982738494873, 0.9943180084228516, 0.9737251400947571, 0.9983875751495361, 0.9938167333602905, 0.9967949390411377, 0.9952760934829712, 0.9758155941963196, 0.9391821622848511, 0.9129425287246704, 0.9937523603439331, 0.9886713624000549, 0.9970505237579346, 0.9938987493515015, 0.9982556700706482, 0.9928721189498901, 0.9982576370239258, 0.9877139329910278, 0.9970078468322754, 0.971117377281189, 0.7792198061943054, 0.9992766380310059], 'rec_polys': [array([[1303,    2],
+       ...,
+       [1299,   99]], shape=(4, 2), dtype=int16), array([[127, 184],
+       ...,
+       [127, 239]], shape=(4, 2), dtype=int16), array([[129, 257],
+       ...,
+       [129, 308]], shape=(4, 2), dtype=int16), array([[131, 327],
+       ...,
+       [131, 378]], shape=(4, 2), dtype=int16), array([[127, 396],
+       ...,
+       [127, 447]], shape=(4, 2), dtype=int16), array([[126, 461],
+       ...,
+       [122, 516]], shape=(4, 2), dtype=int16), array([[220, 542],
+       ...,
+       [220, 589]], shape=(4, 2), dtype=int16), array([[220, 612],
+       ...,
+       [220, 655]], shape=(4, 2), dtype=int16), array([[148, 681],
+       ...,
+       [148, 724]], shape=(4, 2), dtype=int16), array([[135, 747],
+       ...,
+       [134, 799]], shape=(4, 2), dtype=int16), array([[225, 823],
+       ...,
+       [225, 868]], shape=(4, 2), dtype=int16), array([[140, 891],
+       ...,
+       [140, 934]], shape=(4, 2), dtype=int16), array([[ 142,  961],
+       ...,
+       [ 142, 1002]], shape=(4, 2), dtype=int16), array([[ 229, 1029],
+       ...,
+       [ 229, 1072]], shape=(4, 2), dtype=int16), array([[ 140, 1097],
+       ...,
+       [ 140, 1138]], shape=(4, 2), dtype=int16), array([[ 141, 1163],
+       ...,
+       [ 141, 1206]], shape=(4, 2), dtype=int16), array([[ 136, 1230],
+       ...,
+       [ 136, 1275]], shape=(4, 2), dtype=int16), array([[ 137, 1301],
+       ...,
+       [ 137, 1344]], shape=(4, 2), dtype=int16), array([[ 134, 1368],
+       ...,
+       [ 134, 1416]], shape=(4, 2), dtype=int16), array([[ 129, 1437],
+       ...,
+       [ 129, 1487]], shape=(4, 2), dtype=int16), array([[ 130, 1508],
+       ...,
+       [ 130, 1557]], shape=(4, 2), dtype=int16), array([[ 129, 1578],
+       ...,
+       [ 129, 1628]], shape=(4, 2), dtype=int16), array([[ 131, 1653],
+       ...,
+       [ 132, 1697]], shape=(4, 2), dtype=int16), array([[ 213, 1719],
+       ...,
+       [ 213, 1770]], shape=(4, 2), dtype=int16), array([[ 116, 1871],
+       ...,
+       [ 119, 1951]], shape=(4, 2), dtype=int16), array([[ 940, 1878],
+       ...,
+       [ 940, 1920]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1299, ...,  103],
+       ...,
+       [ 940, ..., 1920]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 13
+2. 技集团有限公司（以下简称“深圳合丰泰集团”）和广西泰嘉公
+3. 司法人许于辰及其配偶陈婵娟连带保证担保的解决方案。我将这
+4. 个方案跟王雄昌汇报，王雄昌也同意该方案。结清前一笔委托贷
+5. 款后，2021年7月，三方就按该方案签订了第二次委托贷款合
+6. 同。
+7. 问：请你讲讲陈婵娟的个人情况?
+8. 答：陈婵娟，女，广东人，深圳市合丰泰科技集团有限公司
+9. （以下简称深圳合丰泰集团）法定代表人。许于辰和陈婵娟是夫
+10. 妻关系。
+11. 问：现在向你出示我们依法调取的《桂林银行人民币委托贷
+12. 款借款合同》（编号为101004202104466-01，共16页）、《委托贷款
+13. 协议书》（共4页)，请你仔细查阅并作说明?
+14. 答：(接过文件阅读……15分钟后）经过我仔细查看，结合
+15. 回忆，是桂林银行钦州分行与自贸开投集团和广西泰嘉公司签订
+16. 第二次委托贷款合同，你们出示的材料显示：“均签订于2021年
+17. 7月6日，委托贷款资金为8000万元，委托贷款期限为12个月，
+18. 委托贷款利率为12.5%，手续费费率为贷款本金的年化3%0，共
+19. 计24万元人民币，委托贷款本金由广西泰嘉公司于2022年7月
+20. 5日一次性还清”，我们根据该合同委托贷款上述的8000万元给
+21. 桂林银行钦州分行，具体资金往来以三方的财务转账凭证为准。
+22. 另外，该贷款还让广西泰嘉公司提供了2套设备抵押及许于辰和
+23. 陈婵娟提供连带保证担保。
+24. 问：请你讲一讲两次委托贷款的合同为何不是同一家公司?
+25. 签名:何文斌
+26. 第11页共14页

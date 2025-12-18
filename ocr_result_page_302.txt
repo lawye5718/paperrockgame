@@ -1,0 +1,160 @@
+OCR结果 - 第 302 页
+==================================================
+处理的图像: temp_page_301_processed.png
+原始PDF页面: 302
+
+详细结果:
+[{'input_path': 'temp_page_301_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[262, 195],
+       ...,
+       [261, 244]], shape=(4, 2), dtype=int16), array([[161, 258],
+       ...,
+       [160, 312]], shape=(4, 2), dtype=int16), array([[247, 336],
+       ...,
+       [246, 385]], shape=(4, 2), dtype=int16), array([[259, 406],
+       ...,
+       [258, 453]], shape=(4, 2), dtype=int16), array([[158, 470],
+       ...,
+       [157, 515]], shape=(4, 2), dtype=int16), array([[235, 543],
+       ...,
+       [235, 587]], shape=(4, 2), dtype=int16), array([[149, 605],
+       ...,
+       [148, 657]], shape=(4, 2), dtype=int16), array([[148, 677],
+       ...,
+       [147, 727]], shape=(4, 2), dtype=int16), array([[150, 751],
+       ...,
+       [149, 799]], shape=(4, 2), dtype=int16), array([[229, 829],
+       ...,
+       [229, 873]], shape=(4, 2), dtype=int16), array([[152, 898],
+       ...,
+       [151, 942]], shape=(4, 2), dtype=int16), array([[ 230,  974],
+       ...,
+       [ 230, 1016]], shape=(4, 2), dtype=int16), array([[ 231, 1046],
+       ...,
+       [ 231, 1086]], shape=(4, 2), dtype=int16), array([[ 250, 1113],
+       ...,
+       [ 250, 1157]], shape=(4, 2), dtype=int16), array([[ 155, 1183],
+       ...,
+       [ 155, 1226]], shape=(4, 2), dtype=int16), array([[ 153, 1253],
+       ...,
+       [ 153, 1299]], shape=(4, 2), dtype=int16), array([[ 152, 1324],
+       ...,
+       [ 152, 1372]], shape=(4, 2), dtype=int16), array([[ 153, 1396],
+       ...,
+       [ 153, 1445]], shape=(4, 2), dtype=int16), array([[ 147, 1462],
+       ...,
+       [ 145, 1518]], shape=(4, 2), dtype=int16), array([[ 230, 1606],
+       ...,
+       [ 230, 1657]], shape=(4, 2), dtype=int16), array([[ 342, 1673],
+       ...,
+       [ 342, 1748]], shape=(4, 2), dtype=int16), array([[ 992, 1742],
+       ...,
+       [1068, 1878]], shape=(4, 2), dtype=int16), array([[ 838, 1756],
+       ...,
+       [ 809, 1833]], shape=(4, 2), dtype=int16), array([[ 796, 1832],
+       ...,
+       [ 796, 1908]], shape=(4, 2), dtype=int16), array([[1020, 1833],
+       ...,
+       [1012, 1897]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['（四）泰嘉光电公司出资款用于支付超薄玻璃基板深加工', '厂房代建项目土地款，泰嘉光电公司出资款0.72亿元已到位。', '三、资金支付情况', '(一)截至2023年8月31日，已支付各类款项18.30亿', '元（支付明细见附件），其中：', '1.财政专项资金通过广西中马园区产业平台投资公司以出', '资款拨付至泰成公司后支付6.68亿元（含存款利息），其中工', '程预付款2亿元、工程进度款2.81亿元、设计监理费0.80亿', '元、其他待摊费用1.07亿元。', '2.泰成公司用取得的农发行贷款支付9.32亿元，其中工程', '预付款4.32亿元、工程进度款5亿元。', '3.泰嘉公司出资款支付土地出让金及税费0.72亿元。', '4.广西建工集团垫付工程进度款1.58亿元。', '（二)2023年9月起超薄玻璃基板深加工厂房代建项目进', '入还本阶段，根据片区管委会《关于督促做好项目资金管理等', '有关工作的函》的相关要求，此后还本付息资金由中马投控集', '团代片区管委会筹集，2023年9月1日至今中马投控集团共代', '付资金1.68亿元，其中归还本金0.89亿元，支付利息0.79亿', '元。', '附件：1.泰嘉项目预付款及进度款支付情况', '2.关于督促做好项目资金管理测通医作的函', '投资有限', '8', '2年', '10'], 'rec_scores': [0.9851287603378296, 0.9972959756851196, 0.9988876581192017, 0.9709724187850952, 0.9859100580215454, 0.9989414811134338, 0.9975576996803284, 0.9961453080177307, 0.9921829700469971, 0.9991608262062073, 0.9946005940437317, 0.9980199337005615, 0.9951011538505554, 0.9671337604522705, 0.9987912178039551, 0.9989194273948669, 0.9967249035835266, 0.998662531375885, 0.9938408136367798, 0.9978742599487305, 0.8684906959533691, 0.8912383913993835, 0.04383119195699692, 0.9360387325286865, 0.932428240776062], 'rec_polys': [array([[262, 195],
+       ...,
+       [261, 244]], shape=(4, 2), dtype=int16), array([[161, 258],
+       ...,
+       [160, 312]], shape=(4, 2), dtype=int16), array([[247, 336],
+       ...,
+       [246, 385]], shape=(4, 2), dtype=int16), array([[259, 406],
+       ...,
+       [258, 453]], shape=(4, 2), dtype=int16), array([[158, 470],
+       ...,
+       [157, 515]], shape=(4, 2), dtype=int16), array([[235, 543],
+       ...,
+       [235, 587]], shape=(4, 2), dtype=int16), array([[149, 605],
+       ...,
+       [148, 657]], shape=(4, 2), dtype=int16), array([[148, 677],
+       ...,
+       [147, 727]], shape=(4, 2), dtype=int16), array([[150, 751],
+       ...,
+       [149, 799]], shape=(4, 2), dtype=int16), array([[229, 829],
+       ...,
+       [229, 873]], shape=(4, 2), dtype=int16), array([[152, 898],
+       ...,
+       [151, 942]], shape=(4, 2), dtype=int16), array([[ 230,  974],
+       ...,
+       [ 230, 1016]], shape=(4, 2), dtype=int16), array([[ 231, 1046],
+       ...,
+       [ 231, 1086]], shape=(4, 2), dtype=int16), array([[ 250, 1113],
+       ...,
+       [ 250, 1157]], shape=(4, 2), dtype=int16), array([[ 155, 1183],
+       ...,
+       [ 155, 1226]], shape=(4, 2), dtype=int16), array([[ 153, 1253],
+       ...,
+       [ 153, 1299]], shape=(4, 2), dtype=int16), array([[ 152, 1324],
+       ...,
+       [ 152, 1372]], shape=(4, 2), dtype=int16), array([[ 153, 1396],
+       ...,
+       [ 153, 1445]], shape=(4, 2), dtype=int16), array([[ 147, 1462],
+       ...,
+       [ 145, 1518]], shape=(4, 2), dtype=int16), array([[ 230, 1606],
+       ...,
+       [ 230, 1657]], shape=(4, 2), dtype=int16), array([[ 342, 1673],
+       ...,
+       [ 342, 1748]], shape=(4, 2), dtype=int16), array([[ 992, 1742],
+       ...,
+       [1068, 1878]], shape=(4, 2), dtype=int16), array([[ 838, 1756],
+       ...,
+       [ 809, 1833]], shape=(4, 2), dtype=int16), array([[ 796, 1832],
+       ...,
+       [ 796, 1908]], shape=(4, 2), dtype=int16), array([[1020, 1833],
+       ...,
+       [1012, 1897]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 261, ...,  260],
+       ...,
+       [1012, ..., 1909]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. （四）泰嘉光电公司出资款用于支付超薄玻璃基板深加工
+2. 厂房代建项目土地款，泰嘉光电公司出资款0.72亿元已到位。
+3. 三、资金支付情况
+4. (一)截至2023年8月31日，已支付各类款项18.30亿
+5. 元（支付明细见附件），其中：
+6. 1.财政专项资金通过广西中马园区产业平台投资公司以出
+7. 资款拨付至泰成公司后支付6.68亿元（含存款利息），其中工
+8. 程预付款2亿元、工程进度款2.81亿元、设计监理费0.80亿
+9. 元、其他待摊费用1.07亿元。
+10. 2.泰成公司用取得的农发行贷款支付9.32亿元，其中工程
+11. 预付款4.32亿元、工程进度款5亿元。
+12. 3.泰嘉公司出资款支付土地出让金及税费0.72亿元。
+13. 4.广西建工集团垫付工程进度款1.58亿元。
+14. （二)2023年9月起超薄玻璃基板深加工厂房代建项目进
+15. 入还本阶段，根据片区管委会《关于督促做好项目资金管理等
+16. 有关工作的函》的相关要求，此后还本付息资金由中马投控集
+17. 团代片区管委会筹集，2023年9月1日至今中马投控集团共代
+18. 付资金1.68亿元，其中归还本金0.89亿元，支付利息0.79亿
+19. 元。
+20. 附件：1.泰嘉项目预付款及进度款支付情况
+21. 2.关于督促做好项目资金管理测通医作的函
+22. 投资有限
+23. 8
+24. 2年
+25. 10

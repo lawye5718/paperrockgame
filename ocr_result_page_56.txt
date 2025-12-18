@@ -1,0 +1,165 @@
+OCR结果 - 第 56 页
+==================================================
+处理的图像: temp_page_55_processed.png
+原始PDF页面: 56
+
+详细结果:
+[{'input_path': 'temp_page_55_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1285,    5],
+       ...,
+       [1299,  113]], shape=(4, 2), dtype=int16), array([[157, 118],
+       ...,
+       [155, 152]], shape=(4, 2), dtype=int16), array([[515, 212],
+       ...,
+       [514, 281]], shape=(4, 2), dtype=int16), array([[235, 334],
+       ...,
+       [234, 376]], shape=(4, 2), dtype=int16), array([[161, 396],
+       ...,
+       [159, 437]], shape=(4, 2), dtype=int16), array([[230, 463],
+       ...,
+       [229, 505]], shape=(4, 2), dtype=int16), array([[227, 591],
+       ...,
+       [226, 632]], shape=(4, 2), dtype=int16), array([[149, 655],
+       ...,
+       [148, 693]], shape=(4, 2), dtype=int16), array([[449, 778],
+       ...,
+       [448, 816]], shape=(4, 2), dtype=int16), array([[220, 864],
+       ...,
+       [220, 901]], shape=(4, 2), dtype=int16), array([[231, 931],
+       ...,
+       [231, 969]], shape=(4, 2), dtype=int16), array([[ 143,  994],
+       ...,
+       [ 142, 1031]], shape=(4, 2), dtype=int16), array([[ 227, 1061],
+       ...,
+       [ 227, 1099]], shape=(4, 2), dtype=int16), array([[ 142, 1123],
+       ...,
+       [ 141, 1160]], shape=(4, 2), dtype=int16), array([[ 210, 1187],
+       ...,
+       [ 210, 1228]], shape=(4, 2), dtype=int16), array([[ 209, 1254],
+       ...,
+       [ 209, 1295]], shape=(4, 2), dtype=int16), array([[ 208, 1323],
+       ...,
+       [ 208, 1364]], shape=(4, 2), dtype=int16), array([[ 133, 1388],
+       ...,
+       [ 132, 1429]], shape=(4, 2), dtype=int16), array([[ 453, 1509],
+       ...,
+       [ 453, 1549]], shape=(4, 2), dtype=int16), array([[ 202, 1594],
+       ...,
+       [ 202, 1638]], shape=(4, 2), dtype=int16), array([[ 128, 1655],
+       ...,
+       [ 128, 1707]], shape=(4, 2), dtype=int16), array([[ 134, 1721],
+       ...,
+       [ 134, 1772]], shape=(4, 2), dtype=int16), array([[ 134, 1786],
+       ...,
+       [ 134, 1834]], shape=(4, 2), dtype=int16), array([[ 199, 1850],
+       ...,
+       [ 199, 1907]], shape=(4, 2), dtype=int16), array([[ 351, 1919],
+       ...,
+       [ 355, 1999]], shape=(4, 2), dtype=int16), array([[1077, 1933],
+       ...,
+       [1088, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['53', '件2：', '委托贷款协议书', '委托人（以下简称甲方）：广西自贸区饮州港片区开发投资集团', '有限责任公司', '受托人（以下简称乙方）：桂林银行股份有限公司钦州分行', '甲乙双方经协商，依据国家有关法律法规，甲方委托乙方办理委', '托贷款业务，并达成如下协议：', '第一条甲方委托乙方代理事项', '第1.1条委托代理采用如下第（2）方式：', '（1）与甲方、借款人共同签订《人民币委托贷款合同》或《委', '托贷款展期协议书》等合同文件，并按委托贷款程序发放委托贷款.', '（2)以乙方名义与借款人签订借款台同、担保合同及其他相关', '文件，按委托贷款程序发放委托贷款及办理相关手续。', '第1.2条办理委托贷款结算业务。', '第1.3条按甲方要求协助监督借款人合理使用委托贷款.', '第1.4条协助甲方做好委托贷款本金和利息的催收并及时做', '好回收资金转账工作。', '第二条委托贷款发放与回收', '第2.1条甲方在乙方开立委托贷款资金存款账户，并将委托贷', '款资金存入该存款账户，按“先存后贷，不得透支”的原则使用.甲', '通知乙.方发放贷款的同时应将委托资金提前划入存款账户，在该账', '户中没有发放出的委托贷款资金甲方可自由使用。', '第2.2条甲乙双方与借款人(或乙方受甲方委托与借款人)签', '此材料共4页，已', '武'], 'rec_scores': [0.9903655648231506, 0.7927069067955017, 0.9995908737182617, 0.9495043754577637, 0.9955692887306213, 0.987768828868866, 0.9807571172714233, 0.989016056060791, 0.9988867044448853, 0.9689308404922485, 0.9675906896591187, 0.980316162109375, 0.9292550683021545, 0.9936280846595764, 0.9878259301185608, 0.9747790098190308, 0.9960726499557495, 0.9962397813796997, 0.9991657137870789, 0.9885745644569397, 0.9609689116477966, 0.9566587209701538, 0.990046501159668, 0.969165027141571, 0.7357344031333923, 0.8040303587913513], 'rec_polys': [array([[1285,    5],
+       ...,
+       [1299,  113]], shape=(4, 2), dtype=int16), array([[157, 118],
+       ...,
+       [155, 152]], shape=(4, 2), dtype=int16), array([[515, 212],
+       ...,
+       [514, 281]], shape=(4, 2), dtype=int16), array([[235, 334],
+       ...,
+       [234, 376]], shape=(4, 2), dtype=int16), array([[161, 396],
+       ...,
+       [159, 437]], shape=(4, 2), dtype=int16), array([[230, 463],
+       ...,
+       [229, 505]], shape=(4, 2), dtype=int16), array([[227, 591],
+       ...,
+       [226, 632]], shape=(4, 2), dtype=int16), array([[149, 655],
+       ...,
+       [148, 693]], shape=(4, 2), dtype=int16), array([[449, 778],
+       ...,
+       [448, 816]], shape=(4, 2), dtype=int16), array([[220, 864],
+       ...,
+       [220, 901]], shape=(4, 2), dtype=int16), array([[231, 931],
+       ...,
+       [231, 969]], shape=(4, 2), dtype=int16), array([[ 143,  994],
+       ...,
+       [ 142, 1031]], shape=(4, 2), dtype=int16), array([[ 227, 1061],
+       ...,
+       [ 227, 1099]], shape=(4, 2), dtype=int16), array([[ 142, 1123],
+       ...,
+       [ 141, 1160]], shape=(4, 2), dtype=int16), array([[ 210, 1187],
+       ...,
+       [ 210, 1228]], shape=(4, 2), dtype=int16), array([[ 209, 1254],
+       ...,
+       [ 209, 1295]], shape=(4, 2), dtype=int16), array([[ 208, 1323],
+       ...,
+       [ 208, 1364]], shape=(4, 2), dtype=int16), array([[ 133, 1388],
+       ...,
+       [ 132, 1429]], shape=(4, 2), dtype=int16), array([[ 453, 1509],
+       ...,
+       [ 453, 1549]], shape=(4, 2), dtype=int16), array([[ 202, 1594],
+       ...,
+       [ 202, 1638]], shape=(4, 2), dtype=int16), array([[ 128, 1655],
+       ...,
+       [ 128, 1707]], shape=(4, 2), dtype=int16), array([[ 134, 1721],
+       ...,
+       [ 134, 1772]], shape=(4, 2), dtype=int16), array([[ 134, 1786],
+       ...,
+       [ 134, 1834]], shape=(4, 2), dtype=int16), array([[ 199, 1850],
+       ...,
+       [ 199, 1907]], shape=(4, 2), dtype=int16), array([[ 351, 1919],
+       ...,
+       [ 355, 1999]], shape=(4, 2), dtype=int16), array([[1077, 1933],
+       ...,
+       [1088, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1285, ...,  113],
+       ...,
+       [1077, ..., 2000]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 53
+2. 件2：
+3. 委托贷款协议书
+4. 委托人（以下简称甲方）：广西自贸区饮州港片区开发投资集团
+5. 有限责任公司
+6. 受托人（以下简称乙方）：桂林银行股份有限公司钦州分行
+7. 甲乙双方经协商，依据国家有关法律法规，甲方委托乙方办理委
+8. 托贷款业务，并达成如下协议：
+9. 第一条甲方委托乙方代理事项
+10. 第1.1条委托代理采用如下第（2）方式：
+11. （1）与甲方、借款人共同签订《人民币委托贷款合同》或《委
+12. 托贷款展期协议书》等合同文件，并按委托贷款程序发放委托贷款.
+13. （2)以乙方名义与借款人签订借款台同、担保合同及其他相关
+14. 文件，按委托贷款程序发放委托贷款及办理相关手续。
+15. 第1.2条办理委托贷款结算业务。
+16. 第1.3条按甲方要求协助监督借款人合理使用委托贷款.
+17. 第1.4条协助甲方做好委托贷款本金和利息的催收并及时做
+18. 好回收资金转账工作。
+19. 第二条委托贷款发放与回收
+20. 第2.1条甲方在乙方开立委托贷款资金存款账户，并将委托贷
+21. 款资金存入该存款账户，按“先存后贷，不得透支”的原则使用.甲
+22. 通知乙.方发放贷款的同时应将委托资金提前划入存款账户，在该账
+23. 户中没有发放出的委托贷款资金甲方可自由使用。
+24. 第2.2条甲乙双方与借款人(或乙方受甲方委托与借款人)签
+25. 此材料共4页，已
+26. 武

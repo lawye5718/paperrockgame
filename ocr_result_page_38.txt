@@ -1,0 +1,170 @@
+OCR结果 - 第 38 页
+==================================================
+处理的图像: temp_page_37_processed.png
+原始PDF页面: 38
+
+详细结果:
+[{'input_path': 'temp_page_37_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1349,   29],
+       ...,
+       [1339,  161]], shape=(4, 2), dtype=int16), array([[254, 163],
+       ...,
+       [254, 216]], shape=(4, 2), dtype=int16), array([[363, 163],
+       ...,
+       [362, 211]], shape=(4, 2), dtype=int16), array([[255, 235],
+       ...,
+       [254, 283]], shape=(4, 2), dtype=int16), array([[256, 308],
+       ...,
+       [255, 358]], shape=(4, 2), dtype=int16), array([[368, 374],
+       ...,
+       [368, 436]], shape=(4, 2), dtype=int16), array([[355, 449],
+       ...,
+       [354, 505]], shape=(4, 2), dtype=int16), array([[251, 526],
+       ...,
+       [250, 574]], shape=(4, 2), dtype=int16), array([[375, 603],
+       ...,
+       [374, 648]], shape=(4, 2), dtype=int16), array([[251, 751],
+       ...,
+       [250, 798]], shape=(4, 2), dtype=int16), array([[154, 815],
+       ...,
+       [153, 877]], shape=(4, 2), dtype=int16), array([[160, 898],
+       ...,
+       [159, 945]], shape=(4, 2), dtype=int16), array([[ 160,  975],
+       ...,
+       [ 159, 1018]], shape=(4, 2), dtype=int16), array([[ 155, 1042],
+       ...,
+       [ 154, 1095]], shape=(4, 2), dtype=int16), array([[ 508, 1190],
+       ...,
+       [ 507, 1236]], shape=(4, 2), dtype=int16), array([[ 675, 1193],
+       ...,
+       [ 674, 1239]], shape=(4, 2), dtype=int16), array([[ 232, 1340],
+       ...,
+       [ 232, 1388]], shape=(4, 2), dtype=int16), array([[ 152, 1415],
+       ...,
+       [ 153, 1463]], shape=(4, 2), dtype=int16), array([[ 433, 1558],
+       ...,
+       [ 433, 1609]], shape=(4, 2), dtype=int16), array([[ 606, 1560],
+       ...,
+       [ 607, 1602]], shape=(4, 2), dtype=int16), array([[ 911, 1707],
+       ...,
+       [ 911, 1746]], shape=(4, 2), dtype=int16), array([[1130, 1702],
+       ...,
+       [1130, 1752]], shape=(4, 2), dtype=int16), array([[ 223, 1712],
+       ...,
+       [ 223, 1759]], shape=(4, 2), dtype=int16), array([[ 137, 1782],
+       ...,
+       [ 138, 1832]], shape=(4, 2), dtype=int16), array([[ 222, 1856],
+       ...,
+       [ 222, 1907]], shape=(4, 2), dtype=int16), array([[1099, 1849],
+       ...,
+       [1099, 1891]], shape=(4, 2), dtype=int16), array([[1180, 1858],
+       ...,
+       [1180, 1882]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['77', '住', '所：东莞市虎门镇赤岗社区骏马路一号', '邮政编码：523899', '法定代表人：刘瑜', '话：0769-87002000', '真：0769-85049050', '基本账户开户行：中国银行东莞虎门北侧支行', '号：649667755967', '甲亏委托乙方向丙方发放委托贷款，根据甲，乙方', '2018年11月30日签订的编号为0600的《委托货', '款委托合同》，遵照中华人民共和国相关法律，法规之规定，', '在遵循公平原则的基础上，经各方当事人协商一致，订立本', '台同', '第一条', '委托贷款种类', '1.1台同项下委托贷款为短期委托货共区中期委托', '注区长期委托货款。', '第二条', '委托贷款币种与金额', '人民', '美', '2.1台同项下委托货教币种为', 'X市量', '2.2托', '心', ''], 'rec_scores': [0.984900951385498, 0.29651767015457153, 0.9234875440597534, 0.9331233501434326, 0.9466784596443176, 0.9854676127433777, 0.9964717030525208, 0.9843116998672485, 0.9754588007926941, 0.9206596612930298, 0.7696298360824585, 0.9662105441093445, 0.9760048985481262, 0.9718179702758789, 0.9726884961128235, 0.9992547631263733, 0.8652021884918213, 0.42642539739608765, 0.9644777774810791, 0.9365187883377075, 0.9260212182998657, 0.8631151914596558, 0.7478185296058655, 0.39583027362823486, 0.9040244221687317, 0.16304932534694672, 0.0], 'rec_polys': [array([[1349,   29],
+       ...,
+       [1339,  161]], shape=(4, 2), dtype=int16), array([[254, 163],
+       ...,
+       [254, 216]], shape=(4, 2), dtype=int16), array([[363, 163],
+       ...,
+       [362, 211]], shape=(4, 2), dtype=int16), array([[255, 235],
+       ...,
+       [254, 283]], shape=(4, 2), dtype=int16), array([[256, 308],
+       ...,
+       [255, 358]], shape=(4, 2), dtype=int16), array([[368, 374],
+       ...,
+       [368, 436]], shape=(4, 2), dtype=int16), array([[355, 449],
+       ...,
+       [354, 505]], shape=(4, 2), dtype=int16), array([[251, 526],
+       ...,
+       [250, 574]], shape=(4, 2), dtype=int16), array([[375, 603],
+       ...,
+       [374, 648]], shape=(4, 2), dtype=int16), array([[251, 751],
+       ...,
+       [250, 798]], shape=(4, 2), dtype=int16), array([[154, 815],
+       ...,
+       [153, 877]], shape=(4, 2), dtype=int16), array([[160, 898],
+       ...,
+       [159, 945]], shape=(4, 2), dtype=int16), array([[ 160,  975],
+       ...,
+       [ 159, 1018]], shape=(4, 2), dtype=int16), array([[ 155, 1042],
+       ...,
+       [ 154, 1095]], shape=(4, 2), dtype=int16), array([[ 508, 1190],
+       ...,
+       [ 507, 1236]], shape=(4, 2), dtype=int16), array([[ 675, 1193],
+       ...,
+       [ 674, 1239]], shape=(4, 2), dtype=int16), array([[ 232, 1340],
+       ...,
+       [ 232, 1388]], shape=(4, 2), dtype=int16), array([[ 152, 1415],
+       ...,
+       [ 153, 1463]], shape=(4, 2), dtype=int16), array([[ 433, 1558],
+       ...,
+       [ 433, 1609]], shape=(4, 2), dtype=int16), array([[ 606, 1560],
+       ...,
+       [ 607, 1602]], shape=(4, 2), dtype=int16), array([[ 911, 1707],
+       ...,
+       [ 911, 1746]], shape=(4, 2), dtype=int16), array([[1130, 1702],
+       ...,
+       [1130, 1752]], shape=(4, 2), dtype=int16), array([[ 223, 1712],
+       ...,
+       [ 223, 1759]], shape=(4, 2), dtype=int16), array([[ 137, 1782],
+       ...,
+       [ 138, 1832]], shape=(4, 2), dtype=int16), array([[ 222, 1856],
+       ...,
+       [ 222, 1907]], shape=(4, 2), dtype=int16), array([[1099, 1849],
+       ...,
+       [1099, 1891]], shape=(4, 2), dtype=int16), array([[1180, 1858],
+       ...,
+       [1180, 1882]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[1339, ...,  167],
+       ...,
+       [1180, ..., 1882]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 77
+2. 住
+3. 所：东莞市虎门镇赤岗社区骏马路一号
+4. 邮政编码：523899
+5. 法定代表人：刘瑜
+6. 话：0769-87002000
+7. 真：0769-85049050
+8. 基本账户开户行：中国银行东莞虎门北侧支行
+9. 号：649667755967
+10. 甲亏委托乙方向丙方发放委托贷款，根据甲，乙方
+11. 2018年11月30日签订的编号为0600的《委托货
+12. 款委托合同》，遵照中华人民共和国相关法律，法规之规定，
+13. 在遵循公平原则的基础上，经各方当事人协商一致，订立本
+14. 台同
+15. 第一条
+16. 委托贷款种类
+17. 1.1台同项下委托贷款为短期委托货共区中期委托
+18. 注区长期委托货款。
+19. 第二条
+20. 委托贷款币种与金额
+21. 人民
+22. 美
+23. 2.1台同项下委托货教币种为
+24. X市量
+25. 2.2托
+26. 心
+27. 

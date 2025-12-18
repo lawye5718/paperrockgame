@@ -1,0 +1,115 @@
+OCR结果 - 第 181 页
+==================================================
+处理的图像: temp_page_180_processed.png
+原始PDF页面: 181
+
+详细结果:
+[{'input_path': 'temp_page_180_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[106, 132],
+       ...,
+       [106, 166]], shape=(4, 2), dtype=int16), array([[107, 194],
+       ...,
+       [107, 228]], shape=(4, 2), dtype=int16), array([[106, 254],
+       ...,
+       [105, 285]], shape=(4, 2), dtype=int16), array([[174, 313],
+       ...,
+       [174, 345]], shape=(4, 2), dtype=int16), array([[173, 368],
+       ...,
+       [173, 402]], shape=(4, 2), dtype=int16), array([[175, 428],
+       ...,
+       [175, 460]], shape=(4, 2), dtype=int16), array([[177, 486],
+       ...,
+       [177, 517]], shape=(4, 2), dtype=int16), array([[178, 541],
+       ...,
+       [178, 572]], shape=(4, 2), dtype=int16), array([[182, 597],
+       ...,
+       [182, 631]], shape=(4, 2), dtype=int16), array([[117, 657],
+       ...,
+       [117, 687]], shape=(4, 2), dtype=int16), array([[180, 711],
+       ...,
+       [180, 749]], shape=(4, 2), dtype=int16), array([[117, 771],
+       ...,
+       [117, 805]], shape=(4, 2), dtype=int16), array([[182, 828],
+       ...,
+       [182, 867]], shape=(4, 2), dtype=int16), array([[117, 888],
+       ...,
+       [117, 921]], shape=(4, 2), dtype=int16), array([[183, 946],
+       ...,
+       [183, 980]], shape=(4, 2), dtype=int16), array([[ 723, 1962],
+       ...,
+       [ 723, 1995]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['度难以满足工艺要求时，再通过剥离废液回收系统将其回收，再委托给具有处理资质的', '其他单位回收处置，从而在生产过程中大大减少了物料消耗，从源头有效地减少了污染', '物的排放量。', '剥离工序污染源：', '废气：有机废气G3，经过有机废气处理设施集中处理后排放。。', '废水：有机废水W5，进入有机废水处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置。', '除以上产污环节外，废水污染源还有酸碱废水、含氟废水。', '废水：酸碱废水W1，来自于纯水制备再生水和工艺清洗水回收系统反冲洗，进入', '酸碱废水处理系统集中处理后排放。', '含氟废水W2，来自于设备自带POU设备和废气洗涤塔（酸性废气、碱性废气、特', '殊废气）处理后排放的废水，进入含氟废水处理系统集中处理后排放。', '以上工序的薄膜沉积和光刻过程反复进行5次，各层不同材料和形状的薄膜在玻璃', '基板上层叠构成薄膜晶体管阵列和互联线，从而实现TFT基板的制作。', '本项目阵列工程主要产污环节如图2.2-2(a)、(b)和（c)所示。', '42'], 'rec_scores': [0.9974930286407471, 0.9927149415016174, 0.9977050423622131, 0.9898288249969482, 0.9751219749450684, 0.99506014585495, 0.9943369030952454, 0.998424232006073, 0.9949309229850769, 0.9992315769195557, 0.9866448640823364, 0.9945392608642578, 0.9969143271446228, 0.9971029758453369, 0.9063037037849426, 0.9989293217658997], 'rec_polys': [array([[106, 132],
+       ...,
+       [106, 166]], shape=(4, 2), dtype=int16), array([[107, 194],
+       ...,
+       [107, 228]], shape=(4, 2), dtype=int16), array([[106, 254],
+       ...,
+       [105, 285]], shape=(4, 2), dtype=int16), array([[174, 313],
+       ...,
+       [174, 345]], shape=(4, 2), dtype=int16), array([[173, 368],
+       ...,
+       [173, 402]], shape=(4, 2), dtype=int16), array([[175, 428],
+       ...,
+       [175, 460]], shape=(4, 2), dtype=int16), array([[177, 486],
+       ...,
+       [177, 517]], shape=(4, 2), dtype=int16), array([[178, 541],
+       ...,
+       [178, 572]], shape=(4, 2), dtype=int16), array([[182, 597],
+       ...,
+       [182, 631]], shape=(4, 2), dtype=int16), array([[117, 657],
+       ...,
+       [117, 687]], shape=(4, 2), dtype=int16), array([[180, 711],
+       ...,
+       [180, 749]], shape=(4, 2), dtype=int16), array([[117, 771],
+       ...,
+       [117, 805]], shape=(4, 2), dtype=int16), array([[182, 828],
+       ...,
+       [182, 867]], shape=(4, 2), dtype=int16), array([[117, 888],
+       ...,
+       [117, 921]], shape=(4, 2), dtype=int16), array([[183, 946],
+       ...,
+       [183, 980]], shape=(4, 2), dtype=int16), array([[ 723, 1962],
+       ...,
+       [ 723, 1995]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 106, ...,  166],
+       ...,
+       [ 723, ..., 1995]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 度难以满足工艺要求时，再通过剥离废液回收系统将其回收，再委托给具有处理资质的
+2. 其他单位回收处置，从而在生产过程中大大减少了物料消耗，从源头有效地减少了污染
+3. 物的排放量。
+4. 剥离工序污染源：
+5. 废气：有机废气G3，经过有机废气处理设施集中处理后排放。。
+6. 废水：有机废水W5，进入有机废水处理系统集中处理后排放。
+7. 固体废物：有机废液S2，作为危废废物收集、处置。
+8. 除以上产污环节外，废水污染源还有酸碱废水、含氟废水。
+9. 废水：酸碱废水W1，来自于纯水制备再生水和工艺清洗水回收系统反冲洗，进入
+10. 酸碱废水处理系统集中处理后排放。
+11. 含氟废水W2，来自于设备自带POU设备和废气洗涤塔（酸性废气、碱性废气、特
+12. 殊废气）处理后排放的废水，进入含氟废水处理系统集中处理后排放。
+13. 以上工序的薄膜沉积和光刻过程反复进行5次，各层不同材料和形状的薄膜在玻璃
+14. 基板上层叠构成薄膜晶体管阵列和互联线，从而实现TFT基板的制作。
+15. 本项目阵列工程主要产污环节如图2.2-2(a)、(b)和（c)所示。
+16. 42

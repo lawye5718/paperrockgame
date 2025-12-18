@@ -1,0 +1,175 @@
+OCR结果 - 第 296 页
+==================================================
+处理的图像: temp_page_295_processed.png
+原始PDF页面: 296
+
+详细结果:
+[{'input_path': 'temp_page_295_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1279,   15],
+       ...,
+       [1287,   94]], shape=(4, 2), dtype=int16), array([[211,  94],
+       ...,
+       [211, 139]], shape=(4, 2), dtype=int16), array([[672,  89],
+       ...,
+       [673, 157]], shape=(4, 2), dtype=int16), array([[215, 138],
+       ...,
+       [215, 161]], shape=(4, 2), dtype=int16), array([[126, 200],
+       ...,
+       [125, 235]], shape=(4, 2), dtype=int16), array([[733, 199],
+       ...,
+       [733, 234]], shape=(4, 2), dtype=int16), array([[125, 241],
+       ...,
+       [124, 275]], shape=(4, 2), dtype=int16), array([[732, 232],
+       ...,
+       [732, 271]], shape=(4, 2), dtype=int16), array([[127, 278],
+       ...,
+       [126, 307]], shape=(4, 2), dtype=int16), array([[195, 280],
+       ...,
+       [195, 314]], shape=(4, 2), dtype=int16), array([[122, 311],
+       ...,
+       [122, 352]], shape=(4, 2), dtype=int16), array([[121, 347],
+       ...,
+       [121, 385]], shape=(4, 2), dtype=int16), array([[121, 381],
+       ...,
+       [121, 421]], shape=(4, 2), dtype=int16), array([[124, 417],
+       ...,
+       [123, 448]], shape=(4, 2), dtype=int16), array([[1319,  416],
+       ...,
+       [1322,  485]], shape=(4, 2), dtype=int16), array([[124, 453],
+       ...,
+       [123, 485]], shape=(4, 2), dtype=int16), array([[1378,  453],
+       ...,
+       [1378,  484]], shape=(4, 2), dtype=int16), array([[123, 488],
+       ...,
+       [123, 523]], shape=(4, 2), dtype=int16), array([[123, 521],
+       ...,
+       [123, 555]], shape=(4, 2), dtype=int16), array([[1324,  518],
+       ...,
+       [1324,  563]], shape=(4, 2), dtype=int16), array([[1048,  575],
+       ...,
+       [1048,  607]], shape=(4, 2), dtype=int16), array([[1119,  575],
+       ...,
+       [1119,  609]], shape=(4, 2), dtype=int16), array([[1103,  612],
+       ...,
+       [1103,  649]], shape=(4, 2), dtype=int16), array([[123, 816],
+       ...,
+       [123, 846]], shape=(4, 2), dtype=int16), array([[122, 851],
+       ...,
+       [122, 880]], shape=(4, 2), dtype=int16), array([[118, 883],
+       ...,
+       [118, 915]], shape=(4, 2), dtype=int16), array([[536, 888],
+       ...,
+       [536, 919]], shape=(4, 2), dtype=int16), array([[942, 896],
+       ...,
+       [942, 928]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['付息', '中国农业发展银行', '记账凭证', 'AORICULTURAL DEVELOPMENT DAHK OF CAIRA', '借贷标志：借', '表内外标志：表内', '核算机构编号：450799001', '币种：人民币', '账号：', '45079900115643100000010500021', '账号名称：广西中马钦州产业园区泰成投资有限公司应解汇款及临时存款', '对力账号：45079900102400000000050', '对方账号名称：广西中马钦州产业园区泰成投资有限公司', '记账金额：1,518,440.00', '附件', '摘要描述：归还贷款', '：', '全局流水号：999910012503211261653448', '核心流水号：9250321023949969', '张', '借：', '4310', '贷：', '日期：2025-04-10 11:50:54', '交易机构：450799001中国农业发展银行钦州市分行', '经办柜员号：', '复核柜员：', '授权柜员：'], 'rec_scores': [0.6780177354812622, 0.9967964887619019, 0.99964439868927, 0.8304069638252258, 0.9831612706184387, 0.9832166433334351, 0.984161376953125, 0.9949038028717041, 0.9954865574836731, 0.9491429328918457, 0.9568923115730286, 0.9144291877746582, 0.9751529097557068, 0.9165502786636353, 0.9895836114883423, 0.9865577220916748, 0.5437604784965515, 0.9668623805046082, 0.9946167469024658, 0.9996523857116699, 0.9561049938201904, 0.999688982963562, 0.8434176445007324, 0.9632343649864197, 0.9826609492301941, 0.9771242737770081, 0.967159628868103, 0.9592536687850952], 'rec_polys': [array([[1279,   15],
+       ...,
+       [1287,   94]], shape=(4, 2), dtype=int16), array([[211,  94],
+       ...,
+       [211, 139]], shape=(4, 2), dtype=int16), array([[672,  89],
+       ...,
+       [673, 157]], shape=(4, 2), dtype=int16), array([[215, 138],
+       ...,
+       [215, 161]], shape=(4, 2), dtype=int16), array([[126, 200],
+       ...,
+       [125, 235]], shape=(4, 2), dtype=int16), array([[733, 199],
+       ...,
+       [733, 234]], shape=(4, 2), dtype=int16), array([[125, 241],
+       ...,
+       [124, 275]], shape=(4, 2), dtype=int16), array([[732, 232],
+       ...,
+       [732, 271]], shape=(4, 2), dtype=int16), array([[127, 278],
+       ...,
+       [126, 307]], shape=(4, 2), dtype=int16), array([[195, 280],
+       ...,
+       [195, 314]], shape=(4, 2), dtype=int16), array([[122, 311],
+       ...,
+       [122, 352]], shape=(4, 2), dtype=int16), array([[121, 347],
+       ...,
+       [121, 385]], shape=(4, 2), dtype=int16), array([[121, 381],
+       ...,
+       [121, 421]], shape=(4, 2), dtype=int16), array([[124, 417],
+       ...,
+       [123, 448]], shape=(4, 2), dtype=int16), array([[1319,  416],
+       ...,
+       [1322,  485]], shape=(4, 2), dtype=int16), array([[124, 453],
+       ...,
+       [123, 485]], shape=(4, 2), dtype=int16), array([[1378,  453],
+       ...,
+       [1378,  484]], shape=(4, 2), dtype=int16), array([[123, 488],
+       ...,
+       [123, 523]], shape=(4, 2), dtype=int16), array([[123, 521],
+       ...,
+       [123, 555]], shape=(4, 2), dtype=int16), array([[1324,  518],
+       ...,
+       [1324,  563]], shape=(4, 2), dtype=int16), array([[1048,  575],
+       ...,
+       [1048,  607]], shape=(4, 2), dtype=int16), array([[1119,  575],
+       ...,
+       [1119,  609]], shape=(4, 2), dtype=int16), array([[1103,  612],
+       ...,
+       [1103,  649]], shape=(4, 2), dtype=int16), array([[123, 816],
+       ...,
+       [123, 846]], shape=(4, 2), dtype=int16), array([[122, 851],
+       ...,
+       [122, 880]], shape=(4, 2), dtype=int16), array([[118, 883],
+       ...,
+       [118, 915]], shape=(4, 2), dtype=int16), array([[536, 888],
+       ...,
+       [536, 919]], shape=(4, 2), dtype=int16), array([[942, 896],
+       ...,
+       [942, 928]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1279, ...,   94],
+       ...,
+       [ 942, ...,  928]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. 付息
+2. 中国农业发展银行
+3. 记账凭证
+4. AORICULTURAL DEVELOPMENT DAHK OF CAIRA
+5. 借贷标志：借
+6. 表内外标志：表内
+7. 核算机构编号：450799001
+8. 币种：人民币
+9. 账号：
+10. 45079900115643100000010500021
+11. 账号名称：广西中马钦州产业园区泰成投资有限公司应解汇款及临时存款
+12. 对力账号：45079900102400000000050
+13. 对方账号名称：广西中马钦州产业园区泰成投资有限公司
+14. 记账金额：1,518,440.00
+15. 附件
+16. 摘要描述：归还贷款
+17. ：
+18. 全局流水号：999910012503211261653448
+19. 核心流水号：9250321023949969
+20. 张
+21. 借：
+22. 4310
+23. 贷：
+24. 日期：2025-04-10 11:50:54
+25. 交易机构：450799001中国农业发展银行钦州市分行
+26. 经办柜员号：
+27. 复核柜员：
+28. 授权柜员：

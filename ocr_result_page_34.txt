@@ -1,0 +1,140 @@
+OCR结果 - 第 34 页
+==================================================
+处理的图像: temp_page_33_processed.png
+原始PDF页面: 34
+
+详细结果:
+[{'input_path': 'temp_page_33_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[1352,   24],
+       ...,
+       [1352,  118]], shape=(4, 2), dtype=int16), array([[159, 127],
+       ...,
+       [161, 175]], shape=(4, 2), dtype=int16), array([[755, 151],
+       ...,
+       [756, 186]], shape=(4, 2), dtype=int16), array([[233, 341],
+       ...,
+       [234, 379]], shape=(4, 2), dtype=int16), array([[699, 375],
+       ...,
+       [697, 546]], shape=(4, 2), dtype=int16), array([[232, 455],
+       ...,
+       [233, 490]], shape=(4, 2), dtype=int16), array([[241, 522],
+       ...,
+       [242, 558]], shape=(4, 2), dtype=int16), array([[224, 735],
+       ...,
+       [225, 777]], shape=(4, 2), dtype=int16), array([[225, 851],
+       ...,
+       [226, 893]], shape=(4, 2), dtype=int16), array([[234, 922],
+       ...,
+       [235, 963]], shape=(4, 2), dtype=int16), array([[ 219,  984],
+       ...,
+       [ 220, 1044]], shape=(4, 2), dtype=int16), array([[ 702,  993],
+       ...,
+       [ 702, 1027]], shape=(4, 2), dtype=int16), array([[ 220, 1150],
+       ...,
+       [ 221, 1193]], shape=(4, 2), dtype=int16), array([[ 911, 1221],
+       ...,
+       [ 911, 1300]], shape=(4, 2), dtype=int16), array([[ 216, 1265],
+       ...,
+       [ 215, 1306]], shape=(4, 2), dtype=int16), array([[ 910, 1281],
+       ...,
+       [ 910, 1368]], shape=(4, 2), dtype=int16), array([[ 227, 1339],
+       ...,
+       [ 227, 1377]], shape=(4, 2), dtype=int16), array([[ 919, 1348],
+       ...,
+       [ 920, 1365]], shape=(4, 2), dtype=int16), array([[ 206, 1402],
+       ...,
+       [ 207, 1461]], shape=(4, 2), dtype=int16), array([[ 951, 1885],
+       ...,
+       [ 951, 1897]], shape=(4, 2), dtype=int16), array([[ 730, 1988],
+       ...,
+       [ 730, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['3', '(本页无正文，为编号【101004202104466-', '】《人民币委托贷款合同》约签署页)', '甲方（签章）:', '于', '法定代表人或授权代理人', '（签名或盖名章）', '乙方（签章）', '法定代表人或授权代理人', '（签名或盖名章）:', '签署日期：202年7月6', '日', '丙方（盖章）：', '勇郭', '负责人或授权代理人', '印诚', '（签名或盖名章）：', '7', '签署日期:2021年7月6日', '.', '12'], 'rec_scores': [0.7872251272201538, 0.894496500492096, 0.927340567111969, 0.8864370584487915, 0.5795437097549438, 0.998879075050354, 0.9624848365783691, 0.9500611424446106, 0.9983079433441162, 0.8824589252471924, 0.9246004223823547, 0.9659498333930969, 0.9455089569091797, 0.946175217628479, 0.9989013671875, 0.944495677947998, 0.9449601769447327, 0.37415042519569397, 0.9419792890548706, 0.5990274548530579, 0.8228051662445068], 'rec_polys': [array([[1352,   24],
+       ...,
+       [1352,  118]], shape=(4, 2), dtype=int16), array([[159, 127],
+       ...,
+       [161, 175]], shape=(4, 2), dtype=int16), array([[755, 151],
+       ...,
+       [756, 186]], shape=(4, 2), dtype=int16), array([[233, 341],
+       ...,
+       [234, 379]], shape=(4, 2), dtype=int16), array([[699, 375],
+       ...,
+       [697, 546]], shape=(4, 2), dtype=int16), array([[232, 455],
+       ...,
+       [233, 490]], shape=(4, 2), dtype=int16), array([[241, 522],
+       ...,
+       [242, 558]], shape=(4, 2), dtype=int16), array([[224, 735],
+       ...,
+       [225, 777]], shape=(4, 2), dtype=int16), array([[225, 851],
+       ...,
+       [226, 893]], shape=(4, 2), dtype=int16), array([[234, 922],
+       ...,
+       [235, 963]], shape=(4, 2), dtype=int16), array([[ 219,  984],
+       ...,
+       [ 220, 1044]], shape=(4, 2), dtype=int16), array([[ 702,  993],
+       ...,
+       [ 702, 1027]], shape=(4, 2), dtype=int16), array([[ 220, 1150],
+       ...,
+       [ 221, 1193]], shape=(4, 2), dtype=int16), array([[ 911, 1221],
+       ...,
+       [ 911, 1300]], shape=(4, 2), dtype=int16), array([[ 216, 1265],
+       ...,
+       [ 215, 1306]], shape=(4, 2), dtype=int16), array([[ 910, 1281],
+       ...,
+       [ 910, 1368]], shape=(4, 2), dtype=int16), array([[ 227, 1339],
+       ...,
+       [ 227, 1377]], shape=(4, 2), dtype=int16), array([[ 919, 1348],
+       ...,
+       [ 920, 1365]], shape=(4, 2), dtype=int16), array([[ 206, 1402],
+       ...,
+       [ 207, 1461]], shape=(4, 2), dtype=int16), array([[ 951, 1885],
+       ...,
+       [ 951, 1897]], shape=(4, 2), dtype=int16), array([[ 730, 1988],
+       ...,
+       [ 730, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1352, ...,  118],
+       ...,
+       [ 730, ..., 2000]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. 3
+2. (本页无正文，为编号【101004202104466-
+3. 】《人民币委托贷款合同》约签署页)
+4. 甲方（签章）:
+5. 于
+6. 法定代表人或授权代理人
+7. （签名或盖名章）
+8. 乙方（签章）
+9. 法定代表人或授权代理人
+10. （签名或盖名章）:
+11. 签署日期：202年7月6
+12. 日
+13. 丙方（盖章）：
+14. 勇郭
+15. 负责人或授权代理人
+16. 印诚
+17. （签名或盖名章）：
+18. 7
+19. 签署日期:2021年7月6日
+20. .
+21. 12

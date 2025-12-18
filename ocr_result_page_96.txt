@@ -1,0 +1,50 @@
+OCR结果 - 第 96 页
+==================================================
+处理的图像: temp_page_95_processed.png
+原始PDF页面: 96
+
+详细结果:
+[{'input_path': 'temp_page_95_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 270, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1426, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1426, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[1339, 1082],
+       ...,
+       [1338, 1131]], shape=(4, 2), dtype=int16), array([[  93, 1336],
+       ...,
+       [  93, 1367]], shape=(4, 2), dtype=int16), array([[1626, 1340],
+       ...,
+       [1626, 1383]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['记机关', '无家企业用用信更公示系统网址：', '国察市场监督管理总局监制'], 'rec_scores': [0.8448944687843323, 0.6102141737937927, 0.912947416305542], 'rec_polys': [array([[1339, 1082],
+       ...,
+       [1338, 1131]], shape=(4, 2), dtype=int16), array([[  93, 1336],
+       ...,
+       [  93, 1367]], shape=(4, 2), dtype=int16), array([[1626, 1340],
+       ...,
+       [1626, 1383]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0], 'rec_boxes': array([[1338, ..., 1133],
+       ...,
+       [1626, ..., 1387]], shape=(3, 4), dtype=int16)}]
+
+解析后的文本:
+1. 记机关
+2. 无家企业用用信更公示系统网址：
+3. 国察市场监督管理总局监制

@@ -1,0 +1,95 @@
+OCR结果 - 第 36 页
+==================================================
+处理的图像: temp_page_35_processed.png
+原始PDF页面: 36
+
+详细结果:
+[{'input_path': 'temp_page_35_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1019,    0],
+       ...,
+       [1017,  111]], shape=(4, 2), dtype=int16), array([[774,  67],
+       ...,
+       [774, 109]], shape=(4, 2), dtype=int16), array([[1146,   82],
+       ...,
+       [1142,  169]], shape=(4, 2), dtype=int16), array([[822, 107],
+       ...,
+       [817, 191]], shape=(4, 2), dtype=int16), array([[1095,  158],
+       ...,
+       [1092,  219]], shape=(4, 2), dtype=int16), array([[400, 632],
+       ...,
+       [403, 726]], shape=(4, 2), dtype=int16), array([[ 497, 1469],
+       ...,
+       [ 498, 1516]], shape=(4, 2), dtype=int16), array([[ 377, 1706],
+       ...,
+       [ 378, 1812]], shape=(4, 2), dtype=int16), array([[  91, 1760],
+       ...,
+       [  91, 1808]], shape=(4, 2), dtype=int16), array([[1057, 1827],
+       ...,
+       [1057, 1902]], shape=(4, 2), dtype=int16), array([[ 931, 1925],
+       ...,
+       [ 935, 1980]], shape=(4, 2), dtype=int16), array([[ 726, 1955],
+       ...,
+       [ 726, 1976]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['人张勇', '20', '能天伟', '潘市', '2025.3.13.', '委托贷款借款合同', '华夏银行股份有限公司', '此分材料共20页，已经事认', 'K', '', '2025', '1'], 'rec_scores': [0.6685102581977844, 0.9776482582092285, 0.1797659993171692, 0.3754803538322449, 0.8921316266059875, 0.968380331993103, 0.9361170530319214, 0.7346788644790649, 0.19565598666667938, 0.0, 0.9460544586181641, 0.736586332321167], 'rec_polys': [array([[1019,    0],
+       ...,
+       [1017,  111]], shape=(4, 2), dtype=int16), array([[774,  67],
+       ...,
+       [774, 109]], shape=(4, 2), dtype=int16), array([[1146,   82],
+       ...,
+       [1142,  169]], shape=(4, 2), dtype=int16), array([[822, 107],
+       ...,
+       [817, 191]], shape=(4, 2), dtype=int16), array([[1095,  158],
+       ...,
+       [1092,  219]], shape=(4, 2), dtype=int16), array([[400, 632],
+       ...,
+       [403, 726]], shape=(4, 2), dtype=int16), array([[ 497, 1469],
+       ...,
+       [ 498, 1516]], shape=(4, 2), dtype=int16), array([[ 377, 1706],
+       ...,
+       [ 378, 1812]], shape=(4, 2), dtype=int16), array([[  91, 1760],
+       ...,
+       [  91, 1808]], shape=(4, 2), dtype=int16), array([[1057, 1827],
+       ...,
+       [1057, 1902]], shape=(4, 2), dtype=int16), array([[ 931, 1925],
+       ...,
+       [ 935, 1980]], shape=(4, 2), dtype=int16), array([[ 726, 1955],
+       ...,
+       [ 726, 1976]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1017, ...,  118],
+       ...,
+       [ 726, ..., 1976]], shape=(12, 4), dtype=int16)}]
+
+解析后的文本:
+1. 人张勇
+2. 20
+3. 能天伟
+4. 潘市
+5. 2025.3.13.
+6. 委托贷款借款合同
+7. 华夏银行股份有限公司
+8. 此分材料共20页，已经事认
+9. K
+10. 
+11. 2025
+12. 1

@@ -1,0 +1,165 @@
+OCR结果 - 第 46 页
+==================================================
+处理的图像: temp_page_45_processed.png
+原始PDF页面: 46
+
+详细结果:
+[{'input_path': 'temp_page_45_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[1271,    1],
+       ...,
+       [1271,  115]], shape=(4, 2), dtype=int16), array([[264, 150],
+       ...,
+       [264, 200]], shape=(4, 2), dtype=int16), array([[183, 222],
+       ...,
+       [183, 266]], shape=(4, 2), dtype=int16), array([[184, 294],
+       ...,
+       [184, 336]], shape=(4, 2), dtype=int16), array([[178, 363],
+       ...,
+       [178, 403]], shape=(4, 2), dtype=int16), array([[178, 430],
+       ...,
+       [178, 471]], shape=(4, 2), dtype=int16), array([[170, 498],
+       ...,
+       [170, 539]], shape=(4, 2), dtype=int16), array([[167, 561],
+       ...,
+       [165, 607]], shape=(4, 2), dtype=int16), array([[254, 640],
+       ...,
+       [254, 681]], shape=(4, 2), dtype=int16), array([[164, 708],
+       ...,
+       [164, 751]], shape=(4, 2), dtype=int16), array([[163, 779],
+       ...,
+       [163, 823]], shape=(4, 2), dtype=int16), array([[164, 851],
+       ...,
+       [164, 891]], shape=(4, 2), dtype=int16), array([[248, 922],
+       ...,
+       [248, 964]], shape=(4, 2), dtype=int16), array([[ 164,  992],
+       ...,
+       [ 164, 1036]], shape=(4, 2), dtype=int16), array([[ 159, 1065],
+       ...,
+       [ 159, 1106]], shape=(4, 2), dtype=int16), array([[ 158, 1131],
+       ...,
+       [ 158, 1176]], shape=(4, 2), dtype=int16), array([[ 241, 1205],
+       ...,
+       [ 241, 1248]], shape=(4, 2), dtype=int16), array([[ 152, 1276],
+       ...,
+       [ 152, 1321]], shape=(4, 2), dtype=int16), array([[ 241, 1350],
+       ...,
+       [ 241, 1393]], shape=(4, 2), dtype=int16), array([[ 151, 1422],
+       ...,
+       [ 151, 1467]], shape=(4, 2), dtype=int16), array([[ 150, 1492],
+       ...,
+       [ 150, 1539]], shape=(4, 2), dtype=int16), array([[ 148, 1566],
+       ...,
+       [ 148, 1609]], shape=(4, 2), dtype=int16), array([[ 153, 1636],
+       ...,
+       [ 153, 1680]], shape=(4, 2), dtype=int16), array([[ 143, 1705],
+       ...,
+       [ 143, 1753]], shape=(4, 2), dtype=int16), array([[ 137, 1775],
+       ...,
+       [ 136, 1833]], shape=(4, 2), dtype=int16), array([[ 683, 1936],
+       ...,
+       [ 683, 1969]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['43', '12.5协助监肾使用是指，如约定采取乙方受托支付方', '式，则乙方按丙方提款申请和支付委托，将委托贷款通过丙', '方账户支付给符台合同约定用途的丙方交易对象；如约定采', '取丙亏自主支付方式，则乙.方根据丙方的提款申请，将委托', '货款资金发放至丙方账户，由丙方自主支付给符台台同约定', '用途的丙方交易对象，乙方可协助打印丙方账户资金流水提', '供给甲方。', '12.6协助收回委托贷款本息是指按照甲方的书面委托协', '助甲亏出具并代为邮寄利息清单和贷款催收通知单，并及时', '将收回的委托贷款本息划付到甲方账户。对于本息未能及时', '到账的，及时告知甲方。', '12.7委托贷款到期后，乙方有权终止履行受托人的责', '和义务，并进行相应账务处理，所产生的后果由甲方承担；', '托贷款到期未还款的，乙方根据合同约定，为甲方依法维', '提供协助。', '12.8乙方对甲、丙方提供的信息和资料及乙方查询到的', '信息进行保密。', '方有在法律、法规、监管规定、有权机关规定的期', '内对审，再专提供的信息和乙方查询到的信息进行得存', '在内部使用（超上期限的，乙方有权销毁）；有权根据', '法律法规，监管规定，可法机关的强制命令提供信息；有', '履行本的议之目的，将早，丙方提供的信息和乙方查询到', '的信息披露给了方代理人、合作机构，并取得代理人，合作', '构的保宿示诺专有有关资料保密的义务', '11'], 'rec_scores': [0.6881840825080872, 0.9750880599021912, 0.9657145738601685, 0.9526177048683167, 0.9428622126579285, 0.9583985209465027, 0.9857644438743591, 0.9967353940010071, 0.9941967725753784, 0.9648529887199402, 0.9878896474838257, 0.9390844106674194, 0.9900583624839783, 0.986207902431488, 0.9699543714523315, 0.9767612218856812, 0.9793608784675598, 0.9342048764228821, 0.9118557572364807, 0.8489659428596497, 0.8905396461486816, 0.9296654462814331, 0.7881795763969421, 0.8941086530685425, 0.7973716855049133, 0.7145246267318726], 'rec_polys': [array([[1271,    1],
+       ...,
+       [1271,  115]], shape=(4, 2), dtype=int16), array([[264, 150],
+       ...,
+       [264, 200]], shape=(4, 2), dtype=int16), array([[183, 222],
+       ...,
+       [183, 266]], shape=(4, 2), dtype=int16), array([[184, 294],
+       ...,
+       [184, 336]], shape=(4, 2), dtype=int16), array([[178, 363],
+       ...,
+       [178, 403]], shape=(4, 2), dtype=int16), array([[178, 430],
+       ...,
+       [178, 471]], shape=(4, 2), dtype=int16), array([[170, 498],
+       ...,
+       [170, 539]], shape=(4, 2), dtype=int16), array([[167, 561],
+       ...,
+       [165, 607]], shape=(4, 2), dtype=int16), array([[254, 640],
+       ...,
+       [254, 681]], shape=(4, 2), dtype=int16), array([[164, 708],
+       ...,
+       [164, 751]], shape=(4, 2), dtype=int16), array([[163, 779],
+       ...,
+       [163, 823]], shape=(4, 2), dtype=int16), array([[164, 851],
+       ...,
+       [164, 891]], shape=(4, 2), dtype=int16), array([[248, 922],
+       ...,
+       [248, 964]], shape=(4, 2), dtype=int16), array([[ 164,  992],
+       ...,
+       [ 164, 1036]], shape=(4, 2), dtype=int16), array([[ 159, 1065],
+       ...,
+       [ 159, 1106]], shape=(4, 2), dtype=int16), array([[ 158, 1131],
+       ...,
+       [ 158, 1176]], shape=(4, 2), dtype=int16), array([[ 241, 1205],
+       ...,
+       [ 241, 1248]], shape=(4, 2), dtype=int16), array([[ 152, 1276],
+       ...,
+       [ 152, 1321]], shape=(4, 2), dtype=int16), array([[ 241, 1350],
+       ...,
+       [ 241, 1393]], shape=(4, 2), dtype=int16), array([[ 151, 1422],
+       ...,
+       [ 151, 1467]], shape=(4, 2), dtype=int16), array([[ 150, 1492],
+       ...,
+       [ 150, 1539]], shape=(4, 2), dtype=int16), array([[ 148, 1566],
+       ...,
+       [ 148, 1609]], shape=(4, 2), dtype=int16), array([[ 153, 1636],
+       ...,
+       [ 153, 1680]], shape=(4, 2), dtype=int16), array([[ 143, 1705],
+       ...,
+       [ 143, 1753]], shape=(4, 2), dtype=int16), array([[ 137, 1775],
+       ...,
+       [ 136, 1833]], shape=(4, 2), dtype=int16), array([[ 683, 1936],
+       ...,
+       [ 683, 1969]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1271, ...,  115],
+       ...,
+       [ 683, ..., 1969]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 43
+2. 12.5协助监肾使用是指，如约定采取乙方受托支付方
+3. 式，则乙方按丙方提款申请和支付委托，将委托贷款通过丙
+4. 方账户支付给符台合同约定用途的丙方交易对象；如约定采
+5. 取丙亏自主支付方式，则乙.方根据丙方的提款申请，将委托
+6. 货款资金发放至丙方账户，由丙方自主支付给符台台同约定
+7. 用途的丙方交易对象，乙方可协助打印丙方账户资金流水提
+8. 供给甲方。
+9. 12.6协助收回委托贷款本息是指按照甲方的书面委托协
+10. 助甲亏出具并代为邮寄利息清单和贷款催收通知单，并及时
+11. 将收回的委托贷款本息划付到甲方账户。对于本息未能及时
+12. 到账的，及时告知甲方。
+13. 12.7委托贷款到期后，乙方有权终止履行受托人的责
+14. 和义务，并进行相应账务处理，所产生的后果由甲方承担；
+15. 托贷款到期未还款的，乙方根据合同约定，为甲方依法维
+16. 提供协助。
+17. 12.8乙方对甲、丙方提供的信息和资料及乙方查询到的
+18. 信息进行保密。
+19. 方有在法律、法规、监管规定、有权机关规定的期
+20. 内对审，再专提供的信息和乙方查询到的信息进行得存
+21. 在内部使用（超上期限的，乙方有权销毁）；有权根据
+22. 法律法规，监管规定，可法机关的强制命令提供信息；有
+23. 履行本的议之目的，将早，丙方提供的信息和乙方查询到
+24. 的信息披露给了方代理人、合作机构，并取得代理人，合作
+25. 构的保宿示诺专有有关资料保密的义务
+26. 11

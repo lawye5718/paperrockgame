@@ -1,0 +1,115 @@
+OCR结果 - 第 90 页
+==================================================
+处理的图像: temp_page_89_processed.png
+原始PDF页面: 90
+
+详细结果:
+[{'input_path': 'temp_page_89_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[254, ..., 254],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[ 49,   7],
+       ...,
+       [ 58, 101]], shape=(4, 2), dtype=int16), array([[173,   3],
+       ...,
+       [173,  14]], shape=(4, 2), dtype=int16), array([[993,   0],
+       ...,
+       [992,  33]], shape=(4, 2), dtype=int16), array([[222,  82],
+       ...,
+       [222, 113]], shape=(4, 2), dtype=int16), array([[204, 206],
+       ...,
+       [203, 237]], shape=(4, 2), dtype=int16), array([[618, 285],
+       ...,
+       [618, 416]], shape=(4, 2), dtype=int16), array([[752, 298],
+       ...,
+       [760, 381]], shape=(4, 2), dtype=int16), array([[841, 300],
+       ...,
+       [839, 363]], shape=(4, 2), dtype=int16), array([[411, 348],
+       ...,
+       [418, 487]], shape=(4, 2), dtype=int16), array([[766, 352],
+       ...,
+       [764, 408]], shape=(4, 2), dtype=int16), array([[770, 404],
+       ...,
+       [770, 447]], shape=(4, 2), dtype=int16), array([[971, 627],
+       ...,
+       [964, 675]], shape=(4, 2), dtype=int16), array([[895, 663],
+       ...,
+       [917, 699]], shape=(4, 2), dtype=int16), array([[876, 681],
+       ...,
+       [877, 725]], shape=(4, 2), dtype=int16), array([[877, 718],
+       ...,
+       [877, 756]], shape=(4, 2), dtype=int16), array([[929, 755],
+       ...,
+       [929, 797]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['88', '2', '中阳评报字2019]第205号', '（本页无正文）', '资产评估师签章：', '颜', '微', '平估片', '陈之', '颜介军', '15120027', '只估务', '资', '资产评估事务所有限公司', '酒', '2019年3月18日'], 'rec_scores': [0.9988172054290771, 0.3402579128742218, 0.9290992021560669, 0.95061856508255, 0.9836890697479248, 0.9595553874969482, 0.10468770563602448, 0.5712868571281433, 0.24835951626300812, 0.788530170917511, 0.8980653285980225, 0.41904354095458984, 0.5542284846305847, 0.9341011047363281, 0.3415352702140808, 0.9389320611953735], 'rec_polys': [array([[ 49,   7],
+       ...,
+       [ 58, 101]], shape=(4, 2), dtype=int16), array([[173,   3],
+       ...,
+       [173,  14]], shape=(4, 2), dtype=int16), array([[993,   0],
+       ...,
+       [992,  33]], shape=(4, 2), dtype=int16), array([[222,  82],
+       ...,
+       [222, 113]], shape=(4, 2), dtype=int16), array([[204, 206],
+       ...,
+       [203, 237]], shape=(4, 2), dtype=int16), array([[618, 285],
+       ...,
+       [618, 416]], shape=(4, 2), dtype=int16), array([[752, 298],
+       ...,
+       [760, 381]], shape=(4, 2), dtype=int16), array([[841, 300],
+       ...,
+       [839, 363]], shape=(4, 2), dtype=int16), array([[411, 348],
+       ...,
+       [418, 487]], shape=(4, 2), dtype=int16), array([[766, 352],
+       ...,
+       [764, 408]], shape=(4, 2), dtype=int16), array([[770, 404],
+       ...,
+       [770, 447]], shape=(4, 2), dtype=int16), array([[971, 627],
+       ...,
+       [964, 675]], shape=(4, 2), dtype=int16), array([[895, 663],
+       ...,
+       [917, 699]], shape=(4, 2), dtype=int16), array([[876, 681],
+       ...,
+       [877, 725]], shape=(4, 2), dtype=int16), array([[877, 718],
+       ...,
+       [877, 756]], shape=(4, 2), dtype=int16), array([[929, 755],
+       ...,
+       [929, 797]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 49, ..., 101],
+       ...,
+       [929, ..., 797]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 88
+2. 2
+3. 中阳评报字2019]第205号
+4. （本页无正文）
+5. 资产评估师签章：
+6. 颜
+7. 微
+8. 平估片
+9. 陈之
+10. 颜介军
+11. 15120027
+12. 只估务
+13. 资
+14. 资产评估事务所有限公司
+15. 酒
+16. 2019年3月18日

@@ -1,0 +1,95 @@
+OCR结果 - 第 294 页
+==================================================
+处理的图像: temp_page_293_processed.png
+原始PDF页面: 294
+
+详细结果:
+[{'input_path': 'temp_page_293_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [164, ..., 164]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[173,  18],
+       ...,
+       [173,  62]], shape=(4, 2), dtype=int16), array([[503, 199],
+       ...,
+       [502, 274]], shape=(4, 2), dtype=int16), array([[ 16, 380],
+       ...,
+       [ 16, 402]], shape=(4, 2), dtype=int16), array([[ 71, 379],
+       ...,
+       [ 71, 407]], shape=(4, 2), dtype=int16), array([[197, 382],
+       ...,
+       [195, 412]], shape=(4, 2), dtype=int16), array([[1120,  752],
+       ...,
+       [1119,  838]], shape=(4, 2), dtype=int16), array([[713, 821],
+       ...,
+       [710, 866]], shape=(4, 2), dtype=int16), array([[ 484, 1020],
+       ...,
+       [ 483, 1062]], shape=(4, 2), dtype=int16), array([[ 658, 1145],
+       ...,
+       [ 657, 1194]], shape=(4, 2), dtype=int16), array([[1035, 1361],
+       ...,
+       [1033, 1416]], shape=(4, 2), dtype=int16), array([[ 389, 1655],
+       ...,
+       [ 387, 1700]], shape=(4, 2), dtype=int16), array([[ 339, 1898],
+       ...,
+       [ 335, 1967]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['N', '分水岭', '0', '0.5', '2km', '项目位置', '六村', '深坪村', '丹察村', '饮用水源保护区', '金鼓村', '附图9区域水文地质单元示意图'], 'rec_scores': [0.9378652572631836, 0.9961431622505188, 0.48802295327186584, 0.9090332388877869, 0.7094717025756836, 0.9989160299301147, 0.9974533319473267, 0.9968528747558594, 0.8269820809364319, 0.9970673322677612, 0.9843621253967285, 0.96689373254776], 'rec_polys': [array([[173,  18],
+       ...,
+       [173,  62]], shape=(4, 2), dtype=int16), array([[503, 199],
+       ...,
+       [502, 274]], shape=(4, 2), dtype=int16), array([[ 16, 380],
+       ...,
+       [ 16, 402]], shape=(4, 2), dtype=int16), array([[ 71, 379],
+       ...,
+       [ 71, 407]], shape=(4, 2), dtype=int16), array([[197, 382],
+       ...,
+       [195, 412]], shape=(4, 2), dtype=int16), array([[1120,  752],
+       ...,
+       [1119,  838]], shape=(4, 2), dtype=int16), array([[713, 821],
+       ...,
+       [710, 866]], shape=(4, 2), dtype=int16), array([[ 484, 1020],
+       ...,
+       [ 483, 1062]], shape=(4, 2), dtype=int16), array([[ 658, 1145],
+       ...,
+       [ 657, 1194]], shape=(4, 2), dtype=int16), array([[1035, 1361],
+       ...,
+       [1033, 1416]], shape=(4, 2), dtype=int16), array([[ 389, 1655],
+       ...,
+       [ 387, 1700]], shape=(4, 2), dtype=int16), array([[ 339, 1898],
+       ...,
+       [ 335, 1967]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 173, ...,   62],
+       ...,
+       [ 335, ..., 1999]], shape=(12, 4), dtype=int16)}]
+
+解析后的文本:
+1. N
+2. 分水岭
+3. 0
+4. 0.5
+5. 2km
+6. 项目位置
+7. 六村
+8. 深坪村
+9. 丹察村
+10. 饮用水源保护区
+11. 金鼓村
+12. 附图9区域水文地质单元示意图

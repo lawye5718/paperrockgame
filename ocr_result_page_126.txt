@@ -1,0 +1,120 @@
+OCR结果 - 第 126 页
+==================================================
+处理的图像: temp_page_125_processed.png
+原始PDF页面: 126
+
+详细结果:
+[{'input_path': 'temp_page_125_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[ 97, 254],
+       ...,
+       [ 97, 561]], shape=(4, 2), dtype=int16), array([[501, 613],
+       ...,
+       [501, 669]], shape=(4, 2), dtype=int16), array([[257, 815],
+       ...,
+       [256, 883]], shape=(4, 2), dtype=int16), array([[467, 887],
+       ...,
+       [466, 952]], shape=(4, 2), dtype=int16), array([[ 160, 1040],
+       ...,
+       [ 159, 1082]], shape=(4, 2), dtype=int16), array([[ 234, 1111],
+       ...,
+       [ 234, 1152]], shape=(4, 2), dtype=int16), array([[ 159, 1181],
+       ...,
+       [ 159, 1222]], shape=(4, 2), dtype=int16), array([[ 157, 1249],
+       ...,
+       [ 157, 1291]], shape=(4, 2), dtype=int16), array([[ 236, 1322],
+       ...,
+       [ 236, 1362]], shape=(4, 2), dtype=int16), array([[ 157, 1390],
+       ...,
+       [ 157, 1430]], shape=(4, 2), dtype=int16), array([[ 174, 1458],
+       ...,
+       [ 174, 1499]], shape=(4, 2), dtype=int16), array([[ 156, 1525],
+       ...,
+       [ 155, 1570]], shape=(4, 2), dtype=int16), array([[   0, 1543],
+       ...,
+       [   3, 1561]], shape=(4, 2), dtype=int16), array([[ 156, 1595],
+       ...,
+       [ 155, 1636]], shape=(4, 2), dtype=int16), array([[ 153, 1659],
+       ...,
+       [ 152, 1707]], shape=(4, 2), dtype=int16), array([[ 153, 1727],
+       ...,
+       [ 152, 1774]], shape=(4, 2), dtype=int16), array([[1179, 1886],
+       ...,
+       [1179, 1919]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['钦州市财政局文件', '钦市财预〔2016]122号', '关于提前下达2017年中马钦州产业园', '中央补助资金的通知', '中马钦州产业园区管委会财政局：', '根据自治区财政厅《关于提前下达2017年中马钦州产业园', '中央补助资金的通知》（桂财预[2016]236号）精神，现就有关', '事项通知如下：', '一、提前下达2017年中马钦州产业园中央补助资金7亿元。', '其中：综合财力补助3.5亿元，列2017年政府收支分类科目', '“1100208结算补助收入”；中央分成新增建设用地土地有偿使用', '费3.5亿元，列2017年政府收支分类科目“2121299其他新增建', '8', '设用地土地有偿使用费安排的支出”.此次提前下达的转移支付指', '标作为正式指标。你园区要将提前下达的转移支付指标全额编入', '2017年度年初预算，并准确列入相关收支科目。', '-1-'], 'rec_scores': [0.9992661476135254, 0.8848600387573242, 0.9992272257804871, 0.9972888231277466, 0.9930914044380188, 0.9985421299934387, 0.9519609212875366, 0.9502357244491577, 0.9963263273239136, 0.9967512488365173, 0.9919300079345703, 0.9969518184661865, 0.13953262567520142, 0.9904536604881287, 0.9978354573249817, 0.998471200466156, 0.9783496260643005], 'rec_polys': [array([[ 97, 254],
+       ...,
+       [ 97, 561]], shape=(4, 2), dtype=int16), array([[501, 613],
+       ...,
+       [501, 669]], shape=(4, 2), dtype=int16), array([[257, 815],
+       ...,
+       [256, 883]], shape=(4, 2), dtype=int16), array([[467, 887],
+       ...,
+       [466, 952]], shape=(4, 2), dtype=int16), array([[ 160, 1040],
+       ...,
+       [ 159, 1082]], shape=(4, 2), dtype=int16), array([[ 234, 1111],
+       ...,
+       [ 234, 1152]], shape=(4, 2), dtype=int16), array([[ 159, 1181],
+       ...,
+       [ 159, 1222]], shape=(4, 2), dtype=int16), array([[ 157, 1249],
+       ...,
+       [ 157, 1291]], shape=(4, 2), dtype=int16), array([[ 236, 1322],
+       ...,
+       [ 236, 1362]], shape=(4, 2), dtype=int16), array([[ 157, 1390],
+       ...,
+       [ 157, 1430]], shape=(4, 2), dtype=int16), array([[ 174, 1458],
+       ...,
+       [ 174, 1499]], shape=(4, 2), dtype=int16), array([[ 156, 1525],
+       ...,
+       [ 155, 1570]], shape=(4, 2), dtype=int16), array([[   0, 1543],
+       ...,
+       [   3, 1561]], shape=(4, 2), dtype=int16), array([[ 156, 1595],
+       ...,
+       [ 155, 1636]], shape=(4, 2), dtype=int16), array([[ 153, 1659],
+       ...,
+       [ 152, 1707]], shape=(4, 2), dtype=int16), array([[ 153, 1727],
+       ...,
+       [ 152, 1774]], shape=(4, 2), dtype=int16), array([[1179, 1886],
+       ...,
+       [1179, 1919]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[  97, ...,  561],
+       ...,
+       [1179, ..., 1919]], shape=(17, 4), dtype=int16)}]
+
+解析后的文本:
+1. 钦州市财政局文件
+2. 钦市财预〔2016]122号
+3. 关于提前下达2017年中马钦州产业园
+4. 中央补助资金的通知
+5. 中马钦州产业园区管委会财政局：
+6. 根据自治区财政厅《关于提前下达2017年中马钦州产业园
+7. 中央补助资金的通知》（桂财预[2016]236号）精神，现就有关
+8. 事项通知如下：
+9. 一、提前下达2017年中马钦州产业园中央补助资金7亿元。
+10. 其中：综合财力补助3.5亿元，列2017年政府收支分类科目
+11. “1100208结算补助收入”；中央分成新增建设用地土地有偿使用
+12. 费3.5亿元，列2017年政府收支分类科目“2121299其他新增建
+13. 8
+14. 设用地土地有偿使用费安排的支出”.此次提前下达的转移支付指
+15. 标作为正式指标。你园区要将提前下达的转移支付指标全额编入
+16. 2017年度年初预算，并准确列入相关收支科目。
+17. -1-

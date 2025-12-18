@@ -1,0 +1,95 @@
+OCR结果 - 第 260 页
+==================================================
+处理的图像: temp_page_259_processed.png
+原始PDF页面: 260
+
+详细结果:
+[{'input_path': 'temp_page_259_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[ 57,  40],
+       ...,
+       [ 52, 139]], shape=(4, 2), dtype=int16), array([[ 45, 155],
+       ...,
+       [ 44, 192]], shape=(4, 2), dtype=int16), array([[446, 284],
+       ...,
+       [443, 445]], shape=(4, 2), dtype=int16), array([[437, 626],
+       ...,
+       [437, 663]], shape=(4, 2), dtype=int16), array([[ 152,  961],
+       ...,
+       [ 152, 1004]], shape=(4, 2), dtype=int16), array([[ 491,  960],
+       ...,
+       [ 491, 1001]], shape=(4, 2), dtype=int16), array([[ 588, 1043],
+       ...,
+       [ 588, 1085]], shape=(4, 2), dtype=int16), array([[ 154, 1126],
+       ...,
+       [ 154, 1168]], shape=(4, 2), dtype=int16), array([[ 590, 1127],
+       ...,
+       [ 590, 1168]], shape=(4, 2), dtype=int16), array([[ 152, 1205],
+       ...,
+       [ 152, 1252]], shape=(4, 2), dtype=int16), array([[ 676, 1213],
+       ...,
+       [ 675, 1255]], shape=(4, 2), dtype=int16), array([[ 370, 1685],
+       ...,
+       [ 370, 1743]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['MA', '18 20 12 05 0920', '检测报告', '报告编号：LHHJ20191104(105)01', '项目名称：', '广西泰嘉光电科技有限公司超薄玻璃基板', '深加工项目环境质量现状监测', '委托单位：', '中国电子工程设计院有限公司', '报告日期:', '2019年11月25日', '广西利华检测评价有限公司（盖章）'], 'rec_scores': [0.9834479689598083, 0.9552184343338013, 0.9998624324798584, 0.9816064834594727, 0.9506370425224304, 0.9980093836784363, 0.9990634918212891, 0.9867880940437317, 0.9993285536766052, 0.9441523551940918, 0.9968738555908203, 0.9567046165466309], 'rec_polys': [array([[ 57,  40],
+       ...,
+       [ 52, 139]], shape=(4, 2), dtype=int16), array([[ 45, 155],
+       ...,
+       [ 44, 192]], shape=(4, 2), dtype=int16), array([[446, 284],
+       ...,
+       [443, 445]], shape=(4, 2), dtype=int16), array([[437, 626],
+       ...,
+       [437, 663]], shape=(4, 2), dtype=int16), array([[ 152,  961],
+       ...,
+       [ 152, 1004]], shape=(4, 2), dtype=int16), array([[ 491,  960],
+       ...,
+       [ 491, 1001]], shape=(4, 2), dtype=int16), array([[ 588, 1043],
+       ...,
+       [ 588, 1085]], shape=(4, 2), dtype=int16), array([[ 154, 1126],
+       ...,
+       [ 154, 1168]], shape=(4, 2), dtype=int16), array([[ 590, 1127],
+       ...,
+       [ 590, 1168]], shape=(4, 2), dtype=int16), array([[ 152, 1205],
+       ...,
+       [ 152, 1252]], shape=(4, 2), dtype=int16), array([[ 676, 1213],
+       ...,
+       [ 675, 1255]], shape=(4, 2), dtype=int16), array([[ 370, 1685],
+       ...,
+       [ 370, 1743]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[  52, ...,  149],
+       ...,
+       [ 370, ..., 1743]], shape=(12, 4), dtype=int16)}]
+
+解析后的文本:
+1. MA
+2. 18 20 12 05 0920
+3. 检测报告
+4. 报告编号：LHHJ20191104(105)01
+5. 项目名称：
+6. 广西泰嘉光电科技有限公司超薄玻璃基板
+7. 深加工项目环境质量现状监测
+8. 委托单位：
+9. 中国电子工程设计院有限公司
+10. 报告日期:
+11. 2019年11月25日
+12. 广西利华检测评价有限公司（盖章）

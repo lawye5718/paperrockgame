@@ -1,0 +1,290 @@
+OCR结果 - 第 291 页
+==================================================
+处理的图像: temp_page_290_processed.png
+原始PDF页面: 291
+
+详细结果:
+[{'input_path': 'temp_page_290_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 270, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[181,  18],
+       ...,
+       [181,  45]], shape=(4, 2), dtype=int16), array([[1190,   12],
+       ...,
+       [1190,   26]], shape=(4, 2), dtype=int16), array([[  5,  60],
+       ...,
+       [  5, 116]], shape=(4, 2), dtype=int16), array([[ 41,  56],
+       ...,
+       [ 41, 164]], shape=(4, 2), dtype=int16), array([[ 76,  56],
+       ...,
+       [ 79, 164]], shape=(4, 2), dtype=int16), array([[113,  57],
+       ...,
+       [116, 165]], shape=(4, 2), dtype=int16), array([[148,  60],
+       ...,
+       [150, 164]], shape=(4, 2), dtype=int16), array([[216,  54],
+       ...,
+       [216,  89]], shape=(4, 2), dtype=int16), array([[298, 106],
+       ...,
+       [298, 120]], shape=(4, 2), dtype=int16), array([[  8, 124],
+       ...,
+       [  8, 156]], shape=(4, 2), dtype=int16), array([[1040,  139],
+       ...,
+       [1040,  161]], shape=(4, 2), dtype=int16), array([[  9, 264],
+       ...,
+       [ 16, 374]], shape=(4, 2), dtype=int16), array([[ 46, 262],
+       ...,
+       [ 50, 339]], shape=(4, 2), dtype=int16), array([[ 83, 262],
+       ...,
+       [ 87, 338]], shape=(4, 2), dtype=int16), array([[117, 263],
+       ...,
+       [123, 356]], shape=(4, 2), dtype=int16), array([[156, 263],
+       ...,
+       [163, 371]], shape=(4, 2), dtype=int16), array([[1465,  262],
+       ...,
+       [1465,  280]], shape=(4, 2), dtype=int16), array([[607, 286],
+       ...,
+       [607, 296]], shape=(4, 2), dtype=int16), array([[488, 368],
+       ...,
+       [488, 377]], shape=(4, 2), dtype=int16), array([[ 22, 460],
+       ...,
+       [ 40, 633]], shape=(4, 2), dtype=int16), array([[ 63, 465],
+       ...,
+       [ 75, 610]], shape=(4, 2), dtype=int16), array([[ 97, 465],
+       ...,
+       [106, 572]], shape=(4, 2), dtype=int16), array([[134, 463],
+       ...,
+       [144, 571]], shape=(4, 2), dtype=int16), array([[168, 461],
+       ...,
+       [175, 574]], shape=(4, 2), dtype=int16), array([[238, 498],
+       ...,
+       [240, 534]], shape=(4, 2), dtype=int16), array([[ 50, 719],
+       ...,
+       [ 56, 828]], shape=(4, 2), dtype=int16), array([[ 87, 719],
+       ...,
+       [ 93, 828]], shape=(4, 2), dtype=int16), array([[123, 720],
+       ...,
+       [127, 824]], shape=(4, 2), dtype=int16), array([[158, 720],
+       ...,
+       [161, 793]], shape=(4, 2), dtype=int16), array([[187, 717],
+       ...,
+       [192, 830]], shape=(4, 2), dtype=int16), array([[  3, 833],
+       ...,
+       [  3, 882]], shape=(4, 2), dtype=int16), array([[  55,  928],
+       ...,
+       [  49, 1004]], shape=(4, 2), dtype=int16), array([[  88,  930],
+       ...,
+       [  85, 1006]], shape=(4, 2), dtype=int16), array([[126, 933],
+       ...,
+       [126, 990]], shape=(4, 2), dtype=int16), array([[ 160,  933],
+       ...,
+       [ 154, 1041]], shape=(4, 2), dtype=int16), array([[ 193,  929],
+       ...,
+       [ 188, 1044]], shape=(4, 2), dtype=int16), array([[ 783,  973],
+       ...,
+       [ 792, 1190]], shape=(4, 2), dtype=int16), array([[  31, 1109],
+       ...,
+       [  12, 1190]], shape=(4, 2), dtype=int16), array([[  71, 1110],
+       ...,
+       [  56, 1194]], shape=(4, 2), dtype=int16), array([[ 106, 1112],
+       ...,
+       [  94, 1197]], shape=(4, 2), dtype=int16), array([[ 144, 1110],
+       ...,
+       [ 132, 1194]], shape=(4, 2), dtype=int16), array([[ 177, 1110],
+       ...,
+       [ 166, 1192]], shape=(4, 2), dtype=int16), array([[  13, 1230],
+       ...,
+       [   7, 1288]], shape=(4, 2), dtype=int16), array([[  46, 1233],
+       ...,
+       [  46, 1250]], shape=(4, 2), dtype=int16), array([[  94, 1226],
+       ...,
+       [  86, 1291]], shape=(4, 2), dtype=int16), array([[  85, 1299],
+       ...,
+       [  82, 1375]], shape=(4, 2), dtype=int16), array([[ 161, 1298],
+       ...,
+       [ 158, 1376]], shape=(4, 2), dtype=int16), array([[1769, 1307],
+       ...,
+       [1769, 1324]], shape=(4, 2), dtype=int16), array([[1850, 1304],
+       ...,
+       [1850, 1318]], shape=(4, 2), dtype=int16), array([[ 247, 1326],
+       ...,
+       [ 258, 1337]], shape=(4, 2), dtype=int16), array([[1217, 1380],
+       ...,
+       [1224, 1391]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['中', '中', '文化设', '行政办公用地', '商住混合用地', '二类居住用地', '一类居住用地', 'r', '0', '1', '*', '医疗卫生用地', '体育用地', '科研用地', '中小学用地', '高等烘校用地', '*', ':', '中', '公用设路营业网点用地', '娱乐康体设施用地', '商务设师用地', '高业设施用地', '文物古迹用地', '140', '环境设施用端', '供康设施用地', '交通场站用地', '工业用地', '生产研堂庵地', '', '公園螺地', '山体林地', '红树林', '村庄建设用地', '安全设集用地', '项目位置', '223k高压线', '5SOKVIEA', '内湖/海域', '广场用地', '', '', '1.1', '-', '新', 'AOT', '财', '2', 'n', '物王'], 'rec_scores': [0.18642637133598328, 0.5355207920074463, 0.9846628308296204, 0.9961736798286438, 0.9030339121818542, 0.9836385250091553, 0.8817421793937683, 0.23325861990451813, 0.08756761252880096, 0.1631709337234497, 0.47720661759376526, 0.941296398639679, 0.9566254019737244, 0.9711902141571045, 0.9069703221321106, 0.856111466884613, 0.4508971571922302, 0.1844300776720047, 0.09573940932750702, 0.8727917671203613, 0.9003592133522034, 0.9013357162475586, 0.882216215133667, 0.8984742760658264, 0.7073006629943848, 0.7192274928092957, 0.9402337670326233, 0.9380969405174255, 0.9981237053871155, 0.8130835890769958, 0.0, 0.7531084418296814, 0.9948247671127319, 0.9246399998664856, 0.9855431914329529, 0.7866125106811523, 0.9984760284423828, 0.6549217104911804, 0.47045713663101196, 0.7894655466079712, 0.8090173006057739, 0.0, 0.0, 0.671968400478363, 0.30747339129447937, 0.09670615941286087, 0.4401133060455322, 0.26234638690948486, 0.09910402446985245, 0.18811066448688507, 0.540554404258728], 'rec_polys': [array([[181,  18],
+       ...,
+       [181,  45]], shape=(4, 2), dtype=int16), array([[1190,   12],
+       ...,
+       [1190,   26]], shape=(4, 2), dtype=int16), array([[  5,  60],
+       ...,
+       [  5, 116]], shape=(4, 2), dtype=int16), array([[ 41,  56],
+       ...,
+       [ 41, 164]], shape=(4, 2), dtype=int16), array([[ 76,  56],
+       ...,
+       [ 79, 164]], shape=(4, 2), dtype=int16), array([[113,  57],
+       ...,
+       [116, 165]], shape=(4, 2), dtype=int16), array([[148,  60],
+       ...,
+       [150, 164]], shape=(4, 2), dtype=int16), array([[216,  54],
+       ...,
+       [216,  89]], shape=(4, 2), dtype=int16), array([[298, 106],
+       ...,
+       [298, 120]], shape=(4, 2), dtype=int16), array([[  8, 124],
+       ...,
+       [  8, 156]], shape=(4, 2), dtype=int16), array([[1040,  139],
+       ...,
+       [1040,  161]], shape=(4, 2), dtype=int16), array([[  9, 264],
+       ...,
+       [ 16, 374]], shape=(4, 2), dtype=int16), array([[ 46, 262],
+       ...,
+       [ 50, 339]], shape=(4, 2), dtype=int16), array([[ 83, 262],
+       ...,
+       [ 87, 338]], shape=(4, 2), dtype=int16), array([[117, 263],
+       ...,
+       [123, 356]], shape=(4, 2), dtype=int16), array([[156, 263],
+       ...,
+       [163, 371]], shape=(4, 2), dtype=int16), array([[1465,  262],
+       ...,
+       [1465,  280]], shape=(4, 2), dtype=int16), array([[607, 286],
+       ...,
+       [607, 296]], shape=(4, 2), dtype=int16), array([[488, 368],
+       ...,
+       [488, 377]], shape=(4, 2), dtype=int16), array([[ 22, 460],
+       ...,
+       [ 40, 633]], shape=(4, 2), dtype=int16), array([[ 63, 465],
+       ...,
+       [ 75, 610]], shape=(4, 2), dtype=int16), array([[ 97, 465],
+       ...,
+       [106, 572]], shape=(4, 2), dtype=int16), array([[134, 463],
+       ...,
+       [144, 571]], shape=(4, 2), dtype=int16), array([[168, 461],
+       ...,
+       [175, 574]], shape=(4, 2), dtype=int16), array([[238, 498],
+       ...,
+       [240, 534]], shape=(4, 2), dtype=int16), array([[ 50, 719],
+       ...,
+       [ 56, 828]], shape=(4, 2), dtype=int16), array([[ 87, 719],
+       ...,
+       [ 93, 828]], shape=(4, 2), dtype=int16), array([[123, 720],
+       ...,
+       [127, 824]], shape=(4, 2), dtype=int16), array([[158, 720],
+       ...,
+       [161, 793]], shape=(4, 2), dtype=int16), array([[187, 717],
+       ...,
+       [192, 830]], shape=(4, 2), dtype=int16), array([[  3, 833],
+       ...,
+       [  3, 882]], shape=(4, 2), dtype=int16), array([[  55,  928],
+       ...,
+       [  49, 1004]], shape=(4, 2), dtype=int16), array([[  88,  930],
+       ...,
+       [  85, 1006]], shape=(4, 2), dtype=int16), array([[126, 933],
+       ...,
+       [126, 990]], shape=(4, 2), dtype=int16), array([[ 160,  933],
+       ...,
+       [ 154, 1041]], shape=(4, 2), dtype=int16), array([[ 193,  929],
+       ...,
+       [ 188, 1044]], shape=(4, 2), dtype=int16), array([[ 783,  973],
+       ...,
+       [ 792, 1190]], shape=(4, 2), dtype=int16), array([[  31, 1109],
+       ...,
+       [  12, 1190]], shape=(4, 2), dtype=int16), array([[  71, 1110],
+       ...,
+       [  56, 1194]], shape=(4, 2), dtype=int16), array([[ 106, 1112],
+       ...,
+       [  94, 1197]], shape=(4, 2), dtype=int16), array([[ 144, 1110],
+       ...,
+       [ 132, 1194]], shape=(4, 2), dtype=int16), array([[ 177, 1110],
+       ...,
+       [ 166, 1192]], shape=(4, 2), dtype=int16), array([[  13, 1230],
+       ...,
+       [   7, 1288]], shape=(4, 2), dtype=int16), array([[  46, 1233],
+       ...,
+       [  46, 1250]], shape=(4, 2), dtype=int16), array([[  94, 1226],
+       ...,
+       [  86, 1291]], shape=(4, 2), dtype=int16), array([[  85, 1299],
+       ...,
+       [  82, 1375]], shape=(4, 2), dtype=int16), array([[ 161, 1298],
+       ...,
+       [ 158, 1376]], shape=(4, 2), dtype=int16), array([[1769, 1307],
+       ...,
+       [1769, 1324]], shape=(4, 2), dtype=int16), array([[1850, 1304],
+       ...,
+       [1850, 1318]], shape=(4, 2), dtype=int16), array([[ 247, 1326],
+       ...,
+       [ 258, 1337]], shape=(4, 2), dtype=int16), array([[1217, 1380],
+       ...,
+       [1224, 1391]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0], 'rec_boxes': array([[ 181, ...,   45],
+       ...,
+       [1217, ..., 1391]], shape=(51, 4), dtype=int16)}]
+
+解析后的文本:
+1. 中
+2. 中
+3. 文化设
+4. 行政办公用地
+5. 商住混合用地
+6. 二类居住用地
+7. 一类居住用地
+8. r
+9. 0
+10. 1
+11. *
+12. 医疗卫生用地
+13. 体育用地
+14. 科研用地
+15. 中小学用地
+16. 高等烘校用地
+17. *
+18. :
+19. 中
+20. 公用设路营业网点用地
+21. 娱乐康体设施用地
+22. 商务设师用地
+23. 高业设施用地
+24. 文物古迹用地
+25. 140
+26. 环境设施用端
+27. 供康设施用地
+28. 交通场站用地
+29. 工业用地
+30. 生产研堂庵地
+31. 
+32. 公園螺地
+33. 山体林地
+34. 红树林
+35. 村庄建设用地
+36. 安全设集用地
+37. 项目位置
+38. 223k高压线
+39. 5SOKVIEA
+40. 内湖/海域
+41. 广场用地
+42. 
+43. 
+44. 1.1
+45. -
+46. 新
+47. AOT
+48. 财
+49. 2
+50. n
+51. 物王

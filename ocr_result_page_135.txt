@@ -1,0 +1,90 @@
+OCR结果 - 第 135 页
+==================================================
+处理的图像: temp_page_134_processed.png
+原始PDF页面: 135
+
+详细结果:
+[{'input_path': 'temp_page_134_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8)}, 'dt_polys': [array([[128,  21],
+       ...,
+       [126,  60]], shape=(4, 2), dtype=int16), array([[1088,  857],
+       ...,
+       [1088,  901]], shape=(4, 2), dtype=int16), array([[104, 889],
+       ...,
+       [103, 931]], shape=(4, 2), dtype=int16), array([[1038,  900],
+       ...,
+       [1038,  944]], shape=(4, 2), dtype=int16), array([[1121,  901],
+       ...,
+       [1121,  942]], shape=(4, 2), dtype=int16), array([[1204,  901],
+       ...,
+       [1204,  943]], shape=(4, 2), dtype=int16), array([[ 112,  967],
+       ...,
+       [ 112, 1011]], shape=(4, 2), dtype=int16), array([[ 109, 1866],
+       ...,
+       [ 108, 1905]], shape=(4, 2), dtype=int16), array([[1061, 1859],
+       ...,
+       [1058, 1907]], shape=(4, 2), dtype=int16), array([[1022, 1900],
+       ...,
+       [1019, 1952]], shape=(4, 2), dtype=int16), array([[1201, 1915],
+       ...,
+       [1201, 1958]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['预审意见：', '公章', '经办人：', '年', '月', '1', '下级环境保护行政主管部门审查意见：', '经办人：', '公章', '年月', '日'], 'rec_scores': [0.9554805755615234, 0.9978393316268921, 0.9898217916488647, 0.9987741112709045, 0.9541725516319275, 0.1769757866859436, 0.9479439854621887, 0.9957262277603149, 0.9993624091148376, 0.9998774528503418, 0.9998983144760132], 'rec_polys': [array([[128,  21],
+       ...,
+       [126,  60]], shape=(4, 2), dtype=int16), array([[1088,  857],
+       ...,
+       [1088,  901]], shape=(4, 2), dtype=int16), array([[104, 889],
+       ...,
+       [103, 931]], shape=(4, 2), dtype=int16), array([[1038,  900],
+       ...,
+       [1038,  944]], shape=(4, 2), dtype=int16), array([[1121,  901],
+       ...,
+       [1121,  942]], shape=(4, 2), dtype=int16), array([[1204,  901],
+       ...,
+       [1204,  943]], shape=(4, 2), dtype=int16), array([[ 112,  967],
+       ...,
+       [ 112, 1011]], shape=(4, 2), dtype=int16), array([[ 109, 1866],
+       ...,
+       [ 108, 1905]], shape=(4, 2), dtype=int16), array([[1061, 1859],
+       ...,
+       [1058, 1907]], shape=(4, 2), dtype=int16), array([[1022, 1900],
+       ...,
+       [1019, 1952]], shape=(4, 2), dtype=int16), array([[1201, 1915],
+       ...,
+       [1201, 1958]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 126, ...,   68],
+       ...,
+       [1201, ..., 1958]], shape=(11, 4), dtype=int16)}]
+
+解析后的文本:
+1. 预审意见：
+2. 公章
+3. 经办人：
+4. 年
+5. 月
+6. 1
+7. 下级环境保护行政主管部门审查意见：
+8. 经办人：
+9. 公章
+10. 年月
+11. 日

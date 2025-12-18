@@ -1,0 +1,200 @@
+OCR结果 - 第 25 页
+==================================================
+处理的图像: temp_page_24_processed.png
+原始PDF页面: 25
+
+详细结果:
+[{'input_path': 'temp_page_24_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1278,   63],
+       ...,
+       [1178,  149]], shape=(4, 2), dtype=int16), array([[265, 150],
+       ...,
+       [266, 195]], shape=(4, 2), dtype=int16), array([[1215,  150],
+       ...,
+       [1164,  192]], shape=(4, 2), dtype=int16), array([[265, 233],
+       ...,
+       [266, 284]], shape=(4, 2), dtype=int16), array([[253, 317],
+       ...,
+       [252, 368]], shape=(4, 2), dtype=int16), array([[176, 396],
+       ...,
+       [175, 444]], shape=(4, 2), dtype=int16), array([[175, 475],
+       ...,
+       [173, 514]], shape=(4, 2), dtype=int16), array([[1080,  520],
+       ...,
+       [1004,  606]], shape=(4, 2), dtype=int16), array([[244, 551],
+       ...,
+       [243, 606]], shape=(4, 2), dtype=int16), array([[1027,  599],
+       ...,
+       [ 992,  641]], shape=(4, 2), dtype=int16), array([[166, 634],
+       ...,
+       [165, 671]], shape=(4, 2), dtype=int16), array([[595, 769],
+       ...,
+       [594, 821]], shape=(4, 2), dtype=int16), array([[573, 781],
+       ...,
+       [542, 815]], shape=(4, 2), dtype=int16), array([[746, 777],
+       ...,
+       [746, 821]], shape=(4, 2), dtype=int16), array([[764, 828],
+       ...,
+       [686, 910]], shape=(4, 2), dtype=int16), array([[236, 865],
+       ...,
+       [237, 916]], shape=(4, 2), dtype=int16), array([[729, 925],
+       ...,
+       [693, 964]], shape=(4, 2), dtype=int16), array([[250, 952],
+       ...,
+       [251, 993]], shape=(4, 2), dtype=int16), array([[ 247, 1028],
+       ...,
+       [ 248, 1081]], shape=(4, 2), dtype=int16), array([[ 244, 1121],
+       ...,
+       [ 214, 1152]], shape=(4, 2), dtype=int16), array([[ 389, 1166],
+       ...,
+       [ 389, 1179]], shape=(4, 2), dtype=int16), array([[ 566, 1265],
+       ...,
+       [ 567, 1313]], shape=(4, 2), dtype=int16), array([[ 243, 1358],
+       ...,
+       [ 244, 1400]], shape=(4, 2), dtype=int16), array([[ 258, 1435],
+       ...,
+       [ 259, 1477]], shape=(4, 2), dtype=int16), array([[ 262, 1512],
+       ...,
+       [ 263, 1554]], shape=(4, 2), dtype=int16), array([[ 231, 1583],
+       ...,
+       [ 231, 1633]], shape=(4, 2), dtype=int16), array([[ 373, 1578],
+       ...,
+       [ 373, 1625]], shape=(4, 2), dtype=int16), array([[ 242, 1662],
+       ...,
+       [ 246, 1717]], shape=(4, 2), dtype=int16), array([[ 248, 1737],
+       ...,
+       [ 249, 1791]], shape=(4, 2), dtype=int16), array([[1040, 1748],
+       ...,
+       [ 970, 1839]], shape=(4, 2), dtype=int16), array([[1001, 1813],
+       ...,
+       [ 953, 1859]], shape=(4, 2), dtype=int16), array([[ 822, 1909],
+       ...,
+       [ 822, 1959]], shape=(4, 2), dtype=int16), array([[ 707, 1928],
+       ...,
+       [ 707, 1940]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['桂林', '(3)到期一次性还本付息；', 'GUIIN A', '(4)其他：无：', '第4.3条贷款利息自贷款资金转入甲方账户之日起计算.在合', '同有效期内，如甲方和乙方协商调整贷款利率，应与丙方协商后再另', '行签订补充协议.', '', '第4.4条本产品正常还款利息以单利计算，如出现逾期，逾期', 'BANK', '部分的利息以复利计算。', '第五条', 'CU:', '用款计划', '银行', '委托贷款用款按下列第(1）种方式执行：', 'BANK', '(1)一次性支取', '(2)其他：', 'ULN', '专', '第六条贷款支付方式', '本笔贷款选择第（1）项支付方式：', '(1)自主支付；', '(2)受托支付；受托支付对象为：', '户名：', '/', '账号：', '开户行：', '桂林银', 'GUILIN', '文武', 'A'], 'rec_scores': [0.616572916507721, 0.9531786441802979, 0.7429342865943909, 0.9150350689888, 0.989649772644043, 0.9957826733589172, 0.9393728375434875, 0.0, 0.9850662350654602, 0.9919110536575317, 0.9597902297973633, 0.9982708096504211, 0.6509550213813782, 0.9990822672843933, 0.9327061772346497, 0.9170152544975281, 0.9918674230575562, 0.9245210289955139, 0.9756458401679993, 0.8294656872749329, 0.10464712232351303, 0.9990566968917847, 0.9042150378227234, 0.8920501470565796, 0.944168746471405, 0.9898983836174011, 0.6825164556503296, 0.9891567826271057, 0.9775099754333496, 0.9865420460700989, 0.9859792590141296, 0.7959622144699097, 0.504635214805603], 'rec_polys': [array([[1278,   63],
+       ...,
+       [1178,  149]], shape=(4, 2), dtype=int16), array([[265, 150],
+       ...,
+       [266, 195]], shape=(4, 2), dtype=int16), array([[1215,  150],
+       ...,
+       [1164,  192]], shape=(4, 2), dtype=int16), array([[265, 233],
+       ...,
+       [266, 284]], shape=(4, 2), dtype=int16), array([[253, 317],
+       ...,
+       [252, 368]], shape=(4, 2), dtype=int16), array([[176, 396],
+       ...,
+       [175, 444]], shape=(4, 2), dtype=int16), array([[175, 475],
+       ...,
+       [173, 514]], shape=(4, 2), dtype=int16), array([[1080,  520],
+       ...,
+       [1004,  606]], shape=(4, 2), dtype=int16), array([[244, 551],
+       ...,
+       [243, 606]], shape=(4, 2), dtype=int16), array([[1027,  599],
+       ...,
+       [ 992,  641]], shape=(4, 2), dtype=int16), array([[166, 634],
+       ...,
+       [165, 671]], shape=(4, 2), dtype=int16), array([[595, 769],
+       ...,
+       [594, 821]], shape=(4, 2), dtype=int16), array([[573, 781],
+       ...,
+       [542, 815]], shape=(4, 2), dtype=int16), array([[746, 777],
+       ...,
+       [746, 821]], shape=(4, 2), dtype=int16), array([[764, 828],
+       ...,
+       [686, 910]], shape=(4, 2), dtype=int16), array([[236, 865],
+       ...,
+       [237, 916]], shape=(4, 2), dtype=int16), array([[729, 925],
+       ...,
+       [693, 964]], shape=(4, 2), dtype=int16), array([[250, 952],
+       ...,
+       [251, 993]], shape=(4, 2), dtype=int16), array([[ 247, 1028],
+       ...,
+       [ 248, 1081]], shape=(4, 2), dtype=int16), array([[ 244, 1121],
+       ...,
+       [ 214, 1152]], shape=(4, 2), dtype=int16), array([[ 389, 1166],
+       ...,
+       [ 389, 1179]], shape=(4, 2), dtype=int16), array([[ 566, 1265],
+       ...,
+       [ 567, 1313]], shape=(4, 2), dtype=int16), array([[ 243, 1358],
+       ...,
+       [ 244, 1400]], shape=(4, 2), dtype=int16), array([[ 258, 1435],
+       ...,
+       [ 259, 1477]], shape=(4, 2), dtype=int16), array([[ 262, 1512],
+       ...,
+       [ 263, 1554]], shape=(4, 2), dtype=int16), array([[ 231, 1583],
+       ...,
+       [ 231, 1633]], shape=(4, 2), dtype=int16), array([[ 373, 1578],
+       ...,
+       [ 373, 1625]], shape=(4, 2), dtype=int16), array([[ 242, 1662],
+       ...,
+       [ 246, 1717]], shape=(4, 2), dtype=int16), array([[ 248, 1737],
+       ...,
+       [ 249, 1791]], shape=(4, 2), dtype=int16), array([[1040, 1748],
+       ...,
+       [ 970, 1839]], shape=(4, 2), dtype=int16), array([[1001, 1813],
+       ...,
+       [ 953, 1859]], shape=(4, 2), dtype=int16), array([[ 822, 1909],
+       ...,
+       [ 822, 1959]], shape=(4, 2), dtype=int16), array([[ 707, 1928],
+       ...,
+       [ 707, 1940]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1178, ...,  374],
+       ...,
+       [ 707, ..., 1940]], shape=(33, 4), dtype=int16)}]
+
+解析后的文本:
+1. 桂林
+2. (3)到期一次性还本付息；
+3. GUIIN A
+4. (4)其他：无：
+5. 第4.3条贷款利息自贷款资金转入甲方账户之日起计算.在合
+6. 同有效期内，如甲方和乙方协商调整贷款利率，应与丙方协商后再另
+7. 行签订补充协议.
+8. 
+9. 第4.4条本产品正常还款利息以单利计算，如出现逾期，逾期
+10. BANK
+11. 部分的利息以复利计算。
+12. 第五条
+13. CU:
+14. 用款计划
+15. 银行
+16. 委托贷款用款按下列第(1）种方式执行：
+17. BANK
+18. (1)一次性支取
+19. (2)其他：
+20. ULN
+21. 专
+22. 第六条贷款支付方式
+23. 本笔贷款选择第（1）项支付方式：
+24. (1)自主支付；
+25. (2)受托支付；受托支付对象为：
+26. 户名：
+27. /
+28. 账号：
+29. 开户行：
+30. 桂林银
+31. GUILIN
+32. 文武
+33. A

@@ -1,0 +1,145 @@
+OCR结果 - 第 292 页
+==================================================
+处理的图像: temp_page_291_processed.png
+原始PDF页面: 292
+
+详细结果:
+[{'input_path': 'temp_page_291_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 270, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[213,   3],
+       ...,
+       [213,  57]], shape=(4, 2), dtype=int16), array([[1140,   46],
+       ...,
+       [1140,   57]], shape=(4, 2), dtype=int16), array([[ 82,  66],
+       ...,
+       [ 82, 180]], shape=(4, 2), dtype=int16), array([[114,  66],
+       ...,
+       [116, 197]], shape=(4, 2), dtype=int16), array([[147,  63],
+       ...,
+       [147, 163]], shape=(4, 2), dtype=int16), array([[182,  60],
+       ...,
+       [182, 194]], shape=(4, 2), dtype=int16), array([[1379,  154],
+       ...,
+       [1379,  163]], shape=(4, 2), dtype=int16), array([[ 78, 220],
+       ...,
+       [ 78, 280]], shape=(4, 2), dtype=int16), array([[113, 221],
+       ...,
+       [113, 279]], shape=(4, 2), dtype=int16), array([[141, 232],
+       ...,
+       [141, 277]], shape=(4, 2), dtype=int16), array([[1462,  255],
+       ...,
+       [1462,  264]], shape=(4, 2), dtype=int16), array([[ 80, 283],
+       ...,
+       [ 83, 358]], shape=(4, 2), dtype=int16), array([[114, 284],
+       ...,
+       [119, 359]], shape=(4, 2), dtype=int16), array([[149, 284],
+       ...,
+       [155, 422]], shape=(4, 2), dtype=int16), array([[183, 284],
+       ...,
+       [189, 420]], shape=(4, 2), dtype=int16), array([[124, 455],
+       ...,
+       [118, 589]], shape=(4, 2), dtype=int16), array([[153, 524],
+       ...,
+       [153, 566]], shape=(4, 2), dtype=int16), array([[182, 524],
+       ...,
+       [182, 566]], shape=(4, 2), dtype=int16), array([[ 803,  934],
+       ...,
+       [ 803, 1047]], shape=(4, 2), dtype=int16), array([[1756, 1300],
+       ...,
+       [1756, 1314]], shape=(4, 2), dtype=int16), array([[1593, 1317],
+       ...,
+       [1588, 1326]], shape=(4, 2), dtype=int16), array([[1684, 1321],
+       ...,
+       [1684, 1334]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['图别', '-4', '圳污水主管通', '圳污水主干管', '现状湾水置道', '现状污水主干管道', '4', 'J', 'DN300', '.', '√', '排水方向', '污水管径', '划污水升票站', '境水压力管道', '-划', '海域', '建', '项目', 'B', '1', '-'], 'rec_scores': [0.6262061595916748, 0.40874218940734863, 0.6859150528907776, 0.7275105118751526, 0.6570193767547607, 0.7962058782577515, 0.27039483189582825, 0.06419189274311066, 0.8821300268173218, 0.25165876746177673, 0.20842573046684265, 0.9755536317825317, 0.9364282488822937, 0.9156034588813782, 0.8663021922111511, 0.46591681241989136, 0.8752906322479248, 0.02826015278697014, 0.9999117851257324, 0.058799318969249725, 0.4854751229286194, 0.2160567194223404], 'rec_polys': [array([[213,   3],
+       ...,
+       [213,  57]], shape=(4, 2), dtype=int16), array([[1140,   46],
+       ...,
+       [1140,   57]], shape=(4, 2), dtype=int16), array([[ 82,  66],
+       ...,
+       [ 82, 180]], shape=(4, 2), dtype=int16), array([[114,  66],
+       ...,
+       [116, 197]], shape=(4, 2), dtype=int16), array([[147,  63],
+       ...,
+       [147, 163]], shape=(4, 2), dtype=int16), array([[182,  60],
+       ...,
+       [182, 194]], shape=(4, 2), dtype=int16), array([[1379,  154],
+       ...,
+       [1379,  163]], shape=(4, 2), dtype=int16), array([[ 78, 220],
+       ...,
+       [ 78, 280]], shape=(4, 2), dtype=int16), array([[113, 221],
+       ...,
+       [113, 279]], shape=(4, 2), dtype=int16), array([[141, 232],
+       ...,
+       [141, 277]], shape=(4, 2), dtype=int16), array([[1462,  255],
+       ...,
+       [1462,  264]], shape=(4, 2), dtype=int16), array([[ 80, 283],
+       ...,
+       [ 83, 358]], shape=(4, 2), dtype=int16), array([[114, 284],
+       ...,
+       [119, 359]], shape=(4, 2), dtype=int16), array([[149, 284],
+       ...,
+       [155, 422]], shape=(4, 2), dtype=int16), array([[183, 284],
+       ...,
+       [189, 420]], shape=(4, 2), dtype=int16), array([[124, 455],
+       ...,
+       [118, 589]], shape=(4, 2), dtype=int16), array([[153, 524],
+       ...,
+       [153, 566]], shape=(4, 2), dtype=int16), array([[182, 524],
+       ...,
+       [182, 566]], shape=(4, 2), dtype=int16), array([[ 803,  934],
+       ...,
+       [ 803, 1047]], shape=(4, 2), dtype=int16), array([[1756, 1300],
+       ...,
+       [1756, 1314]], shape=(4, 2), dtype=int16), array([[1593, 1317],
+       ...,
+       [1588, 1326]], shape=(4, 2), dtype=int16), array([[1684, 1321],
+       ...,
+       [1684, 1334]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1], 'rec_boxes': array([[ 213, ...,   57],
+       ...,
+       [1684, ..., 1334]], shape=(22, 4), dtype=int16)}]
+
+解析后的文本:
+1. 图别
+2. -4
+3. 圳污水主管通
+4. 圳污水主干管
+5. 现状湾水置道
+6. 现状污水主干管道
+7. 4
+8. J
+9. DN300
+10. .
+11. √
+12. 排水方向
+13. 污水管径
+14. 划污水升票站
+15. 境水压力管道
+16. -划
+17. 海域
+18. 建
+19. 项目
+20. B
+21. 1
+22. -

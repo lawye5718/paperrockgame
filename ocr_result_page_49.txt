@@ -1,0 +1,150 @@
+OCR结果 - 第 49 页
+==================================================
+处理的图像: temp_page_48_processed.png
+原始PDF页面: 49
+
+详细结果:
+[{'input_path': 'temp_page_48_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1348,   18],
+       ...,
+       [1353,  133]], shape=(4, 2), dtype=int16), array([[237, 202],
+       ...,
+       [236, 246]], shape=(4, 2), dtype=int16), array([[151, 274],
+       ...,
+       [151, 322]], shape=(4, 2), dtype=int16), array([[151, 348],
+       ...,
+       [151, 399]], shape=(4, 2), dtype=int16), array([[152, 423],
+       ...,
+       [152, 468]], shape=(4, 2), dtype=int16), array([[460, 569],
+       ...,
+       [460, 611]], shape=(4, 2), dtype=int16), array([[664, 566],
+       ...,
+       [664, 609]], shape=(4, 2), dtype=int16), array([[242, 713],
+       ...,
+       [242, 754]], shape=(4, 2), dtype=int16), array([[157, 780],
+       ...,
+       [157, 824]], shape=(4, 2), dtype=int16), array([[159, 855],
+       ...,
+       [159, 898]], shape=(4, 2), dtype=int16), array([[157, 925],
+       ...,
+       [157, 973]], shape=(4, 2), dtype=int16), array([[ 242,  998],
+       ...,
+       [ 243, 1041]], shape=(4, 2), dtype=int16), array([[ 160, 1069],
+       ...,
+       [ 160, 1112]], shape=(4, 2), dtype=int16), array([[ 158, 1127],
+       ...,
+       [ 158, 1185]], shape=(4, 2), dtype=int16), array([[ 468, 1279],
+       ...,
+       [ 468, 1321]], shape=(4, 2), dtype=int16), array([[ 651, 1279],
+       ...,
+       [ 651, 1321]], shape=(4, 2), dtype=int16), array([[ 251, 1419],
+       ...,
+       [ 251, 1464]], shape=(4, 2), dtype=int16), array([[ 169, 1489],
+       ...,
+       [ 169, 1529]], shape=(4, 2), dtype=int16), array([[ 167, 1553],
+       ...,
+       [ 167, 1596]], shape=(4, 2), dtype=int16), array([[ 251, 1624],
+       ...,
+       [ 251, 1668]], shape=(4, 2), dtype=int16), array([[ 168, 1694],
+       ...,
+       [ 168, 1738]], shape=(4, 2), dtype=int16), array([[ 247, 1768],
+       ...,
+       [ 247, 1820]], shape=(4, 2), dtype=int16), array([[ 694, 1924],
+       ...,
+       [ 694, 1956]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['4', '15.1在本合同有效期内，甲方未及时提供委托贷款发', '放所需的资金而导致委托贷款不能按时发放的，除应足额', '存入资金外，须根据拖欠金额和延迟天数，按年利率%', '向丙方支付违约金。', '第十六条', '乙方的违约责任', '16.1在甲方按时提供本合同项下委托贷款发放所需资', '金且本合同项下担保手续已办妥的情况下，乙方未按本合同', '约定日期和金额将委托贷款放出，除应足额发放外，须根据', '违约金额和延迟天数，按年利率%向丙方支付违约金。', '16.2乙方违反本合同约定，擅自同意丙方延期或提前还', '款，应向甲方支付延期委托贷款余额或提前收回委托贷款数', '额日万分之的违约金。', '第十七条', '丙方的违约责任', '17.1本合同有效期内，丙方发生下列情况之一，即视为', '违约，甲方有权委托乙方停止发放委托贷款，并有权提前收', '回委托贷款：', '17.1.1向甲方提供虚假或隐瞒重要事实的财务报表，或', '者隐瞒重大财务，经营活动；', '17.1.2不如实向甲方和乙.方提供所有开户行账号及存、', '14'], 'rec_scores': [0.8584150671958923, 0.9875012040138245, 0.998127281665802, 0.9964690804481506, 0.9971566796302795, 0.9998053312301636, 0.9987614750862122, 0.9984051585197449, 0.9973670244216919, 0.9988660216331482, 0.9944953918457031, 0.9862436056137085, 0.9977389574050903, 0.9961816668510437, 0.9999544620513916, 0.9982988238334656, 0.9944207072257996, 0.9969428181648254, 0.9700062274932861, 0.9816060662269592, 0.9520035982131958, 0.9560694694519043, 0.9735904932022095], 'rec_polys': [array([[1348,   18],
+       ...,
+       [1353,  133]], shape=(4, 2), dtype=int16), array([[237, 202],
+       ...,
+       [236, 246]], shape=(4, 2), dtype=int16), array([[151, 274],
+       ...,
+       [151, 322]], shape=(4, 2), dtype=int16), array([[151, 348],
+       ...,
+       [151, 399]], shape=(4, 2), dtype=int16), array([[152, 423],
+       ...,
+       [152, 468]], shape=(4, 2), dtype=int16), array([[460, 569],
+       ...,
+       [460, 611]], shape=(4, 2), dtype=int16), array([[664, 566],
+       ...,
+       [664, 609]], shape=(4, 2), dtype=int16), array([[242, 713],
+       ...,
+       [242, 754]], shape=(4, 2), dtype=int16), array([[157, 780],
+       ...,
+       [157, 824]], shape=(4, 2), dtype=int16), array([[159, 855],
+       ...,
+       [159, 898]], shape=(4, 2), dtype=int16), array([[157, 925],
+       ...,
+       [157, 973]], shape=(4, 2), dtype=int16), array([[ 242,  998],
+       ...,
+       [ 243, 1041]], shape=(4, 2), dtype=int16), array([[ 160, 1069],
+       ...,
+       [ 160, 1112]], shape=(4, 2), dtype=int16), array([[ 158, 1127],
+       ...,
+       [ 158, 1185]], shape=(4, 2), dtype=int16), array([[ 468, 1279],
+       ...,
+       [ 468, 1321]], shape=(4, 2), dtype=int16), array([[ 651, 1279],
+       ...,
+       [ 651, 1321]], shape=(4, 2), dtype=int16), array([[ 251, 1419],
+       ...,
+       [ 251, 1464]], shape=(4, 2), dtype=int16), array([[ 169, 1489],
+       ...,
+       [ 169, 1529]], shape=(4, 2), dtype=int16), array([[ 167, 1553],
+       ...,
+       [ 167, 1596]], shape=(4, 2), dtype=int16), array([[ 251, 1624],
+       ...,
+       [ 251, 1668]], shape=(4, 2), dtype=int16), array([[ 168, 1694],
+       ...,
+       [ 168, 1738]], shape=(4, 2), dtype=int16), array([[ 247, 1768],
+       ...,
+       [ 247, 1820]], shape=(4, 2), dtype=int16), array([[ 694, 1924],
+       ...,
+       [ 694, 1956]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1348, ...,  133],
+       ...,
+       [ 694, ..., 1956]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 4
+2. 15.1在本合同有效期内，甲方未及时提供委托贷款发
+3. 放所需的资金而导致委托贷款不能按时发放的，除应足额
+4. 存入资金外，须根据拖欠金额和延迟天数，按年利率%
+5. 向丙方支付违约金。
+6. 第十六条
+7. 乙方的违约责任
+8. 16.1在甲方按时提供本合同项下委托贷款发放所需资
+9. 金且本合同项下担保手续已办妥的情况下，乙方未按本合同
+10. 约定日期和金额将委托贷款放出，除应足额发放外，须根据
+11. 违约金额和延迟天数，按年利率%向丙方支付违约金。
+12. 16.2乙方违反本合同约定，擅自同意丙方延期或提前还
+13. 款，应向甲方支付延期委托贷款余额或提前收回委托贷款数
+14. 额日万分之的违约金。
+15. 第十七条
+16. 丙方的违约责任
+17. 17.1本合同有效期内，丙方发生下列情况之一，即视为
+18. 违约，甲方有权委托乙方停止发放委托贷款，并有权提前收
+19. 回委托贷款：
+20. 17.1.1向甲方提供虚假或隐瞒重要事实的财务报表，或
+21. 者隐瞒重大财务，经营活动；
+22. 17.1.2不如实向甲方和乙.方提供所有开户行账号及存、
+23. 14

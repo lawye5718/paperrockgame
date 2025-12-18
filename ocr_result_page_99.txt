@@ -1,0 +1,195 @@
+OCR结果 - 第 99 页
+==================================================
+处理的图像: temp_page_98_processed.png
+原始PDF页面: 99
+
+详细结果:
+[{'input_path': 'temp_page_98_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[201, 110],
+       ...,
+       [202, 160]], shape=(4, 2), dtype=int16), array([[202, 183],
+       ...,
+       [202, 228]], shape=(4, 2), dtype=int16), array([[200, 295],
+       ...,
+       [200, 346]], shape=(4, 2), dtype=int16), array([[201, 409],
+       ...,
+       [201, 451]], shape=(4, 2), dtype=int16), array([[1013,  414],
+       ...,
+       [1012,  448]], shape=(4, 2), dtype=int16), array([[293, 458],
+       ...,
+       [293, 480]], shape=(4, 2), dtype=int16), array([[200, 506],
+       ...,
+       [200, 545]], shape=(4, 2), dtype=int16), array([[286, 507],
+       ...,
+       [286, 545]], shape=(4, 2), dtype=int16), array([[294, 569],
+       ...,
+       [294, 613]], shape=(4, 2), dtype=int16), array([[537, 625],
+       ...,
+       [537, 653]], shape=(4, 2), dtype=int16), array([[289, 674],
+       ...,
+       [289, 718]], shape=(4, 2), dtype=int16), array([[520, 671],
+       ...,
+       [519, 713]], shape=(4, 2), dtype=int16), array([[487, 725],
+       ...,
+       [487, 749]], shape=(4, 2), dtype=int16), array([[801, 907],
+       ...,
+       [801, 952]], shape=(4, 2), dtype=int16), array([[ 558,  972],
+       ...,
+       [ 558, 1004]], shape=(4, 2), dtype=int16), array([[ 290, 1029],
+       ...,
+       [ 291, 1067]], shape=(4, 2), dtype=int16), array([[ 954, 1097],
+       ...,
+       [ 958, 1141]], shape=(4, 2), dtype=int16), array([[ 620, 1125],
+       ...,
+       [ 621, 1178]], shape=(4, 2), dtype=int16), array([[ 908, 1168],
+       ...,
+       [ 922, 1273]], shape=(4, 2), dtype=int16), array([[1106, 1163],
+       ...,
+       [1106, 1274]], shape=(4, 2), dtype=int16), array([[ 212, 1312],
+       ...,
+       [ 212, 1348]], shape=(4, 2), dtype=int16), array([[ 216, 1375],
+       ...,
+       [ 216, 1412]], shape=(4, 2), dtype=int16), array([[ 210, 1439],
+       ...,
+       [ 210, 1477]], shape=(4, 2), dtype=int16), array([[ 930, 1464],
+       ...,
+       [ 930, 1499]], shape=(4, 2), dtype=int16), array([[ 295, 1477],
+       ...,
+       [ 295, 1502]], shape=(4, 2), dtype=int16), array([[ 695, 1496],
+       ...,
+       [ 695, 1537]], shape=(4, 2), dtype=int16), array([[ 702, 1530],
+       ...,
+       [ 703, 1572]], shape=(4, 2), dtype=int16), array([[ 804, 1560],
+       ...,
+       [ 803, 1602]], shape=(4, 2), dtype=int16), array([[ 410, 1577],
+       ...,
+       [ 410, 1608]], shape=(4, 2), dtype=int16), array([[ 681, 1601],
+       ...,
+       [ 681, 1641]], shape=(4, 2), dtype=int16), array([[ 529, 1642],
+       ...,
+       [ 530, 1680]], shape=(4, 2), dtype=int16), array([[ 306, 1691],
+       ...,
+       [ 306, 1721]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['漂三条，', '福', '融', '22', '', '', '90', '实水楼械输制', '', '', '', '', '2', '', '相当消', 'e', '电科', '后，1', '西', '公', 'Ari', '海', 'A', '', '婴', '', '', '', '', '', '', ''], 'rec_scores': [0.561869204044342, 0.04107792675495148, 0.08079596608877182, 0.3872385621070862, 0.0, 0.0, 0.5665685534477234, 0.21320462226867676, 0.0, 0.0, 0.0, 0.0, 0.09056062996387482, 0.0, 0.6064580082893372, 0.682487964630127, 0.21810093522071838, 0.5729537010192871, 0.3677833676338196, 0.8126447796821594, 0.7378930449485779, 0.2666679918766022, 0.5670677423477173, 0.0, 0.06040075048804283, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 'rec_polys': [array([[201, 110],
+       ...,
+       [202, 160]], shape=(4, 2), dtype=int16), array([[202, 183],
+       ...,
+       [202, 228]], shape=(4, 2), dtype=int16), array([[200, 295],
+       ...,
+       [200, 346]], shape=(4, 2), dtype=int16), array([[201, 409],
+       ...,
+       [201, 451]], shape=(4, 2), dtype=int16), array([[1013,  414],
+       ...,
+       [1012,  448]], shape=(4, 2), dtype=int16), array([[293, 458],
+       ...,
+       [293, 480]], shape=(4, 2), dtype=int16), array([[200, 506],
+       ...,
+       [200, 545]], shape=(4, 2), dtype=int16), array([[286, 507],
+       ...,
+       [286, 545]], shape=(4, 2), dtype=int16), array([[294, 569],
+       ...,
+       [294, 613]], shape=(4, 2), dtype=int16), array([[537, 625],
+       ...,
+       [537, 653]], shape=(4, 2), dtype=int16), array([[289, 674],
+       ...,
+       [289, 718]], shape=(4, 2), dtype=int16), array([[520, 671],
+       ...,
+       [519, 713]], shape=(4, 2), dtype=int16), array([[487, 725],
+       ...,
+       [487, 749]], shape=(4, 2), dtype=int16), array([[801, 907],
+       ...,
+       [801, 952]], shape=(4, 2), dtype=int16), array([[ 558,  972],
+       ...,
+       [ 558, 1004]], shape=(4, 2), dtype=int16), array([[ 290, 1029],
+       ...,
+       [ 291, 1067]], shape=(4, 2), dtype=int16), array([[ 954, 1097],
+       ...,
+       [ 958, 1141]], shape=(4, 2), dtype=int16), array([[ 620, 1125],
+       ...,
+       [ 621, 1178]], shape=(4, 2), dtype=int16), array([[ 908, 1168],
+       ...,
+       [ 922, 1273]], shape=(4, 2), dtype=int16), array([[1106, 1163],
+       ...,
+       [1106, 1274]], shape=(4, 2), dtype=int16), array([[ 212, 1312],
+       ...,
+       [ 212, 1348]], shape=(4, 2), dtype=int16), array([[ 216, 1375],
+       ...,
+       [ 216, 1412]], shape=(4, 2), dtype=int16), array([[ 210, 1439],
+       ...,
+       [ 210, 1477]], shape=(4, 2), dtype=int16), array([[ 930, 1464],
+       ...,
+       [ 930, 1499]], shape=(4, 2), dtype=int16), array([[ 295, 1477],
+       ...,
+       [ 295, 1502]], shape=(4, 2), dtype=int16), array([[ 695, 1496],
+       ...,
+       [ 695, 1537]], shape=(4, 2), dtype=int16), array([[ 702, 1530],
+       ...,
+       [ 703, 1572]], shape=(4, 2), dtype=int16), array([[ 804, 1560],
+       ...,
+       [ 803, 1602]], shape=(4, 2), dtype=int16), array([[ 410, 1577],
+       ...,
+       [ 410, 1608]], shape=(4, 2), dtype=int16), array([[ 681, 1601],
+       ...,
+       [ 681, 1641]], shape=(4, 2), dtype=int16), array([[ 529, 1642],
+       ...,
+       [ 530, 1680]], shape=(4, 2), dtype=int16), array([[ 306, 1691],
+       ...,
+       [ 306, 1721]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0], 'rec_boxes': array([[ 201, ...,  160],
+       ...,
+       [ 306, ..., 1721]], shape=(32, 4), dtype=int16)}]
+
+解析后的文本:
+1. 漂三条，
+2. 福
+3. 融
+4. 22
+5. 
+6. 
+7. 90
+8. 实水楼械输制
+9. 
+10. 
+11. 
+12. 
+13. 2
+14. 
+15. 相当消
+16. e
+17. 电科
+18. 后，1
+19. 西
+20. 公
+21. Ari
+22. 海
+23. A
+24. 
+25. 婴
+26. 
+27. 
+28. 
+29. 
+30. 
+31. 
+32. 

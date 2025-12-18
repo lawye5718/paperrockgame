@@ -1,0 +1,225 @@
+OCR结果 - 第 167 页
+==================================================
+处理的图像: temp_page_166_processed.png
+原始PDF页面: 167
+
+详细结果:
+[{'input_path': 'temp_page_166_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8)}, 'dt_polys': [array([[152, 131],
+       ...,
+       [152, 172]], shape=(4, 2), dtype=int16), array([[155, 190],
+       ...,
+       [155, 231]], shape=(4, 2), dtype=int16), array([[159, 251],
+       ...,
+       [159, 289]], shape=(4, 2), dtype=int16), array([[161, 309],
+       ...,
+       [161, 344]], shape=(4, 2), dtype=int16), array([[227, 372],
+       ...,
+       [227, 405]], shape=(4, 2), dtype=int16), array([[159, 425],
+       ...,
+       [159, 456]], shape=(4, 2), dtype=int16), array([[158, 479],
+       ...,
+       [158, 513]], shape=(4, 2), dtype=int16), array([[159, 532],
+       ...,
+       [159, 569]], shape=(4, 2), dtype=int16), array([[159, 588],
+       ...,
+       [159, 626]], shape=(4, 2), dtype=int16), array([[158, 646],
+       ...,
+       [158, 683]], shape=(4, 2), dtype=int16), array([[157, 704],
+       ...,
+       [157, 742]], shape=(4, 2), dtype=int16), array([[157, 765],
+       ...,
+       [157, 799]], shape=(4, 2), dtype=int16), array([[159, 823],
+       ...,
+       [159, 855]], shape=(4, 2), dtype=int16), array([[642, 916],
+       ...,
+       [642, 935]], shape=(4, 2), dtype=int16), array([[721, 928],
+       ...,
+       [721, 952]], shape=(4, 2), dtype=int16), array([[831, 923],
+       ...,
+       [831, 935]], shape=(4, 2), dtype=int16), array([[ 694,  988],
+       ...,
+       [ 693, 1017]], shape=(4, 2), dtype=int16), array([[ 569, 1045],
+       ...,
+       [ 567, 1081]], shape=(4, 2), dtype=int16), array([[ 706, 1050],
+       ...,
+       [ 705, 1085]], shape=(4, 2), dtype=int16), array([[ 150, 1101],
+       ...,
+       [ 150, 1139]], shape=(4, 2), dtype=int16), array([[ 212, 1160],
+       ...,
+       [ 211, 1197]], shape=(4, 2), dtype=int16), array([[ 158, 1222],
+       ...,
+       [ 158, 1259]], shape=(4, 2), dtype=int16), array([[ 423, 1319],
+       ...,
+       [ 422, 1354]], shape=(4, 2), dtype=int16), array([[ 184, 1335],
+       ...,
+       [ 183, 1372]], shape=(4, 2), dtype=int16), array([[ 866, 1329],
+       ...,
+       [ 865, 1362]], shape=(4, 2), dtype=int16), array([[ 471, 1358],
+       ...,
+       [ 470, 1389]], shape=(4, 2), dtype=int16), array([[ 842, 1364],
+       ...,
+       [ 841, 1398]], shape=(4, 2), dtype=int16), array([[1175, 1356],
+       ...,
+       [1175, 1392]], shape=(4, 2), dtype=int16), array([[ 144, 1372],
+       ...,
+       [ 143, 1404]], shape=(4, 2), dtype=int16), array([[ 375, 1370],
+       ...,
+       [ 375, 1384]], shape=(4, 2), dtype=int16), array([[1135, 1394],
+       ...,
+       [1134, 1425]], shape=(4, 2), dtype=int16), array([[ 657, 1494],
+       ...,
+       [ 656, 1528]], shape=(4, 2), dtype=int16), array([[ 658, 1535],
+       ...,
+       [ 657, 1570]], shape=(4, 2), dtype=int16), array([[ 633, 1651],
+       ...,
+       [ 632, 1686]], shape=(4, 2), dtype=int16), array([[ 411, 1719],
+       ...,
+       [ 410, 1755]], shape=(4, 2), dtype=int16), array([[ 122, 1769],
+       ...,
+       [ 121, 1803]], shape=(4, 2), dtype=int16), array([[ 183, 1834],
+       ...,
+       [ 181, 1875]], shape=(4, 2), dtype=int16), array([[ 693, 1914],
+       ...,
+       [ 693, 1946]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['采用两夹层间填充液晶分子的设计，上.层为公共电极，下层为TFT阵列电路。在光源设', '计上，TFT-LCD显示采用“背透式”照射方式，在液晶盒背部设置类似日光灯的光管。光', '源照射时先通过下偏光板向上透出，借助液晶分子的排列状态发生改变来传导光线，也', '通过遮光和不透光来达到显示的目的。', 'TFT-LCD面板的前端LCD面板贴上彩色滤光片，后端TFT面板上制作薄膜晶体管', '(TFT)，可以“主动的”对屏幕上各个独立象素进行控制，即所谓的主动矩阵TFT(active', 'matrixTFT）。其图象产生的基本原理是：显示屏由许多可以发出任意颜色的光线的象', '素组成，只要控制各个象素显示相应的颜色就能达到目的了。在TFTLCD中一般采用背', '光技术，为了能精确地控制每个象素的颜色和亮度，需要在每一个象素之后安装一个', '类似百叶窗的开关，当“百叶窗"打开时光线可以透过来，而“百叶窗”关上后光线就无法', '透过来。当施电压于品体管时，液品转向，光线穿过液晶后在前端面板上产生一个画素。', '背光模块位于TFT-Array(阵列)面板之后负贡提供光源。彩色滤光片给予每一个画素特定', '的颜色，结合每一个不同颜色的画素所呈现出的就是面板前端的影像。', '1)', 'a-S:', 'F', 'Substrate', '图2.1-2', 'a-Si TFT与的结构', '2.1.2．生产工艺技术简述', '拟建第7.5代新型半导体TFT-LCD显示器件生产工艺流程主要包括阵列工程', '(Array）、彩膜工程（Color Filter)、成盒工程（Cell)三部分，其简化流程见图2.1-3。', '阵列工程Array(a-Si)', '玻璃基板', '彩膜工程CF', '(阵列基板制备)', '(彩膜基板制备)', '玻璃基板', '(阵列基板制备)', '2', '(阵列基板制备)', '成盒工程Cell', '(液晶盒制备)', '产品（显示器件)', '图2.1-3本项目半导体显示器件总体工艺流程简图', '1.1.1.1阵列工程（Array）', '阵列工程是在玻璃基板上制造出数万个薄膜晶体管，这些晶体管在TFT-LCD工作', '27'], 'rec_scores': [0.9648107290267944, 0.9734398126602173, 0.9881846904754639, 0.9981428980827332, 0.9871929287910461, 0.9035954475402832, 0.9885550141334534, 0.9859659075737, 0.985971212387085, 0.9391565322875977, 0.9696876406669617, 0.9580236673355103, 0.9975739121437073, 0.5471480488777161, 0.6733429431915283, 0.19847707450389862, 0.9800580143928528, 0.9985716938972473, 0.9598423838615417, 0.972453773021698, 0.9954565763473511, 0.929584801197052, 0.9538745284080505, 0.9986751079559326, 0.9962949752807617, 0.9137782454490662, 0.9748008251190186, 0.999459981918335, 0.9693572521209717, 0.0839141383767128, 0.8996245861053467, 0.923045814037323, 0.9610233306884766, 0.9019647836685181, 0.9955326914787292, 0.9523723125457764, 0.9961177706718445, 0.9999060034751892], 'rec_polys': [array([[152, 131],
+       ...,
+       [152, 172]], shape=(4, 2), dtype=int16), array([[155, 190],
+       ...,
+       [155, 231]], shape=(4, 2), dtype=int16), array([[159, 251],
+       ...,
+       [159, 289]], shape=(4, 2), dtype=int16), array([[161, 309],
+       ...,
+       [161, 344]], shape=(4, 2), dtype=int16), array([[227, 372],
+       ...,
+       [227, 405]], shape=(4, 2), dtype=int16), array([[159, 425],
+       ...,
+       [159, 456]], shape=(4, 2), dtype=int16), array([[158, 479],
+       ...,
+       [158, 513]], shape=(4, 2), dtype=int16), array([[159, 532],
+       ...,
+       [159, 569]], shape=(4, 2), dtype=int16), array([[159, 588],
+       ...,
+       [159, 626]], shape=(4, 2), dtype=int16), array([[158, 646],
+       ...,
+       [158, 683]], shape=(4, 2), dtype=int16), array([[157, 704],
+       ...,
+       [157, 742]], shape=(4, 2), dtype=int16), array([[157, 765],
+       ...,
+       [157, 799]], shape=(4, 2), dtype=int16), array([[159, 823],
+       ...,
+       [159, 855]], shape=(4, 2), dtype=int16), array([[642, 916],
+       ...,
+       [642, 935]], shape=(4, 2), dtype=int16), array([[721, 928],
+       ...,
+       [721, 952]], shape=(4, 2), dtype=int16), array([[831, 923],
+       ...,
+       [831, 935]], shape=(4, 2), dtype=int16), array([[ 694,  988],
+       ...,
+       [ 693, 1017]], shape=(4, 2), dtype=int16), array([[ 569, 1045],
+       ...,
+       [ 567, 1081]], shape=(4, 2), dtype=int16), array([[ 706, 1050],
+       ...,
+       [ 705, 1085]], shape=(4, 2), dtype=int16), array([[ 150, 1101],
+       ...,
+       [ 150, 1139]], shape=(4, 2), dtype=int16), array([[ 212, 1160],
+       ...,
+       [ 211, 1197]], shape=(4, 2), dtype=int16), array([[ 158, 1222],
+       ...,
+       [ 158, 1259]], shape=(4, 2), dtype=int16), array([[ 423, 1319],
+       ...,
+       [ 422, 1354]], shape=(4, 2), dtype=int16), array([[ 184, 1335],
+       ...,
+       [ 183, 1372]], shape=(4, 2), dtype=int16), array([[ 866, 1329],
+       ...,
+       [ 865, 1362]], shape=(4, 2), dtype=int16), array([[ 471, 1358],
+       ...,
+       [ 470, 1389]], shape=(4, 2), dtype=int16), array([[ 842, 1364],
+       ...,
+       [ 841, 1398]], shape=(4, 2), dtype=int16), array([[1175, 1356],
+       ...,
+       [1175, 1392]], shape=(4, 2), dtype=int16), array([[ 144, 1372],
+       ...,
+       [ 143, 1404]], shape=(4, 2), dtype=int16), array([[ 375, 1370],
+       ...,
+       [ 375, 1384]], shape=(4, 2), dtype=int16), array([[1135, 1394],
+       ...,
+       [1134, 1425]], shape=(4, 2), dtype=int16), array([[ 657, 1494],
+       ...,
+       [ 656, 1528]], shape=(4, 2), dtype=int16), array([[ 658, 1535],
+       ...,
+       [ 657, 1570]], shape=(4, 2), dtype=int16), array([[ 633, 1651],
+       ...,
+       [ 632, 1686]], shape=(4, 2), dtype=int16), array([[ 411, 1719],
+       ...,
+       [ 410, 1755]], shape=(4, 2), dtype=int16), array([[ 122, 1769],
+       ...,
+       [ 121, 1803]], shape=(4, 2), dtype=int16), array([[ 183, 1834],
+       ...,
+       [ 181, 1875]], shape=(4, 2), dtype=int16), array([[ 693, 1914],
+       ...,
+       [ 693, 1946]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 152, ...,  184],
+       ...,
+       [ 693, ..., 1946]], shape=(38, 4), dtype=int16)}]
+
+解析后的文本:
+1. 采用两夹层间填充液晶分子的设计，上.层为公共电极，下层为TFT阵列电路。在光源设
+2. 计上，TFT-LCD显示采用“背透式”照射方式，在液晶盒背部设置类似日光灯的光管。光
+3. 源照射时先通过下偏光板向上透出，借助液晶分子的排列状态发生改变来传导光线，也
+4. 通过遮光和不透光来达到显示的目的。
+5. TFT-LCD面板的前端LCD面板贴上彩色滤光片，后端TFT面板上制作薄膜晶体管
+6. (TFT)，可以“主动的”对屏幕上各个独立象素进行控制，即所谓的主动矩阵TFT(active
+7. matrixTFT）。其图象产生的基本原理是：显示屏由许多可以发出任意颜色的光线的象
+8. 素组成，只要控制各个象素显示相应的颜色就能达到目的了。在TFTLCD中一般采用背
+9. 光技术，为了能精确地控制每个象素的颜色和亮度，需要在每一个象素之后安装一个
+10. 类似百叶窗的开关，当“百叶窗"打开时光线可以透过来，而“百叶窗”关上后光线就无法
+11. 透过来。当施电压于品体管时，液品转向，光线穿过液晶后在前端面板上产生一个画素。
+12. 背光模块位于TFT-Array(阵列)面板之后负贡提供光源。彩色滤光片给予每一个画素特定
+13. 的颜色，结合每一个不同颜色的画素所呈现出的就是面板前端的影像。
+14. 1)
+15. a-S:
+16. F
+17. Substrate
+18. 图2.1-2
+19. a-Si TFT与的结构
+20. 2.1.2．生产工艺技术简述
+21. 拟建第7.5代新型半导体TFT-LCD显示器件生产工艺流程主要包括阵列工程
+22. (Array）、彩膜工程（Color Filter)、成盒工程（Cell)三部分，其简化流程见图2.1-3。
+23. 阵列工程Array(a-Si)
+24. 玻璃基板
+25. 彩膜工程CF
+26. (阵列基板制备)
+27. (彩膜基板制备)
+28. 玻璃基板
+29. (阵列基板制备)
+30. 2
+31. (阵列基板制备)
+32. 成盒工程Cell
+33. (液晶盒制备)
+34. 产品（显示器件)
+35. 图2.1-3本项目半导体显示器件总体工艺流程简图
+36. 1.1.1.1阵列工程（Array）
+37. 阵列工程是在玻璃基板上制造出数万个薄膜晶体管，这些晶体管在TFT-LCD工作
+38. 27

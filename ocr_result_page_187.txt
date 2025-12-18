@@ -1,0 +1,175 @@
+OCR结果 - 第 187 页
+==================================================
+处理的图像: temp_page_186_processed.png
+原始PDF页面: 187
+
+详细结果:
+[{'input_path': 'temp_page_186_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[108, 170],
+       ...,
+       [108, 221]], shape=(4, 2), dtype=int16), array([[110, 233],
+       ...,
+       [109, 280]], shape=(4, 2), dtype=int16), array([[110, 293],
+       ...,
+       [109, 337]], shape=(4, 2), dtype=int16), array([[179, 354],
+       ...,
+       [178, 397]], shape=(4, 2), dtype=int16), array([[111, 404],
+       ...,
+       [110, 451]], shape=(4, 2), dtype=int16), array([[113, 459],
+       ...,
+       [112, 504]], shape=(4, 2), dtype=int16), array([[115, 520],
+       ...,
+       [114, 550]], shape=(4, 2), dtype=int16), array([[180, 577],
+       ...,
+       [179, 609]], shape=(4, 2), dtype=int16), array([[181, 635],
+       ...,
+       [180, 666]], shape=(4, 2), dtype=int16), array([[179, 693],
+       ...,
+       [178, 728]], shape=(4, 2), dtype=int16), array([[179, 751],
+       ...,
+       [178, 788]], shape=(4, 2), dtype=int16), array([[194, 817],
+       ...,
+       [195, 847]], shape=(4, 2), dtype=int16), array([[179, 873],
+       ...,
+       [179, 904]], shape=(4, 2), dtype=int16), array([[115, 927],
+       ...,
+       [115, 959]], shape=(4, 2), dtype=int16), array([[ 113,  983],
+       ...,
+       [ 113, 1017]], shape=(4, 2), dtype=int16), array([[ 112, 1040],
+       ...,
+       [ 112, 1075]], shape=(4, 2), dtype=int16), array([[ 111, 1098],
+       ...,
+       [ 111, 1129]], shape=(4, 2), dtype=int16), array([[ 169, 1159],
+       ...,
+       [ 168, 1190]], shape=(4, 2), dtype=int16), array([[ 165, 1218],
+       ...,
+       [ 165, 1255]], shape=(4, 2), dtype=int16), array([[ 166, 1281],
+       ...,
+       [ 166, 1312]], shape=(4, 2), dtype=int16), array([[ 165, 1341],
+       ...,
+       [ 165, 1375]], shape=(4, 2), dtype=int16), array([[ 167, 1400],
+       ...,
+       [ 167, 1431]], shape=(4, 2), dtype=int16), array([[ 166, 1460],
+       ...,
+       [ 166, 1493]], shape=(4, 2), dtype=int16), array([[ 165, 1516],
+       ...,
+       [ 166, 1554]], shape=(4, 2), dtype=int16), array([[  97, 1570],
+       ...,
+       [  97, 1617]], shape=(4, 2), dtype=int16), array([[  96, 1630],
+       ...,
+       [  96, 1675]], shape=(4, 2), dtype=int16), array([[ 159, 1692],
+       ...,
+       [ 159, 1732]], shape=(4, 2), dtype=int16), array([[ 683, 1916],
+       ...,
+       [ 683, 1946]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['明的导电层（导电薄膜），作为全部像素电压信号的公共电极。本项目采用的溅射材料', '为ITO（铟锡合金，In2O₃/SnO{2)靶材。在ITO靶材溅射工序后，ITO金属靶材小部分', '溅镀在玻璃基板表面进入产品，剩余的金属靶材作为固体废物交由原生产工厂回收。', '本ITO氧化铟锡制程工艺采用高真空连续溅镀制程技术，ITO 氧化铟锡膜在溅镀过', '程中，ITO为分子状，在高真空状态，ITO随电浆电子的方向直接溅射至玻璃基板和设', '备内部防护盖板上，由于采用高真空制程技术，并无ITO微粒子漂浮于工作场所环境中，', '职工不会吸入次微粒而造成伤害。', '溅镀ITO氧化铟锡膜工序污染源：', '固体废物：废ITO靶材S2，作为危险废物处理。', '氧化铟锡膜（ITO）再生剥离工序污染源：', '废气：酸性废气G1，进入酸性废气处理系统集中处理后排放。', '(6)感光膜（PS）层生成工序', '在彩膜的最上层需要按照黑矩阵的会做公益流程形成按一定规律分布的透明柱状感', '光衬垫物（PS)，用于彩膜基板和阵列基板成盒时保持一定的盒厚，以填充一定的液晶，', '其工艺过程也与前述的BM膜/RGB膜的光刻（涂胶、曝光和显影）相同，只是使用的', '光刻胶类型有所不同。感光衬垫物(Photo Spacer)取代传统的间隔球(Spacer Bead)，', '目的是提高LCD的对比度。', 'PS层生成工序污染源：', '废气：碱性废气G2，进入碱性废气处理系统集中处理后排放。', '有机废气G3，进入有机废气处理系统集中处理后排放。', '废水：彩膜废水W3，进入彩膜废水处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置。', '经过上述工序加工后的产品经检测是否合格，合格产品即为成品彩色滤光片。', '彩膜工程使用的后烘炉设备主要应用于黑色矩阵膜（BM)、彩色矩阵膜(R/G/B)、', '广视角膜（MVA）、感光膜（PS）等工序的光刻烘干阶段，产生的污染源为有机废气，', '主要污染物为挥发性有机物，进入厂房的有机废气处理系统，处理达标后排放。', '彩膜工程主要产污环节见图2.2-3所示。', '48'], 'rec_scores': [0.9757598042488098, 0.9176440834999084, 0.997247040271759, 0.9592832922935486, 0.9921350479125977, 0.9885743260383606, 0.9975890517234802, 0.9672350883483887, 0.9710305333137512, 0.9775707125663757, 0.97786945104599, 0.9179365038871765, 0.9960100650787354, 0.9675653576850891, 0.972139298915863, 0.9318487644195557, 0.9809860587120056, 0.9788373708724976, 0.9961805939674377, 0.9957104325294495, 0.9963564872741699, 0.9866494536399841, 0.9906360507011414, 0.9547603726387024, 0.9651495218276978, 0.9845438003540039, 0.9815241694450378, 0.9995126128196716], 'rec_polys': [array([[108, 170],
+       ...,
+       [108, 221]], shape=(4, 2), dtype=int16), array([[110, 233],
+       ...,
+       [109, 280]], shape=(4, 2), dtype=int16), array([[110, 293],
+       ...,
+       [109, 337]], shape=(4, 2), dtype=int16), array([[179, 354],
+       ...,
+       [178, 397]], shape=(4, 2), dtype=int16), array([[111, 404],
+       ...,
+       [110, 451]], shape=(4, 2), dtype=int16), array([[113, 459],
+       ...,
+       [112, 504]], shape=(4, 2), dtype=int16), array([[115, 520],
+       ...,
+       [114, 550]], shape=(4, 2), dtype=int16), array([[180, 577],
+       ...,
+       [179, 609]], shape=(4, 2), dtype=int16), array([[181, 635],
+       ...,
+       [180, 666]], shape=(4, 2), dtype=int16), array([[179, 693],
+       ...,
+       [178, 728]], shape=(4, 2), dtype=int16), array([[179, 751],
+       ...,
+       [178, 788]], shape=(4, 2), dtype=int16), array([[194, 817],
+       ...,
+       [195, 847]], shape=(4, 2), dtype=int16), array([[179, 873],
+       ...,
+       [179, 904]], shape=(4, 2), dtype=int16), array([[115, 927],
+       ...,
+       [115, 959]], shape=(4, 2), dtype=int16), array([[ 113,  983],
+       ...,
+       [ 113, 1017]], shape=(4, 2), dtype=int16), array([[ 112, 1040],
+       ...,
+       [ 112, 1075]], shape=(4, 2), dtype=int16), array([[ 111, 1098],
+       ...,
+       [ 111, 1129]], shape=(4, 2), dtype=int16), array([[ 169, 1159],
+       ...,
+       [ 168, 1190]], shape=(4, 2), dtype=int16), array([[ 165, 1218],
+       ...,
+       [ 165, 1255]], shape=(4, 2), dtype=int16), array([[ 166, 1281],
+       ...,
+       [ 166, 1312]], shape=(4, 2), dtype=int16), array([[ 165, 1341],
+       ...,
+       [ 165, 1375]], shape=(4, 2), dtype=int16), array([[ 167, 1400],
+       ...,
+       [ 167, 1431]], shape=(4, 2), dtype=int16), array([[ 166, 1460],
+       ...,
+       [ 166, 1493]], shape=(4, 2), dtype=int16), array([[ 165, 1516],
+       ...,
+       [ 166, 1554]], shape=(4, 2), dtype=int16), array([[  97, 1570],
+       ...,
+       [  97, 1617]], shape=(4, 2), dtype=int16), array([[  96, 1630],
+       ...,
+       [  96, 1675]], shape=(4, 2), dtype=int16), array([[ 159, 1692],
+       ...,
+       [ 159, 1732]], shape=(4, 2), dtype=int16), array([[ 683, 1916],
+       ...,
+       [ 683, 1946]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 108, ...,  240],
+       ...,
+       [ 683, ..., 1946]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. 明的导电层（导电薄膜），作为全部像素电压信号的公共电极。本项目采用的溅射材料
+2. 为ITO（铟锡合金，In2O₃/SnO{2)靶材。在ITO靶材溅射工序后，ITO金属靶材小部分
+3. 溅镀在玻璃基板表面进入产品，剩余的金属靶材作为固体废物交由原生产工厂回收。
+4. 本ITO氧化铟锡制程工艺采用高真空连续溅镀制程技术，ITO 氧化铟锡膜在溅镀过
+5. 程中，ITO为分子状，在高真空状态，ITO随电浆电子的方向直接溅射至玻璃基板和设
+6. 备内部防护盖板上，由于采用高真空制程技术，并无ITO微粒子漂浮于工作场所环境中，
+7. 职工不会吸入次微粒而造成伤害。
+8. 溅镀ITO氧化铟锡膜工序污染源：
+9. 固体废物：废ITO靶材S2，作为危险废物处理。
+10. 氧化铟锡膜（ITO）再生剥离工序污染源：
+11. 废气：酸性废气G1，进入酸性废气处理系统集中处理后排放。
+12. (6)感光膜（PS）层生成工序
+13. 在彩膜的最上层需要按照黑矩阵的会做公益流程形成按一定规律分布的透明柱状感
+14. 光衬垫物（PS)，用于彩膜基板和阵列基板成盒时保持一定的盒厚，以填充一定的液晶，
+15. 其工艺过程也与前述的BM膜/RGB膜的光刻（涂胶、曝光和显影）相同，只是使用的
+16. 光刻胶类型有所不同。感光衬垫物(Photo Spacer)取代传统的间隔球(Spacer Bead)，
+17. 目的是提高LCD的对比度。
+18. PS层生成工序污染源：
+19. 废气：碱性废气G2，进入碱性废气处理系统集中处理后排放。
+20. 有机废气G3，进入有机废气处理系统集中处理后排放。
+21. 废水：彩膜废水W3，进入彩膜废水处理系统集中处理后排放。
+22. 固体废物：有机废液S2，作为危废废物收集、处置。
+23. 经过上述工序加工后的产品经检测是否合格，合格产品即为成品彩色滤光片。
+24. 彩膜工程使用的后烘炉设备主要应用于黑色矩阵膜（BM)、彩色矩阵膜(R/G/B)、
+25. 广视角膜（MVA）、感光膜（PS）等工序的光刻烘干阶段，产生的污染源为有机废气，
+26. 主要污染物为挥发性有机物，进入厂房的有机废气处理系统，处理达标后排放。
+27. 彩膜工程主要产污环节见图2.2-3所示。
+28. 48

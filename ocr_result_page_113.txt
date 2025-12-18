@@ -1,0 +1,80 @@
+OCR结果 - 第 113 页
+==================================================
+处理的图像: temp_page_112_processed.png
+原始PDF页面: 113
+
+详细结果:
+[{'input_path': 'temp_page_112_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[234, ..., 234],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [221, ..., 221]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[505,  66],
+       ...,
+       [504, 101]], shape=(4, 2), dtype=int16), array([[405, 105],
+       ...,
+       [404, 149]], shape=(4, 2), dtype=int16), array([[797, 151],
+       ...,
+       [790, 303]], shape=(4, 2), dtype=int16), array([[1018,  241],
+       ...,
+       [1020,  322]], shape=(4, 2), dtype=int16), array([[836, 264],
+       ...,
+       [836, 273]], shape=(4, 2), dtype=int16), array([[1076,  341],
+       ...,
+       [1076,  401]], shape=(4, 2), dtype=int16), array([[574, 524],
+       ...,
+       [577, 599]], shape=(4, 2), dtype=int16), array([[620, 605],
+       ...,
+       [621, 676]], shape=(4, 2), dtype=int16), array([[568, 693],
+       ...,
+       [568, 770]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['官网查询地址', '资产深估师信以中国资产评信协会育方网站果为准', '', '本人印鉴', '上', '本人签', '所在行业组织中国资产保估协会', '年检信息通过（201020', '初次执业登记日期201208'], 'rec_scores': [0.5969081521034241, 0.49140694737434387, 0.0, 0.9931515455245972, 0.21282270550727844, 0.9772541522979736, 0.9501128196716309, 0.6909420490264893, 0.7720082402229309], 'rec_polys': [array([[505,  66],
+       ...,
+       [504, 101]], shape=(4, 2), dtype=int16), array([[405, 105],
+       ...,
+       [404, 149]], shape=(4, 2), dtype=int16), array([[797, 151],
+       ...,
+       [790, 303]], shape=(4, 2), dtype=int16), array([[1018,  241],
+       ...,
+       [1020,  322]], shape=(4, 2), dtype=int16), array([[836, 264],
+       ...,
+       [836, 273]], shape=(4, 2), dtype=int16), array([[1076,  341],
+       ...,
+       [1076,  401]], shape=(4, 2), dtype=int16), array([[574, 524],
+       ...,
+       [577, 599]], shape=(4, 2), dtype=int16), array([[620, 605],
+       ...,
+       [621, 676]], shape=(4, 2), dtype=int16), array([[568, 693],
+       ...,
+       [568, 770]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 1, 1, 1, 0, 1, 1, 1, 1], 'rec_boxes': array([[504, ..., 108],
+       ...,
+       [568, ..., 770]], shape=(9, 4), dtype=int16)}]
+
+解析后的文本:
+1. 官网查询地址
+2. 资产深估师信以中国资产评信协会育方网站果为准
+3. 
+4. 本人印鉴
+5. 上
+6. 本人签
+7. 所在行业组织中国资产保估协会
+8. 年检信息通过（201020
+9. 初次执业登记日期201208

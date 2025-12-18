@@ -1,0 +1,95 @@
+OCR结果 - 第 108 页
+==================================================
+处理的图像: temp_page_107_processed.png
+原始PDF页面: 108
+
+详细结果:
+[{'input_path': 'temp_page_107_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[1808,   53],
+       ...,
+       [1808,   90]], shape=(4, 2), dtype=int16), array([[636,  77],
+       ...,
+       [637, 159]], shape=(4, 2), dtype=int16), array([[1815,  117],
+       ...,
+       [1815,  153]], shape=(4, 2), dtype=int16), array([[135, 189],
+       ...,
+       [135, 214]], shape=(4, 2), dtype=int16), array([[164, 229],
+       ...,
+       [164, 253]], shape=(4, 2), dtype=int16), array([[358, 228],
+       ...,
+       [358, 246]], shape=(4, 2), dtype=int16), array([[118, 251],
+       ...,
+       [118, 282]], shape=(4, 2), dtype=int16), array([[174, 300],
+       ...,
+       [175, 335]], shape=(4, 2), dtype=int16), array([[1106,  313],
+       ...,
+       [1103,  369]], shape=(4, 2), dtype=int16), array([[119, 354],
+       ...,
+       [119, 394]], shape=(4, 2), dtype=int16), array([[129, 411],
+       ...,
+       [128, 438]], shape=(4, 2), dtype=int16), array([[227, 482],
+       ...,
+       [227, 489]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['□', '中华人民共和国海关进境货物备案单', '口', '入', '', '290', '饮址保程区贸限公司', 'SS', '', '广海桥州地贸有限公管', '', '中'], 'rec_scores': [0.3508335053920746, 0.880668044090271, 0.29783257842063904, 0.5571422576904297, 0.0, 0.43755602836608887, 0.5232127904891968, 0.4040910005569458, 0.0, 0.5700801610946655, 0.0, 0.27790817618370056], 'rec_polys': [array([[1808,   53],
+       ...,
+       [1808,   90]], shape=(4, 2), dtype=int16), array([[636,  77],
+       ...,
+       [637, 159]], shape=(4, 2), dtype=int16), array([[1815,  117],
+       ...,
+       [1815,  153]], shape=(4, 2), dtype=int16), array([[135, 189],
+       ...,
+       [135, 214]], shape=(4, 2), dtype=int16), array([[164, 229],
+       ...,
+       [164, 253]], shape=(4, 2), dtype=int16), array([[358, 228],
+       ...,
+       [358, 246]], shape=(4, 2), dtype=int16), array([[118, 251],
+       ...,
+       [118, 282]], shape=(4, 2), dtype=int16), array([[174, 300],
+       ...,
+       [175, 335]], shape=(4, 2), dtype=int16), array([[1106,  313],
+       ...,
+       [1103,  369]], shape=(4, 2), dtype=int16), array([[119, 354],
+       ...,
+       [119, 394]], shape=(4, 2), dtype=int16), array([[129, 411],
+       ...,
+       [128, 438]], shape=(4, 2), dtype=int16), array([[227, 482],
+       ...,
+       [227, 489]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1808, ...,   90],
+       ...,
+       [ 227, ...,  489]], shape=(12, 4), dtype=int16)}]
+
+解析后的文本:
+1. □
+2. 中华人民共和国海关进境货物备案单
+3. 口
+4. 入
+5. 
+6. 290
+7. 饮址保程区贸限公司
+8. SS
+9. 
+10. 广海桥州地贸有限公管
+11. 
+12. 中

@@ -1,0 +1,165 @@
+OCR结果 - 第 14 页
+==================================================
+处理的图像: temp_page_13_processed.png
+原始PDF页面: 14
+
+详细结果:
+[{'input_path': 'temp_page_13_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1290,    3],
+       ...,
+       [1290,  102]], shape=(4, 2), dtype=int16), array([[232, 204],
+       ...,
+       [232, 249]], shape=(4, 2), dtype=int16), array([[138, 260],
+       ...,
+       [136, 318]], shape=(4, 2), dtype=int16), array([[229, 338],
+       ...,
+       [229, 390]], shape=(4, 2), dtype=int16), array([[148, 403],
+       ...,
+       [147, 454]], shape=(4, 2), dtype=int16), array([[144, 470],
+       ...,
+       [143, 521]], shape=(4, 2), dtype=int16), array([[143, 541],
+       ...,
+       [142, 589]], shape=(4, 2), dtype=int16), array([[144, 609],
+       ...,
+       [143, 657]], shape=(4, 2), dtype=int16), array([[142, 679],
+       ...,
+       [141, 726]], shape=(4, 2), dtype=int16), array([[141, 749],
+       ...,
+       [140, 797]], shape=(4, 2), dtype=int16), array([[139, 821],
+       ...,
+       [139, 865]], shape=(4, 2), dtype=int16), array([[138, 892],
+       ...,
+       [138, 935]], shape=(4, 2), dtype=int16), array([[ 138,  961],
+       ...,
+       [ 138, 1005]], shape=(4, 2), dtype=int16), array([[ 224, 1032],
+       ...,
+       [ 224, 1076]], shape=(4, 2), dtype=int16), array([[ 136, 1101],
+       ...,
+       [ 136, 1143]], shape=(4, 2), dtype=int16), array([[ 137, 1173],
+       ...,
+       [ 137, 1213]], shape=(4, 2), dtype=int16), array([[ 226, 1239],
+       ...,
+       [ 226, 1284]], shape=(4, 2), dtype=int16), array([[ 152, 1312],
+       ...,
+       [ 152, 1350]], shape=(4, 2), dtype=int16), array([[ 135, 1380],
+       ...,
+       [ 135, 1422]], shape=(4, 2), dtype=int16), array([[ 134, 1449],
+       ...,
+       [ 134, 1490]], shape=(4, 2), dtype=int16), array([[ 135, 1517],
+       ...,
+       [ 135, 1561]], shape=(4, 2), dtype=int16), array([[ 135, 1586],
+       ...,
+       [ 135, 1630]], shape=(4, 2), dtype=int16), array([[ 138, 1653],
+       ...,
+       [ 138, 1698]], shape=(4, 2), dtype=int16), array([[ 136, 1722],
+       ...,
+       [ 135, 1766]], shape=(4, 2), dtype=int16), array([[ 118, 1845],
+       ...,
+       [ 122, 1970]], shape=(4, 2), dtype=int16), array([[ 929, 1884],
+       ...,
+       [ 928, 1925]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['II1', '问:请你讲讲桂林银行钦州分行承接这笔委托贷款业务的情', '况？', '答：好的。2020年6月上旬，我按照王雄昌的指示去联系', '了桂林银行钦州分行的行长陈俊州，向他介绍了广西泰嘉公司的', '基本情况，并传达了王雄昌的指示，要求桂林银行钦州分行承接', '8000万元委托贷款给广西泰嘉公司，同时也讲明这个是王雄昌', '牵头负责的项目，让他们全力配合好王雄昌安排的工作，服务好', '企业。因为桂林银行钦州分行一直都依靠市政府开展业务，跟我', '们自贸开投集团也有业务往来，相互之间比较熟悉，陈俊州答应', '承接这笔委托贷款业务。2020年6月下旬，自贸开投集团、桂', '林银行钦州分行和广西泰嘉公司三方签订了《桂林银行人民币委', '托贷款合同》，并根据协议规定执行。', '问：现在向你出示我们依法调取的《桂林银行人民币委托贷', '款借款合同》（编号为101004202000943-01）复印件，共13页，', '请你仔细查阅并作说明?', '答：（接过文件阅读.…15分钟后）经过我仔细查看，这份', '《桂林银行人民币委托贷款借款合同》正是自贸开投集团委托桂', '林银行钦州分行贷款给广西泰嘉公司的《桂林银行人民币委托贷', '款借款合同》，你们出示的材料显示：“该合同签订于2020年6', '月29日，委托贷款资金为8000万元，委托贷款期限为12个月，', '委托贷款利率为12.5%，桂林银行人民币委托贷款借款合同则从', '中收取委托贷款手续费，由自贸开投集团在委托贷款发放时一次', '性支付，手续费费率为贷款本金的年化3%，共计24万元，委托', '签名：何可斌', '第9页共14页'], 'rec_scores': [0.4309725761413574, 0.9771003723144531, 0.8729783296585083, 0.9927535057067871, 0.9975391626358032, 0.9978342056274414, 0.9971086978912354, 0.9978476762771606, 0.9970690011978149, 0.9990265965461731, 0.9935034513473511, 0.9964103102684021, 0.9987084865570068, 0.9974424839019775, 0.9852696657180786, 0.9588847756385803, 0.916934609413147, 0.9966959357261658, 0.997769296169281, 0.9868915677070618, 0.9979622960090637, 0.997974157333374, 0.9990031123161316, 0.9989985227584839, 0.7363240122795105, 0.9967184066772461], 'rec_polys': [array([[1290,    3],
+       ...,
+       [1290,  102]], shape=(4, 2), dtype=int16), array([[232, 204],
+       ...,
+       [232, 249]], shape=(4, 2), dtype=int16), array([[138, 260],
+       ...,
+       [136, 318]], shape=(4, 2), dtype=int16), array([[229, 338],
+       ...,
+       [229, 390]], shape=(4, 2), dtype=int16), array([[148, 403],
+       ...,
+       [147, 454]], shape=(4, 2), dtype=int16), array([[144, 470],
+       ...,
+       [143, 521]], shape=(4, 2), dtype=int16), array([[143, 541],
+       ...,
+       [142, 589]], shape=(4, 2), dtype=int16), array([[144, 609],
+       ...,
+       [143, 657]], shape=(4, 2), dtype=int16), array([[142, 679],
+       ...,
+       [141, 726]], shape=(4, 2), dtype=int16), array([[141, 749],
+       ...,
+       [140, 797]], shape=(4, 2), dtype=int16), array([[139, 821],
+       ...,
+       [139, 865]], shape=(4, 2), dtype=int16), array([[138, 892],
+       ...,
+       [138, 935]], shape=(4, 2), dtype=int16), array([[ 138,  961],
+       ...,
+       [ 138, 1005]], shape=(4, 2), dtype=int16), array([[ 224, 1032],
+       ...,
+       [ 224, 1076]], shape=(4, 2), dtype=int16), array([[ 136, 1101],
+       ...,
+       [ 136, 1143]], shape=(4, 2), dtype=int16), array([[ 137, 1173],
+       ...,
+       [ 137, 1213]], shape=(4, 2), dtype=int16), array([[ 226, 1239],
+       ...,
+       [ 226, 1284]], shape=(4, 2), dtype=int16), array([[ 152, 1312],
+       ...,
+       [ 152, 1350]], shape=(4, 2), dtype=int16), array([[ 135, 1380],
+       ...,
+       [ 135, 1422]], shape=(4, 2), dtype=int16), array([[ 134, 1449],
+       ...,
+       [ 134, 1490]], shape=(4, 2), dtype=int16), array([[ 135, 1517],
+       ...,
+       [ 135, 1561]], shape=(4, 2), dtype=int16), array([[ 135, 1586],
+       ...,
+       [ 135, 1630]], shape=(4, 2), dtype=int16), array([[ 138, 1653],
+       ...,
+       [ 138, 1698]], shape=(4, 2), dtype=int16), array([[ 136, 1722],
+       ...,
+       [ 135, 1766]], shape=(4, 2), dtype=int16), array([[ 118, 1845],
+       ...,
+       [ 122, 1970]], shape=(4, 2), dtype=int16), array([[ 929, 1884],
+       ...,
+       [ 928, 1925]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1290, ...,  102],
+       ...,
+       [ 928, ..., 1928]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. II1
+2. 问:请你讲讲桂林银行钦州分行承接这笔委托贷款业务的情
+3. 况？
+4. 答：好的。2020年6月上旬，我按照王雄昌的指示去联系
+5. 了桂林银行钦州分行的行长陈俊州，向他介绍了广西泰嘉公司的
+6. 基本情况，并传达了王雄昌的指示，要求桂林银行钦州分行承接
+7. 8000万元委托贷款给广西泰嘉公司，同时也讲明这个是王雄昌
+8. 牵头负责的项目，让他们全力配合好王雄昌安排的工作，服务好
+9. 企业。因为桂林银行钦州分行一直都依靠市政府开展业务，跟我
+10. 们自贸开投集团也有业务往来，相互之间比较熟悉，陈俊州答应
+11. 承接这笔委托贷款业务。2020年6月下旬，自贸开投集团、桂
+12. 林银行钦州分行和广西泰嘉公司三方签订了《桂林银行人民币委
+13. 托贷款合同》，并根据协议规定执行。
+14. 问：现在向你出示我们依法调取的《桂林银行人民币委托贷
+15. 款借款合同》（编号为101004202000943-01）复印件，共13页，
+16. 请你仔细查阅并作说明?
+17. 答：（接过文件阅读.…15分钟后）经过我仔细查看，这份
+18. 《桂林银行人民币委托贷款借款合同》正是自贸开投集团委托桂
+19. 林银行钦州分行贷款给广西泰嘉公司的《桂林银行人民币委托贷
+20. 款借款合同》，你们出示的材料显示：“该合同签订于2020年6
+21. 月29日，委托贷款资金为8000万元，委托贷款期限为12个月，
+22. 委托贷款利率为12.5%，桂林银行人民币委托贷款借款合同则从
+23. 中收取委托贷款手续费，由自贸开投集团在委托贷款发放时一次
+24. 性支付，手续费费率为贷款本金的年化3%，共计24万元，委托
+25. 签名：何可斌
+26. 第9页共14页

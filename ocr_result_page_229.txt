@@ -1,0 +1,185 @@
+OCR结果 - 第 229 页
+==================================================
+处理的图像: temp_page_228_processed.png
+原始PDF页面: 229
+
+详细结果:
+[{'input_path': 'temp_page_228_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[139, 122],
+       ...,
+       [140, 167]], shape=(4, 2), dtype=int16), array([[142, 205],
+       ...,
+       [142, 245]], shape=(4, 2), dtype=int16), array([[218, 264],
+       ...,
+       [218, 301]], shape=(4, 2), dtype=int16), array([[147, 326],
+       ...,
+       [147, 361]], shape=(4, 2), dtype=int16), array([[146, 397],
+       ...,
+       [146, 432]], shape=(4, 2), dtype=int16), array([[217, 442],
+       ...,
+       [218, 482]], shape=(4, 2), dtype=int16), array([[150, 501],
+       ...,
+       [150, 541]], shape=(4, 2), dtype=int16), array([[151, 563],
+       ...,
+       [151, 604]], shape=(4, 2), dtype=int16), array([[154, 622],
+       ...,
+       [154, 663]], shape=(4, 2), dtype=int16), array([[150, 682],
+       ...,
+       [150, 726]], shape=(4, 2), dtype=int16), array([[152, 750],
+       ...,
+       [153, 789]], shape=(4, 2), dtype=int16), array([[219, 811],
+       ...,
+       [220, 849]], shape=(4, 2), dtype=int16), array([[ 616, 1021],
+       ...,
+       [ 614, 1067]], shape=(4, 2), dtype=int16), array([[ 262, 1033],
+       ...,
+       [ 262, 1070]], shape=(4, 2), dtype=int16), array([[1060, 1082],
+       ...,
+       [1060, 1140]], shape=(4, 2), dtype=int16), array([[ 622, 1162],
+       ...,
+       [ 621, 1197]], shape=(4, 2), dtype=int16), array([[ 259, 1190],
+       ...,
+       [ 259, 1226]], shape=(4, 2), dtype=int16), array([[ 632, 1280],
+       ...,
+       [ 632, 1315]], shape=(4, 2), dtype=int16), array([[1067, 1275],
+       ...,
+       [1067, 1303]], shape=(4, 2), dtype=int16), array([[ 640, 1424],
+       ...,
+       [ 641, 1448]], shape=(4, 2), dtype=int16), array([[ 258, 1449],
+       ...,
+       [ 258, 1481]], shape=(4, 2), dtype=int16), array([[ 626, 1452],
+       ...,
+       [ 627, 1475]], shape=(4, 2), dtype=int16), array([[ 419, 1556],
+       ...,
+       [ 419, 1592]], shape=(4, 2), dtype=int16), array([[ 576, 1556],
+       ...,
+       [ 576, 1588]], shape=(4, 2), dtype=int16), array([[ 145, 1624],
+       ...,
+       [ 145, 1655]], shape=(4, 2), dtype=int16), array([[ 146, 1673],
+       ...,
+       [ 146, 1705]], shape=(4, 2), dtype=int16), array([[ 218, 1732],
+       ...,
+       [ 219, 1766]], shape=(4, 2), dtype=int16), array([[ 149, 1785],
+       ...,
+       [ 149, 1823]], shape=(4, 2), dtype=int16), array([[ 149, 1845],
+       ...,
+       [ 149, 1877]], shape=(4, 2), dtype=int16), array([[ 682, 1903],
+       ...,
+       [ 682, 1923]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['3.环境保护措施分析', '3.1.废气治理措施分析', '木项目生过程生的废气，主要分为转性废气、性废气、有机废气', '特殊安气', '3.1.1．废气治理措施简述', '不项共包括酸碱发气、有机废气及特殊废气（工艺气）人类废气，根', '据废气的不同性，分入中央废气处理系统Central Scrubber，不同的处耳系', '经进行处理其中艺心气与共它两类废气有不同艺含有', '的有青物质，牛线工艺设备不自带类气体的POU净化装置（PoO', 'se装置）进行预处理燃-洗涤，再排入央废气处理系统（enal Scubber）', '进行进：诊处理', '不项目变气处理系统相关联系见图3.1-1：', '沸石浓缩转轮', '有机废气', '大气', '湿式洗涤器', '酸碱废气', '湿式沉涤器', '安水处州', 'PO化共', '工艺尾气', 'Pot', '图3.1-1', '本项目废气处理系统相关联图', '3.1.2.废气治理措施', '3.1.2.1，废气收集措施', '不项日废收系统分为有发收系、性发收亲统，件发', '系统和艺收经生设备排收的发通的管线收，总', 'i风', '川'], 'rec_scores': [0.9735426902770996, 0.966754138469696, 0.7817755341529846, 0.6561053991317749, 0.9868159294128418, 0.6595547795295715, 0.7886226177215576, 0.7610573768615723, 0.7359127402305603, 0.760073721408844, 0.5792127847671509, 0.8566119074821472, 0.9967203736305237, 0.993100106716156, 0.9987497329711914, 0.9912189245223999, 0.9440222978591919, 0.9702402353286743, 0.6326898336410522, 0.485060453414917, 0.9990043044090271, 0.5711254477500916, 0.996149480342865, 0.9972163438796997, 0.9840366840362549, 0.9550125002861023, 0.5709581971168518, 0.6385194063186646, 0.3776094913482666, 0.19586198031902313], 'rec_polys': [array([[139, 122],
+       ...,
+       [140, 167]], shape=(4, 2), dtype=int16), array([[142, 205],
+       ...,
+       [142, 245]], shape=(4, 2), dtype=int16), array([[218, 264],
+       ...,
+       [218, 301]], shape=(4, 2), dtype=int16), array([[147, 326],
+       ...,
+       [147, 361]], shape=(4, 2), dtype=int16), array([[146, 397],
+       ...,
+       [146, 432]], shape=(4, 2), dtype=int16), array([[217, 442],
+       ...,
+       [218, 482]], shape=(4, 2), dtype=int16), array([[150, 501],
+       ...,
+       [150, 541]], shape=(4, 2), dtype=int16), array([[151, 563],
+       ...,
+       [151, 604]], shape=(4, 2), dtype=int16), array([[154, 622],
+       ...,
+       [154, 663]], shape=(4, 2), dtype=int16), array([[150, 682],
+       ...,
+       [150, 726]], shape=(4, 2), dtype=int16), array([[152, 750],
+       ...,
+       [153, 789]], shape=(4, 2), dtype=int16), array([[219, 811],
+       ...,
+       [220, 849]], shape=(4, 2), dtype=int16), array([[ 616, 1021],
+       ...,
+       [ 614, 1067]], shape=(4, 2), dtype=int16), array([[ 262, 1033],
+       ...,
+       [ 262, 1070]], shape=(4, 2), dtype=int16), array([[1060, 1082],
+       ...,
+       [1060, 1140]], shape=(4, 2), dtype=int16), array([[ 622, 1162],
+       ...,
+       [ 621, 1197]], shape=(4, 2), dtype=int16), array([[ 259, 1190],
+       ...,
+       [ 259, 1226]], shape=(4, 2), dtype=int16), array([[ 632, 1280],
+       ...,
+       [ 632, 1315]], shape=(4, 2), dtype=int16), array([[1067, 1275],
+       ...,
+       [1067, 1303]], shape=(4, 2), dtype=int16), array([[ 640, 1424],
+       ...,
+       [ 641, 1448]], shape=(4, 2), dtype=int16), array([[ 258, 1449],
+       ...,
+       [ 258, 1481]], shape=(4, 2), dtype=int16), array([[ 626, 1452],
+       ...,
+       [ 627, 1475]], shape=(4, 2), dtype=int16), array([[ 419, 1556],
+       ...,
+       [ 419, 1592]], shape=(4, 2), dtype=int16), array([[ 576, 1556],
+       ...,
+       [ 576, 1588]], shape=(4, 2), dtype=int16), array([[ 145, 1624],
+       ...,
+       [ 145, 1655]], shape=(4, 2), dtype=int16), array([[ 146, 1673],
+       ...,
+       [ 146, 1705]], shape=(4, 2), dtype=int16), array([[ 218, 1732],
+       ...,
+       [ 219, 1766]], shape=(4, 2), dtype=int16), array([[ 149, 1785],
+       ...,
+       [ 149, 1823]], shape=(4, 2), dtype=int16), array([[ 149, 1845],
+       ...,
+       [ 149, 1877]], shape=(4, 2), dtype=int16), array([[ 682, 1903],
+       ...,
+       [ 682, 1923]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 139, ...,  167],
+       ...,
+       [ 682, ..., 1923]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 3.环境保护措施分析
+2. 3.1.废气治理措施分析
+3. 木项目生过程生的废气，主要分为转性废气、性废气、有机废气
+4. 特殊安气
+5. 3.1.1．废气治理措施简述
+6. 不项共包括酸碱发气、有机废气及特殊废气（工艺气）人类废气，根
+7. 据废气的不同性，分入中央废气处理系统Central Scrubber，不同的处耳系
+8. 经进行处理其中艺心气与共它两类废气有不同艺含有
+9. 的有青物质，牛线工艺设备不自带类气体的POU净化装置（PoO
+10. se装置）进行预处理燃-洗涤，再排入央废气处理系统（enal Scubber）
+11. 进行进：诊处理
+12. 不项目变气处理系统相关联系见图3.1-1：
+13. 沸石浓缩转轮
+14. 有机废气
+15. 大气
+16. 湿式洗涤器
+17. 酸碱废气
+18. 湿式沉涤器
+19. 安水处州
+20. PO化共
+21. 工艺尾气
+22. Pot
+23. 图3.1-1
+24. 本项目废气处理系统相关联图
+25. 3.1.2.废气治理措施
+26. 3.1.2.1，废气收集措施
+27. 不项日废收系统分为有发收系、性发收亲统，件发
+28. 系统和艺收经生设备排收的发通的管线收，总
+29. i风
+30. 川

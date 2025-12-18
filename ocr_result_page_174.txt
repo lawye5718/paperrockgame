@@ -1,0 +1,145 @@
+OCR结果 - 第 174 页
+==================================================
+处理的图像: temp_page_173_processed.png
+原始PDF页面: 174
+
+详细结果:
+[{'input_path': 'temp_page_173_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[547, 258],
+       ...,
+       [547, 339]], shape=(4, 2), dtype=int16), array([[936, 274],
+       ...,
+       [936, 336]], shape=(4, 2), dtype=int16), array([[565, 320],
+       ...,
+       [565, 370]], shape=(4, 2), dtype=int16), array([[922, 386],
+       ...,
+       [919, 444]], shape=(4, 2), dtype=int16), array([[589, 452],
+       ...,
+       [587, 497]], shape=(4, 2), dtype=int16), array([[579, 562],
+       ...,
+       [578, 607]], shape=(4, 2), dtype=int16), array([[248, 603],
+       ...,
+       [248, 643]], shape=(4, 2), dtype=int16), array([[275, 714],
+       ...,
+       [275, 757]], shape=(4, 2), dtype=int16), array([[233, 821],
+       ...,
+       [233, 863]], shape=(4, 2), dtype=int16), array([[247, 925],
+       ...,
+       [247, 973]], shape=(4, 2), dtype=int16), array([[ 246, 1036],
+       ...,
+       [ 247, 1083]], shape=(4, 2), dtype=int16), array([[ 528, 1109],
+       ...,
+       [ 527, 1141]], shape=(4, 2), dtype=int16), array([[ 676, 1113],
+       ...,
+       [ 676, 1140]], shape=(4, 2), dtype=int16), array([[ 111, 1173],
+       ...,
+       [ 112, 1211]], shape=(4, 2), dtype=int16), array([[ 180, 1232],
+       ...,
+       [ 180, 1266]], shape=(4, 2), dtype=int16), array([[ 122, 1294],
+       ...,
+       [ 122, 1326]], shape=(4, 2), dtype=int16), array([[ 124, 1354],
+       ...,
+       [ 124, 1387]], shape=(4, 2), dtype=int16), array([[ 123, 1412],
+       ...,
+       [ 123, 1446]], shape=(4, 2), dtype=int16), array([[ 124, 1470],
+       ...,
+       [ 124, 1503]], shape=(4, 2), dtype=int16), array([[ 125, 1530],
+       ...,
+       [ 125, 1562]], shape=(4, 2), dtype=int16), array([[ 186, 1588],
+       ...,
+       [ 186, 1619]], shape=(4, 2), dtype=int16), array([[ 694, 1965],
+       ...,
+       [ 694, 1996]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['上下基板对准', 'Cl切割', '貼合、加压', '边/倒角/清洗', 'UV照射', '加热固化', '摩擦取向', '清洗', '封框胶印刷', '电极印刷', '濟注液晶', '图4.1-7', '成盒工艺技术简图', '2.1.3．工艺区划', '洁净核心生产区位于厂房中部。洁净室吊顶高度为7m，具有温度、湿度及洁净度的', '要求，吊顶上部的上技术夹层高度3m，布置有FFU高效过滤器静压箱层。下技术夹层', '一层和三层，设置为回风和配管层，同时还布置有部分生产辅助设备。核心区两侧设同', '风夹道，与核心区架空地板一起形成空气的循环通道。为满足防微振要求，上建结构设', '计采用严格的防微振措施使得阵列核心生产区部分与与周边支持区结构互相脱离。核心', '部分地面设计钢筋混凝上底板以满足防微振要求。', '厂房工艺区划图见图2.1-9~10。', '34'], 'rec_scores': [0.9963912963867188, 0.5979752540588379, 0.9417616128921509, 0.97331303358078, 0.9886811375617981, 0.9977921843528748, 0.9863499402999878, 0.9989245533943176, 0.9455631375312805, 0.9830622673034668, 0.8388866782188416, 0.9968183636665344, 0.9970189332962036, 0.944416344165802, 0.9802469611167908, 0.9903239607810974, 0.9761857390403748, 0.9841384887695312, 0.9815261363983154, 0.9867164492607117, 0.9541290998458862, 0.9345607757568359], 'rec_polys': [array([[547, 258],
+       ...,
+       [547, 339]], shape=(4, 2), dtype=int16), array([[936, 274],
+       ...,
+       [936, 336]], shape=(4, 2), dtype=int16), array([[565, 320],
+       ...,
+       [565, 370]], shape=(4, 2), dtype=int16), array([[922, 386],
+       ...,
+       [919, 444]], shape=(4, 2), dtype=int16), array([[589, 452],
+       ...,
+       [587, 497]], shape=(4, 2), dtype=int16), array([[579, 562],
+       ...,
+       [578, 607]], shape=(4, 2), dtype=int16), array([[248, 603],
+       ...,
+       [248, 643]], shape=(4, 2), dtype=int16), array([[275, 714],
+       ...,
+       [275, 757]], shape=(4, 2), dtype=int16), array([[233, 821],
+       ...,
+       [233, 863]], shape=(4, 2), dtype=int16), array([[247, 925],
+       ...,
+       [247, 973]], shape=(4, 2), dtype=int16), array([[ 246, 1036],
+       ...,
+       [ 247, 1083]], shape=(4, 2), dtype=int16), array([[ 528, 1109],
+       ...,
+       [ 527, 1141]], shape=(4, 2), dtype=int16), array([[ 676, 1113],
+       ...,
+       [ 676, 1140]], shape=(4, 2), dtype=int16), array([[ 111, 1173],
+       ...,
+       [ 112, 1211]], shape=(4, 2), dtype=int16), array([[ 180, 1232],
+       ...,
+       [ 180, 1266]], shape=(4, 2), dtype=int16), array([[ 122, 1294],
+       ...,
+       [ 122, 1326]], shape=(4, 2), dtype=int16), array([[ 124, 1354],
+       ...,
+       [ 124, 1387]], shape=(4, 2), dtype=int16), array([[ 123, 1412],
+       ...,
+       [ 123, 1446]], shape=(4, 2), dtype=int16), array([[ 124, 1470],
+       ...,
+       [ 124, 1503]], shape=(4, 2), dtype=int16), array([[ 125, 1530],
+       ...,
+       [ 125, 1562]], shape=(4, 2), dtype=int16), array([[ 186, 1588],
+       ...,
+       [ 186, 1619]], shape=(4, 2), dtype=int16), array([[ 694, 1965],
+       ...,
+       [ 694, 1996]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 547, ...,  339],
+       ...,
+       [ 694, ..., 1996]], shape=(22, 4), dtype=int16)}]
+
+解析后的文本:
+1. 上下基板对准
+2. Cl切割
+3. 貼合、加压
+4. 边/倒角/清洗
+5. UV照射
+6. 加热固化
+7. 摩擦取向
+8. 清洗
+9. 封框胶印刷
+10. 电极印刷
+11. 濟注液晶
+12. 图4.1-7
+13. 成盒工艺技术简图
+14. 2.1.3．工艺区划
+15. 洁净核心生产区位于厂房中部。洁净室吊顶高度为7m，具有温度、湿度及洁净度的
+16. 要求，吊顶上部的上技术夹层高度3m，布置有FFU高效过滤器静压箱层。下技术夹层
+17. 一层和三层，设置为回风和配管层，同时还布置有部分生产辅助设备。核心区两侧设同
+18. 风夹道，与核心区架空地板一起形成空气的循环通道。为满足防微振要求，上建结构设
+19. 计采用严格的防微振措施使得阵列核心生产区部分与与周边支持区结构互相脱离。核心
+20. 部分地面设计钢筋混凝上底板以满足防微振要求。
+21. 厂房工艺区划图见图2.1-9~10。
+22. 34

@@ -1,0 +1,80 @@
+OCR结果 - 第 228 页
+==================================================
+处理的图像: temp_page_227_processed.png
+原始PDF页面: 228
+
+详细结果:
+[{'input_path': 'temp_page_227_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[207, 147],
+       ...,
+       [206, 200]], shape=(4, 2), dtype=int16), array([[148, 209],
+       ...,
+       [147, 260]], shape=(4, 2), dtype=int16), array([[147, 270],
+       ...,
+       [147, 321]], shape=(4, 2), dtype=int16), array([[149, 329],
+       ...,
+       [149, 378]], shape=(4, 2), dtype=int16), array([[149, 386],
+       ...,
+       [147, 425]], shape=(4, 2), dtype=int16), array([[209, 446],
+       ...,
+       [208, 486]], shape=(4, 2), dtype=int16), array([[143, 502],
+       ...,
+       [143, 543]], shape=(4, 2), dtype=int16), array([[143, 562],
+       ...,
+       [143, 596]], shape=(4, 2), dtype=int16), array([[ 686, 1971],
+       ...,
+       [ 686, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['本项目固体废物产生总量为72015.3a。其中，一般工业固废产生量33277a，', '由厂家回收或专业公司回收利用：危险废物产生量37331.8Va，委托有资质的危', '险废物处理单位统一处置；生产区及宿舍区生活垃圾产生量1095Va，由环卫部', '门统一处理置。在采取污染控制措施后，本项目产生的固体废物去向明确，不形', '成二次污染。', '本项目固体废物均分类收集及贮存，贮存按照《一般工业固体废物贮存、处', '置场污染控制标准》GB18599-2001和《危险废物贮存污染控制标准》', 'GB18597-2001执行。', '89'], 'rec_scores': [0.9447595477104187, 0.9571384787559509, 0.954433262348175, 0.9924020767211914, 0.9983369708061218, 0.9832257628440857, 0.9727329611778259, 0.9132183790206909, 0.9991819858551025], 'rec_polys': [array([[207, 147],
+       ...,
+       [206, 200]], shape=(4, 2), dtype=int16), array([[148, 209],
+       ...,
+       [147, 260]], shape=(4, 2), dtype=int16), array([[147, 270],
+       ...,
+       [147, 321]], shape=(4, 2), dtype=int16), array([[149, 329],
+       ...,
+       [149, 378]], shape=(4, 2), dtype=int16), array([[149, 386],
+       ...,
+       [147, 425]], shape=(4, 2), dtype=int16), array([[209, 446],
+       ...,
+       [208, 486]], shape=(4, 2), dtype=int16), array([[143, 502],
+       ...,
+       [143, 543]], shape=(4, 2), dtype=int16), array([[143, 562],
+       ...,
+       [143, 596]], shape=(4, 2), dtype=int16), array([[ 686, 1971],
+       ...,
+       [ 686, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 206, ...,  222],
+       ...,
+       [ 686, ..., 1999]], shape=(9, 4), dtype=int16)}]
+
+解析后的文本:
+1. 本项目固体废物产生总量为72015.3a。其中，一般工业固废产生量33277a，
+2. 由厂家回收或专业公司回收利用：危险废物产生量37331.8Va，委托有资质的危
+3. 险废物处理单位统一处置；生产区及宿舍区生活垃圾产生量1095Va，由环卫部
+4. 门统一处理置。在采取污染控制措施后，本项目产生的固体废物去向明确，不形
+5. 成二次污染。
+6. 本项目固体废物均分类收集及贮存，贮存按照《一般工业固体废物贮存、处
+7. 置场污染控制标准》GB18599-2001和《危险废物贮存污染控制标准》
+8. GB18597-2001执行。
+9. 89

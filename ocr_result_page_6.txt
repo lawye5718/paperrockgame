@@ -1,0 +1,205 @@
+OCR结果 - 第 6 页
+==================================================
+处理的图像: temp_page_5_processed.png
+原始PDF页面: 6
+
+详细结果:
+[{'input_path': 'temp_page_5_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1305,   29],
+       ...,
+       [1321,  145]], shape=(4, 2), dtype=int16), array([[428, 258],
+       ...,
+       [430, 320]], shape=(4, 2), dtype=int16), array([[349, 334],
+       ...,
+       [352, 438]], shape=(4, 2), dtype=int16), array([[393, 511],
+       ...,
+       [394, 570]], shape=(4, 2), dtype=int16), array([[135, 526],
+       ...,
+       [136, 571]], shape=(4, 2), dtype=int16), array([[134, 594],
+       ...,
+       [135, 640]], shape=(4, 2), dtype=int16), array([[359, 589],
+       ...,
+       [360, 634]], shape=(4, 2), dtype=int16), array([[1019,  609],
+       ...,
+       [1019,  707]], shape=(4, 2), dtype=int16), array([[355, 628],
+       ...,
+       [358, 715]], shape=(4, 2), dtype=int16), array([[635, 626],
+       ...,
+       [636, 702]], shape=(4, 2), dtype=int16), array([[1111,  630],
+       ...,
+       [1111,  686]], shape=(4, 2), dtype=int16), array([[131, 659],
+       ...,
+       [132, 709]], shape=(4, 2), dtype=int16), array([[418, 718],
+       ...,
+       [420, 772]], shape=(4, 2), dtype=int16), array([[609, 714],
+       ...,
+       [610, 766]], shape=(4, 2), dtype=int16), array([[721, 709],
+       ...,
+       [721, 762]], shape=(4, 2), dtype=int16), array([[1115,  709],
+       ...,
+       [1115,  762]], shape=(4, 2), dtype=int16), array([[131, 730],
+       ...,
+       [132, 779]], shape=(4, 2), dtype=int16), array([[131, 793],
+       ...,
+       [132, 848]], shape=(4, 2), dtype=int16), array([[130, 868],
+       ...,
+       [131, 914]], shape=(4, 2), dtype=int16), array([[129, 932],
+       ...,
+       [130, 984]], shape=(4, 2), dtype=int16), array([[ 130, 1001],
+       ...,
+       [ 131, 1049]], shape=(4, 2), dtype=int16), array([[ 133, 1073],
+       ...,
+       [ 134, 1115]], shape=(4, 2), dtype=int16), array([[ 130, 1139],
+       ...,
+       [ 131, 1181]], shape=(4, 2), dtype=int16), array([[ 390, 1134],
+       ...,
+       [ 391, 1172]], shape=(4, 2), dtype=int16), array([[ 224, 1274],
+       ...,
+       [ 224, 1315]], shape=(4, 2), dtype=int16), array([[ 127, 1341],
+       ...,
+       [ 128, 1386]], shape=(4, 2), dtype=int16), array([[ 125, 1407],
+       ...,
+       [ 126, 1454]], shape=(4, 2), dtype=int16), array([[ 124, 1474],
+       ...,
+       [ 125, 1522]], shape=(4, 2), dtype=int16), array([[ 122, 1542],
+       ...,
+       [ 122, 1591]], shape=(4, 2), dtype=int16), array([[ 213, 1610],
+       ...,
+       [ 213, 1663]], shape=(4, 2), dtype=int16), array([[ 215, 1680],
+       ...,
+       [ 216, 1731]], shape=(4, 2), dtype=int16), array([[ 124, 1751],
+       ...,
+       [ 124, 1800]], shape=(4, 2), dtype=int16), array([[ 106, 1863],
+       ...,
+       [ 113, 1983]], shape=(4, 2), dtype=int16), array([[ 935, 1871],
+       ...,
+       [ 935, 1908]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['3', '广西壮族自治区监察委员会', '询问笔录', '2025年5月27日15时05分至27日17时46分', '询问时间：', '询问地点：', '北海市第二看守所9号提讯室', '曾', '詹惠阔', '曾记录人：', '2', '询问人：', '何斌', '性别：', '男年龄：', '46岁', '被询问人：', '工作单位、职务：广西中马钦州产业园区投资控股集团有限公司', '原副总经理', '政治面貌：已于2025年3月被开除党籍', '是否党代表、人大代表、政协委员：否', '住址：南宁市青秀区民乐路3号', '联系方式：', '18077702333', '问：（出示工作证件）我们是广西壮族自治区纪委监委的', '调查人员，现依法对你询问。你应当如实回答我们的提问，', '有意作伪证或者隐匿证据应负相应的法律责任。下面依照相', '关规定我们向你送达《证人权利义务告知书》。以上告知事项', '你清楚了吗？', '答：清楚了。', '问：你的身体和精神状态如何，能否准确表达自己的意思，', '能否接受询问?', '签名：何斌', '第1页共14页'], 'rec_scores': [0.9922933578491211, 0.9988370537757874, 0.9942526817321777, 0.9807827472686768, 0.9788998365402222, 0.931641697883606, 0.9965540766716003, 0.9607213735580444, 0.7098645567893982, 0.9074798822402954, 0.1639067530632019, 0.9593958258628845, 0.9968454241752625, 0.9646640419960022, 0.9192605018615723, 0.9994985461235046, 0.9185301661491394, 0.9944987893104553, 0.9990566372871399, 0.9914518594741821, 0.9945264458656311, 0.9966080784797668, 0.9774129986763, 0.9996963143348694, 0.9866160750389099, 0.9923275709152222, 0.9990205764770508, 0.9977439045906067, 0.9434561133384705, 0.9949123859405518, 0.9858523607254028, 0.9319220185279846, 0.8804110288619995, 0.998397707939148], 'rec_polys': [array([[1305,   29],
+       ...,
+       [1321,  145]], shape=(4, 2), dtype=int16), array([[428, 258],
+       ...,
+       [430, 320]], shape=(4, 2), dtype=int16), array([[349, 334],
+       ...,
+       [352, 438]], shape=(4, 2), dtype=int16), array([[393, 511],
+       ...,
+       [394, 570]], shape=(4, 2), dtype=int16), array([[135, 526],
+       ...,
+       [136, 571]], shape=(4, 2), dtype=int16), array([[134, 594],
+       ...,
+       [135, 640]], shape=(4, 2), dtype=int16), array([[359, 589],
+       ...,
+       [360, 634]], shape=(4, 2), dtype=int16), array([[1019,  609],
+       ...,
+       [1019,  707]], shape=(4, 2), dtype=int16), array([[355, 628],
+       ...,
+       [358, 715]], shape=(4, 2), dtype=int16), array([[635, 626],
+       ...,
+       [636, 702]], shape=(4, 2), dtype=int16), array([[1111,  630],
+       ...,
+       [1111,  686]], shape=(4, 2), dtype=int16), array([[131, 659],
+       ...,
+       [132, 709]], shape=(4, 2), dtype=int16), array([[418, 718],
+       ...,
+       [420, 772]], shape=(4, 2), dtype=int16), array([[609, 714],
+       ...,
+       [610, 766]], shape=(4, 2), dtype=int16), array([[721, 709],
+       ...,
+       [721, 762]], shape=(4, 2), dtype=int16), array([[1115,  709],
+       ...,
+       [1115,  762]], shape=(4, 2), dtype=int16), array([[131, 730],
+       ...,
+       [132, 779]], shape=(4, 2), dtype=int16), array([[131, 793],
+       ...,
+       [132, 848]], shape=(4, 2), dtype=int16), array([[130, 868],
+       ...,
+       [131, 914]], shape=(4, 2), dtype=int16), array([[129, 932],
+       ...,
+       [130, 984]], shape=(4, 2), dtype=int16), array([[ 130, 1001],
+       ...,
+       [ 131, 1049]], shape=(4, 2), dtype=int16), array([[ 133, 1073],
+       ...,
+       [ 134, 1115]], shape=(4, 2), dtype=int16), array([[ 130, 1139],
+       ...,
+       [ 131, 1181]], shape=(4, 2), dtype=int16), array([[ 390, 1134],
+       ...,
+       [ 391, 1172]], shape=(4, 2), dtype=int16), array([[ 224, 1274],
+       ...,
+       [ 224, 1315]], shape=(4, 2), dtype=int16), array([[ 127, 1341],
+       ...,
+       [ 128, 1386]], shape=(4, 2), dtype=int16), array([[ 125, 1407],
+       ...,
+       [ 126, 1454]], shape=(4, 2), dtype=int16), array([[ 124, 1474],
+       ...,
+       [ 125, 1522]], shape=(4, 2), dtype=int16), array([[ 122, 1542],
+       ...,
+       [ 122, 1591]], shape=(4, 2), dtype=int16), array([[ 213, 1610],
+       ...,
+       [ 213, 1663]], shape=(4, 2), dtype=int16), array([[ 215, 1680],
+       ...,
+       [ 216, 1731]], shape=(4, 2), dtype=int16), array([[ 124, 1751],
+       ...,
+       [ 124, 1800]], shape=(4, 2), dtype=int16), array([[ 106, 1863],
+       ...,
+       [ 113, 1983]], shape=(4, 2), dtype=int16), array([[ 935, 1871],
+       ...,
+       [ 935, 1908]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1305, ...,  145],
+       ...,
+       [ 935, ..., 1908]], shape=(34, 4), dtype=int16)}]
+
+解析后的文本:
+1. 3
+2. 广西壮族自治区监察委员会
+3. 询问笔录
+4. 2025年5月27日15时05分至27日17时46分
+5. 询问时间：
+6. 询问地点：
+7. 北海市第二看守所9号提讯室
+8. 曾
+9. 詹惠阔
+10. 曾记录人：
+11. 2
+12. 询问人：
+13. 何斌
+14. 性别：
+15. 男年龄：
+16. 46岁
+17. 被询问人：
+18. 工作单位、职务：广西中马钦州产业园区投资控股集团有限公司
+19. 原副总经理
+20. 政治面貌：已于2025年3月被开除党籍
+21. 是否党代表、人大代表、政协委员：否
+22. 住址：南宁市青秀区民乐路3号
+23. 联系方式：
+24. 18077702333
+25. 问：（出示工作证件）我们是广西壮族自治区纪委监委的
+26. 调查人员，现依法对你询问。你应当如实回答我们的提问，
+27. 有意作伪证或者隐匿证据应负相应的法律责任。下面依照相
+28. 关规定我们向你送达《证人权利义务告知书》。以上告知事项
+29. 你清楚了吗？
+30. 答：清楚了。
+31. 问：你的身体和精神状态如何，能否准确表达自己的意思，
+32. 能否接受询问?
+33. 签名：何斌
+34. 第1页共14页

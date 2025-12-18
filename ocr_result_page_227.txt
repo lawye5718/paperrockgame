@@ -1,0 +1,190 @@
+OCR结果 - 第 227 页
+==================================================
+处理的图像: temp_page_226_processed.png
+原始PDF页面: 227
+
+详细结果:
+[{'input_path': 'temp_page_226_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[153, 146],
+       ...,
+       [152, 196]], shape=(4, 2), dtype=int16), array([[156, 213],
+       ...,
+       [155, 255]], shape=(4, 2), dtype=int16), array([[232, 278],
+       ...,
+       [232, 318]], shape=(4, 2), dtype=int16), array([[154, 335],
+       ...,
+       [154, 377]], shape=(4, 2), dtype=int16), array([[172, 398],
+       ...,
+       [172, 429]], shape=(4, 2), dtype=int16), array([[172, 450],
+       ...,
+       [171, 484]], shape=(4, 2), dtype=int16), array([[218, 506],
+       ...,
+       [218, 543]], shape=(4, 2), dtype=int16), array([[153, 556],
+       ...,
+       [152, 597]], shape=(4, 2), dtype=int16), array([[220, 620],
+       ...,
+       [220, 654]], shape=(4, 2), dtype=int16), array([[159, 675],
+       ...,
+       [159, 708]], shape=(4, 2), dtype=int16), array([[158, 731],
+       ...,
+       [158, 766]], shape=(4, 2), dtype=int16), array([[159, 787],
+       ...,
+       [159, 821]], shape=(4, 2), dtype=int16), array([[156, 842],
+       ...,
+       [156, 875]], shape=(4, 2), dtype=int16), array([[156, 897],
+       ...,
+       [156, 931]], shape=(4, 2), dtype=int16), array([[159, 953],
+       ...,
+       [159, 984]], shape=(4, 2), dtype=int16), array([[ 219, 1006],
+       ...,
+       [ 219, 1041]], shape=(4, 2), dtype=int16), array([[ 160, 1063],
+       ...,
+       [ 160, 1092]], shape=(4, 2), dtype=int16), array([[ 220, 1116],
+       ...,
+       [ 220, 1148]], shape=(4, 2), dtype=int16), array([[ 160, 1171],
+       ...,
+       [ 160, 1202]], shape=(4, 2), dtype=int16), array([[ 159, 1224],
+       ...,
+       [ 159, 1255]], shape=(4, 2), dtype=int16), array([[ 218, 1277],
+       ...,
+       [ 218, 1312]], shape=(4, 2), dtype=int16), array([[ 158, 1332],
+       ...,
+       [ 157, 1365]], shape=(4, 2), dtype=int16), array([[ 215, 1389],
+       ...,
+       [ 215, 1424]], shape=(4, 2), dtype=int16), array([[ 154, 1444],
+       ...,
+       [ 154, 1477]], shape=(4, 2), dtype=int16), array([[ 154, 1500],
+       ...,
+       [ 154, 1531]], shape=(4, 2), dtype=int16), array([[ 166, 1556],
+       ...,
+       [ 166, 1587]], shape=(4, 2), dtype=int16), array([[ 212, 1610],
+       ...,
+       [ 212, 1641]], shape=(4, 2), dtype=int16), array([[ 150, 1663],
+       ...,
+       [ 150, 1698]], shape=(4, 2), dtype=int16), array([[ 149, 1723],
+       ...,
+       [ 149, 1753]], shape=(4, 2), dtype=int16), array([[ 162, 1782],
+       ...,
+       [ 162, 1813]], shape=(4, 2), dtype=int16), array([[ 662, 1829],
+       ...,
+       [ 662, 1856]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['国家标准《大气污染物综合排放标准》(GB16297-1996) 中二级标准限值要求，', '其中氨气满足《恶臭污染物排放标准》(GB14554-93）标准限值要求。', '生产区废水处理站臭气：废水处理设施产生臭气通过密闭罩集中收集，经', '喷淋装置处理后由屋面排气筒排放，臭气排放浓度满足《恶臭污染物排放标准》', '（GB14554-93）中相关标准限值要求。', '(2) 废水污染防治措施及排放情况', '本项目总废水排放量为24985m3/d，其中，生产区24310m/d，宿舍区675', 'm{3/d.', '生产区生产废水：排放量23960m{3/d，根据废水的性质分为6类废水。酸碱', '废水量为9115m/d，采用化学中和法处理，再进入最终中和处理系统；含磷废水', '量为3934m/d，采用化学沉淀法处理，再进入有机废水处理系统：彩膜废水量', '为4275m/d，采用絮凝沉淀法处理，再进入有机废水处理系统；含氟废水量为', '3188m/d，采用化学沉淀法处理，再进入有机废水处理系统；有机废水量为', '2331m3/d，加上述三种废水后总处理量为13828m3/d，采用生化法处理，再进入', '最终中和处理系统：冷却塔排污水量为1017m/d，排入最终中和处理系统。', '生产区生活污水：排放量350m/d，主要为职工生活污水。冲厕废水采用化', '粪池理、餐厅废水采用隔油池处理后排放。', '宿舍区生活污水：排放量为675m/d。宿舍区产生的废水主要为配套宿舍区', '宿舍居住人员的盥洗废水、冲厕废水、餐厅污水。经化粪池及隔油池后再进入地', '理式污水处理设备（A/O）处理后排放。', '生产区设置一个废水总排口，宿舍区设置一个污水总排口，排入开发区污水', '管网，最终进入钦州市大榄坪污水处理厂。', '经过以上处理措施处理后，本项目排放废水中的污染物均满足国家标准《污', '水综合排放标准》(GB8978-1996)中三级标准限值要求，氨氮、磷酸盐满足《污', '水排入城镇下水道水质标准》(CJ343-2010)B等级。', '（3）噪声污染防治措施及排放情况', '本项目噪声源主要有生产区的冷冻机组、空气压缩机、风机、热水锅炉、水', '泵等动力设备，通过采取合理布局，选用低噪声环保型设备等降低源强，并采取', '建筑隔声、减震、消声、吸声等治理措施。', '(4）固体废物污染控制措施', '88'], 'rec_scores': [0.9492045044898987, 0.938419759273529, 0.9946854114532471, 0.9933615326881409, 0.9488025903701782, 0.9364270567893982, 0.934843122959137, 0.6973246932029724, 0.9492548108100891, 0.9843847155570984, 0.9745477437973022, 0.977102518081665, 0.9730157852172852, 0.9629905223846436, 0.9863125681877136, 0.9846779704093933, 0.9957171082496643, 0.9792513251304626, 0.9864762425422668, 0.9516381621360779, 0.9981622695922852, 0.9887380003929138, 0.9989574551582336, 0.9798707962036133, 0.9700926542282104, 0.9602839946746826, 0.996863842010498, 0.9976977705955505, 0.9905760884284973, 0.9380086660385132, 0.9986875057220459], 'rec_polys': [array([[153, 146],
+       ...,
+       [152, 196]], shape=(4, 2), dtype=int16), array([[156, 213],
+       ...,
+       [155, 255]], shape=(4, 2), dtype=int16), array([[232, 278],
+       ...,
+       [232, 318]], shape=(4, 2), dtype=int16), array([[154, 335],
+       ...,
+       [154, 377]], shape=(4, 2), dtype=int16), array([[172, 398],
+       ...,
+       [172, 429]], shape=(4, 2), dtype=int16), array([[172, 450],
+       ...,
+       [171, 484]], shape=(4, 2), dtype=int16), array([[218, 506],
+       ...,
+       [218, 543]], shape=(4, 2), dtype=int16), array([[153, 556],
+       ...,
+       [152, 597]], shape=(4, 2), dtype=int16), array([[220, 620],
+       ...,
+       [220, 654]], shape=(4, 2), dtype=int16), array([[159, 675],
+       ...,
+       [159, 708]], shape=(4, 2), dtype=int16), array([[158, 731],
+       ...,
+       [158, 766]], shape=(4, 2), dtype=int16), array([[159, 787],
+       ...,
+       [159, 821]], shape=(4, 2), dtype=int16), array([[156, 842],
+       ...,
+       [156, 875]], shape=(4, 2), dtype=int16), array([[156, 897],
+       ...,
+       [156, 931]], shape=(4, 2), dtype=int16), array([[159, 953],
+       ...,
+       [159, 984]], shape=(4, 2), dtype=int16), array([[ 219, 1006],
+       ...,
+       [ 219, 1041]], shape=(4, 2), dtype=int16), array([[ 160, 1063],
+       ...,
+       [ 160, 1092]], shape=(4, 2), dtype=int16), array([[ 220, 1116],
+       ...,
+       [ 220, 1148]], shape=(4, 2), dtype=int16), array([[ 160, 1171],
+       ...,
+       [ 160, 1202]], shape=(4, 2), dtype=int16), array([[ 159, 1224],
+       ...,
+       [ 159, 1255]], shape=(4, 2), dtype=int16), array([[ 218, 1277],
+       ...,
+       [ 218, 1312]], shape=(4, 2), dtype=int16), array([[ 158, 1332],
+       ...,
+       [ 157, 1365]], shape=(4, 2), dtype=int16), array([[ 215, 1389],
+       ...,
+       [ 215, 1424]], shape=(4, 2), dtype=int16), array([[ 154, 1444],
+       ...,
+       [ 154, 1477]], shape=(4, 2), dtype=int16), array([[ 154, 1500],
+       ...,
+       [ 154, 1531]], shape=(4, 2), dtype=int16), array([[ 166, 1556],
+       ...,
+       [ 166, 1587]], shape=(4, 2), dtype=int16), array([[ 212, 1610],
+       ...,
+       [ 212, 1641]], shape=(4, 2), dtype=int16), array([[ 150, 1663],
+       ...,
+       [ 150, 1698]], shape=(4, 2), dtype=int16), array([[ 149, 1723],
+       ...,
+       [ 149, 1753]], shape=(4, 2), dtype=int16), array([[ 162, 1782],
+       ...,
+       [ 162, 1813]], shape=(4, 2), dtype=int16), array([[ 662, 1829],
+       ...,
+       [ 662, 1856]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 152, ...,  207],
+       ...,
+       [ 662, ..., 1856]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 国家标准《大气污染物综合排放标准》(GB16297-1996) 中二级标准限值要求，
+2. 其中氨气满足《恶臭污染物排放标准》(GB14554-93）标准限值要求。
+3. 生产区废水处理站臭气：废水处理设施产生臭气通过密闭罩集中收集，经
+4. 喷淋装置处理后由屋面排气筒排放，臭气排放浓度满足《恶臭污染物排放标准》
+5. （GB14554-93）中相关标准限值要求。
+6. (2) 废水污染防治措施及排放情况
+7. 本项目总废水排放量为24985m3/d，其中，生产区24310m/d，宿舍区675
+8. m{3/d.
+9. 生产区生产废水：排放量23960m{3/d，根据废水的性质分为6类废水。酸碱
+10. 废水量为9115m/d，采用化学中和法处理，再进入最终中和处理系统；含磷废水
+11. 量为3934m/d，采用化学沉淀法处理，再进入有机废水处理系统：彩膜废水量
+12. 为4275m/d，采用絮凝沉淀法处理，再进入有机废水处理系统；含氟废水量为
+13. 3188m/d，采用化学沉淀法处理，再进入有机废水处理系统；有机废水量为
+14. 2331m3/d，加上述三种废水后总处理量为13828m3/d，采用生化法处理，再进入
+15. 最终中和处理系统：冷却塔排污水量为1017m/d，排入最终中和处理系统。
+16. 生产区生活污水：排放量350m/d，主要为职工生活污水。冲厕废水采用化
+17. 粪池理、餐厅废水采用隔油池处理后排放。
+18. 宿舍区生活污水：排放量为675m/d。宿舍区产生的废水主要为配套宿舍区
+19. 宿舍居住人员的盥洗废水、冲厕废水、餐厅污水。经化粪池及隔油池后再进入地
+20. 理式污水处理设备（A/O）处理后排放。
+21. 生产区设置一个废水总排口，宿舍区设置一个污水总排口，排入开发区污水
+22. 管网，最终进入钦州市大榄坪污水处理厂。
+23. 经过以上处理措施处理后，本项目排放废水中的污染物均满足国家标准《污
+24. 水综合排放标准》(GB8978-1996)中三级标准限值要求，氨氮、磷酸盐满足《污
+25. 水排入城镇下水道水质标准》(CJ343-2010)B等级。
+26. （3）噪声污染防治措施及排放情况
+27. 本项目噪声源主要有生产区的冷冻机组、空气压缩机、风机、热水锅炉、水
+28. 泵等动力设备，通过采取合理布局，选用低噪声环保型设备等降低源强，并采取
+29. 建筑隔声、减震、消声、吸声等治理措施。
+30. (4）固体废物污染控制措施
+31. 88

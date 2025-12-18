@@ -1,0 +1,190 @@
+OCR结果 - 第 189 页
+==================================================
+处理的图像: temp_page_188_processed.png
+原始PDF页面: 189
+
+详细结果:
+[{'input_path': 'temp_page_188_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[1349,    1],
+       ...,
+       [1349,   60]], shape=(4, 2), dtype=int16), array([[100, 134],
+       ...,
+       [100, 168]], shape=(4, 2), dtype=int16), array([[169, 198],
+       ...,
+       [169, 236]], shape=(4, 2), dtype=int16), array([[107, 260],
+       ...,
+       [107, 291]], shape=(4, 2), dtype=int16), array([[190, 323],
+       ...,
+       [190, 354]], shape=(4, 2), dtype=int16), array([[172, 378],
+       ...,
+       [172, 412]], shape=(4, 2), dtype=int16), array([[114, 434],
+       ...,
+       [114, 467]], shape=(4, 2), dtype=int16), array([[116, 493],
+       ...,
+       [116, 523]], shape=(4, 2), dtype=int16), array([[117, 548],
+       ...,
+       [117, 579]], shape=(4, 2), dtype=int16), array([[179, 605],
+       ...,
+       [179, 637]], shape=(4, 2), dtype=int16), array([[179, 663],
+       ...,
+       [179, 696]], shape=(4, 2), dtype=int16), array([[116, 718],
+       ...,
+       [116, 756]], shape=(4, 2), dtype=int16), array([[117, 777],
+       ...,
+       [117, 811]], shape=(4, 2), dtype=int16), array([[193, 839],
+       ...,
+       [194, 870]], shape=(4, 2), dtype=int16), array([[178, 895],
+       ...,
+       [178, 926]], shape=(4, 2), dtype=int16), array([[116, 950],
+       ...,
+       [116, 981]], shape=(4, 2), dtype=int16), array([[ 114, 1006],
+       ...,
+       [ 114, 1040]], shape=(4, 2), dtype=int16), array([[ 112, 1062],
+       ...,
+       [ 112, 1095]], shape=(4, 2), dtype=int16), array([[ 111, 1121],
+       ...,
+       [ 111, 1150]], shape=(4, 2), dtype=int16), array([[ 170, 1180],
+       ...,
+       [ 170, 1208]], shape=(4, 2), dtype=int16), array([[ 170, 1237],
+       ...,
+       [ 170, 1268]], shape=(4, 2), dtype=int16), array([[ 169, 1296],
+       ...,
+       [ 169, 1326]], shape=(4, 2), dtype=int16), array([[ 182, 1355],
+       ...,
+       [ 182, 1386]], shape=(4, 2), dtype=int16), array([[ 165, 1413],
+       ...,
+       [ 165, 1443]], shape=(4, 2), dtype=int16), array([[ 104, 1468],
+       ...,
+       [ 104, 1501]], shape=(4, 2), dtype=int16), array([[ 102, 1525],
+       ...,
+       [ 102, 1560]], shape=(4, 2), dtype=int16), array([[  99, 1584],
+       ...,
+       [  99, 1618]], shape=(4, 2), dtype=int16), array([[ 161, 1645],
+       ...,
+       [ 161, 1677]], shape=(4, 2), dtype=int16), array([[ 161, 1706],
+       ...,
+       [ 161, 1737]], shape=(4, 2), dtype=int16), array([[ 161, 1765],
+       ...,
+       [ 161, 1799]], shape=(4, 2), dtype=int16), array([[ 672, 1870],
+       ...,
+       [ 672, 1900]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['18', '2.2.3．成盒工程工艺流程及主要产污环节', '成盒工程的生产工序主要包括：PI工序、摩擦取向工序、切割工序、组装工序及检', '测工序。产生污染的主要环节如下：', '（1）PI前清洗工序', 'PI前清洗是成盒/制屏生产过程中第一道工序。清洗对象为玻璃面板表面的尘埃颗粒、', '残留的有机物和吸附在表面的金属粒子。清洗方式是玻璃面板在滚轮上移动过程中使用', '液体洗剂喷淋、二流体喷淋、纯水喷淋配合使用。工艺设备采用逆流清洗，大部分高纯', '水和化学品重复使用，降低了物料消耗，从源头有效地减少了废水、污染的排放量。', '清洗工序污染源：', '清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系', '统，经处理后回用。排放的废水根据前道工序分为：有机废水，经收集后进入废水处理', '站处理后排放。排放废水的具体分析在相关工序的产污环节分析中。', '(2) PI涂覆工序', 'PI涂覆是在TFT和CF基板上涂覆一层取向膜的制程，PI液有效成分为聚酰亚胺，PI', '液通过设备喷涂或压印的方式将PI液涂覆至玻璃基板，完成取向膜的涂覆过程。由于取', '向膜涂覆过程PI液的利用率不能达到100%，会有小部分PI液作为危险废物委托处置。涂', '覆设备需要清洗维护时会使用NMP液体作为清洗剂对设备进行清洗，由此产生的NMP', '作为有机废液收集在废液罐中。', 'PI涂覆工序污染源：', '废气：有机废气G3，进入有机废气处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置。', '(3)PI剥离工序', 'PI剥离制程主要用于当PI涂覆出现不良品时，对玻璃基板上PI液进行剥离，以达到', '重复利用玻璃基板的目的。剥离过程是玻璃基板在设备滚轮上移动过程中，首先使用剥', '离液采用喷淋的方式对玻璃基板上的PI液进行剥离，然后经纯水对玻璃基板表面残留物', '及异物进行冲洗，以达到使玻璃基板表面PI液被完全清洗干净的目的。', 'PI剥离工序污染源：', '废水：有机废水W5，进入有机废水处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置.', '50'], 'rec_scores': [0.7110456228256226, 0.9876717925071716, 0.9962053298950195, 0.9857739210128784, 0.914172351360321, 0.9905935525894165, 0.9970313906669617, 0.9968239665031433, 0.9967145323753357, 0.9708492159843445, 0.9967764616012573, 0.9974012970924377, 0.9988216161727905, 0.8940459489822388, 0.9903600811958313, 0.994145393371582, 0.9916974306106567, 0.9843781590461731, 0.9980484247207642, 0.9926550984382629, 0.9870978593826294, 0.9932253360748291, 0.9447129368782043, 0.9923376441001892, 0.9950249195098877, 0.9964178204536438, 0.9966835975646973, 0.9835344552993774, 0.9862921833992004, 0.9889652729034424, 0.9994224309921265], 'rec_polys': [array([[1349,    1],
+       ...,
+       [1349,   60]], shape=(4, 2), dtype=int16), array([[100, 134],
+       ...,
+       [100, 168]], shape=(4, 2), dtype=int16), array([[169, 198],
+       ...,
+       [169, 236]], shape=(4, 2), dtype=int16), array([[107, 260],
+       ...,
+       [107, 291]], shape=(4, 2), dtype=int16), array([[190, 323],
+       ...,
+       [190, 354]], shape=(4, 2), dtype=int16), array([[172, 378],
+       ...,
+       [172, 412]], shape=(4, 2), dtype=int16), array([[114, 434],
+       ...,
+       [114, 467]], shape=(4, 2), dtype=int16), array([[116, 493],
+       ...,
+       [116, 523]], shape=(4, 2), dtype=int16), array([[117, 548],
+       ...,
+       [117, 579]], shape=(4, 2), dtype=int16), array([[179, 605],
+       ...,
+       [179, 637]], shape=(4, 2), dtype=int16), array([[179, 663],
+       ...,
+       [179, 696]], shape=(4, 2), dtype=int16), array([[116, 718],
+       ...,
+       [116, 756]], shape=(4, 2), dtype=int16), array([[117, 777],
+       ...,
+       [117, 811]], shape=(4, 2), dtype=int16), array([[193, 839],
+       ...,
+       [194, 870]], shape=(4, 2), dtype=int16), array([[178, 895],
+       ...,
+       [178, 926]], shape=(4, 2), dtype=int16), array([[116, 950],
+       ...,
+       [116, 981]], shape=(4, 2), dtype=int16), array([[ 114, 1006],
+       ...,
+       [ 114, 1040]], shape=(4, 2), dtype=int16), array([[ 112, 1062],
+       ...,
+       [ 112, 1095]], shape=(4, 2), dtype=int16), array([[ 111, 1121],
+       ...,
+       [ 111, 1150]], shape=(4, 2), dtype=int16), array([[ 170, 1180],
+       ...,
+       [ 170, 1208]], shape=(4, 2), dtype=int16), array([[ 170, 1237],
+       ...,
+       [ 170, 1268]], shape=(4, 2), dtype=int16), array([[ 169, 1296],
+       ...,
+       [ 169, 1326]], shape=(4, 2), dtype=int16), array([[ 182, 1355],
+       ...,
+       [ 182, 1386]], shape=(4, 2), dtype=int16), array([[ 165, 1413],
+       ...,
+       [ 165, 1443]], shape=(4, 2), dtype=int16), array([[ 104, 1468],
+       ...,
+       [ 104, 1501]], shape=(4, 2), dtype=int16), array([[ 102, 1525],
+       ...,
+       [ 102, 1560]], shape=(4, 2), dtype=int16), array([[  99, 1584],
+       ...,
+       [  99, 1618]], shape=(4, 2), dtype=int16), array([[ 161, 1645],
+       ...,
+       [ 161, 1677]], shape=(4, 2), dtype=int16), array([[ 161, 1706],
+       ...,
+       [ 161, 1737]], shape=(4, 2), dtype=int16), array([[ 161, 1765],
+       ...,
+       [ 161, 1799]], shape=(4, 2), dtype=int16), array([[ 672, 1870],
+       ...,
+       [ 672, 1900]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1349, ...,   60],
+       ...,
+       [ 672, ..., 1900]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 18
+2. 2.2.3．成盒工程工艺流程及主要产污环节
+3. 成盒工程的生产工序主要包括：PI工序、摩擦取向工序、切割工序、组装工序及检
+4. 测工序。产生污染的主要环节如下：
+5. （1）PI前清洗工序
+6. PI前清洗是成盒/制屏生产过程中第一道工序。清洗对象为玻璃面板表面的尘埃颗粒、
+7. 残留的有机物和吸附在表面的金属粒子。清洗方式是玻璃面板在滚轮上移动过程中使用
+8. 液体洗剂喷淋、二流体喷淋、纯水喷淋配合使用。工艺设备采用逆流清洗，大部分高纯
+9. 水和化学品重复使用，降低了物料消耗，从源头有效地减少了废水、污染的排放量。
+10. 清洗工序污染源：
+11. 清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系
+12. 统，经处理后回用。排放的废水根据前道工序分为：有机废水，经收集后进入废水处理
+13. 站处理后排放。排放废水的具体分析在相关工序的产污环节分析中。
+14. (2) PI涂覆工序
+15. PI涂覆是在TFT和CF基板上涂覆一层取向膜的制程，PI液有效成分为聚酰亚胺，PI
+16. 液通过设备喷涂或压印的方式将PI液涂覆至玻璃基板，完成取向膜的涂覆过程。由于取
+17. 向膜涂覆过程PI液的利用率不能达到100%，会有小部分PI液作为危险废物委托处置。涂
+18. 覆设备需要清洗维护时会使用NMP液体作为清洗剂对设备进行清洗，由此产生的NMP
+19. 作为有机废液收集在废液罐中。
+20. PI涂覆工序污染源：
+21. 废气：有机废气G3，进入有机废气处理系统集中处理后排放。
+22. 固体废物：有机废液S2，作为危废废物收集、处置。
+23. (3)PI剥离工序
+24. PI剥离制程主要用于当PI涂覆出现不良品时，对玻璃基板上PI液进行剥离，以达到
+25. 重复利用玻璃基板的目的。剥离过程是玻璃基板在设备滚轮上移动过程中，首先使用剥
+26. 离液采用喷淋的方式对玻璃基板上的PI液进行剥离，然后经纯水对玻璃基板表面残留物
+27. 及异物进行冲洗，以达到使玻璃基板表面PI液被完全清洗干净的目的。
+28. PI剥离工序污染源：
+29. 废水：有机废水W5，进入有机废水处理系统集中处理后排放。
+30. 固体废物：有机废液S2，作为危废废物收集、处置.
+31. 50

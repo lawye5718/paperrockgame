@@ -1,0 +1,3 @@
+cd /Users/yuanliang/superstar/superstar3.1/projects/superstarcam
+git remote add origin https://github.com/lawye5718/superstarcam.git
+git push -u origin main

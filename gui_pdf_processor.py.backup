@@ -1,0 +1,1482 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import os
+import tkinter as tk
+from tkinter import ttk, filedialog, messagebox
+from datetime import datetime
+import subprocess
+import threading
+from pathlib import Path
+import shutil
+import fitz
+from paddleocr import PaddleOCR
+import cv2
+from PIL import Image
+import numpy as np
+import json
+import re
+
+class OCRTableParser:
+    def __init__(self):
+        self.boxes = []
+        # 用于判断行聚类的阈值（行高的一半）
+        self.y_threshold_ratio = 0.5 
+
+    def parse_log_text(self, log_text):
+        """
+        从用户提供的OCR日志文本中提取文本和坐标。
+        由于输入是字符串形式的Python对象，我们使用正则提取以保证安全和通用性。
+        """
+        # 1. 提取 rec_texts
+        # 寻找 rec_texts': [...] 结构
+        texts_match = re.search(r"'rec_texts':\s*(\[.*?\])", log_text, re.DOTALL)
+        if not texts_match:
+            print("Error: Could not find rec_texts")
+            return
+        
+        # 使用 eval 的安全子集或简单的字符串处理来转成列表
+        try:
+            raw_texts_str = texts_match.group(1)
+            rec_texts = eval(raw_texts_str)
+        except Exception as e:
+            print(f"Error parsing texts: {e}")
+            return
+
+        # 2. 提取 dt_polys 或 rec_polys
+        # 寻找 array([[x,y]...]) 结构
+        polys_matches = []
+        
+        # 尝试查找 dt_polys
+        polys_pattern = r"'dt_polys':\s*\[(array\(.*?\))\]"
+        polys_matches_dt = re.findall(r"array\(\[\[(.*?)\]\]", log_text, re.DOTALL)
+        
+        # 如果找不到 dt_polys，尝试查找 rec_polys
+        if not polys_matches_dt:
+            polys_pattern = r"'rec_polys':\s*\[(array\(.*?\))\]"
+            polys_matches_dt = re.findall(r"array\(\[\[(.*?)\]\]", log_text, re.DOTALL)
+        
+        polys_matches = polys_matches_dt
+        
+        if len(polys_matches) != len(rec_texts):
+            print(f"Warning: Text count ({len(rec_texts)}) and Poly count ({len(polys_matches)}) mismatch. Using min length.")
+        
+        limit = min(len(rec_texts), len(polys_matches))
+        
+        self.boxes = []
+        for i in range(limit):
+            text = rec_texts[i].strip()
+            # 忽略非表格内容的干扰项（如页眉、页码噪音）
+            if text in ['处理的图像:', '原始PDF页面:', '详细结果:', 'array', '卷内文件目录'] or text.startswith('{') or text.startswith('['):
+                continue
+                
+            # 解析坐标字符串 "581, 121],\n ..., \n [580, 180"
+            # 提取所有数字
+            nums = [int(n) for n in re.findall(r'\d+', polys_matches[i])]
+            if len(nums) >= 8: # 4个点，每个点2个坐标
+                # 提取四个点坐标 (x1,y1, x2,y2, x3,y3, x4,y4)
+                points = list(zip(nums[0::2], nums[1::2]))
+                
+                # 计算边界框
+                xs = [p[0] for p in points]
+                ys = [p[1] for p in points]
+                min_x, max_x = min(xs), max(xs)
+                min_y, max_y = min(ys), max(ys)
+                center_y = (min_y + max_y) / 2
+                center_x = (min_x + max_x) / 2
+                height = max_y - min_y
+                
+                self.boxes.append({
+                    'text': text,
+                    'x': min_x,
+                    'y': min_y,
+                    'w': max_x - min_x,
+                    'h': height,
+                    'cy': center_y,
+                    'cx': center_x
+                })
+
+    def to_markdown(self):
+        if not self.boxes:
+            return "No data found."
+
+        # 1. 按 Y 坐标排序
+        sorted_boxes = sorted(self.boxes, key=lambda b: b['cy'])
+        
+        # 2. 动态聚类分行
+        rows = []
+        if not sorted_boxes:
+            return ""
+            
+        current_row = [sorted_boxes[0]]
+        current_row_y = sorted_boxes[0]['cy']
+        avg_height = sorted_boxes[0]['h']
+
+        for box in sorted_boxes[1:]:
+            # 如果当前框的中心Y 与 当前行的中心Y 差距小于 阈值，则视为同一行
+            if abs(box['cy'] - current_row_y) < (avg_height * 0.6): # 稍微放宽阈值
+                current_row.append(box)
+                # 更新当前行的加权Y中心
+                current_row_y = sum(b['cy'] for b in current_row) / len(current_row)
+            else:
+                rows.append(current_row)
+                current_row = [box]
+                current_row_y = box['cy']
+                avg_height = box['h'] # 更新参考高度
+        rows.append(current_row)
+
+        # 3. 寻找表头行 (包含特定关键字的行)
+        header_keywords = ['顺序号', '日期', '文号', '责任者', '题名', '备注', '页号']
+        header_row_idx = -1
+        
+        for idx, row in enumerate(rows):
+            row_text = "".join([b['text'] for b in row])
+            # 如果包含了超过2个关键字，很可能是表头
+            hit_count = sum(1 for k in header_keywords if k in row_text or ('題' in row_text and '名' in row_text) or ('题' in row_text and '名' in row_text))
+            if hit_count >= 2:  # 降低阈值到2个关键词
+                header_row_idx = idx
+                break
+        
+        if header_row_idx == -1:
+            # 如果找不到表头，尝试用包含最多元素的行作为基准
+            header_row_idx = 0 
+            
+        header_row = rows[header_row_idx]
+        
+        # 4. 表头整理（列定义）
+        # 先按X坐标排序
+        header_row.sort(key=lambda b: b['cx'])
+        
+        # 合并表头中过于接近的单元格 (例如 "題" 和 "名")
+        cleaned_header = []
+        skip_next = False
+        for i in range(len(header_row)):
+            if skip_next:
+                skip_next = False
+                continue
+            
+            curr = header_row[i]
+            # 检查是否需要合并下一个
+            if i < len(header_row) - 1:
+                next_box = header_row[i+1]
+                # 如果水平距离很近 (小于字宽的一半)
+                dist = next_box['x'] - (curr['x'] + curr['w'])
+                if dist < curr['w'] * 0.8:  # 放宽合并条件
+                    # 合并
+                    new_text = curr['text'] + next_box['text']
+                    # 更新宽度中心
+                    new_cx = (curr['x'] + next_box['x'] + next_box['w']) / 2
+                    cleaned_header.append({'text': new_text, 'cx': new_cx, 'w': curr['w'] + next_box['w'] + dist})
+                    skip_next = True
+                    continue
+            
+            cleaned_header.append(curr)
+            
+        # 定义列的中心点，用于后续行对齐
+        columns = cleaned_header
+        col_count = len(columns)
+        
+        # 5. 构建表格数据
+        table_data = []
+        
+        # 从表头下一行开始处理
+        for row in rows[header_row_idx + 1:]:
+            row.sort(key=lambda b: b['cx'])
+            
+            # 创建一个空行，长度与表头一致
+            row_cells = [""] * col_count
+            
+            for box in row:
+                # 找到该box最匹配的列 (最近的X中心)
+                best_col_idx = -1
+                min_dist = float('inf')
+                
+                for col_idx, col in enumerate(columns):
+                    dist = abs(box['cx'] - col['cx'])
+                    if dist < min_dist:
+                        min_dist = dist
+                        best_col_idx = col_idx
+                
+                # 阈值判断：如果距离太远（比如超过了列宽），可能这行格式不对，但这里强制归位
+                # 放宽阈值，允许更大的距离
+                if best_col_idx != -1 and min_dist < (col['w'] * 1.5):
+                    if row_cells[best_col_idx]:
+                        row_cells[best_col_idx] += " " + box['text']
+                    else:
+                        row_cells[best_col_idx] = box['text']
+            
+            table_data.append(row_cells)
+
+        # 6. 纵向合并逻辑 (Handling Nested/Wrapped Lines)
+        # 如果一行缺少"顺序号"（第一列），且内容主要集中在"题名"列，将其合并到上一行
+        final_table = []
+        if table_data:
+            final_table.append(table_data[0])
+            
+            # 假设第一列是索引列（顺序号），第四列是题名（通常最长）
+            # 根据实际OCR结果调整索引：
+            # header: ['顺序号', '日期', '页号', '备注', '文号', '责任者', '题名'] (这取决于X排序结果)
+            # 我们需要先确定哪一列是"题名"
+            title_col_idx = -1
+            seq_col_idx = -1
+            
+            for i, col in enumerate(columns):
+                if '题名' in col['text'] or '題名' in col['text']:
+                    title_col_idx = i
+                if '顺序号' in col['text'] or '序号' in col['text']:
+                    seq_col_idx = i
+
+            for i in range(1, len(table_data)):
+                curr_row = table_data[i]
+                prev_row = final_table[-1]
+                
+                # 判据：如果当前行"顺序号"为空，且"题名"不为空
+                is_continuation = False
+                if seq_col_idx != -1 and not curr_row[seq_col_idx].strip():
+                     # 进一步检查：是不是只有题名列有数据，或者其他关键列（日期）也没数据
+                     non_empty_cols = sum(1 for c in curr_row if c.strip())
+                     if non_empty_cols < 3: # 如果这一行只有1-2列有数据，很可能是上一行的折行
+                         is_continuation = True
+                
+                if is_continuation and title_col_idx != -1:
+                    # 合并到上一行
+                    for c_idx in range(len(curr_row)):
+                        if curr_row[c_idx].strip():
+                            if prev_row[c_idx].strip():
+                                prev_row[c_idx] += "<br>" + curr_row[c_idx] # 使用HTML换行
+                            else:
+                                prev_row[c_idx] = curr_row[c_idx]
+                else:
+                    final_table.append(curr_row)
+
+        # 7. 生成 Markdown
+        # Header
+        md = "| " + " | ".join([c['text'] for c in columns]) + " |\n"
+        md += "| " + " | ".join(["---"] * col_count) + " |\n"
+        # Body
+        for row in final_table:
+            # 清理换行符，防止破坏Markdown表格结构
+            clean_row = [c.replace('\n', ' ') if '<br>' not in c else c for c in row]
+            md += "| " + " | ".join(clean_row) + " |\n"
+            
+        return md
+
+    def has_table_content(self):
+        """
+        检查是否包含表格内容
+        """
+        if not self.boxes:
+            return False
+            
+        # 检查是否有足够的文本框可能组成表格
+        if len(self.boxes) < 3:
+            return False
+            
+        # 检查是否包含表头关键词
+        header_keywords = ['顺序号', '日期', '文号', '责任者', '题名', '备注', '页号']
+        texts = [box['text'] for box in self.boxes]
+        text_combined = "".join(texts)
+        
+        hit_count = sum(1 for k in header_keywords if k in text_combined)
+        return hit_count >= 2  # 至少包含2个关键词才认为可能是表格
+
+class PDFProcessorGUI:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("PDF OCR处理器")
+        self.root.geometry("700x600")
+        
+        # 从环境变量或配置文件中读取默认路径
+        default_input = "/Users/yuanliang/Downloads/testpdf/"
+        default_output = ""
+        
+        # 尝试从配置文件读取上次使用的路径
+        config_file = os.path.expanduser("~/.pdf_processor_config")
+        if os.path.exists(config_file):
+            try:
+                with open(config_file, 'r') as f:
+                    config = json.load(f)
+                    default_input = config.get('input_folder', default_input)
+                    default_output = config.get('output_folder', default_output)
+            except:
+                pass
+        
+        # 默认配置
+        self.input_folder = tk.StringVar(value=default_input)
+        self.output_folder = tk.StringVar(value=default_output)
+        self.engine_choice = tk.StringVar(value="ocrmypdf")  # 默认使用ocrmypdf
+        self.extract_toc_only = tk.BooleanVar(value=False)
+        self.reprocess_mode = tk.BooleanVar(value=False)  # 新增：跳过OCR重新处理模式
+        
+        # 处理控制标志
+        self.should_cancel = False
+        
+        # 创建界面
+        self.create_widgets()
+        
+        # 存储处理线程
+        self.process_thread = None
+        
+    def create_widgets(self):
+        # 主框架
+        main_frame = ttk.Frame(self.root, padding="10")
+        main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        
+        # 配置行列权重
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
+        main_frame.columnconfigure(1, weight=1)
+        
+        # 标题
+        title_label = ttk.Label(main_frame, text="PDF OCR处理器", font=("Arial", 16, "bold"))
+        title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
+        
+        # 输入文件夹选择
+        ttk.Label(main_frame, text="输入文件夹:").grid(row=1, column=0, sticky=tk.W, pady=5)
+        ttk.Entry(main_frame, textvariable=self.input_folder, width=50).grid(row=1, column=1, sticky=(tk.W, tk.E), pady=5, padx=(10, 10))
+        ttk.Button(main_frame, text="浏览...", command=self.browse_input_folder).grid(row=1, column=2, pady=5)
+        
+        # 输出文件夹选择
+        ttk.Label(main_frame, text="输出文件夹:").grid(row=2, column=0, sticky=tk.W, pady=5)
+        ttk.Entry(main_frame, textvariable=self.output_folder, width=50).grid(row=2, column=1, sticky=(tk.W, tk.E), pady=5, padx=(10, 10))
+        ttk.Button(main_frame, text="浏览...", command=self.browse_output_folder).grid(row=2, column=2, pady=5)
+        
+        # 引擎选择
+        ttk.Label(main_frame, text="OCR引擎:").grid(row=3, column=0, sticky=tk.W, pady=5)
+        engine_frame = ttk.Frame(main_frame)
+        engine_frame.grid(row=3, column=1, sticky=(tk.W, tk.E), pady=5, padx=(10, 10))
+        
+        ttk.Radiobutton(engine_frame, text="OCRmyPDF (Tesseract)", variable=self.engine_choice, value="ocrmypdf").pack(side=tk.LEFT)
+        ttk.Radiobutton(engine_frame, text="PaddleOCR", variable=self.engine_choice, value="paddleocr").pack(side=tk.LEFT, padx=(20, 0))
+        
+        # 目录页单独输出选项
+        toc_check = ttk.Checkbutton(main_frame, text="单独输出目录页", variable=self.extract_toc_only)
+        toc_check.grid(row=4, column=1, sticky=tk.W, pady=5, padx=(10, 10))
+        
+        # 新增选项：跳过OCR，直接处理过程文件夹
+        reprocess_check = ttk.Checkbutton(main_frame, text="跳过OCR，重新处理过程文件夹", variable=self.reprocess_mode)
+        reprocess_check.grid(row=5, column=1, sticky=tk.W, pady=5, padx=(10, 10))
+        
+        # 文件名规则说明
+        rule_label = ttk.Label(main_frame, text="输出文件名规则: 文件末尾增加 '_ocr_YYYYMMDD'", foreground="gray")
+        rule_label.grid(row=6, column=1, sticky=tk.W, pady=5, padx=(10, 10))
+        
+        # 处理按钮
+        button_frame = ttk.Frame(main_frame)
+        button_frame.grid(row=7, column=0, columnspan=3, pady=30)
+        
+        self.start_button = ttk.Button(button_frame, text="开始处理", command=self.start_processing)
+        self.start_button.pack(side=tk.LEFT, padx=(0, 10))
+        
+        self.cancel_button = ttk.Button(button_frame, text="取消", command=self.cancel_processing, state=tk.DISABLED)
+        self.cancel_button.pack(side=tk.LEFT, padx=(0, 10))
+        
+        # 进度条
+        self.progress = ttk.Progressbar(main_frame, mode='indeterminate')
+        self.progress.grid(row=8, column=0, columnspan=3, sticky=(tk.W, tk.E), pady=10)
+        
+        # 日志文本框
+        ttk.Label(main_frame, text="处理日志:").grid(row=9, column=0, sticky=tk.W, pady=(10, 5))
+        
+        log_frame = ttk.Frame(main_frame)
+        log_frame.grid(row=10, column=0, columnspan=3, sticky=(tk.W, tk.E, tk.N, tk.S), pady=5)
+        log_frame.columnconfigure(0, weight=1)
+        log_frame.rowconfigure(0, weight=1)
+        
+        self.log_text = tk.Text(log_frame, height=15, wrap=tk.WORD)
+        log_scrollbar = ttk.Scrollbar(log_frame, orient=tk.VERTICAL, command=self.log_text.yview)
+        self.log_text.configure(yscrollcommand=log_scrollbar.set)
+        
+        self.log_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        log_scrollbar.grid(row=0, column=1, sticky=(tk.N, tk.S))
+        
+        # 配置主框架的行权重
+        main_frame.rowconfigure(10, weight=1)
+        
+    def browse_input_folder(self):
+        folder = filedialog.askdirectory(initialdir=self.input_folder.get())
+        if folder:
+            self.input_folder.set(folder)
+            
+    def browse_output_folder(self):
+        folder = filedialog.askdirectory()
+        if folder:
+            self.output_folder.set(folder)
+            
+    def save_config(self):
+        """保存当前配置到配置文件"""
+        config = {
+            'input_folder': self.input_folder.get(),
+            'output_folder': self.output_folder.get()
+        }
+        config_file = os.path.expanduser("~/.pdf_processor_config")
+        try:
+            with open(config_file, 'w') as f:
+                json.dump(config, f)
+        except:
+            pass
+            
+    def log_message(self, message):
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self.log_text.insert(tk.END, f"[{timestamp}] {message}\n")
+        self.log_text.see(tk.END)
+        self.root.update_idletasks()
+        
+    def start_processing(self):
+        # 验证输入
+        if not os.path.exists(self.input_folder.get()):
+            messagebox.showerror("错误", "输入文件夹不存在")
+            return
+            
+        if not self.output_folder.get():
+            messagebox.showerror("错误", "请选择输出文件夹")
+            return
+            
+        # 保存配置
+        self.save_config()
+            
+        # 重置取消标志
+        self.should_cancel = False
+            
+        # 禁用开始按钮，启用取消按钮
+        self.start_button.config(state=tk.DISABLED)
+        self.cancel_button.config(state=tk.NORMAL)
+        self.progress.start()
+        
+        # 在新线程中开始处理
+        self.process_thread = threading.Thread(target=self.process_pdfs)
+        self.process_thread.daemon = True
+        self.process_thread.start()
+        
+    def cancel_processing(self):
+        self.log_message("正在取消处理...")
+        self.should_cancel = True
+        
+    def finish_processing(self):
+        self.progress.stop()
+        self.start_button.config(state=tk.NORMAL)
+        self.cancel_button.config(state=tk.DISABLED)
+        
+    def preprocess_image_for_ocr(self, image_path):
+        """
+        对图像进行预处理以提高OCR识别效果 (与测试代码保持一致)
+        """
+        try:
+            # 读取图像
+            img = cv2.imread(image_path)
+            
+            # 转换为灰度图
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            
+            # 应用高斯模糊以减少噪声
+            blurred = cv2.GaussianBlur(gray, (3, 3), 0)
+            
+            # 应用阈值处理以增强对比度
+            _, thresh = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+            
+            # 保存预处理后的图像
+            processed_path = image_path.replace('.png', '_processed.png')
+            cv2.imwrite(processed_path, thresh)
+            
+            self.log_message(f"  图像预处理完成，保存到: {processed_path}")
+            return processed_path
+        except Exception as e:
+            self.log_message(f"  图像预处理失败: {str(e)}")
+            return image_path
+
+    def resize_image_if_needed(self, image_path, max_size=2000):
+        """
+        如果图片尺寸超过指定大小，则调整图片尺寸 (与测试代码保持一致)
+        """
+        try:
+            # 打开图片
+            img = Image.open(image_path)
+            width, height = img.size
+            
+            # 检查是否需要调整尺寸
+            if width > max_size or height > max_size:
+                # 计算缩放比例
+                ratio = min(max_size/width, max_size/height)
+                new_width = int(width * ratio)
+                new_height = int(height * ratio)
+                
+                # 调整图片尺寸
+                img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                
+                # 保存调整后的图片
+                img.save(image_path)
+                self.log_message(f"  图片尺寸已从 {width}x{height} 调整为 {new_width}x{new_height}")
+            
+            return image_path
+        except Exception as e:
+            self.log_message(f"  调整图片尺寸时出错: {str(e)}")
+            return image_path
+
+    def is_toc_page(self, text):
+        """
+        判断页面是否为目录页（第一行包含"目录"两个字）
+        """
+        lines = text.strip().split('\n')
+        if lines:
+            first_line = lines[0].strip()
+            return "目录" in first_line
+        return False
+
+    def format_as_markdown_list(self, text):
+        """
+        将文本格式化为Markdown列表格式
+        """
+        lines = text.strip().split('\n')
+        formatted_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if not line:
+                continue
+                
+            # 检查是否已经是列表格式（以数字或特定符号开头）
+            if line.startswith(('-', '*', '+', '•')) or \
+               (line[0].isdigit() if line else False) or \
+               (len(line) > 1 and line[0].isdigit() and line[1] == '.') or \
+               (len(line) > 2 and line[:2].isdigit() and line[2] == '.') or \
+               (len(line) > 3 and line[:3].isdigit() and line[3] == '.'):
+                formatted_lines.append(line)
+            else:
+                # 如果不是列表格式，添加为普通列表项
+                formatted_lines.append(f"- {line}")
+                
+        return '\n'.join(formatted_lines)
+
+    def detect_and_format_table(self, text):
+        """
+        检测文本中的表格格式并转换为Markdown表格
+        """
+        lines = text.strip().split('\n')
+        if len(lines) < 2:
+            return text  # 至少需要两行才能形成表格
+            
+        # 检查是否存在表格特征（多列对齐的文本）
+        table_rows = []
+        max_columns = 0
+        
+        for line in lines:
+            # 尝试按空格或制表符分割行
+            # 使用正则表达式匹配多个空格或制表符作为分隔符
+            import re
+            columns = re.split(r'\s{2,}|\t', line.strip())  # 两个或更多空格，或制表符
+            columns = [col.strip() for col in columns if col.strip()]  # 去除空列
+            
+            if columns:
+                table_rows.append(columns)
+                max_columns = max(max_columns, len(columns))
+        
+        # 如果大多数行都有多列，则认为是表格
+        # 并且至少有2列才认为是表格
+        if max_columns >= 2 and len([row for row in table_rows if len(row) >= 2]) > len(table_rows) / 2:
+            # 构建Markdown表格
+            markdown_table = []
+            
+            # 确保所有行都有相同的列数
+            for row in table_rows:
+                while len(row) < max_columns:
+                    row.append("")
+            
+            # 表头
+            if table_rows:
+                header = table_rows[0]
+                markdown_table.append("| " + " | ".join(header) + " |")
+                
+                # 分隔行
+                markdown_table.append("|" + "|".join([" --- " for _ in range(max_columns)]) + "|")
+                
+                # 数据行
+                for row in table_rows[1:]:
+                    markdown_table.append("| " + " | ".join(row) + " |")
+            
+            return '\n'.join(markdown_table)
+        
+        # 如果不是表格，返回原文本
+        return text
+
+    def extract_structured_data(self, texts):
+        """
+        从OCR识别的文本列表中提取结构化数据
+        """
+        # 定义标签映射（根据业务场景扩展）
+        label_map = {
+            "保管期限": None,
+            "归档号": None,
+            "全宗号": None,
+            "录号": None,
+            "卷号": None,
+            "机构": None,
+            "时间": None,
+            "部门": None,
+            "案件描述": []
+        }
+        
+        # 定义关键词匹配规则
+        institution_keywords = ["自治区监察委员会", "自治区监委", "监察委员会", "监委"]
+        time_keywords = ["二O二", "202", "二零二"]
+        department_keywords = ["审查调查室", "调查组", "专案组"]
+        case_keywords = ["涉嫌", "职务犯罪", "受贿", "行贿", "违纪", "案件", "卷"]
+        
+        # 遍历文本，匹配标签并赋值
+        current_label = None
+        for text in texts:
+            # 清理文本
+            text = text.strip()
+            if not text:
+                continue
+                
+            # 匹配档案属性标签
+            if text in label_map.keys():
+                current_label = text
+            # 匹配机构标签
+            elif any(keyword in text for keyword in institution_keywords):
+                label_map["机构"] = text.replace("西壮族", "广西壮族")  # 修正OCR识别误差
+            # 匹配时间标签
+            elif any(keyword in text for keyword in time_keywords):
+                label_map["时间"] = text
+            # 匹配部门标签
+            elif any(keyword in text for keyword in department_keywords):
+                label_map["部门"] = text
+            # 案件描述（连续多行）
+            elif any(keyword in text for keyword in case_keywords) or text == "证":
+                label_map["案件描述"].append(text)
+            # 标签对应的值
+            elif current_label:
+                # 如果当前标签还没有值，则赋值
+                if label_map[current_label] is None:
+                    label_map[current_label] = text
+                # 如果是案件描述，可以继续添加
+                elif current_label == "案件描述":
+                    label_map["案件描述"].append(text)
+                current_label = None
+        
+        # 合并案件描述的多行文本
+        if isinstance(label_map["案件描述"], list):
+            label_map["案件描述"] = "".join(label_map["案件描述"])
+        
+        return label_map
+
+    def generate_markdown_table(self, label_map):
+        """
+        根据结构化数据生成Markdown表格
+        """
+        # 生成Markdown表格
+        md_table = "| 类别       | 内容                                                                 |\n"
+        md_table += "|------------|----------------------------------------------------------------------|\n"
+        for key, value in label_map.items():
+            # 空值显示为"-"
+            if isinstance(value, list):
+                value = "".join(value) if value else "-"
+            else:
+                value = value if value else "-"
+            # 确保内容不会太长影响表格显示
+            if len(value) > 100:
+                value = value[:97] + "..."
+            md_table += f"| {key:<10} | {value:<68} |\n"
+        
+        return md_table
+
+    def parse_ocr_result_for_table(self, ocr_result):
+        """
+        从OCR结果中解析表格数据，基于坐标位置进行智能分组
+        """
+        if not ocr_result or not ocr_result[0]:
+            return None
+            
+        # 创建OCR表格解析器实例
+        parser = OCRTableParser()
+        # 将OCR结果转换为文本格式供解析器处理
+        ocr_text = str(ocr_result)
+        parser.parse_log_text(ocr_text)
+        
+        # 检查是否真的包含表格内容
+        if not parser.has_table_content():
+            return None
+            
+        return parser.to_markdown()
+
+    def extract_toc_with_paddleocr(self, pdf_files, temp_folder, processed_folder):
+        """
+        使用PaddleOCR提取目录页 (严格按照用户要求实现)
+        """
+        self.log_message("开始单独输出目录页内容 (强制使用PaddleOCR)")
+        
+        # 初始化PaddleOCR，使用与测试代码相同的配置
+        self.log_message("初始化PaddleOCR...")
+        try:
+            # 根据测试结果选择最佳配置，与测试代码保持一致
+            ocr = PaddleOCR(lang='ch')  # 使用与测试代码相同的配置
+            self.log_message("PaddleOCR初始化成功!")
+        except Exception as e:
+            self.log_message(f"PaddleOCR初始化失败: {str(e)}")
+            return
+            
+        for i, pdf_file in enumerate(pdf_files):
+            # 检查是否需要取消
+            if self.should_cancel:
+                self.log_message("用户取消处理")
+                break
+                
+            try:
+                self.log_message(f"处理文件 ({i+1}/{len(pdf_files)}): {os.path.basename(pdf_file)}")
+                
+                # 打开PDF文件
+                doc = fitz.open(pdf_file)
+                total_pages = len(doc)
+                pdf_name = os.path.splitext(os.path.basename(pdf_file))[0]
+                self.log_message(f"  PDF总页数: {total_pages}")
+                
+                # 为当前PDF创建过程文件夹
+                pdf_process_folder = os.path.join(temp_folder, f"{pdf_name}_ocr过程文件")
+                os.makedirs(pdf_process_folder, exist_ok=True)
+                
+                # 处理封面（第1页）
+                self.log_message(f"  处理封面 (第1页)...")
+                page = doc[0]  # 封面页
+                
+                # 将页面转换为图像
+                pix = page.get_pixmap(dpi=200)
+                temp_image_path = os.path.join(pdf_process_folder, f"cover_temp.png")
+                pix.save(temp_image_path)
+                
+                # 图像预处理
+                temp_image_path = self.resize_image_if_needed(temp_image_path, max_size=2000)
+                processed_image_path = self.preprocess_image_for_ocr(temp_image_path)
+                processed_image_path = self.resize_image_if_needed(processed_image_path, max_size=2000)
+                
+                # OCR识别
+                self.log_message(f"  正在对封面进行OCR识别...")
+                result = ocr.predict(processed_image_path)
+                
+                # 保存完整的OCR结果到过程文件
+                full_result_file = os.path.join(pdf_process_folder, f"cover_full_result.txt")
+                with open(full_result_file, 'w', encoding='utf-8') as f:
+                    f.write("OCR结果 - 封面\n")
+                    f.write("=" * 50 + "\n")
+                    f.write(f"处理的图像: {os.path.basename(processed_image_path)}\n")
+                    f.write(f"原始PDF页面: 1\n\n")
+                    f.write("详细结果:\n")
+                    f.write(str(result) + "\n\n")
+                    
+                    # 提取解析后的文本部分 (严格按照已验证代码处理)
+                    if result and result[0]:
+                        f.write("解析后的文本:\n")
+                        texts = []
+                        if isinstance(result[0], dict):
+                            if 'rec_texts' in result[0]:
+                                texts = result[0]['rec_texts']
+                            elif 'text' in result[0]:
+                                texts = [result[0]['text']]
+                        elif isinstance(result[0], list):
+                            for item in result[0]:
+                                if isinstance(item, list) and len(item) > 1:
+                                    if isinstance(item[1], list) and len(item[1]) > 0:
+                                        texts.append(str(item[1][0]))
+                                    elif isinstance(item[1], (str, int, float)):
+                                        texts.append(str(item[1]))
+                                elif isinstance(item, dict) and 'text' in item:
+                                    texts.append(item['text'])
+                                elif isinstance(item, str):
+                                    texts.append(item)
+                        
+                        for i, text in enumerate(texts, 1):
+                            f.write(f"{i}. {text}\n")
+                
+                # 提取解析后的文本并保存为TXT
+                cover_text = ""
+                if result and result[0]:
+                    # 解析OCR结果（严格按照已验证代码处理）
+                    texts = []
+                    if isinstance(result[0], dict):
+                        if 'rec_texts' in result[0]:
+                            texts = result[0]['rec_texts']
+                        elif 'text' in result[0]:
+                            texts = [result[0]['text']]
+                    elif isinstance(result[0], list):
+                        for item in result[0]:
+                            if isinstance(item, list) and len(item) > 1:
+                                if isinstance(item[1], list) and len(item[1]) > 0:
+                                    texts.append(str(item[1][0]))
+                                elif isinstance(item[1], (str, int, float)):
+                                    texts.append(str(item[1]))
+                            elif isinstance(item, dict) and 'text' in item:
+                                texts.append(item['text'])
+                            elif isinstance(item, str):
+                                texts.append(item)
+                    
+                    # 尝试提取结构化数据
+                    try:
+                        label_map = self.extract_structured_data(texts)
+                        structured_md_table = self.generate_markdown_table(label_map)
+                        # 保存结构化数据到单独的文件
+                        structured_file = os.path.join(pdf_process_folder, f"cover_structured.md")
+                        with open(structured_file, 'w', encoding='utf-8') as f:
+                            f.write(structured_md_table)
+                        self.log_message(f"  封面结构化数据已保存到 {structured_file}")
+                    except Exception as e:
+                        self.log_message(f"  封面结构化数据提取失败: {str(e)}")
+                    
+                    # 保存解析后的文本
+                    cover_text = "\n".join(texts)
+                    cover_txt_file = os.path.join(pdf_process_folder, f"cover_extracted.txt")
+                    with open(cover_txt_file, 'w', encoding='utf-8') as f:
+                        f.write(cover_text)
+                    self.log_message(f"  封面OCR完成，识别到 {len(texts)} 条文本，已保存到 {cover_txt_file}")
+                else:
+                    cover_txt_file = os.path.join(pdf_process_folder, f"cover_extracted.txt")
+                    with open(cover_txt_file, 'w', encoding='utf-8') as f:
+                        f.write("未识别到任何文本")
+                    self.log_message(f"  封面未识别到任何文本，已保存到 {cover_txt_file}")
+                
+                # 注释掉删除临时图像文件的代码，保存所有过程文件
+                # if os.path.exists(temp_image_path):
+                #     os.remove(temp_image_path)
+                # if os.path.exists(processed_image_path) and processed_image_path != temp_image_path:
+                #     os.remove(processed_image_path)
+                
+                # 处理目录页（从第2页开始查找）
+                self.log_message(f"  查找目录页 (从第2页开始)...")
+                toc_texts = []
+                toc_found = False
+                
+                # 通常目录在前10页内，从第2页开始查找（封面之后）
+                for page_num in range(1, min(10, total_pages)):
+                    # 检查是否需要取消
+                    if self.should_cancel:
+                        self.log_message("用户取消处理")
+                        doc.close()
+                        return
+                    
+                    page = doc[page_num]
+                    
+                    # 将页面转换为图像
+                    pix = page.get_pixmap(dpi=200)
+                    temp_image_path = os.path.join(pdf_process_folder, f"p{page_num+1}_temp.png")
+                    pix.save(temp_image_path)
+                    
+                    # 图像预处理
+                    temp_image_path = self.resize_image_if_needed(temp_image_path, max_size=2000)
+                    processed_image_path = self.preprocess_image_for_ocr(temp_image_path)
+                    processed_image_path = self.resize_image_if_needed(processed_image_path, max_size=2000)
+                    
+                    # OCR识别
+                    self.log_message(f"  正在对第{page_num+1}页进行OCR识别...")
+                    result = ocr.predict(processed_image_path)
+                    
+                    # 保存完整的OCR结果到过程文件
+                    full_result_file = os.path.join(pdf_process_folder, f"p{page_num+1}_full_result.txt")
+                    with open(full_result_file, 'w', encoding='utf-8') as f:
+                        f.write(f"OCR结果 - 第 {page_num+1} 页\n")
+                        f.write("=" * 50 + "\n")
+                        f.write(f"处理的图像: {os.path.basename(processed_image_path)}\n")
+                        f.write(f"原始PDF页面: {page_num+1}\n\n")
+                        f.write("详细结果:\n")
+                        f.write(str(result) + "\n\n")
+                        
+                        # 提取解析后的文本部分 (严格按照已验证代码处理)
+                        if result and result[0]:
+                            f.write("解析后的文本:\n")
+                            texts = []
+                            if isinstance(result[0], dict):
+                                if 'rec_texts' in result[0]:
+                                    texts = result[0]['rec_texts']
+                                elif 'text' in result[0]:
+                                    texts = [result[0]['text']]
+                            elif isinstance(result[0], list):
+                                for item in result[0]:
+                                    if isinstance(item, list) and len(item) > 1:
+                                        if isinstance(item[1], list) and len(item[1]) > 0:
+                                            texts.append(str(item[1][0]))
+                                        elif isinstance(item[1], (str, int, float)):
+                                            texts.append(str(item[1]))
+                                    elif isinstance(item, dict) and 'text' in item:
+                                        texts.append(item['text'])
+                                    elif isinstance(item, str):
+                                        texts.append(item)
+                            
+                            for i, text in enumerate(texts, 1):
+                                f.write(f"{i}. {text}\n")
+                    
+                    # 提取解析后的文本
+                    page_text = ""
+                    if result and result[0]:
+                        # 解析OCR结果（严格按照已验证代码处理）
+                        texts = []
+                        if isinstance(result[0], dict):
+                            if 'rec_texts' in result[0]:
+                                texts = result[0]['rec_texts']
+                            elif 'text' in result[0]:
+                                texts = [result[0]['text']]
+                        elif isinstance(result[0], list):
+                            for item in result[0]:
+                                if isinstance(item, list) and len(item) > 1:
+                                    if isinstance(item[1], list) and len(item[1]) > 0:
+                                        texts.append(str(item[1][0]))
+                                    elif isinstance(item[1], (str, int, float)):
+                                        texts.append(str(item[1]))
+                                elif isinstance(item, dict) and 'text' in item:
+                                    texts.append(item['text'])
+                                elif isinstance(item, str):
+                                    texts.append(item)
+                        
+                        # 尝试提取结构化数据（仅对目录页）
+                        try:
+                            label_map = self.extract_structured_data(texts)
+                            structured_md_table = self.generate_markdown_table(label_map)
+                            # 保存结构化数据到单独的文件
+                            structured_file = os.path.join(pdf_process_folder, f"p{page_num+1}_structured.md")
+                            with open(structured_file, 'w', encoding='utf-8') as f:
+                                f.write(structured_md_table)
+                            self.log_message(f"  第{page_num+1}页结构化数据已保存到 {structured_file}")
+                        except Exception as e:
+                            self.log_message(f"  第{page_num+1}页结构化数据提取失败: {str(e)}")
+                        
+                        # 保存提取的文本
+                        page_text = "\n".join(texts)
+                        page_txt_file = os.path.join(pdf_process_folder, f"p{page_num+1}_extracted.txt")
+                        with open(page_txt_file, 'w', encoding='utf-8') as f:
+                            f.write(page_text)
+                        self.log_message(f"  第{page_num+1}页OCR完成，识别到 {len(texts)} 条文本，已保存到 {page_txt_file}")
+                    else:
+                        page_txt_file = os.path.join(pdf_process_folder, f"p{page_num+1}_extracted.txt")
+                        with open(page_txt_file, 'w', encoding='utf-8') as f:
+                            f.write("未识别到任何文本")
+                        self.log_message(f"  第{page_num+1}页未识别到任何文本，已保存到 {page_txt_file}")
+                    
+                    # 删除临时图像文件
+                    if os.path.exists(temp_image_path):
+                        os.remove(temp_image_path)
+                    if os.path.exists(processed_image_path) and processed_image_path != temp_image_path:
+                        os.remove(processed_image_path)
+                    
+                    # 检查是否为目录页（检查首行是否包含"目录"）
+                    if self.is_toc_page(page_text):
+                        toc_texts.append(page_text)
+                        toc_found = True
+                        self.log_message(f"  找到目录页: 第{page_num+1}页")
+                    elif toc_found:
+                        # 如果之前找到过目录页，但现在不是目录页了，就停止查找
+                        self.log_message(f"  目录结束于第{page_num+1}页")
+                        break
+                    elif page_text.strip() == "" or "未识别到任何文本" in page_text:
+                        # 如果当前页没有识别到文本，继续下一页
+                        continue
+                    else:
+                        # 如果当前页有文本但不是目录页，则停止处理当前PDF
+                        self.log_message(f"  第{page_num+1}页不是目录页，停止处理当前PDF")
+                        break
+                
+                doc.close()
+                
+                # 合并封面和目录页内容为MD文件
+                date_suffix = datetime.now().strftime("%Y%m%d")
+                md_file = os.path.join(processed_folder, f"{pdf_name}_ocr_{date_suffix}.md")
+                self.log_message(f"  生成MD文件: {md_file}")
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(f"# {pdf_name} OCR结果\n\n")
+                    f.write("## 封面内容\n\n")
+                    # 读取封面提取的文本
+                    cover_extracted_file = os.path.join(pdf_process_folder, "cover_extracted.txt")
+                    if os.path.exists(cover_extracted_file):
+                        with open(cover_extracted_file, 'r', encoding='utf-8') as cf:
+                            cover_content = cf.read()
+                            f.write(cover_content if cover_content else "未识别到任何文本")
+                    else:
+                        f.write("未识别到任何文本")
+                    f.write("\n\n## 目录内容\n\n")
+                    if toc_texts:
+                        for i, toc_text in enumerate(toc_texts):
+                            f.write(f"### 目录页 {i+1} (第{toc_texts.index(toc_text)+2}页)\n\n")
+                            # 首先尝试检测表格
+                            try:
+                                # 创建OCR表格解析器实例
+                                parser = OCRTableParser()
+                                # 读取完整结果文件进行表格解析
+                                full_result_file = os.path.join(pdf_process_folder, f"p{toc_texts.index(toc_text)+2}_full_result.txt")
+                                if os.path.exists(full_result_file):
+                                    with open(full_result_file, 'r', encoding='utf-8') as rf:
+                                        full_result_content = rf.read()
+                                        parser.parse_log_text(full_result_content)
+                                        if parser.has_table_content():
+                                            table_md = parser.to_markdown()
+                                            if table_md and "No data found" not in table_md:
+                                                f.write(table_md)  # 直接写入表格，不需要额外的标题
+                                                f.write("\n\n")
+                                                continue  # 如果成功提取表格，则跳过其他格式化方式
+                            except Exception as e:
+                                self.log_message(f"  目录页表格提取失败: {str(e)}")
+                            
+                            # 如果没有表格或表格提取失败，使用原有格式化方法
+                            # 首先尝试检测和格式化为表格
+                            formatted_table = self.detect_and_format_table(toc_text)
+                            # 如果表格格式化没有改变内容，则使用列表格式化
+                            if formatted_table == toc_text:
+                                formatted_toc = self.format_as_markdown_list(toc_text)
+                                f.write(formatted_toc)
+                            else:
+                                f.write(formatted_table)
+                            f.write("\n\n")
+                    else:
+                        f.write("未找到目录页\n")
+                
+                self.log_message(f"  完成处理: {pdf_name}")
+                
+            except Exception as e:
+                self.log_message(f"  处理文件时出错: {str(e)}")
+                
+    def process_with_paddleocr(self, pdf_files, temp_folder, processed_folder):
+        """使用PaddleOCR处理所有PDF (与主处理脚本保持一致)"""
+        self.log_message("开始使用PaddleOCR处理所有PDF文件")
+        
+        # 初始化PaddleOCR，使用与测试代码相同的配置
+        self.log_message("初始化PaddleOCR...")
+        try:
+            # 根据测试结果选择最佳配置，与测试代码保持一致
+            ocr = PaddleOCR(lang='ch')  # 使用与测试代码相同的配置
+            self.log_message("PaddleOCR初始化成功!")
+        except Exception as e:
+            self.log_message(f"PaddleOCR初始化失败: {str(e)}")
+            return
+            
+        for i, pdf_file in enumerate(pdf_files):
+            # 检查是否需要取消
+            if self.should_cancel:
+                self.log_message("用户取消处理")
+                break
+                
+            try:
+                self.log_message(f"处理文件 ({i+1}/{len(pdf_files)}): {os.path.basename(pdf_file)}")
+                
+                # 打开PDF文件
+                doc = fitz.open(pdf_file)
+                total_pages = len(doc)
+                pdf_name = os.path.splitext(os.path.basename(pdf_file))[0]
+                self.log_message(f"  PDF总页数: {total_pages}")
+                
+                # 为当前PDF创建过程文件夹
+                pdf_process_folder = os.path.join(temp_folder, f"{pdf_name}_ocr过程文件")
+                os.makedirs(pdf_process_folder, exist_ok=True)
+                
+                # 存储所有页面的OCR结果
+                all_page_texts = []
+                
+                # 处理每一页
+                for page_num in range(total_pages):
+                    # 检查是否需要取消
+                    if self.should_cancel:
+                        self.log_message("用户取消处理")
+                        doc.close()
+                        return
+                        
+                    self.log_message(f"  处理第 {page_num + 1}/{total_pages} 页...")
+                    
+                    # 获取原始页面
+                    page = doc[page_num]
+                    
+                    # 将页面转换为图像
+                    pix = page.get_pixmap(dpi=200)
+                    temp_image_path = os.path.join(pdf_process_folder, f"p{page_num+1}_temp.png")
+                    pix.save(temp_image_path)
+                    
+                    # 图像预处理
+                    temp_image_path = self.resize_image_if_needed(temp_image_path, max_size=2000)
+                    processed_image_path = self.preprocess_image_for_ocr(temp_image_path)
+                    processed_image_path = self.resize_image_if_needed(processed_image_path, max_size=2000)
+                    
+                    # OCR识别
+                    self.log_message(f"  正在对第{page_num+1}页进行OCR识别...")
+                    result = ocr.predict(processed_image_path)
+                    
+                    # 保存完整的OCR结果到过程文件
+                    full_result_file = os.path.join(pdf_process_folder, f"p{page_num+1}_full_result.txt")
+                    with open(full_result_file, 'w', encoding='utf-8') as f:
+                        f.write(f"OCR结果 - 第 {page_num+1} 页\n")
+                        f.write("=" * 50 + "\n")
+                        f.write(f"处理的图像: {os.path.basename(processed_image_path)}\n")
+                        f.write(f"原始PDF页面: {page_num+1}\n\n")
+                        f.write("详细结果:\n")
+                        f.write(str(result) + "\n\n")
+                        
+                        # 提取解析后的文本部分 (严格按照已验证代码处理)
+                        if result and result[0]:
+                            f.write("解析后的文本:\n")
+                            texts = []
+                            if isinstance(result[0], dict):
+                                if 'rec_texts' in result[0]:
+                                    texts = result[0]['rec_texts']
+                                elif 'text' in result[0]:
+                                    texts = [result[0]['text']]
+                            elif isinstance(result[0], list):
+                                for item in result[0]:
+                                    if isinstance(item, list) and len(item) > 1:
+                                        if isinstance(item[1], list) and len(item[1]) > 0:
+                                            texts.append(str(item[1][0]))
+                                        elif isinstance(item[1], (str, int, float)):
+                                            texts.append(str(item[1]))
+                                    elif isinstance(item, dict) and 'text' in item:
+                                        texts.append(item['text'])
+                                    elif isinstance(item, str):
+                                        texts.append(item)
+                            
+                            for i, text in enumerate(texts, 1):
+                                f.write(f"{i}. {text}\n")
+                    
+                    # 尝试提取表格数据
+                    table_md = None
+                    try:
+                        table_md = self.parse_ocr_result_for_table(result)
+                        if table_md and "No data found" not in table_md:
+                            table_file = os.path.join(pdf_process_folder, f"p{page_num+1}_table.md")
+                            with open(table_file, 'w', encoding='utf-8') as f:
+                                f.write("# OCR表格提取结果\n\n")
+                                f.write(table_md)
+                            self.log_message(f"  第{page_num+1}页表格数据已保存到 {table_file}")
+                    except Exception as e:
+                        self.log_message(f"  第{page_num+1}页表格提取失败: {str(e)}")
+                    
+                    # 提取解析后的文本
+                    page_text = ""
+                    if result and result[0]:
+                        # 解析OCR结果（严格按照已验证代码处理）
+                        texts = []
+                        if isinstance(result[0], dict):
+                            if 'rec_texts' in result[0]:
+                                texts = result[0]['rec_texts']
+                            elif 'text' in result[0]:
+                                texts = [result[0]['text']]
+                        elif isinstance(result[0], list):
+                            for item in result[0]:
+                                if isinstance(item, list) and len(item) > 1:
+                                    if isinstance(item[1], list) and len(item[1]) > 0:
+                                        texts.append(str(item[1][0]))
+                                    elif isinstance(item[1], (str, int, float)):
+                                        texts.append(str(item[1]))
+                                elif isinstance(item, dict) and 'text' in item:
+                                    texts.append(item['text'])
+                                elif isinstance(item, str):
+                                    texts.append(item)
+                        
+                        # 保存提取的文本
+                        page_text = "\n".join(texts)
+                        page_txt_file = os.path.join(pdf_process_folder, f"p{page_num+1}_extracted.txt")
+                        with open(page_txt_file, 'w', encoding='utf-8') as f:
+                            f.write(page_text)
+                        self.log_message(f"  第{page_num+1}页OCR完成，识别到 {len(texts)} 条文本，已保存到 {page_txt_file}")
+                    else:
+                        page_txt_file = os.path.join(pdf_process_folder, f"p{page_num+1}_extracted.txt")
+                        with open(page_txt_file, 'w', encoding='utf-8') as f:
+                            f.write("未识别到任何文本")
+                        self.log_message(f"  第{page_num+1}页未识别到任何文本，已保存到 {page_txt_file}")
+                    
+                    # 添加到所有页面文本列表
+                    all_page_texts.append(page_text)
+                    
+                    # 注释掉删除临时图像文件的代码，保存所有过程文件
+                    # if os.path.exists(temp_image_path):
+                    #     os.remove(temp_image_path)
+                    # if os.path.exists(processed_image_path) and processed_image_path != temp_image_path:
+                    #     os.remove(processed_image_path)
+                
+                doc.close()
+                
+                # 合并所有页面内容为MD文件
+                date_suffix = datetime.now().strftime("%Y%m%d")
+                md_file = os.path.join(processed_folder, f"{pdf_name}_ocr_{date_suffix}.md")
+                self.log_message(f"  生成MD文件: {md_file}")
+                with open(md_file, 'w', encoding='utf-8') as f:
+                    f.write(f"# {pdf_name} OCR结果\n\n")
+                    # 读取所有提取的页面文本
+                    for i in range(len(all_page_texts)):
+                        page_num = i + 1
+                        f.write(f"## 第{page_num}页\n\n")
+                        
+                        # 首先检查是否有表格提取结果
+                        table_file = os.path.join(pdf_process_folder, f"p{page_num}_table.md")
+                        if os.path.exists(table_file):
+                            with open(table_file, 'r', encoding='utf-8') as tf:
+                                table_content = tf.read()
+                                f.write(table_content)
+                            f.write("\n\n")
+                        else:
+                            # 读取页面提取的文本
+                            page_extracted_file = os.path.join(pdf_process_folder, f"p{page_num}_extracted.txt")
+                            if os.path.exists(page_extracted_file):
+                                with open(page_extracted_file, 'r', encoding='utf-8') as pf:
+                                    page_content = pf.read()
+                                    f.write(page_content if page_content else "未识别到任何文本")
+                            else:
+                                f.write("未识别到任何文本")
+                        f.write("\n\n")
+                
+                self.log_message(f"  完成处理: {md_file}")
+                
+            except Exception as e:
+                self.log_message(f"  处理文件时出错: {str(e)}")
+                
+    def process_with_ocrmypdf(self, pdf_files, temp_folder, processed_folder):
+        """使用OCRmyPDF处理所有PDF"""
+        self.log_message("开始使用OCRmyPDF处理所有PDF文件")
+        
+        for i, pdf_file in enumerate(pdf_files):
+            # 检查是否需要取消
+            if self.should_cancel:
+                self.log_message("用户取消处理")
+                break
+                
+            try:
+                self.log_message(f"处理文件 ({i+1}/{len(pdf_files)}): {os.path.basename(pdf_file)}")
+                
+                # 生成输出文件名（添加日期）
+                pdf_name = os.path.splitext(os.path.basename(pdf_file))[0]
+                date_suffix = datetime.now().strftime("%Y%m%d")
+                output_name = f"{pdf_name}_ocr_{date_suffix}.pdf"
+                output_path = os.path.join(processed_folder, output_name)
+                
+                # 构建OCRmyPDF命令
+                cmd = [
+                    "ocrmypdf",
+                    "-l", "chi_sim",
+                    "--optimize", "3",
+                    "--output-type", "pdf",
+                    pdf_file,
+                    output_path
+                ]
+                
+                self.log_message(f"  执行命令: {' '.join(cmd)}")
+                
+                # 执行命令
+                result = subprocess.run(cmd, capture_output=True, text=True)
+                if result.returncode == 0:
+                    self.log_message(f"  成功处理: {output_path}")
+                else:
+                    self.log_message(f"  处理失败: {result.stderr}")
+                    
+            except Exception as e:
+                self.log_message(f"  处理文件时出错: {str(e)}")
+
+    def reprocess_from_temp_folder(self, temp_folder, processed_folder):
+        """
+        跳过OCR步骤，直接从过程文件夹中重新处理文件
+        """
+        self.log_message("开始重新处理过程文件夹中的文件")
+        self.log_message(f"过程文件夹路径: {temp_folder}")
+        self.log_message(f"输出文件夹路径: {processed_folder}")
+        
+        # 查找所有过程文件夹
+        process_folders = []
+        try:
+            for item in os.listdir(temp_folder):
+                item_path = os.path.join(temp_folder, item)
+                if os.path.isdir(item_path) and item.endswith("_ocr过程文件"):
+                    process_folders.append((item_path, item.replace("_ocr过程文件", "")))
+        except Exception as e:
+            self.log_message(f"无法访问过程文件夹: {str(e)}")
+            return
+                
+        if not process_folders:
+            self.log_message("未找到任何过程文件夹")
+            return
+            
+        self.log_message(f"找到 {len(process_folders)} 个过程文件夹")
+        
+        # 创建Excel工作簿用于存储总表
+        try:
+            import openpyxl
+        except ImportError:
+            self.log_message("缺少openpyxl库，请安装: pip install openpyxl")
+            return
+            
+        workbook = openpyxl.Workbook()
+        sheet = workbook.active
+        sheet.title = "卷宗目录总表"
+        
+        # 冻结首行
+        sheet.freeze_panes = "A2"
+        
+        # 设置列宽
+        sheet.column_dimensions['A'].width = 10
+        sheet.column_dimensions['B'].width = 50
+        sheet.column_dimensions['C'].width = 50
+        sheet.column_dimensions['D'].width = 100
+        
+        # 写入表头
+        sheet.append(["序号", "文件名", "文件标题", "目录"])
+        
+        # 处理每个过程文件夹
+        for i, (process_folder, pdf_name) in enumerate(process_folders):
+            if self.should_cancel:
+                self.log_message("用户取消处理")
+                break
+                
+            try:
+                self.log_message(f"处理过程文件夹 ({i+1}/{len(process_folders)}): {pdf_name}")
+                
+                # 查找封面结构化数据
+                cover_structured_file = os.path.join(process_folder, "cover_structured.md")
+                file_title = ""
+                if os.path.exists(cover_structured_file):
+                    try:
+                        with open(cover_structured_file, 'r', encoding='utf-8') as f:
+                            content = f.read()
+                            # 提取案件描述
+                            lines = content.split('\n')
+                            for line in lines:
+                                if '案件描述' in line and '|' in line:
+                                    parts = line.split('|')
+                                    if len(parts) >= 3:
+                                        file_title = parts[2].strip()
+                                        # 移除多余的空格和特殊字符
+                                        file_title = file_title.replace('\\n', '').replace('\n', '').strip()
+                                        break
+                    except Exception as e:
+                        self.log_message(f"  读取封面结构化文件失败: {str(e)}")
+                else:
+                    self.log_message(f"  未找到封面结构化文件: {cover_structured_file}")
+                
+                # 查找目录页（通常是p2开始）
+                toc_content = ""
+                page_num = 2  # 从第二页开始查找
+                
+                # 首先尝试查找表格提取结果
+                table_found = False
+                while page_num <= 10:  # 限制搜索范围
+                    table_file = os.path.join(process_folder, f"p{page_num}_table.md")
+                    if os.path.exists(table_file):
+                        try:
+                            with open(table_file, 'r', encoding='utf-8') as f:
+                                table_content = f.read()
+                                # 检查是否包含有效表格内容
+                                if '|' in table_content and len(table_content.strip()) > 50:
+                                    toc_content = table_content
+                                    table_found = True
+                                    self.log_message(f"  找到表格文件: p{page_num}_table.md")
+                                    break
+                        except Exception as e:
+                            self.log_message(f"  读取表格文件失败: {str(e)}")
+                    
+                    page_num += 1
+                
+                # 如果没有找到表格文件，尝试查找结构化文件
+                if not table_found:
+                    page_num = 2
+                    while page_num <= 10:
+                        structured_file = os.path.join(process_folder, f"p{page_num}_structured.md")
+                        if os.path.exists(structured_file):
+                            try:
+                                with open(structured_file, 'r', encoding='utf-8') as f:
+                                    toc_content = f.read()
+                                    self.log_message(f"  找到结构化文件: p{page_num}_structured.md")
+                                    break
+                            except Exception as e:
+                                self.log_message(f"  读取结构化文件失败: {str(e)}")
+                        page_num += 1
+                
+                # 如果没有结构化文件，尝试查找提取的文本
+                if not table_found and not toc_content:
+                    page_num = 2
+                    while page_num <= 10:
+                        extracted_file = os.path.join(process_folder, f"p{page_num}_extracted.txt")
+                        if os.path.exists(extracted_file):
+                            try:
+                                with open(extracted_file, 'r', encoding='utf-8') as f:
+                                    toc_content = f.read()
+                                    self.log_message(f"  找到提取文本文件: p{page_num}_extracted.txt")
+                                    break
+                            except Exception as e:
+                                self.log_message(f"  读取提取文本文件失败: {str(e)}")
+                        page_num += 1
+                
+                # 清理目录内容，移除多余字符
+                if toc_content:
+                    toc_content = toc_content.replace('\\n', '').replace('\n', ' ').strip()
+                
+                # 将数据添加到Excel表格
+                sheet.append([i+1, pdf_name, file_title, toc_content])
+                
+            except Exception as e:
+                self.log_message(f"  处理过程文件夹 {process_folder} 时出错: {str(e)}")
+        
+        # 保存Excel文件
+        try:
+            excel_file = os.path.join(processed_folder, "已处理文件列表.xlsx")
+            workbook.save(excel_file)
+            self.log_message(f"已处理文件列表已保存到: {excel_file}")
+        except Exception as e:
+            self.log_message(f"保存Excel文件失败: {str(e)}")
+
+    def process_pdfs(self):
+        try:
+            input_folder = self.input_folder.get()
+            output_folder = self.output_folder.get()
+            engine = self.engine_choice.get()
+            extract_toc = self.extract_toc_only.get()
+            reprocess_mode = self.reprocess_mode.get()  # 获取重新处理模式标志
+            
+            self.log_message(f"开始处理PDF文件")
+            self.log_message(f"输入文件夹: {input_folder}")
+            self.log_message(f"输出文件夹: {output_folder}")
+            self.log_message(f"使用引擎: {engine}")
+            self.log_message(f"单独输出目录页: {extract_toc}")
+            self.log_message(f"重新处理模式: {reprocess_mode}")
+            
+            # 创建输出文件夹
+            processed_folder = os.path.join(output_folder, "已处理")
+            os.makedirs(processed_folder, exist_ok=True)
+            
+            self.log_message(f"创建输出文件夹: {processed_folder}")
+            
+            # 如果是重新处理模式，则直接处理过程文件夹
+            if reprocess_mode:
+                self.reprocess_from_temp_folder(input_folder, processed_folder)
+                return
+                
+            # 查找所有PDF文件
+            temp_folder = os.path.join(output_folder, "过程文件")
+            os.makedirs(temp_folder, exist_ok=True)
+            self.log_message(f"创建过程文件夹: {temp_folder}")
+            
+            pdf_files = []
+            for root, dirs, files in os.walk(input_folder):
+                for file in files:
+                    if file.lower().endswith('.pdf') and not file.startswith('._'):
+                        pdf_files.append(os.path.join(root, file))
+                        
+            if not pdf_files:
+                self.log_message("未找到PDF文件")
+                self.finish_processing()
+                return
+                
+            self.log_message(f"找到 {len(pdf_files)} 个PDF文件")
+            
+            # 根据选项处理文件
+            if extract_toc:
+                # 当选择单独输出目录页时，强制使用PaddleOCR处理封面和目录页
+                self.extract_toc_with_paddleocr(pdf_files, temp_folder, processed_folder)
+            else:
+                if engine == "paddleocr":
+                    self.process_with_paddleocr(pdf_files, temp_folder, processed_folder)
+                else:
+                    self.process_with_ocrmypdf(pdf_files, temp_folder, processed_folder)
+                    
+            if not self.should_cancel:
+                self.log_message("处理完成")
+            else:
+                self.log_message("处理已取消")
+            
+        except Exception as e:
+            self.log_message(f"处理过程中出错: {str(e)}")
+        finally:
+            self.finish_processing()
+
+def main():
+    root = tk.Tk()
+    app = PDFProcessorGUI(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()

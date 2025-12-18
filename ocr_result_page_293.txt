@@ -1,0 +1,110 @@
+OCR结果 - 第 293 页
+==================================================
+处理的图像: temp_page_292_processed.png
+原始PDF页面: 293
+
+详细结果:
+[{'input_path': 'temp_page_292_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'output_img': array([[[254, ..., 254],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[482, 133],
+       ...,
+       [482, 197]], shape=(4, 2), dtype=int16), array([[1229,  217],
+       ...,
+       [1229,  284]], shape=(4, 2), dtype=int16), array([[919, 442],
+       ...,
+       [919, 478]], shape=(4, 2), dtype=int16), array([[1090,  557],
+       ...,
+       [1090,  618]], shape=(4, 2), dtype=int16), array([[730, 595],
+       ...,
+       [730, 637]], shape=(4, 2), dtype=int16), array([[855, 682],
+       ...,
+       [855, 727]], shape=(4, 2), dtype=int16), array([[ 884,  999],
+       ...,
+       [ 884, 1046]], shape=(4, 2), dtype=int16), array([[ 690, 1009],
+       ...,
+       [ 690, 1054]], shape=(4, 2), dtype=int16), array([[1133, 1021],
+       ...,
+       [1133, 1067]], shape=(4, 2), dtype=int16), array([[ 126, 1097],
+       ...,
+       [ 126, 1137]], shape=(4, 2), dtype=int16), array([[  85, 1167],
+       ...,
+       [  86, 1195]], shape=(4, 2), dtype=int16), array([[  89, 1198],
+       ...,
+       [  89, 1222]], shape=(4, 2), dtype=int16), array([[  87, 1234],
+       ...,
+       [  87, 1259]], shape=(4, 2), dtype=int16), array([[  88, 1270],
+       ...,
+       [  88, 1294]], shape=(4, 2), dtype=int16), array([[ 712, 1339],
+       ...,
+       [ 712, 1378]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['中马产业园', '项目位置', '六村', '规划取水水', '深坪村', '丹寮村', '现状取水口', '金鼓村', '现状取水口', '图例', '', '水源水越保护', '水源', '水源也让城', '项目与企窝水库饮用水源保护区位置关系图'], 'rec_scores': [0.9991925358772278, 0.9878544211387634, 0.9880549907684326, 0.8666796684265137, 0.9857322573661804, 0.8170014023780823, 0.9919732809066772, 0.9821836352348328, 0.9983989596366882, 0.9964858293533325, 0.0, 0.7759930491447449, 0.7727127075195312, 0.47813844680786133, 0.9802680611610413], 'rec_polys': [array([[482, 133],
+       ...,
+       [482, 197]], shape=(4, 2), dtype=int16), array([[1229,  217],
+       ...,
+       [1229,  284]], shape=(4, 2), dtype=int16), array([[919, 442],
+       ...,
+       [919, 478]], shape=(4, 2), dtype=int16), array([[1090,  557],
+       ...,
+       [1090,  618]], shape=(4, 2), dtype=int16), array([[730, 595],
+       ...,
+       [730, 637]], shape=(4, 2), dtype=int16), array([[855, 682],
+       ...,
+       [855, 727]], shape=(4, 2), dtype=int16), array([[ 884,  999],
+       ...,
+       [ 884, 1046]], shape=(4, 2), dtype=int16), array([[ 690, 1009],
+       ...,
+       [ 690, 1054]], shape=(4, 2), dtype=int16), array([[1133, 1021],
+       ...,
+       [1133, 1067]], shape=(4, 2), dtype=int16), array([[ 126, 1097],
+       ...,
+       [ 126, 1137]], shape=(4, 2), dtype=int16), array([[  85, 1167],
+       ...,
+       [  86, 1195]], shape=(4, 2), dtype=int16), array([[  89, 1198],
+       ...,
+       [  89, 1222]], shape=(4, 2), dtype=int16), array([[  87, 1234],
+       ...,
+       [  87, 1259]], shape=(4, 2), dtype=int16), array([[  88, 1270],
+       ...,
+       [  88, 1294]], shape=(4, 2), dtype=int16), array([[ 712, 1339],
+       ...,
+       [ 712, 1378]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 482, ...,  197],
+       ...,
+       [ 712, ..., 1379]], shape=(15, 4), dtype=int16)}]
+
+解析后的文本:
+1. 中马产业园
+2. 项目位置
+3. 六村
+4. 规划取水水
+5. 深坪村
+6. 丹寮村
+7. 现状取水口
+8. 金鼓村
+9. 现状取水口
+10. 图例
+11. 
+12. 水源水越保护
+13. 水源
+14. 水源也让城
+15. 项目与企窝水库饮用水源保护区位置关系图

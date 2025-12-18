@@ -1,0 +1,50 @@
+OCR结果 - 第 94 页
+==================================================
+处理的图像: temp_page_93_processed.png
+原始PDF页面: 94
+
+详细结果:
+[{'input_path': 'temp_page_93_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[ 570, 1205],
+       ...,
+       [ 570, 1221]], shape=(4, 2), dtype=int16), array([[ 323, 1669],
+       ...,
+       [ 325, 1718]], shape=(4, 2), dtype=int16), array([[ 633, 1878],
+       ...,
+       [ 633, 1912]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['电', '', '现场勘察照片'], 'rec_scores': [0.3756764829158783, 0.0, 0.8991751670837402], 'rec_polys': [array([[ 570, 1205],
+       ...,
+       [ 570, 1221]], shape=(4, 2), dtype=int16), array([[ 323, 1669],
+       ...,
+       [ 325, 1718]], shape=(4, 2), dtype=int16), array([[ 633, 1878],
+       ...,
+       [ 633, 1912]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0], 'rec_boxes': array([[ 570, ..., 1221],
+       ...,
+       [ 633, ..., 1912]], shape=(3, 4), dtype=int16)}]
+
+解析后的文本:
+1. 电
+2. 
+3. 现场勘察照片

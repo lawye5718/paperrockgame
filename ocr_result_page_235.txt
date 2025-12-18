@@ -1,0 +1,270 @@
+OCR结果 - 第 235 页
+==================================================
+处理的图像: temp_page_234_processed.png
+原始PDF页面: 235
+
+详细结果:
+[{'input_path': 'temp_page_234_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[1365,   34],
+       ...,
+       [1368,   80]], shape=(4, 2), dtype=int16), array([[160, 129],
+       ...,
+       [158, 176]], shape=(4, 2), dtype=int16), array([[214, 200],
+       ...,
+       [213, 251]], shape=(4, 2), dtype=int16), array([[153, 264],
+       ...,
+       [153, 311]], shape=(4, 2), dtype=int16), array([[155, 327],
+       ...,
+       [155, 369]], shape=(4, 2), dtype=int16), array([[154, 384],
+       ...,
+       [154, 424]], shape=(4, 2), dtype=int16), array([[157, 441],
+       ...,
+       [157, 476]], shape=(4, 2), dtype=int16), array([[156, 496],
+       ...,
+       [156, 530]], shape=(4, 2), dtype=int16), array([[154, 552],
+       ...,
+       [154, 583]], shape=(4, 2), dtype=int16), array([[166, 606],
+       ...,
+       [166, 641]], shape=(4, 2), dtype=int16), array([[218, 663],
+       ...,
+       [217, 697]], shape=(4, 2), dtype=int16), array([[153, 721],
+       ...,
+       [153, 756]], shape=(4, 2), dtype=int16), array([[219, 779],
+       ...,
+       [218, 812]], shape=(4, 2), dtype=int16), array([[153, 834],
+       ...,
+       [153, 867]], shape=(4, 2), dtype=int16), array([[153, 894],
+       ...,
+       [153, 928]], shape=(4, 2), dtype=int16), array([[152, 948],
+       ...,
+       [152, 981]], shape=(4, 2), dtype=int16), array([[ 151, 1003],
+       ...,
+       [ 151, 1037]], shape=(4, 2), dtype=int16), array([[ 153, 1063],
+       ...,
+       [ 153, 1093]], shape=(4, 2), dtype=int16), array([[ 154, 1120],
+       ...,
+       [ 154, 1148]], shape=(4, 2), dtype=int16), array([[ 421, 1192],
+       ...,
+       [ 421, 1216]], shape=(4, 2), dtype=int16), array([[ 628, 1191],
+       ...,
+       [ 628, 1212]], shape=(4, 2), dtype=int16), array([[ 863, 1190],
+       ...,
+       [ 863, 1215]], shape=(4, 2), dtype=int16), array([[1042, 1193],
+       ...,
+       [1042, 1218]], shape=(4, 2), dtype=int16), array([[ 174, 1249],
+       ...,
+       [ 174, 1277]], shape=(4, 2), dtype=int16), array([[ 279, 1258],
+       ...,
+       [ 278, 1291]], shape=(4, 2), dtype=int16), array([[ 860, 1260],
+       ...,
+       [ 859, 1290]], shape=(4, 2), dtype=int16), array([[1182, 1251],
+       ...,
+       [1182, 1277]], shape=(4, 2), dtype=int16), array([[ 366, 1262],
+       ...,
+       [ 366, 1292]], shape=(4, 2), dtype=int16), array([[ 460, 1262],
+       ...,
+       [ 460, 1291]], shape=(4, 2), dtype=int16), array([[ 664, 1261],
+       ...,
+       [ 664, 1291]], shape=(4, 2), dtype=int16), array([[1038, 1263],
+       ...,
+       [1038, 1293]], shape=(4, 2), dtype=int16), array([[ 172, 1274],
+       ...,
+       [ 171, 1302]], shape=(4, 2), dtype=int16), array([[ 809, 1275],
+       ...,
+       [ 809, 1280]], shape=(4, 2), dtype=int16), array([[1192, 1276],
+       ...,
+       [1192, 1304]], shape=(4, 2), dtype=int16), array([[1031, 1352],
+       ...,
+       [1030, 1381]], shape=(4, 2), dtype=int16), array([[ 591, 1364],
+       ...,
+       [ 590, 1388]], shape=(4, 2), dtype=int16), array([[1061, 1379],
+       ...,
+       [1061, 1410]], shape=(4, 2), dtype=int16), array([[ 562, 1444],
+       ...,
+       [ 562, 1469]], shape=(4, 2), dtype=int16), array([[1041, 1446],
+       ...,
+       [1041, 1476]], shape=(4, 2), dtype=int16), array([[1009, 1520],
+       ...,
+       [1009, 1547]], shape=(4, 2), dtype=int16), array([[ 337, 1550],
+       ...,
+       [ 337, 1585]], shape=(4, 2), dtype=int16), array([[ 483, 1549],
+       ...,
+       [ 482, 1583]], shape=(4, 2), dtype=int16), array([[ 162, 1621],
+       ...,
+       [ 161, 1655]], shape=(4, 2), dtype=int16), array([[ 212, 1685],
+       ...,
+       [ 211, 1718]], shape=(4, 2), dtype=int16), array([[ 151, 1738],
+       ...,
+       [ 151, 1772]], shape=(4, 2), dtype=int16), array([[ 152, 1791],
+       ...,
+       [ 152, 1825]], shape=(4, 2), dtype=int16), array([[ 677, 1842],
+       ...,
+       [ 677, 1868]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2', '(2) 处理效果', '氯化钙沉淀法现已很成熟，处理效率高，完全能满足达标排放的要求，废水', '中氟离子的去除率一般在90%以上，运行效果良好。较之石灰沉淀法，氯化钙沉', '淀法虽然处理成本相对较高，但氯化钙易溶于水，产生的污泥量(与石灰法比较)', '较少，且不存在石灰残渣的处置问题，运输、保管和存放都较方便。由于平板显', '示企业对厂区环境要求较高，使用氯化钙沉淀法更为清洁、有效。综上所述，本', '项目含氟废水处理工艺可行。', '3.2.2.2.含磷废水处理系统', '（1）处理工艺', '含磷废水采用投药、絮凝和沉淀的方法进行处理，本项目含磷生产废水处理', '流程见下图。', '含磷废水从厂房流至废水处理站的含磷废水平衡池（起调节作用），再由泵', '打至含磷废水处理系统进行处理。在反应池I中加入NaOH、H₂SO_{₄以调整酸碱度', '(PH值)后，再加入Cach}进行反应，进行调节pH并经充分搅拌后，产生无害的磷', '酸钙(Ca3(PO_)2)沉淀；之后进入反应池2中，并在其中加入H_₂}SO_{₄、NaOH以及', 'PAC，再依次进入絮凝池和沉淀池，并在其中经投加絮凝剂进行絮凝沉降。最后', '排水进入有机废水处理系统进一步处理。废水处理产生的污泥进入污水污泥浓缩', '池，污泥经脱水形成泥饼。', '$H₂2}SO,NUHCaCI₂', 'H₃SO.NaOH PAC', '累减剂', '尔凝剂', '含磷', '平衡池', '絮凝池', '有机废水', '', '反应池1', '反应池2', '沉淀池', '暖水', '二', '处理系统', '污泥浓缩', '--上消液-', '池', '上清液', '脱水机', '污泥委外处理', '图3.1-3', '本项目含磷废水处理系统工艺流程示意图', '(2) 处理效果', '化学沉淀法处理磷现已很成熟，处理效率高，完全能满足达标排放的要求。', '该法处理含磷废水一次投资较高，但运行稳定，处理效果好，运行成本低。废水', '中磷离子的去除率一般在90%以上。因此本项目含磷废水处理措施可行。', '96'], 'rec_scores': [0.17873704433441162, 0.9453572630882263, 0.9984973669052124, 0.9931350350379944, 0.9879018068313599, 0.9925129413604736, 0.9982439279556274, 0.9974027872085571, 0.9661456346511841, 0.8986293077468872, 0.9970704317092896, 0.9494562149047852, 0.9747411608695984, 0.934959888458252, 0.9665167927742004, 0.8779392838478088, 0.9978501796722412, 0.9986361861228943, 0.9987601637840271, 0.7260320782661438, 0.8004582524299622, 0.8177163004875183, 0.678452730178833, 0.8553212881088257, 0.9955849647521973, 0.907697856426239, 0.9969556927680969, 0.0, 0.8301094174385071, 0.9951258301734924, 0.9983795285224915, 0.7038455009460449, 0.3351898789405823, 0.9991628527641296, 0.9953752756118774, 0.7379224300384521, 0.9852092862129211, 0.8555600643157959, 0.9968084692955017, 0.9896925091743469, 0.9994468688964844, 0.9985467195510864, 0.9156092405319214, 0.9950940608978271, 0.9987897872924805, 0.9879708886146545, 0.9979274272918701], 'rec_polys': [array([[1365,   34],
+       ...,
+       [1368,   80]], shape=(4, 2), dtype=int16), array([[160, 129],
+       ...,
+       [158, 176]], shape=(4, 2), dtype=int16), array([[214, 200],
+       ...,
+       [213, 251]], shape=(4, 2), dtype=int16), array([[153, 264],
+       ...,
+       [153, 311]], shape=(4, 2), dtype=int16), array([[155, 327],
+       ...,
+       [155, 369]], shape=(4, 2), dtype=int16), array([[154, 384],
+       ...,
+       [154, 424]], shape=(4, 2), dtype=int16), array([[157, 441],
+       ...,
+       [157, 476]], shape=(4, 2), dtype=int16), array([[156, 496],
+       ...,
+       [156, 530]], shape=(4, 2), dtype=int16), array([[154, 552],
+       ...,
+       [154, 583]], shape=(4, 2), dtype=int16), array([[166, 606],
+       ...,
+       [166, 641]], shape=(4, 2), dtype=int16), array([[218, 663],
+       ...,
+       [217, 697]], shape=(4, 2), dtype=int16), array([[153, 721],
+       ...,
+       [153, 756]], shape=(4, 2), dtype=int16), array([[219, 779],
+       ...,
+       [218, 812]], shape=(4, 2), dtype=int16), array([[153, 834],
+       ...,
+       [153, 867]], shape=(4, 2), dtype=int16), array([[153, 894],
+       ...,
+       [153, 928]], shape=(4, 2), dtype=int16), array([[152, 948],
+       ...,
+       [152, 981]], shape=(4, 2), dtype=int16), array([[ 151, 1003],
+       ...,
+       [ 151, 1037]], shape=(4, 2), dtype=int16), array([[ 153, 1063],
+       ...,
+       [ 153, 1093]], shape=(4, 2), dtype=int16), array([[ 154, 1120],
+       ...,
+       [ 154, 1148]], shape=(4, 2), dtype=int16), array([[ 421, 1192],
+       ...,
+       [ 421, 1216]], shape=(4, 2), dtype=int16), array([[ 628, 1191],
+       ...,
+       [ 628, 1212]], shape=(4, 2), dtype=int16), array([[ 863, 1190],
+       ...,
+       [ 863, 1215]], shape=(4, 2), dtype=int16), array([[1042, 1193],
+       ...,
+       [1042, 1218]], shape=(4, 2), dtype=int16), array([[ 174, 1249],
+       ...,
+       [ 174, 1277]], shape=(4, 2), dtype=int16), array([[ 279, 1258],
+       ...,
+       [ 278, 1291]], shape=(4, 2), dtype=int16), array([[ 860, 1260],
+       ...,
+       [ 859, 1290]], shape=(4, 2), dtype=int16), array([[1182, 1251],
+       ...,
+       [1182, 1277]], shape=(4, 2), dtype=int16), array([[ 366, 1262],
+       ...,
+       [ 366, 1292]], shape=(4, 2), dtype=int16), array([[ 460, 1262],
+       ...,
+       [ 460, 1291]], shape=(4, 2), dtype=int16), array([[ 664, 1261],
+       ...,
+       [ 664, 1291]], shape=(4, 2), dtype=int16), array([[1038, 1263],
+       ...,
+       [1038, 1293]], shape=(4, 2), dtype=int16), array([[ 172, 1274],
+       ...,
+       [ 171, 1302]], shape=(4, 2), dtype=int16), array([[ 809, 1275],
+       ...,
+       [ 809, 1280]], shape=(4, 2), dtype=int16), array([[1192, 1276],
+       ...,
+       [1192, 1304]], shape=(4, 2), dtype=int16), array([[1031, 1352],
+       ...,
+       [1030, 1381]], shape=(4, 2), dtype=int16), array([[ 591, 1364],
+       ...,
+       [ 590, 1388]], shape=(4, 2), dtype=int16), array([[1061, 1379],
+       ...,
+       [1061, 1410]], shape=(4, 2), dtype=int16), array([[ 562, 1444],
+       ...,
+       [ 562, 1469]], shape=(4, 2), dtype=int16), array([[1041, 1446],
+       ...,
+       [1041, 1476]], shape=(4, 2), dtype=int16), array([[1009, 1520],
+       ...,
+       [1009, 1547]], shape=(4, 2), dtype=int16), array([[ 337, 1550],
+       ...,
+       [ 337, 1585]], shape=(4, 2), dtype=int16), array([[ 483, 1549],
+       ...,
+       [ 482, 1583]], shape=(4, 2), dtype=int16), array([[ 162, 1621],
+       ...,
+       [ 161, 1655]], shape=(4, 2), dtype=int16), array([[ 212, 1685],
+       ...,
+       [ 211, 1718]], shape=(4, 2), dtype=int16), array([[ 151, 1738],
+       ...,
+       [ 151, 1772]], shape=(4, 2), dtype=int16), array([[ 152, 1791],
+       ...,
+       [ 152, 1825]], shape=(4, 2), dtype=int16), array([[ 677, 1842],
+       ...,
+       [ 677, 1868]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[1365, ...,   80],
+       ...,
+       [ 677, ..., 1868]], shape=(47, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2
+2. (2) 处理效果
+3. 氯化钙沉淀法现已很成熟，处理效率高，完全能满足达标排放的要求，废水
+4. 中氟离子的去除率一般在90%以上，运行效果良好。较之石灰沉淀法，氯化钙沉
+5. 淀法虽然处理成本相对较高，但氯化钙易溶于水，产生的污泥量(与石灰法比较)
+6. 较少，且不存在石灰残渣的处置问题，运输、保管和存放都较方便。由于平板显
+7. 示企业对厂区环境要求较高，使用氯化钙沉淀法更为清洁、有效。综上所述，本
+8. 项目含氟废水处理工艺可行。
+9. 3.2.2.2.含磷废水处理系统
+10. （1）处理工艺
+11. 含磷废水采用投药、絮凝和沉淀的方法进行处理，本项目含磷生产废水处理
+12. 流程见下图。
+13. 含磷废水从厂房流至废水处理站的含磷废水平衡池（起调节作用），再由泵
+14. 打至含磷废水处理系统进行处理。在反应池I中加入NaOH、H₂SO_{₄以调整酸碱度
+15. (PH值)后，再加入Cach}进行反应，进行调节pH并经充分搅拌后，产生无害的磷
+16. 酸钙(Ca3(PO_)2)沉淀；之后进入反应池2中，并在其中加入H_₂}SO_{₄、NaOH以及
+17. PAC，再依次进入絮凝池和沉淀池，并在其中经投加絮凝剂进行絮凝沉降。最后
+18. 排水进入有机废水处理系统进一步处理。废水处理产生的污泥进入污水污泥浓缩
+19. 池，污泥经脱水形成泥饼。
+20. $H₂2}SO,NUHCaCI₂
+21. H₃SO.NaOH PAC
+22. 累减剂
+23. 尔凝剂
+24. 含磷
+25. 平衡池
+26. 絮凝池
+27. 有机废水
+28. 
+29. 反应池1
+30. 反应池2
+31. 沉淀池
+32. 暖水
+33. 二
+34. 处理系统
+35. 污泥浓缩
+36. --上消液-
+37. 池
+38. 上清液
+39. 脱水机
+40. 污泥委外处理
+41. 图3.1-3
+42. 本项目含磷废水处理系统工艺流程示意图
+43. (2) 处理效果
+44. 化学沉淀法处理磷现已很成熟，处理效率高，完全能满足达标排放的要求。
+45. 该法处理含磷废水一次投资较高，但运行稳定，处理效果好，运行成本低。废水
+46. 中磷离子的去除率一般在90%以上。因此本项目含磷废水处理措施可行。
+47. 96

@@ -1,0 +1,65 @@
+OCR结果 - 第 175 页
+==================================================
+处理的图像: temp_page_174_processed.png
+原始PDF页面: 175
+
+详细结果:
+[{'input_path': 'temp_page_174_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1419, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[908, 170],
+       ...,
+       [908, 205]], shape=(4, 2), dtype=int16), array([[862, 500],
+       ...,
+       [860, 567]], shape=(4, 2), dtype=int16), array([[841, 569],
+       ...,
+       [841, 638]], shape=(4, 2), dtype=int16), array([[ 959,  968],
+       ...,
+       [ 959, 1000]], shape=(4, 2), dtype=int16), array([[ 808, 1110],
+       ...,
+       [ 809, 1144]], shape=(4, 2), dtype=int16), array([[1048, 1300],
+       ...,
+       [1048, 1329]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['SUPPORT AREA', '4F Array', '工艺生产区', 'SUPPPRT', '图2.1-9阵列工序工艺区划图（4层）', '35'], 'rec_scores': [0.8755500316619873, 0.9853121042251587, 0.9994343519210815, 0.9116663336753845, 0.9467569589614868, 0.9941476583480835], 'rec_polys': [array([[908, 170],
+       ...,
+       [908, 205]], shape=(4, 2), dtype=int16), array([[862, 500],
+       ...,
+       [860, 567]], shape=(4, 2), dtype=int16), array([[841, 569],
+       ...,
+       [841, 638]], shape=(4, 2), dtype=int16), array([[ 959,  968],
+       ...,
+       [ 959, 1000]], shape=(4, 2), dtype=int16), array([[ 808, 1110],
+       ...,
+       [ 809, 1144]], shape=(4, 2), dtype=int16), array([[1048, 1300],
+       ...,
+       [1048, 1329]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 908, ...,  205],
+       ...,
+       [1048, ..., 1329]], shape=(6, 4), dtype=int16)}]
+
+解析后的文本:
+1. SUPPORT AREA
+2. 4F Array
+3. 工艺生产区
+4. SUPPPRT
+5. 图2.1-9阵列工序工艺区划图（4层）
+6. 35

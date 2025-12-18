@@ -1,0 +1,280 @@
+OCR结果 - 第 269 页
+==================================================
+处理的图像: temp_page_268_processed.png
+原始PDF页面: 269
+
+详细结果:
+[{'input_path': 'temp_page_268_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[1353,   13],
+       ...,
+       [1353,   64]], shape=(4, 2), dtype=int16), array([[ 82,  84],
+       ...,
+       [ 81, 112]], shape=(4, 2), dtype=int16), array([[1145,   98],
+       ...,
+       [1145,  122]], shape=(4, 2), dtype=int16), array([[ 59, 117],
+       ...,
+       [ 58, 155]], shape=(4, 2), dtype=int16), array([[526, 176],
+       ...,
+       [526, 218]], shape=(4, 2), dtype=int16), array([[ 53, 237],
+       ...,
+       [ 52, 280]], shape=(4, 2), dtype=int16), array([[414, 244],
+       ...,
+       [415, 284]], shape=(4, 2), dtype=int16), array([[990, 241],
+       ...,
+       [989, 280]], shape=(4, 2), dtype=int16), array([[820, 304],
+       ...,
+       [820, 339]], shape=(4, 2), dtype=int16), array([[759, 344],
+       ...,
+       [759, 377]], shape=(4, 2), dtype=int16), array([[227, 378],
+       ...,
+       [227, 413]], shape=(4, 2), dtype=int16), array([[757, 380],
+       ...,
+       [757, 414]], shape=(4, 2), dtype=int16), array([[756, 418],
+       ...,
+       [756, 452]], shape=(4, 2), dtype=int16), array([[ 84, 455],
+       ...,
+       [ 84, 499]], shape=(4, 2), dtype=int16), array([[755, 456],
+       ...,
+       [755, 491]], shape=(4, 2), dtype=int16), array([[ 84, 497],
+       ...,
+       [ 84, 539]], shape=(4, 2), dtype=int16), array([[757, 494],
+       ...,
+       [757, 528]], shape=(4, 2), dtype=int16), array([[757, 534],
+       ...,
+       [757, 568]], shape=(4, 2), dtype=int16), array([[218, 568],
+       ...,
+       [219, 606]], shape=(4, 2), dtype=int16), array([[757, 573],
+       ...,
+       [757, 609]], shape=(4, 2), dtype=int16), array([[821, 613],
+       ...,
+       [821, 647]], shape=(4, 2), dtype=int16), array([[759, 653],
+       ...,
+       [759, 684]], shape=(4, 2), dtype=int16), array([[218, 707],
+       ...,
+       [219, 750]], shape=(4, 2), dtype=int16), array([[ 61, 781],
+       ...,
+       [ 61, 821]], shape=(4, 2), dtype=int16), array([[218, 782],
+       ...,
+       [219, 820]], shape=(4, 2), dtype=int16), array([[823, 782],
+       ...,
+       [823, 816]], shape=(4, 2), dtype=int16), array([[217, 855],
+       ...,
+       [218, 897]], shape=(4, 2), dtype=int16), array([[222, 932],
+       ...,
+       [223, 969]], shape=(4, 2), dtype=int16), array([[579, 929],
+       ...,
+       [578, 965]], shape=(4, 2), dtype=int16), array([[  75, 1011],
+       ...,
+       [  73, 1053]], shape=(4, 2), dtype=int16), array([[ 223, 1007],
+       ...,
+       [ 224, 1042]], shape=(4, 2), dtype=int16), array([[ 579, 1002],
+       ...,
+       [ 578, 1039]], shape=(4, 2), dtype=int16), array([[ 823, 1009],
+       ...,
+       [ 823, 1044]], shape=(4, 2), dtype=int16), array([[ 222, 1066],
+       ...,
+       [ 223, 1101]], shape=(4, 2), dtype=int16), array([[ 579, 1081],
+       ...,
+       [ 578, 1119]], shape=(4, 2), dtype=int16), array([[ 221, 1107],
+       ...,
+       [ 221, 1149]], shape=(4, 2), dtype=int16), array([[ 218, 1170],
+       ...,
+       [ 219, 1207]], shape=(4, 2), dtype=int16), array([[ 212, 1237],
+       ...,
+       [ 212, 1285]], shape=(4, 2), dtype=int16), array([[ 218, 1318],
+       ...,
+       [ 218, 1353]], shape=(4, 2), dtype=int16), array([[ 268, 1317],
+       ...,
+       [ 268, 1352]], shape=(4, 2), dtype=int16), array([[ 214, 1388],
+       ...,
+       [ 215, 1429]], shape=(4, 2), dtype=int16), array([[ 824, 1400],
+       ...,
+       [ 824, 1437]], shape=(4, 2), dtype=int16), array([[  72, 1424],
+       ...,
+       [  73, 1466]], shape=(4, 2), dtype=int16), array([[ 758, 1445],
+       ...,
+       [ 758, 1479]], shape=(4, 2), dtype=int16), array([[ 214, 1461],
+       ...,
+       [ 214, 1502]], shape=(4, 2), dtype=int16), array([[ 217, 1541],
+       ...,
+       [ 218, 1579]], shape=(4, 2), dtype=int16), array([[ 215, 1612],
+       ...,
+       [ 215, 1656]], shape=(4, 2), dtype=int16), array([[ 220, 1695],
+       ...,
+       [ 220, 1730]], shape=(4, 2), dtype=int16), array([[ 267, 1693],
+       ...,
+       [ 267, 1730]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['26', '报告编号：LHHJ20191104（105）01', '第10页共19页', '四、检测点位及频次', '表4检测点位及频次', '检测要素', '检测点位', '检测频次', '连续采样检测7天，氟化物、氯化氢、', '氯气、硫酸雾、氨、非甲烷总烃和挥发性有', '1# 丹寮小学', '机物检测1h平均浓度，每天检测4次，每次', '采样时间不少于45min，采样时间为02:00、', '环境', '08:00、14:00、20:00:氟化物检测日平均浓', '空气', '度，每次采样时间不少于12h，氯化氢、氯', '气和硫酸雾检测日平均浓度，每次采样时间', '2#本项目所在地', '不少于18h.', '检测期间同步观测气温、气压、湿度、', '风向、风速等气象要素。', '1#东边村水井', '地下水', '2# 细鸡屋水井', '采样1天，每天采样1次。', '3#丹寮村水井', '厂区内1#（北侧，厂房）', '0~0.2m', '土壤', '厂区内2#（中部）', '0~0.2m', '采样1天，采样1次。', '厂区内3#（西南侧，污', '0~0.2m', '水站）', '1#项目东侧厂界外1m处', '2#项目东侧厂界外1m处', '3#', '项目南侧厂界外1m处', '4#项目南侧厂界外1m处', '连续检测2天，每天昼夜各检测1次(昼', '噪声', '间6:00-22:00：夜间22:00-次日6:00)。', '5# 项目西侧厂界外1m处', '6#项目西侧厂界外1m处', '7#项目北侧厂界外1m处', '8#', '项目北侧厂界外1m处'], 'rec_scores': [0.9870051145553589, 0.9345650672912598, 0.9977107644081116, 0.9986394047737122, 0.9975966215133667, 0.9986996054649353, 0.9989548921585083, 0.998435914516449, 0.9905147552490234, 0.973030686378479, 0.9282855987548828, 0.9788020849227905, 0.9720080494880676, 0.999505877494812, 0.9648854732513428, 0.9995468854904175, 0.9873547554016113, 0.995763897895813, 0.99854576587677, 0.9932165145874023, 0.9928982853889465, 0.9926820993423462, 0.9853178858757019, 0.9994933009147644, 0.9537554383277893, 0.9940352439880371, 0.9851366281509399, 0.9376728534698486, 0.9775524735450745, 0.9957332015037537, 0.9094973802566528, 0.9900796413421631, 0.9898604154586792, 0.9541986584663391, 0.9862136840820312, 0.8849129676818848, 0.9674887657165527, 0.9752314686775208, 0.9561240673065186, 0.9948557615280151, 0.9962878227233887, 0.9570999145507812, 0.9996716976165771, 0.9524847269058228, 0.9550579786300659, 0.9922730326652527, 0.9818375110626221, 0.9322895407676697, 0.995503306388855], 'rec_polys': [array([[1353,   13],
+       ...,
+       [1353,   64]], shape=(4, 2), dtype=int16), array([[ 82,  84],
+       ...,
+       [ 81, 112]], shape=(4, 2), dtype=int16), array([[1145,   98],
+       ...,
+       [1145,  122]], shape=(4, 2), dtype=int16), array([[ 59, 117],
+       ...,
+       [ 58, 155]], shape=(4, 2), dtype=int16), array([[526, 176],
+       ...,
+       [526, 218]], shape=(4, 2), dtype=int16), array([[ 53, 237],
+       ...,
+       [ 52, 280]], shape=(4, 2), dtype=int16), array([[414, 244],
+       ...,
+       [415, 284]], shape=(4, 2), dtype=int16), array([[990, 241],
+       ...,
+       [989, 280]], shape=(4, 2), dtype=int16), array([[820, 304],
+       ...,
+       [820, 339]], shape=(4, 2), dtype=int16), array([[759, 344],
+       ...,
+       [759, 377]], shape=(4, 2), dtype=int16), array([[227, 378],
+       ...,
+       [227, 413]], shape=(4, 2), dtype=int16), array([[757, 380],
+       ...,
+       [757, 414]], shape=(4, 2), dtype=int16), array([[756, 418],
+       ...,
+       [756, 452]], shape=(4, 2), dtype=int16), array([[ 84, 455],
+       ...,
+       [ 84, 499]], shape=(4, 2), dtype=int16), array([[755, 456],
+       ...,
+       [755, 491]], shape=(4, 2), dtype=int16), array([[ 84, 497],
+       ...,
+       [ 84, 539]], shape=(4, 2), dtype=int16), array([[757, 494],
+       ...,
+       [757, 528]], shape=(4, 2), dtype=int16), array([[757, 534],
+       ...,
+       [757, 568]], shape=(4, 2), dtype=int16), array([[218, 568],
+       ...,
+       [219, 606]], shape=(4, 2), dtype=int16), array([[757, 573],
+       ...,
+       [757, 609]], shape=(4, 2), dtype=int16), array([[821, 613],
+       ...,
+       [821, 647]], shape=(4, 2), dtype=int16), array([[759, 653],
+       ...,
+       [759, 684]], shape=(4, 2), dtype=int16), array([[218, 707],
+       ...,
+       [219, 750]], shape=(4, 2), dtype=int16), array([[ 61, 781],
+       ...,
+       [ 61, 821]], shape=(4, 2), dtype=int16), array([[218, 782],
+       ...,
+       [219, 820]], shape=(4, 2), dtype=int16), array([[823, 782],
+       ...,
+       [823, 816]], shape=(4, 2), dtype=int16), array([[217, 855],
+       ...,
+       [218, 897]], shape=(4, 2), dtype=int16), array([[222, 932],
+       ...,
+       [223, 969]], shape=(4, 2), dtype=int16), array([[579, 929],
+       ...,
+       [578, 965]], shape=(4, 2), dtype=int16), array([[  75, 1011],
+       ...,
+       [  73, 1053]], shape=(4, 2), dtype=int16), array([[ 223, 1007],
+       ...,
+       [ 224, 1042]], shape=(4, 2), dtype=int16), array([[ 579, 1002],
+       ...,
+       [ 578, 1039]], shape=(4, 2), dtype=int16), array([[ 823, 1009],
+       ...,
+       [ 823, 1044]], shape=(4, 2), dtype=int16), array([[ 222, 1066],
+       ...,
+       [ 223, 1101]], shape=(4, 2), dtype=int16), array([[ 579, 1081],
+       ...,
+       [ 578, 1119]], shape=(4, 2), dtype=int16), array([[ 221, 1107],
+       ...,
+       [ 221, 1149]], shape=(4, 2), dtype=int16), array([[ 218, 1170],
+       ...,
+       [ 219, 1207]], shape=(4, 2), dtype=int16), array([[ 212, 1237],
+       ...,
+       [ 212, 1285]], shape=(4, 2), dtype=int16), array([[ 218, 1318],
+       ...,
+       [ 218, 1353]], shape=(4, 2), dtype=int16), array([[ 268, 1317],
+       ...,
+       [ 268, 1352]], shape=(4, 2), dtype=int16), array([[ 214, 1388],
+       ...,
+       [ 215, 1429]], shape=(4, 2), dtype=int16), array([[ 824, 1400],
+       ...,
+       [ 824, 1437]], shape=(4, 2), dtype=int16), array([[  72, 1424],
+       ...,
+       [  73, 1466]], shape=(4, 2), dtype=int16), array([[ 758, 1445],
+       ...,
+       [ 758, 1479]], shape=(4, 2), dtype=int16), array([[ 214, 1461],
+       ...,
+       [ 214, 1502]], shape=(4, 2), dtype=int16), array([[ 217, 1541],
+       ...,
+       [ 218, 1579]], shape=(4, 2), dtype=int16), array([[ 215, 1612],
+       ...,
+       [ 215, 1656]], shape=(4, 2), dtype=int16), array([[ 220, 1695],
+       ...,
+       [ 220, 1730]], shape=(4, 2), dtype=int16), array([[ 267, 1693],
+       ...,
+       [ 267, 1730]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1353, ...,   64],
+       ...,
+       [ 267, ..., 1730]], shape=(49, 4), dtype=int16)}]
+
+解析后的文本:
+1. 26
+2. 报告编号：LHHJ20191104（105）01
+3. 第10页共19页
+4. 四、检测点位及频次
+5. 表4检测点位及频次
+6. 检测要素
+7. 检测点位
+8. 检测频次
+9. 连续采样检测7天，氟化物、氯化氢、
+10. 氯气、硫酸雾、氨、非甲烷总烃和挥发性有
+11. 1# 丹寮小学
+12. 机物检测1h平均浓度，每天检测4次，每次
+13. 采样时间不少于45min，采样时间为02:00、
+14. 环境
+15. 08:00、14:00、20:00:氟化物检测日平均浓
+16. 空气
+17. 度，每次采样时间不少于12h，氯化氢、氯
+18. 气和硫酸雾检测日平均浓度，每次采样时间
+19. 2#本项目所在地
+20. 不少于18h.
+21. 检测期间同步观测气温、气压、湿度、
+22. 风向、风速等气象要素。
+23. 1#东边村水井
+24. 地下水
+25. 2# 细鸡屋水井
+26. 采样1天，每天采样1次。
+27. 3#丹寮村水井
+28. 厂区内1#（北侧，厂房）
+29. 0~0.2m
+30. 土壤
+31. 厂区内2#（中部）
+32. 0~0.2m
+33. 采样1天，采样1次。
+34. 厂区内3#（西南侧，污
+35. 0~0.2m
+36. 水站）
+37. 1#项目东侧厂界外1m处
+38. 2#项目东侧厂界外1m处
+39. 3#
+40. 项目南侧厂界外1m处
+41. 4#项目南侧厂界外1m处
+42. 连续检测2天，每天昼夜各检测1次(昼
+43. 噪声
+44. 间6:00-22:00：夜间22:00-次日6:00)。
+45. 5# 项目西侧厂界外1m处
+46. 6#项目西侧厂界外1m处
+47. 7#项目北侧厂界外1m处
+48. 8#
+49. 项目北侧厂界外1m处

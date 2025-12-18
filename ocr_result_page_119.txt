@@ -1,0 +1,245 @@
+OCR结果 - 第 119 页
+==================================================
+处理的图像: temp_page_118_processed.png
+原始PDF页面: 119
+
+详细结果:
+[{'input_path': 'temp_page_118_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[238, 165],
+       ...,
+       [238, 251]], shape=(4, 2), dtype=int16), array([[149, 222],
+       ...,
+       [142, 276]], shape=(4, 2), dtype=int16), array([[280, 248],
+       ...,
+       [280, 289]], shape=(4, 2), dtype=int16), array([[1103,  260],
+       ...,
+       [1103,  304]], shape=(4, 2), dtype=int16), array([[230, 292],
+       ...,
+       [230, 336]], shape=(4, 2), dtype=int16), array([[327, 301],
+       ...,
+       [327, 339]], shape=(4, 2), dtype=int16), array([[1013,  293],
+       ...,
+       [1013,  343]], shape=(4, 2), dtype=int16), array([[421, 303],
+       ...,
+       [421, 339]], shape=(4, 2), dtype=int16), array([[175, 332],
+       ...,
+       [170, 384]], shape=(4, 2), dtype=int16), array([[326, 337],
+       ...,
+       [326, 374]], shape=(4, 2), dtype=int16), array([[783, 335],
+       ...,
+       [782, 378]], shape=(4, 2), dtype=int16), array([[1113,  341],
+       ...,
+       [1113,  393]], shape=(4, 2), dtype=int16), array([[172, 378],
+       ...,
+       [168, 428]], shape=(4, 2), dtype=int16), array([[655, 371],
+       ...,
+       [655, 413]], shape=(4, 2), dtype=int16), array([[1008,  371],
+       ...,
+       [1008,  422]], shape=(4, 2), dtype=int16), array([[319, 408],
+       ...,
+       [318, 447]], shape=(4, 2), dtype=int16), array([[783, 418],
+       ...,
+       [782, 456]], shape=(4, 2), dtype=int16), array([[148, 439],
+       ...,
+       [145, 513]], shape=(4, 2), dtype=int16), array([[151, 521],
+       ...,
+       [148, 574]], shape=(4, 2), dtype=int16), array([[152, 698],
+       ...,
+       [151, 737]], shape=(4, 2), dtype=int16), array([[154, 753],
+       ...,
+       [153, 790]], shape=(4, 2), dtype=int16), array([[152, 806],
+       ...,
+       [151, 843]], shape=(4, 2), dtype=int16), array([[152, 860],
+       ...,
+       [151, 897]], shape=(4, 2), dtype=int16), array([[151, 912],
+       ...,
+       [150, 952]], shape=(4, 2), dtype=int16), array([[ 148,  965],
+       ...,
+       [ 147, 1006]], shape=(4, 2), dtype=int16), array([[ 146, 1017],
+       ...,
+       [ 145, 1058]], shape=(4, 2), dtype=int16), array([[ 214, 1072],
+       ...,
+       [ 213, 1112]], shape=(4, 2), dtype=int16), array([[ 144, 1122],
+       ...,
+       [ 143, 1160]], shape=(4, 2), dtype=int16), array([[ 214, 1174],
+       ...,
+       [ 213, 1211]], shape=(4, 2), dtype=int16), array([[ 629, 1239],
+       ...,
+       [ 628, 1277]], shape=(4, 2), dtype=int16), array([[ 201, 1358],
+       ...,
+       [ 200, 1400]], shape=(4, 2), dtype=int16), array([[ 127, 1400],
+       ...,
+       [ 125, 1451]], shape=(4, 2), dtype=int16), array([[ 347, 1482],
+       ...,
+       [ 347, 1555]], shape=(4, 2), dtype=int16), array([[ 705, 1478],
+       ...,
+       [ 704, 1534]], shape=(4, 2), dtype=int16), array([[ 728, 1534],
+       ...,
+       [ 728, 1664]], shape=(4, 2), dtype=int16), array([[ 107, 1546],
+       ...,
+       [ 107, 1691]], shape=(4, 2), dtype=int16), array([[ 346, 1577],
+       ...,
+       [ 358, 1632]], shape=(4, 2), dtype=int16), array([[ 106, 1669],
+       ...,
+       [ 117, 1794]], shape=(4, 2), dtype=int16), array([[ 645, 1669],
+       ...,
+       [ 650, 1797]], shape=(4, 2), dtype=int16), array([[ 639, 1781],
+       ...,
+       [ 644, 1904]], shape=(4, 2), dtype=int16), array([[  94, 1802],
+       ...,
+       [ 103, 1881]], shape=(4, 2), dtype=int16), array([[ 582, 1878],
+       ...,
+       [ 587, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['中马钦州产业园区工管委文件处理笺', '2019', '3', '2019-0458', '年', '月', '编号：', 'H', '来文', '广西泰嘉光电技术有', '广西泰', '普通', '单位', '文号', '密级', '限公司.', '[2019]007号', '美华护西泰嘉光电技术有限公司申请3000万人民币项目资', '金扶持的函', '月16日在中马钦州产业园登记成立，注册资本10.5亿元人民币。目前', '已到位资本金3085万元人民币，同时项目首批设备（约1.6亿美金）', '计划于2019年3月9日抵达钦州保税港，并正式搬入钦州保税港区三', '号路棉纺产业园4#仓库进行技术改造升级。依照《项目投资合作协议', '书》第三条第一款协议，该司申请钦州中马产业园管委会拨付3000万', '元人民币项目资金扶持，用于支持项目建设、人才引进以及专家和员', '工办公住宿、交通等后勤保障服务，以扶持项目积极快速推进。', '拟办意见：拟由财政局商经济发展局、投资合作局、产业平台公', '司提出意见。', '当否？呈工管委办公室兰捷主任阅示。', '工管委办公室黄荣波2019.3.8', '情财政局商经济发展局、投资合作局、产业平台公司速提意见。', '呈高朴常务副主任、林海波副主任、谢东网射巡视员阅示。', 'RR', '兰捷2019-03-08 10:18:08', '清投财产', '50', '发', '调此单', '司联合', '易的协议，', '2e19.3.8', '快成相关件，尽。'], 'rec_scores': [0.9855924844741821, 0.9997879862785339, 0.9982393980026245, 0.9989153742790222, 0.9785237312316895, 0.998670220375061, 0.9853506088256836, 0.6781109571456909, 0.9573995471000671, 0.9791003465652466, 0.9940304756164551, 0.9992769956588745, 0.9998153448104858, 0.931033730506897, 0.9966504573822021, 0.8899900913238525, 0.9196219444274902, 0.9524840116500854, 0.998772144317627, 0.9854750037193298, 0.9950065612792969, 0.993812084197998, 0.9971104860305786, 0.9972168207168579, 0.9983574748039246, 0.9978827238082886, 0.996410071849823, 0.9955392479896545, 0.9891214966773987, 0.991962194442749, 0.9793663620948792, 0.9067221283912659, 0.4965251088142395, 0.9516904950141907, 0.39827653765678406, 0.3515785336494446, 0.12996743619441986, 0.31018421053886414, 0.29861414432525635, 0.535794198513031, 0.8174703121185303, 0.5678743124008179], 'rec_polys': [array([[238, 165],
+       ...,
+       [238, 251]], shape=(4, 2), dtype=int16), array([[149, 222],
+       ...,
+       [142, 276]], shape=(4, 2), dtype=int16), array([[280, 248],
+       ...,
+       [280, 289]], shape=(4, 2), dtype=int16), array([[1103,  260],
+       ...,
+       [1103,  304]], shape=(4, 2), dtype=int16), array([[230, 292],
+       ...,
+       [230, 336]], shape=(4, 2), dtype=int16), array([[327, 301],
+       ...,
+       [327, 339]], shape=(4, 2), dtype=int16), array([[1013,  293],
+       ...,
+       [1013,  343]], shape=(4, 2), dtype=int16), array([[421, 303],
+       ...,
+       [421, 339]], shape=(4, 2), dtype=int16), array([[175, 332],
+       ...,
+       [170, 384]], shape=(4, 2), dtype=int16), array([[326, 337],
+       ...,
+       [326, 374]], shape=(4, 2), dtype=int16), array([[783, 335],
+       ...,
+       [782, 378]], shape=(4, 2), dtype=int16), array([[1113,  341],
+       ...,
+       [1113,  393]], shape=(4, 2), dtype=int16), array([[172, 378],
+       ...,
+       [168, 428]], shape=(4, 2), dtype=int16), array([[655, 371],
+       ...,
+       [655, 413]], shape=(4, 2), dtype=int16), array([[1008,  371],
+       ...,
+       [1008,  422]], shape=(4, 2), dtype=int16), array([[319, 408],
+       ...,
+       [318, 447]], shape=(4, 2), dtype=int16), array([[783, 418],
+       ...,
+       [782, 456]], shape=(4, 2), dtype=int16), array([[148, 439],
+       ...,
+       [145, 513]], shape=(4, 2), dtype=int16), array([[151, 521],
+       ...,
+       [148, 574]], shape=(4, 2), dtype=int16), array([[152, 698],
+       ...,
+       [151, 737]], shape=(4, 2), dtype=int16), array([[154, 753],
+       ...,
+       [153, 790]], shape=(4, 2), dtype=int16), array([[152, 806],
+       ...,
+       [151, 843]], shape=(4, 2), dtype=int16), array([[152, 860],
+       ...,
+       [151, 897]], shape=(4, 2), dtype=int16), array([[151, 912],
+       ...,
+       [150, 952]], shape=(4, 2), dtype=int16), array([[ 148,  965],
+       ...,
+       [ 147, 1006]], shape=(4, 2), dtype=int16), array([[ 146, 1017],
+       ...,
+       [ 145, 1058]], shape=(4, 2), dtype=int16), array([[ 214, 1072],
+       ...,
+       [ 213, 1112]], shape=(4, 2), dtype=int16), array([[ 144, 1122],
+       ...,
+       [ 143, 1160]], shape=(4, 2), dtype=int16), array([[ 214, 1174],
+       ...,
+       [ 213, 1211]], shape=(4, 2), dtype=int16), array([[ 629, 1239],
+       ...,
+       [ 628, 1277]], shape=(4, 2), dtype=int16), array([[ 201, 1358],
+       ...,
+       [ 200, 1400]], shape=(4, 2), dtype=int16), array([[ 127, 1400],
+       ...,
+       [ 125, 1451]], shape=(4, 2), dtype=int16), array([[ 347, 1482],
+       ...,
+       [ 347, 1555]], shape=(4, 2), dtype=int16), array([[ 705, 1478],
+       ...,
+       [ 704, 1534]], shape=(4, 2), dtype=int16), array([[ 728, 1534],
+       ...,
+       [ 728, 1664]], shape=(4, 2), dtype=int16), array([[ 107, 1546],
+       ...,
+       [ 107, 1691]], shape=(4, 2), dtype=int16), array([[ 346, 1577],
+       ...,
+       [ 358, 1632]], shape=(4, 2), dtype=int16), array([[ 106, 1669],
+       ...,
+       [ 117, 1794]], shape=(4, 2), dtype=int16), array([[ 645, 1669],
+       ...,
+       [ 650, 1797]], shape=(4, 2), dtype=int16), array([[ 639, 1781],
+       ...,
+       [ 644, 1904]], shape=(4, 2), dtype=int16), array([[  94, 1802],
+       ...,
+       [ 103, 1881]], shape=(4, 2), dtype=int16), array([[ 582, 1878],
+       ...,
+       [ 587, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 238, ...,  254],
+       ...,
+       [ 582, ..., 2000]], shape=(42, 4), dtype=int16)}]
+
+解析后的文本:
+1. 中马钦州产业园区工管委文件处理笺
+2. 2019
+3. 3
+4. 2019-0458
+5. 年
+6. 月
+7. 编号：
+8. H
+9. 来文
+10. 广西泰嘉光电技术有
+11. 广西泰
+12. 普通
+13. 单位
+14. 文号
+15. 密级
+16. 限公司.
+17. [2019]007号
+18. 美华护西泰嘉光电技术有限公司申请3000万人民币项目资
+19. 金扶持的函
+20. 月16日在中马钦州产业园登记成立，注册资本10.5亿元人民币。目前
+21. 已到位资本金3085万元人民币，同时项目首批设备（约1.6亿美金）
+22. 计划于2019年3月9日抵达钦州保税港，并正式搬入钦州保税港区三
+23. 号路棉纺产业园4#仓库进行技术改造升级。依照《项目投资合作协议
+24. 书》第三条第一款协议，该司申请钦州中马产业园管委会拨付3000万
+25. 元人民币项目资金扶持，用于支持项目建设、人才引进以及专家和员
+26. 工办公住宿、交通等后勤保障服务，以扶持项目积极快速推进。
+27. 拟办意见：拟由财政局商经济发展局、投资合作局、产业平台公
+28. 司提出意见。
+29. 当否？呈工管委办公室兰捷主任阅示。
+30. 工管委办公室黄荣波2019.3.8
+31. 情财政局商经济发展局、投资合作局、产业平台公司速提意见。
+32. 呈高朴常务副主任、林海波副主任、谢东网射巡视员阅示。
+33. RR
+34. 兰捷2019-03-08 10:18:08
+35. 清投财产
+36. 50
+37. 发
+38. 调此单
+39. 司联合
+40. 易的协议，
+41. 2e19.3.8
+42. 快成相关件，尽。

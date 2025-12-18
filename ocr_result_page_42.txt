@@ -1,0 +1,195 @@
+OCR结果 - 第 42 页
+==================================================
+处理的图像: temp_page_41_processed.png
+原始PDF页面: 42
+
+详细结果:
+[{'input_path': 'temp_page_41_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1331,    0],
+       ...,
+       [1325,  138]], shape=(4, 2), dtype=int16), array([[154, 133],
+       ...,
+       [153, 183]], shape=(4, 2), dtype=int16), array([[240, 214],
+       ...,
+       [240, 258]], shape=(4, 2), dtype=int16), array([[160, 287],
+       ...,
+       [160, 332]], shape=(4, 2), dtype=int16), array([[162, 359],
+       ...,
+       [162, 403]], shape=(4, 2), dtype=int16), array([[239, 426],
+       ...,
+       [239, 475]], shape=(4, 2), dtype=int16), array([[159, 498],
+       ...,
+       [159, 545]], shape=(4, 2), dtype=int16), array([[159, 570],
+       ...,
+       [159, 616]], shape=(4, 2), dtype=int16), array([[157, 641],
+       ...,
+       [156, 685]], shape=(4, 2), dtype=int16), array([[480, 789],
+       ...,
+       [480, 832]], shape=(4, 2), dtype=int16), array([[648, 790],
+       ...,
+       [647, 832]], shape=(4, 2), dtype=int16), array([[732, 898],
+       ...,
+       [732, 981]], shape=(4, 2), dtype=int16), array([[242, 938],
+       ...,
+       [242, 978]], shape=(4, 2), dtype=int16), array([[1096,  936],
+       ...,
+       [1097,  984]], shape=(4, 2), dtype=int16), array([[ 156, 1007],
+       ...,
+       [ 156, 1050]], shape=(4, 2), dtype=int16), array([[ 156, 1079],
+       ...,
+       [ 156, 1120]], shape=(4, 2), dtype=int16), array([[ 239, 1150],
+       ...,
+       [ 239, 1194]], shape=(4, 2), dtype=int16), array([[ 330, 1216],
+       ...,
+       [ 330, 1271]], shape=(4, 2), dtype=int16), array([[ 165, 1295],
+       ...,
+       [ 165, 1339]], shape=(4, 2), dtype=int16), array([[ 235, 1358],
+       ...,
+       [ 235, 1419]], shape=(4, 2), dtype=int16), array([[ 159, 1442],
+       ...,
+       [ 160, 1486]], shape=(4, 2), dtype=int16), array([[ 470, 1501],
+       ...,
+       [ 471, 1555]], shape=(4, 2), dtype=int16), array([[ 246, 1511],
+       ...,
+       [ 247, 1562]], shape=(4, 2), dtype=int16), array([[ 490, 1568],
+       ...,
+       [ 491, 1627]], shape=(4, 2), dtype=int16), array([[ 242, 1581],
+       ...,
+       [ 243, 1636]], shape=(4, 2), dtype=int16), array([[1178, 1592],
+       ...,
+       [1178, 1613]], shape=(4, 2), dtype=int16), array([[ 484, 1637],
+       ...,
+       [ 485, 1699]], shape=(4, 2), dtype=int16), array([[ 597, 1708],
+       ...,
+       [ 598, 1760]], shape=(4, 2), dtype=int16), array([[ 518, 1719],
+       ...,
+       [ 518, 1760]], shape=(4, 2), dtype=int16), array([[ 241, 1738],
+       ...,
+       [ 244, 1788]], shape=(4, 2), dtype=int16), array([[ 722, 1783],
+       ...,
+       [ 722, 1821]], shape=(4, 2), dtype=int16), array([[ 809, 1778],
+       ...,
+       [ 809, 1823]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', '的证明。', '6.3甲亏保证在上述委托贷款发放前，将足额资金存入', '其在乙方开立的存款张户，因资金不到位影响委托贷款按时', '发放时，甲方承担由此产生的违约责任。', '6.4甲方出具《华夏银行委托贷款授权办理通知》，并加', '盖甲方单位预留印鉴，乙方凭此将委托贷款资金划付给丙', '方，若由于甲方拒绝出具该通知导致影响委托贷款按时发放', '的，乙方不承担由此产生的违约责任。', '第七条', '委托贷款的偿还', '营生收入', '7.1丙方以包括但不限干', '归还本台', '同项下委托贷款本息，并在任何情况下不得援用上述约定拒', '绝履行本合同项下还款义务。', '7.2丙方选择如下方式归还本合同项下委托贷款本金：', '一次还清。丙方于2019年12月3日次还清本', '台同项下全部委托贷款本金。', '凶分次连清。丙方按下列次序、时间、金额，分次还', '清本台同项下全部委托贷款本金：', '年月_日，额', '第一次：', '年月日，金额', '第二次：', '5', '年月日，金额', '_月日，金额', '年', '次：', '日，', '全额'], 'rec_scores': [0.39086925983428955, 0.8802079558372498, 0.9836477041244507, 0.9462990164756775, 0.994828462600708, 0.9563553333282471, 0.9930915832519531, 0.9766057729721069, 0.978247344493866, 0.9993159174919128, 0.9991534352302551, 0.8516817092895508, 0.9866291880607605, 0.9143198132514954, 0.9832842946052551, 0.9978851675987244, 0.9758594036102295, 0.8707519769668579, 0.9437344074249268, 0.9227060079574585, 0.887572169303894, 0.8549163341522217, 0.9545117020606995, 0.9069692492485046, 0.9709882140159607, 0.6550670862197876, 0.9339668154716492, 0.8107627034187317, 0.9956678152084351, 0.7544615268707275, 0.6323501467704773, 0.24915389716625214], 'rec_polys': [array([[1331,    0],
+       ...,
+       [1325,  138]], shape=(4, 2), dtype=int16), array([[154, 133],
+       ...,
+       [153, 183]], shape=(4, 2), dtype=int16), array([[240, 214],
+       ...,
+       [240, 258]], shape=(4, 2), dtype=int16), array([[160, 287],
+       ...,
+       [160, 332]], shape=(4, 2), dtype=int16), array([[162, 359],
+       ...,
+       [162, 403]], shape=(4, 2), dtype=int16), array([[239, 426],
+       ...,
+       [239, 475]], shape=(4, 2), dtype=int16), array([[159, 498],
+       ...,
+       [159, 545]], shape=(4, 2), dtype=int16), array([[159, 570],
+       ...,
+       [159, 616]], shape=(4, 2), dtype=int16), array([[157, 641],
+       ...,
+       [156, 685]], shape=(4, 2), dtype=int16), array([[480, 789],
+       ...,
+       [480, 832]], shape=(4, 2), dtype=int16), array([[648, 790],
+       ...,
+       [647, 832]], shape=(4, 2), dtype=int16), array([[732, 898],
+       ...,
+       [732, 981]], shape=(4, 2), dtype=int16), array([[242, 938],
+       ...,
+       [242, 978]], shape=(4, 2), dtype=int16), array([[1096,  936],
+       ...,
+       [1097,  984]], shape=(4, 2), dtype=int16), array([[ 156, 1007],
+       ...,
+       [ 156, 1050]], shape=(4, 2), dtype=int16), array([[ 156, 1079],
+       ...,
+       [ 156, 1120]], shape=(4, 2), dtype=int16), array([[ 239, 1150],
+       ...,
+       [ 239, 1194]], shape=(4, 2), dtype=int16), array([[ 330, 1216],
+       ...,
+       [ 330, 1271]], shape=(4, 2), dtype=int16), array([[ 165, 1295],
+       ...,
+       [ 165, 1339]], shape=(4, 2), dtype=int16), array([[ 235, 1358],
+       ...,
+       [ 235, 1419]], shape=(4, 2), dtype=int16), array([[ 159, 1442],
+       ...,
+       [ 160, 1486]], shape=(4, 2), dtype=int16), array([[ 470, 1501],
+       ...,
+       [ 471, 1555]], shape=(4, 2), dtype=int16), array([[ 246, 1511],
+       ...,
+       [ 247, 1562]], shape=(4, 2), dtype=int16), array([[ 490, 1568],
+       ...,
+       [ 491, 1627]], shape=(4, 2), dtype=int16), array([[ 242, 1581],
+       ...,
+       [ 243, 1636]], shape=(4, 2), dtype=int16), array([[1178, 1592],
+       ...,
+       [1178, 1613]], shape=(4, 2), dtype=int16), array([[ 484, 1637],
+       ...,
+       [ 485, 1699]], shape=(4, 2), dtype=int16), array([[ 597, 1708],
+       ...,
+       [ 598, 1760]], shape=(4, 2), dtype=int16), array([[ 518, 1719],
+       ...,
+       [ 518, 1760]], shape=(4, 2), dtype=int16), array([[ 241, 1738],
+       ...,
+       [ 244, 1788]], shape=(4, 2), dtype=int16), array([[ 722, 1783],
+       ...,
+       [ 722, 1821]], shape=(4, 2), dtype=int16), array([[ 809, 1778],
+       ...,
+       [ 809, 1823]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1325, ...,  142],
+       ...,
+       [ 809, ..., 1823]], shape=(32, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. 的证明。
+3. 6.3甲亏保证在上述委托贷款发放前，将足额资金存入
+4. 其在乙方开立的存款张户，因资金不到位影响委托贷款按时
+5. 发放时，甲方承担由此产生的违约责任。
+6. 6.4甲方出具《华夏银行委托贷款授权办理通知》，并加
+7. 盖甲方单位预留印鉴，乙方凭此将委托贷款资金划付给丙
+8. 方，若由于甲方拒绝出具该通知导致影响委托贷款按时发放
+9. 的，乙方不承担由此产生的违约责任。
+10. 第七条
+11. 委托贷款的偿还
+12. 营生收入
+13. 7.1丙方以包括但不限干
+14. 归还本台
+15. 同项下委托贷款本息，并在任何情况下不得援用上述约定拒
+16. 绝履行本合同项下还款义务。
+17. 7.2丙方选择如下方式归还本合同项下委托贷款本金：
+18. 一次还清。丙方于2019年12月3日次还清本
+19. 台同项下全部委托贷款本金。
+20. 凶分次连清。丙方按下列次序、时间、金额，分次还
+21. 清本台同项下全部委托贷款本金：
+22. 年月_日，额
+23. 第一次：
+24. 年月日，金额
+25. 第二次：
+26. 5
+27. 年月日，金额
+28. _月日，金额
+29. 年
+30. 次：
+31. 日，
+32. 全额

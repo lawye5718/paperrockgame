@@ -1,0 +1,60 @@
+OCR结果 - 第 137 页
+==================================================
+处理的图像: temp_page_136_processed.png
+原始PDF页面: 137
+
+详细结果:
+[{'input_path': 'temp_page_136_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[308, 270],
+       ...,
+       [309, 346]], shape=(4, 2), dtype=int16), array([[337, 349],
+       ...,
+       [338, 425]], shape=(4, 2), dtype=int16), array([[500, 429],
+       ...,
+       [500, 499]], shape=(4, 2), dtype=int16), array([[ 413, 1263],
+       ...,
+       [ 414, 1321]], shape=(4, 2), dtype=int16), array([[ 540, 1321],
+       ...,
+       [ 541, 1376]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西泰嘉光电科技有限公司', '超薄玻璃基板深加工项目', '工程分析专项', '中国电子工程设计院有限公司', '二O二〇年四月'], 'rec_scores': [0.9996610283851624, 0.9986095428466797, 0.9999136924743652, 0.9995077848434448, 0.8622845411300659], 'rec_polys': [array([[308, 270],
+       ...,
+       [309, 346]], shape=(4, 2), dtype=int16), array([[337, 349],
+       ...,
+       [338, 425]], shape=(4, 2), dtype=int16), array([[500, 429],
+       ...,
+       [500, 499]], shape=(4, 2), dtype=int16), array([[ 413, 1263],
+       ...,
+       [ 414, 1321]], shape=(4, 2), dtype=int16), array([[ 540, 1321],
+       ...,
+       [ 541, 1376]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0], 'rec_boxes': array([[ 308, ...,  346],
+       ...,
+       [ 540, ..., 1376]], shape=(5, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西泰嘉光电科技有限公司
+2. 超薄玻璃基板深加工项目
+3. 工程分析专项
+4. 中国电子工程设计院有限公司
+5. 二O二〇年四月

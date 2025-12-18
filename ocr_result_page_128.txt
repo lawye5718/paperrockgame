@@ -1,0 +1,115 @@
+OCR结果 - 第 128 页
+==================================================
+处理的图像: temp_page_127_processed.png
+原始PDF页面: 128
+
+详细结果:
+[{'input_path': 'temp_page_127_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[  0, ...,   0],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1446, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1446, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1446, 3), dtype=uint8)}, 'dt_polys': [array([[1324,   19],
+       ...,
+       [1327,  116]], shape=(4, 2), dtype=int16), array([[130, 278],
+       ...,
+       [130, 555]], shape=(4, 2), dtype=int16), array([[544, 608],
+       ...,
+       [543, 661]], shape=(4, 2), dtype=int16), array([[234, 817],
+       ...,
+       [233, 890]], shape=(4, 2), dtype=int16), array([[502, 896],
+       ...,
+       [499, 969]], shape=(4, 2), dtype=int16), array([[ 196, 1058],
+       ...,
+       [ 196, 1098]], shape=(4, 2), dtype=int16), array([[ 275, 1131],
+       ...,
+       [ 274, 1172]], shape=(4, 2), dtype=int16), array([[ 195, 1203],
+       ...,
+       [ 195, 1243]], shape=(4, 2), dtype=int16), array([[ 194, 1276],
+       ...,
+       [ 194, 1318]], shape=(4, 2), dtype=int16), array([[ 277, 1354],
+       ...,
+       [ 276, 1394]], shape=(4, 2), dtype=int16), array([[ 191, 1426],
+       ...,
+       [ 191, 1470]], shape=(4, 2), dtype=int16), array([[ 274, 1502],
+       ...,
+       [ 273, 1545]], shape=(4, 2), dtype=int16), array([[ 189, 1574],
+       ...,
+       [ 189, 1615]], shape=(4, 2), dtype=int16), array([[ 188, 1646],
+       ...,
+       [ 187, 1687]], shape=(4, 2), dtype=int16), array([[ 189, 1719],
+       ...,
+       [ 187, 1760]], shape=(4, 2), dtype=int16), array([[1252, 1942],
+       ...,
+       [1252, 1968]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['126', '钦州市财政局文件', '钦市财预〔2017]33号', '关于2017年中马钦州产业园中央补助资金', '安排使用方案的批复', '中马钦州产业园区管委会财政局：', '根据自治区财政厅《关于2017年中马钦州产业园中央补助', '资金安排使用方案的批复》（桂财预[2017]56号）精神，现批', '复2017年中马钦州产业园中央补助资金安排使用方案如下：', '一、基础设施及城市配套设施建设资金3.5亿元；产业扶持', '资金2亿元；向园区公司增资1.5亿元。具体项目和金额见附件。', '二、根据财政部《关于修订2017年政府收支分类科目的通', '知》（财预[2017]28号），从2017年1月1日起，将新增建设', '用地土地有偿使用费调整转列一般公共预算并统筹使用。据此，', '请将我局《关于提前下达2017年中马钦州产业园中央补助资金的', '1'], 'rec_scores': [0.9955591559410095, 0.9993130564689636, 0.8991906642913818, 0.9994322657585144, 0.9991431832313538, 0.9915680289268494, 0.9965813159942627, 0.9557088613510132, 0.9810013175010681, 0.9959877729415894, 0.9976275563240051, 0.997779369354248, 0.9442654252052307, 0.9927802681922913, 0.9968488812446594, 0.9943874478340149], 'rec_polys': [array([[1324,   19],
+       ...,
+       [1327,  116]], shape=(4, 2), dtype=int16), array([[130, 278],
+       ...,
+       [130, 555]], shape=(4, 2), dtype=int16), array([[544, 608],
+       ...,
+       [543, 661]], shape=(4, 2), dtype=int16), array([[234, 817],
+       ...,
+       [233, 890]], shape=(4, 2), dtype=int16), array([[502, 896],
+       ...,
+       [499, 969]], shape=(4, 2), dtype=int16), array([[ 196, 1058],
+       ...,
+       [ 196, 1098]], shape=(4, 2), dtype=int16), array([[ 275, 1131],
+       ...,
+       [ 274, 1172]], shape=(4, 2), dtype=int16), array([[ 195, 1203],
+       ...,
+       [ 195, 1243]], shape=(4, 2), dtype=int16), array([[ 194, 1276],
+       ...,
+       [ 194, 1318]], shape=(4, 2), dtype=int16), array([[ 277, 1354],
+       ...,
+       [ 276, 1394]], shape=(4, 2), dtype=int16), array([[ 191, 1426],
+       ...,
+       [ 191, 1470]], shape=(4, 2), dtype=int16), array([[ 274, 1502],
+       ...,
+       [ 273, 1545]], shape=(4, 2), dtype=int16), array([[ 189, 1574],
+       ...,
+       [ 189, 1615]], shape=(4, 2), dtype=int16), array([[ 188, 1646],
+       ...,
+       [ 187, 1687]], shape=(4, 2), dtype=int16), array([[ 189, 1719],
+       ...,
+       [ 187, 1760]], shape=(4, 2), dtype=int16), array([[1252, 1942],
+       ...,
+       [1252, 1968]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1324, ...,  116],
+       ...,
+       [1252, ..., 1968]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 126
+2. 钦州市财政局文件
+3. 钦市财预〔2017]33号
+4. 关于2017年中马钦州产业园中央补助资金
+5. 安排使用方案的批复
+6. 中马钦州产业园区管委会财政局：
+7. 根据自治区财政厅《关于2017年中马钦州产业园中央补助
+8. 资金安排使用方案的批复》（桂财预[2017]56号）精神，现批
+9. 复2017年中马钦州产业园中央补助资金安排使用方案如下：
+10. 一、基础设施及城市配套设施建设资金3.5亿元；产业扶持
+11. 资金2亿元；向园区公司增资1.5亿元。具体项目和金额见附件。
+12. 二、根据财政部《关于修订2017年政府收支分类科目的通
+13. 知》（财预[2017]28号），从2017年1月1日起，将新增建设
+14. 用地土地有偿使用费调整转列一般公共预算并统筹使用。据此，
+15. 请将我局《关于提前下达2017年中马钦州产业园中央补助资金的
+16. 1

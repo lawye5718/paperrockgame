@@ -1,0 +1,100 @@
+OCR结果 - 第 92 页
+==================================================
+处理的图像: temp_page_91_processed.png
+原始PDF页面: 92
+
+详细结果:
+[{'input_path': 'temp_page_91_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[198,   0],
+       ...,
+       [198,  20]], shape=(4, 2), dtype=int16), array([[979,   0],
+       ...,
+       [978,  32]], shape=(4, 2), dtype=int16), array([[448,  76],
+       ...,
+       [446, 149]], shape=(4, 2), dtype=int16), array([[322, 193],
+       ...,
+       [321, 235]], shape=(4, 2), dtype=int16), array([[323, 254],
+       ...,
+       [322, 292]], shape=(4, 2), dtype=int16), array([[320, 308],
+       ...,
+       [319, 349]], shape=(4, 2), dtype=int16), array([[401, 370],
+       ...,
+       [401, 405]], shape=(4, 2), dtype=int16), array([[398, 426],
+       ...,
+       [398, 460]], shape=(4, 2), dtype=int16), array([[399, 489],
+       ...,
+       [399, 520]], shape=(4, 2), dtype=int16), array([[400, 544],
+       ...,
+       [400, 575]], shape=(4, 2), dtype=int16), array([[401, 602],
+       ...,
+       [401, 632]], shape=(4, 2), dtype=int16), array([[319, 650],
+       ...,
+       [318, 688]], shape=(4, 2), dtype=int16), array([[416, 711],
+       ...,
+       [416, 743]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['光电科技有限公电品设金价工许工', '中阳评报字[2019]第205号', '资产评估报告书附件', '一、固定资产——机器设备清查评估明细表', '二、评估对象照片资料', '三、委托方提供的产权证明和其他资料', '1、委托方和资产占有方承诺函', '2、委托方和资产占有方营业执照', '3、评估对象《买卖协议》、付款凭证；', '4、评估对象通关（进境）文件；', '5、《注资设备移交及验收证明》。', '四、评估机构及签字资产评估师资质、资格证明文件', '（以上均为复印件，见后附件）'], 'rec_scores': [0.6422340273857117, 0.9140911102294922, 0.999589204788208, 0.9790173768997192, 0.9985081553459167, 0.9988319277763367, 0.9974263906478882, 0.9984219670295715, 0.9827292561531067, 0.9395791888237, 0.9884339570999146, 0.997566819190979, 0.9622424244880676], 'rec_polys': [array([[198,   0],
+       ...,
+       [198,  20]], shape=(4, 2), dtype=int16), array([[979,   0],
+       ...,
+       [978,  32]], shape=(4, 2), dtype=int16), array([[448,  76],
+       ...,
+       [446, 149]], shape=(4, 2), dtype=int16), array([[322, 193],
+       ...,
+       [321, 235]], shape=(4, 2), dtype=int16), array([[323, 254],
+       ...,
+       [322, 292]], shape=(4, 2), dtype=int16), array([[320, 308],
+       ...,
+       [319, 349]], shape=(4, 2), dtype=int16), array([[401, 370],
+       ...,
+       [401, 405]], shape=(4, 2), dtype=int16), array([[398, 426],
+       ...,
+       [398, 460]], shape=(4, 2), dtype=int16), array([[399, 489],
+       ...,
+       [399, 520]], shape=(4, 2), dtype=int16), array([[400, 544],
+       ...,
+       [400, 575]], shape=(4, 2), dtype=int16), array([[401, 602],
+       ...,
+       [401, 632]], shape=(4, 2), dtype=int16), array([[319, 650],
+       ...,
+       [318, 688]], shape=(4, 2), dtype=int16), array([[416, 711],
+       ...,
+       [416, 743]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[198, ...,  21],
+       ...,
+       [416, ..., 745]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. 光电科技有限公电品设金价工许工
+2. 中阳评报字[2019]第205号
+3. 资产评估报告书附件
+4. 一、固定资产——机器设备清查评估明细表
+5. 二、评估对象照片资料
+6. 三、委托方提供的产权证明和其他资料
+7. 1、委托方和资产占有方承诺函
+8. 2、委托方和资产占有方营业执照
+9. 3、评估对象《买卖协议》、付款凭证；
+10. 4、评估对象通关（进境）文件；
+11. 5、《注资设备移交及验收证明》。
+12. 四、评估机构及签字资产评估师资质、资格证明文件
+13. （以上均为复印件，见后附件）

@@ -1,0 +1,165 @@
+OCR结果 - 第 9 页
+==================================================
+处理的图像: temp_page_8_processed.png
+原始PDF页面: 9
+
+详细结果:
+[{'input_path': 'temp_page_8_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1366,    0],
+       ...,
+       [1366,   65]], shape=(4, 2), dtype=int16), array([[227, 185],
+       ...,
+       [227, 234]], shape=(4, 2), dtype=int16), array([[225, 255],
+       ...,
+       [225, 302]], shape=(4, 2), dtype=int16), array([[142, 321],
+       ...,
+       [141, 369]], shape=(4, 2), dtype=int16), array([[140, 388],
+       ...,
+       [139, 438]], shape=(4, 2), dtype=int16), array([[140, 457],
+       ...,
+       [139, 505]], shape=(4, 2), dtype=int16), array([[139, 526],
+       ...,
+       [138, 577]], shape=(4, 2), dtype=int16), array([[138, 597],
+       ...,
+       [137, 647]], shape=(4, 2), dtype=int16), array([[140, 671],
+       ...,
+       [139, 719]], shape=(4, 2), dtype=int16), array([[141, 742],
+       ...,
+       [140, 789]], shape=(4, 2), dtype=int16), array([[139, 813],
+       ...,
+       [138, 861]], shape=(4, 2), dtype=int16), array([[139, 886],
+       ...,
+       [138, 930]], shape=(4, 2), dtype=int16), array([[ 139,  958],
+       ...,
+       [ 138, 1002]], shape=(4, 2), dtype=int16), array([[ 139, 1030],
+       ...,
+       [ 138, 1071]], shape=(4, 2), dtype=int16), array([[ 221, 1101],
+       ...,
+       [ 221, 1141]], shape=(4, 2), dtype=int16), array([[ 219, 1168],
+       ...,
+       [ 219, 1212]], shape=(4, 2), dtype=int16), array([[ 131, 1237],
+       ...,
+       [ 130, 1284]], shape=(4, 2), dtype=int16), array([[ 132, 1309],
+       ...,
+       [ 132, 1353]], shape=(4, 2), dtype=int16), array([[ 130, 1382],
+       ...,
+       [ 130, 1422]], shape=(4, 2), dtype=int16), array([[ 131, 1454],
+       ...,
+       [ 131, 1494]], shape=(4, 2), dtype=int16), array([[ 128, 1522],
+       ...,
+       [ 128, 1564]], shape=(4, 2), dtype=int16), array([[ 125, 1590],
+       ...,
+       [ 125, 1637]], shape=(4, 2), dtype=int16), array([[ 125, 1660],
+       ...,
+       [ 125, 1708]], shape=(4, 2), dtype=int16), array([[ 124, 1731],
+       ...,
+       [ 124, 1779]], shape=(4, 2), dtype=int16), array([[ 108, 1861],
+       ...,
+       [ 111, 1950]], shape=(4, 2), dtype=int16), array([[ 934, 1884],
+       ...,
+       [ 934, 1923]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['6', '问：你是否有参与广西泰嘉公司项目?', '答：有的，我前面也参加了一些王雄昌主持召开的广西泰嘉', '项目的推进会。我在担任广西钦保投资集团有限责任公司（以下', '简称钦保投集团，后改名为广西自贸区钦州港片区开发投资集团', '有限责任公司，以下简称自贸开投集团）总经理期间，王雄昌让', '我去找8000万元人民币（以下未标明币种的均为人民币）借给', '广西泰嘉公司。经过我们商量，王雄昌决定让我安排钦保投集团', '通过委托贷款的方式借给东莞市合丰泰光电科技有限公司（以下', '简称东莞合丰泰公司）8000万元，第三方银行机构是华夏银行', '钦州支行。后来华夏银行钦州支行不愿意继续承接该笔委托贷款', '后，再由自贸开投集团（此时钦保投集团已更名为自贸开投集团）', '通过委托贷款方式借给广西泰嘉光电科技有限公司（以下简称广', '西泰嘉公司）8000万元，第三方银行机构是桂林银行钦州分行。', '问：请你讲讲钦保投集团涉及广西泰嘉项目的具体情况?', '答：好的。2018年下半年的一天，王雄昌找到我说他之前', '答应了许于辰要从市政府借8000万元人民币给深圳合丰泰科技', '集团有限公司（以下简称深圳合丰泰集团）用于购买超薄玻璃基', '板深加工项目生产设备的运输费用。解决不了运费的问题，广西', '泰嘉项目就没办法落地钦州。但市财政局提出政府不能够直接借', '钱给民管企业，无法从市财政局直接借钱给深圳合丰泰集团。他', '还说也安排市财政局何倪带着深圳合丰泰集团的人员去找银行', '贷款，走访完钦州所有的银行都以广西泰嘉项目没有实际投资、', '项目还未落地、没有实际生产经营等不符合贷款要求为由直接拒', '签名:文武', '第4页共14页'], 'rec_scores': [0.9443734884262085, 0.9773722290992737, 0.9940260648727417, 0.9946895241737366, 0.9964385628700256, 0.9945502877235413, 0.9941115379333496, 0.9983309507369995, 0.9939202666282654, 0.9969009757041931, 0.9986934661865234, 0.9746550917625427, 0.9944134950637817, 0.991963267326355, 0.9730208516120911, 0.9954571723937988, 0.9988974332809448, 0.9944080710411072, 0.9977956414222717, 0.9967384934425354, 0.9834920763969421, 0.9990085959434509, 0.9967215657234192, 0.9782741665840149, 0.8516596555709839, 0.9985638856887817], 'rec_polys': [array([[1366,    0],
+       ...,
+       [1366,   65]], shape=(4, 2), dtype=int16), array([[227, 185],
+       ...,
+       [227, 234]], shape=(4, 2), dtype=int16), array([[225, 255],
+       ...,
+       [225, 302]], shape=(4, 2), dtype=int16), array([[142, 321],
+       ...,
+       [141, 369]], shape=(4, 2), dtype=int16), array([[140, 388],
+       ...,
+       [139, 438]], shape=(4, 2), dtype=int16), array([[140, 457],
+       ...,
+       [139, 505]], shape=(4, 2), dtype=int16), array([[139, 526],
+       ...,
+       [138, 577]], shape=(4, 2), dtype=int16), array([[138, 597],
+       ...,
+       [137, 647]], shape=(4, 2), dtype=int16), array([[140, 671],
+       ...,
+       [139, 719]], shape=(4, 2), dtype=int16), array([[141, 742],
+       ...,
+       [140, 789]], shape=(4, 2), dtype=int16), array([[139, 813],
+       ...,
+       [138, 861]], shape=(4, 2), dtype=int16), array([[139, 886],
+       ...,
+       [138, 930]], shape=(4, 2), dtype=int16), array([[ 139,  958],
+       ...,
+       [ 138, 1002]], shape=(4, 2), dtype=int16), array([[ 139, 1030],
+       ...,
+       [ 138, 1071]], shape=(4, 2), dtype=int16), array([[ 221, 1101],
+       ...,
+       [ 221, 1141]], shape=(4, 2), dtype=int16), array([[ 219, 1168],
+       ...,
+       [ 219, 1212]], shape=(4, 2), dtype=int16), array([[ 131, 1237],
+       ...,
+       [ 130, 1284]], shape=(4, 2), dtype=int16), array([[ 132, 1309],
+       ...,
+       [ 132, 1353]], shape=(4, 2), dtype=int16), array([[ 130, 1382],
+       ...,
+       [ 130, 1422]], shape=(4, 2), dtype=int16), array([[ 131, 1454],
+       ...,
+       [ 131, 1494]], shape=(4, 2), dtype=int16), array([[ 128, 1522],
+       ...,
+       [ 128, 1564]], shape=(4, 2), dtype=int16), array([[ 125, 1590],
+       ...,
+       [ 125, 1637]], shape=(4, 2), dtype=int16), array([[ 125, 1660],
+       ...,
+       [ 125, 1708]], shape=(4, 2), dtype=int16), array([[ 124, 1731],
+       ...,
+       [ 124, 1779]], shape=(4, 2), dtype=int16), array([[ 108, 1861],
+       ...,
+       [ 111, 1950]], shape=(4, 2), dtype=int16), array([[ 934, 1884],
+       ...,
+       [ 934, 1923]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1366, ...,   65],
+       ...,
+       [ 934, ..., 1923]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 6
+2. 问：你是否有参与广西泰嘉公司项目?
+3. 答：有的，我前面也参加了一些王雄昌主持召开的广西泰嘉
+4. 项目的推进会。我在担任广西钦保投资集团有限责任公司（以下
+5. 简称钦保投集团，后改名为广西自贸区钦州港片区开发投资集团
+6. 有限责任公司，以下简称自贸开投集团）总经理期间，王雄昌让
+7. 我去找8000万元人民币（以下未标明币种的均为人民币）借给
+8. 广西泰嘉公司。经过我们商量，王雄昌决定让我安排钦保投集团
+9. 通过委托贷款的方式借给东莞市合丰泰光电科技有限公司（以下
+10. 简称东莞合丰泰公司）8000万元，第三方银行机构是华夏银行
+11. 钦州支行。后来华夏银行钦州支行不愿意继续承接该笔委托贷款
+12. 后，再由自贸开投集团（此时钦保投集团已更名为自贸开投集团）
+13. 通过委托贷款方式借给广西泰嘉光电科技有限公司（以下简称广
+14. 西泰嘉公司）8000万元，第三方银行机构是桂林银行钦州分行。
+15. 问：请你讲讲钦保投集团涉及广西泰嘉项目的具体情况?
+16. 答：好的。2018年下半年的一天，王雄昌找到我说他之前
+17. 答应了许于辰要从市政府借8000万元人民币给深圳合丰泰科技
+18. 集团有限公司（以下简称深圳合丰泰集团）用于购买超薄玻璃基
+19. 板深加工项目生产设备的运输费用。解决不了运费的问题，广西
+20. 泰嘉项目就没办法落地钦州。但市财政局提出政府不能够直接借
+21. 钱给民管企业，无法从市财政局直接借钱给深圳合丰泰集团。他
+22. 还说也安排市财政局何倪带着深圳合丰泰集团的人员去找银行
+23. 贷款，走访完钦州所有的银行都以广西泰嘉项目没有实际投资、
+24. 项目还未落地、没有实际生产经营等不符合贷款要求为由直接拒
+25. 签名:文武
+26. 第4页共14页

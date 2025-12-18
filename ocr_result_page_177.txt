@@ -1,0 +1,195 @@
+OCR结果 - 第 177 页
+==================================================
+处理的图像: temp_page_176_processed.png
+原始PDF页面: 177
+
+详细结果:
+[{'input_path': 'temp_page_176_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[226, 109],
+       ...,
+       [224, 150]], shape=(4, 2), dtype=int16), array([[345, 120],
+       ...,
+       [347, 173]], shape=(4, 2), dtype=int16), array([[706, 118],
+       ...,
+       [706, 159]], shape=(4, 2), dtype=int16), array([[913, 116],
+       ...,
+       [912, 158]], shape=(4, 2), dtype=int16), array([[332, 452],
+       ...,
+       [332, 486]], shape=(4, 2), dtype=int16), array([[546, 450],
+       ...,
+       [547, 485]], shape=(4, 2), dtype=int16), array([[763, 447],
+       ...,
+       [763, 482]], shape=(4, 2), dtype=int16), array([[966, 447],
+       ...,
+       [966, 482]], shape=(4, 2), dtype=int16), array([[1119,  495],
+       ...,
+       [1118,  526]], shape=(4, 2), dtype=int16), array([[260, 559],
+       ...,
+       [260, 589]], shape=(4, 2), dtype=int16), array([[1121,  575],
+       ...,
+       [1121,  606]], shape=(4, 2), dtype=int16), array([[491, 673],
+       ...,
+       [491, 705]], shape=(4, 2), dtype=int16), array([[168, 763],
+       ...,
+       [167, 798]], shape=(4, 2), dtype=int16), array([[169, 824],
+       ...,
+       [169, 861]], shape=(4, 2), dtype=int16), array([[109, 881],
+       ...,
+       [109, 918]], shape=(4, 2), dtype=int16), array([[112, 941],
+       ...,
+       [112, 977]], shape=(4, 2), dtype=int16), array([[ 116, 1003],
+       ...,
+       [ 116, 1033]], shape=(4, 2), dtype=int16), array([[ 192, 1062],
+       ...,
+       [ 192, 1094]], shape=(4, 2), dtype=int16), array([[ 182, 1131],
+       ...,
+       [ 182, 1158]], shape=(4, 2), dtype=int16), array([[ 120, 1183],
+       ...,
+       [ 120, 1214]], shape=(4, 2), dtype=int16), array([[ 120, 1240],
+       ...,
+       [ 120, 1270]], shape=(4, 2), dtype=int16), array([[ 136, 1298],
+       ...,
+       [ 136, 1329]], shape=(4, 2), dtype=int16), array([[ 122, 1354],
+       ...,
+       [ 122, 1385]], shape=(4, 2), dtype=int16), array([[ 116, 1409],
+       ...,
+       [ 116, 1446]], shape=(4, 2), dtype=int16), array([[ 180, 1470],
+       ...,
+       [ 181, 1501]], shape=(4, 2), dtype=int16), array([[ 182, 1525],
+       ...,
+       [ 183, 1555]], shape=(4, 2), dtype=int16), array([[ 196, 1582],
+       ...,
+       [ 197, 1612]], shape=(4, 2), dtype=int16), array([[ 182, 1635],
+       ...,
+       [ 182, 1665]], shape=(4, 2), dtype=int16), array([[ 122, 1693],
+       ...,
+       [ 122, 1720]], shape=(4, 2), dtype=int16), array([[ 122, 1748],
+       ...,
+       [ 122, 1775]], shape=(4, 2), dtype=int16), array([[ 123, 1803],
+       ...,
+       [ 123, 1831]], shape=(4, 2), dtype=int16), array([[ 677, 1859],
+       ...,
+       [ 677, 1889]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['药液', '玻璃基板移动超纯水', '超沌水', '超纯水', '酸药液', '消洗擂水1', '清洗排水2', '清洗排水3', '清洗水回收系统', '废液收集系统', '废水处理系统', '图2.2-1玻璃基板清洗工艺示意图', '清洗工序污染源：', '清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系', '统，经处理后回用。排放的废水根据前道工序又分为：酸碱废水、含氟废水、含磷废水、', '有机废水，经收集后分别进入废水处理站处理后排放。各类排放废水的具体分析在相关', '工序的产污环节分析中。', '(2) 溅射工序', '溅射是物理气相沉积PVD的一种，它通过在真空系统中使惰性气体（如氮气、氩气）', '在低压下离子化，向所用溅射的材料组成的靶材（铝）加速，将靶材上的金属原子撞击', '落在玻璃基板上沉积下来作为电路的内引线。本项目TFT-LCD生产采用AI、ITO', '（SnO2/In2O3）靶材作为溅射的材料。通过溅射工序，这些金属靶材大部分进入产品，', '小部分未被溅射形成废靶材，仅有少量的沉积金属在后道工序湿法刻蚀后会被带到废液', '里。', '溅射工序污染源：', '固体废物：废金属靶材S2，作为危险废物处理。', '(3）化学气相沉积工序（CVD)', '等离子化学气相沉积，即在金属板上形成半导体薄膜或绝缘体薄膜的过程，通过特', '定气体在等离子状态下反应，生成物附着在基板表面，形成绝缘体或半导体薄膜。即在', '一定的温度下通过特种气体进行化学反应在玻璃基板上沉积氧化硅、氮化硅和非晶硅等', '半导体器件材料的过程。', '38'], 'rec_scores': [0.9992391467094421, 0.9848012924194336, 0.7487440705299377, 0.8469136357307434, 0.8199217319488525, 0.6757274270057678, 0.9354609251022339, 0.887184739112854, 0.9962846040725708, 0.9077911376953125, 0.9297835230827332, 0.9766908288002014, 0.981759250164032, 0.9955114722251892, 0.9834133982658386, 0.9987331032752991, 0.9980461597442627, 0.867537260055542, 0.9578542113304138, 0.9921480417251587, 0.9859821200370789, 0.9679262638092041, 0.9990946054458618, 0.9851852059364319, 0.9810007810592651, 0.987883985042572, 0.911707878112793, 0.9977924823760986, 0.9959771037101746, 0.9963685870170593, 0.9964081048965454, 0.9994934797286987], 'rec_polys': [array([[226, 109],
+       ...,
+       [224, 150]], shape=(4, 2), dtype=int16), array([[345, 120],
+       ...,
+       [347, 173]], shape=(4, 2), dtype=int16), array([[706, 118],
+       ...,
+       [706, 159]], shape=(4, 2), dtype=int16), array([[913, 116],
+       ...,
+       [912, 158]], shape=(4, 2), dtype=int16), array([[332, 452],
+       ...,
+       [332, 486]], shape=(4, 2), dtype=int16), array([[546, 450],
+       ...,
+       [547, 485]], shape=(4, 2), dtype=int16), array([[763, 447],
+       ...,
+       [763, 482]], shape=(4, 2), dtype=int16), array([[966, 447],
+       ...,
+       [966, 482]], shape=(4, 2), dtype=int16), array([[1119,  495],
+       ...,
+       [1118,  526]], shape=(4, 2), dtype=int16), array([[260, 559],
+       ...,
+       [260, 589]], shape=(4, 2), dtype=int16), array([[1121,  575],
+       ...,
+       [1121,  606]], shape=(4, 2), dtype=int16), array([[491, 673],
+       ...,
+       [491, 705]], shape=(4, 2), dtype=int16), array([[168, 763],
+       ...,
+       [167, 798]], shape=(4, 2), dtype=int16), array([[169, 824],
+       ...,
+       [169, 861]], shape=(4, 2), dtype=int16), array([[109, 881],
+       ...,
+       [109, 918]], shape=(4, 2), dtype=int16), array([[112, 941],
+       ...,
+       [112, 977]], shape=(4, 2), dtype=int16), array([[ 116, 1003],
+       ...,
+       [ 116, 1033]], shape=(4, 2), dtype=int16), array([[ 192, 1062],
+       ...,
+       [ 192, 1094]], shape=(4, 2), dtype=int16), array([[ 182, 1131],
+       ...,
+       [ 182, 1158]], shape=(4, 2), dtype=int16), array([[ 120, 1183],
+       ...,
+       [ 120, 1214]], shape=(4, 2), dtype=int16), array([[ 120, 1240],
+       ...,
+       [ 120, 1270]], shape=(4, 2), dtype=int16), array([[ 136, 1298],
+       ...,
+       [ 136, 1329]], shape=(4, 2), dtype=int16), array([[ 122, 1354],
+       ...,
+       [ 122, 1385]], shape=(4, 2), dtype=int16), array([[ 116, 1409],
+       ...,
+       [ 116, 1446]], shape=(4, 2), dtype=int16), array([[ 180, 1470],
+       ...,
+       [ 181, 1501]], shape=(4, 2), dtype=int16), array([[ 182, 1525],
+       ...,
+       [ 183, 1555]], shape=(4, 2), dtype=int16), array([[ 196, 1582],
+       ...,
+       [ 197, 1612]], shape=(4, 2), dtype=int16), array([[ 182, 1635],
+       ...,
+       [ 182, 1665]], shape=(4, 2), dtype=int16), array([[ 122, 1693],
+       ...,
+       [ 122, 1720]], shape=(4, 2), dtype=int16), array([[ 122, 1748],
+       ...,
+       [ 122, 1775]], shape=(4, 2), dtype=int16), array([[ 123, 1803],
+       ...,
+       [ 123, 1831]], shape=(4, 2), dtype=int16), array([[ 677, 1859],
+       ...,
+       [ 677, 1889]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 224, ...,  153],
+       ...,
+       [ 677, ..., 1889]], shape=(32, 4), dtype=int16)}]
+
+解析后的文本:
+1. 药液
+2. 玻璃基板移动超纯水
+3. 超沌水
+4. 超纯水
+5. 酸药液
+6. 消洗擂水1
+7. 清洗排水2
+8. 清洗排水3
+9. 清洗水回收系统
+10. 废液收集系统
+11. 废水处理系统
+12. 图2.2-1玻璃基板清洗工艺示意图
+13. 清洗工序污染源：
+14. 清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系
+15. 统，经处理后回用。排放的废水根据前道工序又分为：酸碱废水、含氟废水、含磷废水、
+16. 有机废水，经收集后分别进入废水处理站处理后排放。各类排放废水的具体分析在相关
+17. 工序的产污环节分析中。
+18. (2) 溅射工序
+19. 溅射是物理气相沉积PVD的一种，它通过在真空系统中使惰性气体（如氮气、氩气）
+20. 在低压下离子化，向所用溅射的材料组成的靶材（铝）加速，将靶材上的金属原子撞击
+21. 落在玻璃基板上沉积下来作为电路的内引线。本项目TFT-LCD生产采用AI、ITO
+22. （SnO2/In2O3）靶材作为溅射的材料。通过溅射工序，这些金属靶材大部分进入产品，
+23. 小部分未被溅射形成废靶材，仅有少量的沉积金属在后道工序湿法刻蚀后会被带到废液
+24. 里。
+25. 溅射工序污染源：
+26. 固体废物：废金属靶材S2，作为危险废物处理。
+27. (3）化学气相沉积工序（CVD)
+28. 等离子化学气相沉积，即在金属板上形成半导体薄膜或绝缘体薄膜的过程，通过特
+29. 定气体在等离子状态下反应，生成物附着在基板表面，形成绝缘体或半导体薄膜。即在
+30. 一定的温度下通过特种气体进行化学反应在玻璃基板上沉积氧化硅、氮化硅和非晶硅等
+31. 半导体器件材料的过程。
+32. 38

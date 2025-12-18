@@ -1,0 +1,170 @@
+OCR结果 - 第 20 页
+==================================================
+处理的图像: temp_page_19_processed.png
+原始PDF页面: 20
+
+详细结果:
+[{'input_path': 'temp_page_19_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[304, 170],
+       ...,
+       [305, 273]], shape=(4, 2), dtype=int16), array([[312, 263],
+       ...,
+       [312, 315]], shape=(4, 2), dtype=int16), array([[910, 343],
+       ...,
+       [836, 434]], shape=(4, 2), dtype=int16), array([[861, 422],
+       ...,
+       [824, 461]], shape=(4, 2), dtype=int16), array([[472, 582],
+       ...,
+       [480, 736]], shape=(4, 2), dtype=int16), array([[554, 781],
+       ...,
+       [520, 817]], shape=(4, 2), dtype=int16), array([[695, 926],
+       ...,
+       [669, 953]], shape=(4, 2), dtype=int16), array([[ 534,  977],
+       ...,
+       [ 535, 1023]], shape=(4, 2), dtype=int16), array([[ 136,  994],
+       ...,
+       [ 139, 1048]], shape=(4, 2), dtype=int16), array([[ 259, 1083],
+       ...,
+       [ 259, 1103]], shape=(4, 2), dtype=int16), array([[ 400, 1084],
+       ...,
+       [ 402, 1132]], shape=(4, 2), dtype=int16), array([[ 133, 1100],
+       ...,
+       [ 137, 1159]], shape=(4, 2), dtype=int16), array([[ 215, 1139],
+       ...,
+       [ 185, 1171]], shape=(4, 2), dtype=int16), array([[ 142, 1311],
+       ...,
+       [ 142, 1361]], shape=(4, 2), dtype=int16), array([[ 248, 1302],
+       ...,
+       [ 250, 1360]], shape=(4, 2), dtype=int16), array([[ 399, 1323],
+       ...,
+       [ 374, 1361]], shape=(4, 2), dtype=int16), array([[ 148, 1414],
+       ...,
+       [ 148, 1462]], shape=(4, 2), dtype=int16), array([[ 259, 1411],
+       ...,
+       [ 261, 1456]], shape=(4, 2), dtype=int16), array([[ 150, 1512],
+       ...,
+       [ 150, 1559]], shape=(4, 2), dtype=int16), array([[ 262, 1510],
+       ...,
+       [ 264, 1554]], shape=(4, 2), dtype=int16), array([[ 100, 1541],
+       ...,
+       [  56, 1613]], shape=(4, 2), dtype=int16), array([[ 384, 1594],
+       ...,
+       [ 386, 1650]], shape=(4, 2), dtype=int16), array([[  72, 1609],
+       ...,
+       [  35, 1648]], shape=(4, 2), dtype=int16), array([[ 142, 1614],
+       ...,
+       [ 144, 1664]], shape=(4, 2), dtype=int16), array([[ 153, 1689],
+       ...,
+       [ 176, 1717]], shape=(4, 2), dtype=int16), array([[ 343, 1806],
+       ...,
+       [ 347, 1874]], shape=(4, 2), dtype=int16), array([[ 651, 1956],
+       ...,
+       [ 651, 1984]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['桂林银行', 'GUILIN BANK', '桂林', 'GURLI', '合同书', 'UILIN', '8', '人民币委托贷款合同', '合同名称：', '2', '101004202104466-01', '合同编号：', 'GU', '甲', '方：广西泰嘉光电科技有限公司', 'NK', '乙', '方：广西自贸区钦州港片区开发投资集团有限责任公司', '丙', '方：桂林银行股份有限公司钦州分行', '眼', '2021年7月6日', 'PANK', '签订日期：', '', '此材料共6页，已经我', '2021V2.0'], 'rec_scores': [0.9987784028053284, 0.994867742061615, 0.8641358613967896, 0.6735573410987854, 0.9989147782325745, 0.8613755106925964, 0.7393655776977539, 0.9987663626670837, 0.9552266001701355, 0.45542076230049133, 0.9463465213775635, 0.8998159170150757, 0.6725361347198486, 0.9994655251502991, 0.9916481971740723, 0.9031105637550354, 0.9938517808914185, 0.9932485222816467, 0.9989699125289917, 0.9985535144805908, 0.4173978269100189, 0.7769153118133545, 0.905211329460144, 0.906363844871521, 0.0, 0.8134208917617798, 0.9972556829452515], 'rec_polys': [array([[304, 170],
+       ...,
+       [305, 273]], shape=(4, 2), dtype=int16), array([[312, 263],
+       ...,
+       [312, 315]], shape=(4, 2), dtype=int16), array([[910, 343],
+       ...,
+       [836, 434]], shape=(4, 2), dtype=int16), array([[861, 422],
+       ...,
+       [824, 461]], shape=(4, 2), dtype=int16), array([[472, 582],
+       ...,
+       [480, 736]], shape=(4, 2), dtype=int16), array([[554, 781],
+       ...,
+       [520, 817]], shape=(4, 2), dtype=int16), array([[695, 926],
+       ...,
+       [669, 953]], shape=(4, 2), dtype=int16), array([[ 534,  977],
+       ...,
+       [ 535, 1023]], shape=(4, 2), dtype=int16), array([[ 136,  994],
+       ...,
+       [ 139, 1048]], shape=(4, 2), dtype=int16), array([[ 259, 1083],
+       ...,
+       [ 259, 1103]], shape=(4, 2), dtype=int16), array([[ 400, 1084],
+       ...,
+       [ 402, 1132]], shape=(4, 2), dtype=int16), array([[ 133, 1100],
+       ...,
+       [ 137, 1159]], shape=(4, 2), dtype=int16), array([[ 215, 1139],
+       ...,
+       [ 185, 1171]], shape=(4, 2), dtype=int16), array([[ 142, 1311],
+       ...,
+       [ 142, 1361]], shape=(4, 2), dtype=int16), array([[ 248, 1302],
+       ...,
+       [ 250, 1360]], shape=(4, 2), dtype=int16), array([[ 399, 1323],
+       ...,
+       [ 374, 1361]], shape=(4, 2), dtype=int16), array([[ 148, 1414],
+       ...,
+       [ 148, 1462]], shape=(4, 2), dtype=int16), array([[ 259, 1411],
+       ...,
+       [ 261, 1456]], shape=(4, 2), dtype=int16), array([[ 150, 1512],
+       ...,
+       [ 150, 1559]], shape=(4, 2), dtype=int16), array([[ 262, 1510],
+       ...,
+       [ 264, 1554]], shape=(4, 2), dtype=int16), array([[ 100, 1541],
+       ...,
+       [  56, 1613]], shape=(4, 2), dtype=int16), array([[ 384, 1594],
+       ...,
+       [ 386, 1650]], shape=(4, 2), dtype=int16), array([[  72, 1609],
+       ...,
+       [  35, 1648]], shape=(4, 2), dtype=int16), array([[ 142, 1614],
+       ...,
+       [ 144, 1664]], shape=(4, 2), dtype=int16), array([[ 153, 1689],
+       ...,
+       [ 176, 1717]], shape=(4, 2), dtype=int16), array([[ 343, 1806],
+       ...,
+       [ 347, 1874]], shape=(4, 2), dtype=int16), array([[ 651, 1956],
+       ...,
+       [ 651, 1984]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 304, ...,  273],
+       ...,
+       [ 651, ..., 1984]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 桂林银行
+2. GUILIN BANK
+3. 桂林
+4. GURLI
+5. 合同书
+6. UILIN
+7. 8
+8. 人民币委托贷款合同
+9. 合同名称：
+10. 2
+11. 101004202104466-01
+12. 合同编号：
+13. GU
+14. 甲
+15. 方：广西泰嘉光电科技有限公司
+16. NK
+17. 乙
+18. 方：广西自贸区钦州港片区开发投资集团有限责任公司
+19. 丙
+20. 方：桂林银行股份有限公司钦州分行
+21. 眼
+22. 2021年7月6日
+23. PANK
+24. 签订日期：
+25. 
+26. 此材料共6页，已经我
+27. 2021V2.0

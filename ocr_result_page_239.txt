@@ -1,0 +1,185 @@
+OCR结果 - 第 239 页
+==================================================
+处理的图像: temp_page_238_processed.png
+原始PDF页面: 239
+
+详细结果:
+[{'input_path': 'temp_page_238_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[142, 143],
+       ...,
+       [142, 190]], shape=(4, 2), dtype=int16), array([[144, 208],
+       ...,
+       [144, 249]], shape=(4, 2), dtype=int16), array([[146, 269],
+       ...,
+       [145, 307]], shape=(4, 2), dtype=int16), array([[147, 346],
+       ...,
+       [147, 377]], shape=(4, 2), dtype=int16), array([[212, 391],
+       ...,
+       [211, 424]], shape=(4, 2), dtype=int16), array([[151, 446],
+       ...,
+       [151, 480]], shape=(4, 2), dtype=int16), array([[148, 502],
+       ...,
+       [147, 538]], shape=(4, 2), dtype=int16), array([[214, 560],
+       ...,
+       [213, 593]], shape=(4, 2), dtype=int16), array([[152, 618],
+       ...,
+       [152, 649]], shape=(4, 2), dtype=int16), array([[150, 693],
+       ...,
+       [150, 725]], shape=(4, 2), dtype=int16), array([[216, 752],
+       ...,
+       [215, 786]], shape=(4, 2), dtype=int16), array([[151, 808],
+       ...,
+       [151, 842]], shape=(4, 2), dtype=int16), array([[152, 863],
+       ...,
+       [152, 897]], shape=(4, 2), dtype=int16), array([[153, 921],
+       ...,
+       [153, 951]], shape=(4, 2), dtype=int16), array([[ 151,  986],
+       ...,
+       [ 151, 1018]], shape=(4, 2), dtype=int16), array([[ 217, 1033],
+       ...,
+       [ 216, 1063]], shape=(4, 2), dtype=int16), array([[ 154, 1088],
+       ...,
+       [ 154, 1118]], shape=(4, 2), dtype=int16), array([[ 157, 1142],
+       ...,
+       [ 157, 1172]], shape=(4, 2), dtype=int16), array([[ 155, 1195],
+       ...,
+       [ 155, 1226]], shape=(4, 2), dtype=int16), array([[ 156, 1249],
+       ...,
+       [ 156, 1281]], shape=(4, 2), dtype=int16), array([[ 155, 1307],
+       ...,
+       [ 155, 1337]], shape=(4, 2), dtype=int16), array([[ 155, 1362],
+       ...,
+       [ 155, 1392]], shape=(4, 2), dtype=int16), array([[ 153, 1419],
+       ...,
+       [ 153, 1449]], shape=(4, 2), dtype=int16), array([[ 154, 1476],
+       ...,
+       [ 154, 1506]], shape=(4, 2), dtype=int16), array([[ 212, 1530],
+       ...,
+       [ 212, 1561]], shape=(4, 2), dtype=int16), array([[ 149, 1585],
+       ...,
+       [ 149, 1616]], shape=(4, 2), dtype=int16), array([[ 149, 1641],
+       ...,
+       [ 149, 1672]], shape=(4, 2), dtype=int16), array([[ 208, 1698],
+       ...,
+       [ 209, 1733]], shape=(4, 2), dtype=int16), array([[ 207, 1758],
+       ...,
+       [ 208, 1792]], shape=(4, 2), dtype=int16), array([[ 661, 1841],
+       ...,
+       [ 661, 1873]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['曝气水池，其他系统的平衡池和污泥脱水间设置臭气收集装置，经收集后的废气', '经填料吸附塔吸附后通过排气简排放。共设2套吸附塔，吸附后的废气经15m排', '气筒排放。', '3.2.4．废水治理措施技术可行性分析', '本项目将新建生产废水处理站一座，设置含氟废水处理系统、含磷废水处理', '系统、彩膜废水处理系统、有机废水处理系统、中和处理系统、最终中和处理系', '统各1套。', '本项目废水治理措施为当今电子行业通用、稳定的处理方法，可保证废水持', '续稳定达标。故本项目废水处理措施技术合理可行。', '3.3.地下水污染防治措施', '根据工程所处区域的地质情况，本项目地下水污染的途径主要有：生产厂房、', '综合动力站、废液存储罐区、冷库、化学品库、化学品车间（包括CCSS）、柴', '油储罐区、硅烷站、特气库、危废暂存库、废水处理设施（包括废水处理池体及', '管道）、事故应急池、消防废水收集池等污水下渗对地下水造成的污染。', '3.3.1.地面防渗', '按照分区防渗的原则，将厂区分为重点污染防治区、一般污染防治区以及非', '污染防治区三类地下水污染防治区域，针对不同的区域采取不同的防渗措施。重', '点污染区：生产厂房、综合动力站、废液存储罐区、冷库、化学品库、化学品车', '间（包括CCSS）、柴油储罐区、硅烷站、特气库、危废暂存库、·般废物暂存', '库、污泥暂存区、废水处理设施（包括废水处理池体及管道）、事故应急池、消', '防废水收集池等等地面均采用混凝土垫层、环氧树脂、PE膜等进行防渗；化学', '品供应间和废液存储罐区储罐采用地面采用FRP或不锈钢进行防渗：废水处理池', '池体采用FRP进行防渗处理。项目建设单位需确保重点防渗区域的防渗系数渗透', '系数≤1.0×100cm/s', '对成品库房、生产区路面等一般污染防治区地面用在抗渗混凝土面层中掺水', '泥基渗透结晶型防水剂，其下铺砌砂石基层，原土夯实达到防渗目的。项目建设', '单位需确保一般污染区各单元防渗层渗透系数≤1.0×10^7cm/s。', '1、环氧树脂', '环氧树脂是一种分子结构中含有环氧基团的高分子化合物，具有以下特点：', '100'], 'rec_scores': [0.996824324131012, 0.9845375418663025, 0.979108989238739, 0.9764243960380554, 0.9986226558685303, 0.9980960488319397, 0.9921076893806458, 0.9991918802261353, 0.998873770236969, 0.9967340230941772, 0.973310112953186, 0.9869540333747864, 0.9900472164154053, 0.9924114942550659, 0.9602031707763672, 0.9890967607498169, 0.9922573566436768, 0.9944572448730469, 0.9743069410324097, 0.9947510957717896, 0.9818359613418579, 0.9945884346961975, 0.9853176474571228, 0.8834359049797058, 0.9954736828804016, 0.9984117746353149, 0.8903327584266663, 0.9984173774719238, 0.9948434829711914, 0.9971207976341248], 'rec_polys': [array([[142, 143],
+       ...,
+       [142, 190]], shape=(4, 2), dtype=int16), array([[144, 208],
+       ...,
+       [144, 249]], shape=(4, 2), dtype=int16), array([[146, 269],
+       ...,
+       [145, 307]], shape=(4, 2), dtype=int16), array([[147, 346],
+       ...,
+       [147, 377]], shape=(4, 2), dtype=int16), array([[212, 391],
+       ...,
+       [211, 424]], shape=(4, 2), dtype=int16), array([[151, 446],
+       ...,
+       [151, 480]], shape=(4, 2), dtype=int16), array([[148, 502],
+       ...,
+       [147, 538]], shape=(4, 2), dtype=int16), array([[214, 560],
+       ...,
+       [213, 593]], shape=(4, 2), dtype=int16), array([[152, 618],
+       ...,
+       [152, 649]], shape=(4, 2), dtype=int16), array([[150, 693],
+       ...,
+       [150, 725]], shape=(4, 2), dtype=int16), array([[216, 752],
+       ...,
+       [215, 786]], shape=(4, 2), dtype=int16), array([[151, 808],
+       ...,
+       [151, 842]], shape=(4, 2), dtype=int16), array([[152, 863],
+       ...,
+       [152, 897]], shape=(4, 2), dtype=int16), array([[153, 921],
+       ...,
+       [153, 951]], shape=(4, 2), dtype=int16), array([[ 151,  986],
+       ...,
+       [ 151, 1018]], shape=(4, 2), dtype=int16), array([[ 217, 1033],
+       ...,
+       [ 216, 1063]], shape=(4, 2), dtype=int16), array([[ 154, 1088],
+       ...,
+       [ 154, 1118]], shape=(4, 2), dtype=int16), array([[ 157, 1142],
+       ...,
+       [ 157, 1172]], shape=(4, 2), dtype=int16), array([[ 155, 1195],
+       ...,
+       [ 155, 1226]], shape=(4, 2), dtype=int16), array([[ 156, 1249],
+       ...,
+       [ 156, 1281]], shape=(4, 2), dtype=int16), array([[ 155, 1307],
+       ...,
+       [ 155, 1337]], shape=(4, 2), dtype=int16), array([[ 155, 1362],
+       ...,
+       [ 155, 1392]], shape=(4, 2), dtype=int16), array([[ 153, 1419],
+       ...,
+       [ 153, 1449]], shape=(4, 2), dtype=int16), array([[ 154, 1476],
+       ...,
+       [ 154, 1506]], shape=(4, 2), dtype=int16), array([[ 212, 1530],
+       ...,
+       [ 212, 1561]], shape=(4, 2), dtype=int16), array([[ 149, 1585],
+       ...,
+       [ 149, 1616]], shape=(4, 2), dtype=int16), array([[ 149, 1641],
+       ...,
+       [ 149, 1672]], shape=(4, 2), dtype=int16), array([[ 208, 1698],
+       ...,
+       [ 209, 1733]], shape=(4, 2), dtype=int16), array([[ 207, 1758],
+       ...,
+       [ 208, 1792]], shape=(4, 2), dtype=int16), array([[ 661, 1841],
+       ...,
+       [ 661, 1873]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 142, ...,  192],
+       ...,
+       [ 661, ..., 1873]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 曝气水池，其他系统的平衡池和污泥脱水间设置臭气收集装置，经收集后的废气
+2. 经填料吸附塔吸附后通过排气简排放。共设2套吸附塔，吸附后的废气经15m排
+3. 气筒排放。
+4. 3.2.4．废水治理措施技术可行性分析
+5. 本项目将新建生产废水处理站一座，设置含氟废水处理系统、含磷废水处理
+6. 系统、彩膜废水处理系统、有机废水处理系统、中和处理系统、最终中和处理系
+7. 统各1套。
+8. 本项目废水治理措施为当今电子行业通用、稳定的处理方法，可保证废水持
+9. 续稳定达标。故本项目废水处理措施技术合理可行。
+10. 3.3.地下水污染防治措施
+11. 根据工程所处区域的地质情况，本项目地下水污染的途径主要有：生产厂房、
+12. 综合动力站、废液存储罐区、冷库、化学品库、化学品车间（包括CCSS）、柴
+13. 油储罐区、硅烷站、特气库、危废暂存库、废水处理设施（包括废水处理池体及
+14. 管道）、事故应急池、消防废水收集池等污水下渗对地下水造成的污染。
+15. 3.3.1.地面防渗
+16. 按照分区防渗的原则，将厂区分为重点污染防治区、一般污染防治区以及非
+17. 污染防治区三类地下水污染防治区域，针对不同的区域采取不同的防渗措施。重
+18. 点污染区：生产厂房、综合动力站、废液存储罐区、冷库、化学品库、化学品车
+19. 间（包括CCSS）、柴油储罐区、硅烷站、特气库、危废暂存库、·般废物暂存
+20. 库、污泥暂存区、废水处理设施（包括废水处理池体及管道）、事故应急池、消
+21. 防废水收集池等等地面均采用混凝土垫层、环氧树脂、PE膜等进行防渗；化学
+22. 品供应间和废液存储罐区储罐采用地面采用FRP或不锈钢进行防渗：废水处理池
+23. 池体采用FRP进行防渗处理。项目建设单位需确保重点防渗区域的防渗系数渗透
+24. 系数≤1.0×100cm/s
+25. 对成品库房、生产区路面等一般污染防治区地面用在抗渗混凝土面层中掺水
+26. 泥基渗透结晶型防水剂，其下铺砌砂石基层，原土夯实达到防渗目的。项目建设
+27. 单位需确保一般污染区各单元防渗层渗透系数≤1.0×10^7cm/s。
+28. 1、环氧树脂
+29. 环氧树脂是一种分子结构中含有环氧基团的高分子化合物，具有以下特点：
+30. 100

@@ -1,0 +1,165 @@
+OCR结果 - 第 41 页
+==================================================
+处理的图像: temp_page_40_processed.png
+原始PDF页面: 41
+
+详细结果:
+[{'input_path': 'temp_page_40_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1362,   39],
+       ...,
+       [1362,  134]], shape=(4, 2), dtype=int16), array([[224, 218],
+       ...,
+       [224, 269]], shape=(4, 2), dtype=int16), array([[143, 290],
+       ...,
+       [142, 339]], shape=(4, 2), dtype=int16), array([[216, 365],
+       ...,
+       [216, 410]], shape=(4, 2), dtype=int16), array([[306, 368],
+       ...,
+       [306, 413]], shape=(4, 2), dtype=int16), array([[230, 431],
+       ...,
+       [221, 477]], shape=(4, 2), dtype=int16), array([[285, 433],
+       ...,
+       [285, 484]], shape=(4, 2), dtype=int16), array([[146, 504],
+       ...,
+       [145, 551]], shape=(4, 2), dtype=int16), array([[137, 570],
+       ...,
+       [137, 628]], shape=(4, 2), dtype=int16), array([[145, 720],
+       ...,
+       [144, 770]], shape=(4, 2), dtype=int16), array([[141, 788],
+       ...,
+       [139, 844]], shape=(4, 2), dtype=int16), array([[218, 843],
+       ...,
+       [218, 921]], shape=(4, 2), dtype=int16), array([[319, 874],
+       ...,
+       [319, 915]], shape=(4, 2), dtype=int16), array([[226, 946],
+       ...,
+       [226, 987]], shape=(4, 2), dtype=int16), array([[ 147, 1012],
+       ...,
+       [ 147, 1056]], shape=(4, 2), dtype=int16), array([[ 229, 1084],
+       ...,
+       [ 229, 1124]], shape=(4, 2), dtype=int16), array([[ 149, 1149],
+       ...,
+       [ 148, 1193]], shape=(4, 2), dtype=int16), array([[ 140, 1210],
+       ...,
+       [ 138, 1269]], shape=(4, 2), dtype=int16), array([[ 226, 1292],
+       ...,
+       [ 226, 1337]], shape=(4, 2), dtype=int16), array([[ 143, 1356],
+       ...,
+       [ 141, 1407]], shape=(4, 2), dtype=int16), array([[ 469, 1504],
+       ...,
+       [ 469, 1546]], shape=(4, 2), dtype=int16), array([[ 629, 1506],
+       ...,
+       [ 629, 1544]], shape=(4, 2), dtype=int16), array([[ 222, 1642],
+       ...,
+       [ 222, 1683]], shape=(4, 2), dtype=int16), array([[ 222, 1711],
+       ...,
+       [ 222, 1752]], shape=(4, 2), dtype=int16), array([[ 147, 1781],
+       ...,
+       [ 146, 1826]], shape=(4, 2), dtype=int16), array([[ 678, 1933],
+       ...,
+       [ 678, 1958]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['72', '5.3合同期内遇中国人民银行调整相应的贷款基准利', '率，按以下方式处理：', '四', '本合同利率不变；', '区', '按月结息的，本合同利率按月进行调整，调整后的', '合同贷款利率自利率调整后的第一个付息日的次日起开始', '适用；', '合同贷款利率自利率调整后的第一个付息日的次日起开始', '适用；', '区', '本合同利率按年进行调整。', '5.4依5.3款约定进行调整时，均按中国人民银行调整', '后的相应基准利率上浮%/下浮%确定。', '5.5合同贷款利率发生变更的，本合同项下的罚息利率', '自动作相应变更，并与合同贷款利率同时开始适用，分段计', '算。', '5.6根据上述约定进行的调整，甲方无须另行征得丙方', '的同意。', '第六条', '委托贷款的发放', '6.1甲方与丙方就委托贷款条件达成一致。', '6.2甲方或丙方若为非自然人，应向乙方出具其有权机', '沟同意办理委托贷款业务的决议、文件或具有同等法律效', '6'], 'rec_scores': [0.7628363370895386, 0.9970468878746033, 0.9908841848373413, 0.07187341898679733, 0.9944829940795898, 0.08027509599924088, 0.997589647769928, 0.9819000959396362, 0.9707269072532654, 0.999254584312439, 0.9821930527687073, 0.1449892520904541, 0.9885808825492859, 0.9942494630813599, 0.9813351035118103, 0.9948517084121704, 0.9981231093406677, 0.9978331923484802, 0.9983962178230286, 0.9954932332038879, 0.9989597201347351, 0.9979651570320129, 0.9965752363204956, 0.9815829992294312, 0.9430134296417236, 0.2277914583683014], 'rec_polys': [array([[1362,   39],
+       ...,
+       [1362,  134]], shape=(4, 2), dtype=int16), array([[224, 218],
+       ...,
+       [224, 269]], shape=(4, 2), dtype=int16), array([[143, 290],
+       ...,
+       [142, 339]], shape=(4, 2), dtype=int16), array([[216, 365],
+       ...,
+       [216, 410]], shape=(4, 2), dtype=int16), array([[306, 368],
+       ...,
+       [306, 413]], shape=(4, 2), dtype=int16), array([[230, 431],
+       ...,
+       [221, 477]], shape=(4, 2), dtype=int16), array([[285, 433],
+       ...,
+       [285, 484]], shape=(4, 2), dtype=int16), array([[146, 504],
+       ...,
+       [145, 551]], shape=(4, 2), dtype=int16), array([[137, 570],
+       ...,
+       [137, 628]], shape=(4, 2), dtype=int16), array([[145, 720],
+       ...,
+       [144, 770]], shape=(4, 2), dtype=int16), array([[141, 788],
+       ...,
+       [139, 844]], shape=(4, 2), dtype=int16), array([[218, 843],
+       ...,
+       [218, 921]], shape=(4, 2), dtype=int16), array([[319, 874],
+       ...,
+       [319, 915]], shape=(4, 2), dtype=int16), array([[226, 946],
+       ...,
+       [226, 987]], shape=(4, 2), dtype=int16), array([[ 147, 1012],
+       ...,
+       [ 147, 1056]], shape=(4, 2), dtype=int16), array([[ 229, 1084],
+       ...,
+       [ 229, 1124]], shape=(4, 2), dtype=int16), array([[ 149, 1149],
+       ...,
+       [ 148, 1193]], shape=(4, 2), dtype=int16), array([[ 140, 1210],
+       ...,
+       [ 138, 1269]], shape=(4, 2), dtype=int16), array([[ 226, 1292],
+       ...,
+       [ 226, 1337]], shape=(4, 2), dtype=int16), array([[ 143, 1356],
+       ...,
+       [ 141, 1407]], shape=(4, 2), dtype=int16), array([[ 469, 1504],
+       ...,
+       [ 469, 1546]], shape=(4, 2), dtype=int16), array([[ 629, 1506],
+       ...,
+       [ 629, 1544]], shape=(4, 2), dtype=int16), array([[ 222, 1642],
+       ...,
+       [ 222, 1683]], shape=(4, 2), dtype=int16), array([[ 222, 1711],
+       ...,
+       [ 222, 1752]], shape=(4, 2), dtype=int16), array([[ 147, 1781],
+       ...,
+       [ 146, 1826]], shape=(4, 2), dtype=int16), array([[ 678, 1933],
+       ...,
+       [ 678, 1958]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1362, ...,  134],
+       ...,
+       [ 678, ..., 1958]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 72
+2. 5.3合同期内遇中国人民银行调整相应的贷款基准利
+3. 率，按以下方式处理：
+4. 四
+5. 本合同利率不变；
+6. 区
+7. 按月结息的，本合同利率按月进行调整，调整后的
+8. 合同贷款利率自利率调整后的第一个付息日的次日起开始
+9. 适用；
+10. 合同贷款利率自利率调整后的第一个付息日的次日起开始
+11. 适用；
+12. 区
+13. 本合同利率按年进行调整。
+14. 5.4依5.3款约定进行调整时，均按中国人民银行调整
+15. 后的相应基准利率上浮%/下浮%确定。
+16. 5.5合同贷款利率发生变更的，本合同项下的罚息利率
+17. 自动作相应变更，并与合同贷款利率同时开始适用，分段计
+18. 算。
+19. 5.6根据上述约定进行的调整，甲方无须另行征得丙方
+20. 的同意。
+21. 第六条
+22. 委托贷款的发放
+23. 6.1甲方与丙方就委托贷款条件达成一致。
+24. 6.2甲方或丙方若为非自然人，应向乙方出具其有权机
+25. 沟同意办理委托贷款业务的决议、文件或具有同等法律效
+26. 6

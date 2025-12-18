@@ -1,0 +1,180 @@
+OCR结果 - 第 53 页
+==================================================
+处理的图像: temp_page_52_processed.png
+原始PDF页面: 53
+
+详细结果:
+[{'input_path': 'temp_page_52_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[220, 140],
+       ...,
+       [220, 185]], shape=(4, 2), dtype=int16), array([[138, 210],
+       ...,
+       [137, 257]], shape=(4, 2), dtype=int16), array([[140, 285],
+       ...,
+       [139, 330]], shape=(4, 2), dtype=int16), array([[223, 357],
+       ...,
+       [223, 401]], shape=(4, 2), dtype=int16), array([[145, 424],
+       ...,
+       [144, 469]], shape=(4, 2), dtype=int16), array([[140, 492],
+       ...,
+       [139, 539]], shape=(4, 2), dtype=int16), array([[141, 560],
+       ...,
+       [140, 608]], shape=(4, 2), dtype=int16), array([[144, 631],
+       ...,
+       [143, 678]], shape=(4, 2), dtype=int16), array([[146, 705],
+       ...,
+       [146, 752]], shape=(4, 2), dtype=int16), array([[148, 776],
+       ...,
+       [147, 821]], shape=(4, 2), dtype=int16), array([[224, 850],
+       ...,
+       [225, 901]], shape=(4, 2), dtype=int16), array([[148, 925],
+       ...,
+       [149, 972]], shape=(4, 2), dtype=int16), array([[ 149,  995],
+       ...,
+       [ 149, 1039]], shape=(4, 2), dtype=int16), array([[ 491, 1142],
+       ...,
+       [ 492, 1187]], shape=(4, 2), dtype=int16), array([[ 742, 1136],
+       ...,
+       [ 742, 1186]], shape=(4, 2), dtype=int16), array([[ 226, 1294],
+       ...,
+       [ 227, 1341]], shape=(4, 2), dtype=int16), array([[ 274, 1364],
+       ...,
+       [ 275, 1415]], shape=(4, 2), dtype=int16), array([[1131, 1416],
+       ...,
+       [1131, 1471]], shape=(4, 2), dtype=int16), array([[ 152, 1435],
+       ...,
+       [ 153, 1489]], shape=(4, 2), dtype=int16), array([[ 527, 1473],
+       ...,
+       [ 527, 1507]], shape=(4, 2), dtype=int16), array([[ 729, 1473],
+       ...,
+       [ 731, 1505]], shape=(4, 2), dtype=int16), array([[1143, 1489],
+       ...,
+       [1143, 1541]], shape=(4, 2), dtype=int16), array([[ 154, 1500],
+       ...,
+       [ 155, 1561]], shape=(4, 2), dtype=int16), array([[ 161, 1570],
+       ...,
+       [ 161, 1620]], shape=(4, 2), dtype=int16), array([[ 237, 1634],
+       ...,
+       [ 238, 1693]], shape=(4, 2), dtype=int16), array([[ 166, 1715],
+       ...,
+       [ 166, 1756]], shape=(4, 2), dtype=int16), array([[ 168, 1786],
+       ...,
+       [ 168, 1830]], shape=(4, 2), dtype=int16), array([[1019, 1816],
+       ...,
+       [1017, 1965]], shape=(4, 2), dtype=int16), array([[ 695, 1922],
+       ...,
+       [ 695, 1953]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['22.1丙方在本合同项下的还款义务不因本台同无效或', '解除、丙方财务状况、经营方式、自身体制或法律地位等发', '生变化或丙方与他人签订的其他任何协议或文件而免除。', '22.2甲、丙方授权乙方依据有关法律法规或其他规范性', '文件的规定或金融监管机构的要求，将有关本合同的信息和', '其他相关信息提供给中国人民银行信用信息基础数据库或', '其他依法设立的信用数据库，供具有适当资格的机构或个人', '查询和使用，同时授权乙方为本合同订立和履行之目的，通', '过中国人民银行信用信息基础数据库和其他依法设立的信', '用数据库查询甲、丙方的相关信息。', '22.3本合同有效期内，丙方名称、法定代表人、住所等', '发生变化而未书面通知甲方和乙方时，甲方和/或乙方向丙方', '发送的所有文书，视同送达。', '第二十三条', '其他约定', '23.1各方的其他约定：', '因丙方违反本合同任约定导致的费用(包括但不限', '财产保', '于因丙方违约导致甲放际发的诉议数伸费', 'Y', '', '达费、', '全费、差旅费、执行费费、证费', '公告费、律师费等费用行，因由商方承担', '23.2本合同未尽事宜，依照国家有关法理法规执行。', '法律，法规未作规定的，各方可达成书面补充协议，作为木', '合同附件，与本合同具有同等法律效力。', '何斌', '1x'], 'rec_scores': [0.9761812686920166, 0.9935992360115051, 0.9965013265609741, 0.9860036373138428, 0.9971481561660767, 0.9983564019203186, 0.994422197341919, 0.9934961795806885, 0.9989153146743774, 0.987221896648407, 0.9925998449325562, 0.9772095084190369, 0.9970631003379822, 0.9998132586479187, 0.9991313219070435, 0.9905964732170105, 0.9137416481971741, 0.994990348815918, 0.774401068687439, 0.22629950940608978, 0.0, 0.8049843907356262, 0.7583033442497253, 0.8900395631790161, 0.929053544998169, 0.9643059372901917, 0.9434252977371216, 0.29610174894332886, 0.774702787399292], 'rec_polys': [array([[220, 140],
+       ...,
+       [220, 185]], shape=(4, 2), dtype=int16), array([[138, 210],
+       ...,
+       [137, 257]], shape=(4, 2), dtype=int16), array([[140, 285],
+       ...,
+       [139, 330]], shape=(4, 2), dtype=int16), array([[223, 357],
+       ...,
+       [223, 401]], shape=(4, 2), dtype=int16), array([[145, 424],
+       ...,
+       [144, 469]], shape=(4, 2), dtype=int16), array([[140, 492],
+       ...,
+       [139, 539]], shape=(4, 2), dtype=int16), array([[141, 560],
+       ...,
+       [140, 608]], shape=(4, 2), dtype=int16), array([[144, 631],
+       ...,
+       [143, 678]], shape=(4, 2), dtype=int16), array([[146, 705],
+       ...,
+       [146, 752]], shape=(4, 2), dtype=int16), array([[148, 776],
+       ...,
+       [147, 821]], shape=(4, 2), dtype=int16), array([[224, 850],
+       ...,
+       [225, 901]], shape=(4, 2), dtype=int16), array([[148, 925],
+       ...,
+       [149, 972]], shape=(4, 2), dtype=int16), array([[ 149,  995],
+       ...,
+       [ 149, 1039]], shape=(4, 2), dtype=int16), array([[ 491, 1142],
+       ...,
+       [ 492, 1187]], shape=(4, 2), dtype=int16), array([[ 742, 1136],
+       ...,
+       [ 742, 1186]], shape=(4, 2), dtype=int16), array([[ 226, 1294],
+       ...,
+       [ 227, 1341]], shape=(4, 2), dtype=int16), array([[ 274, 1364],
+       ...,
+       [ 275, 1415]], shape=(4, 2), dtype=int16), array([[1131, 1416],
+       ...,
+       [1131, 1471]], shape=(4, 2), dtype=int16), array([[ 152, 1435],
+       ...,
+       [ 153, 1489]], shape=(4, 2), dtype=int16), array([[ 527, 1473],
+       ...,
+       [ 527, 1507]], shape=(4, 2), dtype=int16), array([[ 729, 1473],
+       ...,
+       [ 731, 1505]], shape=(4, 2), dtype=int16), array([[1143, 1489],
+       ...,
+       [1143, 1541]], shape=(4, 2), dtype=int16), array([[ 154, 1500],
+       ...,
+       [ 155, 1561]], shape=(4, 2), dtype=int16), array([[ 161, 1570],
+       ...,
+       [ 161, 1620]], shape=(4, 2), dtype=int16), array([[ 237, 1634],
+       ...,
+       [ 238, 1693]], shape=(4, 2), dtype=int16), array([[ 166, 1715],
+       ...,
+       [ 166, 1756]], shape=(4, 2), dtype=int16), array([[ 168, 1786],
+       ...,
+       [ 168, 1830]], shape=(4, 2), dtype=int16), array([[1019, 1816],
+       ...,
+       [1017, 1965]], shape=(4, 2), dtype=int16), array([[ 695, 1922],
+       ...,
+       [ 695, 1953]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 220, ...,  188],
+       ...,
+       [ 695, ..., 1953]], shape=(29, 4), dtype=int16)}]
+
+解析后的文本:
+1. 22.1丙方在本合同项下的还款义务不因本台同无效或
+2. 解除、丙方财务状况、经营方式、自身体制或法律地位等发
+3. 生变化或丙方与他人签订的其他任何协议或文件而免除。
+4. 22.2甲、丙方授权乙方依据有关法律法规或其他规范性
+5. 文件的规定或金融监管机构的要求，将有关本合同的信息和
+6. 其他相关信息提供给中国人民银行信用信息基础数据库或
+7. 其他依法设立的信用数据库，供具有适当资格的机构或个人
+8. 查询和使用，同时授权乙方为本合同订立和履行之目的，通
+9. 过中国人民银行信用信息基础数据库和其他依法设立的信
+10. 用数据库查询甲、丙方的相关信息。
+11. 22.3本合同有效期内，丙方名称、法定代表人、住所等
+12. 发生变化而未书面通知甲方和乙方时，甲方和/或乙方向丙方
+13. 发送的所有文书，视同送达。
+14. 第二十三条
+15. 其他约定
+16. 23.1各方的其他约定：
+17. 因丙方违反本合同任约定导致的费用(包括但不限
+18. 财产保
+19. 于因丙方违约导致甲放际发的诉议数伸费
+20. Y
+21. 
+22. 达费、
+23. 全费、差旅费、执行费费、证费
+24. 公告费、律师费等费用行，因由商方承担
+25. 23.2本合同未尽事宜，依照国家有关法理法规执行。
+26. 法律，法规未作规定的，各方可达成书面补充协议，作为木
+27. 合同附件，与本合同具有同等法律效力。
+28. 何斌
+29. 1x

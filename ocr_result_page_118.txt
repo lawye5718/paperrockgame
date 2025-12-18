@@ -1,0 +1,140 @@
+OCR结果 - 第 118 页
+==================================================
+处理的图像: temp_page_117_processed.png
+原始PDF页面: 118
+
+详细结果:
+[{'input_path': 'temp_page_117_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1311,   51],
+       ...,
+       [1311,  144]], shape=(4, 2), dtype=int16), array([[160, 162],
+       ...,
+       [158, 253]], shape=(4, 2), dtype=int16), array([[261, 419],
+       ...,
+       [260, 495]], shape=(4, 2), dtype=int16), array([[363, 496],
+       ...,
+       [362, 571]], shape=(4, 2), dtype=int16), array([[184, 650],
+       ...,
+       [184, 699]], shape=(4, 2), dtype=int16), array([[265, 713],
+       ...,
+       [264, 765]], shape=(4, 2), dtype=int16), array([[188, 778],
+       ...,
+       [188, 825]], shape=(4, 2), dtype=int16), array([[189, 843],
+       ...,
+       [189, 885]], shape=(4, 2), dtype=int16), array([[268, 907],
+       ...,
+       [267, 954]], shape=(4, 2), dtype=int16), array([[ 188,  970],
+       ...,
+       [ 188, 1017]], shape=(4, 2), dtype=int16), array([[ 187, 1035],
+       ...,
+       [ 187, 1079]], shape=(4, 2), dtype=int16), array([[ 186, 1096],
+       ...,
+       [ 186, 1143]], shape=(4, 2), dtype=int16), array([[ 184, 1156],
+       ...,
+       [ 184, 1203]], shape=(4, 2), dtype=int16), array([[ 183, 1220],
+       ...,
+       [ 183, 1267]], shape=(4, 2), dtype=int16), array([[ 184, 1284],
+       ...,
+       [ 184, 1327]], shape=(4, 2), dtype=int16), array([[ 185, 1344],
+       ...,
+       [ 185, 1388]], shape=(4, 2), dtype=int16), array([[ 184, 1405],
+       ...,
+       [ 184, 1449]], shape=(4, 2), dtype=int16), array([[ 180, 1467],
+       ...,
+       [ 180, 1511]], shape=(4, 2), dtype=int16), array([[ 179, 1529],
+       ...,
+       [ 179, 1573]], shape=(4, 2), dtype=int16), array([[ 930, 1716],
+       ...,
+       [ 930, 1790]], shape=(4, 2), dtype=int16), array([[ 878, 1793],
+       ...,
+       [ 877, 1846]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['116', '中国一马来西亚钦州产业园区管理委员会财政局', '关于对广西泰嘉光电技术有限公司申请', '3000万元项目资金扶持的意见', '工管委办公室：', '转来《关于广西泰嘉光电技术有限公司申请3000万元人民', '币项目资金扶持的函》（广西泰嘉〔2019]007号）。经研究，', '现提出意见如下:', '根据园区管委会与广西钦州保税港区尊绅贸易有限公司（以', '下简称“广西尊绅公司”）签订的《超薄玻璃基板深加工项目投', '资合作协议书》，园区管委会与广西泰嘉光电技术有限公司（以', '下简称“广西泰嘉公司”）3月8日工作对接会达成的意向以及', '财政资金管理相关规定，给予项目公司（即广西泰嘉光电技术有', '限公司，以下简称“广西泰嘉公司”）3000万元项目资金扶持。', '建议同意从2017年中央补助资金中安排3000万元扶持广西泰嘉', '项自建设，先根据相关支出审批管理规定报管委会主任办公会议', '审批，待广西尊绅公司将相关工艺设备运抵钦州并以注册资本金', '形式注资到广西泰嘉公司后，或广西泰嘉公司按法定程序取得本', '项目用地使用权并如期缴足土地出让金后再拨付资金。', '财政局', '2019年3月11'], 'rec_scores': [0.9851446747779846, 0.98643559217453, 0.9982199668884277, 0.9799661040306091, 0.982982337474823, 0.9976980686187744, 0.9547321200370789, 0.9486039876937866, 0.9942378401756287, 0.9797974228858948, 0.9969841837882996, 0.9907501935958862, 0.9834423065185547, 0.9914277791976929, 0.9985219836235046, 0.9821840524673462, 0.993992805480957, 0.9990018606185913, 0.9870211482048035, 0.9984910488128662, 0.8994544148445129], 'rec_polys': [array([[1311,   51],
+       ...,
+       [1311,  144]], shape=(4, 2), dtype=int16), array([[160, 162],
+       ...,
+       [158, 253]], shape=(4, 2), dtype=int16), array([[261, 419],
+       ...,
+       [260, 495]], shape=(4, 2), dtype=int16), array([[363, 496],
+       ...,
+       [362, 571]], shape=(4, 2), dtype=int16), array([[184, 650],
+       ...,
+       [184, 699]], shape=(4, 2), dtype=int16), array([[265, 713],
+       ...,
+       [264, 765]], shape=(4, 2), dtype=int16), array([[188, 778],
+       ...,
+       [188, 825]], shape=(4, 2), dtype=int16), array([[189, 843],
+       ...,
+       [189, 885]], shape=(4, 2), dtype=int16), array([[268, 907],
+       ...,
+       [267, 954]], shape=(4, 2), dtype=int16), array([[ 188,  970],
+       ...,
+       [ 188, 1017]], shape=(4, 2), dtype=int16), array([[ 187, 1035],
+       ...,
+       [ 187, 1079]], shape=(4, 2), dtype=int16), array([[ 186, 1096],
+       ...,
+       [ 186, 1143]], shape=(4, 2), dtype=int16), array([[ 184, 1156],
+       ...,
+       [ 184, 1203]], shape=(4, 2), dtype=int16), array([[ 183, 1220],
+       ...,
+       [ 183, 1267]], shape=(4, 2), dtype=int16), array([[ 184, 1284],
+       ...,
+       [ 184, 1327]], shape=(4, 2), dtype=int16), array([[ 185, 1344],
+       ...,
+       [ 185, 1388]], shape=(4, 2), dtype=int16), array([[ 184, 1405],
+       ...,
+       [ 184, 1449]], shape=(4, 2), dtype=int16), array([[ 180, 1467],
+       ...,
+       [ 180, 1511]], shape=(4, 2), dtype=int16), array([[ 179, 1529],
+       ...,
+       [ 179, 1573]], shape=(4, 2), dtype=int16), array([[ 930, 1716],
+       ...,
+       [ 930, 1790]], shape=(4, 2), dtype=int16), array([[ 878, 1793],
+       ...,
+       [ 877, 1846]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1311, ...,  144],
+       ...,
+       [ 877, ..., 1849]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. 116
+2. 中国一马来西亚钦州产业园区管理委员会财政局
+3. 关于对广西泰嘉光电技术有限公司申请
+4. 3000万元项目资金扶持的意见
+5. 工管委办公室：
+6. 转来《关于广西泰嘉光电技术有限公司申请3000万元人民
+7. 币项目资金扶持的函》（广西泰嘉〔2019]007号）。经研究，
+8. 现提出意见如下:
+9. 根据园区管委会与广西钦州保税港区尊绅贸易有限公司（以
+10. 下简称“广西尊绅公司”）签订的《超薄玻璃基板深加工项目投
+11. 资合作协议书》，园区管委会与广西泰嘉光电技术有限公司（以
+12. 下简称“广西泰嘉公司”）3月8日工作对接会达成的意向以及
+13. 财政资金管理相关规定，给予项目公司（即广西泰嘉光电技术有
+14. 限公司，以下简称“广西泰嘉公司”）3000万元项目资金扶持。
+15. 建议同意从2017年中央补助资金中安排3000万元扶持广西泰嘉
+16. 项自建设，先根据相关支出审批管理规定报管委会主任办公会议
+17. 审批，待广西尊绅公司将相关工艺设备运抵钦州并以注册资本金
+18. 形式注资到广西泰嘉公司后，或广西泰嘉公司按法定程序取得本
+19. 项目用地使用权并如期缴足土地出让金后再拨付资金。
+20. 财政局
+21. 2019年3月11

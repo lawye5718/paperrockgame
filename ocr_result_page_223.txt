@@ -1,0 +1,325 @@
+OCR结果 - 第 223 页
+==================================================
+处理的图像: temp_page_222_processed.png
+原始PDF页面: 223
+
+详细结果:
+[{'input_path': 'temp_page_222_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[1400,   54],
+       ...,
+       [1398,   87]], shape=(4, 2), dtype=int16), array([[197, 140],
+       ...,
+       [193, 188]], shape=(4, 2), dtype=int16), array([[408, 152],
+       ...,
+       [406, 195]], shape=(4, 2), dtype=int16), array([[606, 154],
+       ...,
+       [606, 194]], shape=(4, 2), dtype=int16), array([[770, 154],
+       ...,
+       [769, 191]], shape=(4, 2), dtype=int16), array([[960, 154],
+       ...,
+       [961, 196]], shape=(4, 2), dtype=int16), array([[1135,  153],
+       ...,
+       [1136,  194]], shape=(4, 2), dtype=int16), array([[418, 208],
+       ...,
+       [418, 246]], shape=(4, 2), dtype=int16), array([[618, 207],
+       ...,
+       [618, 243]], shape=(4, 2), dtype=int16), array([[760, 205],
+       ...,
+       [760, 237]], shape=(4, 2), dtype=int16), array([[948, 203],
+       ...,
+       [948, 238]], shape=(4, 2), dtype=int16), array([[1136,  202],
+       ...,
+       [1137,  238]], shape=(4, 2), dtype=int16), array([[422, 255],
+       ...,
+       [422, 293]], shape=(4, 2), dtype=int16), array([[616, 252],
+       ...,
+       [616, 288]], shape=(4, 2), dtype=int16), array([[765, 249],
+       ...,
+       [765, 281]], shape=(4, 2), dtype=int16), array([[954, 250],
+       ...,
+       [954, 282]], shape=(4, 2), dtype=int16), array([[1136,  249],
+       ...,
+       [1137,  284]], shape=(4, 2), dtype=int16), array([[353, 302],
+       ...,
+       [353, 338]], shape=(4, 2), dtype=int16), array([[616, 299],
+       ...,
+       [616, 336]], shape=(4, 2), dtype=int16), array([[772, 296],
+       ...,
+       [772, 328]], shape=(4, 2), dtype=int16), array([[961, 296],
+       ...,
+       [961, 329]], shape=(4, 2), dtype=int16), array([[1166,  296],
+       ...,
+       [1166,  328]], shape=(4, 2), dtype=int16), array([[171, 343],
+       ...,
+       [170, 380]], shape=(4, 2), dtype=int16), array([[378, 348],
+       ...,
+       [379, 384]], shape=(4, 2), dtype=int16), array([[615, 346],
+       ...,
+       [615, 381]], shape=(4, 2), dtype=int16), array([[763, 343],
+       ...,
+       [763, 375]], shape=(4, 2), dtype=int16), array([[952, 344],
+       ...,
+       [952, 373]], shape=(4, 2), dtype=int16), array([[1165,  342],
+       ...,
+       [1165,  374]], shape=(4, 2), dtype=int16), array([[378, 392],
+       ...,
+       [378, 424]], shape=(4, 2), dtype=int16), array([[613, 390],
+       ...,
+       [613, 424]], shape=(4, 2), dtype=int16), array([[779, 387],
+       ...,
+       [779, 420]], shape=(4, 2), dtype=int16), array([[968, 387],
+       ...,
+       [968, 421]], shape=(4, 2), dtype=int16), array([[1165,  388],
+       ...,
+       [1165,  419]], shape=(4, 2), dtype=int16), array([[149, 478],
+       ...,
+       [149, 512]], shape=(4, 2), dtype=int16), array([[214, 535],
+       ...,
+       [214, 568]], shape=(4, 2), dtype=int16), array([[153, 592],
+       ...,
+       [153, 623]], shape=(4, 2), dtype=int16), array([[151, 637],
+       ...,
+       [151, 671]], shape=(4, 2), dtype=int16), array([[228, 694],
+       ...,
+       [229, 728]], shape=(4, 2), dtype=int16), array([[215, 751],
+       ...,
+       [215, 784]], shape=(4, 2), dtype=int16), array([[153, 807],
+       ...,
+       [153, 840]], shape=(4, 2), dtype=int16), array([[151, 862],
+       ...,
+       [151, 896]], shape=(4, 2), dtype=int16), array([[151, 919],
+       ...,
+       [151, 953]], shape=(4, 2), dtype=int16), array([[ 153,  975],
+       ...,
+       [ 153, 1010]], shape=(4, 2), dtype=int16), array([[ 154, 1034],
+       ...,
+       [ 154, 1064]], shape=(4, 2), dtype=int16), array([[ 231, 1087],
+       ...,
+       [ 232, 1118]], shape=(4, 2), dtype=int16), array([[ 216, 1149],
+       ...,
+       [ 216, 1183]], shape=(4, 2), dtype=int16), array([[ 156, 1205],
+       ...,
+       [ 156, 1235]], shape=(4, 2), dtype=int16), array([[ 155, 1258],
+       ...,
+       [ 155, 1290]], shape=(4, 2), dtype=int16), array([[ 217, 1314],
+       ...,
+       [ 217, 1345]], shape=(4, 2), dtype=int16), array([[ 155, 1370],
+       ...,
+       [ 155, 1401]], shape=(4, 2), dtype=int16), array([[ 153, 1427],
+       ...,
+       [ 153, 1458]], shape=(4, 2), dtype=int16), array([[ 152, 1481],
+       ...,
+       [ 152, 1515]], shape=(4, 2), dtype=int16), array([[ 211, 1537],
+       ...,
+       [ 211, 1571]], shape=(4, 2), dtype=int16), array([[ 150, 1593],
+       ...,
+       [ 150, 1624]], shape=(4, 2), dtype=int16), array([[ 227, 1649],
+       ...,
+       [ 226, 1684]], shape=(4, 2), dtype=int16), array([[ 148, 1706],
+       ...,
+       [ 148, 1738]], shape=(4, 2), dtype=int16), array([[ 226, 1766],
+       ...,
+       [ 225, 1800]], shape=(4, 2), dtype=int16), array([[ 673, 1843],
+       ...,
+       [ 673, 1873]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', '类别', '项目', '单位', '产生量', '削减量', '排放量', 'TP', 'ta', '4608.681', '4545.835', '62.846', 'F', 't/a', '565.870', '543.235', '22.635', '一般工业固废', 't_a', '33277', '33277', '0', '固体废物', '危险废物', 't/a', '37331.8', '37331.8', '0', '生活垃圾', 'ta', '1095', '1095', '0', '2.5.7.非正常情况污染物排放及治理措施', '本项目采用双电源供电，并设置有UPS不间断电源系统和应急发电机组系', '统，可保证重要的生产设备、环保设备和安全设备在发生停电事故时正常运转。', '2.5.7.1．非正常情况废气排放情况', '（1）开、停车废气排放情况', '本项目在车间开工时，首先运行所有的废气处理装置，然后再开启车间的工', '艺流程，使在生产中所使用的各类化学品所产生的废气都能得到处理。车间停工', '时，所有的废气处理装置继续运转，待工艺中的废气没有排出之后才逐台关闭。', '这样，车间在开、停车时排出污染物均得到有效处理，经排气筒排出的污染物浓', '度和正常生产时基本一致。要求生产管理人员在开、停车操作中需由环保管理人', '员进行监督管理，并对操作过程记录留档。', '(2)废气处理系统出现故障排放情况', '本工程排风系统均设有安全保护电源和报警系统，设备每年检修一次，基本', '上能保证无故障运行。日常运行中，若出现故障，检修人员可立即到现场进行维', '修，一般操作在10分钟内基本上可以完成，预计最长不会超过30分钟。', '本项目工程废气处理系统和排风机均配有不间断电源系统，废气处理系统采', '用N+1的安装方式，运行时所有废气处理设施都打开，并采用变频设备，根据', '无尘室排风压力自动调节。当单台废气处理设备出现故障时，自动调高其他风机', '的频率，仍可确保废气得到有效处理后排放。', '废气处理系统出现故障，一般有3种情况：停电、洗涤塔和风机出现故障，', '对生产异常情况，采取以下措施：', '(1)如果全厂停电，停止生产，无污染物产生。为确保安全，风机仍然继', '续运转（采用UPS)。', '(2)风机出现故障时，备用系统立即启动，变频系统能自动调节其他风机', '84'], 'rec_scores': [0.5676897764205933, 0.9992282390594482, 0.9998058080673218, 0.9999142289161682, 0.9996630549430847, 0.9958816170692444, 0.9991025924682617, 0.9098649024963379, 0.8755584359169006, 0.9998334646224976, 0.9996256828308105, 0.9998080730438232, 0.9856095910072327, 0.9466386437416077, 0.9997144937515259, 0.9993717074394226, 0.9995822310447693, 0.9989871382713318, 0.6735653877258301, 0.9997814893722534, 0.9997035264968872, 0.9936561584472656, 0.9991678595542908, 0.9995635151863098, 0.9096687436103821, 0.9996928572654724, 0.9998549222946167, 0.9890716075897217, 0.9996631145477295, 0.8376162052154541, 0.9978905320167542, 0.9931132793426514, 0.9935930371284485, 0.9871791005134583, 0.998007595539093, 0.9978129863739014, 0.9659327268600464, 0.954885721206665, 0.9980915188789368, 0.9949926137924194, 0.998002827167511, 0.9945376515388489, 0.9871377944946289, 0.9923939108848572, 0.9723867774009705, 0.9981878995895386, 0.9936335682868958, 0.996324360370636, 0.9970958828926086, 0.9951092600822449, 0.9910857081413269, 0.9992496371269226, 0.9816041588783264, 0.9959695339202881, 0.9773802161216736, 0.9208346009254456, 0.9725809693336487, 0.9975696206092834], 'rec_polys': [array([[1400,   54],
+       ...,
+       [1398,   87]], shape=(4, 2), dtype=int16), array([[197, 140],
+       ...,
+       [193, 188]], shape=(4, 2), dtype=int16), array([[408, 152],
+       ...,
+       [406, 195]], shape=(4, 2), dtype=int16), array([[606, 154],
+       ...,
+       [606, 194]], shape=(4, 2), dtype=int16), array([[770, 154],
+       ...,
+       [769, 191]], shape=(4, 2), dtype=int16), array([[960, 154],
+       ...,
+       [961, 196]], shape=(4, 2), dtype=int16), array([[1135,  153],
+       ...,
+       [1136,  194]], shape=(4, 2), dtype=int16), array([[418, 208],
+       ...,
+       [418, 246]], shape=(4, 2), dtype=int16), array([[618, 207],
+       ...,
+       [618, 243]], shape=(4, 2), dtype=int16), array([[760, 205],
+       ...,
+       [760, 237]], shape=(4, 2), dtype=int16), array([[948, 203],
+       ...,
+       [948, 238]], shape=(4, 2), dtype=int16), array([[1136,  202],
+       ...,
+       [1137,  238]], shape=(4, 2), dtype=int16), array([[422, 255],
+       ...,
+       [422, 293]], shape=(4, 2), dtype=int16), array([[616, 252],
+       ...,
+       [616, 288]], shape=(4, 2), dtype=int16), array([[765, 249],
+       ...,
+       [765, 281]], shape=(4, 2), dtype=int16), array([[954, 250],
+       ...,
+       [954, 282]], shape=(4, 2), dtype=int16), array([[1136,  249],
+       ...,
+       [1137,  284]], shape=(4, 2), dtype=int16), array([[353, 302],
+       ...,
+       [353, 338]], shape=(4, 2), dtype=int16), array([[616, 299],
+       ...,
+       [616, 336]], shape=(4, 2), dtype=int16), array([[772, 296],
+       ...,
+       [772, 328]], shape=(4, 2), dtype=int16), array([[961, 296],
+       ...,
+       [961, 329]], shape=(4, 2), dtype=int16), array([[1166,  296],
+       ...,
+       [1166,  328]], shape=(4, 2), dtype=int16), array([[171, 343],
+       ...,
+       [170, 380]], shape=(4, 2), dtype=int16), array([[378, 348],
+       ...,
+       [379, 384]], shape=(4, 2), dtype=int16), array([[615, 346],
+       ...,
+       [615, 381]], shape=(4, 2), dtype=int16), array([[763, 343],
+       ...,
+       [763, 375]], shape=(4, 2), dtype=int16), array([[952, 344],
+       ...,
+       [952, 373]], shape=(4, 2), dtype=int16), array([[1165,  342],
+       ...,
+       [1165,  374]], shape=(4, 2), dtype=int16), array([[378, 392],
+       ...,
+       [378, 424]], shape=(4, 2), dtype=int16), array([[613, 390],
+       ...,
+       [613, 424]], shape=(4, 2), dtype=int16), array([[779, 387],
+       ...,
+       [779, 420]], shape=(4, 2), dtype=int16), array([[968, 387],
+       ...,
+       [968, 421]], shape=(4, 2), dtype=int16), array([[1165,  388],
+       ...,
+       [1165,  419]], shape=(4, 2), dtype=int16), array([[149, 478],
+       ...,
+       [149, 512]], shape=(4, 2), dtype=int16), array([[214, 535],
+       ...,
+       [214, 568]], shape=(4, 2), dtype=int16), array([[153, 592],
+       ...,
+       [153, 623]], shape=(4, 2), dtype=int16), array([[151, 637],
+       ...,
+       [151, 671]], shape=(4, 2), dtype=int16), array([[228, 694],
+       ...,
+       [229, 728]], shape=(4, 2), dtype=int16), array([[215, 751],
+       ...,
+       [215, 784]], shape=(4, 2), dtype=int16), array([[153, 807],
+       ...,
+       [153, 840]], shape=(4, 2), dtype=int16), array([[151, 862],
+       ...,
+       [151, 896]], shape=(4, 2), dtype=int16), array([[151, 919],
+       ...,
+       [151, 953]], shape=(4, 2), dtype=int16), array([[ 153,  975],
+       ...,
+       [ 153, 1010]], shape=(4, 2), dtype=int16), array([[ 154, 1034],
+       ...,
+       [ 154, 1064]], shape=(4, 2), dtype=int16), array([[ 231, 1087],
+       ...,
+       [ 232, 1118]], shape=(4, 2), dtype=int16), array([[ 216, 1149],
+       ...,
+       [ 216, 1183]], shape=(4, 2), dtype=int16), array([[ 156, 1205],
+       ...,
+       [ 156, 1235]], shape=(4, 2), dtype=int16), array([[ 155, 1258],
+       ...,
+       [ 155, 1290]], shape=(4, 2), dtype=int16), array([[ 217, 1314],
+       ...,
+       [ 217, 1345]], shape=(4, 2), dtype=int16), array([[ 155, 1370],
+       ...,
+       [ 155, 1401]], shape=(4, 2), dtype=int16), array([[ 153, 1427],
+       ...,
+       [ 153, 1458]], shape=(4, 2), dtype=int16), array([[ 152, 1481],
+       ...,
+       [ 152, 1515]], shape=(4, 2), dtype=int16), array([[ 211, 1537],
+       ...,
+       [ 211, 1571]], shape=(4, 2), dtype=int16), array([[ 150, 1593],
+       ...,
+       [ 150, 1624]], shape=(4, 2), dtype=int16), array([[ 227, 1649],
+       ...,
+       [ 226, 1684]], shape=(4, 2), dtype=int16), array([[ 148, 1706],
+       ...,
+       [ 148, 1738]], shape=(4, 2), dtype=int16), array([[ 226, 1766],
+       ...,
+       [ 225, 1800]], shape=(4, 2), dtype=int16), array([[ 673, 1843],
+       ...,
+       [ 673, 1873]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1398, ...,   88],
+       ...,
+       [ 673, ..., 1873]], shape=(58, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. 类别
+3. 项目
+4. 单位
+5. 产生量
+6. 削减量
+7. 排放量
+8. TP
+9. ta
+10. 4608.681
+11. 4545.835
+12. 62.846
+13. F
+14. t/a
+15. 565.870
+16. 543.235
+17. 22.635
+18. 一般工业固废
+19. t_a
+20. 33277
+21. 33277
+22. 0
+23. 固体废物
+24. 危险废物
+25. t/a
+26. 37331.8
+27. 37331.8
+28. 0
+29. 生活垃圾
+30. ta
+31. 1095
+32. 1095
+33. 0
+34. 2.5.7.非正常情况污染物排放及治理措施
+35. 本项目采用双电源供电，并设置有UPS不间断电源系统和应急发电机组系
+36. 统，可保证重要的生产设备、环保设备和安全设备在发生停电事故时正常运转。
+37. 2.5.7.1．非正常情况废气排放情况
+38. （1）开、停车废气排放情况
+39. 本项目在车间开工时，首先运行所有的废气处理装置，然后再开启车间的工
+40. 艺流程，使在生产中所使用的各类化学品所产生的废气都能得到处理。车间停工
+41. 时，所有的废气处理装置继续运转，待工艺中的废气没有排出之后才逐台关闭。
+42. 这样，车间在开、停车时排出污染物均得到有效处理，经排气筒排出的污染物浓
+43. 度和正常生产时基本一致。要求生产管理人员在开、停车操作中需由环保管理人
+44. 员进行监督管理，并对操作过程记录留档。
+45. (2)废气处理系统出现故障排放情况
+46. 本工程排风系统均设有安全保护电源和报警系统，设备每年检修一次，基本
+47. 上能保证无故障运行。日常运行中，若出现故障，检修人员可立即到现场进行维
+48. 修，一般操作在10分钟内基本上可以完成，预计最长不会超过30分钟。
+49. 本项目工程废气处理系统和排风机均配有不间断电源系统，废气处理系统采
+50. 用N+1的安装方式，运行时所有废气处理设施都打开，并采用变频设备，根据
+51. 无尘室排风压力自动调节。当单台废气处理设备出现故障时，自动调高其他风机
+52. 的频率，仍可确保废气得到有效处理后排放。
+53. 废气处理系统出现故障，一般有3种情况：停电、洗涤塔和风机出现故障，
+54. 对生产异常情况，采取以下措施：
+55. (1)如果全厂停电，停止生产，无污染物产生。为确保安全，风机仍然继
+56. 续运转（采用UPS)。
+57. (2)风机出现故障时，备用系统立即启动，变频系统能自动调节其他风机
+58. 84

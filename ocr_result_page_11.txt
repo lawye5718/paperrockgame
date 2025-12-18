@@ -1,0 +1,160 @@
+OCR结果 - 第 11 页
+==================================================
+处理的图像: temp_page_10_processed.png
+原始PDF页面: 11
+
+详细结果:
+[{'input_path': 'temp_page_10_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[136, 186],
+       ...,
+       [135, 232]], shape=(4, 2), dtype=int16), array([[217, 255],
+       ...,
+       [217, 306]], shape=(4, 2), dtype=int16), array([[214, 320],
+       ...,
+       [214, 378]], shape=(4, 2), dtype=int16), array([[130, 387],
+       ...,
+       [129, 444]], shape=(4, 2), dtype=int16), array([[131, 455],
+       ...,
+       [130, 513]], shape=(4, 2), dtype=int16), array([[132, 527],
+       ...,
+       [131, 581]], shape=(4, 2), dtype=int16), array([[130, 598],
+       ...,
+       [129, 652]], shape=(4, 2), dtype=int16), array([[223, 674],
+       ...,
+       [222, 727]], shape=(4, 2), dtype=int16), array([[134, 746],
+       ...,
+       [133, 795]], shape=(4, 2), dtype=int16), array([[224, 820],
+       ...,
+       [224, 867]], shape=(4, 2), dtype=int16), array([[150, 890],
+       ...,
+       [149, 937]], shape=(4, 2), dtype=int16), array([[ 137,  961],
+       ...,
+       [ 136, 1005]], shape=(4, 2), dtype=int16), array([[ 138, 1031],
+       ...,
+       [ 137, 1075]], shape=(4, 2), dtype=int16), array([[ 138, 1098],
+       ...,
+       [ 137, 1145]], shape=(4, 2), dtype=int16), array([[ 137, 1169],
+       ...,
+       [ 136, 1212]], shape=(4, 2), dtype=int16), array([[ 135, 1237],
+       ...,
+       [ 134, 1281]], shape=(4, 2), dtype=int16), array([[ 135, 1311],
+       ...,
+       [ 135, 1352]], shape=(4, 2), dtype=int16), array([[ 135, 1379],
+       ...,
+       [ 135, 1421]], shape=(4, 2), dtype=int16), array([[ 221, 1449],
+       ...,
+       [ 221, 1493]], shape=(4, 2), dtype=int16), array([[ 130, 1520],
+       ...,
+       [ 130, 1563]], shape=(4, 2), dtype=int16), array([[ 219, 1588],
+       ...,
+       [ 219, 1635]], shape=(4, 2), dtype=int16), array([[ 129, 1657],
+       ...,
+       [ 129, 1702]], shape=(4, 2), dtype=int16), array([[ 128, 1730],
+       ...,
+       [ 128, 1773]], shape=(4, 2), dtype=int16), array([[ 105, 1862],
+       ...,
+       [ 115, 1978]], shape=(4, 2), dtype=int16), array([[ 927, 1891],
+       ...,
+       [ 928, 1932]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['合丰泰公司的名义来贷款。', '问：请你说说王雄昌为什么要积极推动这笔委托贷款?', '答：我认为是因为这个项目是由王雄昌牵头负责，他想通过', '这个项目来取得政绩，为自己的升迁赚取政治资本，明知政府资', '金直接借给民营企业不合规、银行也普遍觉得贷款给深圳合丰泰', '集团风险太高的情况下，都要不留余力的去找钱借给深圳合丰泰', '集团，让超薄玻璃基板深加工项目进行下去。', '问：现在向你出示我们依法调取的《委托贷款借款合同》，', '编号为NN0610720180015，共20页，请你仔细查阅并作说明?', '答：(接过文件阅读.…15分钟后)经过我仔细查看，这份', '《委托贷款借款合同》正是钦保投集团委托华夏银行钦州支行贷', '款给东莞合丰泰公司的《委托贷款借款合同》，你们出示的材料', '显示：“该合同签订于2018年11月30日，委托贷款资金为9000', '万元，委托贷款期限为12个月，委托贷款发放时一次性支付，', '委托贷款本金由东莞合丰泰公司于2019年12月3日一次性还', '清”，但我记得实际上是钦保投集团是转给华夏银行8000万元，', '华夏银行转给东莞合丰泰公司的也是8000万元。具体资金往来', '以三方的财务转账凭证为准。', '问：请你说说合同签订的委托贷款金额和实际转款金额不', '相同的情况?', '答：好的。根据王雄昌之前的指示，要委托贷款8000万元', '给东莞合丰泰公司，后来王雄昌要求再追加1000万元贷款给东', '莞合丰泰公司作为支付8000万元贷款利息的使用，所以合同上', '签名：可斌', '第6页共14页'], 'rec_scores': [0.9988777041435242, 0.9749423861503601, 0.9957981109619141, 0.9890795350074768, 0.9978333711624146, 0.98431396484375, 0.99604731798172, 0.978891134262085, 0.9729114174842834, 0.9030665159225464, 0.9961600303649902, 0.9972623586654663, 0.9945078492164612, 0.9976234436035156, 0.9973682761192322, 0.9935304522514343, 0.9975597262382507, 0.998875617980957, 0.9972313046455383, 0.9313368201255798, 0.9973030090332031, 0.998282253742218, 0.9987367987632751, 0.7737113237380981, 0.9994348883628845], 'rec_polys': [array([[136, 186],
+       ...,
+       [135, 232]], shape=(4, 2), dtype=int16), array([[217, 255],
+       ...,
+       [217, 306]], shape=(4, 2), dtype=int16), array([[214, 320],
+       ...,
+       [214, 378]], shape=(4, 2), dtype=int16), array([[130, 387],
+       ...,
+       [129, 444]], shape=(4, 2), dtype=int16), array([[131, 455],
+       ...,
+       [130, 513]], shape=(4, 2), dtype=int16), array([[132, 527],
+       ...,
+       [131, 581]], shape=(4, 2), dtype=int16), array([[130, 598],
+       ...,
+       [129, 652]], shape=(4, 2), dtype=int16), array([[223, 674],
+       ...,
+       [222, 727]], shape=(4, 2), dtype=int16), array([[134, 746],
+       ...,
+       [133, 795]], shape=(4, 2), dtype=int16), array([[224, 820],
+       ...,
+       [224, 867]], shape=(4, 2), dtype=int16), array([[150, 890],
+       ...,
+       [149, 937]], shape=(4, 2), dtype=int16), array([[ 137,  961],
+       ...,
+       [ 136, 1005]], shape=(4, 2), dtype=int16), array([[ 138, 1031],
+       ...,
+       [ 137, 1075]], shape=(4, 2), dtype=int16), array([[ 138, 1098],
+       ...,
+       [ 137, 1145]], shape=(4, 2), dtype=int16), array([[ 137, 1169],
+       ...,
+       [ 136, 1212]], shape=(4, 2), dtype=int16), array([[ 135, 1237],
+       ...,
+       [ 134, 1281]], shape=(4, 2), dtype=int16), array([[ 135, 1311],
+       ...,
+       [ 135, 1352]], shape=(4, 2), dtype=int16), array([[ 135, 1379],
+       ...,
+       [ 135, 1421]], shape=(4, 2), dtype=int16), array([[ 221, 1449],
+       ...,
+       [ 221, 1493]], shape=(4, 2), dtype=int16), array([[ 130, 1520],
+       ...,
+       [ 130, 1563]], shape=(4, 2), dtype=int16), array([[ 219, 1588],
+       ...,
+       [ 219, 1635]], shape=(4, 2), dtype=int16), array([[ 129, 1657],
+       ...,
+       [ 129, 1702]], shape=(4, 2), dtype=int16), array([[ 128, 1730],
+       ...,
+       [ 128, 1773]], shape=(4, 2), dtype=int16), array([[ 105, 1862],
+       ...,
+       [ 115, 1978]], shape=(4, 2), dtype=int16), array([[ 927, 1891],
+       ...,
+       [ 928, 1932]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 135, ...,  236],
+       ...,
+       [ 927, ..., 1932]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 合丰泰公司的名义来贷款。
+2. 问：请你说说王雄昌为什么要积极推动这笔委托贷款?
+3. 答：我认为是因为这个项目是由王雄昌牵头负责，他想通过
+4. 这个项目来取得政绩，为自己的升迁赚取政治资本，明知政府资
+5. 金直接借给民营企业不合规、银行也普遍觉得贷款给深圳合丰泰
+6. 集团风险太高的情况下，都要不留余力的去找钱借给深圳合丰泰
+7. 集团，让超薄玻璃基板深加工项目进行下去。
+8. 问：现在向你出示我们依法调取的《委托贷款借款合同》，
+9. 编号为NN0610720180015，共20页，请你仔细查阅并作说明?
+10. 答：(接过文件阅读.…15分钟后)经过我仔细查看，这份
+11. 《委托贷款借款合同》正是钦保投集团委托华夏银行钦州支行贷
+12. 款给东莞合丰泰公司的《委托贷款借款合同》，你们出示的材料
+13. 显示：“该合同签订于2018年11月30日，委托贷款资金为9000
+14. 万元，委托贷款期限为12个月，委托贷款发放时一次性支付，
+15. 委托贷款本金由东莞合丰泰公司于2019年12月3日一次性还
+16. 清”，但我记得实际上是钦保投集团是转给华夏银行8000万元，
+17. 华夏银行转给东莞合丰泰公司的也是8000万元。具体资金往来
+18. 以三方的财务转账凭证为准。
+19. 问：请你说说合同签订的委托贷款金额和实际转款金额不
+20. 相同的情况?
+21. 答：好的。根据王雄昌之前的指示，要委托贷款8000万元
+22. 给东莞合丰泰公司，后来王雄昌要求再追加1000万元贷款给东
+23. 莞合丰泰公司作为支付8000万元贷款利息的使用，所以合同上
+24. 签名：可斌
+25. 第6页共14页

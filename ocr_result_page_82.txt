@@ -1,0 +1,165 @@
+OCR结果 - 第 82 页
+==================================================
+处理的图像: temp_page_81_processed.png
+原始PDF页面: 82
+
+详细结果:
+[{'input_path': 'temp_page_81_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1356,    4],
+       ...,
+       [1324,   44]], shape=(4, 2), dtype=int16), array([[307, 119],
+       ...,
+       [299, 169]], shape=(4, 2), dtype=int16), array([[474, 129],
+       ...,
+       [464, 260]], shape=(4, 2), dtype=int16), array([[328, 162],
+       ...,
+       [318, 212]], shape=(4, 2), dtype=int16), array([[413, 184],
+       ...,
+       [413, 234]], shape=(4, 2), dtype=int16), array([[819, 374],
+       ...,
+       [816, 415]], shape=(4, 2), dtype=int16), array([[414, 476],
+       ...,
+       [408, 542]], shape=(4, 2), dtype=int16), array([[389, 550],
+       ...,
+       [384, 614]], shape=(4, 2), dtype=int16), array([[574, 712],
+       ...,
+       [571, 750]], shape=(4, 2), dtype=int16), array([[289, 812],
+       ...,
+       [286, 856]], shape=(4, 2), dtype=int16), array([[215, 871],
+       ...,
+       [212, 912]], shape=(4, 2), dtype=int16), array([[218, 930],
+       ...,
+       [216, 968]], shape=(4, 2), dtype=int16), array([[ 292,  994],
+       ...,
+       [ 290, 1032]], shape=(4, 2), dtype=int16), array([[ 293, 1051],
+       ...,
+       [ 291, 1088]], shape=(4, 2), dtype=int16), array([[ 293, 1110],
+       ...,
+       [ 291, 1147]], shape=(4, 2), dtype=int16), array([[ 292, 1167],
+       ...,
+       [ 290, 1207]], shape=(4, 2), dtype=int16), array([[ 216, 1221],
+       ...,
+       [ 212, 1260]], shape=(4, 2), dtype=int16), array([[ 308, 1340],
+       ...,
+       [ 306, 1389]], shape=(4, 2), dtype=int16), array([[ 416, 1413],
+       ...,
+       [ 415, 1460]], shape=(4, 2), dtype=int16), array([[ 414, 1472],
+       ...,
+       [ 413, 1524]], shape=(4, 2), dtype=int16), array([[ 391, 1539],
+       ...,
+       [ 391, 1597]], shape=(4, 2), dtype=int16), array([[ 285, 1614],
+       ...,
+       [ 286, 1664]], shape=(4, 2), dtype=int16), array([[ 283, 1681],
+       ...,
+       [ 284, 1730]], shape=(4, 2), dtype=int16), array([[ 381, 1730],
+       ...,
+       [ 380, 1791]], shape=(4, 2), dtype=int16), array([[ 856, 1878],
+       ...,
+       [ 856, 1913]], shape=(4, 2), dtype=int16), array([[1161, 1976],
+       ...,
+       [1161, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', '门油区', '广西钦州保税港区管理委员会', '政', '府', '桂钦保港管阅[2018]25号', '广西钦州保税港区管理委员会', '2018年第14次主任办公会纪要', '(2018年11月30日）', '2018年11月29日，工委副书记、管委会常务副主任王雄昌', '在行政综合大楼B座1506会议室主持召开2018年第14次主任', '办公会，会议对有关议题进行了研究，现纪要如下:', '一、关于增加钦保集团注册资本金问题', '同意调整钦保集团注册资本金至10亿元。', '二、关于向钦保集团注入资本金事宜', '为提高集团公司融资能力，原则同意向钦保集团注入资本金', '8000万元.', '出席：管委会景朝阳、王文远、黄善荣，办公室张浩勇、', '经济发展处叶俊、建设管理处章太武，投资促进处', '林继培、创新研究和企业服务中心黄狮、钦保集团', '何斌。', '请假：草开宏.', '记录：办公室韦文飞.', '料共已向本人', '25.610', '回号'], 'rec_scores': [0.45992031693458557, 0.5149610638618469, 0.9952784180641174, 0.9845656752586365, 0.9334586262702942, 0.9439893364906311, 0.9977298378944397, 0.9991581439971924, 0.9468187093734741, 0.9681904315948486, 0.9804990291595459, 0.9734876155853271, 0.9970445036888123, 0.954542875289917, 0.9978528618812561, 0.9977337121963501, 0.9088522791862488, 0.9872277975082397, 0.9752927422523499, 0.9687894582748413, 0.964587926864624, 0.8247303366661072, 0.9782307744026184, 0.6576611399650574, 0.8681719899177551, 0.24690844118595123], 'rec_polys': [array([[1356,    4],
+       ...,
+       [1324,   44]], shape=(4, 2), dtype=int16), array([[307, 119],
+       ...,
+       [299, 169]], shape=(4, 2), dtype=int16), array([[474, 129],
+       ...,
+       [464, 260]], shape=(4, 2), dtype=int16), array([[328, 162],
+       ...,
+       [318, 212]], shape=(4, 2), dtype=int16), array([[413, 184],
+       ...,
+       [413, 234]], shape=(4, 2), dtype=int16), array([[819, 374],
+       ...,
+       [816, 415]], shape=(4, 2), dtype=int16), array([[414, 476],
+       ...,
+       [408, 542]], shape=(4, 2), dtype=int16), array([[389, 550],
+       ...,
+       [384, 614]], shape=(4, 2), dtype=int16), array([[574, 712],
+       ...,
+       [571, 750]], shape=(4, 2), dtype=int16), array([[289, 812],
+       ...,
+       [286, 856]], shape=(4, 2), dtype=int16), array([[215, 871],
+       ...,
+       [212, 912]], shape=(4, 2), dtype=int16), array([[218, 930],
+       ...,
+       [216, 968]], shape=(4, 2), dtype=int16), array([[ 292,  994],
+       ...,
+       [ 290, 1032]], shape=(4, 2), dtype=int16), array([[ 293, 1051],
+       ...,
+       [ 291, 1088]], shape=(4, 2), dtype=int16), array([[ 293, 1110],
+       ...,
+       [ 291, 1147]], shape=(4, 2), dtype=int16), array([[ 292, 1167],
+       ...,
+       [ 290, 1207]], shape=(4, 2), dtype=int16), array([[ 216, 1221],
+       ...,
+       [ 212, 1260]], shape=(4, 2), dtype=int16), array([[ 308, 1340],
+       ...,
+       [ 306, 1389]], shape=(4, 2), dtype=int16), array([[ 416, 1413],
+       ...,
+       [ 415, 1460]], shape=(4, 2), dtype=int16), array([[ 414, 1472],
+       ...,
+       [ 413, 1524]], shape=(4, 2), dtype=int16), array([[ 391, 1539],
+       ...,
+       [ 391, 1597]], shape=(4, 2), dtype=int16), array([[ 285, 1614],
+       ...,
+       [ 286, 1664]], shape=(4, 2), dtype=int16), array([[ 283, 1681],
+       ...,
+       [ 284, 1730]], shape=(4, 2), dtype=int16), array([[ 381, 1730],
+       ...,
+       [ 380, 1791]], shape=(4, 2), dtype=int16), array([[ 856, 1878],
+       ...,
+       [ 856, 1913]], shape=(4, 2), dtype=int16), array([[1161, 1976],
+       ...,
+       [1161, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1324, ...,   73],
+       ...,
+       [1161, ..., 2000]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. 门油区
+3. 广西钦州保税港区管理委员会
+4. 政
+5. 府
+6. 桂钦保港管阅[2018]25号
+7. 广西钦州保税港区管理委员会
+8. 2018年第14次主任办公会纪要
+9. (2018年11月30日）
+10. 2018年11月29日，工委副书记、管委会常务副主任王雄昌
+11. 在行政综合大楼B座1506会议室主持召开2018年第14次主任
+12. 办公会，会议对有关议题进行了研究，现纪要如下:
+13. 一、关于增加钦保集团注册资本金问题
+14. 同意调整钦保集团注册资本金至10亿元。
+15. 二、关于向钦保集团注入资本金事宜
+16. 为提高集团公司融资能力，原则同意向钦保集团注入资本金
+17. 8000万元.
+18. 出席：管委会景朝阳、王文远、黄善荣，办公室张浩勇、
+19. 经济发展处叶俊、建设管理处章太武，投资促进处
+20. 林继培、创新研究和企业服务中心黄狮、钦保集团
+21. 何斌。
+22. 请假：草开宏.
+23. 记录：办公室韦文飞.
+24. 料共已向本人
+25. 25.610
+26. 回号

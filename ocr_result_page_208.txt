@@ -1,0 +1,185 @@
+OCR结果 - 第 208 页
+==================================================
+处理的图像: temp_page_207_processed.png
+原始PDF页面: 208
+
+详细结果:
+[{'input_path': 'temp_page_207_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[136, 147],
+       ...,
+       [136, 204]], shape=(4, 2), dtype=int16), array([[145, 217],
+       ...,
+       [144, 255]], shape=(4, 2), dtype=int16), array([[205, 281],
+       ...,
+       [205, 325]], shape=(4, 2), dtype=int16), array([[144, 336],
+       ...,
+       [144, 381]], shape=(4, 2), dtype=int16), array([[145, 395],
+       ...,
+       [145, 435]], shape=(4, 2), dtype=int16), array([[147, 450],
+       ...,
+       [147, 492]], shape=(4, 2), dtype=int16), array([[147, 512],
+       ...,
+       [147, 546]], shape=(4, 2), dtype=int16), array([[230, 569],
+       ...,
+       [230, 599]], shape=(4, 2), dtype=int16), array([[214, 625],
+       ...,
+       [214, 658]], shape=(4, 2), dtype=int16), array([[154, 680],
+       ...,
+       [154, 714]], shape=(4, 2), dtype=int16), array([[152, 739],
+       ...,
+       [152, 773]], shape=(4, 2), dtype=int16), array([[152, 795],
+       ...,
+       [152, 829]], shape=(4, 2), dtype=int16), array([[152, 851],
+       ...,
+       [152, 885]], shape=(4, 2), dtype=int16), array([[149, 905],
+       ...,
+       [148, 942]], shape=(4, 2), dtype=int16), array([[230, 968],
+       ...,
+       [230, 998]], shape=(4, 2), dtype=int16), array([[ 215, 1024],
+       ...,
+       [ 215, 1054]], shape=(4, 2), dtype=int16), array([[ 153, 1079],
+       ...,
+       [ 153, 1110]], shape=(4, 2), dtype=int16), array([[ 153, 1136],
+       ...,
+       [ 153, 1168]], shape=(4, 2), dtype=int16), array([[ 151, 1190],
+       ...,
+       [ 151, 1223]], shape=(4, 2), dtype=int16), array([[ 150, 1247],
+       ...,
+       [ 150, 1282]], shape=(4, 2), dtype=int16), array([[ 210, 1306],
+       ...,
+       [ 210, 1343]], shape=(4, 2), dtype=int16), array([[ 145, 1356],
+       ...,
+       [ 145, 1397]], shape=(4, 2), dtype=int16), array([[ 146, 1413],
+       ...,
+       [ 146, 1447]], shape=(4, 2), dtype=int16), array([[ 209, 1480],
+       ...,
+       [ 209, 1514]], shape=(4, 2), dtype=int16), array([[ 145, 1533],
+       ...,
+       [ 145, 1571]], shape=(4, 2), dtype=int16), array([[ 207, 1592],
+       ...,
+       [ 207, 1630]], shape=(4, 2), dtype=int16), array([[ 141, 1648],
+       ...,
+       [ 141, 1692]], shape=(4, 2), dtype=int16), array([[ 143, 1705],
+       ...,
+       [ 143, 1749]], shape=(4, 2), dtype=int16), array([[ 142, 1764],
+       ...,
+       [ 142, 1812]], shape=(4, 2), dtype=int16), array([[ 688, 1874],
+       ...,
+       [ 688, 1905]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['性质分别储存在化学品库内。储罐采用密封，在储存过程中不存在损耗，基本没', '有污染物的无组织排放。', '特气站在输送气体的过程中，在管道接口处可能有微量的气体泄漏。根据类', '比数据，化学材料在运输过程中，预计在罐装、管道等接I处可能的微量泄漏量', '约为总使用量的0.02%。本项1使用量较大的氯气(和氨气用量分别为99012kg/a', '和283481kg/a，山此过程产生的无组织排放源强分别为0.002324kgh和', '0.006654kg/h。', '（2）化学品厂内输送及使用过程', '化学品在输送过程中有很好的防护措施，如带强排气的密闭供应室，相应的', '气体侦测系统，产生的泄漏物质通过排风实现了有组织排放，因此在传输过程中', '没有无组织的废气逸出。本项目生产车间大部分为洁净空间，生产过程中全封闭', '式操作，工艺废气经收集后分别排入相应的净化系统中处理后通过排气筒排放。', '废气处理系统划分合理，覆盖面大，基本消除了工艺废气在使用过程中的无组织', '排放源。', '（3)废水处理过程', '本项目拟新建1座废水处理站，位于厂区西南侧，废水站主要构筑物均加盖。', '各类废水经分类收集后排入废水处理站处理，其中有机废水先经过厌氧消耗处理', '后再进行好氧处理，大部分有机物被生物氧化降解。废水在处理过程将排放出一', '定量的NH_{₃和H_₂S等恶臭气体。根据工程类比分析结果，NH_{₃的无组织排放源强', '为0.018kg/h，H₂S的无组织排放源强为0.007kg/h。', '综上，本项目需要根据无组织排放情况设置卫生防护距离和大气环境防护距', '离。', '1.1.1.7大气污染物厂界达标排放分析', '根据北京京东方显示技术有限公司第8.5代薄膜晶体管液晶显示器件项目的', '类比监测分析可知，氨、氟化物、奥气浓度的厂界达标排放情况如下：', '氨的厂界浓度约为0.13m$g/m^3~0.61m$g/m^}，氟化物的厂界浓度约为', '0.0010mg/m3~0.0091mg/m3，非甲烷总烃的厂界浓度约为0.42mg/m~1.8mg/m³3', '臭气的厂界浓度约为<10（无量纲)。厂界处的污染物浓度分别满足无组织排放', '监控浓度限值要求，即氨：1.5mg/m3、氟化物0.02mg/m3、非甲烷总烃5.0mg/m3、', '69'], 'rec_scores': [0.9970839619636536, 0.9984989166259766, 0.972615122795105, 0.9745908379554749, 0.9199690222740173, 0.9555468559265137, 0.9318743944168091, 0.9770806431770325, 0.998816728591919, 0.9975523948669434, 0.9932440519332886, 0.9965599179267883, 0.9980141520500183, 0.9987566471099854, 0.8942041397094727, 0.9981420040130615, 0.9964436292648315, 0.9982652068138123, 0.9401655197143555, 0.9281642436981201, 0.997599720954895, 0.989827573299408, 0.9979844093322754, 0.9964575171470642, 0.9751035571098328, 0.8655258417129517, 0.8681467771530151, 0.9769212007522583, 0.9101112484931946, 0.999576210975647], 'rec_polys': [array([[136, 147],
+       ...,
+       [136, 204]], shape=(4, 2), dtype=int16), array([[145, 217],
+       ...,
+       [144, 255]], shape=(4, 2), dtype=int16), array([[205, 281],
+       ...,
+       [205, 325]], shape=(4, 2), dtype=int16), array([[144, 336],
+       ...,
+       [144, 381]], shape=(4, 2), dtype=int16), array([[145, 395],
+       ...,
+       [145, 435]], shape=(4, 2), dtype=int16), array([[147, 450],
+       ...,
+       [147, 492]], shape=(4, 2), dtype=int16), array([[147, 512],
+       ...,
+       [147, 546]], shape=(4, 2), dtype=int16), array([[230, 569],
+       ...,
+       [230, 599]], shape=(4, 2), dtype=int16), array([[214, 625],
+       ...,
+       [214, 658]], shape=(4, 2), dtype=int16), array([[154, 680],
+       ...,
+       [154, 714]], shape=(4, 2), dtype=int16), array([[152, 739],
+       ...,
+       [152, 773]], shape=(4, 2), dtype=int16), array([[152, 795],
+       ...,
+       [152, 829]], shape=(4, 2), dtype=int16), array([[152, 851],
+       ...,
+       [152, 885]], shape=(4, 2), dtype=int16), array([[149, 905],
+       ...,
+       [148, 942]], shape=(4, 2), dtype=int16), array([[230, 968],
+       ...,
+       [230, 998]], shape=(4, 2), dtype=int16), array([[ 215, 1024],
+       ...,
+       [ 215, 1054]], shape=(4, 2), dtype=int16), array([[ 153, 1079],
+       ...,
+       [ 153, 1110]], shape=(4, 2), dtype=int16), array([[ 153, 1136],
+       ...,
+       [ 153, 1168]], shape=(4, 2), dtype=int16), array([[ 151, 1190],
+       ...,
+       [ 151, 1223]], shape=(4, 2), dtype=int16), array([[ 150, 1247],
+       ...,
+       [ 150, 1282]], shape=(4, 2), dtype=int16), array([[ 210, 1306],
+       ...,
+       [ 210, 1343]], shape=(4, 2), dtype=int16), array([[ 145, 1356],
+       ...,
+       [ 145, 1397]], shape=(4, 2), dtype=int16), array([[ 146, 1413],
+       ...,
+       [ 146, 1447]], shape=(4, 2), dtype=int16), array([[ 209, 1480],
+       ...,
+       [ 209, 1514]], shape=(4, 2), dtype=int16), array([[ 145, 1533],
+       ...,
+       [ 145, 1571]], shape=(4, 2), dtype=int16), array([[ 207, 1592],
+       ...,
+       [ 207, 1630]], shape=(4, 2), dtype=int16), array([[ 141, 1648],
+       ...,
+       [ 141, 1692]], shape=(4, 2), dtype=int16), array([[ 143, 1705],
+       ...,
+       [ 143, 1749]], shape=(4, 2), dtype=int16), array([[ 142, 1764],
+       ...,
+       [ 142, 1812]], shape=(4, 2), dtype=int16), array([[ 688, 1874],
+       ...,
+       [ 688, 1905]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 136, ...,  211],
+       ...,
+       [ 688, ..., 1905]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 性质分别储存在化学品库内。储罐采用密封，在储存过程中不存在损耗，基本没
+2. 有污染物的无组织排放。
+3. 特气站在输送气体的过程中，在管道接口处可能有微量的气体泄漏。根据类
+4. 比数据，化学材料在运输过程中，预计在罐装、管道等接I处可能的微量泄漏量
+5. 约为总使用量的0.02%。本项1使用量较大的氯气(和氨气用量分别为99012kg/a
+6. 和283481kg/a，山此过程产生的无组织排放源强分别为0.002324kgh和
+7. 0.006654kg/h。
+8. （2）化学品厂内输送及使用过程
+9. 化学品在输送过程中有很好的防护措施，如带强排气的密闭供应室，相应的
+10. 气体侦测系统，产生的泄漏物质通过排风实现了有组织排放，因此在传输过程中
+11. 没有无组织的废气逸出。本项目生产车间大部分为洁净空间，生产过程中全封闭
+12. 式操作，工艺废气经收集后分别排入相应的净化系统中处理后通过排气筒排放。
+13. 废气处理系统划分合理，覆盖面大，基本消除了工艺废气在使用过程中的无组织
+14. 排放源。
+15. （3)废水处理过程
+16. 本项目拟新建1座废水处理站，位于厂区西南侧，废水站主要构筑物均加盖。
+17. 各类废水经分类收集后排入废水处理站处理，其中有机废水先经过厌氧消耗处理
+18. 后再进行好氧处理，大部分有机物被生物氧化降解。废水在处理过程将排放出一
+19. 定量的NH_{₃和H_₂S等恶臭气体。根据工程类比分析结果，NH_{₃的无组织排放源强
+20. 为0.018kg/h，H₂S的无组织排放源强为0.007kg/h。
+21. 综上，本项目需要根据无组织排放情况设置卫生防护距离和大气环境防护距
+22. 离。
+23. 1.1.1.7大气污染物厂界达标排放分析
+24. 根据北京京东方显示技术有限公司第8.5代薄膜晶体管液晶显示器件项目的
+25. 类比监测分析可知，氨、氟化物、奥气浓度的厂界达标排放情况如下：
+26. 氨的厂界浓度约为0.13m$g/m^3~0.61m$g/m^}，氟化物的厂界浓度约为
+27. 0.0010mg/m3~0.0091mg/m3，非甲烷总烃的厂界浓度约为0.42mg/m~1.8mg/m³3
+28. 臭气的厂界浓度约为<10（无量纲)。厂界处的污染物浓度分别满足无组织排放
+29. 监控浓度限值要求，即氨：1.5mg/m3、氟化物0.02mg/m3、非甲烷总烃5.0mg/m3、
+30. 69

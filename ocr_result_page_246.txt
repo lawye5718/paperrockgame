@@ -1,0 +1,190 @@
+OCR结果 - 第 246 页
+==================================================
+处理的图像: temp_page_245_processed.png
+原始PDF页面: 246
+
+详细结果:
+[{'input_path': 'temp_page_245_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8)}, 'dt_polys': [array([[ 0, 55],
+       ...,
+       [ 0, 73]], shape=(4, 2), dtype=int16), array([[122, 117],
+       ...,
+       [122, 151]], shape=(4, 2), dtype=int16), array([[209, 185],
+       ...,
+       [209, 217]], shape=(4, 2), dtype=int16), array([[130, 248],
+       ...,
+       [129, 283]], shape=(4, 2), dtype=int16), array([[214, 316],
+       ...,
+       [214, 347]], shape=(4, 2), dtype=int16), array([[134, 375],
+       ...,
+       [135, 408]], shape=(4, 2), dtype=int16), array([[215, 432],
+       ...,
+       [215, 465]], shape=(4, 2), dtype=int16), array([[217, 489],
+       ...,
+       [217, 522]], shape=(4, 2), dtype=int16), array([[218, 544],
+       ...,
+       [218, 579]], shape=(4, 2), dtype=int16), array([[143, 605],
+       ...,
+       [144, 635]], shape=(4, 2), dtype=int16), array([[221, 659],
+       ...,
+       [221, 694]], shape=(4, 2), dtype=int16), array([[143, 717],
+       ...,
+       [144, 754]], shape=(4, 2), dtype=int16), array([[146, 779],
+       ...,
+       [147, 811]], shape=(4, 2), dtype=int16), array([[225, 836],
+       ...,
+       [225, 870]], shape=(4, 2), dtype=int16), array([[148, 896],
+       ...,
+       [149, 927]], shape=(4, 2), dtype=int16), array([[210, 953],
+       ...,
+       [210, 987]], shape=(4, 2), dtype=int16), array([[ 150, 1011],
+       ...,
+       [ 151, 1041]], shape=(4, 2), dtype=int16), array([[ 149, 1069],
+       ...,
+       [ 149, 1099]], shape=(4, 2), dtype=int16), array([[ 146, 1143],
+       ...,
+       [ 147, 1177]], shape=(4, 2), dtype=int16), array([[ 213, 1201],
+       ...,
+       [ 213, 1232]], shape=(4, 2), dtype=int16), array([[ 151, 1256],
+       ...,
+       [ 151, 1290]], shape=(4, 2), dtype=int16), array([[ 152, 1314],
+       ...,
+       [ 152, 1345]], shape=(4, 2), dtype=int16), array([[ 215, 1375],
+       ...,
+       [ 215, 1402]], shape=(4, 2), dtype=int16), array([[ 230, 1431],
+       ...,
+       [ 230, 1459]], shape=(4, 2), dtype=int16), array([[ 154, 1481],
+       ...,
+       [ 154, 1515]], shape=(4, 2), dtype=int16), array([[ 155, 1535],
+       ...,
+       [ 155, 1570]], shape=(4, 2), dtype=int16), array([[ 231, 1590],
+       ...,
+       [ 231, 1627]], shape=(4, 2), dtype=int16), array([[ 160, 1644],
+       ...,
+       [ 159, 1680]], shape=(4, 2), dtype=int16), array([[ 161, 1701],
+       ...,
+       [ 161, 1735]], shape=(4, 2), dtype=int16), array([[ 164, 1758],
+       ...,
+       [ 164, 1792]], shape=(4, 2), dtype=int16), array([[ 672, 1846],
+       ...,
+       [ 672, 1882]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2', '器和紧急应变手册。', '（3）在运输过程中，采取专车专用的方式，禁止将危险废物与旅客及其它', '货物同车运输。', '(4）危险废物运输车辆通过饮用水源保护区或水库的水源地时，应减速行', '驶，尽量避免各类交通事故的发生。如有必要应尽量避免雨大运输。', '(5)危险废物运输途经城市时，应尽量绕城行驶，不得穿越城区。', '(6)严格按照规划路线运输，但尽量避免上下班高峰时运输。', '（7)对运输车进行严格管理，须备有车辆里程登记表并做好每日登记，做', '好车辆日常的维护。', '（8)从事危险废物运输的人员（包括司机），应当接受专业培训，经考核', '合格，方可从事该项工作；运输车辆须有特殊标志，以引起关注；危险废物运输', '车辆需持有危险废物运输通行证。', '（9)为了保证危险废物运输的安全无误，必须遵守国家和地方制定的危险', '废物转移联单管理办法中的有关规定。', '综上所述，项目拟采取的固体废物的方案，较为全面、安全，处置去向明确，', '基本上可消除对环境的二次污染。故本项日建成后，整厂采取的固体废弃物处置', '措施技术合理可行。', '3.6．有毒有害化学品安全使用措施分析', '项目生产过程中需要使用多种特殊气体和化学品，特殊气体可分为惰性气', '体、腐蚀性气体、易燃/有害性气体，这些气体和化学品在运输、储存、使用和', '管理过程中具有一定的环境风险。', '工程设计时采取以下措施减少环境风险的防治措施：', '（1）各建筑物间的防火间距均按要求设置，主要建筑周围的道路呈环形布', '置。厂区内所有架空管道和连廊的最低标高不小于4.5m，保证消防车辆畅通无', '阻：特气库和硅烷站均按照防火、防爆要求进行设计建造。', '(2)项目使用的特种气体中硅烷存储于硅烷站内，其余均存储于特气库内，', '由于本项目特种气体使用量较大，因此存储形式以鱼雷管车和大型钢瓶为主。各', '类特种气体均单独存放在独立区域内，在特种气体鱼雷管车和钢瓶阀门连接处等', '易发生泄漏处，设置气体抽风装置，并持续抽风形成微负压，气体抽风装置根据', '107'], 'rec_scores': [0.9307214021682739, 0.9915949702262878, 0.9799632430076599, 0.9981433153152466, 0.9770975708961487, 0.9669340252876282, 0.9740100502967834, 0.9672975540161133, 0.9834279417991638, 0.9963997602462769, 0.9674926400184631, 0.9905596971511841, 0.9961662888526917, 0.9764707088470459, 0.9992638826370239, 0.9934014678001404, 0.9858694672584534, 0.9981361031532288, 0.9928604960441589, 0.9806990623474121, 0.9926313161849976, 0.9973554611206055, 0.997651994228363, 0.9744027853012085, 0.9869282841682434, 0.9832319021224976, 0.9905295372009277, 0.9979087710380554, 0.9980273842811584, 0.9978860020637512, 0.9996965527534485], 'rec_polys': [array([[ 0, 55],
+       ...,
+       [ 0, 73]], shape=(4, 2), dtype=int16), array([[122, 117],
+       ...,
+       [122, 151]], shape=(4, 2), dtype=int16), array([[209, 185],
+       ...,
+       [209, 217]], shape=(4, 2), dtype=int16), array([[130, 248],
+       ...,
+       [129, 283]], shape=(4, 2), dtype=int16), array([[214, 316],
+       ...,
+       [214, 347]], shape=(4, 2), dtype=int16), array([[134, 375],
+       ...,
+       [135, 408]], shape=(4, 2), dtype=int16), array([[215, 432],
+       ...,
+       [215, 465]], shape=(4, 2), dtype=int16), array([[217, 489],
+       ...,
+       [217, 522]], shape=(4, 2), dtype=int16), array([[218, 544],
+       ...,
+       [218, 579]], shape=(4, 2), dtype=int16), array([[143, 605],
+       ...,
+       [144, 635]], shape=(4, 2), dtype=int16), array([[221, 659],
+       ...,
+       [221, 694]], shape=(4, 2), dtype=int16), array([[143, 717],
+       ...,
+       [144, 754]], shape=(4, 2), dtype=int16), array([[146, 779],
+       ...,
+       [147, 811]], shape=(4, 2), dtype=int16), array([[225, 836],
+       ...,
+       [225, 870]], shape=(4, 2), dtype=int16), array([[148, 896],
+       ...,
+       [149, 927]], shape=(4, 2), dtype=int16), array([[210, 953],
+       ...,
+       [210, 987]], shape=(4, 2), dtype=int16), array([[ 150, 1011],
+       ...,
+       [ 151, 1041]], shape=(4, 2), dtype=int16), array([[ 149, 1069],
+       ...,
+       [ 149, 1099]], shape=(4, 2), dtype=int16), array([[ 146, 1143],
+       ...,
+       [ 147, 1177]], shape=(4, 2), dtype=int16), array([[ 213, 1201],
+       ...,
+       [ 213, 1232]], shape=(4, 2), dtype=int16), array([[ 151, 1256],
+       ...,
+       [ 151, 1290]], shape=(4, 2), dtype=int16), array([[ 152, 1314],
+       ...,
+       [ 152, 1345]], shape=(4, 2), dtype=int16), array([[ 215, 1375],
+       ...,
+       [ 215, 1402]], shape=(4, 2), dtype=int16), array([[ 230, 1431],
+       ...,
+       [ 230, 1459]], shape=(4, 2), dtype=int16), array([[ 154, 1481],
+       ...,
+       [ 154, 1515]], shape=(4, 2), dtype=int16), array([[ 155, 1535],
+       ...,
+       [ 155, 1570]], shape=(4, 2), dtype=int16), array([[ 231, 1590],
+       ...,
+       [ 231, 1627]], shape=(4, 2), dtype=int16), array([[ 160, 1644],
+       ...,
+       [ 159, 1680]], shape=(4, 2), dtype=int16), array([[ 161, 1701],
+       ...,
+       [ 161, 1735]], shape=(4, 2), dtype=int16), array([[ 164, 1758],
+       ...,
+       [ 164, 1792]], shape=(4, 2), dtype=int16), array([[ 672, 1846],
+       ...,
+       [ 672, 1882]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[   0, ...,   73],
+       ...,
+       [ 672, ..., 1882]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2
+2. 器和紧急应变手册。
+3. （3）在运输过程中，采取专车专用的方式，禁止将危险废物与旅客及其它
+4. 货物同车运输。
+5. (4）危险废物运输车辆通过饮用水源保护区或水库的水源地时，应减速行
+6. 驶，尽量避免各类交通事故的发生。如有必要应尽量避免雨大运输。
+7. (5)危险废物运输途经城市时，应尽量绕城行驶，不得穿越城区。
+8. (6)严格按照规划路线运输，但尽量避免上下班高峰时运输。
+9. （7)对运输车进行严格管理，须备有车辆里程登记表并做好每日登记，做
+10. 好车辆日常的维护。
+11. （8)从事危险废物运输的人员（包括司机），应当接受专业培训，经考核
+12. 合格，方可从事该项工作；运输车辆须有特殊标志，以引起关注；危险废物运输
+13. 车辆需持有危险废物运输通行证。
+14. （9)为了保证危险废物运输的安全无误，必须遵守国家和地方制定的危险
+15. 废物转移联单管理办法中的有关规定。
+16. 综上所述，项目拟采取的固体废物的方案，较为全面、安全，处置去向明确，
+17. 基本上可消除对环境的二次污染。故本项日建成后，整厂采取的固体废弃物处置
+18. 措施技术合理可行。
+19. 3.6．有毒有害化学品安全使用措施分析
+20. 项目生产过程中需要使用多种特殊气体和化学品，特殊气体可分为惰性气
+21. 体、腐蚀性气体、易燃/有害性气体，这些气体和化学品在运输、储存、使用和
+22. 管理过程中具有一定的环境风险。
+23. 工程设计时采取以下措施减少环境风险的防治措施：
+24. （1）各建筑物间的防火间距均按要求设置，主要建筑周围的道路呈环形布
+25. 置。厂区内所有架空管道和连廊的最低标高不小于4.5m，保证消防车辆畅通无
+26. 阻：特气库和硅烷站均按照防火、防爆要求进行设计建造。
+27. (2)项目使用的特种气体中硅烷存储于硅烷站内，其余均存储于特气库内，
+28. 由于本项目特种气体使用量较大，因此存储形式以鱼雷管车和大型钢瓶为主。各
+29. 类特种气体均单独存放在独立区域内，在特种气体鱼雷管车和钢瓶阀门连接处等
+30. 易发生泄漏处，设置气体抽风装置，并持续抽风形成微负压，气体抽风装置根据
+31. 107

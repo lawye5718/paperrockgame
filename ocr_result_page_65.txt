@@ -1,0 +1,140 @@
+OCR结果 - 第 65 页
+==================================================
+处理的图像: temp_page_64_processed.png
+原始PDF页面: 65
+
+详细结果:
+[{'input_path': 'temp_page_64_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[136, 130],
+       ...,
+       [135, 173]], shape=(4, 2), dtype=int16), array([[132, 200],
+       ...,
+       [131, 262]], shape=(4, 2), dtype=int16), array([[592, 362],
+       ...,
+       [591, 404]], shape=(4, 2), dtype=int16), array([[216, 446],
+       ...,
+       [215, 487]], shape=(4, 2), dtype=int16), array([[139, 523],
+       ...,
+       [138, 563]], shape=(4, 2), dtype=int16), array([[139, 602],
+       ...,
+       [138, 642]], shape=(4, 2), dtype=int16), array([[140, 680],
+       ...,
+       [139, 722]], shape=(4, 2), dtype=int16), array([[214, 759],
+       ...,
+       [213, 802]], shape=(4, 2), dtype=int16), array([[140, 840],
+       ...,
+       [139, 881]], shape=(4, 2), dtype=int16), array([[136, 918],
+       ...,
+       [135, 962]], shape=(4, 2), dtype=int16), array([[ 211,  997],
+       ...,
+       [ 211, 1037]], shape=(4, 2), dtype=int16), array([[ 213, 1080],
+       ...,
+       [ 213, 1114]], shape=(4, 2), dtype=int16), array([[ 140, 1154],
+       ...,
+       [ 139, 1191]], shape=(4, 2), dtype=int16), array([[ 137, 1232],
+       ...,
+       [ 136, 1270]], shape=(4, 2), dtype=int16), array([[ 209, 1312],
+       ...,
+       [ 209, 1351]], shape=(4, 2), dtype=int16), array([[ 132, 1388],
+       ...,
+       [ 131, 1429]], shape=(4, 2), dtype=int16), array([[ 541, 1526],
+       ...,
+       [ 541, 1564]], shape=(4, 2), dtype=int16), array([[ 203, 1612],
+       ...,
+       [ 203, 1649]], shape=(4, 2), dtype=int16), array([[ 129, 1687],
+       ...,
+       [ 128, 1726]], shape=(4, 2), dtype=int16), array([[ 128, 1759],
+       ...,
+       [ 127, 1804]], shape=(4, 2), dtype=int16), array([[1024, 1863],
+       ...,
+       [1024, 1929]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['方按期、按规定收取利息。甲方不能按时付息时，按规定按日计收本', '金万分之伍的违约金。', '第八条罚息', '第8.1条若甲方未按约定期限还款，就逾期部分（包括被宣布', '全部或部分提前到期的借款本金和利息)，从逾期之日起按照逾期贷', '款罚息利率计收利息，直至清偿本息为止。逾期贷款罚息利率为第四', '条约定的借款利率上浮50%；', '第8.2条若甲方未按约定用途使用贷款，就挪用部分，从挪用', '之日起按照挪用贷款罚息利率计收利息，直至清偿本息为止。挪用贷', '款罚息利率为第四条约定的借款利率上浮50%；', '第8.3条对既逾期又挪用的贷款，计收罚息和复利.', '对甲方不能按期支付的利息，以本合同约定的结息方式，贷款期', '内按照第四条约定的借款利率计收复利，贷款逾期后改按本款约定的', '罚息利率计收复利.', '计收罚息和复利，遇合同约定的借款利率调整，自调整之日分段', '计算罚息和复利。', '第九条提前还款', '第9.1条经乙方书面同意并通知丙方，甲方可以提前部分或全', '部归还贷款本金和利息.甲方提前归还本金应按照实际用款期间及本', '合同约定的贷款利率计算利息；如乙方不同意甲方提前还款的，甲方', '可文武'], 'rec_scores': [0.9765226244926453, 0.9701919555664062, 0.9694442749023438, 0.9869579672813416, 0.9855047464370728, 0.9977309703826904, 0.9286530613899231, 0.9974861145019531, 0.9965909719467163, 0.9821971654891968, 0.9896318316459656, 0.9985284805297852, 0.9990332722663879, 0.9691035151481628, 0.9985077977180481, 0.9301131963729858, 0.9952893853187561, 0.9962697625160217, 0.9796876311302185, 0.9961653351783752, 0.6446422934532166], 'rec_polys': [array([[136, 130],
+       ...,
+       [135, 173]], shape=(4, 2), dtype=int16), array([[132, 200],
+       ...,
+       [131, 262]], shape=(4, 2), dtype=int16), array([[592, 362],
+       ...,
+       [591, 404]], shape=(4, 2), dtype=int16), array([[216, 446],
+       ...,
+       [215, 487]], shape=(4, 2), dtype=int16), array([[139, 523],
+       ...,
+       [138, 563]], shape=(4, 2), dtype=int16), array([[139, 602],
+       ...,
+       [138, 642]], shape=(4, 2), dtype=int16), array([[140, 680],
+       ...,
+       [139, 722]], shape=(4, 2), dtype=int16), array([[214, 759],
+       ...,
+       [213, 802]], shape=(4, 2), dtype=int16), array([[140, 840],
+       ...,
+       [139, 881]], shape=(4, 2), dtype=int16), array([[136, 918],
+       ...,
+       [135, 962]], shape=(4, 2), dtype=int16), array([[ 211,  997],
+       ...,
+       [ 211, 1037]], shape=(4, 2), dtype=int16), array([[ 213, 1080],
+       ...,
+       [ 213, 1114]], shape=(4, 2), dtype=int16), array([[ 140, 1154],
+       ...,
+       [ 139, 1191]], shape=(4, 2), dtype=int16), array([[ 137, 1232],
+       ...,
+       [ 136, 1270]], shape=(4, 2), dtype=int16), array([[ 209, 1312],
+       ...,
+       [ 209, 1351]], shape=(4, 2), dtype=int16), array([[ 132, 1388],
+       ...,
+       [ 131, 1429]], shape=(4, 2), dtype=int16), array([[ 541, 1526],
+       ...,
+       [ 541, 1564]], shape=(4, 2), dtype=int16), array([[ 203, 1612],
+       ...,
+       [ 203, 1649]], shape=(4, 2), dtype=int16), array([[ 129, 1687],
+       ...,
+       [ 128, 1726]], shape=(4, 2), dtype=int16), array([[ 128, 1759],
+       ...,
+       [ 127, 1804]], shape=(4, 2), dtype=int16), array([[1024, 1863],
+       ...,
+       [1024, 1929]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 135, ...,  178],
+       ...,
+       [1024, ..., 1929]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. 方按期、按规定收取利息。甲方不能按时付息时，按规定按日计收本
+2. 金万分之伍的违约金。
+3. 第八条罚息
+4. 第8.1条若甲方未按约定期限还款，就逾期部分（包括被宣布
+5. 全部或部分提前到期的借款本金和利息)，从逾期之日起按照逾期贷
+6. 款罚息利率计收利息，直至清偿本息为止。逾期贷款罚息利率为第四
+7. 条约定的借款利率上浮50%；
+8. 第8.2条若甲方未按约定用途使用贷款，就挪用部分，从挪用
+9. 之日起按照挪用贷款罚息利率计收利息，直至清偿本息为止。挪用贷
+10. 款罚息利率为第四条约定的借款利率上浮50%；
+11. 第8.3条对既逾期又挪用的贷款，计收罚息和复利.
+12. 对甲方不能按期支付的利息，以本合同约定的结息方式，贷款期
+13. 内按照第四条约定的借款利率计收复利，贷款逾期后改按本款约定的
+14. 罚息利率计收复利.
+15. 计收罚息和复利，遇合同约定的借款利率调整，自调整之日分段
+16. 计算罚息和复利。
+17. 第九条提前还款
+18. 第9.1条经乙方书面同意并通知丙方，甲方可以提前部分或全
+19. 部归还贷款本金和利息.甲方提前归还本金应按照实际用款期间及本
+20. 合同约定的贷款利率计算利息；如乙方不同意甲方提前还款的，甲方
+21. 可文武

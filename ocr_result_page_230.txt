@@ -1,0 +1,140 @@
+OCR结果 - 第 230 页
+==================================================
+处理的图像: temp_page_229_processed.png
+原始PDF页面: 230
+
+详细结果:
+[{'input_path': 'temp_page_229_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8)}, 'dt_polys': [array([[191, 120],
+       ...,
+       [191, 163]], shape=(4, 2), dtype=int16), array([[140, 187],
+       ...,
+       [140, 228]], shape=(4, 2), dtype=int16), array([[137, 252],
+       ...,
+       [137, 293]], shape=(4, 2), dtype=int16), array([[141, 317],
+       ...,
+       [141, 358]], shape=(4, 2), dtype=int16), array([[1016,  494],
+       ...,
+       [1016,  522]], shape=(4, 2), dtype=int16), array([[955, 564],
+       ...,
+       [955, 596]], shape=(4, 2), dtype=int16), array([[274, 756],
+       ...,
+       [275, 788]], shape=(4, 2), dtype=int16), array([[246, 899],
+       ...,
+       [247, 931]], shape=(4, 2), dtype=int16), array([[ 511,  966],
+       ...,
+       [ 511, 1002]], shape=(4, 2), dtype=int16), array([[ 641,  966],
+       ...,
+       [ 642, 1001]], shape=(4, 2), dtype=int16), array([[ 150, 1010],
+       ...,
+       [ 150, 1048]], shape=(4, 2), dtype=int16), array([[ 217, 1068],
+       ...,
+       [ 217, 1105]], shape=(4, 2), dtype=int16), array([[ 153, 1125],
+       ...,
+       [ 153, 1161]], shape=(4, 2), dtype=int16), array([[ 153, 1180],
+       ...,
+       [ 153, 1218]], shape=(4, 2), dtype=int16), array([[ 153, 1238],
+       ...,
+       [ 153, 1275]], shape=(4, 2), dtype=int16), array([[ 217, 1295],
+       ...,
+       [ 217, 1334]], shape=(4, 2), dtype=int16), array([[ 155, 1356],
+       ...,
+       [ 155, 1390]], shape=(4, 2), dtype=int16), array([[ 219, 1412],
+       ...,
+       [ 219, 1447]], shape=(4, 2), dtype=int16), array([[ 159, 1470],
+       ...,
+       [ 159, 1504]], shape=(4, 2), dtype=int16), array([[ 158, 1525],
+       ...,
+       [ 158, 1556]], shape=(4, 2), dtype=int16), array([[ 688, 1940],
+       ...,
+       [ 688, 1971]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['项目生产厂房的生产设备布置于2F、4F：1.艺设备排放的废气通过设置在', '下夹层的风管（其中酸碱废气、I.艺尾气采用FRP材质：有机废气采用不锈钢', '材质)收集汇总排至屋顶主风管，每套废气处理设备的处理塔与主风管分别相连，', '废气处理设施互为备用。', '泼气处理设施', '发气处理设施', '末端设备', '末端设备2F', '图3.1-2', '项目废气收集示意图', '3.1.2.2.酸碱废气处理系统', '酸碱废气来源于艺流程中使用各种酸液蚀刻、清洗过程，主要污染物为氯', '化氢、氮氧化物、磷酸、醋酸等：碱性废气主要污染物为氨等。生产厂房生产阵', '列玻璃时使用N_{2}O进行干刻或(相沉积产生的I艺尾气(含NO_x)经POU处理', '后，与生产厂房产生的酸性废气起排入生产厂房设置的碱液喷淋洗涤塔处理。', '生产厂房设置4套碱液喷淋洗涤塔（3用1备）用于处理酸性废气。生产厂', '房（Array）：设置3套H₂SO_4酸液喷淋洗涤塔（2川1备）用于处理碱性废（。', '酸碱废气处理系统由酸碱废气吸收塔、排风机、喷淋装置、吸收液供给装置', '和排风管等组成，酸碱废气在洗涤塔内经吸收液喷淋处理，达标后再排入大气。', '酸碱废气处理流程见图3.1-3。', '16'], 'rec_scores': [0.9457189440727234, 0.9167968034744263, 0.9494075775146484, 0.9392780065536499, 0.8578563332557678, 0.8024578094482422, 0.9649972319602966, 0.9287615418434143, 0.9976310729980469, 0.9978039860725403, 0.9807186126708984, 0.9791656732559204, 0.9593697786331177, 0.866148054599762, 0.9854151606559753, 0.9206390976905823, 0.8606801629066467, 0.990236222743988, 0.9843049049377441, 0.988476574420929, 0.9885387420654297], 'rec_polys': [array([[191, 120],
+       ...,
+       [191, 163]], shape=(4, 2), dtype=int16), array([[140, 187],
+       ...,
+       [140, 228]], shape=(4, 2), dtype=int16), array([[137, 252],
+       ...,
+       [137, 293]], shape=(4, 2), dtype=int16), array([[141, 317],
+       ...,
+       [141, 358]], shape=(4, 2), dtype=int16), array([[1016,  494],
+       ...,
+       [1016,  522]], shape=(4, 2), dtype=int16), array([[955, 564],
+       ...,
+       [955, 596]], shape=(4, 2), dtype=int16), array([[274, 756],
+       ...,
+       [275, 788]], shape=(4, 2), dtype=int16), array([[246, 899],
+       ...,
+       [247, 931]], shape=(4, 2), dtype=int16), array([[ 511,  966],
+       ...,
+       [ 511, 1002]], shape=(4, 2), dtype=int16), array([[ 641,  966],
+       ...,
+       [ 642, 1001]], shape=(4, 2), dtype=int16), array([[ 150, 1010],
+       ...,
+       [ 150, 1048]], shape=(4, 2), dtype=int16), array([[ 217, 1068],
+       ...,
+       [ 217, 1105]], shape=(4, 2), dtype=int16), array([[ 153, 1125],
+       ...,
+       [ 153, 1161]], shape=(4, 2), dtype=int16), array([[ 153, 1180],
+       ...,
+       [ 153, 1218]], shape=(4, 2), dtype=int16), array([[ 153, 1238],
+       ...,
+       [ 153, 1275]], shape=(4, 2), dtype=int16), array([[ 217, 1295],
+       ...,
+       [ 217, 1334]], shape=(4, 2), dtype=int16), array([[ 155, 1356],
+       ...,
+       [ 155, 1390]], shape=(4, 2), dtype=int16), array([[ 219, 1412],
+       ...,
+       [ 219, 1447]], shape=(4, 2), dtype=int16), array([[ 159, 1470],
+       ...,
+       [ 159, 1504]], shape=(4, 2), dtype=int16), array([[ 158, 1525],
+       ...,
+       [ 158, 1556]], shape=(4, 2), dtype=int16), array([[ 688, 1940],
+       ...,
+       [ 688, 1971]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[ 191, ...,  174],
+       ...,
+       [ 688, ..., 1971]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. 项目生产厂房的生产设备布置于2F、4F：1.艺设备排放的废气通过设置在
+2. 下夹层的风管（其中酸碱废气、I.艺尾气采用FRP材质：有机废气采用不锈钢
+3. 材质)收集汇总排至屋顶主风管，每套废气处理设备的处理塔与主风管分别相连，
+4. 废气处理设施互为备用。
+5. 泼气处理设施
+6. 发气处理设施
+7. 末端设备
+8. 末端设备2F
+9. 图3.1-2
+10. 项目废气收集示意图
+11. 3.1.2.2.酸碱废气处理系统
+12. 酸碱废气来源于艺流程中使用各种酸液蚀刻、清洗过程，主要污染物为氯
+13. 化氢、氮氧化物、磷酸、醋酸等：碱性废气主要污染物为氨等。生产厂房生产阵
+14. 列玻璃时使用N_{2}O进行干刻或(相沉积产生的I艺尾气(含NO_x)经POU处理
+15. 后，与生产厂房产生的酸性废气起排入生产厂房设置的碱液喷淋洗涤塔处理。
+16. 生产厂房设置4套碱液喷淋洗涤塔（3用1备）用于处理酸性废气。生产厂
+17. 房（Array）：设置3套H₂SO_4酸液喷淋洗涤塔（2川1备）用于处理碱性废（。
+18. 酸碱废气处理系统由酸碱废气吸收塔、排风机、喷淋装置、吸收液供给装置
+19. 和排风管等组成，酸碱废气在洗涤塔内经吸收液喷淋处理，达标后再排入大气。
+20. 酸碱废气处理流程见图3.1-3。
+21. 16

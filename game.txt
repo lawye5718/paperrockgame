@@ -1,0 +1,343 @@
+这是一个完整的系统级代码实现。作为架构师，我将所有模块（资源管理、AI视觉、游戏状态机、Canvas渲染）整合到了一个单文件结构中。
+
+### 核心架构说明
+
+1. **双重胜负逻辑**：区分了`win1`（单局胜利动作）和`win2`（达成设定局数，最终大获全胜动作）。
+2. **异步节拍器**：使用 `async/await` 控制游戏节奏，确保 1-2-3 倒计时与 AI 采样同步。
+3. **手势判别算法**：通过 MediaPipe 的 21 个手部关键点，计算指尖与指关节的相对高度来识别动作。
+
+---
+
+### 完整代码实现 (`index.html`)
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AI真人对弈 - 石头剪刀布</title>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    
+    <style>
+        :root { --nba-red: #ee2244; --nba-blue: #005bb6; --gold: #f1c40f; }
+        body { margin: 0; background: #000; color: white; font-family: 'PingFang SC', sans-serif; overflow: hidden; }
+
+        /* NBA 风格顶部记分牌 */
+        #scoreboard {
+            position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+            display: flex; background: rgba(0,0,0,0.9); border-bottom: 3px solid var(--nba-red);
+            z-index: 100; box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        .score-box { padding: 10px 25px; text-align: center; min-width: 80px; }
+        .score-box.player { border-right: 1px solid #333; }
+        .score-val { font-size: 36px; font-weight: 800; color: var(--gold); line-height: 1; }
+        .score-label { font-size: 10px; color: #aaa; margin-top: 4px; letter-spacing: 1px; }
+        .match-info { padding: 10px 15px; background: var(--nba-red); display: flex; flex-direction: column; justify-content: center; }
+
+        /* 设置区域 */
+        #settings { position: absolute; top: 15px; right: 15px; z-index: 101; }
+        select { background: #222; color: #fff; border: 1px solid #555; padding: 5px; border-radius: 4px; cursor: pointer; }
+
+        /* 游戏主体 */
+        #game-stage { width: 100vw; height: 100vh; display: flex; justify-content: center; background: #1a1a1a; }
+        canvas#beauty-canvas { height: 100%; aspect-ratio: 9/16; }
+
+        /* 浮层 UI */
+        #overlay { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; pointer-events: none; z-index: 90; }
+        #countdown { font-size: 180px; font-weight: 900; color: white; text-shadow: 0 0 40px rgba(0,0,0,0.8); transition: 0.2s; }
+        #speech { background: white; color: black; padding: 12px 25px; border-radius: 50px; font-weight: bold; font-size: 20px; opacity: 0; transform: translateY(20px); transition: 0.4s; }
+
+        /* 摄像头小窗 */
+        #cam-container { position: absolute; bottom: 20px; right: 20px; width: 150px; height: 200px; border: 2px solid rgba(255,255,255,0.3); border-radius: 12px; overflow: hidden; transform: rotateY(180deg); }
+        video#webcam { width: 100%; height: 100%; object-fit: cover; }
+
+        /* 加载界面 */
+        #loading-screen { position: fixed; inset: 0; background: #000; z-index: 200; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .loader-bar { width: 250px; height: 4px; background: #333; margin-top: 20px; border-radius: 2px; }
+        #loader-fill { width: 0%; height: 100%; background: var(--nba-red); transition: 0.3s; }
+    </style>
+</head>
+<body>
+
+<div id="loading-screen">
+    <div style="font-size: 28px; font-weight: bold; letter-spacing: 5px;">BEAUTY AI</div>
+    <div class="loader-bar"><div id="loader-fill"></div></div>
+    <div id="loader-status" style="margin-top: 10px; font-size: 14px; color: #888;">正在调教资源 0%</div>
+</div>
+
+<div id="scoreboard">
+    <div class="score-box player">
+        <div id="u-score" class="score-val">0</div>
+        <div class="score-label">PLAYER</div>
+    </div>
+    <div class="match-info">
+        <div id="match-type" style="font-size: 14px; font-weight: bold;">BO3</div>
+        <div style="font-size: 9px; opacity: 0.8;">SERIES</div>
+    </div>
+    <div class="score-box">
+        <div id="b-score" class="score-val">0</div>
+        <div class="score-label">BEAUTY</div>
+    </div>
+</div>
+
+<div id="settings">
+    <select id="set-limit" onchange="initGame()">
+        <option value="3">3局2胜</option>
+        <option value="5">5局3胜</option>
+        <option value="7">7局4胜</option>
+        <option value="11">11局6胜</option>
+    </select>
+</div>
+
+<div id="overlay">
+    <div id="countdown"></div>
+    <div id="speech"></div>
+</div>
+
+<div id="game-stage">
+    <canvas id="beauty-canvas"></canvas>
+</div>
+
+<div id="cam-container">
+    <video id="webcam" autoplay playsinline></video>
+</div>
+
+<script>
+/**
+ * 架构配置区
+ */
+const ASSETS_CONFIG = {
+    path: './assets',
+    folders: {
+        idle1: 30, shake: 30, rock: 20, paper: 20, scissors: 20,
+        invalid: 30, win1: 40, win2: 60, lose: 40
+    }
+};
+
+let gameState = {
+    userScore: 0,
+    beautyScore: 0,
+    limit: 3,
+    targetScore: 2,
+    currentAction: 'idle1',
+    frameIdx: 0,
+    userGesture: 'none',
+    isProcessing: false,
+    images: {}
+};
+
+const canvas = document.getElementById('beauty-canvas');
+const ctx = canvas.getContext('2d');
+
+/**
+ * 1. 资源预加载引擎
+ */
+async function preloadResources() {
+    let total = Object.values(ASSETS_CONFIG.folders).reduce((a,b) => a+b);
+    let loaded = 0;
+
+    for (let folder in ASSETS_CONFIG.folders) {
+        gameState.images[folder] = [];
+        for (let i = 1; i <= ASSETS_CONFIG.folders[folder]; i++) {
+            const img = new Image();
+            img.src = `${ASSETS_CONFIG.path}/${folder}/frames/frame_${i.toString().padStart(3, '0')}.webp`;
+            await img.decode(); 
+            gameState.images[folder].push(img);
+            loaded++;
+            let progress = Math.floor((loaded / total) * 100);
+            document.getElementById('loader-fill').style.width = progress + '%';
+            document.getElementById('loader-status').innerText = `正在加载资源... ${progress}%`;
+        }
+    }
+    document.getElementById('loading-screen').style.display = 'none';
+    startRenderLoop();
+    startAI();
+    setTimeout(gameFlowControl, 2000);
+}
+
+/**
+ * 2. 高性能渲染循环
+ */
+function startRenderLoop() {
+    canvas.width = 720;
+    canvas.height = 1280;
+
+    function draw() {
+        const frames = gameState.images[gameState.currentAction];
+        const img = frames[gameState.frameIdx];
+        
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+        gameState.frameIdx++;
+        if (gameState.frameIdx >= frames.length) {
+            // 循环逻辑判定
+            if (['idle1', 'shake'].includes(gameState.currentAction)) {
+                gameState.frameIdx = 0;
+            } else {
+                // 动作结束自动切回待机
+                switchAction('idle1');
+            }
+        }
+        requestAnimationFrame(draw);
+    }
+    draw();
+}
+
+function switchAction(act) {
+    gameState.currentAction = act;
+    gameState.frameIdx = 0;
+}
+
+/**
+ * 3. AI 手势识别逻辑
+ */
+function startAI() {
+    const hands = new Hands({locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`});
+    hands.setOptions({ maxNumHands: 1, modelComplexity: 1, minDetectionConfidence: 0.7 });
+    
+    hands.onResults(results => {
+        if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
+            gameState.userGesture = analyzeHand(results.multiHandLandmarks[0]);
+        } else {
+            gameState.userGesture = 'none';
+        }
+    });
+
+    const camera = new Camera(document.getElementById('webcam'), {
+        onFrame: async () => { await hands.send({image: document.getElementById('webcam')}); },
+        width: 480, height: 640
+    });
+    camera.start();
+}
+
+function analyzeHand(landmarks) {
+    // 简易手势识别算法
+    const getUp = (tip, pip) => landmarks[tip].y < landmarks[pip].y;
+    const f8 = getUp(8, 6), f12 = getUp(12, 10), f16 = getUp(16, 14), f20 = getUp(20, 18);
+    
+    if (f8 && f12 && !f16 && !f20) return 'scissors';
+    if (f8 && f12 && f16 && f20) return 'paper';
+    if (!f8 && !f12 && !f16 && !f20) return 'rock';
+    return 'uncertain';
+}
+
+/**
+ * 4. 游戏流程主控制 (状态机)
+ */
+async function gameFlowControl() {
+    if (gameState.userScore >= gameState.targetScore || gameState.beautyScore >= gameState.targetScore) {
+        return; // 游戏已结束
+    }
+
+    const countEl = document.getElementById('countdown');
+    
+    // 1. 准备阶段
+    switchAction('shake');
+    for (let i = 3; i >= 1; i--) {
+        countEl.innerText = i;
+        countEl.style.transform = 'scale(1.5)';
+        setTimeout(() => countEl.style.transform = 'scale(1)', 200);
+        await new Promise(r => setTimeout(r, 1000));
+    }
+    countEl.innerText = "GO!";
+    
+    // 2. 采样与判定
+    await new Promise(r => setTimeout(r, 200)); // 留给用户瞬间反应时间
+    const userChoice = gameState.userGesture;
+    countEl.innerText = "";
+
+    if (userChoice === 'none' || userChoice === 'uncertain') {
+        speak("不算喔，手势没看清～");
+        switchAction('invalid');
+        await new Promise(r => setTimeout(r, 2000));
+    } else {
+        const moves = ['rock', 'paper', 'scissors'];
+        const beautyChoice = moves[Math.floor(Math.random() * 3)];
+        
+        // 展现美女出拳动画
+        switchAction(beautyChoice);
+        await new Promise(r => setTimeout(r, 800)); // 等动画播放到关键帧
+
+        // 胜负逻辑判定
+        const result = judge(userChoice, beautyChoice);
+        handleResult(result);
+        await new Promise(r => setTimeout(r, 3000));
+    }
+
+    gameFlowControl(); // 循环下一轮
+}
+
+function judge(u, b) {
+    if (u === b) return 'tie';
+    if ((u === 'rock' && b === 'scissors') || (u === 'paper' && b === 'rock') || (u === 'scissors' && b === 'paper')) return 'user';
+    return 'beauty';
+}
+
+function handleResult(res) {
+    if (res === 'tie') {
+        speak("平局！再来！");
+    } else if (res === 'user') {
+        gameState.userScore++;
+        speak("哎呀，你赢了这局");
+        switchAction('lose'); 
+    } else {
+        gameState.beautyScore++;
+        // 核心逻辑：一局胜利 vs 最终大捷
+        if (gameState.beautyScore >= gameState.targetScore) {
+            speak("哈哈！我是最终冠军！");
+            switchAction('win2');
+        } else {
+            speak("这局我赢了喔！");
+            switchAction('win1');
+        }
+    }
+    updateScoreUI();
+}
+
+/**
+ * 5. 辅助功能
+ */
+function speak(text) {
+    const s = document.getElementById('speech');
+    s.innerText = text;
+    s.style.opacity = 1;
+    s.style.transform = 'translateY(0)';
+    setTimeout(() => {
+        s.style.opacity = 0;
+        s.style.transform = 'translateY(20px)';
+    }, 2500);
+}
+
+function updateScoreUI() {
+    document.getElementById('u-score').innerText = gameState.userScore;
+    document.getElementById('b-score').innerText = gameState.beautyScore;
+}
+
+function initGame() {
+    gameState.limit = parseInt(document.getElementById('set-limit').value);
+    gameState.targetScore = Math.ceil(gameState.limit / 2);
+    gameState.userScore = 0;
+    gameState.beautyScore = 0;
+    document.getElementById('match-type').innerText = `BO${gameState.limit}`;
+    updateScoreUI();
+    speak("新对局开始，来吧！");
+}
+
+// 启动入口
+window.onload = preloadResources;
+</script>
+</body>
+</html>
+
+```
+
+### 架构师的最后嘱托：
+
+1. **资源路径**：代码中默认为 `./assets/动作名/frames/frame_001.webp`。请务必严格按照此结构存放。
+2. **关键帧校准**：在 `gameFlowControl` 函数中，`await new Promise(r => setTimeout(r, 800))` 的时间应根据你“出拳”动作的实际发生帧来微调，确保美女手伸出来的瞬间，比分和语音正好触发。
+3. **HTTPS 必要性**：由于涉及摄像头调用，该网页必须在 **HTTPS** 环境或 **localhost** 下运行，否则浏览器会禁用相机。
+
+通过这种架构，你已经实现了一个具备工业级交互感的 AI 小游戏。下一步你可以尝试加入 `Web Audio API`，为美女的 1-2-3 倒计时配音，那将让沉浸感达到顶峰。

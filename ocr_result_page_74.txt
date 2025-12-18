@@ -1,0 +1,125 @@
+OCR结果 - 第 74 页
+==================================================
+处理的图像: temp_page_73_processed.png
+原始PDF页面: 74
+
+详细结果:
+[{'input_path': 'temp_page_73_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1282,    0],
+       ...,
+       [1282,  102]], shape=(4, 2), dtype=int16), array([[180, 151],
+       ...,
+       [180, 199]], shape=(4, 2), dtype=int16), array([[ 84, 219],
+       ...,
+       [ 84, 267]], shape=(4, 2), dtype=int16), array([[181, 294],
+       ...,
+       [181, 342]], shape=(4, 2), dtype=int16), array([[ 80, 359],
+       ...,
+       [ 80, 413]], shape=(4, 2), dtype=int16), array([[ 79, 427],
+       ...,
+       [ 79, 485]], shape=(4, 2), dtype=int16), array([[ 76, 495],
+       ...,
+       [ 76, 556]], shape=(4, 2), dtype=int16), array([[ 75, 565],
+       ...,
+       [ 74, 626]], shape=(4, 2), dtype=int16), array([[ 75, 638],
+       ...,
+       [ 75, 696]], shape=(4, 2), dtype=int16), array([[ 72, 709],
+       ...,
+       [ 72, 770]], shape=(4, 2), dtype=int16), array([[ 73, 779],
+       ...,
+       [ 73, 841]], shape=(4, 2), dtype=int16), array([[ 74, 855],
+       ...,
+       [ 74, 909]], shape=(4, 2), dtype=int16), array([[163, 930],
+       ...,
+       [164, 986]], shape=(4, 2), dtype=int16), array([[  75, 1002],
+       ...,
+       [  75, 1057]], shape=(4, 2), dtype=int16), array([[  73, 1069],
+       ...,
+       [  73, 1127]], shape=(4, 2), dtype=int16), array([[ 700, 1265],
+       ...,
+       [ 700, 1314]], shape=(4, 2), dtype=int16), array([[ 784, 1346],
+       ...,
+       [ 786, 1405]], shape=(4, 2), dtype=int16), array([[ 667, 1978],
+       ...,
+       [ 667, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['7', '7.因作证人身安全面临危险的，可以向监察机关、公', '安机关请求对本人或者其近亲属予以保护。', '8.现场扣押、暂扣的物品或者作为实物证据保管的现', '金，应当由两名以上工作人员办理扣押、暂扣并全程录音录', '像，同时由监察机关工作人员出具财物清单。对于查封、扣', '押（暂扣、封存）的现金，不作为实物证据保管的，一律由', '我委指定专门的银行账户保管。根据有关规定，对于被查封、', '扣押（暂扣、封存）的财物，经批准许可出售或者自行变卖', '的，所出售或者变卖的价款将由我委指定专门的银行账户保', '管。我委不指定个人账户接收出售或者变卖相关财物的价款', '及查封、扣押（暂扣、封存）的现金。', '9.对调查人员侵犯上述权利和侮辱人格、虐待、体罚、', '变相体罚等行为或者违规接收、处置涉案财物的，可以向监', '察机关案件监督管理部门反映，联系方式0771-5362930。', '被询问人：6', '2025年6月10日', '2'], 'rec_scores': [0.986120343208313, 0.9841869473457336, 0.9974054098129272, 0.991320788860321, 0.9957417845726013, 0.9950745701789856, 0.9685284495353699, 0.9898669719696045, 0.9815002679824829, 0.9964507818222046, 0.9984714984893799, 0.969580352306366, 0.9857089519500732, 0.9904158115386963, 0.9910815358161926, 0.9613592028617859, 0.9487528800964355, 0.9775550365447998], 'rec_polys': [array([[1282,    0],
+       ...,
+       [1282,  102]], shape=(4, 2), dtype=int16), array([[180, 151],
+       ...,
+       [180, 199]], shape=(4, 2), dtype=int16), array([[ 84, 219],
+       ...,
+       [ 84, 267]], shape=(4, 2), dtype=int16), array([[181, 294],
+       ...,
+       [181, 342]], shape=(4, 2), dtype=int16), array([[ 80, 359],
+       ...,
+       [ 80, 413]], shape=(4, 2), dtype=int16), array([[ 79, 427],
+       ...,
+       [ 79, 485]], shape=(4, 2), dtype=int16), array([[ 76, 495],
+       ...,
+       [ 76, 556]], shape=(4, 2), dtype=int16), array([[ 75, 565],
+       ...,
+       [ 74, 626]], shape=(4, 2), dtype=int16), array([[ 75, 638],
+       ...,
+       [ 75, 696]], shape=(4, 2), dtype=int16), array([[ 72, 709],
+       ...,
+       [ 72, 770]], shape=(4, 2), dtype=int16), array([[ 73, 779],
+       ...,
+       [ 73, 841]], shape=(4, 2), dtype=int16), array([[ 74, 855],
+       ...,
+       [ 74, 909]], shape=(4, 2), dtype=int16), array([[163, 930],
+       ...,
+       [164, 986]], shape=(4, 2), dtype=int16), array([[  75, 1002],
+       ...,
+       [  75, 1057]], shape=(4, 2), dtype=int16), array([[  73, 1069],
+       ...,
+       [  73, 1127]], shape=(4, 2), dtype=int16), array([[ 700, 1265],
+       ...,
+       [ 700, 1314]], shape=(4, 2), dtype=int16), array([[ 784, 1346],
+       ...,
+       [ 786, 1405]], shape=(4, 2), dtype=int16), array([[ 667, 1978],
+       ...,
+       [ 667, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1282, ...,  102],
+       ...,
+       [ 667, ..., 2000]], shape=(18, 4), dtype=int16)}]
+
+解析后的文本:
+1. 7
+2. 7.因作证人身安全面临危险的，可以向监察机关、公
+3. 安机关请求对本人或者其近亲属予以保护。
+4. 8.现场扣押、暂扣的物品或者作为实物证据保管的现
+5. 金，应当由两名以上工作人员办理扣押、暂扣并全程录音录
+6. 像，同时由监察机关工作人员出具财物清单。对于查封、扣
+7. 押（暂扣、封存）的现金，不作为实物证据保管的，一律由
+8. 我委指定专门的银行账户保管。根据有关规定，对于被查封、
+9. 扣押（暂扣、封存）的财物，经批准许可出售或者自行变卖
+10. 的，所出售或者变卖的价款将由我委指定专门的银行账户保
+11. 管。我委不指定个人账户接收出售或者变卖相关财物的价款
+12. 及查封、扣押（暂扣、封存）的现金。
+13. 9.对调查人员侵犯上述权利和侮辱人格、虐待、体罚、
+14. 变相体罚等行为或者违规接收、处置涉案财物的，可以向监
+15. 察机关案件监督管理部门反映，联系方式0771-5362930。
+16. 被询问人：6
+17. 2025年6月10日
+18. 2

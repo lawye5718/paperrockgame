@@ -1,0 +1,65 @@
+OCR结果 - 第 204 页
+==================================================
+处理的图像: temp_page_203_processed.png
+原始PDF页面: 204
+
+详细结果:
+[{'input_path': 'temp_page_203_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8)}, 'dt_polys': [array([[122, 121],
+       ...,
+       [121, 168]], shape=(4, 2), dtype=int16), array([[175, 189],
+       ...,
+       [174, 234]], shape=(4, 2), dtype=int16), array([[176, 252],
+       ...,
+       [175, 295]], shape=(4, 2), dtype=int16), array([[111, 305],
+       ...,
+       [110, 354]], shape=(4, 2), dtype=int16), array([[108, 363],
+       ...,
+       [107, 411]], shape=(4, 2), dtype=int16), array([[107, 422],
+       ...,
+       [106, 465]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['（1-99%)=0.000082kg/h，排放浓度为0.00053 mg/m，低于检出限。', '生产废气的来源、主要污染物、治理措施及排放情况参见表2.5-1、2.5-2。', '从表2.5-1、2.5-2中数据可见，经采取处理措施后，本项目主要污染物硫酸雾、氮', '氧化物、氟化物、氯化氢、氯气、非甲烷总烃等的排放均能满足国家标准《大气污染物', '综合排放标准》(GB16297-1996)中表2新污染源大气污染排放限值中的二级标准', '要求，氨气排放能够满足《恶臭污染物排放标准》(GB14554-93)中标准限值要求。'], 'rec_scores': [0.9147719740867615, 0.985762357711792, 0.9772832989692688, 0.9886856079101562, 0.9221673011779785, 0.9663054943084717], 'rec_polys': [array([[122, 121],
+       ...,
+       [121, 168]], shape=(4, 2), dtype=int16), array([[175, 189],
+       ...,
+       [174, 234]], shape=(4, 2), dtype=int16), array([[176, 252],
+       ...,
+       [175, 295]], shape=(4, 2), dtype=int16), array([[111, 305],
+       ...,
+       [110, 354]], shape=(4, 2), dtype=int16), array([[108, 363],
+       ...,
+       [107, 411]], shape=(4, 2), dtype=int16), array([[107, 422],
+       ...,
+       [106, 465]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0], 'rec_boxes': array([[121, ..., 196],
+       ...,
+       [106, ..., 486]], shape=(6, 4), dtype=int16)}]
+
+解析后的文本:
+1. （1-99%)=0.000082kg/h，排放浓度为0.00053 mg/m，低于检出限。
+2. 生产废气的来源、主要污染物、治理措施及排放情况参见表2.5-1、2.5-2。
+3. 从表2.5-1、2.5-2中数据可见，经采取处理措施后，本项目主要污染物硫酸雾、氮
+4. 氧化物、氟化物、氯化氢、氯气、非甲烷总烃等的排放均能满足国家标准《大气污染物
+5. 综合排放标准》(GB16297-1996)中表2新污染源大气污染排放限值中的二级标准
+6. 要求，氨气排放能够满足《恶臭污染物排放标准》(GB14554-93)中标准限值要求。

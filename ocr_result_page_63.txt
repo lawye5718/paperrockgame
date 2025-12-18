@@ -1,0 +1,155 @@
+OCR结果 - 第 63 页
+==================================================
+处理的图像: temp_page_62_processed.png
+原始PDF页面: 63
+
+详细结果:
+[{'input_path': 'temp_page_62_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[150, 174],
+       ...,
+       [150, 233]], shape=(4, 2), dtype=int16), array([[153, 262],
+       ...,
+       [153, 309]], shape=(4, 2), dtype=int16), array([[228, 351],
+       ...,
+       [228, 392]], shape=(4, 2), dtype=int16), array([[243, 431],
+       ...,
+       [243, 474]], shape=(4, 2), dtype=int16), array([[151, 501],
+       ...,
+       [150, 559]], shape=(4, 2), dtype=int16), array([[140, 565],
+       ...,
+       [139, 646]], shape=(4, 2), dtype=int16), array([[151, 671],
+       ...,
+       [150, 718]], shape=(4, 2), dtype=int16), array([[238, 759],
+       ...,
+       [238, 806]], shape=(4, 2), dtype=int16), array([[150, 839],
+       ...,
+       [149, 880]], shape=(4, 2), dtype=int16), array([[148, 919],
+       ...,
+       [147, 963]], shape=(4, 2), dtype=int16), array([[ 146, 1000],
+       ...,
+       [ 145, 1045]], shape=(4, 2), dtype=int16), array([[ 217, 1086],
+       ...,
+       [ 216, 1126]], shape=(4, 2), dtype=int16), array([[ 217, 1167],
+       ...,
+       [ 216, 1207]], shape=(4, 2), dtype=int16), array([[ 215, 1248],
+       ...,
+       [ 214, 1291]], shape=(4, 2), dtype=int16), array([[ 142, 1327],
+       ...,
+       [ 141, 1370]], shape=(4, 2), dtype=int16), array([[ 226, 1409],
+       ...,
+       [ 226, 1455]], shape=(4, 2), dtype=int16), array([[ 214, 1487],
+       ...,
+       [ 212, 1530]], shape=(4, 2), dtype=int16), array([[ 397, 1495],
+       ...,
+       [ 396, 1534]], shape=(4, 2), dtype=int16), array([[ 136, 1558],
+       ...,
+       [ 132, 1607]], shape=(4, 2), dtype=int16), array([[ 226, 1646],
+       ...,
+       [ 224, 1687]], shape=(4, 2), dtype=int16), array([[ 224, 1724],
+       ...,
+       [ 222, 1766]], shape=(4, 2), dtype=int16), array([[ 223, 1804],
+       ...,
+       [ 220, 1845]], shape=(4, 2), dtype=int16), array([[ 219, 1881],
+       ...,
+       [ 215, 1927]], shape=(4, 2), dtype=int16), array([[ 472, 1877],
+       ...,
+       [ 472, 1950]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['②.五年期以上)LPR为基准，执行年利率为①（①.LPR+865BP；', '②.LPR-BP；③.LPR).合同约定贷款期限内不调整利率。', 'B.人民币浮动利率：', '(1)浮动利率：以贷款实际发放日前一个工作日对应最近一个', '月全国同业拆借中心最新公布的_(①.一年期；②.五年期以上)', 'LPR为基准，执行年利率为_（①.LPR+_/_BP；②.LPR-_BP；', '③.LPR).', '(2)利率调整方式：贷款期限内遇LPR调整的，按以下第C种', '方式确定本合同利率调整日，调整后执行利率以调整日前一个工作日', '最新LPR为基准，按第（1)点中约定的LPR期限品种、加减点数计', '算，调整当日起执行调整后利率:', 'a.以LPR调整日次日为合同利率调整日.', 'b.次年起每年一月一日为合同利率调整日。', 'C.自贷款发放日起，每届满12个月调整一次，调整日为调整当', '月中放款日的对应日，当月没有对应日的则为当月最后一日。', '(3)其他约定:', '第4.2条', '计息方式：本合同项下的贷款按下列第（1）种方式', '结息：', '(1)每月的20日结息；', '(2)每季末月的20日结息；', '(3)到期一次性还本付息；', '(4) 其他:', '元'], 'rec_scores': [0.9533284902572632, 0.9555820822715759, 0.9757572412490845, 0.981583297252655, 0.9510727524757385, 0.8938214182853699, 0.9730863571166992, 0.9804496765136719, 0.9964919686317444, 0.9702276587486267, 0.976115345954895, 0.9641400575637817, 0.9959304928779602, 0.9661402106285095, 0.9973510503768921, 0.923876166343689, 0.9967818260192871, 0.9611536264419556, 0.8999218940734863, 0.9451611638069153, 0.957430899143219, 0.9314146041870117, 0.8733515739440918, 0.843718409538269], 'rec_polys': [array([[150, 174],
+       ...,
+       [150, 233]], shape=(4, 2), dtype=int16), array([[153, 262],
+       ...,
+       [153, 309]], shape=(4, 2), dtype=int16), array([[228, 351],
+       ...,
+       [228, 392]], shape=(4, 2), dtype=int16), array([[243, 431],
+       ...,
+       [243, 474]], shape=(4, 2), dtype=int16), array([[151, 501],
+       ...,
+       [150, 559]], shape=(4, 2), dtype=int16), array([[140, 565],
+       ...,
+       [139, 646]], shape=(4, 2), dtype=int16), array([[151, 671],
+       ...,
+       [150, 718]], shape=(4, 2), dtype=int16), array([[238, 759],
+       ...,
+       [238, 806]], shape=(4, 2), dtype=int16), array([[150, 839],
+       ...,
+       [149, 880]], shape=(4, 2), dtype=int16), array([[148, 919],
+       ...,
+       [147, 963]], shape=(4, 2), dtype=int16), array([[ 146, 1000],
+       ...,
+       [ 145, 1045]], shape=(4, 2), dtype=int16), array([[ 217, 1086],
+       ...,
+       [ 216, 1126]], shape=(4, 2), dtype=int16), array([[ 217, 1167],
+       ...,
+       [ 216, 1207]], shape=(4, 2), dtype=int16), array([[ 215, 1248],
+       ...,
+       [ 214, 1291]], shape=(4, 2), dtype=int16), array([[ 142, 1327],
+       ...,
+       [ 141, 1370]], shape=(4, 2), dtype=int16), array([[ 226, 1409],
+       ...,
+       [ 226, 1455]], shape=(4, 2), dtype=int16), array([[ 214, 1487],
+       ...,
+       [ 212, 1530]], shape=(4, 2), dtype=int16), array([[ 397, 1495],
+       ...,
+       [ 396, 1534]], shape=(4, 2), dtype=int16), array([[ 136, 1558],
+       ...,
+       [ 132, 1607]], shape=(4, 2), dtype=int16), array([[ 226, 1646],
+       ...,
+       [ 224, 1687]], shape=(4, 2), dtype=int16), array([[ 224, 1724],
+       ...,
+       [ 222, 1766]], shape=(4, 2), dtype=int16), array([[ 223, 1804],
+       ...,
+       [ 220, 1845]], shape=(4, 2), dtype=int16), array([[ 219, 1881],
+       ...,
+       [ 215, 1927]], shape=(4, 2), dtype=int16), array([[ 472, 1877],
+       ...,
+       [ 472, 1950]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 150, ...,  233],
+       ...,
+       [ 472, ..., 1950]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. ②.五年期以上)LPR为基准，执行年利率为①（①.LPR+865BP；
+2. ②.LPR-BP；③.LPR).合同约定贷款期限内不调整利率。
+3. B.人民币浮动利率：
+4. (1)浮动利率：以贷款实际发放日前一个工作日对应最近一个
+5. 月全国同业拆借中心最新公布的_(①.一年期；②.五年期以上)
+6. LPR为基准，执行年利率为_（①.LPR+_/_BP；②.LPR-_BP；
+7. ③.LPR).
+8. (2)利率调整方式：贷款期限内遇LPR调整的，按以下第C种
+9. 方式确定本合同利率调整日，调整后执行利率以调整日前一个工作日
+10. 最新LPR为基准，按第（1)点中约定的LPR期限品种、加减点数计
+11. 算，调整当日起执行调整后利率:
+12. a.以LPR调整日次日为合同利率调整日.
+13. b.次年起每年一月一日为合同利率调整日。
+14. C.自贷款发放日起，每届满12个月调整一次，调整日为调整当
+15. 月中放款日的对应日，当月没有对应日的则为当月最后一日。
+16. (3)其他约定:
+17. 第4.2条
+18. 计息方式：本合同项下的贷款按下列第（1）种方式
+19. 结息：
+20. (1)每月的20日结息；
+21. (2)每季末月的20日结息；
+22. (3)到期一次性还本付息；
+23. (4) 其他:
+24. 元

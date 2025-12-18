@@ -1,0 +1,220 @@
+OCR结果 - 第 232 页
+==================================================
+处理的图像: temp_page_231_processed.png
+原始PDF页面: 232
+
+详细结果:
+[{'input_path': 'temp_page_231_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[147, 240],
+       ...,
+       [147, 280]], shape=(4, 2), dtype=int16), array([[150, 325],
+       ...,
+       [150, 357]], shape=(4, 2), dtype=int16), array([[216, 385],
+       ...,
+       [216, 419]], shape=(4, 2), dtype=int16), array([[152, 438],
+       ...,
+       [152, 473]], shape=(4, 2), dtype=int16), array([[154, 496],
+       ...,
+       [154, 527]], shape=(4, 2), dtype=int16), array([[150, 552],
+       ...,
+       [150, 585]], shape=(4, 2), dtype=int16), array([[212, 612],
+       ...,
+       [211, 642]], shape=(4, 2), dtype=int16), array([[149, 667],
+       ...,
+       [149, 701]], shape=(4, 2), dtype=int16), array([[147, 725],
+       ...,
+       [147, 762]], shape=(4, 2), dtype=int16), array([[150, 785],
+       ...,
+       [150, 823]], shape=(4, 2), dtype=int16), array([[151, 847],
+       ...,
+       [151, 878]], shape=(4, 2), dtype=int16), array([[214, 909],
+       ...,
+       [214, 941]], shape=(4, 2), dtype=int16), array([[ 383, 1005],
+       ...,
+       [ 383, 1127]], shape=(4, 2), dtype=int16), array([[ 215, 1015],
+       ...,
+       [ 215, 1046]], shape=(4, 2), dtype=int16), array([[ 541, 1019],
+       ...,
+       [ 541, 1053]], shape=(4, 2), dtype=int16), array([[ 733, 1021],
+       ...,
+       [ 733, 1055]], shape=(4, 2), dtype=int16), array([[ 934, 1029],
+       ...,
+       [ 934, 1110]], shape=(4, 2), dtype=int16), array([[ 222, 1054],
+       ...,
+       [ 222, 1085]], shape=(4, 2), dtype=int16), array([[ 544, 1054],
+       ...,
+       [ 542, 1089]], shape=(4, 2), dtype=int16), array([[ 732, 1056],
+       ...,
+       [ 732, 1095]], shape=(4, 2), dtype=int16), array([[1112, 1051],
+       ...,
+       [1112, 1086]], shape=(4, 2), dtype=int16), array([[ 212, 1091],
+       ...,
+       [ 212, 1125]], shape=(4, 2), dtype=int16), array([[ 541, 1091],
+       ...,
+       [ 541, 1130]], shape=(4, 2), dtype=int16), array([[ 747, 1094],
+       ...,
+       [ 747, 1130]], shape=(4, 2), dtype=int16), array([[ 421, 1198],
+       ...,
+       [ 421, 1234]], shape=(4, 2), dtype=int16), array([[ 213, 1239],
+       ...,
+       [ 212, 1272]], shape=(4, 2), dtype=int16), array([[ 152, 1298],
+       ...,
+       [ 152, 1330]], shape=(4, 2), dtype=int16), array([[ 217, 1353],
+       ...,
+       [ 216, 1387]], shape=(4, 2), dtype=int16), array([[ 151, 1409],
+       ...,
+       [ 151, 1443]], shape=(4, 2), dtype=int16), array([[ 148, 1463],
+       ...,
+       [ 148, 1500]], shape=(4, 2), dtype=int16), array([[ 146, 1519],
+       ...,
+       [ 146, 1557]], shape=(4, 2), dtype=int16), array([[ 157, 1577],
+       ...,
+       [ 157, 1615]], shape=(4, 2), dtype=int16), array([[ 157, 1637],
+       ...,
+       [ 157, 1671]], shape=(4, 2), dtype=int16), array([[ 143, 1691],
+       ...,
+       [ 141, 1729]], shape=(4, 2), dtype=int16), array([[ 141, 1763],
+       ...,
+       [ 141, 1796]], shape=(4, 2), dtype=int16), array([[ 210, 1814],
+       ...,
+       [ 209, 1846]], shape=(4, 2), dtype=int16), array([[ 673, 1870],
+       ...,
+       [ 673, 1900]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['浓缩的有机废气最后进入燃烧系统进行处理后排放。', '3.1.2.4.工艺尾气处理系统', '在等离子增强化学气相沉积PECVD、干法刻蚀DE工序生产过程中，因使用', '的SiH_₄、NH_{₃3、PH_₃3、NF_₃、SF{、CI₂2}等特殊气体，除部分在工艺中反应消耗外，', '大部分以尾气的形式排放。这些气体基本上均为危险、有毒化学品，只能就地进', '行安全处理。', 'POU装置由入I导入管、等离子火炬头、水壁反应器、循环槽、出门SCR构', '成。机台排出的工艺尾气从入口导入管导入反应器，首先使用高温等离子进行加', '热分解，然后经循环槽导入出口SCR，对副产物进行水分解吸收处理。POU处理', '后的工艺尾气经管道送至屋顶的除尘设备，之后进入碱液洗涤塔进行处理，处理', '达标的气体经40m高的烟肉排放到室外空气中。', '工艺尾气处理工艺流程见图3.3-5。', '真空泵', 'CVD', 'POU', '湿式', '风机', 'DE', '处理', '洗涤', '排气', '工序', '装置', '塔', '图3.3-5工艺尾气处理工艺流程示意图', '经湿式洗涤塔处理后排放的废水，全部纳入废水处理站含氟废水处理系统处', '理后再排入最终中和处理系统。', '日前，国内包括成都京东方、成都天马等液晶显示器厂处理工艺尾气普遍采', '用的是POU系统+湿式洗涤的方法，根据同类T厂的验收监测数据，其化学气相', '沉积（CVD）和干法刻蚀（DE）产生工艺尾气经POU系统+湿式洗涤处理后，氟', '化物、氯气、氯化氢以及氮氧化物能达到《大气污染物综合排放标准》', '(GB16297-1996）二级排放标准要求：氨能达到《恶臭污染物排放标准》', '(GB14554-93）要求。因此项目工艺尾气选择POU系统+湿式洗涤工艺处理是完', '全可行的。', '3.1.3．废气治理措施技术可行性分析', '本项目只要严格落实所制定的上述各项废气治理措施，在严格按照所拟定的', '93'], 'rec_scores': [0.9992495179176331, 0.9685573577880859, 0.9665617942810059, 0.8483050465583801, 0.9730992913246155, 0.9990375638008118, 0.962946891784668, 0.9905585050582886, 0.9812305569648743, 0.9967535734176636, 0.9890429973602295, 0.9648783802986145, 0.9064931869506836, 0.9883295893669128, 0.9963471293449402, 0.9976105690002441, 0.9913160800933838, 0.9964008331298828, 0.9995628595352173, 0.9992504119873047, 0.989922046661377, 0.990352988243103, 0.9977614879608154, 0.9994081258773804, 0.9796058535575867, 0.9965721964836121, 0.9986597895622253, 0.9911489486694336, 0.9810478687286377, 0.958347737789154, 0.9923837184906006, 0.9665421843528748, 0.9754295349121094, 0.9987448453903198, 0.9773024320602417, 0.9975530505180359, 0.9996201395988464], 'rec_polys': [array([[147, 240],
+       ...,
+       [147, 280]], shape=(4, 2), dtype=int16), array([[150, 325],
+       ...,
+       [150, 357]], shape=(4, 2), dtype=int16), array([[216, 385],
+       ...,
+       [216, 419]], shape=(4, 2), dtype=int16), array([[152, 438],
+       ...,
+       [152, 473]], shape=(4, 2), dtype=int16), array([[154, 496],
+       ...,
+       [154, 527]], shape=(4, 2), dtype=int16), array([[150, 552],
+       ...,
+       [150, 585]], shape=(4, 2), dtype=int16), array([[212, 612],
+       ...,
+       [211, 642]], shape=(4, 2), dtype=int16), array([[149, 667],
+       ...,
+       [149, 701]], shape=(4, 2), dtype=int16), array([[147, 725],
+       ...,
+       [147, 762]], shape=(4, 2), dtype=int16), array([[150, 785],
+       ...,
+       [150, 823]], shape=(4, 2), dtype=int16), array([[151, 847],
+       ...,
+       [151, 878]], shape=(4, 2), dtype=int16), array([[214, 909],
+       ...,
+       [214, 941]], shape=(4, 2), dtype=int16), array([[ 383, 1005],
+       ...,
+       [ 383, 1127]], shape=(4, 2), dtype=int16), array([[ 215, 1015],
+       ...,
+       [ 215, 1046]], shape=(4, 2), dtype=int16), array([[ 541, 1019],
+       ...,
+       [ 541, 1053]], shape=(4, 2), dtype=int16), array([[ 733, 1021],
+       ...,
+       [ 733, 1055]], shape=(4, 2), dtype=int16), array([[ 934, 1029],
+       ...,
+       [ 934, 1110]], shape=(4, 2), dtype=int16), array([[ 222, 1054],
+       ...,
+       [ 222, 1085]], shape=(4, 2), dtype=int16), array([[ 544, 1054],
+       ...,
+       [ 542, 1089]], shape=(4, 2), dtype=int16), array([[ 732, 1056],
+       ...,
+       [ 732, 1095]], shape=(4, 2), dtype=int16), array([[1112, 1051],
+       ...,
+       [1112, 1086]], shape=(4, 2), dtype=int16), array([[ 212, 1091],
+       ...,
+       [ 212, 1125]], shape=(4, 2), dtype=int16), array([[ 541, 1091],
+       ...,
+       [ 541, 1130]], shape=(4, 2), dtype=int16), array([[ 747, 1094],
+       ...,
+       [ 747, 1130]], shape=(4, 2), dtype=int16), array([[ 421, 1198],
+       ...,
+       [ 421, 1234]], shape=(4, 2), dtype=int16), array([[ 213, 1239],
+       ...,
+       [ 212, 1272]], shape=(4, 2), dtype=int16), array([[ 152, 1298],
+       ...,
+       [ 152, 1330]], shape=(4, 2), dtype=int16), array([[ 217, 1353],
+       ...,
+       [ 216, 1387]], shape=(4, 2), dtype=int16), array([[ 151, 1409],
+       ...,
+       [ 151, 1443]], shape=(4, 2), dtype=int16), array([[ 148, 1463],
+       ...,
+       [ 148, 1500]], shape=(4, 2), dtype=int16), array([[ 146, 1519],
+       ...,
+       [ 146, 1557]], shape=(4, 2), dtype=int16), array([[ 157, 1577],
+       ...,
+       [ 157, 1615]], shape=(4, 2), dtype=int16), array([[ 157, 1637],
+       ...,
+       [ 157, 1671]], shape=(4, 2), dtype=int16), array([[ 143, 1691],
+       ...,
+       [ 141, 1729]], shape=(4, 2), dtype=int16), array([[ 141, 1763],
+       ...,
+       [ 141, 1796]], shape=(4, 2), dtype=int16), array([[ 210, 1814],
+       ...,
+       [ 209, 1846]], shape=(4, 2), dtype=int16), array([[ 673, 1870],
+       ...,
+       [ 673, 1900]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 147, ...,  293],
+       ...,
+       [ 673, ..., 1900]], shape=(37, 4), dtype=int16)}]
+
+解析后的文本:
+1. 浓缩的有机废气最后进入燃烧系统进行处理后排放。
+2. 3.1.2.4.工艺尾气处理系统
+3. 在等离子增强化学气相沉积PECVD、干法刻蚀DE工序生产过程中，因使用
+4. 的SiH_₄、NH_{₃3、PH_₃3、NF_₃、SF{、CI₂2}等特殊气体，除部分在工艺中反应消耗外，
+5. 大部分以尾气的形式排放。这些气体基本上均为危险、有毒化学品，只能就地进
+6. 行安全处理。
+7. POU装置由入I导入管、等离子火炬头、水壁反应器、循环槽、出门SCR构
+8. 成。机台排出的工艺尾气从入口导入管导入反应器，首先使用高温等离子进行加
+9. 热分解，然后经循环槽导入出口SCR，对副产物进行水分解吸收处理。POU处理
+10. 后的工艺尾气经管道送至屋顶的除尘设备，之后进入碱液洗涤塔进行处理，处理
+11. 达标的气体经40m高的烟肉排放到室外空气中。
+12. 工艺尾气处理工艺流程见图3.3-5。
+13. 真空泵
+14. CVD
+15. POU
+16. 湿式
+17. 风机
+18. DE
+19. 处理
+20. 洗涤
+21. 排气
+22. 工序
+23. 装置
+24. 塔
+25. 图3.3-5工艺尾气处理工艺流程示意图
+26. 经湿式洗涤塔处理后排放的废水，全部纳入废水处理站含氟废水处理系统处
+27. 理后再排入最终中和处理系统。
+28. 日前，国内包括成都京东方、成都天马等液晶显示器厂处理工艺尾气普遍采
+29. 用的是POU系统+湿式洗涤的方法，根据同类T厂的验收监测数据，其化学气相
+30. 沉积（CVD）和干法刻蚀（DE）产生工艺尾气经POU系统+湿式洗涤处理后，氟
+31. 化物、氯气、氯化氢以及氮氧化物能达到《大气污染物综合排放标准》
+32. (GB16297-1996）二级排放标准要求：氨能达到《恶臭污染物排放标准》
+33. (GB14554-93）要求。因此项目工艺尾气选择POU系统+湿式洗涤工艺处理是完
+34. 全可行的。
+35. 3.1.3．废气治理措施技术可行性分析
+36. 本项目只要严格落实所制定的上述各项废气治理措施，在严格按照所拟定的
+37. 93

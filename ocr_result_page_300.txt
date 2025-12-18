@@ -1,0 +1,115 @@
+OCR结果 - 第 300 页
+==================================================
+处理的图像: temp_page_299_processed.png
+原始PDF页面: 300
+
+详细结果:
+[{'input_path': 'temp_page_299_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8)}, 'dt_polys': [array([[488,  75],
+       ...,
+       [487, 138]], shape=(4, 2), dtype=int16), array([[527, 150],
+       ...,
+       [525, 251]], shape=(4, 2), dtype=int16), array([[684, 274],
+       ...,
+       [683, 334]], shape=(4, 2), dtype=int16), array([[214, 494],
+       ...,
+       [212, 564]], shape=(4, 2), dtype=int16), array([[257, 610],
+       ...,
+       [256, 667]], shape=(4, 2), dtype=int16), array([[224, 674],
+       ...,
+       [222, 756]], shape=(4, 2), dtype=int16), array([[251, 782],
+       ...,
+       [249, 843]], shape=(4, 2), dtype=int16), array([[ 942,  922],
+       ...,
+       [ 942, 1015]], shape=(4, 2), dtype=int16), array([[ 234,  943],
+       ...,
+       [ 238, 1038]], shape=(4, 2), dtype=int16), array([[1055, 1190],
+       ...,
+       [1036, 1263]], shape=(4, 2), dtype=int16), array([[1024, 1208],
+       ...,
+       [1024, 1241]], shape=(4, 2), dtype=int16), array([[1178, 1220],
+       ...,
+       [1178, 1270]], shape=(4, 2), dtype=int16), array([[ 900, 1251],
+       ...,
+       [ 918, 1275]], shape=(4, 2), dtype=int16), array([[1134, 1309],
+       ...,
+       [1137, 1354]], shape=(4, 2), dtype=int16), array([[1109, 1410],
+       ...,
+       [1094, 1426]], shape=(4, 2), dtype=int16), array([[ 548, 1747],
+       ...,
+       [ 547, 1792]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西壮族自治区监察委员会', '调取证据通知书', '(回执)', '广西北族治区监察数会', '你委桂监调记J120946号《调取证据通知书》收悉，现将', '关泰嘉超薄球端基板深加工房代项资金使用情况，送交你委。', '此复。', '18076666208', '联系人及联系方式：省', '寿', 'X', '日', '有', '章）', 'Ti', '第四联 退回后附卷'], 'rec_scores': [0.9983999133110046, 0.999496579170227, 0.8469464778900146, 0.6644487380981445, 0.8616034388542175, 0.5055898427963257, 0.9892427325248718, 0.8837560415267944, 0.9482391476631165, 0.1712566763162613, 0.3036442697048187, 0.9994661211967468, 0.04144102334976196, 0.907150149345398, 0.3385445475578308, 0.9540466666221619], 'rec_polys': [array([[488,  75],
+       ...,
+       [487, 138]], shape=(4, 2), dtype=int16), array([[527, 150],
+       ...,
+       [525, 251]], shape=(4, 2), dtype=int16), array([[684, 274],
+       ...,
+       [683, 334]], shape=(4, 2), dtype=int16), array([[214, 494],
+       ...,
+       [212, 564]], shape=(4, 2), dtype=int16), array([[257, 610],
+       ...,
+       [256, 667]], shape=(4, 2), dtype=int16), array([[224, 674],
+       ...,
+       [222, 756]], shape=(4, 2), dtype=int16), array([[251, 782],
+       ...,
+       [249, 843]], shape=(4, 2), dtype=int16), array([[ 942,  922],
+       ...,
+       [ 942, 1015]], shape=(4, 2), dtype=int16), array([[ 234,  943],
+       ...,
+       [ 238, 1038]], shape=(4, 2), dtype=int16), array([[1055, 1190],
+       ...,
+       [1036, 1263]], shape=(4, 2), dtype=int16), array([[1024, 1208],
+       ...,
+       [1024, 1241]], shape=(4, 2), dtype=int16), array([[1178, 1220],
+       ...,
+       [1178, 1270]], shape=(4, 2), dtype=int16), array([[ 900, 1251],
+       ...,
+       [ 918, 1275]], shape=(4, 2), dtype=int16), array([[1134, 1309],
+       ...,
+       [1137, 1354]], shape=(4, 2), dtype=int16), array([[1109, 1410],
+       ...,
+       [1094, 1426]], shape=(4, 2), dtype=int16), array([[ 548, 1747],
+       ...,
+       [ 547, 1792]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0], 'rec_boxes': array([[ 487, ...,  149],
+       ...,
+       [ 547, ..., 1800]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西壮族自治区监察委员会
+2. 调取证据通知书
+3. (回执)
+4. 广西北族治区监察数会
+5. 你委桂监调记J120946号《调取证据通知书》收悉，现将
+6. 关泰嘉超薄球端基板深加工房代项资金使用情况，送交你委。
+7. 此复。
+8. 18076666208
+9. 联系人及联系方式：省
+10. 寿
+11. X
+12. 日
+13. 有
+14. 章）
+15. Ti
+16. 第四联 退回后附卷

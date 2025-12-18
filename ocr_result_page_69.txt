@@ -1,0 +1,155 @@
+OCR结果 - 第 69 页
+==================================================
+处理的图像: temp_page_68_processed.png
+原始PDF页面: 69
+
+详细结果:
+[{'input_path': 'temp_page_68_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1367,   10],
+       ...,
+       [1367,  111]], shape=(4, 2), dtype=int16), array([[237, 165],
+       ...,
+       [237, 206]], shape=(4, 2), dtype=int16), array([[238, 248],
+       ...,
+       [238, 289]], shape=(4, 2), dtype=int16), array([[164, 325],
+       ...,
+       [163, 370]], shape=(4, 2), dtype=int16), array([[162, 404],
+       ...,
+       [161, 448]], shape=(4, 2), dtype=int16), array([[160, 481],
+       ...,
+       [159, 527]], shape=(4, 2), dtype=int16), array([[233, 562],
+       ...,
+       [233, 603]], shape=(4, 2), dtype=int16), array([[158, 640],
+       ...,
+       [157, 681]], shape=(4, 2), dtype=int16), array([[156, 717],
+       ...,
+       [155, 762]], shape=(4, 2), dtype=int16), array([[227, 799],
+       ...,
+       [227, 842]], shape=(4, 2), dtype=int16), array([[227, 878],
+       ...,
+       [227, 920]], shape=(4, 2), dtype=int16), array([[224, 958],
+       ...,
+       [224, 998]], shape=(4, 2), dtype=int16), array([[ 224, 1039],
+       ...,
+       [ 224, 1076]], shape=(4, 2), dtype=int16), array([[ 224, 1115],
+       ...,
+       [ 224, 1153]], shape=(4, 2), dtype=int16), array([[ 222, 1191],
+       ...,
+       [ 222, 1229]], shape=(4, 2), dtype=int16), array([[ 148, 1271],
+       ...,
+       [ 147, 1309]], shape=(4, 2), dtype=int16), array([[ 232, 1352],
+       ...,
+       [ 232, 1388]], shape=(4, 2), dtype=int16), array([[ 140, 1419],
+       ...,
+       [ 138, 1470]], shape=(4, 2), dtype=int16), array([[ 229, 1503],
+       ...,
+       [ 229, 1544]], shape=(4, 2), dtype=int16), array([[ 228, 1581],
+       ...,
+       [ 228, 1622]], shape=(4, 2), dtype=int16), array([[ 225, 1654],
+       ...,
+       [ 225, 1702]], shape=(4, 2), dtype=int16), array([[ 227, 1737],
+       ...,
+       [ 227, 1777]], shape=(4, 2), dtype=int16), array([[ 226, 1816],
+       ...,
+       [ 226, 1856]], shape=(4, 2), dtype=int16), array([[1053, 1900],
+       ...,
+       [1058, 1961]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['6', '3.甲方必须按约定用途使用贷款，不得将贷款挪作他用；', '4.在本合同有效期内，甲方如需进行承包、租赁、合并和兼并、', '合资、分立、联营、股份制改造等改变其经营方式以及发生名称、法', '定代表人、住址、经营范围变更等事项时，应提前7日向乙方报告并', '通知丙方；', '5.乙方作为委托贷款债权人，具有对委托贷款发放对象，金额、', '用途、期限、利率、用款与还款计划、罚则和其他要素的决定权，并', '承担贷款风险；', '6.乙方应及时足额将委托贷款资金划入规定账户；', '7.丙方有权检查贷款的使用情况；', '8.丙方有权对甲方的资金及经营情况进行监督；', '9.丙方应按乙方的计划及所供资金及时发放贷款；', '10.丙方应按时催收甲方的贷款本息.', '11.在合同有效期内，甲方发生下列情况之一的，丙方有权暂停', '发放尚未划付的贷款，冻结甲方在银行账户中的借款款项：', '（1）甲方未按要求向乙方和丙方提供真实、完整、有效的情况', '资料。', '(2)甲方未按本合同约定用途使用贷款的。', '(3）甲方未按本合同约定按期归还贷款本金利息。', '(4)甲方拒绝乙、丙方对贷款使用情况实施监督检查的。', '(5)甲方转移资产，抽逃资金，以逃避债务。', '(6)甲方卷入或即将卷入重大的诉讼或仲裁程序及其他法律纠', ''], 'rec_scores': [0.924562394618988, 0.9889146089553833, 0.9906249642372131, 0.9977684617042542, 0.9963193535804749, 0.9287193417549133, 0.9667538404464722, 0.9826311469078064, 0.9644655585289001, 0.9920363426208496, 0.9711542129516602, 0.9885157942771912, 0.989617645740509, 0.9709029793739319, 0.9979621171951294, 0.9899872541427612, 0.9759320020675659, 0.9190031886100769, 0.9683178663253784, 0.9407216906547546, 0.9871657490730286, 0.9618940949440002, 0.981407105922699, 0.0], 'rec_polys': [array([[1367,   10],
+       ...,
+       [1367,  111]], shape=(4, 2), dtype=int16), array([[237, 165],
+       ...,
+       [237, 206]], shape=(4, 2), dtype=int16), array([[238, 248],
+       ...,
+       [238, 289]], shape=(4, 2), dtype=int16), array([[164, 325],
+       ...,
+       [163, 370]], shape=(4, 2), dtype=int16), array([[162, 404],
+       ...,
+       [161, 448]], shape=(4, 2), dtype=int16), array([[160, 481],
+       ...,
+       [159, 527]], shape=(4, 2), dtype=int16), array([[233, 562],
+       ...,
+       [233, 603]], shape=(4, 2), dtype=int16), array([[158, 640],
+       ...,
+       [157, 681]], shape=(4, 2), dtype=int16), array([[156, 717],
+       ...,
+       [155, 762]], shape=(4, 2), dtype=int16), array([[227, 799],
+       ...,
+       [227, 842]], shape=(4, 2), dtype=int16), array([[227, 878],
+       ...,
+       [227, 920]], shape=(4, 2), dtype=int16), array([[224, 958],
+       ...,
+       [224, 998]], shape=(4, 2), dtype=int16), array([[ 224, 1039],
+       ...,
+       [ 224, 1076]], shape=(4, 2), dtype=int16), array([[ 224, 1115],
+       ...,
+       [ 224, 1153]], shape=(4, 2), dtype=int16), array([[ 222, 1191],
+       ...,
+       [ 222, 1229]], shape=(4, 2), dtype=int16), array([[ 148, 1271],
+       ...,
+       [ 147, 1309]], shape=(4, 2), dtype=int16), array([[ 232, 1352],
+       ...,
+       [ 232, 1388]], shape=(4, 2), dtype=int16), array([[ 140, 1419],
+       ...,
+       [ 138, 1470]], shape=(4, 2), dtype=int16), array([[ 229, 1503],
+       ...,
+       [ 229, 1544]], shape=(4, 2), dtype=int16), array([[ 228, 1581],
+       ...,
+       [ 228, 1622]], shape=(4, 2), dtype=int16), array([[ 225, 1654],
+       ...,
+       [ 225, 1702]], shape=(4, 2), dtype=int16), array([[ 227, 1737],
+       ...,
+       [ 227, 1777]], shape=(4, 2), dtype=int16), array([[ 226, 1816],
+       ...,
+       [ 226, 1856]], shape=(4, 2), dtype=int16), array([[1053, 1900],
+       ...,
+       [1058, 1961]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1367, ...,  111],
+       ...,
+       [1053, ..., 1961]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 6
+2. 3.甲方必须按约定用途使用贷款，不得将贷款挪作他用；
+3. 4.在本合同有效期内，甲方如需进行承包、租赁、合并和兼并、
+4. 合资、分立、联营、股份制改造等改变其经营方式以及发生名称、法
+5. 定代表人、住址、经营范围变更等事项时，应提前7日向乙方报告并
+6. 通知丙方；
+7. 5.乙方作为委托贷款债权人，具有对委托贷款发放对象，金额、
+8. 用途、期限、利率、用款与还款计划、罚则和其他要素的决定权，并
+9. 承担贷款风险；
+10. 6.乙方应及时足额将委托贷款资金划入规定账户；
+11. 7.丙方有权检查贷款的使用情况；
+12. 8.丙方有权对甲方的资金及经营情况进行监督；
+13. 9.丙方应按乙方的计划及所供资金及时发放贷款；
+14. 10.丙方应按时催收甲方的贷款本息.
+15. 11.在合同有效期内，甲方发生下列情况之一的，丙方有权暂停
+16. 发放尚未划付的贷款，冻结甲方在银行账户中的借款款项：
+17. （1）甲方未按要求向乙方和丙方提供真实、完整、有效的情况
+18. 资料。
+19. (2)甲方未按本合同约定用途使用贷款的。
+20. (3）甲方未按本合同约定按期归还贷款本金利息。
+21. (4)甲方拒绝乙、丙方对贷款使用情况实施监督检查的。
+22. (5)甲方转移资产，抽逃资金，以逃避债务。
+23. (6)甲方卷入或即将卷入重大的诉讼或仲裁程序及其他法律纠
+24. 

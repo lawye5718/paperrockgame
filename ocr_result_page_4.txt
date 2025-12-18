@@ -1,0 +1,155 @@
+OCR结果 - 第 4 页
+==================================================
+处理的图像: temp_page_3_processed.png
+原始PDF页面: 4
+
+详细结果:
+[{'input_path': 'temp_page_3_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[441, 179],
+       ...,
+       [441, 242]], shape=(4, 2), dtype=int16), array([[211, 296],
+       ...,
+       [211, 350]], shape=(4, 2), dtype=int16), array([[121, 363],
+       ...,
+       [120, 418]], shape=(4, 2), dtype=int16), array([[209, 443],
+       ...,
+       [209, 492]], shape=(4, 2), dtype=int16), array([[205, 512],
+       ...,
+       [205, 563]], shape=(4, 2), dtype=int16), array([[205, 585],
+       ...,
+       [205, 634]], shape=(4, 2), dtype=int16), array([[118, 649],
+       ...,
+       [117, 703]], shape=(4, 2), dtype=int16), array([[118, 723],
+       ...,
+       [117, 774]], shape=(4, 2), dtype=int16), array([[133, 796],
+       ...,
+       [132, 848]], shape=(4, 2), dtype=int16), array([[134, 871],
+       ...,
+       [133, 918]], shape=(4, 2), dtype=int16), array([[199, 944],
+       ...,
+       [199, 995]], shape=(4, 2), dtype=int16), array([[ 117, 1016],
+       ...,
+       [ 116, 1060]], shape=(4, 2), dtype=int16), array([[ 198, 1089],
+       ...,
+       [ 198, 1139]], shape=(4, 2), dtype=int16), array([[ 118, 1157],
+       ...,
+       [ 118, 1208]], shape=(4, 2), dtype=int16), array([[ 116, 1228],
+       ...,
+       [ 116, 1279]], shape=(4, 2), dtype=int16), array([[ 116, 1302],
+       ...,
+       [ 115, 1347]], shape=(4, 2), dtype=int16), array([[ 194, 1378],
+       ...,
+       [ 194, 1425]], shape=(4, 2), dtype=int16), array([[ 113, 1448],
+       ...,
+       [ 113, 1495]], shape=(4, 2), dtype=int16), array([[ 111, 1516],
+       ...,
+       [ 111, 1567]], shape=(4, 2), dtype=int16), array([[ 111, 1589],
+       ...,
+       [ 111, 1639]], shape=(4, 2), dtype=int16), array([[ 108, 1659],
+       ...,
+       [ 108, 1714]], shape=(4, 2), dtype=int16), array([[ 112, 1733],
+       ...,
+       [ 111, 1781]], shape=(4, 2), dtype=int16), array([[ 730, 1798],
+       ...,
+       [ 730, 1939]], shape=(4, 2), dtype=int16), array([[ 663, 1946],
+       ...,
+       [ 663, 1986]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['证人权利义务告知书', '根据《中华人民共和国监察法》的有关规定，在监察机', '关调查期间，证人有如下权利和义务：', '1．凡是知道监察事项情况的人，都有作证的义务。', '2.有用本民族的语言文字进行作证的权利。', '3.办理监察事项的监察人员有下列情形之一的，监察', '对象、检举人及其他有关人员有权要求其回避：（1）是监', '察对象或者检举人的近亲属的；（2)担任过本案的证人的；', '（3）本人或者其近亲属与办理的监察事项有利害关系的；', '(4)有可能影响监察事项公正处理的其他情形的。', '4.未满18周岁的被询问人在接受询问时有权要求通知', '其法定代理人到场。', '5.有权核对询问笔录。没有阅读能力的，调查人员应', '当向其宣读。如果记载有遗漏或者差错，有权提出补充或者', '改正，经核对无误后，应当在询问笔录上逐页签名、捺指印。', '有权自行书写亲笔证词。', '6．证人有下列行为之一的，由其所在单位、主管部门、', '上级机关或者监察机关责令改正，依法给予处理：不按要求', '提供有关材料，拒绝、阻碍调查措施实施等拒不配合监察机', '关调查的；提供虚假情况，掩盖事实真相的；串供或者伪造、', '隐匿、毁灭证据的；阻止他人揭发检举、提供证据的；其他', '法律法规规定的行为，情节严重的。', '斌', '.1.'], 'rec_scores': [0.9995934367179871, 0.998120129108429, 0.976642370223999, 0.9851831197738647, 0.9924166798591614, 0.9918577075004578, 0.9701540470123291, 0.959915816783905, 0.9667955040931702, 0.9903769493103027, 0.9865330457687378, 0.9982132315635681, 0.9954405426979065, 0.9980716109275818, 0.9924971461296082, 0.9986991882324219, 0.9635709524154663, 0.9949330687522888, 0.9965245723724365, 0.9842051267623901, 0.9779703617095947, 0.9991438388824463, 0.8478649854660034, 0.6732563376426697], 'rec_polys': [array([[441, 179],
+       ...,
+       [441, 242]], shape=(4, 2), dtype=int16), array([[211, 296],
+       ...,
+       [211, 350]], shape=(4, 2), dtype=int16), array([[121, 363],
+       ...,
+       [120, 418]], shape=(4, 2), dtype=int16), array([[209, 443],
+       ...,
+       [209, 492]], shape=(4, 2), dtype=int16), array([[205, 512],
+       ...,
+       [205, 563]], shape=(4, 2), dtype=int16), array([[205, 585],
+       ...,
+       [205, 634]], shape=(4, 2), dtype=int16), array([[118, 649],
+       ...,
+       [117, 703]], shape=(4, 2), dtype=int16), array([[118, 723],
+       ...,
+       [117, 774]], shape=(4, 2), dtype=int16), array([[133, 796],
+       ...,
+       [132, 848]], shape=(4, 2), dtype=int16), array([[134, 871],
+       ...,
+       [133, 918]], shape=(4, 2), dtype=int16), array([[199, 944],
+       ...,
+       [199, 995]], shape=(4, 2), dtype=int16), array([[ 117, 1016],
+       ...,
+       [ 116, 1060]], shape=(4, 2), dtype=int16), array([[ 198, 1089],
+       ...,
+       [ 198, 1139]], shape=(4, 2), dtype=int16), array([[ 118, 1157],
+       ...,
+       [ 118, 1208]], shape=(4, 2), dtype=int16), array([[ 116, 1228],
+       ...,
+       [ 116, 1279]], shape=(4, 2), dtype=int16), array([[ 116, 1302],
+       ...,
+       [ 115, 1347]], shape=(4, 2), dtype=int16), array([[ 194, 1378],
+       ...,
+       [ 194, 1425]], shape=(4, 2), dtype=int16), array([[ 113, 1448],
+       ...,
+       [ 113, 1495]], shape=(4, 2), dtype=int16), array([[ 111, 1516],
+       ...,
+       [ 111, 1567]], shape=(4, 2), dtype=int16), array([[ 111, 1589],
+       ...,
+       [ 111, 1639]], shape=(4, 2), dtype=int16), array([[ 108, 1659],
+       ...,
+       [ 108, 1714]], shape=(4, 2), dtype=int16), array([[ 112, 1733],
+       ...,
+       [ 111, 1781]], shape=(4, 2), dtype=int16), array([[ 730, 1798],
+       ...,
+       [ 730, 1939]], shape=(4, 2), dtype=int16), array([[ 663, 1946],
+       ...,
+       [ 663, 1986]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 441, ...,  246],
+       ...,
+       [ 663, ..., 1986]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 证人权利义务告知书
+2. 根据《中华人民共和国监察法》的有关规定，在监察机
+3. 关调查期间，证人有如下权利和义务：
+4. 1．凡是知道监察事项情况的人，都有作证的义务。
+5. 2.有用本民族的语言文字进行作证的权利。
+6. 3.办理监察事项的监察人员有下列情形之一的，监察
+7. 对象、检举人及其他有关人员有权要求其回避：（1）是监
+8. 察对象或者检举人的近亲属的；（2)担任过本案的证人的；
+9. （3）本人或者其近亲属与办理的监察事项有利害关系的；
+10. (4)有可能影响监察事项公正处理的其他情形的。
+11. 4.未满18周岁的被询问人在接受询问时有权要求通知
+12. 其法定代理人到场。
+13. 5.有权核对询问笔录。没有阅读能力的，调查人员应
+14. 当向其宣读。如果记载有遗漏或者差错，有权提出补充或者
+15. 改正，经核对无误后，应当在询问笔录上逐页签名、捺指印。
+16. 有权自行书写亲笔证词。
+17. 6．证人有下列行为之一的，由其所在单位、主管部门、
+18. 上级机关或者监察机关责令改正，依法给予处理：不按要求
+19. 提供有关材料，拒绝、阻碍调查措施实施等拒不配合监察机
+20. 关调查的；提供虚假情况，掩盖事实真相的；串供或者伪造、
+21. 隐匿、毁灭证据的；阻止他人揭发检举、提供证据的；其他
+22. 法律法规规定的行为，情节严重的。
+23. 斌
+24. .1.

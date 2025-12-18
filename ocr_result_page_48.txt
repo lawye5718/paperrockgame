@@ -1,0 +1,160 @@
+OCR结果 - 第 48 页
+==================================================
+处理的图像: temp_page_47_processed.png
+原始PDF页面: 48
+
+详细结果:
+[{'input_path': 'temp_page_47_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1337,   12],
+       ...,
+       [1332,  135]], shape=(4, 2), dtype=int16), array([[168, 174],
+       ...,
+       [169, 225]], shape=(4, 2), dtype=int16), array([[170, 255],
+       ...,
+       [171, 298]], shape=(4, 2), dtype=int16), array([[255, 330],
+       ...,
+       [255, 373]], shape=(4, 2), dtype=int16), array([[172, 400],
+       ...,
+       [172, 441]], shape=(4, 2), dtype=int16), array([[172, 471],
+       ...,
+       [172, 511]], shape=(4, 2), dtype=int16), array([[254, 541],
+       ...,
+       [254, 581]], shape=(4, 2), dtype=int16), array([[167, 610],
+       ...,
+       [166, 652]], shape=(4, 2), dtype=int16), array([[475, 755],
+       ...,
+       [474, 799]], shape=(4, 2), dtype=int16), array([[257, 902],
+       ...,
+       [257, 943]], shape=(4, 2), dtype=int16), array([[ 173,  972],
+       ...,
+       [ 173, 1014]], shape=(4, 2), dtype=int16), array([[ 171, 1044],
+       ...,
+       [ 171, 1084]], shape=(4, 2), dtype=int16), array([[ 260, 1114],
+       ...,
+       [ 260, 1155]], shape=(4, 2), dtype=int16), array([[ 177, 1183],
+       ...,
+       [ 177, 1224]], shape=(4, 2), dtype=int16), array([[ 259, 1252],
+       ...,
+       [ 259, 1297]], shape=(4, 2), dtype=int16), array([[ 177, 1323],
+       ...,
+       [ 177, 1367]], shape=(4, 2), dtype=int16), array([[ 181, 1398],
+       ...,
+       [ 181, 1438]], shape=(4, 2), dtype=int16), array([[ 256, 1467],
+       ...,
+       [ 257, 1510]], shape=(4, 2), dtype=int16), array([[ 172, 1541],
+       ...,
+       [ 173, 1582]], shape=(4, 2), dtype=int16), array([[ 171, 1609],
+       ...,
+       [ 172, 1654]], shape=(4, 2), dtype=int16), array([[ 163, 1677],
+       ...,
+       [ 164, 1727]], shape=(4, 2), dtype=int16), array([[ 681, 1818],
+       ...,
+       [ 682, 1859]], shape=(4, 2), dtype=int16), array([[ 534, 1830],
+       ...,
+       [ 536, 1862]], shape=(4, 2), dtype=int16), array([[ 998, 1884],
+       ...,
+       [ 998, 1976]], shape=(4, 2), dtype=int16), array([[ 707, 1966],
+       ...,
+       [ 707, 1988]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['45', '色发生变化后的三日内，书面通知甲方；同时采取充分有效', '的措施保全甲亏的债权。', '13.7丙方应在其他任何足以危及自身正常经营或甲方', '债权安全的情况发生后的三日内，书面通知甲方，同时采取', '充分有效的措施保全甲方的债权。', '13.8丙方应保证提供的联系信息真实有效并在相关信', '息变更后及时通知乙方。', '第十四条丙方声明与保证', '14.1丙亏是依法注册成立并有效存续的合法单位，有权', '处分共经营管理的财产，有权经营与本合同项下委托费款用', '途用关的业务，有权签订和履行本合同。', '14.2丙方签订本合同已得到上级主管部门或公司董事', '全等育权机构的批准，并取得所有必要的授权。', '14.3丙方签订和履行本合同，未与对丙方及其资产有约', '束力的规定（含公司章程）和其他约定，包括但不限于向他', '、或本人提供的担保有任何抵触。', '14.4内方向甲方和乙方提供的所有文件、资料，包括但', '不限于财务报表，与其他金融机构签订的尚在履行中的借款', '全同，为他人和或本人提供担保等情况，均真实，准确、台', '法，有效。', '时重约', '', '何斌', '一'], 'rec_scores': [0.9775658845901489, 0.9512624740600586, 0.9433186054229736, 0.9886972904205322, 0.9831796884536743, 0.9822412729263306, 0.9880183339118958, 0.9280431866645813, 0.9982658624649048, 0.9719666838645935, 0.9570328593254089, 0.945886492729187, 0.9899804592132568, 0.9503304362297058, 0.9810338616371155, 0.9465595483779907, 0.8909471035003662, 0.933700680732727, 0.91337651014328, 0.9320343732833862, 0.87164306640625, 0.47775599360466003, 0.0, 0.8244473934173584, 0.4495396614074707], 'rec_polys': [array([[1337,   12],
+       ...,
+       [1332,  135]], shape=(4, 2), dtype=int16), array([[168, 174],
+       ...,
+       [169, 225]], shape=(4, 2), dtype=int16), array([[170, 255],
+       ...,
+       [171, 298]], shape=(4, 2), dtype=int16), array([[255, 330],
+       ...,
+       [255, 373]], shape=(4, 2), dtype=int16), array([[172, 400],
+       ...,
+       [172, 441]], shape=(4, 2), dtype=int16), array([[172, 471],
+       ...,
+       [172, 511]], shape=(4, 2), dtype=int16), array([[254, 541],
+       ...,
+       [254, 581]], shape=(4, 2), dtype=int16), array([[167, 610],
+       ...,
+       [166, 652]], shape=(4, 2), dtype=int16), array([[475, 755],
+       ...,
+       [474, 799]], shape=(4, 2), dtype=int16), array([[257, 902],
+       ...,
+       [257, 943]], shape=(4, 2), dtype=int16), array([[ 173,  972],
+       ...,
+       [ 173, 1014]], shape=(4, 2), dtype=int16), array([[ 171, 1044],
+       ...,
+       [ 171, 1084]], shape=(4, 2), dtype=int16), array([[ 260, 1114],
+       ...,
+       [ 260, 1155]], shape=(4, 2), dtype=int16), array([[ 177, 1183],
+       ...,
+       [ 177, 1224]], shape=(4, 2), dtype=int16), array([[ 259, 1252],
+       ...,
+       [ 259, 1297]], shape=(4, 2), dtype=int16), array([[ 177, 1323],
+       ...,
+       [ 177, 1367]], shape=(4, 2), dtype=int16), array([[ 181, 1398],
+       ...,
+       [ 181, 1438]], shape=(4, 2), dtype=int16), array([[ 256, 1467],
+       ...,
+       [ 257, 1510]], shape=(4, 2), dtype=int16), array([[ 172, 1541],
+       ...,
+       [ 173, 1582]], shape=(4, 2), dtype=int16), array([[ 171, 1609],
+       ...,
+       [ 172, 1654]], shape=(4, 2), dtype=int16), array([[ 163, 1677],
+       ...,
+       [ 164, 1727]], shape=(4, 2), dtype=int16), array([[ 681, 1818],
+       ...,
+       [ 682, 1859]], shape=(4, 2), dtype=int16), array([[ 534, 1830],
+       ...,
+       [ 536, 1862]], shape=(4, 2), dtype=int16), array([[ 998, 1884],
+       ...,
+       [ 998, 1976]], shape=(4, 2), dtype=int16), array([[ 707, 1966],
+       ...,
+       [ 707, 1988]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1332, ...,  139],
+       ...,
+       [ 707, ..., 1988]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 45
+2. 色发生变化后的三日内，书面通知甲方；同时采取充分有效
+3. 的措施保全甲亏的债权。
+4. 13.7丙方应在其他任何足以危及自身正常经营或甲方
+5. 债权安全的情况发生后的三日内，书面通知甲方，同时采取
+6. 充分有效的措施保全甲方的债权。
+7. 13.8丙方应保证提供的联系信息真实有效并在相关信
+8. 息变更后及时通知乙方。
+9. 第十四条丙方声明与保证
+10. 14.1丙亏是依法注册成立并有效存续的合法单位，有权
+11. 处分共经营管理的财产，有权经营与本合同项下委托费款用
+12. 途用关的业务，有权签订和履行本合同。
+13. 14.2丙方签订本合同已得到上级主管部门或公司董事
+14. 全等育权机构的批准，并取得所有必要的授权。
+15. 14.3丙方签订和履行本合同，未与对丙方及其资产有约
+16. 束力的规定（含公司章程）和其他约定，包括但不限于向他
+17. 、或本人提供的担保有任何抵触。
+18. 14.4内方向甲方和乙方提供的所有文件、资料，包括但
+19. 不限于财务报表，与其他金融机构签订的尚在履行中的借款
+20. 全同，为他人和或本人提供担保等情况，均真实，准确、台
+21. 法，有效。
+22. 时重约
+23. 
+24. 何斌
+25. 一

@@ -1,0 +1,60 @@
+OCR结果 - 第 209 页
+==================================================
+处理的图像: temp_page_208_processed.png
+原始PDF页面: 209
+
+详细结果:
+[{'input_path': 'temp_page_208_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[664,  16],
+       ...,
+       [664,  58]], shape=(4, 2), dtype=int16), array([[ 880, 1710],
+       ...,
+       [ 881, 1744]], shape=(4, 2), dtype=int16), array([[ 498, 1765],
+       ...,
+       [ 499, 1806]], shape=(4, 2), dtype=int16), array([[ 595, 1821],
+       ...,
+       [ 596, 1858]], shape=(4, 2), dtype=int16), array([[ 161, 1893],
+       ...,
+       [ 162, 1931]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['70', '1.1.1.8大气污染物排放汇总', '综上，本项目的大气污染物在厂界处可以达标排放。', '组织排放控制标准》(GB37822—2019)的要求。', '臭气浓度20（无量纲)。厂内挥发性有机物无组织排放需满足《挥发性有机物无'], 'rec_scores': [0.9939922094345093, 0.9975457191467285, 0.9844675660133362, 0.9449681639671326, 0.974315881729126], 'rec_polys': [array([[664,  16],
+       ...,
+       [664,  58]], shape=(4, 2), dtype=int16), array([[ 880, 1710],
+       ...,
+       [ 881, 1744]], shape=(4, 2), dtype=int16), array([[ 498, 1765],
+       ...,
+       [ 499, 1806]], shape=(4, 2), dtype=int16), array([[ 595, 1821],
+       ...,
+       [ 596, 1858]], shape=(4, 2), dtype=int16), array([[ 161, 1893],
+       ...,
+       [ 162, 1931]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 1, 1, 1, 1], 'rec_boxes': array([[ 664, ...,   58],
+       ...,
+       [ 161, ..., 1931]], shape=(5, 4), dtype=int16)}]
+
+解析后的文本:
+1. 70
+2. 1.1.1.8大气污染物排放汇总
+3. 综上，本项目的大气污染物在厂界处可以达标排放。
+4. 组织排放控制标准》(GB37822—2019)的要求。
+5. 臭气浓度20（无量纲)。厂内挥发性有机物无组织排放需满足《挥发性有机物无

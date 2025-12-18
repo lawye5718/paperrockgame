@@ -1,0 +1,100 @@
+OCR结果 - 第 114 页
+==================================================
+处理的图像: temp_page_113_processed.png
+原始PDF页面: 114
+
+详细结果:
+[{'input_path': 'temp_page_113_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [ 67, ...,  67]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[ 0,  8],
+       ...,
+       [ 0, 59]], shape=(4, 2), dtype=int16), array([[ 67,  90],
+       ...,
+       [ 67, 121]], shape=(4, 2), dtype=int16), array([[411, 133],
+       ...,
+       [411, 173]], shape=(4, 2), dtype=int16), array([[261, 158],
+       ...,
+       [250, 533]], shape=(4, 2), dtype=int16), array([[711, 324],
+       ...,
+       [709, 433]], shape=(4, 2), dtype=int16), array([[423, 519],
+       ...,
+       [424, 598]], shape=(4, 2), dtype=int16), array([[603, 604],
+       ...,
+       [603, 672]], shape=(4, 2), dtype=int16), array([[583, 702],
+       ...,
+       [585, 778]], shape=(4, 2), dtype=int16), array([[ 821,  980],
+       ...,
+       [ 822, 1047]], shape=(4, 2), dtype=int16), array([[ 478, 1269],
+       ...,
+       [ 478, 1349]], shape=(4, 2), dtype=int16), array([[ 481, 1386],
+       ...,
+       [ 481, 1460]], shape=(4, 2), dtype=int16), array([[ 171, 1491],
+       ...,
+       [ 170, 1604]], shape=(4, 2), dtype=int16), array([[  49, 1953],
+       ...,
+       [  48, 1997]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['SY', '期', '店师信息以中国资产评估协方网站防果为准', '', '本人签名：通', '所在行业组织，中国资产评估协会', '年检信息：通过（2019-03-20）', '初次热业登记自期1998-04-06', '000', '（评估机构人员）', '记', '资产评估师职业资格证书', '2AS2SSS22AS2SASSY2SSY22S'], 'rec_scores': [0.4519609212875366, 0.14324045181274414, 0.5916377902030945, 0.0, 0.7436708807945251, 0.9258979558944702, 0.8433292508125305, 0.8680047988891602, 0.7494605183601379, 0.961111307144165, 0.046522997319698334, 0.995290994644165, 0.4637110233306885], 'rec_polys': [array([[ 0,  8],
+       ...,
+       [ 0, 59]], shape=(4, 2), dtype=int16), array([[ 67,  90],
+       ...,
+       [ 67, 121]], shape=(4, 2), dtype=int16), array([[411, 133],
+       ...,
+       [411, 173]], shape=(4, 2), dtype=int16), array([[261, 158],
+       ...,
+       [250, 533]], shape=(4, 2), dtype=int16), array([[711, 324],
+       ...,
+       [709, 433]], shape=(4, 2), dtype=int16), array([[423, 519],
+       ...,
+       [424, 598]], shape=(4, 2), dtype=int16), array([[603, 604],
+       ...,
+       [603, 672]], shape=(4, 2), dtype=int16), array([[583, 702],
+       ...,
+       [585, 778]], shape=(4, 2), dtype=int16), array([[ 821,  980],
+       ...,
+       [ 822, 1047]], shape=(4, 2), dtype=int16), array([[ 478, 1269],
+       ...,
+       [ 478, 1349]], shape=(4, 2), dtype=int16), array([[ 481, 1386],
+       ...,
+       [ 481, 1460]], shape=(4, 2), dtype=int16), array([[ 171, 1491],
+       ...,
+       [ 170, 1604]], shape=(4, 2), dtype=int16), array([[  49, 1953],
+       ...,
+       [  48, 1997]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0], 'rec_boxes': array([[   0, ...,   59],
+       ...,
+       [  48, ..., 1998]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. SY
+2. 期
+3. 店师信息以中国资产评估协方网站防果为准
+4. 
+5. 本人签名：通
+6. 所在行业组织，中国资产评估协会
+7. 年检信息：通过（2019-03-20）
+8. 初次热业登记自期1998-04-06
+9. 000
+10. （评估机构人员）
+11. 记
+12. 资产评估师职业资格证书
+13. 2AS2SSS22AS2SASSY2SSY22S

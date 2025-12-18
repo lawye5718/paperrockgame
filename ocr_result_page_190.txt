@@ -1,0 +1,155 @@
+OCR结果 - 第 190 页
+==================================================
+处理的图像: temp_page_189_processed.png
+原始PDF页面: 190
+
+详细结果:
+[{'input_path': 'temp_page_189_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[183, 144],
+       ...,
+       [182, 193]], shape=(4, 2), dtype=int16), array([[174, 217],
+       ...,
+       [174, 264]], shape=(4, 2), dtype=int16), array([[112, 279],
+       ...,
+       [112, 329]], shape=(4, 2), dtype=int16), array([[116, 342],
+       ...,
+       [116, 390]], shape=(4, 2), dtype=int16), array([[119, 402],
+       ...,
+       [119, 446]], shape=(4, 2), dtype=int16), array([[186, 467],
+       ...,
+       [186, 503]], shape=(4, 2), dtype=int16), array([[201, 528],
+       ...,
+       [201, 559]], shape=(4, 2), dtype=int16), array([[184, 581],
+       ...,
+       [184, 620]], shape=(4, 2), dtype=int16), array([[121, 638],
+       ...,
+       [121, 676]], shape=(4, 2), dtype=int16), array([[122, 698],
+       ...,
+       [122, 731]], shape=(4, 2), dtype=int16), array([[188, 761],
+       ...,
+       [188, 792]], shape=(4, 2), dtype=int16), array([[188, 818],
+       ...,
+       [188, 851]], shape=(4, 2), dtype=int16), array([[201, 880],
+       ...,
+       [201, 910]], shape=(4, 2), dtype=int16), array([[185, 936],
+       ...,
+       [185, 973]], shape=(4, 2), dtype=int16), array([[ 122,  993],
+       ...,
+       [ 122, 1025]], shape=(4, 2), dtype=int16), array([[ 186, 1052],
+       ...,
+       [ 186, 1085]], shape=(4, 2), dtype=int16), array([[ 123, 1105],
+       ...,
+       [ 123, 1139]], shape=(4, 2), dtype=int16), array([[ 183, 1163],
+       ...,
+       [ 183, 1200]], shape=(4, 2), dtype=int16), array([[ 124, 1220],
+       ...,
+       [ 124, 1251]], shape=(4, 2), dtype=int16), array([[ 184, 1281],
+       ...,
+       [ 184, 1313]], shape=(4, 2), dtype=int16), array([[ 182, 1342],
+       ...,
+       [ 182, 1373]], shape=(4, 2), dtype=int16), array([[ 180, 1402],
+       ...,
+       [ 180, 1434]], shape=(4, 2), dtype=int16), array([[ 332, 1947],
+       ...,
+       [ 332, 1955]], shape=(4, 2), dtype=int16), array([[ 708, 1972],
+       ...,
+       [ 708, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['(4) 摩擦取向工序', '摩擦取向是通过用尼龙、纤维或棉绒等材料按一定方向对配向膜做定向摩擦处理，', '使配向膜表面状况发生改变，具有配向液晶的能力，并使液晶排列具有预期的预倾角。', '摩擦辊在玻璃基板上高速旋转并在PI膜表面留下沟槽，使液晶分子按一定的角度排布。', '本项目需要使用水蒸气来对玻璃基板摩擦效果进行检测。', '摩擦取向工序不产生污染。', '(5) 封框胶涂布工序', '封框胶涂布是为了粘接TFT基板和彩膜基板，在两张基板中问的液晶形成密封性容', '器，保护液晶，使之免受外界空气的影响。本项目采用S-WB21型号封框胶，封框胶主', '要成分为丙烯酸环氧树脂及二氧化硅。', '封框胶涂布工序污染源：', '固体废物：废框胶、废导通胶S2，作为危废废物收集、处置。', '（6）切割、研磨、清洗工序', '玻璃对盒后通过金刚石刀轮对基板进行分断。分断后的玻璃残材通过绞碎装置进行', '粉碎，作为固废处理。', '研磨是对分断后的面板边缘进行研磨加工，使边缘及断面的强度变大。加工过程中', '面板边缘会产生大量的热，需要用纯水对加工过程中的产品降温。', '清洗是对研磨后的面板表面进行清洁，去除玻璃表面研磨粉尘和各种颗粒。本项目', '使用纯水对玻璃表面进行清洗，会产生清洗废水。', '切割、研磨、清洗工序污染源：', '固体废物：废玻璃S1，作为一般固废处理。', '成盒/制屏产污环节见图2.2-4。', '一', '51'], 'rec_scores': [0.9682213068008423, 0.9909219741821289, 0.9907976388931274, 0.9904002547264099, 0.9958553314208984, 0.9983265399932861, 0.8991454839706421, 0.9858278036117554, 0.9898597002029419, 0.9948028326034546, 0.9965410232543945, 0.9936909675598145, 0.9778642654418945, 0.99797123670578, 0.996722400188446, 0.9982027411460876, 0.9976133108139038, 0.9971568584442139, 0.9983858466148376, 0.9917868375778198, 0.9893388748168945, 0.9629310369491577, 0.44782590866088867, 0.9997625946998596], 'rec_polys': [array([[183, 144],
+       ...,
+       [182, 193]], shape=(4, 2), dtype=int16), array([[174, 217],
+       ...,
+       [174, 264]], shape=(4, 2), dtype=int16), array([[112, 279],
+       ...,
+       [112, 329]], shape=(4, 2), dtype=int16), array([[116, 342],
+       ...,
+       [116, 390]], shape=(4, 2), dtype=int16), array([[119, 402],
+       ...,
+       [119, 446]], shape=(4, 2), dtype=int16), array([[186, 467],
+       ...,
+       [186, 503]], shape=(4, 2), dtype=int16), array([[201, 528],
+       ...,
+       [201, 559]], shape=(4, 2), dtype=int16), array([[184, 581],
+       ...,
+       [184, 620]], shape=(4, 2), dtype=int16), array([[121, 638],
+       ...,
+       [121, 676]], shape=(4, 2), dtype=int16), array([[122, 698],
+       ...,
+       [122, 731]], shape=(4, 2), dtype=int16), array([[188, 761],
+       ...,
+       [188, 792]], shape=(4, 2), dtype=int16), array([[188, 818],
+       ...,
+       [188, 851]], shape=(4, 2), dtype=int16), array([[201, 880],
+       ...,
+       [201, 910]], shape=(4, 2), dtype=int16), array([[185, 936],
+       ...,
+       [185, 973]], shape=(4, 2), dtype=int16), array([[ 122,  993],
+       ...,
+       [ 122, 1025]], shape=(4, 2), dtype=int16), array([[ 186, 1052],
+       ...,
+       [ 186, 1085]], shape=(4, 2), dtype=int16), array([[ 123, 1105],
+       ...,
+       [ 123, 1139]], shape=(4, 2), dtype=int16), array([[ 183, 1163],
+       ...,
+       [ 183, 1200]], shape=(4, 2), dtype=int16), array([[ 124, 1220],
+       ...,
+       [ 124, 1251]], shape=(4, 2), dtype=int16), array([[ 184, 1281],
+       ...,
+       [ 184, 1313]], shape=(4, 2), dtype=int16), array([[ 182, 1342],
+       ...,
+       [ 182, 1373]], shape=(4, 2), dtype=int16), array([[ 180, 1402],
+       ...,
+       [ 180, 1434]], shape=(4, 2), dtype=int16), array([[ 332, 1947],
+       ...,
+       [ 332, 1955]], shape=(4, 2), dtype=int16), array([[ 708, 1972],
+       ...,
+       [ 708, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 182, ...,  198],
+       ...,
+       [ 708, ..., 1999]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. (4) 摩擦取向工序
+2. 摩擦取向是通过用尼龙、纤维或棉绒等材料按一定方向对配向膜做定向摩擦处理，
+3. 使配向膜表面状况发生改变，具有配向液晶的能力，并使液晶排列具有预期的预倾角。
+4. 摩擦辊在玻璃基板上高速旋转并在PI膜表面留下沟槽，使液晶分子按一定的角度排布。
+5. 本项目需要使用水蒸气来对玻璃基板摩擦效果进行检测。
+6. 摩擦取向工序不产生污染。
+7. (5) 封框胶涂布工序
+8. 封框胶涂布是为了粘接TFT基板和彩膜基板，在两张基板中问的液晶形成密封性容
+9. 器，保护液晶，使之免受外界空气的影响。本项目采用S-WB21型号封框胶，封框胶主
+10. 要成分为丙烯酸环氧树脂及二氧化硅。
+11. 封框胶涂布工序污染源：
+12. 固体废物：废框胶、废导通胶S2，作为危废废物收集、处置。
+13. （6）切割、研磨、清洗工序
+14. 玻璃对盒后通过金刚石刀轮对基板进行分断。分断后的玻璃残材通过绞碎装置进行
+15. 粉碎，作为固废处理。
+16. 研磨是对分断后的面板边缘进行研磨加工，使边缘及断面的强度变大。加工过程中
+17. 面板边缘会产生大量的热，需要用纯水对加工过程中的产品降温。
+18. 清洗是对研磨后的面板表面进行清洁，去除玻璃表面研磨粉尘和各种颗粒。本项目
+19. 使用纯水对玻璃表面进行清洗，会产生清洗废水。
+20. 切割、研磨、清洗工序污染源：
+21. 固体废物：废玻璃S1，作为一般固废处理。
+22. 成盒/制屏产污环节见图2.2-4。
+23. 一
+24. 51

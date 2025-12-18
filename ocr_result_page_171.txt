@@ -1,0 +1,130 @@
+OCR结果 - 第 171 页
+==================================================
+处理的图像: temp_page_170_processed.png
+原始PDF页面: 171
+
+详细结果:
+[{'input_path': 'temp_page_170_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[124, 117],
+       ...,
+       [124, 164]], shape=(4, 2), dtype=int16), array([[130, 184],
+       ...,
+       [130, 219]], shape=(4, 2), dtype=int16), array([[209, 250],
+       ...,
+       [209, 280]], shape=(4, 2), dtype=int16), array([[211, 307],
+       ...,
+       [211, 341]], shape=(4, 2), dtype=int16), array([[133, 360],
+       ...,
+       [133, 397]], shape=(4, 2), dtype=int16), array([[135, 418],
+       ...,
+       [135, 450]], shape=(4, 2), dtype=int16), array([[213, 477],
+       ...,
+       [213, 508]], shape=(4, 2), dtype=int16), array([[136, 528],
+       ...,
+       [136, 565]], shape=(4, 2), dtype=int16), array([[136, 585],
+       ...,
+       [136, 619]], shape=(4, 2), dtype=int16), array([[132, 641],
+       ...,
+       [132, 682]], shape=(4, 2), dtype=int16), array([[136, 698],
+       ...,
+       [135, 733]], shape=(4, 2), dtype=int16), array([[196, 758],
+       ...,
+       [195, 802]], shape=(4, 2), dtype=int16), array([[134, 813],
+       ...,
+       [134, 858]], shape=(4, 2), dtype=int16), array([[133, 871],
+       ...,
+       [133, 918]], shape=(4, 2), dtype=int16), array([[134, 931],
+       ...,
+       [134, 973]], shape=(4, 2), dtype=int16), array([[ 132,  988],
+       ...,
+       [ 132, 1029]], shape=(4, 2), dtype=int16), array([[ 135, 1043],
+       ...,
+       [ 134, 1078]], shape=(4, 2), dtype=int16), array([[ 193, 1097],
+       ...,
+       [ 191, 1133]], shape=(4, 2), dtype=int16), array([[ 707, 1984],
+       ...,
+       [ 707, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['光通过CF上的RGB三个色层时，分别会产生红色、绿色、蓝色三种颜色，通过这三原', '色的组合而构成各种色彩。', '(4)OC层（OverCoat保护层）：主要为平坦化目的所增加的一层保护层。', '(5) ITO导电层：由于CF将作为TFT-LCD面板的另一个共通电极，因此，在完', '成保护膜制作后，在RGB光阻层及保护膜层上方，还需要溅镀一层透明的导电层。常', '用的溅射材料为ITO（氧化铟锡）靶材。', '(6)PS层（Photo Spacer层)：传统TFT-LCD面板工程成盒工序中，在阵列玻璃', '与彩膜玻璃（彩色滤光片)之间由随机洒布的间隔球（spacerbead)来支撑，在间隔球', '周围有漏光现象，容易产生白点等缺点，为了克服这些缺点，开发出以光学隔垫物(Photo', 'Spacer) 来取代传统的间隔球（spacer bead)，有利于提高LCD的对比度。采用的制造', '工艺与RGB相同。', '彩色滤光片CF目前通常的工艺技术是采用颜料分散法、平面工艺实现，即把红\\绿', '蓝三色颜料分别掺和在光刻胶中，再用匀胶、曝光、显影等平面工艺分别制作黑色矩阵，', '其工艺流程大致分为五部分，即：BM（黑色矩阵)、RGB彩色矩阵（红色、绿色、蓝', '色三色）、保护膜（OverCoat）、溅射ITO膜、PS层生成等工序。颜料分散法除了不', '受限于图素配置选择性，还可以获得良好的分光特性，同时义具有高耐光、耐热性，所', '以最适合使用于TFT型液晶显示器，为目前生产工艺的主流。', '彩膜工艺技术简图见图2.1-6。', '31'], 'rec_scores': [0.9885731339454651, 0.999030351638794, 0.9327413439750671, 0.9687989354133606, 0.9936590790748596, 0.9580394625663757, 0.9337725639343262, 0.9389275908470154, 0.9791827201843262, 0.9572197198867798, 0.9974810481071472, 0.9935652017593384, 0.9851200580596924, 0.9709419012069702, 0.9680498838424683, 0.9905760884284973, 0.9947375655174255, 0.971677303314209, 0.9935948848724365], 'rec_polys': [array([[124, 117],
+       ...,
+       [124, 164]], shape=(4, 2), dtype=int16), array([[130, 184],
+       ...,
+       [130, 219]], shape=(4, 2), dtype=int16), array([[209, 250],
+       ...,
+       [209, 280]], shape=(4, 2), dtype=int16), array([[211, 307],
+       ...,
+       [211, 341]], shape=(4, 2), dtype=int16), array([[133, 360],
+       ...,
+       [133, 397]], shape=(4, 2), dtype=int16), array([[135, 418],
+       ...,
+       [135, 450]], shape=(4, 2), dtype=int16), array([[213, 477],
+       ...,
+       [213, 508]], shape=(4, 2), dtype=int16), array([[136, 528],
+       ...,
+       [136, 565]], shape=(4, 2), dtype=int16), array([[136, 585],
+       ...,
+       [136, 619]], shape=(4, 2), dtype=int16), array([[132, 641],
+       ...,
+       [132, 682]], shape=(4, 2), dtype=int16), array([[136, 698],
+       ...,
+       [135, 733]], shape=(4, 2), dtype=int16), array([[196, 758],
+       ...,
+       [195, 802]], shape=(4, 2), dtype=int16), array([[134, 813],
+       ...,
+       [134, 858]], shape=(4, 2), dtype=int16), array([[133, 871],
+       ...,
+       [133, 918]], shape=(4, 2), dtype=int16), array([[134, 931],
+       ...,
+       [134, 973]], shape=(4, 2), dtype=int16), array([[ 132,  988],
+       ...,
+       [ 132, 1029]], shape=(4, 2), dtype=int16), array([[ 135, 1043],
+       ...,
+       [ 134, 1078]], shape=(4, 2), dtype=int16), array([[ 193, 1097],
+       ...,
+       [ 191, 1133]], shape=(4, 2), dtype=int16), array([[ 707, 1984],
+       ...,
+       [ 707, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 124, ...,  167],
+       ...,
+       [ 707, ..., 2000]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 光通过CF上的RGB三个色层时，分别会产生红色、绿色、蓝色三种颜色，通过这三原
+2. 色的组合而构成各种色彩。
+3. (4)OC层（OverCoat保护层）：主要为平坦化目的所增加的一层保护层。
+4. (5) ITO导电层：由于CF将作为TFT-LCD面板的另一个共通电极，因此，在完
+5. 成保护膜制作后，在RGB光阻层及保护膜层上方，还需要溅镀一层透明的导电层。常
+6. 用的溅射材料为ITO（氧化铟锡）靶材。
+7. (6)PS层（Photo Spacer层)：传统TFT-LCD面板工程成盒工序中，在阵列玻璃
+8. 与彩膜玻璃（彩色滤光片)之间由随机洒布的间隔球（spacerbead)来支撑，在间隔球
+9. 周围有漏光现象，容易产生白点等缺点，为了克服这些缺点，开发出以光学隔垫物(Photo
+10. Spacer) 来取代传统的间隔球（spacer bead)，有利于提高LCD的对比度。采用的制造
+11. 工艺与RGB相同。
+12. 彩色滤光片CF目前通常的工艺技术是采用颜料分散法、平面工艺实现，即把红\绿
+13. 蓝三色颜料分别掺和在光刻胶中，再用匀胶、曝光、显影等平面工艺分别制作黑色矩阵，
+14. 其工艺流程大致分为五部分，即：BM（黑色矩阵)、RGB彩色矩阵（红色、绿色、蓝
+15. 色三色）、保护膜（OverCoat）、溅射ITO膜、PS层生成等工序。颜料分散法除了不
+16. 受限于图素配置选择性，还可以获得良好的分光特性，同时义具有高耐光、耐热性，所
+17. 以最适合使用于TFT型液晶显示器，为目前生产工艺的主流。
+18. 彩膜工艺技术简图见图2.1-6。
+19. 31

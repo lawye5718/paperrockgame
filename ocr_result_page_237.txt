@@ -1,0 +1,320 @@
+OCR结果 - 第 237 页
+==================================================
+处理的图像: temp_page_236_processed.png
+原始PDF页面: 237
+
+详细结果:
+[{'input_path': 'temp_page_236_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[216, 145],
+       ...,
+       [215, 189]], shape=(4, 2), dtype=int16), array([[219, 209],
+       ...,
+       [218, 250]], shape=(4, 2), dtype=int16), array([[155, 264],
+       ...,
+       [154, 308]], shape=(4, 2), dtype=int16), array([[154, 322],
+       ...,
+       [154, 363]], shape=(4, 2), dtype=int16), array([[154, 379],
+       ...,
+       [154, 416]], shape=(4, 2), dtype=int16), array([[155, 434],
+       ...,
+       [155, 469]], shape=(4, 2), dtype=int16), array([[155, 489],
+       ...,
+       [155, 522]], shape=(4, 2), dtype=int16), array([[154, 545],
+       ...,
+       [154, 576]], shape=(4, 2), dtype=int16), array([[152, 601],
+       ...,
+       [152, 631]], shape=(4, 2), dtype=int16), array([[278, 667],
+       ...,
+       [277, 693]], shape=(4, 2), dtype=int16), array([[698, 673],
+       ...,
+       [698, 700]], shape=(4, 2), dtype=int16), array([[279, 687],
+       ...,
+       [278, 710]], shape=(4, 2), dtype=int16), array([[995, 679],
+       ...,
+       [994, 705]], shape=(4, 2), dtype=int16), array([[700, 696],
+       ...,
+       [700, 718]], shape=(4, 2), dtype=int16), array([[997, 703],
+       ...,
+       [997, 725]], shape=(4, 2), dtype=int16), array([[161, 735],
+       ...,
+       [160, 766]], shape=(4, 2), dtype=int16), array([[266, 741],
+       ...,
+       [266, 770]], shape=(4, 2), dtype=int16), array([[393, 739],
+       ...,
+       [393, 768]], shape=(4, 2), dtype=int16), array([[161, 763],
+       ...,
+       [160, 791]], shape=(4, 2), dtype=int16), array([[544, 755],
+       ...,
+       [544, 787]], shape=(4, 2), dtype=int16), array([[693, 756],
+       ...,
+       [691, 785]], shape=(4, 2), dtype=int16), array([[289, 766],
+       ...,
+       [289, 796]], shape=(4, 2), dtype=int16), array([[425, 767],
+       ...,
+       [425, 794]], shape=(4, 2), dtype=int16), array([[844, 758],
+       ...,
+       [843, 790]], shape=(4, 2), dtype=int16), array([[989, 760],
+       ...,
+       [988, 792]], shape=(4, 2), dtype=int16), array([[1162,  762],
+       ...,
+       [1162,  792]], shape=(4, 2), dtype=int16), array([[974, 848],
+       ...,
+       [974, 876]], shape=(4, 2), dtype=int16), array([[566, 861],
+       ...,
+       [566, 886]], shape=(4, 2), dtype=int16), array([[1147,  859],
+       ...,
+       [1147,  883]], shape=(4, 2), dtype=int16), array([[1007,  874],
+       ...,
+       [1007,  901]], shape=(4, 2), dtype=int16), array([[1179,  882],
+       ...,
+       [1179,  909]], shape=(4, 2), dtype=int16), array([[531, 939],
+       ...,
+       [531, 960]], shape=(4, 2), dtype=int16), array([[986, 932],
+       ...,
+       [984, 965]], shape=(4, 2), dtype=int16), array([[ 958, 1003],
+       ...,
+       [ 958, 1028]], shape=(4, 2), dtype=int16), array([[ 386, 1035],
+       ...,
+       [ 386, 1065]], shape=(4, 2), dtype=int16), array([[ 171, 1089],
+       ...,
+       [ 171, 1120]], shape=(4, 2), dtype=int16), array([[ 223, 1141],
+       ...,
+       [ 222, 1171]], shape=(4, 2), dtype=int16), array([[ 161, 1193],
+       ...,
+       [ 161, 1228]], shape=(4, 2), dtype=int16), array([[ 162, 1249],
+       ...,
+       [ 162, 1282]], shape=(4, 2), dtype=int16), array([[ 162, 1301],
+       ...,
+       [ 161, 1338]], shape=(4, 2), dtype=int16), array([[ 156, 1355],
+       ...,
+       [ 156, 1396]], shape=(4, 2), dtype=int16), array([[ 156, 1416],
+       ...,
+       [ 155, 1450]], shape=(4, 2), dtype=int16), array([[ 167, 1474],
+       ...,
+       [ 166, 1510]], shape=(4, 2), dtype=int16), array([[ 221, 1536],
+       ...,
+       [ 220, 1573]], shape=(4, 2), dtype=int16), array([[ 667, 1635],
+       ...,
+       [ 667, 1662]], shape=(4, 2), dtype=int16), array([[ 897, 1635],
+       ...,
+       [ 896, 1663]], shape=(4, 2), dtype=int16), array([[ 188, 1661],
+       ...,
+       [ 187, 1689]], shape=(4, 2), dtype=int16), array([[ 155, 1689],
+       ...,
+       [ 154, 1717]], shape=(4, 2), dtype=int16), array([[ 464, 1717],
+       ...,
+       [ 463, 1758]], shape=(4, 2), dtype=int16), array([[1104, 1708],
+       ...,
+       [1104, 1744]], shape=(4, 2), dtype=int16), array([[ 154, 1719],
+       ...,
+       [ 153, 1746]], shape=(4, 2), dtype=int16), array([[ 683, 1720],
+       ...,
+       [ 681, 1758]], shape=(4, 2), dtype=int16), array([[ 915, 1722],
+       ...,
+       [ 915, 1761]], shape=(4, 2), dtype=int16), array([[ 150, 1748],
+       ...,
+       [ 149, 1776]], shape=(4, 2), dtype=int16), array([[1132, 1742],
+       ...,
+       [1131, 1779]], shape=(4, 2), dtype=int16), array([[ 161, 1779],
+       ...,
+       [ 160, 1807]], shape=(4, 2), dtype=int16), array([[ 678, 1899],
+       ...,
+       [ 678, 1930]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['针对有机废水，采用生物法方法进行处理，其处理工艺流程见图11.1-6。', '有机废水，处理后的含磷废水、彩膜废水和含氟废水从厂房流至废水处理站', '的pH调节池（通过投加H₂SO4、NaOH调节pH和水质)，再流入平衡池以进一步', '均化水质。接着依次流入脱氮池1、曝气池1、脱氮池2、曝气池2。针对废水中氨', '氮比较高，项目采用脱氮池和曝气池结合，其中曝气池出水部分回流至脱氮池，', '在脱氮池内经过缺氧的调节下，反硝化菌将亚硝酸盐氮、硝酸盐氮还原成气态氮，', '从而达到除氮的目的：废水中的有机物在曝气池的好氧细菌的作用下得到去除。', '出水经沉淀池沉淀后排入最终中和处理系统。废水处理产生的污泥进入污水污泥', '浓缩池，污泥经脱水形成泥饼。', '$H_{2}S{O_{}$', '$H_{}SO_{_}$', 'NaOH', '$H_{2SO_$', 'NaOH', 'NaOH', '存机', 'pH调节', '有机平衡', '废水', '脱氨池1', '曝气池1', '池', '池', '脱氮池2', '膜气池2', '沉淀池', '污泥浓缩', '上清激', '至最终中和', '池', '系统', '上.清液', '脱水机', '污泥委外处理', '图3.1-5本项目有机废水处理系统工艺流程示意图', '(2)处理效果', '有机废水处理系统的主要特点是：（1）流程简单，构筑物较少，可以节省', '部分基建费用；（2）脱氮池不需要外加炭源，降低了运行费用：（3)由于曝气', '池布置在脱氮池后，可以是反硝化残留的有机物进一步得到去除，提高出水水质。', '项目有机废水处理系统运行稳定，处理效果好。因此本项目有机废水处理措施可', '行。', '3.2.2.5.酸碱废水处理系统', '（1) 处理工艺', '酸碱废水采用中和法处理，处理流程见图3.1-6：', '$H_₂2}SO₄NaOH', '$H_{₂2}SO,NaOH', '工.艺酸碱废水/', '酸碱废气洗涤塔排水/', '平衡池', '最终中和处', '纯水制备酸碱再生及', '中和池1', '中和池2', '反冲洗废水/清洗水回', '理系统', '收系统反冲洗废水', '98'], 'rec_scores': [0.9848428964614868, 0.9991120100021362, 0.9542744755744934, 0.993556559085846, 0.992124080657959, 0.9886616468429565, 0.9876426458358765, 0.9956251978874207, 0.999311625957489, 0.707238495349884, 0.6871365904808044, 0.9240211248397827, 0.6310569643974304, 0.8461781740188599, 0.9539653062820435, 0.7579977512359619, 0.9505232572555542, 0.9933085441589355, 0.9815552234649658, 0.8075005412101746, 0.8132752180099487, 0.9951794147491455, 0.9956321120262146, 0.9146256446838379, 0.8346189856529236, 0.9769232869148254, 0.9929366707801819, 0.783789336681366, 0.9771355390548706, 0.5968319773674011, 0.9991994500160217, 0.8435037732124329, 0.9879594445228577, 0.9948863983154297, 0.9950717091560364, 0.9220874905586243, 0.988521933555603, 0.9434767961502075, 0.9888595938682556, 0.9983370900154114, 0.9989197254180908, 0.9921427965164185, 0.8499563932418823, 0.9784249663352966, 0.8066666126251221, 0.7073150277137756, 0.956532895565033, 0.9145849347114563, 0.9991491436958313, 0.9990040063858032, 0.9380806684494019, 0.9824817776679993, 0.9964087009429932, 0.9318791627883911, 0.9994367957115173, 0.995229959487915, 0.9996809363365173], 'rec_polys': [array([[216, 145],
+       ...,
+       [215, 189]], shape=(4, 2), dtype=int16), array([[219, 209],
+       ...,
+       [218, 250]], shape=(4, 2), dtype=int16), array([[155, 264],
+       ...,
+       [154, 308]], shape=(4, 2), dtype=int16), array([[154, 322],
+       ...,
+       [154, 363]], shape=(4, 2), dtype=int16), array([[154, 379],
+       ...,
+       [154, 416]], shape=(4, 2), dtype=int16), array([[155, 434],
+       ...,
+       [155, 469]], shape=(4, 2), dtype=int16), array([[155, 489],
+       ...,
+       [155, 522]], shape=(4, 2), dtype=int16), array([[154, 545],
+       ...,
+       [154, 576]], shape=(4, 2), dtype=int16), array([[152, 601],
+       ...,
+       [152, 631]], shape=(4, 2), dtype=int16), array([[278, 667],
+       ...,
+       [277, 693]], shape=(4, 2), dtype=int16), array([[698, 673],
+       ...,
+       [698, 700]], shape=(4, 2), dtype=int16), array([[279, 687],
+       ...,
+       [278, 710]], shape=(4, 2), dtype=int16), array([[995, 679],
+       ...,
+       [994, 705]], shape=(4, 2), dtype=int16), array([[700, 696],
+       ...,
+       [700, 718]], shape=(4, 2), dtype=int16), array([[997, 703],
+       ...,
+       [997, 725]], shape=(4, 2), dtype=int16), array([[161, 735],
+       ...,
+       [160, 766]], shape=(4, 2), dtype=int16), array([[266, 741],
+       ...,
+       [266, 770]], shape=(4, 2), dtype=int16), array([[393, 739],
+       ...,
+       [393, 768]], shape=(4, 2), dtype=int16), array([[161, 763],
+       ...,
+       [160, 791]], shape=(4, 2), dtype=int16), array([[544, 755],
+       ...,
+       [544, 787]], shape=(4, 2), dtype=int16), array([[693, 756],
+       ...,
+       [691, 785]], shape=(4, 2), dtype=int16), array([[289, 766],
+       ...,
+       [289, 796]], shape=(4, 2), dtype=int16), array([[425, 767],
+       ...,
+       [425, 794]], shape=(4, 2), dtype=int16), array([[844, 758],
+       ...,
+       [843, 790]], shape=(4, 2), dtype=int16), array([[989, 760],
+       ...,
+       [988, 792]], shape=(4, 2), dtype=int16), array([[1162,  762],
+       ...,
+       [1162,  792]], shape=(4, 2), dtype=int16), array([[974, 848],
+       ...,
+       [974, 876]], shape=(4, 2), dtype=int16), array([[566, 861],
+       ...,
+       [566, 886]], shape=(4, 2), dtype=int16), array([[1147,  859],
+       ...,
+       [1147,  883]], shape=(4, 2), dtype=int16), array([[1007,  874],
+       ...,
+       [1007,  901]], shape=(4, 2), dtype=int16), array([[1179,  882],
+       ...,
+       [1179,  909]], shape=(4, 2), dtype=int16), array([[531, 939],
+       ...,
+       [531, 960]], shape=(4, 2), dtype=int16), array([[986, 932],
+       ...,
+       [984, 965]], shape=(4, 2), dtype=int16), array([[ 958, 1003],
+       ...,
+       [ 958, 1028]], shape=(4, 2), dtype=int16), array([[ 386, 1035],
+       ...,
+       [ 386, 1065]], shape=(4, 2), dtype=int16), array([[ 171, 1089],
+       ...,
+       [ 171, 1120]], shape=(4, 2), dtype=int16), array([[ 223, 1141],
+       ...,
+       [ 222, 1171]], shape=(4, 2), dtype=int16), array([[ 161, 1193],
+       ...,
+       [ 161, 1228]], shape=(4, 2), dtype=int16), array([[ 162, 1249],
+       ...,
+       [ 162, 1282]], shape=(4, 2), dtype=int16), array([[ 162, 1301],
+       ...,
+       [ 161, 1338]], shape=(4, 2), dtype=int16), array([[ 156, 1355],
+       ...,
+       [ 156, 1396]], shape=(4, 2), dtype=int16), array([[ 156, 1416],
+       ...,
+       [ 155, 1450]], shape=(4, 2), dtype=int16), array([[ 167, 1474],
+       ...,
+       [ 166, 1510]], shape=(4, 2), dtype=int16), array([[ 221, 1536],
+       ...,
+       [ 220, 1573]], shape=(4, 2), dtype=int16), array([[ 667, 1635],
+       ...,
+       [ 667, 1662]], shape=(4, 2), dtype=int16), array([[ 897, 1635],
+       ...,
+       [ 896, 1663]], shape=(4, 2), dtype=int16), array([[ 188, 1661],
+       ...,
+       [ 187, 1689]], shape=(4, 2), dtype=int16), array([[ 155, 1689],
+       ...,
+       [ 154, 1717]], shape=(4, 2), dtype=int16), array([[ 464, 1717],
+       ...,
+       [ 463, 1758]], shape=(4, 2), dtype=int16), array([[1104, 1708],
+       ...,
+       [1104, 1744]], shape=(4, 2), dtype=int16), array([[ 154, 1719],
+       ...,
+       [ 153, 1746]], shape=(4, 2), dtype=int16), array([[ 683, 1720],
+       ...,
+       [ 681, 1758]], shape=(4, 2), dtype=int16), array([[ 915, 1722],
+       ...,
+       [ 915, 1761]], shape=(4, 2), dtype=int16), array([[ 150, 1748],
+       ...,
+       [ 149, 1776]], shape=(4, 2), dtype=int16), array([[1132, 1742],
+       ...,
+       [1131, 1779]], shape=(4, 2), dtype=int16), array([[ 161, 1779],
+       ...,
+       [ 160, 1807]], shape=(4, 2), dtype=int16), array([[ 678, 1899],
+       ...,
+       [ 678, 1930]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 215, ...,  206],
+       ...,
+       [ 678, ..., 1930]], shape=(57, 4), dtype=int16)}]
+
+解析后的文本:
+1. 针对有机废水，采用生物法方法进行处理，其处理工艺流程见图11.1-6。
+2. 有机废水，处理后的含磷废水、彩膜废水和含氟废水从厂房流至废水处理站
+3. 的pH调节池（通过投加H₂SO4、NaOH调节pH和水质)，再流入平衡池以进一步
+4. 均化水质。接着依次流入脱氮池1、曝气池1、脱氮池2、曝气池2。针对废水中氨
+5. 氮比较高，项目采用脱氮池和曝气池结合，其中曝气池出水部分回流至脱氮池，
+6. 在脱氮池内经过缺氧的调节下，反硝化菌将亚硝酸盐氮、硝酸盐氮还原成气态氮，
+7. 从而达到除氮的目的：废水中的有机物在曝气池的好氧细菌的作用下得到去除。
+8. 出水经沉淀池沉淀后排入最终中和处理系统。废水处理产生的污泥进入污水污泥
+9. 浓缩池，污泥经脱水形成泥饼。
+10. $H_{2}S{O_{}$
+11. $H_{}SO_{_}$
+12. NaOH
+13. $H_{2SO_$
+14. NaOH
+15. NaOH
+16. 存机
+17. pH调节
+18. 有机平衡
+19. 废水
+20. 脱氨池1
+21. 曝气池1
+22. 池
+23. 池
+24. 脱氮池2
+25. 膜气池2
+26. 沉淀池
+27. 污泥浓缩
+28. 上清激
+29. 至最终中和
+30. 池
+31. 系统
+32. 上.清液
+33. 脱水机
+34. 污泥委外处理
+35. 图3.1-5本项目有机废水处理系统工艺流程示意图
+36. (2)处理效果
+37. 有机废水处理系统的主要特点是：（1）流程简单，构筑物较少，可以节省
+38. 部分基建费用；（2）脱氮池不需要外加炭源，降低了运行费用：（3)由于曝气
+39. 池布置在脱氮池后，可以是反硝化残留的有机物进一步得到去除，提高出水水质。
+40. 项目有机废水处理系统运行稳定，处理效果好。因此本项目有机废水处理措施可
+41. 行。
+42. 3.2.2.5.酸碱废水处理系统
+43. （1) 处理工艺
+44. 酸碱废水采用中和法处理，处理流程见图3.1-6：
+45. $H_₂2}SO₄NaOH
+46. $H_{₂2}SO,NaOH
+47. 工.艺酸碱废水/
+48. 酸碱废气洗涤塔排水/
+49. 平衡池
+50. 最终中和处
+51. 纯水制备酸碱再生及
+52. 中和池1
+53. 中和池2
+54. 反冲洗废水/清洗水回
+55. 理系统
+56. 收系统反冲洗废水
+57. 98

@@ -1,0 +1,180 @@
+OCR结果 - 第 180 页
+==================================================
+处理的图像: temp_page_179_processed.png
+原始PDF页面: 180
+
+详细结果:
+[{'input_path': 'temp_page_179_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8)}, 'dt_polys': [array([[121, 164],
+       ...,
+       [120, 227]], shape=(4, 2), dtype=int16), array([[124, 233],
+       ...,
+       [123, 290]], shape=(4, 2), dtype=int16), array([[127, 297],
+       ...,
+       [126, 347]], shape=(4, 2), dtype=int16), array([[193, 362],
+       ...,
+       [193, 405]], shape=(4, 2), dtype=int16), array([[129, 413],
+       ...,
+       [128, 457]], shape=(4, 2), dtype=int16), array([[132, 470],
+       ...,
+       [131, 510]], shape=(4, 2), dtype=int16), array([[130, 525],
+       ...,
+       [130, 565]], shape=(4, 2), dtype=int16), array([[132, 583],
+       ...,
+       [131, 615]], shape=(4, 2), dtype=int16), array([[193, 641],
+       ...,
+       [193, 678]], shape=(4, 2), dtype=int16), array([[128, 695],
+       ...,
+       [128, 739]], shape=(4, 2), dtype=int16), array([[127, 753],
+       ...,
+       [127, 797]], shape=(4, 2), dtype=int16), array([[125, 809],
+       ...,
+       [125, 854]], shape=(4, 2), dtype=int16), array([[122, 868],
+       ...,
+       [122, 909]], shape=(4, 2), dtype=int16), array([[123, 928],
+       ...,
+       [122, 960]], shape=(4, 2), dtype=int16), array([[ 185,  990],
+       ...,
+       [ 185, 1020]], shape=(4, 2), dtype=int16), array([[ 181, 1048],
+       ...,
+       [ 181, 1076]], shape=(4, 2), dtype=int16), array([[ 172, 1102],
+       ...,
+       [ 173, 1138]], shape=(4, 2), dtype=int16), array([[ 174, 1153],
+       ...,
+       [ 174, 1182]], shape=(4, 2), dtype=int16), array([[ 171, 1218],
+       ...,
+       [ 171, 1249]], shape=(4, 2), dtype=int16), array([[ 169, 1275],
+       ...,
+       [ 169, 1308]], shape=(4, 2), dtype=int16), array([[ 171, 1335],
+       ...,
+       [ 171, 1365]], shape=(4, 2), dtype=int16), array([[ 170, 1392],
+       ...,
+       [ 170, 1422]], shape=(4, 2), dtype=int16), array([[ 170, 1440],
+       ...,
+       [ 170, 1471]], shape=(4, 2), dtype=int16), array([[ 168, 1506],
+       ...,
+       [ 168, 1539]], shape=(4, 2), dtype=int16), array([[ 108, 1562],
+       ...,
+       [ 107, 1593]], shape=(4, 2), dtype=int16), array([[ 184, 1620],
+       ...,
+       [ 184, 1652]], shape=(4, 2), dtype=int16), array([[ 169, 1674],
+       ...,
+       [ 169, 1716]], shape=(4, 2), dtype=int16), array([[ 109, 1729],
+       ...,
+       [ 108, 1770]], shape=(4, 2), dtype=int16), array([[ 690, 1896],
+       ...,
+       [ 690, 1923]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['热电离)氛围中选择性腐蚀基材的过程，刻蚀气体通常含有氟等离子体和或碳等离子体，', '本项目刻蚀气体使用的有SF、C。通常加入缓冲气体如Ar、He气体，Ar以增强物理', '刻蚀，He起稀释作用，增加刻蚀均匀性，为了保证较大的选择性，适当加入氧气。', '等离子刻蚀：在低压下，反应气体在射频功率的激发下，产生电离并形成的等离子', '休，等离子体是由带电的电子和离子组成，反应腔体内的气体在电子的撞击下，除了转', '变成离子外，还能吸收能量并形成大量的活性基团。活性反应基团和被刻蚀物质表面进', '行化学反应并形成挥发性的反应生成物，最后反应生产物脱离被刻蚀物质表面，并被真', '空系统抽出腔体。', '刻蚀所用的工艺气体从车间外特气房通过管道和刻蚀机的进气孔连接到一起，经阀', '门控制开关。在DE工序中的反应器中，大部分刻蚀气体与基材发生反应消耗，并产生', '气态副产物（如HF、SiF₄、HCl、SiCI4等)，未反应的气体由于混入大量废气，成分复', '杂，难以再回收利用。因此，在该工序中由于使用含氟气体而产生含氟废气，这些气体', '将连同气态副产物先经设备自带的POU处理设备处理后，然后再排入特殊废气处理设施', '处理后排放。', '干法刻蚀主要反应方程式为：', 'SF{+Si→SiF₄4（气)+F₂（气)', '$Cl{2}→2CI', '湿法刻蚀工序污染源：', '废气：酸性废气G1，经过酸性废气处理设施集中处理后排放。', '废水：酸碱废水W1，进入酸碱废水处理系统集中处理后排放。', '含磷废水W4，进入含磷废水处理系统集中处理后排放。', '固体废物：废刻蚀液S2，作为危废废物收集、处置。', '干法刻蚀工序污染源：', '废气：特殊废气G4，分类收集，经过设备自带POU设备处理后，再经过特殊废气', '处理设施集中处理后排放。', '(6)剥离工序', '刻蚀完成之后，要清洗去除上面的光刻胶，再用纯水反复冲洗，以保证刻痕(电路)', '的清洁。剥离就是使用剥离液把玻璃基板上的光刻胶剥离的过程。', '41'], 'rec_scores': [0.959313690662384, 0.9507077932357788, 0.9953453540802002, 0.9853503704071045, 0.9724380970001221, 0.9926207661628723, 0.9990586638450623, 0.9942649006843567, 0.9972622394561768, 0.9941206574440002, 0.9224511981010437, 0.9954867362976074, 0.9899747967720032, 0.9995396137237549, 0.988353431224823, 0.7964463233947754, 0.6636869311332703, 0.9943380355834961, 0.9924064874649048, 0.983354926109314, 0.9979386925697327, 0.99000483751297, 0.9916777610778809, 0.9935757517814636, 0.9994167685508728, 0.9020371437072754, 0.9749080538749695, 0.9913032054901123, 0.998600959777832], 'rec_polys': [array([[121, 164],
+       ...,
+       [120, 227]], shape=(4, 2), dtype=int16), array([[124, 233],
+       ...,
+       [123, 290]], shape=(4, 2), dtype=int16), array([[127, 297],
+       ...,
+       [126, 347]], shape=(4, 2), dtype=int16), array([[193, 362],
+       ...,
+       [193, 405]], shape=(4, 2), dtype=int16), array([[129, 413],
+       ...,
+       [128, 457]], shape=(4, 2), dtype=int16), array([[132, 470],
+       ...,
+       [131, 510]], shape=(4, 2), dtype=int16), array([[130, 525],
+       ...,
+       [130, 565]], shape=(4, 2), dtype=int16), array([[132, 583],
+       ...,
+       [131, 615]], shape=(4, 2), dtype=int16), array([[193, 641],
+       ...,
+       [193, 678]], shape=(4, 2), dtype=int16), array([[128, 695],
+       ...,
+       [128, 739]], shape=(4, 2), dtype=int16), array([[127, 753],
+       ...,
+       [127, 797]], shape=(4, 2), dtype=int16), array([[125, 809],
+       ...,
+       [125, 854]], shape=(4, 2), dtype=int16), array([[122, 868],
+       ...,
+       [122, 909]], shape=(4, 2), dtype=int16), array([[123, 928],
+       ...,
+       [122, 960]], shape=(4, 2), dtype=int16), array([[ 185,  990],
+       ...,
+       [ 185, 1020]], shape=(4, 2), dtype=int16), array([[ 181, 1048],
+       ...,
+       [ 181, 1076]], shape=(4, 2), dtype=int16), array([[ 172, 1102],
+       ...,
+       [ 173, 1138]], shape=(4, 2), dtype=int16), array([[ 174, 1153],
+       ...,
+       [ 174, 1182]], shape=(4, 2), dtype=int16), array([[ 171, 1218],
+       ...,
+       [ 171, 1249]], shape=(4, 2), dtype=int16), array([[ 169, 1275],
+       ...,
+       [ 169, 1308]], shape=(4, 2), dtype=int16), array([[ 171, 1335],
+       ...,
+       [ 171, 1365]], shape=(4, 2), dtype=int16), array([[ 170, 1392],
+       ...,
+       [ 170, 1422]], shape=(4, 2), dtype=int16), array([[ 170, 1440],
+       ...,
+       [ 170, 1471]], shape=(4, 2), dtype=int16), array([[ 168, 1506],
+       ...,
+       [ 168, 1539]], shape=(4, 2), dtype=int16), array([[ 108, 1562],
+       ...,
+       [ 107, 1593]], shape=(4, 2), dtype=int16), array([[ 184, 1620],
+       ...,
+       [ 184, 1652]], shape=(4, 2), dtype=int16), array([[ 169, 1674],
+       ...,
+       [ 169, 1716]], shape=(4, 2), dtype=int16), array([[ 109, 1729],
+       ...,
+       [ 108, 1770]], shape=(4, 2), dtype=int16), array([[ 690, 1896],
+       ...,
+       [ 690, 1923]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 120, ...,  251],
+       ...,
+       [ 690, ..., 1923]], shape=(29, 4), dtype=int16)}]
+
+解析后的文本:
+1. 热电离)氛围中选择性腐蚀基材的过程，刻蚀气体通常含有氟等离子体和或碳等离子体，
+2. 本项目刻蚀气体使用的有SF、C。通常加入缓冲气体如Ar、He气体，Ar以增强物理
+3. 刻蚀，He起稀释作用，增加刻蚀均匀性，为了保证较大的选择性，适当加入氧气。
+4. 等离子刻蚀：在低压下，反应气体在射频功率的激发下，产生电离并形成的等离子
+5. 休，等离子体是由带电的电子和离子组成，反应腔体内的气体在电子的撞击下，除了转
+6. 变成离子外，还能吸收能量并形成大量的活性基团。活性反应基团和被刻蚀物质表面进
+7. 行化学反应并形成挥发性的反应生成物，最后反应生产物脱离被刻蚀物质表面，并被真
+8. 空系统抽出腔体。
+9. 刻蚀所用的工艺气体从车间外特气房通过管道和刻蚀机的进气孔连接到一起，经阀
+10. 门控制开关。在DE工序中的反应器中，大部分刻蚀气体与基材发生反应消耗，并产生
+11. 气态副产物（如HF、SiF₄、HCl、SiCI4等)，未反应的气体由于混入大量废气，成分复
+12. 杂，难以再回收利用。因此，在该工序中由于使用含氟气体而产生含氟废气，这些气体
+13. 将连同气态副产物先经设备自带的POU处理设备处理后，然后再排入特殊废气处理设施
+14. 处理后排放。
+15. 干法刻蚀主要反应方程式为：
+16. SF{+Si→SiF₄4（气)+F₂（气)
+17. $Cl{2}→2CI
+18. 湿法刻蚀工序污染源：
+19. 废气：酸性废气G1，经过酸性废气处理设施集中处理后排放。
+20. 废水：酸碱废水W1，进入酸碱废水处理系统集中处理后排放。
+21. 含磷废水W4，进入含磷废水处理系统集中处理后排放。
+22. 固体废物：废刻蚀液S2，作为危废废物收集、处置。
+23. 干法刻蚀工序污染源：
+24. 废气：特殊废气G4，分类收集，经过设备自带POU设备处理后，再经过特殊废气
+25. 处理设施集中处理后排放。
+26. (6)剥离工序
+27. 刻蚀完成之后，要清洗去除上面的光刻胶，再用纯水反复冲洗，以保证刻痕(电路)
+28. 的清洁。剥离就是使用剥离液把玻璃基板上的光刻胶剥离的过程。
+29. 41

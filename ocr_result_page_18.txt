@@ -1,0 +1,170 @@
+OCR结果 - 第 18 页
+==================================================
+处理的图像: temp_page_17_processed.png
+原始PDF页面: 18
+
+详细结果:
+[{'input_path': 'temp_page_17_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[1335,   15],
+       ...,
+       [1335,   99]], shape=(4, 2), dtype=int16), array([[129, 195],
+       ...,
+       [130, 246]], shape=(4, 2), dtype=int16), array([[130, 264],
+       ...,
+       [131, 315]], shape=(4, 2), dtype=int16), array([[133, 333],
+       ...,
+       [134, 380]], shape=(4, 2), dtype=int16), array([[134, 401],
+       ...,
+       [135, 446]], shape=(4, 2), dtype=int16), array([[134, 469],
+       ...,
+       [134, 513]], shape=(4, 2), dtype=int16), array([[134, 535],
+       ...,
+       [134, 580]], shape=(4, 2), dtype=int16), array([[217, 601],
+       ...,
+       [217, 649]], shape=(4, 2), dtype=int16), array([[135, 667],
+       ...,
+       [134, 713]], shape=(4, 2), dtype=int16), array([[219, 737],
+       ...,
+       [220, 781]], shape=(4, 2), dtype=int16), array([[138, 803],
+       ...,
+       [138, 845]], shape=(4, 2), dtype=int16), array([[136, 872],
+       ...,
+       [137, 913]], shape=(4, 2), dtype=int16), array([[222, 938],
+       ...,
+       [223, 982]], shape=(4, 2), dtype=int16), array([[ 221, 1005],
+       ...,
+       [ 222, 1048]], shape=(4, 2), dtype=int16), array([[ 138, 1072],
+       ...,
+       [ 138, 1112]], shape=(4, 2), dtype=int16), array([[ 138, 1137],
+       ...,
+       [ 138, 1178]], shape=(4, 2), dtype=int16), array([[ 139, 1203],
+       ...,
+       [ 139, 1244]], shape=(4, 2), dtype=int16), array([[ 138, 1268],
+       ...,
+       [ 138, 1311]], shape=(4, 2), dtype=int16), array([[ 135, 1336],
+       ...,
+       [ 136, 1380]], shape=(4, 2), dtype=int16), array([[ 134, 1401],
+       ...,
+       [ 135, 1449]], shape=(4, 2), dtype=int16), array([[ 133, 1467],
+       ...,
+       [ 134, 1517]], shape=(4, 2), dtype=int16), array([[ 133, 1534],
+       ...,
+       [ 134, 1583]], shape=(4, 2), dtype=int16), array([[ 129, 1600],
+       ...,
+       [ 130, 1650]], shape=(4, 2), dtype=int16), array([[ 127, 1667],
+       ...,
+       [ 128, 1718]], shape=(4, 2), dtype=int16), array([[ 122, 1731],
+       ...,
+       [ 122, 1791]], shape=(4, 2), dtype=int16), array([[ 108, 1868],
+       ...,
+       [ 112, 1980]], shape=(4, 2), dtype=int16), array([[ 930, 1885],
+       ...,
+       [ 930, 1926]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['15', '同意。后来没办法只能向法院起诉了，最后虽然判决我们胜诉，', '但广西泰嘉公司的设备还没有清税出关，执行起来很困难，而且', '那些设备现在到底价值多少钱也不知道，至于许于辰、陈婵娟的', '个人资产，银行账户不剩多少钱了，固定资产都是抵押状态，钦', '州市政府还在追广西泰嘉公司归还5亿元补贴资金，这5亿元补', '贴资金都没办法要回，所以我们这8000万元也是追不回来了。', '问：为什么你向王雄昌反馈多次这8000万元委托贷款的利', '息经常逾期?', '答：我是为了提醒王雄昌这个项目是有问题的，对方资金实', '力是很差的，这样的项目存在很大的风险，但王雄昌对我的提醒', '都没有重视，反而让我不要管。', '问：为什么王雄昌对你的风险提示不重视?', '答:我觉得王雄昌不重视风险提示的原因是这个项目从一开', '始就是由王雄昌主导负责，他非常看重，很多时候都亲自出面为', '这个项目沟通协调，甚至是在很多场合里都表现出对这个项目的', '大力支持。我曾经向王雄昌提过广西泰嘉项目第一批到港设备价', '值不明，这8000万元委托贷款存在风险，但王雄昌表示不用我', '管，按他的指示去办就行了。对于这个项目，他是听不进任何意', '见和建议的，如果有一点不同的声音，王雄昌甚至可以当场生气', '骂人。因为王雄昌在工作上的霸道作风，强推广西泰嘉项目，亲', '自出面帮这个项目站台撑场面，所以广西泰嘉项目才能够落地钦', '州。后来即使他明知广西泰嘉项目烂尾了，为了他自己的仕途，', '他还想动用财政资金帮广西泰嘉公司，拖延广西泰嘉项目的爆', '雷。', '签名：何斌', '第13页共14页'], 'rec_scores': [0.9867613315582275, 0.9948115944862366, 0.9886536598205566, 0.9957346320152283, 0.997401773929596, 0.9925471544265747, 0.9975124001502991, 0.9960493445396423, 0.9481484293937683, 0.9969606995582581, 0.9973945617675781, 0.9961631894111633, 0.9915771484375, 0.9832766056060791, 0.9954843521118164, 0.9935015439987183, 0.9967254400253296, 0.9963545203208923, 0.997722327709198, 0.9984554648399353, 0.9971293807029724, 0.9916528463363647, 0.9867415428161621, 0.9983985424041748, 0.9979172945022583, 0.8583072423934937, 0.9994113445281982], 'rec_polys': [array([[1335,   15],
+       ...,
+       [1335,   99]], shape=(4, 2), dtype=int16), array([[129, 195],
+       ...,
+       [130, 246]], shape=(4, 2), dtype=int16), array([[130, 264],
+       ...,
+       [131, 315]], shape=(4, 2), dtype=int16), array([[133, 333],
+       ...,
+       [134, 380]], shape=(4, 2), dtype=int16), array([[134, 401],
+       ...,
+       [135, 446]], shape=(4, 2), dtype=int16), array([[134, 469],
+       ...,
+       [134, 513]], shape=(4, 2), dtype=int16), array([[134, 535],
+       ...,
+       [134, 580]], shape=(4, 2), dtype=int16), array([[217, 601],
+       ...,
+       [217, 649]], shape=(4, 2), dtype=int16), array([[135, 667],
+       ...,
+       [134, 713]], shape=(4, 2), dtype=int16), array([[219, 737],
+       ...,
+       [220, 781]], shape=(4, 2), dtype=int16), array([[138, 803],
+       ...,
+       [138, 845]], shape=(4, 2), dtype=int16), array([[136, 872],
+       ...,
+       [137, 913]], shape=(4, 2), dtype=int16), array([[222, 938],
+       ...,
+       [223, 982]], shape=(4, 2), dtype=int16), array([[ 221, 1005],
+       ...,
+       [ 222, 1048]], shape=(4, 2), dtype=int16), array([[ 138, 1072],
+       ...,
+       [ 138, 1112]], shape=(4, 2), dtype=int16), array([[ 138, 1137],
+       ...,
+       [ 138, 1178]], shape=(4, 2), dtype=int16), array([[ 139, 1203],
+       ...,
+       [ 139, 1244]], shape=(4, 2), dtype=int16), array([[ 138, 1268],
+       ...,
+       [ 138, 1311]], shape=(4, 2), dtype=int16), array([[ 135, 1336],
+       ...,
+       [ 136, 1380]], shape=(4, 2), dtype=int16), array([[ 134, 1401],
+       ...,
+       [ 135, 1449]], shape=(4, 2), dtype=int16), array([[ 133, 1467],
+       ...,
+       [ 134, 1517]], shape=(4, 2), dtype=int16), array([[ 133, 1534],
+       ...,
+       [ 134, 1583]], shape=(4, 2), dtype=int16), array([[ 129, 1600],
+       ...,
+       [ 130, 1650]], shape=(4, 2), dtype=int16), array([[ 127, 1667],
+       ...,
+       [ 128, 1718]], shape=(4, 2), dtype=int16), array([[ 122, 1731],
+       ...,
+       [ 122, 1791]], shape=(4, 2), dtype=int16), array([[ 108, 1868],
+       ...,
+       [ 112, 1980]], shape=(4, 2), dtype=int16), array([[ 930, 1885],
+       ...,
+       [ 930, 1926]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1335, ...,   99],
+       ...,
+       [ 930, ..., 1926]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 15
+2. 同意。后来没办法只能向法院起诉了，最后虽然判决我们胜诉，
+3. 但广西泰嘉公司的设备还没有清税出关，执行起来很困难，而且
+4. 那些设备现在到底价值多少钱也不知道，至于许于辰、陈婵娟的
+5. 个人资产，银行账户不剩多少钱了，固定资产都是抵押状态，钦
+6. 州市政府还在追广西泰嘉公司归还5亿元补贴资金，这5亿元补
+7. 贴资金都没办法要回，所以我们这8000万元也是追不回来了。
+8. 问：为什么你向王雄昌反馈多次这8000万元委托贷款的利
+9. 息经常逾期?
+10. 答：我是为了提醒王雄昌这个项目是有问题的，对方资金实
+11. 力是很差的，这样的项目存在很大的风险，但王雄昌对我的提醒
+12. 都没有重视，反而让我不要管。
+13. 问：为什么王雄昌对你的风险提示不重视?
+14. 答:我觉得王雄昌不重视风险提示的原因是这个项目从一开
+15. 始就是由王雄昌主导负责，他非常看重，很多时候都亲自出面为
+16. 这个项目沟通协调，甚至是在很多场合里都表现出对这个项目的
+17. 大力支持。我曾经向王雄昌提过广西泰嘉项目第一批到港设备价
+18. 值不明，这8000万元委托贷款存在风险，但王雄昌表示不用我
+19. 管，按他的指示去办就行了。对于这个项目，他是听不进任何意
+20. 见和建议的，如果有一点不同的声音，王雄昌甚至可以当场生气
+21. 骂人。因为王雄昌在工作上的霸道作风，强推广西泰嘉项目，亲
+22. 自出面帮这个项目站台撑场面，所以广西泰嘉项目才能够落地钦
+23. 州。后来即使他明知广西泰嘉项目烂尾了，为了他自己的仕途，
+24. 他还想动用财政资金帮广西泰嘉公司，拖延广西泰嘉项目的爆
+25. 雷。
+26. 签名：何斌
+27. 第13页共14页

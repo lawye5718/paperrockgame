@@ -1,0 +1,150 @@
+OCR结果 - 第 73 页
+==================================================
+处理的图像: temp_page_72_processed.png
+原始PDF页面: 73
+
+详细结果:
+[{'input_path': 'temp_page_72_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1343,    0],
+       ...,
+       [1343,   96]], shape=(4, 2), dtype=int16), array([[431, 121],
+       ...,
+       [432, 186]], shape=(4, 2), dtype=int16), array([[202, 251],
+       ...,
+       [202, 298]], shape=(4, 2), dtype=int16), array([[109, 317],
+       ...,
+       [109, 372]], shape=(4, 2), dtype=int16), array([[202, 402],
+       ...,
+       [202, 447]], shape=(4, 2), dtype=int16), array([[196, 471],
+       ...,
+       [196, 522]], shape=(4, 2), dtype=int16), array([[196, 543],
+       ...,
+       [196, 594]], shape=(4, 2), dtype=int16), array([[110, 615],
+       ...,
+       [110, 662]], shape=(4, 2), dtype=int16), array([[113, 689],
+       ...,
+       [113, 734]], shape=(4, 2), dtype=int16), array([[130, 763],
+       ...,
+       [130, 810]], shape=(4, 2), dtype=int16), array([[133, 840],
+       ...,
+       [133, 884]], shape=(4, 2), dtype=int16), array([[203, 916],
+       ...,
+       [203, 964]], shape=(4, 2), dtype=int16), array([[ 121,  993],
+       ...,
+       [ 121, 1034]], shape=(4, 2), dtype=int16), array([[ 208, 1065],
+       ...,
+       [ 208, 1112]], shape=(4, 2), dtype=int16), array([[ 128, 1134],
+       ...,
+       [ 128, 1181]], shape=(4, 2), dtype=int16), array([[ 127, 1207],
+       ...,
+       [ 127, 1251]], shape=(4, 2), dtype=int16), array([[ 127, 1279],
+       ...,
+       [ 127, 1325]], shape=(4, 2), dtype=int16), array([[ 208, 1353],
+       ...,
+       [ 208, 1400]], shape=(4, 2), dtype=int16), array([[ 127, 1427],
+       ...,
+       [ 127, 1470]], shape=(4, 2), dtype=int16), array([[ 125, 1496],
+       ...,
+       [ 125, 1543]], shape=(4, 2), dtype=int16), array([[ 126, 1568],
+       ...,
+       [ 127, 1615]], shape=(4, 2), dtype=int16), array([[ 126, 1640],
+       ...,
+       [ 127, 1689]], shape=(4, 2), dtype=int16), array([[ 129, 1714],
+       ...,
+       [ 130, 1761]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['7', '证人权利义务告知书', '根据《中华人民共和国监察法》的有关规定，在监察机', '关调查期间，证人有如下权利和义务：', '1、凡是知道监察事项情况的人，都有作证的义务。', '2.有用本民族的语言文字进行作证的权利。', '3.办理监察事项的监察人员有下列情形之一的，监察', '对象、检举人及其他有关人员有权要求其回避：（1）是监', '察对象或者检举人的近亲属的；（2）担任过本案的证人的；', '（3）本人或者其近亲属与办理的监察事项有利害关系的；', '(4)有可能影响监察事项公正处理的其他情形的。', '4.未满18周岁的被询问人在接受询问时有权要求通知', '其法定代理人到场。', '5.有权核对询问笔录。没有阅读能力的，调查人员应', '当向其宣读。如果记载有遗漏或者差错，有权提出补充或者', '改正，经核对无误后，应当在询问笔录上逐页签名、捺指印。', '有权自行书写亲笔证词。', '6.证人有下列行为之一的，由其所在单位、主管部门、', '上级机关或者监察机关责令改正，依法给予处理：不按要求', '提供有关材料，拒绝、阻碍调查措施实施等拒不配合监察机', '关调查的；提供虚假情况，掩盖事实真相的；串供或者伪造、', '隐匿、毁灭证据的；阻止他人揭发检举、提供证据的；其他', '法律法规规定的行为，情节严重的。'], 'rec_scores': [0.992716372013092, 0.999052882194519, 0.9974759221076965, 0.9677514433860779, 0.9752331376075745, 0.993280291557312, 0.9800143241882324, 0.9859403967857361, 0.9538922309875488, 0.9772242903709412, 0.9807519316673279, 0.9846396446228027, 0.9990471601486206, 0.9955064654350281, 0.9954918622970581, 0.9923378825187683, 0.9984874129295349, 0.9582126140594482, 0.9944635629653931, 0.9969043731689453, 0.9749785661697388, 0.9747197031974792, 0.9958210587501526], 'rec_polys': [array([[1343,    0],
+       ...,
+       [1343,   96]], shape=(4, 2), dtype=int16), array([[431, 121],
+       ...,
+       [432, 186]], shape=(4, 2), dtype=int16), array([[202, 251],
+       ...,
+       [202, 298]], shape=(4, 2), dtype=int16), array([[109, 317],
+       ...,
+       [109, 372]], shape=(4, 2), dtype=int16), array([[202, 402],
+       ...,
+       [202, 447]], shape=(4, 2), dtype=int16), array([[196, 471],
+       ...,
+       [196, 522]], shape=(4, 2), dtype=int16), array([[196, 543],
+       ...,
+       [196, 594]], shape=(4, 2), dtype=int16), array([[110, 615],
+       ...,
+       [110, 662]], shape=(4, 2), dtype=int16), array([[113, 689],
+       ...,
+       [113, 734]], shape=(4, 2), dtype=int16), array([[130, 763],
+       ...,
+       [130, 810]], shape=(4, 2), dtype=int16), array([[133, 840],
+       ...,
+       [133, 884]], shape=(4, 2), dtype=int16), array([[203, 916],
+       ...,
+       [203, 964]], shape=(4, 2), dtype=int16), array([[ 121,  993],
+       ...,
+       [ 121, 1034]], shape=(4, 2), dtype=int16), array([[ 208, 1065],
+       ...,
+       [ 208, 1112]], shape=(4, 2), dtype=int16), array([[ 128, 1134],
+       ...,
+       [ 128, 1181]], shape=(4, 2), dtype=int16), array([[ 127, 1207],
+       ...,
+       [ 127, 1251]], shape=(4, 2), dtype=int16), array([[ 127, 1279],
+       ...,
+       [ 127, 1325]], shape=(4, 2), dtype=int16), array([[ 208, 1353],
+       ...,
+       [ 208, 1400]], shape=(4, 2), dtype=int16), array([[ 127, 1427],
+       ...,
+       [ 127, 1470]], shape=(4, 2), dtype=int16), array([[ 125, 1496],
+       ...,
+       [ 125, 1543]], shape=(4, 2), dtype=int16), array([[ 126, 1568],
+       ...,
+       [ 127, 1615]], shape=(4, 2), dtype=int16), array([[ 126, 1640],
+       ...,
+       [ 127, 1689]], shape=(4, 2), dtype=int16), array([[ 129, 1714],
+       ...,
+       [ 130, 1761]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1343, ...,   96],
+       ...,
+       [ 129, ..., 1761]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 7
+2. 证人权利义务告知书
+3. 根据《中华人民共和国监察法》的有关规定，在监察机
+4. 关调查期间，证人有如下权利和义务：
+5. 1、凡是知道监察事项情况的人，都有作证的义务。
+6. 2.有用本民族的语言文字进行作证的权利。
+7. 3.办理监察事项的监察人员有下列情形之一的，监察
+8. 对象、检举人及其他有关人员有权要求其回避：（1）是监
+9. 察对象或者检举人的近亲属的；（2）担任过本案的证人的；
+10. （3）本人或者其近亲属与办理的监察事项有利害关系的；
+11. (4)有可能影响监察事项公正处理的其他情形的。
+12. 4.未满18周岁的被询问人在接受询问时有权要求通知
+13. 其法定代理人到场。
+14. 5.有权核对询问笔录。没有阅读能力的，调查人员应
+15. 当向其宣读。如果记载有遗漏或者差错，有权提出补充或者
+16. 改正，经核对无误后，应当在询问笔录上逐页签名、捺指印。
+17. 有权自行书写亲笔证词。
+18. 6.证人有下列行为之一的，由其所在单位、主管部门、
+19. 上级机关或者监察机关责令改正，依法给予处理：不按要求
+20. 提供有关材料，拒绝、阻碍调查措施实施等拒不配合监察机
+21. 关调查的；提供虚假情况，掩盖事实真相的；串供或者伪造、
+22. 隐匿、毁灭证据的；阻止他人揭发检举、提供证据的；其他
+23. 法律法规规定的行为，情节严重的。

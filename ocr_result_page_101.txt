@@ -1,0 +1,175 @@
+OCR结果 - 第 101 页
+==================================================
+处理的图像: temp_page_100_processed.png
+原始PDF页面: 101
+
+详细结果:
+[{'input_path': 'temp_page_100_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[227, 431],
+       ...,
+       [227, 457]], shape=(4, 2), dtype=int16), array([[1031,  427],
+       ...,
+       [1030,  462]], shape=(4, 2), dtype=int16), array([[213, 556],
+       ...,
+       [213, 594]], shape=(4, 2), dtype=int16), array([[941, 556],
+       ...,
+       [941, 591]], shape=(4, 2), dtype=int16), array([[217, 655],
+       ...,
+       [217, 688]], shape=(4, 2), dtype=int16), array([[196, 797],
+       ...,
+       [197, 832]], shape=(4, 2), dtype=int16), array([[220, 852],
+       ...,
+       [221, 900]], shape=(4, 2), dtype=int16), array([[214, 921],
+       ...,
+       [215, 961]], shape=(4, 2), dtype=int16), array([[ 298,  964],
+       ...,
+       [ 299, 1001]], shape=(4, 2), dtype=int16), array([[ 303, 1002],
+       ...,
+       [ 304, 1040]], shape=(4, 2), dtype=int16), array([[ 216, 1060],
+       ...,
+       [ 216, 1102]], shape=(4, 2), dtype=int16), array([[ 299, 1110],
+       ...,
+       [ 300, 1148]], shape=(4, 2), dtype=int16), array([[ 221, 1172],
+       ...,
+       [ 221, 1209]], shape=(4, 2), dtype=int16), array([[ 289, 1170],
+       ...,
+       [ 290, 1207]], shape=(4, 2), dtype=int16), array([[ 298, 1206],
+       ...,
+       [ 299, 1248]], shape=(4, 2), dtype=int16), array([[ 221, 1268],
+       ...,
+       [ 222, 1313]], shape=(4, 2), dtype=int16), array([[ 224, 1382],
+       ...,
+       [ 226, 1435]], shape=(4, 2), dtype=int16), array([[ 224, 1447],
+       ...,
+       [ 225, 1499]], shape=(4, 2), dtype=int16), array([[ 221, 1504],
+       ...,
+       [ 222, 1550]], shape=(4, 2), dtype=int16), array([[ 920, 1531],
+       ...,
+       [ 919, 1568]], shape=(4, 2), dtype=int16), array([[ 308, 1553],
+       ...,
+       [ 308, 1579]], shape=(4, 2), dtype=int16), array([[1088, 1568],
+       ...,
+       [1087, 1601]], shape=(4, 2), dtype=int16), array([[ 299, 1581],
+       ...,
+       [ 300, 1614]], shape=(4, 2), dtype=int16), array([[   1, 1594],
+       ...,
+       [   1, 1607]], shape=(4, 2), dtype=int16), array([[ 324, 1648],
+       ...,
+       [ 325, 1687]], shape=(4, 2), dtype=int16), array([[1115, 1643],
+       ...,
+       [1115, 1670]], shape=(4, 2), dtype=int16), array([[ 296, 1681],
+       ...,
+       [ 297, 1728]], shape=(4, 2), dtype=int16), array([[ 298, 1720],
+       ...,
+       [ 299, 1767]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['71', '', '', '', '7.2.', '8', '数人：', '', '', '', '期', '：：游和', '零', '', '', '', '', '、不', '', '', 'oBle', '', '', '2', '', 'a', '', 'o'], 'rec_scores': [0.6762408018112183, 0.0, 0.0, 0.0, 0.8109414577484131, 0.291515052318573, 0.2948567867279053, 0.0, 0.0, 0.0, 0.31338801980018616, 0.4848502576351166, 0.1157904788851738, 0.0, 0.0, 0.0, 0.0, 0.4553798735141754, 0.0, 0.0, 0.38812482357025146, 0.0, 0.0, 0.12288736552000046, 0.0, 0.3878510892391205, 0.0, 0.4341094195842743], 'rec_polys': [array([[227, 431],
+       ...,
+       [227, 457]], shape=(4, 2), dtype=int16), array([[1031,  427],
+       ...,
+       [1030,  462]], shape=(4, 2), dtype=int16), array([[213, 556],
+       ...,
+       [213, 594]], shape=(4, 2), dtype=int16), array([[941, 556],
+       ...,
+       [941, 591]], shape=(4, 2), dtype=int16), array([[217, 655],
+       ...,
+       [217, 688]], shape=(4, 2), dtype=int16), array([[196, 797],
+       ...,
+       [197, 832]], shape=(4, 2), dtype=int16), array([[220, 852],
+       ...,
+       [221, 900]], shape=(4, 2), dtype=int16), array([[214, 921],
+       ...,
+       [215, 961]], shape=(4, 2), dtype=int16), array([[ 298,  964],
+       ...,
+       [ 299, 1001]], shape=(4, 2), dtype=int16), array([[ 303, 1002],
+       ...,
+       [ 304, 1040]], shape=(4, 2), dtype=int16), array([[ 216, 1060],
+       ...,
+       [ 216, 1102]], shape=(4, 2), dtype=int16), array([[ 299, 1110],
+       ...,
+       [ 300, 1148]], shape=(4, 2), dtype=int16), array([[ 221, 1172],
+       ...,
+       [ 221, 1209]], shape=(4, 2), dtype=int16), array([[ 289, 1170],
+       ...,
+       [ 290, 1207]], shape=(4, 2), dtype=int16), array([[ 298, 1206],
+       ...,
+       [ 299, 1248]], shape=(4, 2), dtype=int16), array([[ 221, 1268],
+       ...,
+       [ 222, 1313]], shape=(4, 2), dtype=int16), array([[ 224, 1382],
+       ...,
+       [ 226, 1435]], shape=(4, 2), dtype=int16), array([[ 224, 1447],
+       ...,
+       [ 225, 1499]], shape=(4, 2), dtype=int16), array([[ 221, 1504],
+       ...,
+       [ 222, 1550]], shape=(4, 2), dtype=int16), array([[ 920, 1531],
+       ...,
+       [ 919, 1568]], shape=(4, 2), dtype=int16), array([[ 308, 1553],
+       ...,
+       [ 308, 1579]], shape=(4, 2), dtype=int16), array([[1088, 1568],
+       ...,
+       [1087, 1601]], shape=(4, 2), dtype=int16), array([[ 299, 1581],
+       ...,
+       [ 300, 1614]], shape=(4, 2), dtype=int16), array([[   1, 1594],
+       ...,
+       [   1, 1607]], shape=(4, 2), dtype=int16), array([[ 324, 1648],
+       ...,
+       [ 325, 1687]], shape=(4, 2), dtype=int16), array([[1115, 1643],
+       ...,
+       [1115, 1670]], shape=(4, 2), dtype=int16), array([[ 296, 1681],
+       ...,
+       [ 297, 1728]], shape=(4, 2), dtype=int16), array([[ 298, 1720],
+       ...,
+       [ 299, 1767]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[ 227, ...,  457],
+       ...,
+       [ 298, ..., 1767]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. 71
+2. 
+3. 
+4. 
+5. 7.2.
+6. 8
+7. 数人：
+8. 
+9. 
+10. 
+11. 期
+12. ：：游和
+13. 零
+14. 
+15. 
+16. 
+17. 
+18. 、不
+19. 
+20. 
+21. oBle
+22. 
+23. 
+24. 2
+25. 
+26. a
+27. 
+28. o

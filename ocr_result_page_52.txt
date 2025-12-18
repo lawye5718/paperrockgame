@@ -1,0 +1,145 @@
+OCR结果 - 第 52 页
+==================================================
+处理的图像: temp_page_51_processed.png
+原始PDF页面: 52
+
+详细结果:
+[{'input_path': 'temp_page_51_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[1272,    0],
+       ...,
+       [1275,  123]], shape=(4, 2), dtype=int16), array([[266, 198],
+       ...,
+       [266, 241]], shape=(4, 2), dtype=int16), array([[185, 267],
+       ...,
+       [185, 311]], shape=(4, 2), dtype=int16), array([[183, 339],
+       ...,
+       [183, 383]], shape=(4, 2), dtype=int16), array([[181, 410],
+       ...,
+       [181, 451]], shape=(4, 2), dtype=int16), array([[177, 479],
+       ...,
+       [177, 522]], shape=(4, 2), dtype=int16), array([[174, 546],
+       ...,
+       [173, 594]], shape=(4, 2), dtype=int16), array([[254, 626],
+       ...,
+       [253, 670]], shape=(4, 2), dtype=int16), array([[177, 701],
+       ...,
+       [177, 741]], shape=(4, 2), dtype=int16), array([[250, 773],
+       ...,
+       [251, 819]], shape=(4, 2), dtype=int16), array([[173, 846],
+       ...,
+       [173, 890]], shape=(4, 2), dtype=int16), array([[176, 921],
+       ...,
+       [176, 963]], shape=(4, 2), dtype=int16), array([[ 174,  993],
+       ...,
+       [ 174, 1040]], shape=(4, 2), dtype=int16), array([[ 249, 1067],
+       ...,
+       [ 250, 1111]], shape=(4, 2), dtype=int16), array([[ 168, 1137],
+       ...,
+       [ 168, 1187]], shape=(4, 2), dtype=int16), array([[ 486, 1283],
+       ...,
+       [ 486, 1331]], shape=(4, 2), dtype=int16), array([[ 243, 1434],
+       ...,
+       [ 244, 1478]], shape=(4, 2), dtype=int16), array([[ 165, 1507],
+       ...,
+       [ 165, 1552]], shape=(4, 2), dtype=int16), array([[ 231, 1568],
+       ...,
+       [ 231, 1625]], shape=(4, 2), dtype=int16), array([[ 744, 1755],
+       ...,
+       [ 744, 1804]], shape=(4, 2), dtype=int16), array([[1201, 1779],
+       ...,
+       [1151, 1854]], shape=(4, 2), dtype=int16), array([[ 695, 1949],
+       ...,
+       [ 695, 1977]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['49', '20.1本台同生效后，甲方将本台同项下债权全部或部分', '转让给第三人，无须征得乙方和丙方的同意，但须通如乙', '和丙亏。本合同生效后，丙方将本合同项下债务全部或部分', '转让给第三人，须事先经甲方书面同意，并向甲方提交担保人', '同意转让后继续承担担保义务的书面文件或提供甲方认可', '的新的担保。', '20.2本合同生效后，任何一方不得擅自变更。如需变更，', '应征得各方同意后签订书面变更协议。', '20.3本合同生效后，委托贷款发放前，丙方出现或可能', '出现严重危及委托贷款安全，影响还款能力的情况时，甲少', '育权单亏面解除合同。除此之外，任何一方不得擅自解除本', '合同，如需解除，各方应达成书面解除协议。', '20.4本台同的转让、变更或解除协议生效前，本台同条', '款依然有效。', '第二十一条争议的解决', '21.1甲，乙，丙三方因履行本合同而发生的争议，应协', '解决；协商不成的，选择按下列方式解决：', '向乙方住所地人民法院起诉；', '特别约定', '⑦', '1'], 'rec_scores': [0.7082853317260742, 0.9669984579086304, 0.94489586353302, 0.9483126997947693, 0.9665126204490662, 0.9965340495109558, 0.9977648258209229, 0.9778115749359131, 0.9926915764808655, 0.9930199980735779, 0.9721184372901917, 0.907871663570404, 0.9448145627975464, 0.979780912399292, 0.8768659234046936, 0.9959412813186646, 0.9235312938690186, 0.9086441993713379, 0.9534753561019897, 0.978826642036438, 0.4214240610599518, 0.8761125802993774], 'rec_polys': [array([[1272,    0],
+       ...,
+       [1275,  123]], shape=(4, 2), dtype=int16), array([[266, 198],
+       ...,
+       [266, 241]], shape=(4, 2), dtype=int16), array([[185, 267],
+       ...,
+       [185, 311]], shape=(4, 2), dtype=int16), array([[183, 339],
+       ...,
+       [183, 383]], shape=(4, 2), dtype=int16), array([[181, 410],
+       ...,
+       [181, 451]], shape=(4, 2), dtype=int16), array([[177, 479],
+       ...,
+       [177, 522]], shape=(4, 2), dtype=int16), array([[174, 546],
+       ...,
+       [173, 594]], shape=(4, 2), dtype=int16), array([[254, 626],
+       ...,
+       [253, 670]], shape=(4, 2), dtype=int16), array([[177, 701],
+       ...,
+       [177, 741]], shape=(4, 2), dtype=int16), array([[250, 773],
+       ...,
+       [251, 819]], shape=(4, 2), dtype=int16), array([[173, 846],
+       ...,
+       [173, 890]], shape=(4, 2), dtype=int16), array([[176, 921],
+       ...,
+       [176, 963]], shape=(4, 2), dtype=int16), array([[ 174,  993],
+       ...,
+       [ 174, 1040]], shape=(4, 2), dtype=int16), array([[ 249, 1067],
+       ...,
+       [ 250, 1111]], shape=(4, 2), dtype=int16), array([[ 168, 1137],
+       ...,
+       [ 168, 1187]], shape=(4, 2), dtype=int16), array([[ 486, 1283],
+       ...,
+       [ 486, 1331]], shape=(4, 2), dtype=int16), array([[ 243, 1434],
+       ...,
+       [ 244, 1478]], shape=(4, 2), dtype=int16), array([[ 165, 1507],
+       ...,
+       [ 165, 1552]], shape=(4, 2), dtype=int16), array([[ 231, 1568],
+       ...,
+       [ 231, 1625]], shape=(4, 2), dtype=int16), array([[ 744, 1755],
+       ...,
+       [ 744, 1804]], shape=(4, 2), dtype=int16), array([[1201, 1779],
+       ...,
+       [1151, 1854]], shape=(4, 2), dtype=int16), array([[ 695, 1949],
+       ...,
+       [ 695, 1977]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1272, ...,  123],
+       ...,
+       [ 695, ..., 1977]], shape=(22, 4), dtype=int16)}]
+
+解析后的文本:
+1. 49
+2. 20.1本台同生效后，甲方将本台同项下债权全部或部分
+3. 转让给第三人，无须征得乙方和丙方的同意，但须通如乙
+4. 和丙亏。本合同生效后，丙方将本合同项下债务全部或部分
+5. 转让给第三人，须事先经甲方书面同意，并向甲方提交担保人
+6. 同意转让后继续承担担保义务的书面文件或提供甲方认可
+7. 的新的担保。
+8. 20.2本合同生效后，任何一方不得擅自变更。如需变更，
+9. 应征得各方同意后签订书面变更协议。
+10. 20.3本合同生效后，委托贷款发放前，丙方出现或可能
+11. 出现严重危及委托贷款安全，影响还款能力的情况时，甲少
+12. 育权单亏面解除合同。除此之外，任何一方不得擅自解除本
+13. 合同，如需解除，各方应达成书面解除协议。
+14. 20.4本台同的转让、变更或解除协议生效前，本台同条
+15. 款依然有效。
+16. 第二十一条争议的解决
+17. 21.1甲，乙，丙三方因履行本合同而发生的争议，应协
+18. 解决；协商不成的，选择按下列方式解决：
+19. 向乙方住所地人民法院起诉；
+20. 特别约定
+21. ⑦
+22. 1

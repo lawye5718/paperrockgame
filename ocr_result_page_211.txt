@@ -1,0 +1,190 @@
+OCR结果 - 第 211 页
+==================================================
+处理的图像: temp_page_210_processed.png
+原始PDF页面: 211
+
+详细结果:
+[{'input_path': 'temp_page_210_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[154, 144],
+       ...,
+       [154, 181]], shape=(4, 2), dtype=int16), array([[222, 212],
+       ...,
+       [222, 243]], shape=(4, 2), dtype=int16), array([[156, 269],
+       ...,
+       [156, 306]], shape=(4, 2), dtype=int16), array([[220, 333],
+       ...,
+       [220, 367]], shape=(4, 2), dtype=int16), array([[  0, 391],
+       ...,
+       [  0, 416]], shape=(4, 2), dtype=int16), array([[154, 388],
+       ...,
+       [154, 425]], shape=(4, 2), dtype=int16), array([[156, 447],
+       ...,
+       [156, 479]], shape=(4, 2), dtype=int16), array([[219, 507],
+       ...,
+       [218, 537]], shape=(4, 2), dtype=int16), array([[219, 564],
+       ...,
+       [218, 595]], shape=(4, 2), dtype=int16), array([[153, 618],
+       ...,
+       [153, 651]], shape=(4, 2), dtype=int16), array([[150, 671],
+       ...,
+       [149, 713]], shape=(4, 2), dtype=int16), array([[152, 738],
+       ...,
+       [152, 768]], shape=(4, 2), dtype=int16), array([[232, 797],
+       ...,
+       [232, 828]], shape=(4, 2), dtype=int16), array([[218, 854],
+       ...,
+       [218, 887]], shape=(4, 2), dtype=int16), array([[155, 912],
+       ...,
+       [155, 947]], shape=(4, 2), dtype=int16), array([[157, 972],
+       ...,
+       [157, 999]], shape=(4, 2), dtype=int16), array([[ 154, 1027],
+       ...,
+       [ 154, 1057]], shape=(4, 2), dtype=int16), array([[ 217, 1085],
+       ...,
+       [ 218, 1116]], shape=(4, 2), dtype=int16), array([[ 157, 1141],
+       ...,
+       [ 157, 1171]], shape=(4, 2), dtype=int16), array([[ 155, 1198],
+       ...,
+       [ 155, 1229]], shape=(4, 2), dtype=int16), array([[ 157, 1259],
+       ...,
+       [ 157, 1283]], shape=(4, 2), dtype=int16), array([[ 216, 1314],
+       ...,
+       [ 217, 1345]], shape=(4, 2), dtype=int16), array([[ 151, 1370],
+       ...,
+       [ 151, 1402]], shape=(4, 2), dtype=int16), array([[ 213, 1430],
+       ...,
+       [ 214, 1460]], shape=(4, 2), dtype=int16), array([[ 227, 1487],
+       ...,
+       [ 228, 1518]], shape=(4, 2), dtype=int16), array([[ 211, 1541],
+       ...,
+       [ 212, 1576]], shape=(4, 2), dtype=int16), array([[ 149, 1596],
+       ...,
+       [ 149, 1634]], shape=(4, 2), dtype=int16), array([[ 148, 1652],
+       ...,
+       [ 148, 1694]], shape=(4, 2), dtype=int16), array([[ 148, 1711],
+       ...,
+       [ 148, 1752]], shape=(4, 2), dtype=int16), array([[ 209, 1774],
+       ...,
+       [ 210, 1815]], shape=(4, 2), dtype=int16), array([[ 674, 1870],
+       ...,
+       [ 674, 1901]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2.5.2．废水产生、治理措施及排放情况分析', '根据本项目水平衡分析，本项目产生的废水主要为生产废水和生活污水。废', '水排放总量为24310m^3/d，其中生产废水239660m{3/d，生活污水350m{/d_', '根据产污环节分析，生产废水按水质特征分类收集，集中处理系统处理后达', '【', '标排放。生产废水分为六类：酸碱废水、含氟废水、彩膜废水、含磷废水、有机', '废水、冷却塔排污水。', '生活污水主要为厂区内办公人员的盟洗废水、冲厕废水、餐厅污水。', '生产废水经生产废水处理系统处理达标后，生活污水经化粪池及隔油池处理', '达标后，一起经生产区废水排放口排入开发区污水管网，最终排入大榄坪污水处', '理厂。', '2.5.3．生产废水治理措施及排放情况', '（1）酸碱废水治理措施及排放情况', '酸性废水W1来源：主要来自于：①湿法刻蚀过程中产生的酸碱废水；②纯', '水制备再生水：③工艺清洗水回收系统反冲洗。主要污染物为pH、CODcr，排', '放总量为9115md，其中纯水制备再生废水3472m/d，回收系统反冲洗废水', '4943m³/d，加药补水200m/d，连续排放。', '治理措施：产生酸碱废水的设备均设置密闭收集管，通过支管汇集到总管送', '到污水处理站，进入酸碱中和处理系统处理，再进入最终中和处理系统，经厂区', '总排口排放。酸碱中和处理系统采用化学中和法处理。根据项目资料，酸碱中和', '处理系统设计方案如下：', '设置酸碱废水巾和处理系统1套，处理能力550m3/h，处理后进入最终中和', '处理系统.', '酸碱废水污染物产生及排放情况见表2.6-9、表2.6-10。', '（2）含氟废水治理措施及排放情况', '含氟废水W2来源：米自化学气相沉积CVD工序，干法刻蚀DE工序产生', '的特殊废气通过POU设备和废气洗涤塔（酸性废气、碱性废气、特殊废气）处', '理后的废水。主要污染物为氟化物、CODcr、BOD_{s、SS，排放量为3188m^{3}d}', '其中废气洗涤塔废水2988m^3/d，加药补充水200m3/d，连续排放。', '治理措施：产生含氟废水的工艺设备均设置密闭收集管，通过支管汇集到总', '72'], 'rec_scores': [0.9840669631958008, 0.9986077547073364, 0.8398522138595581, 0.9991382360458374, 0.4672258198261261, 0.9959056377410889, 0.9955618977546692, 0.9814151525497437, 0.9969919323921204, 0.9970327019691467, 0.9898205399513245, 0.9675115346908569, 0.974219024181366, 0.9708051681518555, 0.984083354473114, 0.978683590888977, 0.9566517472267151, 0.996833324432373, 0.9746580719947815, 0.9845523238182068, 0.9561721682548523, 0.9304885864257812, 0.9119335412979126, 0.9943732023239136, 0.9650665521621704, 0.9845364689826965, 0.980532169342041, 0.8902329802513123, 0.9133187532424927, 0.994134247303009, 0.9997084140777588], 'rec_polys': [array([[154, 144],
+       ...,
+       [154, 181]], shape=(4, 2), dtype=int16), array([[222, 212],
+       ...,
+       [222, 243]], shape=(4, 2), dtype=int16), array([[156, 269],
+       ...,
+       [156, 306]], shape=(4, 2), dtype=int16), array([[220, 333],
+       ...,
+       [220, 367]], shape=(4, 2), dtype=int16), array([[  0, 391],
+       ...,
+       [  0, 416]], shape=(4, 2), dtype=int16), array([[154, 388],
+       ...,
+       [154, 425]], shape=(4, 2), dtype=int16), array([[156, 447],
+       ...,
+       [156, 479]], shape=(4, 2), dtype=int16), array([[219, 507],
+       ...,
+       [218, 537]], shape=(4, 2), dtype=int16), array([[219, 564],
+       ...,
+       [218, 595]], shape=(4, 2), dtype=int16), array([[153, 618],
+       ...,
+       [153, 651]], shape=(4, 2), dtype=int16), array([[150, 671],
+       ...,
+       [149, 713]], shape=(4, 2), dtype=int16), array([[152, 738],
+       ...,
+       [152, 768]], shape=(4, 2), dtype=int16), array([[232, 797],
+       ...,
+       [232, 828]], shape=(4, 2), dtype=int16), array([[218, 854],
+       ...,
+       [218, 887]], shape=(4, 2), dtype=int16), array([[155, 912],
+       ...,
+       [155, 947]], shape=(4, 2), dtype=int16), array([[157, 972],
+       ...,
+       [157, 999]], shape=(4, 2), dtype=int16), array([[ 154, 1027],
+       ...,
+       [ 154, 1057]], shape=(4, 2), dtype=int16), array([[ 217, 1085],
+       ...,
+       [ 218, 1116]], shape=(4, 2), dtype=int16), array([[ 157, 1141],
+       ...,
+       [ 157, 1171]], shape=(4, 2), dtype=int16), array([[ 155, 1198],
+       ...,
+       [ 155, 1229]], shape=(4, 2), dtype=int16), array([[ 157, 1259],
+       ...,
+       [ 157, 1283]], shape=(4, 2), dtype=int16), array([[ 216, 1314],
+       ...,
+       [ 217, 1345]], shape=(4, 2), dtype=int16), array([[ 151, 1370],
+       ...,
+       [ 151, 1402]], shape=(4, 2), dtype=int16), array([[ 213, 1430],
+       ...,
+       [ 214, 1460]], shape=(4, 2), dtype=int16), array([[ 227, 1487],
+       ...,
+       [ 228, 1518]], shape=(4, 2), dtype=int16), array([[ 211, 1541],
+       ...,
+       [ 212, 1576]], shape=(4, 2), dtype=int16), array([[ 149, 1596],
+       ...,
+       [ 149, 1634]], shape=(4, 2), dtype=int16), array([[ 148, 1652],
+       ...,
+       [ 148, 1694]], shape=(4, 2), dtype=int16), array([[ 148, 1711],
+       ...,
+       [ 148, 1752]], shape=(4, 2), dtype=int16), array([[ 209, 1774],
+       ...,
+       [ 210, 1815]], shape=(4, 2), dtype=int16), array([[ 674, 1870],
+       ...,
+       [ 674, 1901]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 154, ...,  187],
+       ...,
+       [ 674, ..., 1901]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2.5.2．废水产生、治理措施及排放情况分析
+2. 根据本项目水平衡分析，本项目产生的废水主要为生产废水和生活污水。废
+3. 水排放总量为24310m^3/d，其中生产废水239660m{3/d，生活污水350m{/d_
+4. 根据产污环节分析，生产废水按水质特征分类收集，集中处理系统处理后达
+5. 【
+6. 标排放。生产废水分为六类：酸碱废水、含氟废水、彩膜废水、含磷废水、有机
+7. 废水、冷却塔排污水。
+8. 生活污水主要为厂区内办公人员的盟洗废水、冲厕废水、餐厅污水。
+9. 生产废水经生产废水处理系统处理达标后，生活污水经化粪池及隔油池处理
+10. 达标后，一起经生产区废水排放口排入开发区污水管网，最终排入大榄坪污水处
+11. 理厂。
+12. 2.5.3．生产废水治理措施及排放情况
+13. （1）酸碱废水治理措施及排放情况
+14. 酸性废水W1来源：主要来自于：①湿法刻蚀过程中产生的酸碱废水；②纯
+15. 水制备再生水：③工艺清洗水回收系统反冲洗。主要污染物为pH、CODcr，排
+16. 放总量为9115md，其中纯水制备再生废水3472m/d，回收系统反冲洗废水
+17. 4943m³/d，加药补水200m/d，连续排放。
+18. 治理措施：产生酸碱废水的设备均设置密闭收集管，通过支管汇集到总管送
+19. 到污水处理站，进入酸碱中和处理系统处理，再进入最终中和处理系统，经厂区
+20. 总排口排放。酸碱中和处理系统采用化学中和法处理。根据项目资料，酸碱中和
+21. 处理系统设计方案如下：
+22. 设置酸碱废水巾和处理系统1套，处理能力550m3/h，处理后进入最终中和
+23. 处理系统.
+24. 酸碱废水污染物产生及排放情况见表2.6-9、表2.6-10。
+25. （2）含氟废水治理措施及排放情况
+26. 含氟废水W2来源：米自化学气相沉积CVD工序，干法刻蚀DE工序产生
+27. 的特殊废气通过POU设备和废气洗涤塔（酸性废气、碱性废气、特殊废气）处
+28. 理后的废水。主要污染物为氟化物、CODcr、BOD_{s、SS，排放量为3188m^{3}d}
+29. 其中废气洗涤塔废水2988m^3/d，加药补充水200m3/d，连续排放。
+30. 治理措施：产生含氟废水的工艺设备均设置密闭收集管，通过支管汇集到总
+31. 72

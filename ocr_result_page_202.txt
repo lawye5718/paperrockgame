@@ -1,0 +1,190 @@
+OCR结果 - 第 202 页
+==================================================
+处理的图像: temp_page_201_processed.png
+原始PDF页面: 202
+
+详细结果:
+[{'input_path': 'temp_page_201_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8)}, 'dt_polys': [array([[127, 112],
+       ...,
+       [126, 156]], shape=(4, 2), dtype=int16), array([[213, 182],
+       ...,
+       [213, 224]], shape=(4, 2), dtype=int16), array([[198, 243],
+       ...,
+       [198, 290]], shape=(4, 2), dtype=int16), array([[134, 296],
+       ...,
+       [135, 347]], shape=(4, 2), dtype=int16), array([[140, 359],
+       ...,
+       [139, 398]], shape=(4, 2), dtype=int16), array([[203, 419],
+       ...,
+       [203, 457]], shape=(4, 2), dtype=int16), array([[142, 471],
+       ...,
+       [141, 511]], shape=(4, 2), dtype=int16), array([[143, 528],
+       ...,
+       [142, 564]], shape=(4, 2), dtype=int16), array([[143, 585],
+       ...,
+       [142, 622]], shape=(4, 2), dtype=int16), array([[146, 646],
+       ...,
+       [146, 677]], shape=(4, 2), dtype=int16), array([[206, 701],
+       ...,
+       [206, 738]], shape=(4, 2), dtype=int16), array([[145, 760],
+       ...,
+       [146, 794]], shape=(4, 2), dtype=int16), array([[205, 816],
+       ...,
+       [205, 853]], shape=(4, 2), dtype=int16), array([[221, 874],
+       ...,
+       [221, 909]], shape=(4, 2), dtype=int16), array([[207, 931],
+       ...,
+       [207, 967]], shape=(4, 2), dtype=int16), array([[ 144,  991],
+       ...,
+       [ 145, 1025]], shape=(4, 2), dtype=int16), array([[ 206, 1048],
+       ...,
+       [ 206, 1083]], shape=(4, 2), dtype=int16), array([[ 143, 1108],
+       ...,
+       [ 144, 1139]], shape=(4, 2), dtype=int16), array([[ 143, 1163],
+       ...,
+       [ 144, 1198]], shape=(4, 2), dtype=int16), array([[ 143, 1222],
+       ...,
+       [ 144, 1252]], shape=(4, 2), dtype=int16), array([[ 202, 1276],
+       ...,
+       [ 202, 1311]], shape=(4, 2), dtype=int16), array([[ 141, 1336],
+       ...,
+       [ 142, 1367]], shape=(4, 2), dtype=int16), array([[ 201, 1393],
+       ...,
+       [ 201, 1423]], shape=(4, 2), dtype=int16), array([[ 215, 1451],
+       ...,
+       [ 215, 1481]], shape=(4, 2), dtype=int16), array([[ 199, 1507],
+       ...,
+       [ 199, 1543]], shape=(4, 2), dtype=int16), array([[ 138, 1563],
+       ...,
+       [ 137, 1601]], shape=(4, 2), dtype=int16), array([[ 139, 1621],
+       ...,
+       [ 138, 1658]], shape=(4, 2), dtype=int16), array([[ 140, 1681],
+       ...,
+       [ 139, 1713]], shape=(4, 2), dtype=int16), array([[ 199, 1740],
+       ...,
+       [ 199, 1776]], shape=(4, 2), dtype=int16), array([[ 139, 1796],
+       ...,
+       [ 138, 1834]], shape=(4, 2), dtype=int16), array([[ 693, 1854],
+       ...,
+       [ 693, 1881]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1.1.1.4生产废气治理措施及排放情况', '(1)酸性废气治理措施及排放情况', '酸性废气G1来源：酸性废气主要来源于阵列工艺（Array）及彩膜工艺（CF)中', '的各种清洗、湿法刻蚀等工序，硫酸、硝酸、盐酸等化学品的挥发，主要污染物为氯化', '氢、氮氧化物、硫酸雾。', '治理措施：产生酸性废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管', '送至屋面，进入酸性废气洗涤塔处理后经排气筒排放。酸性废气洗涤塔采用碱液喷淋，', '该系统对废气中硫酸雾、氮氧化物、氯化氢等的吸收效率在70%~90%。溶液循环使用', '并定期排放，排至废水处理站含氟废水处理系统进行处理。根据项目资料，酸性废气处', '理系统设计方案如下：', '生产厂房酸性废气量为76800m/h，设置4套碱液喷淋吸收系统装置（3用1备），单', '套处理能力为30000m/h，共设置一根排气筒，排气筒高度为40m，直径1.4m:', '酸性废气污染物产生及排放情况见表2.5-1、2.2-2。', '（2)碱性废气治理措施及排放情况', '碱性废气G2来源：碱性废气主要来源于阵列工艺（Array）及彩膜工艺（CF）中', '掩膜光刻工序中的显影过程，主要污染物为氨。', '治理措施：产生碱性废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管', '送至屋面，进入碱性废气洗涤塔处理后经排气筒排放。碱性废气洗涤塔采用酸液喷淋，', '该系统对碱性废气中氨的吸收效率为90%。溶液循环使用并定期排放，排至废水处理站', '含氟废水处理系统进行处理。根据项目资料，碱性废气处理系统设计方案如下：', '生产厂房碱性废气量为51600m3/h，设置3套酸液喷淋吸收系统装置（2用1备），单', '套处理能力为30000m3/h，共设置一根排气筒，排气筒高度为40m，直径1.6m；', '碱性废气污染物产生及排放情况见表2.5-1、2.2-2。', '（3）有机废气治理措施及排放情况', '有机废气G3来源：有机废气主要来源于阵列工艺（Array）、彩膜工艺（CF）、成', '盒工艺（Cel1）中涂胶、显影工序和各工序使用有机溶剂清洗过程，主要成分为丙二醇', '单甲醚乙酸酯、乙酸乙酯等有机物。主要污染物为挥发性有机物。燃烧废气的主要污染', '物为氮氧化物、二氧化硫.', '治理措施：产生有机废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管', '送至屋面，进入有机废气处理系统处理后经排气筒排放。有机废气采用沸石转轮浓缩装', '63'], 'rec_scores': [0.9958834648132324, 0.9589762687683105, 0.942595362663269, 0.9960397481918335, 0.9547103643417358, 0.9933163523674011, 0.9904380440711975, 0.9925205111503601, 0.9974849820137024, 0.9741363525390625, 0.9477963447570801, 0.9285048246383667, 0.9735859632492065, 0.9399193525314331, 0.9587417840957642, 0.9966822862625122, 0.9949835538864136, 0.9960415363311768, 0.997797966003418, 0.9936860203742981, 0.9432777166366577, 0.934686541557312, 0.9925872087478638, 0.973746657371521, 0.9596213102340698, 0.9722825884819031, 0.9934929013252258, 0.9827251434326172, 0.9957069754600525, 0.9906530976295471, 0.999343752861023], 'rec_polys': [array([[127, 112],
+       ...,
+       [126, 156]], shape=(4, 2), dtype=int16), array([[213, 182],
+       ...,
+       [213, 224]], shape=(4, 2), dtype=int16), array([[198, 243],
+       ...,
+       [198, 290]], shape=(4, 2), dtype=int16), array([[134, 296],
+       ...,
+       [135, 347]], shape=(4, 2), dtype=int16), array([[140, 359],
+       ...,
+       [139, 398]], shape=(4, 2), dtype=int16), array([[203, 419],
+       ...,
+       [203, 457]], shape=(4, 2), dtype=int16), array([[142, 471],
+       ...,
+       [141, 511]], shape=(4, 2), dtype=int16), array([[143, 528],
+       ...,
+       [142, 564]], shape=(4, 2), dtype=int16), array([[143, 585],
+       ...,
+       [142, 622]], shape=(4, 2), dtype=int16), array([[146, 646],
+       ...,
+       [146, 677]], shape=(4, 2), dtype=int16), array([[206, 701],
+       ...,
+       [206, 738]], shape=(4, 2), dtype=int16), array([[145, 760],
+       ...,
+       [146, 794]], shape=(4, 2), dtype=int16), array([[205, 816],
+       ...,
+       [205, 853]], shape=(4, 2), dtype=int16), array([[221, 874],
+       ...,
+       [221, 909]], shape=(4, 2), dtype=int16), array([[207, 931],
+       ...,
+       [207, 967]], shape=(4, 2), dtype=int16), array([[ 144,  991],
+       ...,
+       [ 145, 1025]], shape=(4, 2), dtype=int16), array([[ 206, 1048],
+       ...,
+       [ 206, 1083]], shape=(4, 2), dtype=int16), array([[ 143, 1108],
+       ...,
+       [ 144, 1139]], shape=(4, 2), dtype=int16), array([[ 143, 1163],
+       ...,
+       [ 144, 1198]], shape=(4, 2), dtype=int16), array([[ 143, 1222],
+       ...,
+       [ 144, 1252]], shape=(4, 2), dtype=int16), array([[ 202, 1276],
+       ...,
+       [ 202, 1311]], shape=(4, 2), dtype=int16), array([[ 141, 1336],
+       ...,
+       [ 142, 1367]], shape=(4, 2), dtype=int16), array([[ 201, 1393],
+       ...,
+       [ 201, 1423]], shape=(4, 2), dtype=int16), array([[ 215, 1451],
+       ...,
+       [ 215, 1481]], shape=(4, 2), dtype=int16), array([[ 199, 1507],
+       ...,
+       [ 199, 1543]], shape=(4, 2), dtype=int16), array([[ 138, 1563],
+       ...,
+       [ 137, 1601]], shape=(4, 2), dtype=int16), array([[ 139, 1621],
+       ...,
+       [ 138, 1658]], shape=(4, 2), dtype=int16), array([[ 140, 1681],
+       ...,
+       [ 139, 1713]], shape=(4, 2), dtype=int16), array([[ 199, 1740],
+       ...,
+       [ 199, 1776]], shape=(4, 2), dtype=int16), array([[ 139, 1796],
+       ...,
+       [ 138, 1834]], shape=(4, 2), dtype=int16), array([[ 693, 1854],
+       ...,
+       [ 693, 1881]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 126, ...,  165],
+       ...,
+       [ 693, ..., 1881]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1.1.1.4生产废气治理措施及排放情况
+2. (1)酸性废气治理措施及排放情况
+3. 酸性废气G1来源：酸性废气主要来源于阵列工艺（Array）及彩膜工艺（CF)中
+4. 的各种清洗、湿法刻蚀等工序，硫酸、硝酸、盐酸等化学品的挥发，主要污染物为氯化
+5. 氢、氮氧化物、硫酸雾。
+6. 治理措施：产生酸性废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管
+7. 送至屋面，进入酸性废气洗涤塔处理后经排气筒排放。酸性废气洗涤塔采用碱液喷淋，
+8. 该系统对废气中硫酸雾、氮氧化物、氯化氢等的吸收效率在70%~90%。溶液循环使用
+9. 并定期排放，排至废水处理站含氟废水处理系统进行处理。根据项目资料，酸性废气处
+10. 理系统设计方案如下：
+11. 生产厂房酸性废气量为76800m/h，设置4套碱液喷淋吸收系统装置（3用1备），单
+12. 套处理能力为30000m/h，共设置一根排气筒，排气筒高度为40m，直径1.4m:
+13. 酸性废气污染物产生及排放情况见表2.5-1、2.2-2。
+14. （2)碱性废气治理措施及排放情况
+15. 碱性废气G2来源：碱性废气主要来源于阵列工艺（Array）及彩膜工艺（CF）中
+16. 掩膜光刻工序中的显影过程，主要污染物为氨。
+17. 治理措施：产生碱性废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管
+18. 送至屋面，进入碱性废气洗涤塔处理后经排气筒排放。碱性废气洗涤塔采用酸液喷淋，
+19. 该系统对碱性废气中氨的吸收效率为90%。溶液循环使用并定期排放，排至废水处理站
+20. 含氟废水处理系统进行处理。根据项目资料，碱性废气处理系统设计方案如下：
+21. 生产厂房碱性废气量为51600m3/h，设置3套酸液喷淋吸收系统装置（2用1备），单
+22. 套处理能力为30000m3/h，共设置一根排气筒，排气筒高度为40m，直径1.6m；
+23. 碱性废气污染物产生及排放情况见表2.5-1、2.2-2。
+24. （3）有机废气治理措施及排放情况
+25. 有机废气G3来源：有机废气主要来源于阵列工艺（Array）、彩膜工艺（CF）、成
+26. 盒工艺（Cel1）中涂胶、显影工序和各工序使用有机溶剂清洗过程，主要成分为丙二醇
+27. 单甲醚乙酸酯、乙酸乙酯等有机物。主要污染物为挥发性有机物。燃烧废气的主要污染
+28. 物为氮氧化物、二氧化硫.
+29. 治理措施：产生有机废气的工艺设备均设置密闭收集罩/管，通过支管汇集到总管
+30. 送至屋面，进入有机废气处理系统处理后经排气筒排放。有机废气采用沸石转轮浓缩装
+31. 63

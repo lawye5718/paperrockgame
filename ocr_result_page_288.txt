@@ -1,0 +1,140 @@
+OCR结果 - 第 288 页
+==================================================
+处理的图像: temp_page_287_processed.png
+原始PDF页面: 288
+
+详细结果:
+[{'input_path': 'temp_page_287_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1422, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1422, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1422, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[1958,   20],
+       ...,
+       [1958,   33]], shape=(4, 2), dtype=int16), array([[1190,  165],
+       ...,
+       [1190,  213]], shape=(4, 2), dtype=int16), array([[ 13, 232],
+       ...,
+       [ 13, 252]], shape=(4, 2), dtype=int16), array([[577, 233],
+       ...,
+       [570, 244]], shape=(4, 2), dtype=int16), array([[955, 231],
+       ...,
+       [955, 271]], shape=(4, 2), dtype=int16), array([[984, 241],
+       ...,
+       [984, 277]], shape=(4, 2), dtype=int16), array([[1303,  295],
+       ...,
+       [1303,  303]], shape=(4, 2), dtype=int16), array([[1732,  633],
+       ...,
+       [1739,  640]], shape=(4, 2), dtype=int16), array([[1278,  789],
+       ...,
+       [1263,  804]], shape=(4, 2), dtype=int16), array([[162, 866],
+       ...,
+       [162, 885]], shape=(4, 2), dtype=int16), array([[ 263,  996],
+       ...,
+       [ 263, 1047]], shape=(4, 2), dtype=int16), array([[1560, 1075],
+       ...,
+       [1560, 1111]], shape=(4, 2), dtype=int16), array([[1806, 1155],
+       ...,
+       [1805, 1195]], shape=(4, 2), dtype=int16), array([[1745, 1196],
+       ...,
+       [1744, 1229]], shape=(4, 2), dtype=int16), array([[1766, 1244],
+       ...,
+       [1766, 1279]], shape=(4, 2), dtype=int16), array([[1729, 1286],
+       ...,
+       [1727, 1314]], shape=(4, 2), dtype=int16), array([[1722, 1324],
+       ...,
+       [1722, 1353]], shape=(4, 2), dtype=int16), array([[1772, 1357],
+       ...,
+       [1772, 1372]], shape=(4, 2), dtype=int16), array([[1853, 1351],
+       ...,
+       [1851, 1377]], shape=(4, 2), dtype=int16), array([[1925, 1358],
+       ...,
+       [1925, 1377]], shape=(4, 2), dtype=int16), array([[ 840, 1375],
+       ...,
+       [ 839, 1414]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['H', '两边村', '1', '', '8', '挖银墩村', '1', 'L', '5k', '图田', '金鼓江', '金窝水库', '内门', '', '', '', '例', '0', '500', '1000', '图3点分布图'], 'rec_scores': [0.310737282037735, 0.5896316170692444, 0.15837804973125458, 0.0, 0.8600642085075378, 0.9362998008728027, 0.3407977223396301, 0.18434922397136688, 0.8392524123191833, 0.27417269349098206, 0.993769109249115, 0.7989049553871155, 0.2535513937473297, 0.0, 0.0, 0.0, 0.23313786089420319, 0.6724247932434082, 0.7355799674987793, 0.8249379992485046, 0.7865328192710876], 'rec_polys': [array([[1958,   20],
+       ...,
+       [1958,   33]], shape=(4, 2), dtype=int16), array([[1190,  165],
+       ...,
+       [1190,  213]], shape=(4, 2), dtype=int16), array([[ 13, 232],
+       ...,
+       [ 13, 252]], shape=(4, 2), dtype=int16), array([[577, 233],
+       ...,
+       [570, 244]], shape=(4, 2), dtype=int16), array([[955, 231],
+       ...,
+       [955, 271]], shape=(4, 2), dtype=int16), array([[984, 241],
+       ...,
+       [984, 277]], shape=(4, 2), dtype=int16), array([[1303,  295],
+       ...,
+       [1303,  303]], shape=(4, 2), dtype=int16), array([[1732,  633],
+       ...,
+       [1739,  640]], shape=(4, 2), dtype=int16), array([[1278,  789],
+       ...,
+       [1263,  804]], shape=(4, 2), dtype=int16), array([[162, 866],
+       ...,
+       [162, 885]], shape=(4, 2), dtype=int16), array([[ 263,  996],
+       ...,
+       [ 263, 1047]], shape=(4, 2), dtype=int16), array([[1560, 1075],
+       ...,
+       [1560, 1111]], shape=(4, 2), dtype=int16), array([[1806, 1155],
+       ...,
+       [1805, 1195]], shape=(4, 2), dtype=int16), array([[1745, 1196],
+       ...,
+       [1744, 1229]], shape=(4, 2), dtype=int16), array([[1766, 1244],
+       ...,
+       [1766, 1279]], shape=(4, 2), dtype=int16), array([[1729, 1286],
+       ...,
+       [1727, 1314]], shape=(4, 2), dtype=int16), array([[1722, 1324],
+       ...,
+       [1722, 1353]], shape=(4, 2), dtype=int16), array([[1772, 1357],
+       ...,
+       [1772, 1372]], shape=(4, 2), dtype=int16), array([[1853, 1351],
+       ...,
+       [1851, 1377]], shape=(4, 2), dtype=int16), array([[1925, 1358],
+       ...,
+       [1925, 1377]], shape=(4, 2), dtype=int16), array([[ 840, 1375],
+       ...,
+       [ 839, 1414]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0], 'rec_boxes': array([[1958, ...,   33],
+       ...,
+       [ 839, ..., 1422]], shape=(21, 4), dtype=int16)}]
+
+解析后的文本:
+1. H
+2. 两边村
+3. 1
+4. 
+5. 8
+6. 挖银墩村
+7. 1
+8. L
+9. 5k
+10. 图田
+11. 金鼓江
+12. 金窝水库
+13. 内门
+14. 
+15. 
+16. 
+17. 例
+18. 0
+19. 500
+20. 1000
+21. 图3点分布图

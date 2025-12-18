@@ -1,0 +1,175 @@
+OCR结果 - 第 170 页
+==================================================
+处理的图像: temp_page_169_processed.png
+原始PDF页面: 170
+
+详细结果:
+[{'input_path': 'temp_page_169_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[200, 115],
+       ...,
+       [199, 148]], shape=(4, 2), dtype=int16), array([[202, 174],
+       ...,
+       [201, 208]], shape=(4, 2), dtype=int16), array([[201, 230],
+       ...,
+       [200, 268]], shape=(4, 2), dtype=int16), array([[121, 283],
+       ...,
+       [120, 317]], shape=(4, 2), dtype=int16), array([[187, 351],
+       ...,
+       [187, 388]], shape=(4, 2), dtype=int16), array([[120, 405],
+       ...,
+       [119, 445]], shape=(4, 2), dtype=int16), array([[120, 464],
+       ...,
+       [118, 504]], shape=(4, 2), dtype=int16), array([[183, 522],
+       ...,
+       [182, 562]], shape=(4, 2), dtype=int16), array([[117, 582],
+       ...,
+       [116, 621]], shape=(4, 2), dtype=int16), array([[119, 646],
+       ...,
+       [118, 677]], shape=(4, 2), dtype=int16), array([[730, 731],
+       ...,
+       [729, 773]], shape=(4, 2), dtype=int16), array([[412, 841],
+       ...,
+       [411, 875]], shape=(4, 2), dtype=int16), array([[493, 844],
+       ...,
+       [492, 876]], shape=(4, 2), dtype=int16), array([[835, 847],
+       ...,
+       [833, 889]], shape=(4, 2), dtype=int16), array([[ 866, 1145],
+       ...,
+       [ 865, 1180]], shape=(4, 2), dtype=int16), array([[ 518, 1266],
+       ...,
+       [ 518, 1297]], shape=(4, 2), dtype=int16), array([[ 657, 1266],
+       ...,
+       [ 656, 1296]], shape=(4, 2), dtype=int16), array([[ 169, 1315],
+       ...,
+       [ 169, 1346]], shape=(4, 2), dtype=int16), array([[ 182, 1376],
+       ...,
+       [ 182, 1406]], shape=(4, 2), dtype=int16), array([[ 181, 1434],
+       ...,
+       [ 181, 1465]], shape=(4, 2), dtype=int16), array([[ 104, 1488],
+       ...,
+       [ 104, 1519]], shape=(4, 2), dtype=int16), array([[ 166, 1545],
+       ...,
+       [ 166, 1576]], shape=(4, 2), dtype=int16), array([[ 104, 1600],
+       ...,
+       [ 104, 1630]], shape=(4, 2), dtype=int16), array([[ 105, 1655],
+       ...,
+       [ 105, 1685]], shape=(4, 2), dtype=int16), array([[ 171, 1714],
+       ...,
+       [ 171, 1744]], shape=(4, 2), dtype=int16), array([[ 109, 1768],
+       ...,
+       [ 108, 1799]], shape=(4, 2), dtype=int16), array([[ 182, 1829],
+       ...,
+       [ 182, 1859]], shape=(4, 2), dtype=int16), array([[ 672, 1881],
+       ...,
+       [ 672, 1907]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['(9)光刻胶涂覆和曝光设备完成对镀膜工程上图形的制作；', '(10)刻蚀1程去除多余的镀膜部分，保留完整的图形；', '(11)同时在主要工序后进行相应的检查工艺，以保证产线的正常运营。', '1.1.1.2彩膜工程（CF)', '彩色滤光片Color Filter（简称CF)是TFT-LCD的重要组成部分，CF的质量直接影', '啊TFT-LCD性能。彩膜L艺就是在玻璃基板制作出与像素点对应的红、绿、蓝曝光层', '的过程。', '彩色滤光片(Color Filter)基本结构是由玻璃基板(Glass Substrate)、黑色矩阵(Black', 'Matrix）、彩色层（Color Layer）、保护层（OverCoat）及ITO导电膜所组成。彩色滤', '光片表面结构示意见图2.1-5。', '间隔 (4-5μm)', '光阻层', '(1.1-12μm)', 'ITO膜 (-0.15 μm)', '黑色矩阵层(~02 μm)', '图2.1-5', '彩色滤光片结构示意图', '以下对各层的功能分别介绍如下：', '(1)玻璃基板：采用无碱玻璃，是整个彩色滤光片加L的载体。', '(2)BM层（BlackMatrix:)：为了提高LCD的对比度，防止IFT元件产生光', '漏电流，遮掩LCD显示时的漏光等不良现象。', 'BM层使用的材质分为金属（如铬膜Cr、镍膜Ni等)和非金属（般为黑色树脂', 'Resin）两大类，前普遍使用的是金属Cr/化铬CrO。但山于其毒性较大，加1.T.艺', '较复杂，因此，日前越来越多的使用环保性能相对较好的非金属黑色树脂。', '本项目BM层使用环保性能相对较好的非金属黑色树脂，从而杜绝了使用铬或镍带', '来的重金属污染问题。', '(3)RGB层（红色/绿色/蓝色层）：L.CD之所以会有颜色，是因为背光光源的', '30'], 'rec_scores': [0.948296070098877, 0.9369927644729614, 0.9768131375312805, 0.9565122723579407, 0.950788676738739, 0.9460318684577942, 0.9967355132102966, 0.9269732236862183, 0.9583854675292969, 0.9839744567871094, 0.840112566947937, 0.9979000091552734, 0.8995454907417297, 0.9038574695587158, 0.9047975540161133, 0.980135977268219, 0.9966720342636108, 0.9767690896987915, 0.9483024477958679, 0.8790910243988037, 0.9893098473548889, 0.948052167892456, 0.861166775226593, 0.9770501852035522, 0.9490763545036316, 0.9844862818717957, 0.9155731201171875, 0.990801215171814], 'rec_polys': [array([[200, 115],
+       ...,
+       [199, 148]], shape=(4, 2), dtype=int16), array([[202, 174],
+       ...,
+       [201, 208]], shape=(4, 2), dtype=int16), array([[201, 230],
+       ...,
+       [200, 268]], shape=(4, 2), dtype=int16), array([[121, 283],
+       ...,
+       [120, 317]], shape=(4, 2), dtype=int16), array([[187, 351],
+       ...,
+       [187, 388]], shape=(4, 2), dtype=int16), array([[120, 405],
+       ...,
+       [119, 445]], shape=(4, 2), dtype=int16), array([[120, 464],
+       ...,
+       [118, 504]], shape=(4, 2), dtype=int16), array([[183, 522],
+       ...,
+       [182, 562]], shape=(4, 2), dtype=int16), array([[117, 582],
+       ...,
+       [116, 621]], shape=(4, 2), dtype=int16), array([[119, 646],
+       ...,
+       [118, 677]], shape=(4, 2), dtype=int16), array([[730, 731],
+       ...,
+       [729, 773]], shape=(4, 2), dtype=int16), array([[412, 841],
+       ...,
+       [411, 875]], shape=(4, 2), dtype=int16), array([[493, 844],
+       ...,
+       [492, 876]], shape=(4, 2), dtype=int16), array([[835, 847],
+       ...,
+       [833, 889]], shape=(4, 2), dtype=int16), array([[ 866, 1145],
+       ...,
+       [ 865, 1180]], shape=(4, 2), dtype=int16), array([[ 518, 1266],
+       ...,
+       [ 518, 1297]], shape=(4, 2), dtype=int16), array([[ 657, 1266],
+       ...,
+       [ 656, 1296]], shape=(4, 2), dtype=int16), array([[ 169, 1315],
+       ...,
+       [ 169, 1346]], shape=(4, 2), dtype=int16), array([[ 182, 1376],
+       ...,
+       [ 182, 1406]], shape=(4, 2), dtype=int16), array([[ 181, 1434],
+       ...,
+       [ 181, 1465]], shape=(4, 2), dtype=int16), array([[ 104, 1488],
+       ...,
+       [ 104, 1519]], shape=(4, 2), dtype=int16), array([[ 166, 1545],
+       ...,
+       [ 166, 1576]], shape=(4, 2), dtype=int16), array([[ 104, 1600],
+       ...,
+       [ 104, 1630]], shape=(4, 2), dtype=int16), array([[ 105, 1655],
+       ...,
+       [ 105, 1685]], shape=(4, 2), dtype=int16), array([[ 171, 1714],
+       ...,
+       [ 171, 1744]], shape=(4, 2), dtype=int16), array([[ 109, 1768],
+       ...,
+       [ 108, 1799]], shape=(4, 2), dtype=int16), array([[ 182, 1829],
+       ...,
+       [ 182, 1859]], shape=(4, 2), dtype=int16), array([[ 672, 1881],
+       ...,
+       [ 672, 1907]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 199, ...,  158],
+       ...,
+       [ 672, ..., 1907]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. (9)光刻胶涂覆和曝光设备完成对镀膜工程上图形的制作；
+2. (10)刻蚀1程去除多余的镀膜部分，保留完整的图形；
+3. (11)同时在主要工序后进行相应的检查工艺，以保证产线的正常运营。
+4. 1.1.1.2彩膜工程（CF)
+5. 彩色滤光片Color Filter（简称CF)是TFT-LCD的重要组成部分，CF的质量直接影
+6. 啊TFT-LCD性能。彩膜L艺就是在玻璃基板制作出与像素点对应的红、绿、蓝曝光层
+7. 的过程。
+8. 彩色滤光片(Color Filter)基本结构是由玻璃基板(Glass Substrate)、黑色矩阵(Black
+9. Matrix）、彩色层（Color Layer）、保护层（OverCoat）及ITO导电膜所组成。彩色滤
+10. 光片表面结构示意见图2.1-5。
+11. 间隔 (4-5μm)
+12. 光阻层
+13. (1.1-12μm)
+14. ITO膜 (-0.15 μm)
+15. 黑色矩阵层(~02 μm)
+16. 图2.1-5
+17. 彩色滤光片结构示意图
+18. 以下对各层的功能分别介绍如下：
+19. (1)玻璃基板：采用无碱玻璃，是整个彩色滤光片加L的载体。
+20. (2)BM层（BlackMatrix:)：为了提高LCD的对比度，防止IFT元件产生光
+21. 漏电流，遮掩LCD显示时的漏光等不良现象。
+22. BM层使用的材质分为金属（如铬膜Cr、镍膜Ni等)和非金属（般为黑色树脂
+23. Resin）两大类，前普遍使用的是金属Cr/化铬CrO。但山于其毒性较大，加1.T.艺
+24. 较复杂，因此，日前越来越多的使用环保性能相对较好的非金属黑色树脂。
+25. 本项目BM层使用环保性能相对较好的非金属黑色树脂，从而杜绝了使用铬或镍带
+26. 来的重金属污染问题。
+27. (3)RGB层（红色/绿色/蓝色层）：L.CD之所以会有颜色，是因为背光光源的
+28. 30

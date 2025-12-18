@@ -1,0 +1,120 @@
+OCR结果 - 第 5 页
+==================================================
+处理的图像: temp_page_4_processed.png
+原始PDF页面: 5
+
+详细结果:
+[{'input_path': 'temp_page_4_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[207, 199],
+       ...,
+       [207, 247]], shape=(4, 2), dtype=int16), array([[112, 267],
+       ...,
+       [112, 317]], shape=(4, 2), dtype=int16), array([[205, 340],
+       ...,
+       [205, 391]], shape=(4, 2), dtype=int16), array([[  1, 382],
+       ...,
+       [  1, 395]], shape=(4, 2), dtype=int16), array([[110, 406],
+       ...,
+       [110, 456]], shape=(4, 2), dtype=int16), array([[110, 476],
+       ...,
+       [110, 524]], shape=(4, 2), dtype=int16), array([[109, 544],
+       ...,
+       [109, 591]], shape=(4, 2), dtype=int16), array([[111, 616],
+       ...,
+       [111, 661]], shape=(4, 2), dtype=int16), array([[107, 682],
+       ...,
+       [107, 733]], shape=(4, 2), dtype=int16), array([[106, 756],
+       ...,
+       [106, 806]], shape=(4, 2), dtype=int16), array([[106, 827],
+       ...,
+       [106, 875]], shape=(4, 2), dtype=int16), array([[104, 901],
+       ...,
+       [104, 948]], shape=(4, 2), dtype=int16), array([[ 192,  972],
+       ...,
+       [ 192, 1020]], shape=(4, 2), dtype=int16), array([[ 100, 1039],
+       ...,
+       [ 100, 1093]], shape=(4, 2), dtype=int16), array([[  96, 1106],
+       ...,
+       [  96, 1165]], shape=(4, 2), dtype=int16), array([[ 704, 1293],
+       ...,
+       [ 715, 1410]], shape=(4, 2), dtype=int16), array([[ 836, 1371],
+       ...,
+       [ 837, 1440]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['7．因作证人身安全面临危险的，可以向监察机关、公', '安机关请求对本人或者其近亲属予以保护。', '8.现场扣押、暂扣的物品或者作为实物证据保管的现', '。', '金，应当由两名以上工作人员办理扣押、暂扣并全程录音录', '像，同时由监察机关工作人员出具财物清单。对于查封、扣', '押（暂扣、封存）的现金，不作为实物证据保管的，一律由', '我委指定专门的银行账户保管。根据有关规定，对于被查封、', '扣押（暂扣、封存）的财物，经批准许可出售或者自行变卖', '的，所出售或者变卖的价款将由我委指定专门的银行账户保', '管。我委不指定个人账户接收出售或者变卖相关财物的价款', '及查封、扣押（暂扣、封存）的现金。', '9.对调查人员侵犯上述权利和侮辱人格、虐待、体罚、', '变相体罚等行为或者违规接收、处置涉案财物的，可以向监', '察机关案件监督管理部门反映，联系方式0771-5362930。', '被询问人：可文斌', '2025年5月27日'], 'rec_scores': [0.976634681224823, 0.9983553886413574, 0.9916596412658691, 0.0754811242222786, 0.9973294734954834, 0.9976313710212708, 0.9893420338630676, 0.996798574924469, 0.9930073022842407, 0.9990201592445374, 0.9993799924850464, 0.9902216792106628, 0.9883186221122742, 0.9967222809791565, 0.9792657494544983, 0.8369972705841064, 0.9702398180961609], 'rec_polys': [array([[207, 199],
+       ...,
+       [207, 247]], shape=(4, 2), dtype=int16), array([[112, 267],
+       ...,
+       [112, 317]], shape=(4, 2), dtype=int16), array([[205, 340],
+       ...,
+       [205, 391]], shape=(4, 2), dtype=int16), array([[  1, 382],
+       ...,
+       [  1, 395]], shape=(4, 2), dtype=int16), array([[110, 406],
+       ...,
+       [110, 456]], shape=(4, 2), dtype=int16), array([[110, 476],
+       ...,
+       [110, 524]], shape=(4, 2), dtype=int16), array([[109, 544],
+       ...,
+       [109, 591]], shape=(4, 2), dtype=int16), array([[111, 616],
+       ...,
+       [111, 661]], shape=(4, 2), dtype=int16), array([[107, 682],
+       ...,
+       [107, 733]], shape=(4, 2), dtype=int16), array([[106, 756],
+       ...,
+       [106, 806]], shape=(4, 2), dtype=int16), array([[106, 827],
+       ...,
+       [106, 875]], shape=(4, 2), dtype=int16), array([[104, 901],
+       ...,
+       [104, 948]], shape=(4, 2), dtype=int16), array([[ 192,  972],
+       ...,
+       [ 192, 1020]], shape=(4, 2), dtype=int16), array([[ 100, 1039],
+       ...,
+       [ 100, 1093]], shape=(4, 2), dtype=int16), array([[  96, 1106],
+       ...,
+       [  96, 1165]], shape=(4, 2), dtype=int16), array([[ 704, 1293],
+       ...,
+       [ 715, 1410]], shape=(4, 2), dtype=int16), array([[ 836, 1371],
+       ...,
+       [ 837, 1440]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 207, ...,  247],
+       ...,
+       [ 836, ..., 1440]], shape=(17, 4), dtype=int16)}]
+
+解析后的文本:
+1. 7．因作证人身安全面临危险的，可以向监察机关、公
+2. 安机关请求对本人或者其近亲属予以保护。
+3. 8.现场扣押、暂扣的物品或者作为实物证据保管的现
+4. 。
+5. 金，应当由两名以上工作人员办理扣押、暂扣并全程录音录
+6. 像，同时由监察机关工作人员出具财物清单。对于查封、扣
+7. 押（暂扣、封存）的现金，不作为实物证据保管的，一律由
+8. 我委指定专门的银行账户保管。根据有关规定，对于被查封、
+9. 扣押（暂扣、封存）的财物，经批准许可出售或者自行变卖
+10. 的，所出售或者变卖的价款将由我委指定专门的银行账户保
+11. 管。我委不指定个人账户接收出售或者变卖相关财物的价款
+12. 及查封、扣押（暂扣、封存）的现金。
+13. 9.对调查人员侵犯上述权利和侮辱人格、虐待、体罚、
+14. 变相体罚等行为或者违规接收、处置涉案财物的，可以向监
+15. 察机关案件监督管理部门反映，联系方式0771-5362930。
+16. 被询问人：可文斌
+17. 2025年5月27日

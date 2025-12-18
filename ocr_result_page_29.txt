@@ -1,0 +1,205 @@
+OCR结果 - 第 29 页
+==================================================
+处理的图像: temp_page_28_processed.png
+原始PDF页面: 29
+
+详细结果:
+[{'input_path': 'temp_page_28_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[ 6,  1],
+       ...,
+       [ 0, 52]], shape=(4, 2), dtype=int16), array([[1338,    3],
+       ...,
+       [1338,  120]], shape=(4, 2), dtype=int16), array([[263, 163],
+       ...,
+       [262, 207]], shape=(4, 2), dtype=int16), array([[175, 243],
+       ...,
+       [174, 288]], shape=(4, 2), dtype=int16), array([[1269,  286],
+       ...,
+       [1269,  343]], shape=(4, 2), dtype=int16), array([[173, 324],
+       ...,
+       [172, 369]], shape=(4, 2), dtype=int16), array([[171, 405],
+       ...,
+       [170, 448]], shape=(4, 2), dtype=int16), array([[913, 427],
+       ...,
+       [909, 496]], shape=(4, 2), dtype=int16), array([[256, 484],
+       ...,
+       [255, 529]], shape=(4, 2), dtype=int16), array([[993, 507],
+       ...,
+       [965, 552]], shape=(4, 2), dtype=int16), array([[168, 560],
+       ...,
+       [167, 600]], shape=(4, 2), dtype=int16), array([[248, 632],
+       ...,
+       [247, 690]], shape=(4, 2), dtype=int16), array([[167, 719],
+       ...,
+       [166, 760]], shape=(4, 2), dtype=int16), array([[252, 803],
+       ...,
+       [252, 846]], shape=(4, 2), dtype=int16), array([[614, 846],
+       ...,
+       [614, 878]], shape=(4, 2), dtype=int16), array([[169, 886],
+       ...,
+       [168, 926]], shape=(4, 2), dtype=int16), array([[ 165,  961],
+       ...,
+       [ 165, 1012]], shape=(4, 2), dtype=int16), array([[ 747, 1008],
+       ...,
+       [ 748, 1039]], shape=(4, 2), dtype=int16), array([[ 253, 1048],
+       ...,
+       [ 253, 1088]], shape=(4, 2), dtype=int16), array([[ 167, 1124],
+       ...,
+       [ 168, 1173]], shape=(4, 2), dtype=int16), array([[ 265, 1149],
+       ...,
+       [ 235, 1180]], shape=(4, 2), dtype=int16), array([[ 168, 1205],
+       ...,
+       [ 168, 1251]], shape=(4, 2), dtype=int16), array([[ 252, 1285],
+       ...,
+       [ 252, 1330]], shape=(4, 2), dtype=int16), array([[ 253, 1363],
+       ...,
+       [ 253, 1401]], shape=(4, 2), dtype=int16), array([[ 253, 1439],
+       ...,
+       [ 253, 1479]], shape=(4, 2), dtype=int16), array([[  36, 1475],
+       ...,
+       [  36, 1494]], shape=(4, 2), dtype=int16), array([[ 173, 1517],
+       ...,
+       [ 172, 1555]], shape=(4, 2), dtype=int16), array([[ 254, 1592],
+       ...,
+       [ 254, 1629]], shape=(4, 2), dtype=int16), array([[ 221, 1631],
+       ...,
+       [ 221, 1640]], shape=(4, 2), dtype=int16), array([[ 157, 1658],
+       ...,
+       [ 156, 1710]], shape=(4, 2), dtype=int16), array([[ 240, 1743],
+       ...,
+       [ 240, 1781]], shape=(4, 2), dtype=int16), array([[1077, 1829],
+       ...,
+       [1030, 1887]], shape=(4, 2), dtype=int16), array([[ 682, 1911],
+       ...,
+       [ 682, 1933]], shape=(4, 2), dtype=int16), array([[ 748, 1924],
+       ...,
+       [ 756, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['V', '26', '（3)甲方签署及履行本合同，现在和将来均不会违反其签署的', '或对其本身或其资产具有约束力的任何文件，或违反其成立的批准文', '公', '件、内部规章制度，或违反任何对甲方有约束力的法律、法规、行政', '安排、政府命令、司法裁决或与第三人的合同。', '', '(4)甲方保证其提供给丙方的全部资料是真实、完整和准确的，', '', '甲方未遗漏和隐瞒任何重要的事实。', '(5)甲方未涉及任何破产、清算、解散、合并、分立或类似法', '律程序，亦未发生任何可能导致涉及该等法律程序的事件。', '(6)甲方未涉入任何可能对甲方履行本合同产生不利影响的诉', '2', '讼、仲裁、行政程序、司法或行政机关的执行程序，亦不存在任何可', '能导致甲方涉入该等程序的纠纷或潜在纠纷.', '小', '(7)甲方的任何重要资产均未涉及强制执行、财产保全、查封、', '扣押、留置或其他限制措施，亦未发生任何可能导致涉及该等措施的', 'OILIP!', '事件.', '(8)甲方不存在任何未向乙方披露的重大债务或或有负债。', '（9）甲方保证按照本合同约定的用途使用贷款，不挪作他用', '（10）截至提款日止，甲方经营状况（包括但不限于财务状况）', '', '与签署本合同时基本相同，未发生任何重大不利变化.', '(11）至提款日甲方在本合同所作出的任何陈述与保证均保持真', '.', '实、准确、有效。', '第14.2条若甲方为自然人的：', '标银', '8', '何武'], 'rec_scores': [0.08698004484176636, 0.9580681920051575, 0.9689304232597351, 0.9948195219039917, 0.6836925148963928, 0.9980359673500061, 0.9748889207839966, 0.0, 0.978610098361969, 0.0, 0.9661507606506348, 0.9848915934562683, 0.9930782914161682, 0.9908326864242554, 0.27912500500679016, 0.9918823838233948, 0.9697476625442505, 0.14797227084636688, 0.9791871905326843, 0.9950964450836182, 0.5921124815940857, 0.8789039254188538, 0.981990396976471, 0.9640795588493347, 0.9867383241653442, 0.0, 0.98515385389328, 0.9696788191795349, 0.13328735530376434, 0.9422137141227722, 0.9848231673240662, 0.6037615537643433, 0.9987216591835022, 0.6485778093338013], 'rec_polys': [array([[ 6,  1],
+       ...,
+       [ 0, 52]], shape=(4, 2), dtype=int16), array([[1338,    3],
+       ...,
+       [1338,  120]], shape=(4, 2), dtype=int16), array([[263, 163],
+       ...,
+       [262, 207]], shape=(4, 2), dtype=int16), array([[175, 243],
+       ...,
+       [174, 288]], shape=(4, 2), dtype=int16), array([[1269,  286],
+       ...,
+       [1269,  343]], shape=(4, 2), dtype=int16), array([[173, 324],
+       ...,
+       [172, 369]], shape=(4, 2), dtype=int16), array([[171, 405],
+       ...,
+       [170, 448]], shape=(4, 2), dtype=int16), array([[913, 427],
+       ...,
+       [909, 496]], shape=(4, 2), dtype=int16), array([[256, 484],
+       ...,
+       [255, 529]], shape=(4, 2), dtype=int16), array([[993, 507],
+       ...,
+       [965, 552]], shape=(4, 2), dtype=int16), array([[168, 560],
+       ...,
+       [167, 600]], shape=(4, 2), dtype=int16), array([[248, 632],
+       ...,
+       [247, 690]], shape=(4, 2), dtype=int16), array([[167, 719],
+       ...,
+       [166, 760]], shape=(4, 2), dtype=int16), array([[252, 803],
+       ...,
+       [252, 846]], shape=(4, 2), dtype=int16), array([[614, 846],
+       ...,
+       [614, 878]], shape=(4, 2), dtype=int16), array([[169, 886],
+       ...,
+       [168, 926]], shape=(4, 2), dtype=int16), array([[ 165,  961],
+       ...,
+       [ 165, 1012]], shape=(4, 2), dtype=int16), array([[ 747, 1008],
+       ...,
+       [ 748, 1039]], shape=(4, 2), dtype=int16), array([[ 253, 1048],
+       ...,
+       [ 253, 1088]], shape=(4, 2), dtype=int16), array([[ 167, 1124],
+       ...,
+       [ 168, 1173]], shape=(4, 2), dtype=int16), array([[ 265, 1149],
+       ...,
+       [ 235, 1180]], shape=(4, 2), dtype=int16), array([[ 168, 1205],
+       ...,
+       [ 168, 1251]], shape=(4, 2), dtype=int16), array([[ 252, 1285],
+       ...,
+       [ 252, 1330]], shape=(4, 2), dtype=int16), array([[ 253, 1363],
+       ...,
+       [ 253, 1401]], shape=(4, 2), dtype=int16), array([[ 253, 1439],
+       ...,
+       [ 253, 1479]], shape=(4, 2), dtype=int16), array([[  36, 1475],
+       ...,
+       [  36, 1494]], shape=(4, 2), dtype=int16), array([[ 173, 1517],
+       ...,
+       [ 172, 1555]], shape=(4, 2), dtype=int16), array([[ 254, 1592],
+       ...,
+       [ 254, 1629]], shape=(4, 2), dtype=int16), array([[ 221, 1631],
+       ...,
+       [ 221, 1640]], shape=(4, 2), dtype=int16), array([[ 157, 1658],
+       ...,
+       [ 156, 1710]], shape=(4, 2), dtype=int16), array([[ 240, 1743],
+       ...,
+       [ 240, 1781]], shape=(4, 2), dtype=int16), array([[1077, 1829],
+       ...,
+       [1030, 1887]], shape=(4, 2), dtype=int16), array([[ 682, 1911],
+       ...,
+       [ 682, 1933]], shape=(4, 2), dtype=int16), array([[ 748, 1924],
+       ...,
+       [ 756, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[   0, ...,   63],
+       ...,
+       [ 748, ..., 1999]], shape=(34, 4), dtype=int16)}]
+
+解析后的文本:
+1. V
+2. 26
+3. （3)甲方签署及履行本合同，现在和将来均不会违反其签署的
+4. 或对其本身或其资产具有约束力的任何文件，或违反其成立的批准文
+5. 公
+6. 件、内部规章制度，或违反任何对甲方有约束力的法律、法规、行政
+7. 安排、政府命令、司法裁决或与第三人的合同。
+8. 
+9. (4)甲方保证其提供给丙方的全部资料是真实、完整和准确的，
+10. 
+11. 甲方未遗漏和隐瞒任何重要的事实。
+12. (5)甲方未涉及任何破产、清算、解散、合并、分立或类似法
+13. 律程序，亦未发生任何可能导致涉及该等法律程序的事件。
+14. (6)甲方未涉入任何可能对甲方履行本合同产生不利影响的诉
+15. 2
+16. 讼、仲裁、行政程序、司法或行政机关的执行程序，亦不存在任何可
+17. 能导致甲方涉入该等程序的纠纷或潜在纠纷.
+18. 小
+19. (7)甲方的任何重要资产均未涉及强制执行、财产保全、查封、
+20. 扣押、留置或其他限制措施，亦未发生任何可能导致涉及该等措施的
+21. OILIP!
+22. 事件.
+23. (8)甲方不存在任何未向乙方披露的重大债务或或有负债。
+24. （9）甲方保证按照本合同约定的用途使用贷款，不挪作他用
+25. （10）截至提款日止，甲方经营状况（包括但不限于财务状况）
+26. 
+27. 与签署本合同时基本相同，未发生任何重大不利变化.
+28. (11）至提款日甲方在本合同所作出的任何陈述与保证均保持真
+29. .
+30. 实、准确、有效。
+31. 第14.2条若甲方为自然人的：
+32. 标银
+33. 8
+34. 何武

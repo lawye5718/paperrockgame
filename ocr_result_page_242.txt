@@ -1,0 +1,175 @@
+OCR结果 - 第 242 页
+==================================================
+处理的图像: temp_page_241_processed.png
+原始PDF页面: 242
+
+详细结果:
+[{'input_path': 'temp_page_241_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8)}, 'dt_polys': [array([[129, 145],
+       ...,
+       [128, 186]], shape=(4, 2), dtype=int16), array([[200, 215],
+       ...,
+       [200, 255]], shape=(4, 2), dtype=int16), array([[135, 276],
+       ...,
+       [135, 320]], shape=(4, 2), dtype=int16), array([[140, 340],
+       ...,
+       [140, 380]], shape=(4, 2), dtype=int16), array([[140, 399],
+       ...,
+       [140, 436]], shape=(4, 2), dtype=int16), array([[141, 461],
+       ...,
+       [141, 492]], shape=(4, 2), dtype=int16), array([[206, 516],
+       ...,
+       [206, 549]], shape=(4, 2), dtype=int16), array([[145, 574],
+       ...,
+       [144, 605]], shape=(4, 2), dtype=int16), array([[148, 631],
+       ...,
+       [147, 662]], shape=(4, 2), dtype=int16), array([[148, 689],
+       ...,
+       [147, 721]], shape=(4, 2), dtype=int16), array([[147, 747],
+       ...,
+       [146, 781]], shape=(4, 2), dtype=int16), array([[212, 806],
+       ...,
+       [212, 840]], shape=(4, 2), dtype=int16), array([[151, 865],
+       ...,
+       [150, 895]], shape=(4, 2), dtype=int16), array([[153, 921],
+       ...,
+       [152, 952]], shape=(4, 2), dtype=int16), array([[ 152,  981],
+       ...,
+       [ 151, 1009]], shape=(4, 2), dtype=int16), array([[ 214, 1039],
+       ...,
+       [ 214, 1069]], shape=(4, 2), dtype=int16), array([[ 214, 1097],
+       ...,
+       [ 214, 1127]], shape=(4, 2), dtype=int16), array([[ 213, 1152],
+       ...,
+       [ 213, 1185]], shape=(4, 2), dtype=int16), array([[ 151, 1207],
+       ...,
+       [ 150, 1244]], shape=(4, 2), dtype=int16), array([[ 151, 1264],
+       ...,
+       [ 150, 1301]], shape=(4, 2), dtype=int16), array([[ 150, 1324],
+       ...,
+       [ 149, 1360]], shape=(4, 2), dtype=int16), array([[ 149, 1394],
+       ...,
+       [ 148, 1427]], shape=(4, 2), dtype=int16), array([[ 214, 1442],
+       ...,
+       [ 214, 1476]], shape=(4, 2), dtype=int16), array([[ 150, 1496],
+       ...,
+       [ 149, 1533]], shape=(4, 2), dtype=int16), array([[ 149, 1551],
+       ...,
+       [ 148, 1589]], shape=(4, 2), dtype=int16), array([[ 149, 1608],
+       ...,
+       [ 148, 1646]], shape=(4, 2), dtype=int16), array([[ 151, 1667],
+       ...,
+       [ 150, 1698]], shape=(4, 2), dtype=int16), array([[ 673, 1913],
+       ...,
+       [ 673, 1948]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['3.4.1.1.通风机噪声控制', '生产过程所用通风机主要设置为净化生产厂房生产区空调净化、通风系统及', '动力站空调及通风系统。主要用于厂房内空气净化、空调和通风。本项目在设计', '上拟采用风机减振台基础，空调净化排风系统的主排风管设消声器：高噪声设备', '均设专用房，建筑物的墙壁隔声，以降低风机噪声的影响。', '3.4.1.2.生产区通风系统', '生产区厂房排风（废热）和工艺排风。工艺排风分为酸性、碱性、特殊废气、', '有机废气净化系统，风机布置于厂房屋顶，靠近厂区中央。在工程设计上除采用', '风机减振台基础，接头处采用柔性软接头，排风机外壳设隔声罩，以降低风机噪', '声对周围环境的影响。', '3.4.1.3.应急柴油发电机、空压机、冷冻机和真空泵噪声控制', '应急发电机、空压机、水泵、冷冻机和真空泵等动力设备大部分安装在密闭', '的房间内，对噪声较大的设备进行基础减震，管道进出口加柔性软接，采取隔声', '门、隔声窗等措施。', '3.4.1.4.冷却塔噪声控制', '冷却塔设置于厂房屋顶上，采取以下噪声控制措施：', '(1)在冷却塔的进风口和排风口安装消声器，以降低冷却塔风机噪声；', '(2) 冷却塔的淋水噪声仅次于风机噪声，应予以重视。在受水盘水面铺设聚', '胺脂多孔泡沫塑料垫，该塑料是专门用于冷却塔降噪用的材料，它既有一般塑料', '的柔软性，又有多孔漏水的通水性，可减小淋水噪声；一般可降低淋水噪声', '5-7dB(A)。', '3.4.2.噪声控制措施和治理效果分析', '本项目噪声控制措施的关键在于将强噪声源——应急柴油发电机、空压机和', '真空泵等均布置在密闭的厂房内，采取了较严密的降噪措施：对于设置在屋顶的', '冷却塔采取了相应的减振、消声措施；对屋顶的风机进出口加柔性软接头，排风', '机外壳设隔声罩；项目噪声治理抓住了本项目降噪的主体，又未忽视局部，所采', '取的措施应是有效的、合理可行的。', '103'], 'rec_scores': [0.98403000831604, 0.9951252937316895, 0.98933345079422, 0.991483211517334, 0.9973898530006409, 0.9827935695648193, 0.9580482244491577, 0.9967557787895203, 0.9976126551628113, 0.9893744587898254, 0.9883372783660889, 0.9965466856956482, 0.9977565407752991, 0.9940042495727539, 0.9719100594520569, 0.969693660736084, 0.9630674123764038, 0.9717204570770264, 0.9972854852676392, 0.9952282905578613, 0.9654318690299988, 0.9748706817626953, 0.9825384020805359, 0.9940176606178284, 0.9936559200286865, 0.9920988082885742, 0.9804742932319641, 0.9998305439949036], 'rec_polys': [array([[129, 145],
+       ...,
+       [128, 186]], shape=(4, 2), dtype=int16), array([[200, 215],
+       ...,
+       [200, 255]], shape=(4, 2), dtype=int16), array([[135, 276],
+       ...,
+       [135, 320]], shape=(4, 2), dtype=int16), array([[140, 340],
+       ...,
+       [140, 380]], shape=(4, 2), dtype=int16), array([[140, 399],
+       ...,
+       [140, 436]], shape=(4, 2), dtype=int16), array([[141, 461],
+       ...,
+       [141, 492]], shape=(4, 2), dtype=int16), array([[206, 516],
+       ...,
+       [206, 549]], shape=(4, 2), dtype=int16), array([[145, 574],
+       ...,
+       [144, 605]], shape=(4, 2), dtype=int16), array([[148, 631],
+       ...,
+       [147, 662]], shape=(4, 2), dtype=int16), array([[148, 689],
+       ...,
+       [147, 721]], shape=(4, 2), dtype=int16), array([[147, 747],
+       ...,
+       [146, 781]], shape=(4, 2), dtype=int16), array([[212, 806],
+       ...,
+       [212, 840]], shape=(4, 2), dtype=int16), array([[151, 865],
+       ...,
+       [150, 895]], shape=(4, 2), dtype=int16), array([[153, 921],
+       ...,
+       [152, 952]], shape=(4, 2), dtype=int16), array([[ 152,  981],
+       ...,
+       [ 151, 1009]], shape=(4, 2), dtype=int16), array([[ 214, 1039],
+       ...,
+       [ 214, 1069]], shape=(4, 2), dtype=int16), array([[ 214, 1097],
+       ...,
+       [ 214, 1127]], shape=(4, 2), dtype=int16), array([[ 213, 1152],
+       ...,
+       [ 213, 1185]], shape=(4, 2), dtype=int16), array([[ 151, 1207],
+       ...,
+       [ 150, 1244]], shape=(4, 2), dtype=int16), array([[ 151, 1264],
+       ...,
+       [ 150, 1301]], shape=(4, 2), dtype=int16), array([[ 150, 1324],
+       ...,
+       [ 149, 1360]], shape=(4, 2), dtype=int16), array([[ 149, 1394],
+       ...,
+       [ 148, 1427]], shape=(4, 2), dtype=int16), array([[ 214, 1442],
+       ...,
+       [ 214, 1476]], shape=(4, 2), dtype=int16), array([[ 150, 1496],
+       ...,
+       [ 149, 1533]], shape=(4, 2), dtype=int16), array([[ 149, 1551],
+       ...,
+       [ 148, 1589]], shape=(4, 2), dtype=int16), array([[ 149, 1608],
+       ...,
+       [ 148, 1646]], shape=(4, 2), dtype=int16), array([[ 151, 1667],
+       ...,
+       [ 150, 1698]], shape=(4, 2), dtype=int16), array([[ 673, 1913],
+       ...,
+       [ 673, 1948]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 128, ...,  193],
+       ...,
+       [ 673, ..., 1948]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. 3.4.1.1.通风机噪声控制
+2. 生产过程所用通风机主要设置为净化生产厂房生产区空调净化、通风系统及
+3. 动力站空调及通风系统。主要用于厂房内空气净化、空调和通风。本项目在设计
+4. 上拟采用风机减振台基础，空调净化排风系统的主排风管设消声器：高噪声设备
+5. 均设专用房，建筑物的墙壁隔声，以降低风机噪声的影响。
+6. 3.4.1.2.生产区通风系统
+7. 生产区厂房排风（废热）和工艺排风。工艺排风分为酸性、碱性、特殊废气、
+8. 有机废气净化系统，风机布置于厂房屋顶，靠近厂区中央。在工程设计上除采用
+9. 风机减振台基础，接头处采用柔性软接头，排风机外壳设隔声罩，以降低风机噪
+10. 声对周围环境的影响。
+11. 3.4.1.3.应急柴油发电机、空压机、冷冻机和真空泵噪声控制
+12. 应急发电机、空压机、水泵、冷冻机和真空泵等动力设备大部分安装在密闭
+13. 的房间内，对噪声较大的设备进行基础减震，管道进出口加柔性软接，采取隔声
+14. 门、隔声窗等措施。
+15. 3.4.1.4.冷却塔噪声控制
+16. 冷却塔设置于厂房屋顶上，采取以下噪声控制措施：
+17. (1)在冷却塔的进风口和排风口安装消声器，以降低冷却塔风机噪声；
+18. (2) 冷却塔的淋水噪声仅次于风机噪声，应予以重视。在受水盘水面铺设聚
+19. 胺脂多孔泡沫塑料垫，该塑料是专门用于冷却塔降噪用的材料，它既有一般塑料
+20. 的柔软性，又有多孔漏水的通水性，可减小淋水噪声；一般可降低淋水噪声
+21. 5-7dB(A)。
+22. 3.4.2.噪声控制措施和治理效果分析
+23. 本项目噪声控制措施的关键在于将强噪声源——应急柴油发电机、空压机和
+24. 真空泵等均布置在密闭的厂房内，采取了较严密的降噪措施：对于设置在屋顶的
+25. 冷却塔采取了相应的减振、消声措施；对屋顶的风机进出口加柔性软接头，排风
+26. 机外壳设隔声罩；项目噪声治理抓住了本项目降噪的主体，又未忽视局部，所采
+27. 取的措施应是有效的、合理可行的。
+28. 103

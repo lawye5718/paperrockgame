@@ -1,0 +1,120 @@
+OCR结果 - 第 83 页
+==================================================
+处理的图像: temp_page_82_processed.png
+原始PDF页面: 83
+
+详细结果:
+[{'input_path': 'temp_page_82_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1427, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1427, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1427, 3), dtype=uint8)}, 'dt_polys': [array([[390, 112],
+       ...,
+       [387, 177]], shape=(4, 2), dtype=int16), array([[441, 197],
+       ...,
+       [437, 293]], shape=(4, 2), dtype=int16), array([[805, 429],
+       ...,
+       [804, 478]], shape=(4, 2), dtype=int16), array([[219, 547],
+       ...,
+       [218, 658]], shape=(4, 2), dtype=int16), array([[130, 677],
+       ...,
+       [130, 732]], shape=(4, 2), dtype=int16), array([[243, 733],
+       ...,
+       [241, 821]], shape=(4, 2), dtype=int16), array([[ 21, 763],
+       ...,
+       [ 21, 820]], shape=(4, 2), dtype=int16), array([[550, 764],
+       ...,
+       [550, 823]], shape=(4, 2), dtype=int16), array([[ 22, 850],
+       ...,
+       [ 22, 901]], shape=(4, 2), dtype=int16), array([[406, 910],
+       ...,
+       [407, 986]], shape=(4, 2), dtype=int16), array([[130, 929],
+       ...,
+       [130, 982]], shape=(4, 2), dtype=int16), array([[ 818, 1363],
+       ...,
+       [ 818, 1418]], shape=(4, 2), dtype=int16), array([[1212, 1434],
+       ...,
+       [1265, 1506]], shape=(4, 2), dtype=int16), array([[ 144, 1526],
+       ...,
+       [ 144, 1587]], shape=(4, 2), dtype=int16), array([[1141, 1539],
+       ...,
+       [1141, 1664]], shape=(4, 2), dtype=int16), array([[ 808, 1589],
+       ...,
+       [ 809, 1644]], shape=(4, 2), dtype=int16), array([[ 589, 1739],
+       ...,
+       [ 589, 1784]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西壮族自治区监察委员会', '询问通知书', '桂监询通【2025]120288号', '章太武', '根据《中华人民共和国监察法》第二十一条之规定，兹', '有关', '因', '案件，请你于2025年4月27日9时', '持此件及有效身份证件接受询问。', '南宁市民族大道54号', '询问地点', '2025', '委员会', '本通知书已于年4月27日9时收到。', '章太武', '被询同：', '第二联 附卷'], 'rec_scores': [0.9981244206428528, 0.9994280934333801, 0.9577386379241943, 0.9936773777008057, 0.9964697957038879, 0.9919954538345337, 0.9982681274414062, 0.9666295647621155, 0.9990524649620056, 0.9663402438163757, 0.9986082315444946, 0.9976712465286255, 0.9932718276977539, 0.9451990723609924, 0.6691505908966064, 0.852237343788147, 0.931721031665802], 'rec_polys': [array([[390, 112],
+       ...,
+       [387, 177]], shape=(4, 2), dtype=int16), array([[441, 197],
+       ...,
+       [437, 293]], shape=(4, 2), dtype=int16), array([[805, 429],
+       ...,
+       [804, 478]], shape=(4, 2), dtype=int16), array([[219, 547],
+       ...,
+       [218, 658]], shape=(4, 2), dtype=int16), array([[130, 677],
+       ...,
+       [130, 732]], shape=(4, 2), dtype=int16), array([[243, 733],
+       ...,
+       [241, 821]], shape=(4, 2), dtype=int16), array([[ 21, 763],
+       ...,
+       [ 21, 820]], shape=(4, 2), dtype=int16), array([[550, 764],
+       ...,
+       [550, 823]], shape=(4, 2), dtype=int16), array([[ 22, 850],
+       ...,
+       [ 22, 901]], shape=(4, 2), dtype=int16), array([[406, 910],
+       ...,
+       [407, 986]], shape=(4, 2), dtype=int16), array([[130, 929],
+       ...,
+       [130, 982]], shape=(4, 2), dtype=int16), array([[ 818, 1363],
+       ...,
+       [ 818, 1418]], shape=(4, 2), dtype=int16), array([[1212, 1434],
+       ...,
+       [1265, 1506]], shape=(4, 2), dtype=int16), array([[ 144, 1526],
+       ...,
+       [ 144, 1587]], shape=(4, 2), dtype=int16), array([[1141, 1539],
+       ...,
+       [1141, 1664]], shape=(4, 2), dtype=int16), array([[ 808, 1589],
+       ...,
+       [ 809, 1644]], shape=(4, 2), dtype=int16), array([[ 589, 1739],
+       ...,
+       [ 589, 1784]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'rec_boxes': array([[ 387, ...,  209],
+       ...,
+       [ 589, ..., 1784]], shape=(17, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西壮族自治区监察委员会
+2. 询问通知书
+3. 桂监询通【2025]120288号
+4. 章太武
+5. 根据《中华人民共和国监察法》第二十一条之规定，兹
+6. 有关
+7. 因
+8. 案件，请你于2025年4月27日9时
+9. 持此件及有效身份证件接受询问。
+10. 南宁市民族大道54号
+11. 询问地点
+12. 2025
+13. 委员会
+14. 本通知书已于年4月27日9时收到。
+15. 章太武
+16. 被询同：
+17. 第二联 附卷

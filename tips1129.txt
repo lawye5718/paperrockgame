@@ -1,0 +1,375 @@
+出现 "Error parsing texts: unterminated string literal" 错误，通常是因为 OCR 识别出的文本中包含了一些特殊字符（例如未转义的单引号 '）或者日志文件在生成时将换行符直接写入了字符串中，破坏了 Python 列表的标准格式，导致 eval() 函数无法将其识别为合法的 Python 代码。
+
+这是一个非常常见的数据清洗问题。为了解决这个问题，我们需要增强代码的“鲁棒性”：不再单纯依赖 eval()，而是加入正则表达式提取作为兜底方案。即使列表格式不仅标准（例如中间断行了），正则也能把引号里的内容提取出来。
+
+我已经更新了 ocr_parser.py，主要改进如下：
+
+引入 ast.literal_eval：比 eval 更安全，用于首选解析。
+
+增加正则兜底 (Regex Fallback)：如果标准解析失败（报 SyntaxError 等），代码会自动切换到正则模式，强制提取 '...' 或 "..." 中的内容，忽略换行符错误。
+
+优化正则匹配范围：扩大了查找 rec_texts 的范围，防止因日志格式微调导致找不到数据。
+
+
+
+import re
+import math
+import numpy as np
+import ast
+
+class OCRTableParser:
+    def __init__(self):
+        self.boxes = []
+        # 用于判断行聚类的阈值（行高的一半）
+        self.y_threshold_ratio = 0.5 
+
+    def parse_log_text(self, log_text):
+        """
+        从用户提供的OCR日志文本中提取文本和坐标。
+        增加了对格式错误的容错处理（如未闭合的字符串、换行符干扰等）。
+        """
+        # 1. 提取 rec_texts
+        # 寻找 rec_texts': ['...', '...'] 结构
+        # 优化正则：不仅匹配到 rec_scores，也允许匹配到结尾，使用非贪婪匹配
+        texts_match = re.search(r"'rec_texts':\s*(\[.*?\])(?:,\s*'rec_scores'|\s*})", log_text, re.DOTALL)
+        
+        rec_texts = []
+        if not texts_match:
+            print("Error: Could not find rec_texts in the log.")
+            # 尝试直接搜索任何列表结构的文本作为最后的尝试
+            fallback_list_match = re.search(r"\[\s*'.*?'\s*(?:,\s*'.*?'\s*)*\]", log_text, re.DOTALL)
+            if fallback_list_match:
+                raw_texts_str = fallback_list_match.group(0)
+            else:
+                return
+        else:
+            raw_texts_str = texts_match.group(1)
+
+        # 尝试解析列表
+        try:
+            # 方案A: 尝试使用安全的 ast.literal_eval 解析
+            rec_texts = ast.literal_eval(raw_texts_str)
+        except (ValueError, SyntaxError):
+            print("Warning: Standard parsing failed (unterminated string etc.), switching to Regex extraction.")
+            # 方案B: 正则强制提取
+            # 匹配单引号或双引号包裹的内容，处理转义字符
+            # (?:[^'\\]|\\.)* 表示：匹配非引号和非反斜杠的字符，或者转义字符
+            str_pattern = r"(?:'((?:[^'\\]|\\.)*)'|\"((?:[^\"\\]|\\.)*)\")"
+            matches = re.findall(str_pattern, raw_texts_str, re.DOTALL)
+            # re.findall 返回元组 [('match_single', ''), ('', 'match_double')]
+            rec_texts = [m[0] if m[0] else m[1] for m in matches]
+
+        if not rec_texts:
+            print("Error: No texts extracted.")
+            return
+
+        # 2. 提取 dt_polys
+        # 寻找 array([[x,y]...]) 结构
+        polys_pattern = r"array\(\[\[(.*?)\]\], shape"
+        polys_matches = re.findall(polys_pattern, log_text, re.DOTALL)
+        
+        if len(polys_matches) != len(rec_texts):
+            # 如果数量不一致，通常是解析出了问题，取交集长度防止越界
+            print(f"Warning: Text count ({len(rec_texts)}) and Poly count ({len(polys_matches)}) mismatch. Truncating to shorter length.")
+        
+        limit = min(len(rec_texts), len(polys_matches))
+        
+        self.boxes = []
+        for i in range(limit):
+            text = rec_texts[i].strip()
+            # 忽略非表格内容的干扰项（如页眉、页码噪音、PaddleOCR的日志字段）
+            if text in ['处理的图像:', '原始PDF页面:', '详细结果:', 'array', 'rec_texts', 'dt_polys']:
+                continue
+            
+            # 简单的文本清洗，防止OCR识别出的多余引号或空白
+            text = text.strip("'\"") 
+                
+            # 解析坐标字符串 "581, 121],\n ..., \n [580, 180"
+            nums = [int(n) for n in re.findall(r'\d+', polys_matches[i])]
+            if len(nums) >= 8: # 4个点，每个点2个坐标
+                points = list(zip(nums[0::2], nums[1::2]))
+                
+                xs = [p[0] for p in points]
+                ys = [p[1] for p in points]
+                min_x, max_x = min(xs), max(xs)
+                min_y, max_y = min(ys), max(ys)
+                center_y = (min_y + max_y) / 2
+                center_x = (min_x + max_x) / 2
+                height = max_y - min_y
+                
+                self.boxes.append({
+                    'text': text,
+                    'x': min_x,
+                    'y': min_y,
+                    'w': max_x - min_x,
+                    'h': height,
+                    'cy': center_y,
+                    'cx': center_x
+                })
+
+    def to_markdown(self):
+        if not self.boxes:
+            return "No data found."
+
+        # 1. 按 Y 坐标排序
+        sorted_boxes = sorted(self.boxes, key=lambda b: b['cy'])
+        
+        # 2. 动态聚类分行
+        rows = []
+        if not sorted_boxes:
+            return ""
+            
+        current_row = [sorted_boxes[0]]
+        current_row_y = sorted_boxes[0]['cy']
+        avg_height = sorted_boxes[0]['h']
+
+        for box in sorted_boxes[1:]:
+            # 如果当前框的中心Y 与 当前行的中心Y 差距小于 阈值，则视为同一行
+            if abs(box['cy'] - current_row_y) < (avg_height * 0.6): 
+                current_row.append(box)
+                # 更新当前行的加权Y中心
+                current_row_y = sum(b['cy'] for b in current_row) / len(current_row)
+            else:
+                rows.append(current_row)
+                current_row = [box]
+                current_row_y = box['cy']
+                avg_height = box['h'] 
+        rows.append(current_row)
+
+        # 3. 寻找表头行 (包含特定关键字的行)
+        header_keywords = ['顺序号', '日期', '文号', '责任者', '题名', '备注']
+        header_row_idx = -1
+        
+        for idx, row in enumerate(rows):
+            row_text = "".join([b['text'] for b in row])
+            # 如果包含了超过2个关键字，很可能是表头
+            hit_count = sum(1 for k in header_keywords if k in row_text or ('題' in row_text and '名' in row_text))
+            if hit_count >= 3:
+                header_row_idx = idx
+                break
+        
+        if header_row_idx == -1:
+            header_row_idx = 0 
+            
+        header_row = rows[header_row_idx]
+        
+        # 4. 表头整理（列定义）
+        header_row.sort(key=lambda b: b['cx'])
+        
+        cleaned_header = []
+        skip_next = False
+        for i in range(len(header_row)):
+            if skip_next:
+                skip_next = False
+                continue
+            
+            curr = header_row[i]
+            if i < len(header_row) - 1:
+                next_box = header_row[i+1]
+                dist = next_box['x'] - (curr['x'] + curr['w'])
+                # 如果水平距离很近 (小于字宽的一半)
+                if dist < curr['w'] * 0.5: 
+                    new_text = curr['text'] + next_box['text']
+                    new_cx = (curr['x'] + next_box['x'] + next_box['w']) / 2
+                    cleaned_header.append({'text': new_text, 'cx': new_cx, 'w': curr['w'] + next_box['w'] + dist})
+                    skip_next = True
+                    continue
+            
+            cleaned_header.append(curr)
+            
+        columns = cleaned_header
+        col_count = len(columns)
+        
+        # 5. 构建表格数据
+        table_data = []
+        
+        for row in rows[header_row_idx + 1:]:
+            row.sort(key=lambda b: b['cx'])
+            row_cells = [""] * col_count
+            
+            for box in row:
+                best_col_idx = -1
+                min_dist = float('inf')
+                
+                for col_idx, col in enumerate(columns):
+                    dist = abs(box['cx'] - col['cx'])
+                    if dist < min_dist:
+                        min_dist = dist
+                        best_col_idx = col_idx
+                
+                if best_col_idx != -1:
+                    if row_cells[best_col_idx]:
+                        row_cells[best_col_idx] += " " + box['text']
+                    else:
+                        row_cells[best_col_idx] = box['text']
+            
+            table_data.append(row_cells)
+
+        # 6. 纵向合并逻辑
+        final_table = []
+        if table_data:
+            final_table.append(table_data[0])
+            
+            title_col_idx = -1
+            seq_col_idx = -1
+            
+            for i, col in enumerate(columns):
+                if '题名' in col['text'] or '題名' in col['text']:
+                    title_col_idx = i
+                if '顺序号' in col['text'] or '序号' in col['text']:
+                    seq_col_idx = i
+
+            for i in range(1, len(table_data)):
+                curr_row = table_data[i]
+                prev_row = final_table[-1]
+                
+                is_continuation = False
+                if seq_col_idx != -1 and not curr_row[seq_col_idx].strip():
+                     non_empty_cols = sum(1 for c in curr_row if c.strip())
+                     if non_empty_cols < 3: 
+                         is_continuation = True
+                
+                if is_continuation and title_col_idx != -1:
+                    for c_idx in range(len(curr_row)):
+                        if curr_row[c_idx].strip():
+                            if prev_row[c_idx].strip():
+                                prev_row[c_idx] += "<br>" + curr_row[c_idx] 
+                            else:
+                                prev_row[c_idx] = curr_row[c_idx]
+                else:
+                    final_table.append(curr_row)
+
+        # 7. 生成 Markdown
+        md = "| " + " | ".join([c['text'] for c in columns]) + " |\n"
+        md += "| " + " | ".join(["---"] * col_count) + " |\n"
+        for row in final_table:
+            clean_row = [c.replace('\n', ' ') if '<br>' not in c else c for c in row]
+            md += "| " + " | ".join(clean_row) + " |\n"
+            
+        return md
+
+# ==========================================
+# 测试数据 (保留原样用于验证)
+# ==========================================
+raw_input = r"""
+{'input_path': 'test.png', 
+'dt_polys': [array([[581, 121], [1132, 123], [1132, 182], [580, 180]], dtype=int16), 
+array([[124, 207], [214, 208], [214, 251], [123, 252]], dtype=int16), 
+array([[1042, 207], [1147, 206], [1147, 249], [1042, 248]], dtype=int16), 
+array([[1181, 205], [1260, 204], [1260, 249], [1184, 248]], dtype=int16), 
+array([[1278, 198], [1376, 203], [1374, 249], [1281, 245]], dtype=int16), 
+array([[269, 213], [376, 213], [376, 254], [269, 254]], dtype=int16), 
+array([[447, 210], [538, 210], [538, 250], [447, 250]], dtype=int16), 
+array([[698, 211], [744, 211], [744, 244], [698, 244]], dtype=int16), 
+array([[863, 211], [908, 211], [908, 248], [863, 248]], dtype=int16), 
+array([[422, 299], [533, 298], [534, 335], [423, 334]], dtype=int16), 
+array([[585, 297], [1000, 295], [1000, 326], [586, 328]], dtype=int16), 
+array([[1035, 310], [1189, 310], [1189, 339], [1035, 339]], dtype=int16), 
+array([[1206, 307], [1240, 307], [1240, 340], [1206, 340]], dtype=int16), 
+array([[166, 319], [202, 319], [202, 352], [166, 352]], dtype=int16), 
+array([[450, 332], [551, 332], [551, 368], [451, 368]], dtype=int16), 
+array([[584, 332], [969, 330], [969, 360], [585, 362]], dtype=int16), 
+array([[587, 430], [1000, 429], [1000, 456], [588, 457]], dtype=int16), 
+array([[423, 443], [532, 442], [533, 480], [424, 479]], dtype=int16), 
+array([[585, 462], [1029, 460], [1029, 492], [586, 493]], dtype=int16), 
+array([[1035, 458], [1190, 458], [1190, 486], [1035, 486]], dtype=int16), 
+array([[1200, 453], [1241, 453], [1241, 488], [1200, 488]], dtype=int16), 
+array([[170, 471], [215, 471], [215, 498], [170, 498]], dtype=int16), 
+array([[450, 477], [550, 477], [550, 513], [451, 513]], dtype=int16), 
+array([[587, 492], [829, 492], [829, 523], [587, 523]], dtype=int16), 
+array([[590, 569], [976, 568], [976, 597], [590, 597]], dtype=int16), 
+array([[450, 586], [546, 586], [546, 622], [452, 622]], dtype=int16), 
+array([[1038, 585], [1192, 584], [1192, 609], [1038, 610]], dtype=int16), 
+array([[1202, 580], [1245, 580], [1245, 615], [1202, 615]], dtype=int16), 
+array([[172, 592], [217, 592], [217, 623], [172, 623]], dtype=int16), 
+array([[590, 603], [1013, 603], [1013, 630], [590, 630]], dtype=int16), 
+array([[591, 672], [1006, 672], [1006, 700], [591, 700]], dtype=int16), 
+array([[454, 703], [550, 703], [550, 737], [456, 737]], dtype=int16), 
+array([[591, 704], [977, 704], [977, 732], [591, 732]], dtype=int16), 
+array([[1036, 701], [1190, 701], [1190, 729], [1036, 729]], dtype=int16), 
+array([[1202, 698], [1241, 698], [1241, 733], [1202, 733]], dtype=int16), 
+array([[177, 711], [217, 711], [217, 737], [177, 737]], dtype=int16), 
+array([[592, 741], [829, 741], [829, 765], [592, 765]], dtype=int16), 
+array([[432, 803], [534, 803], [534, 835], [433, 835]], dtype=int16), 
+array([[593, 817], [749, 817], [749, 845], [593, 845]], dtype=int16), 
+array([[1039, 817], [1192, 817], [1192, 845], [1039, 845]], dtype=int16), 
+array([[1204, 814], [1242, 814], [1242, 849], [1204, 849]], dtype=int16), 
+array([[180, 824], [206, 824], [206, 856], [180, 856]], dtype=int16), 
+array([[457, 832], [547, 832], [547, 868], [458, 868]], dtype=int16), 
+array([[592, 892], [931, 892], [931, 922], [592, 922]], dtype=int16), 
+array([[432, 910], [531, 910], [531, 945], [433, 945]], dtype=int16), 
+array([[593, 927], [872, 927], [872, 956], [593, 956]], dtype=int16), 
+array([[1038, 929], [1190, 929], [1190, 958], [1038, 958]], dtype=int16), 
+array([[1208, 923], [1248, 923], [1248, 959], [1208, 959]], dtype=int16), 
+array([[185, 939], [210, 939], [210, 966], [185, 966]], dtype=int16), 
+array([[458, 943], [551, 943], [551, 980], [459, 980]], dtype=int16), 
+array([[592, 957], [957, 957], [957, 989], [591, 989]], dtype=int16), 
+array([[ 274, 1025], [376, 1025], [376, 1061], [ 275, 1061]], dtype=int16), 
+array([[ 283, 1061], [354, 1061], [354, 1092], [ 284, 1092]], dtype=int16), 
+array([[ 435, 1056], [540, 1056], [540, 1088], [ 436, 1088]], dtype=int16), 
+array([[ 595, 1055], [873, 1055], [873, 1084], [ 594, 1084]], dtype=int16), 
+array([[1041, 1056], [1192, 1056], [1192, 1085], [1041, 1085]], dtype=int16), 
+array([[1211, 1052], [1251, 1052], [1251, 1087], [1211, 1087]], dtype=int16), 
+array([[ 186, 1065], [211, 1065], [211, 1091], [ 186, 1091]], dtype=int16), 
+array([[ 276, 1093], [374, 1093], [374, 1126], [ 277, 1126]], dtype=int16), 
+array([[ 437, 1151], [538, 1151], [538, 1182], [ 437, 1182]], dtype=int16), 
+array([[ 187, 1173], [219, 1173], [219, 1203], [ 187, 1203]], dtype=int16), 
+array([[ 597, 1168], [875, 1168], [875, 1196], [ 597, 1196]], dtype=int16), 
+array([[1045, 1169], [1198, 1169], [1198, 1198], [1045, 1198]], dtype=int16), 
+array([[1215, 1167], [1252, 1167], [1252, 1203], [1215, 1203]], dtype=int16), 
+array([[ 462, 1183], [549, 1183], [549, 1220], [ 462, 1220]], dtype=int16), 
+array([[ 185, 1261], [225, 1261], [225, 1292], [ 185, 1292]], dtype=int16), 
+array([[ 472, 1255], [543, 1255], [543, 1294], [ 472, 1294]], dtype=int16), 
+array([[ 596, 1258], [911, 1258], [911, 1289], [ 595, 1289]], dtype=int16), 
+array([[1046, 1263], [1198, 1263], [1198, 1291], [1046, 1291]], dtype=int16), 
+array([[1218, 1261], [1255, 1261], [1255, 1295], [1218, 1295]], dtype=int16), 
+array([[ 435, 1331], [543, 1331], [543, 1362], [ 435, 1362]], dtype=int16), 
+array([[ 596, 1332], [912, 1332], [912, 1362], [ 595, 1362]], dtype=int16), 
+array([[ 178, 1348], [219, 1348], [219, 1378], [ 178, 1378]], dtype=int16), 
+array([[ 461, 1360], [552, 1360], [552, 1394], [ 460, 1394]], dtype=int16), 
+array([[1046, 1351], [1200, 1351], [1200, 1380], [1046, 1380]], dtype=int16), 
+array([[1220, 1351], [1260, 1351], [1260, 1385], [1220, 1385]], dtype=int16), 
+array([[ 596, 1363], [966, 1363], [966, 1394], [ 595, 1394]], dtype=int16), 
+array([[ 275, 1420], [380, 1420], [380, 1456], [ 275, 1456]], dtype=int16), 
+array([[ 178, 1456], [221, 1456], [221, 1487], [ 178, 1487]], dtype=int16), 
+array([[ 284, 1458], [358, 1458], [358, 1486], [ 284, 1486]], dtype=int16), 
+array([[ 436, 1458], [543, 1458], [543, 1486], [ 436, 1486]], dtype=int16), 
+array([[ 596, 1457], [879, 1457], [879, 1485], [ 595, 1485]], dtype=int16), 
+array([[1047, 1461], [1200, 1461], [1200, 1492], [1046, 1492]], dtype=int16), 
+array([[1221, 1463], [1259, 1463], [1259, 1496], [1221, 1496]], dtype=int16), 
+array([[ 274, 1486], [379, 1486], [379, 1517], [ 274, 1517]], dtype=int16), 
+array([[ 433, 1544], [542, 1544], [542, 1576], [ 432, 1576]], dtype=int16), 
+array([[ 174, 1558], [218, 1558], [218, 1594], [ 174, 1594]], dtype=int16), 
+array([[ 595, 1564], [879, 1564], [879, 1593], [ 594, 1593]], dtype=int16), 
+array([[ 457, 1577], [551, 1577], [551, 1614], [ 456, 1614]], dtype=int16), 
+array([[1046, 1570], [1200, 1570], [1200, 1602], [1045, 1602]], dtype=int16), 
+array([[1221, 1574], [1260, 1574], [1260, 1609], [1221, 1609]], dtype=int16), 
+array([[ 173, 1640], [216, 1640], [216, 1675], [ 173, 1675]], dtype=int16), 
+array([[ 468, 1642], [543, 1642], [543, 1685], [ 468, 1685]], dtype=int16), 
+array([[ 595, 1648], [919, 1648], [919, 1679], [ 594, 1679]], dtype=int16), 
+array([[1047, 1659], [1202, 1659], [1202, 1692], [1047, 1692]], dtype=int16), 
+array([[1221, 1660], [1260, 1660], [1260, 1696], [1221, 1696]], dtype=int16), 
+array([[ 592, 1714], [973, 1714], [973, 1746], [ 591, 1746]], dtype=int16), 
+array([[ 428, 1727], [542, 1727], [542, 1763], [ 427, 1763]], dtype=int16), 
+array([[ 172, 1741], [215, 1741], [215, 1771], [ 172, 1771]], dtype=int16), 
+array([[ 591, 1750], [925, 1750], [925, 1784], [ 590, 1784]], dtype=int16), 
+array([[ 456, 1762], [553, 1762], [553, 1799], [ 454, 1799]], dtype=int16), 
+array([[1048, 1762], [1202, 1762], [1202, 1794], [1047, 1794]], dtype=int16), 
+array([[1222, 1766], [1260, 1766], [1260, 1801], [1222, 1801]], dtype=int16), 
+array([[ 590, 1781], [833, 1781], [833, 1818], [ 588, 1818]], dtype=int16), 
+array([[ 269, 1825], [376, 1825], [376, 1865], [ 266, 1865]], dtype=int16), 
+array([[ 168, 1862], [214, 1862], [214, 1896], [ 168, 1896]], dtype=int16), 
+array([[ 278, 1864], [357, 1864], [357, 1898], [ 276, 1898]], dtype=int16), 
+array([[ 429, 1873], [540, 1873], [540, 1908], [ 428, 1908]], dtype=int16), 
+array([[ 590, 1877], [875, 1877], [875, 1908], [ 589, 1908]], dtype=int16), 
+array([[ 266, 1896], [376, 1896], [376, 1932], [ 265, 1932]], dtype=int16), 
+array([[1048, 1889], [1200, 1889], [1200, 1921], [1047, 1921]], dtype=int16), 
+array([[1217, 1892], [1252, 1892], [1252, 1929], [1215, 1929]], dtype=int16)], 
+'rec_texts': ['卷内文件目录', '顺序号', '日期', '页号', '备注', '文号', '责任者', '題', '名', '第十二审查', '王雄昌讯问笔录[证实王维昌伙同', '20250531', '1', '1', '调查室', '何斌收受李瑜好处费600万元', '王雄昌讯问笔录[证实王维昌伙同', '第十二审查', '何斌收受李瑜好处费600万元及相', '20250610', '10', '2', '调查室', '关辨认材料]', '王雄昌自书材料[王雄昌伙同何斌', '王雄昌', '20250514', '30', '3', '收受李瑜好处费600万元】', '王雄昌自书材料[王雄昌伙同何斌', '王雄昌', '收受李瑜好处费600万元及投资入', '20250610', '31', '4', '股广西见炬公司200万元】', '第十二审查', '证人权利义务告知书[何斌]', '20250528', '33', '5', '调查室', '何斌询问笔录[证实何斌和王雄昌', '第十二审查', '共同收受李瑜好处费600万元及相', '20250528', '35', '6', '调查室', '关辨认材料]', '桂监询通', '〔2025)', '自治区监委', '询问通知书[李瑜]', '20250507', '61', '7', '120316号', '第十二审查', '8', '证人权利义务告知书[李瑜]', '20250507', '62', '调查室', '9', '李瑜', '身份证复印件[李瑜]', '20250507', '64', '第十二审查', '李瑜询问笔录[证实李瑜送给王雄', '10', '调查室', '20250507', '65', '昌和何斌好处费600万元', '桂监询通', '11', '[2025]', '自治区监委', '询问通知书[李瑜]', '20250517', '74', '120378号', '第十二审查', '12', '证人权利义务告知书[李瑜]', '调查室', '20250517', '75', '13', '李瑜', '身份证复印件[李瑜]', '20250517', '77', '李瑜询问笔录[证实李瑜送给王雄', '第十二审查', '14', '昌和何斌好处费600万元及相关辨', '调查室', '20250517', '78', '认材料]', '桂监询通', '15', '[2025]', '自治区监委', '询问通知书[胡毅]', '120334号', '20250513', '100'], 
+'rec_scores': [0.9981488585472107]}
+"""
+
+parser = OCRTableParser()
+parser.parse_log_text(raw_input)
+md_output = parser.to_markdown()
+print(md_output)

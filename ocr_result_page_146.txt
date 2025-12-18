@@ -1,0 +1,170 @@
+OCR结果 - 第 146 页
+==================================================
+处理的图像: temp_page_145_processed.png
+原始PDF页面: 146
+
+详细结果:
+[{'input_path': 'temp_page_145_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8)}, 'dt_polys': [array([[121, 171],
+       ...,
+       [122, 225]], shape=(4, 2), dtype=int16), array([[131, 242],
+       ...,
+       [130, 277]], shape=(4, 2), dtype=int16), array([[201, 308],
+       ...,
+       [201, 346]], shape=(4, 2), dtype=int16), array([[215, 368],
+       ...,
+       [216, 406]], shape=(4, 2), dtype=int16), array([[137, 423],
+       ...,
+       [138, 464]], shape=(4, 2), dtype=int16), array([[142, 485],
+       ...,
+       [143, 516]], shape=(4, 2), dtype=int16), array([[220, 541],
+       ...,
+       [220, 575]], shape=(4, 2), dtype=int16), array([[143, 598],
+       ...,
+       [144, 631]], shape=(4, 2), dtype=int16), array([[146, 657],
+       ...,
+       [147, 688]], shape=(4, 2), dtype=int16), array([[224, 711],
+       ...,
+       [224, 748]], shape=(4, 2), dtype=int16), array([[146, 770],
+       ...,
+       [147, 803]], shape=(4, 2), dtype=int16), array([[147, 828],
+       ...,
+       [148, 862]], shape=(4, 2), dtype=int16), array([[149, 886],
+       ...,
+       [150, 917]], shape=(4, 2), dtype=int16), array([[149, 944],
+       ...,
+       [150, 974]], shape=(4, 2), dtype=int16), array([[ 227, 1000],
+       ...,
+       [ 227, 1030]], shape=(4, 2), dtype=int16), array([[ 149, 1057],
+       ...,
+       [ 150, 1087]], shape=(4, 2), dtype=int16), array([[ 212, 1112],
+       ...,
+       [ 212, 1142]], shape=(4, 2), dtype=int16), array([[ 149, 1168],
+       ...,
+       [ 149, 1199]], shape=(4, 2), dtype=int16), array([[ 148, 1226],
+       ...,
+       [ 149, 1256]], shape=(4, 2), dtype=int16), array([[ 211, 1283],
+       ...,
+       [ 211, 1314]], shape=(4, 2), dtype=int16), array([[ 150, 1341],
+       ...,
+       [ 150, 1372]], shape=(4, 2), dtype=int16), array([[ 149, 1399],
+       ...,
+       [ 149, 1430]], shape=(4, 2), dtype=int16), array([[ 150, 1455],
+       ...,
+       [ 149, 1487]], shape=(4, 2), dtype=int16), array([[ 212, 1515],
+       ...,
+       [ 212, 1545]], shape=(4, 2), dtype=int16), array([[ 145, 1576],
+       ...,
+       [ 144, 1618]], shape=(4, 2), dtype=int16), array([[ 208, 1652],
+       ...,
+       [ 208, 1693]], shape=(4, 2), dtype=int16), array([[ 690, 1939],
+       ...,
+       [ 690, 1967]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['质状况良好，没有不良地质现象，适宜作为建设用地。完全能满足本项目的工程', '建设及生产运行要求。', '厂区按功能分为厂前区、生产区、动力及生产辅助区、仓储区。', '（1）厂前区：山生产厂房办公区、研发楼、门卫及大门、停车场、绿地等', '组成，面向东侧锦绣大道，厂房办公区及研发楼通过连廊连接，形成完整，大气', '的沿街立面，营造轻松、愉悦的办公氛围。', '（2）生产区主要由生产厂房组成，位于用地的北部，山于其体量较大，同', '时考虑其工艺流线以及项目用地规模，将主厂房毗邻马莱大道平行布置，其办公', '区面向锦绣大道，以充分展示本工程的形象。', '(3)动力及生产辅助区：包括综合动力站（CUB)、废水处理站（WWT）、', '特气站、硅烷站、化学品车间等建筑。其位于地块的中部，各种动力气体用房及', '紧邻主要用户，使生产用房与辅助用房之间联系方便，物流及工程线路短捷顺畅，', '节约运输成本。动力及成产辅助用房相对集中，管理及维护较为方便，其中WWT', '位于地块的西南角，方便外部管理人员进出以及服务远期项目。', '(4)仓储区：包括仓库、化学品库、危险品库等，各类仓储栋号集中布置，', '有利于厂区内物流运输的统一协调、管理。', '本项目地块内需建设大宗气站及220kV变电站，考虑到兼顾项目的一、', '期，以及独立运营和环境需要等各种因素，将大宗气站及220kV变电站布置在', '项目用地南部，毗邻云顶大街及锦绣大道。', '配套区共布置4栋宿舍楼及一栋综合楼，配套区设置一个主入口，面向锦绣', '大道，综合楼正对主入口，形成大气的入口景观，宿舍楼布置在其东侧，远离市', '政道路，环境幽静，宿舍楼面向南面，呈东西向平行布置，每一栋宿舍楼均可获', '得最佳的采光朝向。', '厂区平面布置见图3.6-1总平面布置图。', '1.7.建设周期', '本项目计划于2020年6月开工，2022年1月投产试运行，施工期18个月。', '6'], 'rec_scores': [0.9936221241950989, 0.9996193647384644, 0.9891719818115234, 0.9716550707817078, 0.9783352613449097, 0.9885154366493225, 0.9534298777580261, 0.9943692684173584, 0.9962384104728699, 0.9396474361419678, 0.995577871799469, 0.9896796345710754, 0.9853591918945312, 0.9960046410560608, 0.9631160497665405, 0.9974365234375, 0.9870343208312988, 0.9933383464813232, 0.9972884654998779, 0.9930049777030945, 0.995940089225769, 0.9969897866249084, 0.9988538026809692, 0.9923510551452637, 0.9980149269104004, 0.9794197082519531, 0.9982470273971558], 'rec_polys': [array([[121, 171],
+       ...,
+       [122, 225]], shape=(4, 2), dtype=int16), array([[131, 242],
+       ...,
+       [130, 277]], shape=(4, 2), dtype=int16), array([[201, 308],
+       ...,
+       [201, 346]], shape=(4, 2), dtype=int16), array([[215, 368],
+       ...,
+       [216, 406]], shape=(4, 2), dtype=int16), array([[137, 423],
+       ...,
+       [138, 464]], shape=(4, 2), dtype=int16), array([[142, 485],
+       ...,
+       [143, 516]], shape=(4, 2), dtype=int16), array([[220, 541],
+       ...,
+       [220, 575]], shape=(4, 2), dtype=int16), array([[143, 598],
+       ...,
+       [144, 631]], shape=(4, 2), dtype=int16), array([[146, 657],
+       ...,
+       [147, 688]], shape=(4, 2), dtype=int16), array([[224, 711],
+       ...,
+       [224, 748]], shape=(4, 2), dtype=int16), array([[146, 770],
+       ...,
+       [147, 803]], shape=(4, 2), dtype=int16), array([[147, 828],
+       ...,
+       [148, 862]], shape=(4, 2), dtype=int16), array([[149, 886],
+       ...,
+       [150, 917]], shape=(4, 2), dtype=int16), array([[149, 944],
+       ...,
+       [150, 974]], shape=(4, 2), dtype=int16), array([[ 227, 1000],
+       ...,
+       [ 227, 1030]], shape=(4, 2), dtype=int16), array([[ 149, 1057],
+       ...,
+       [ 150, 1087]], shape=(4, 2), dtype=int16), array([[ 212, 1112],
+       ...,
+       [ 212, 1142]], shape=(4, 2), dtype=int16), array([[ 149, 1168],
+       ...,
+       [ 149, 1199]], shape=(4, 2), dtype=int16), array([[ 148, 1226],
+       ...,
+       [ 149, 1256]], shape=(4, 2), dtype=int16), array([[ 211, 1283],
+       ...,
+       [ 211, 1314]], shape=(4, 2), dtype=int16), array([[ 150, 1341],
+       ...,
+       [ 150, 1372]], shape=(4, 2), dtype=int16), array([[ 149, 1399],
+       ...,
+       [ 149, 1430]], shape=(4, 2), dtype=int16), array([[ 150, 1455],
+       ...,
+       [ 149, 1487]], shape=(4, 2), dtype=int16), array([[ 212, 1515],
+       ...,
+       [ 212, 1545]], shape=(4, 2), dtype=int16), array([[ 145, 1576],
+       ...,
+       [ 144, 1618]], shape=(4, 2), dtype=int16), array([[ 208, 1652],
+       ...,
+       [ 208, 1693]], shape=(4, 2), dtype=int16), array([[ 690, 1939],
+       ...,
+       [ 690, 1967]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 121, ...,  225],
+       ...,
+       [ 690, ..., 1967]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 质状况良好，没有不良地质现象，适宜作为建设用地。完全能满足本项目的工程
+2. 建设及生产运行要求。
+3. 厂区按功能分为厂前区、生产区、动力及生产辅助区、仓储区。
+4. （1）厂前区：山生产厂房办公区、研发楼、门卫及大门、停车场、绿地等
+5. 组成，面向东侧锦绣大道，厂房办公区及研发楼通过连廊连接，形成完整，大气
+6. 的沿街立面，营造轻松、愉悦的办公氛围。
+7. （2）生产区主要由生产厂房组成，位于用地的北部，山于其体量较大，同
+8. 时考虑其工艺流线以及项目用地规模，将主厂房毗邻马莱大道平行布置，其办公
+9. 区面向锦绣大道，以充分展示本工程的形象。
+10. (3)动力及生产辅助区：包括综合动力站（CUB)、废水处理站（WWT）、
+11. 特气站、硅烷站、化学品车间等建筑。其位于地块的中部，各种动力气体用房及
+12. 紧邻主要用户，使生产用房与辅助用房之间联系方便，物流及工程线路短捷顺畅，
+13. 节约运输成本。动力及成产辅助用房相对集中，管理及维护较为方便，其中WWT
+14. 位于地块的西南角，方便外部管理人员进出以及服务远期项目。
+15. (4)仓储区：包括仓库、化学品库、危险品库等，各类仓储栋号集中布置，
+16. 有利于厂区内物流运输的统一协调、管理。
+17. 本项目地块内需建设大宗气站及220kV变电站，考虑到兼顾项目的一、
+18. 期，以及独立运营和环境需要等各种因素，将大宗气站及220kV变电站布置在
+19. 项目用地南部，毗邻云顶大街及锦绣大道。
+20. 配套区共布置4栋宿舍楼及一栋综合楼，配套区设置一个主入口，面向锦绣
+21. 大道，综合楼正对主入口，形成大气的入口景观，宿舍楼布置在其东侧，远离市
+22. 政道路，环境幽静，宿舍楼面向南面，呈东西向平行布置，每一栋宿舍楼均可获
+23. 得最佳的采光朝向。
+24. 厂区平面布置见图3.6-1总平面布置图。
+25. 1.7.建设周期
+26. 本项目计划于2020年6月开工，2022年1月投产试运行，施工期18个月。
+27. 6

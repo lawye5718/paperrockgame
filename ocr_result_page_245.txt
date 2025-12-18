@@ -1,0 +1,195 @@
+OCR结果 - 第 245 页
+==================================================
+处理的图像: temp_page_244_processed.png
+原始PDF页面: 245
+
+详细结果:
+[{'input_path': 'temp_page_244_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[1367,   61],
+       ...,
+       [1374,  106]], shape=(4, 2), dtype=int16), array([[143, 153],
+       ...,
+       [143, 201]], shape=(4, 2), dtype=int16), array([[145, 218],
+       ...,
+       [145, 265]], shape=(4, 2), dtype=int16), array([[149, 281],
+       ...,
+       [147, 320]], shape=(4, 2), dtype=int16), array([[228, 347],
+       ...,
+       [228, 388]], shape=(4, 2), dtype=int16), array([[151, 400],
+       ...,
+       [151, 440]], shape=(4, 2), dtype=int16), array([[227, 456],
+       ...,
+       [227, 498]], shape=(4, 2), dtype=int16), array([[151, 509],
+       ...,
+       [151, 552]], shape=(4, 2), dtype=int16), array([[150, 563],
+       ...,
+       [150, 605]], shape=(4, 2), dtype=int16), array([[151, 619],
+       ...,
+       [151, 660]], shape=(4, 2), dtype=int16), array([[151, 673],
+       ...,
+       [151, 713]], shape=(4, 2), dtype=int16), array([[151, 728],
+       ...,
+       [151, 765]], shape=(4, 2), dtype=int16), array([[214, 784],
+       ...,
+       [213, 824]], shape=(4, 2), dtype=int16), array([[150, 840],
+       ...,
+       [150, 878]], shape=(4, 2), dtype=int16), array([[151, 896],
+       ...,
+       [151, 933]], shape=(4, 2), dtype=int16), array([[150, 952],
+       ...,
+       [150, 986]], shape=(4, 2), dtype=int16), array([[ 151, 1010],
+       ...,
+       [ 151, 1041]], shape=(4, 2), dtype=int16), array([[ 226, 1066],
+       ...,
+       [ 226, 1096]], shape=(4, 2), dtype=int16), array([[ 152, 1119],
+       ...,
+       [ 152, 1151]], shape=(4, 2), dtype=int16), array([[ 150, 1174],
+       ...,
+       [ 150, 1205]], shape=(4, 2), dtype=int16), array([[ 149, 1229],
+       ...,
+       [ 149, 1259]], shape=(4, 2), dtype=int16), array([[ 149, 1287],
+       ...,
+       [ 149, 1315]], shape=(4, 2), dtype=int16), array([[ 224, 1343],
+       ...,
+       [ 224, 1371]], shape=(4, 2), dtype=int16), array([[ 148, 1399],
+       ...,
+       [ 148, 1427]], shape=(4, 2), dtype=int16), array([[ 148, 1455],
+       ...,
+       [ 148, 1482]], shape=(4, 2), dtype=int16), array([[ 145, 1508],
+       ...,
+       [ 145, 1538]], shape=(4, 2), dtype=int16), array([[ 222, 1567],
+       ...,
+       [ 222, 1595]], shape=(4, 2), dtype=int16), array([[ 142, 1620],
+       ...,
+       [ 142, 1651]], shape=(4, 2), dtype=int16), array([[ 218, 1678],
+       ...,
+       [ 217, 1712]], shape=(4, 2), dtype=int16), array([[ 141, 1736],
+       ...,
+       [ 141, 1769]], shape=(4, 2), dtype=int16), array([[ 219, 1796],
+       ...,
+       [ 218, 1830]], shape=(4, 2), dtype=int16), array([[ 661, 1845],
+       ...,
+       [ 661, 1873]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['、', '准GB18597-2001》的要求设计，地面采用PE膜+环氧树脂进行防渗。危废暂存', '库四周设置经过PE膜+环氧树脂防渗、防腐处理的地沟，发生泄漏时通过地沟收', '集泄漏液。', '(2) 暂存库内的危险废物采取分类堆放，并设有隔离间隔断。每个部分都', '应有防漏裙脚，防漏裙脚的材料与危险废物相容，每个堆问应留有搬运通道。', '(3) 危险废物分类装入容器，容器及材质要满足相应的强度要求，装载危', '险废物的容器必须完好无损；对于各类废液，可注入开孔直径不超过70mm并有', '放气孔的桶中，容器顶部与液体表面之间保留100mm以上的空间，容器材质和衬', '里要与危险废物相互不反应：盛装危险废物的容器上必须粘贴清晰表明危险废物', '名称、种类、数量等的标签。对于在常温常压下不水解、不挥发的固体危险废物', '可在暂贮库分别堆放，无法装入常用容器的危险废物可用防漏胶袋等盛装。', '依据《危险废物贮存污染控制标准》中对危险废物贮存容器的规定，不锈钢', '罐存放有机废液，废酸罐材质为外面玻璃钢内层是FRP，保证盛装废液的容器满', '足相应的强度要求，并且与废液不互相反应。废液罐顶端设有水封装置，当废液', '增加时罐内废气排出由管道接入相应的有机废气或酸性废气处理装置处理，保证', '废液罐内废气不逸出。', '(4)禁止将不相容（相互反应）的危险废物在同一容器内混装。危险废物', '暂存库内清理出来的泄漏物，一律按危险废物处理。废液收集罐内设置废液侧漏', '感应监测系统，可以及时发现漏液并做出处理，使得废液泄漏不对周围环境产生', '影响。在废液收集罐存储区设有围堰，旦发生泄漏，废液将进入围堰，并设置', '有泵，泵会自动启动，把废液送入有机废水处理系统。', '（5）危险废物暂存库、污泥暂存区管理员须作好危险废物情况的记录，记', '录上须注明危险废物的名称、来源、数量、特性和包装容器的类别、入库日期、', '存放库位、废物出库日期及委托处置接收单位名称，危险废物的记录和货单在危', '险废物回取后应继续保留三年。', '（6)按国家污染源管理要求对危险废物贮存设施进行监测。', '3.5.3.2.危险废物收集、运输过程环境保护要求', '（1)危险废物必须妥善分类，并采用专用包装袋和周转箱、专用运输车运', '送到处置中心，装卸完成后对运输车辆进行消毒。', '(2)运输车上配置橡胶手套、工作手套、口罩、消毒水、急救药箱、灭火', '106'], 'rec_scores': [0.17997866868972778, 0.9868789315223694, 0.9986178874969482, 0.999008059501648, 0.9846314787864685, 0.9761065244674683, 0.9869711399078369, 0.9903237223625183, 0.9985248446464539, 0.9837728142738342, 0.9939684271812439, 0.9870695471763611, 0.9948790669441223, 0.9981486201286316, 0.9979784488677979, 0.9986376166343689, 0.953338623046875, 0.959057092666626, 0.9961360096931458, 0.9983953237533569, 0.9830939173698425, 0.9990196228027344, 0.9857057332992554, 0.9965011477470398, 0.9795399308204651, 0.998420238494873, 0.9614851474761963, 0.9741136431694031, 0.9726313948631287, 0.9987630248069763, 0.9869765043258667, 0.9996044635772705], 'rec_polys': [array([[1367,   61],
+       ...,
+       [1374,  106]], shape=(4, 2), dtype=int16), array([[143, 153],
+       ...,
+       [143, 201]], shape=(4, 2), dtype=int16), array([[145, 218],
+       ...,
+       [145, 265]], shape=(4, 2), dtype=int16), array([[149, 281],
+       ...,
+       [147, 320]], shape=(4, 2), dtype=int16), array([[228, 347],
+       ...,
+       [228, 388]], shape=(4, 2), dtype=int16), array([[151, 400],
+       ...,
+       [151, 440]], shape=(4, 2), dtype=int16), array([[227, 456],
+       ...,
+       [227, 498]], shape=(4, 2), dtype=int16), array([[151, 509],
+       ...,
+       [151, 552]], shape=(4, 2), dtype=int16), array([[150, 563],
+       ...,
+       [150, 605]], shape=(4, 2), dtype=int16), array([[151, 619],
+       ...,
+       [151, 660]], shape=(4, 2), dtype=int16), array([[151, 673],
+       ...,
+       [151, 713]], shape=(4, 2), dtype=int16), array([[151, 728],
+       ...,
+       [151, 765]], shape=(4, 2), dtype=int16), array([[214, 784],
+       ...,
+       [213, 824]], shape=(4, 2), dtype=int16), array([[150, 840],
+       ...,
+       [150, 878]], shape=(4, 2), dtype=int16), array([[151, 896],
+       ...,
+       [151, 933]], shape=(4, 2), dtype=int16), array([[150, 952],
+       ...,
+       [150, 986]], shape=(4, 2), dtype=int16), array([[ 151, 1010],
+       ...,
+       [ 151, 1041]], shape=(4, 2), dtype=int16), array([[ 226, 1066],
+       ...,
+       [ 226, 1096]], shape=(4, 2), dtype=int16), array([[ 152, 1119],
+       ...,
+       [ 152, 1151]], shape=(4, 2), dtype=int16), array([[ 150, 1174],
+       ...,
+       [ 150, 1205]], shape=(4, 2), dtype=int16), array([[ 149, 1229],
+       ...,
+       [ 149, 1259]], shape=(4, 2), dtype=int16), array([[ 149, 1287],
+       ...,
+       [ 149, 1315]], shape=(4, 2), dtype=int16), array([[ 224, 1343],
+       ...,
+       [ 224, 1371]], shape=(4, 2), dtype=int16), array([[ 148, 1399],
+       ...,
+       [ 148, 1427]], shape=(4, 2), dtype=int16), array([[ 148, 1455],
+       ...,
+       [ 148, 1482]], shape=(4, 2), dtype=int16), array([[ 145, 1508],
+       ...,
+       [ 145, 1538]], shape=(4, 2), dtype=int16), array([[ 222, 1567],
+       ...,
+       [ 222, 1595]], shape=(4, 2), dtype=int16), array([[ 142, 1620],
+       ...,
+       [ 142, 1651]], shape=(4, 2), dtype=int16), array([[ 218, 1678],
+       ...,
+       [ 217, 1712]], shape=(4, 2), dtype=int16), array([[ 141, 1736],
+       ...,
+       [ 141, 1769]], shape=(4, 2), dtype=int16), array([[ 219, 1796],
+       ...,
+       [ 218, 1830]], shape=(4, 2), dtype=int16), array([[ 661, 1845],
+       ...,
+       [ 661, 1873]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1367, ...,  106],
+       ...,
+       [ 661, ..., 1873]], shape=(32, 4), dtype=int16)}]
+
+解析后的文本:
+1. 、
+2. 准GB18597-2001》的要求设计，地面采用PE膜+环氧树脂进行防渗。危废暂存
+3. 库四周设置经过PE膜+环氧树脂防渗、防腐处理的地沟，发生泄漏时通过地沟收
+4. 集泄漏液。
+5. (2) 暂存库内的危险废物采取分类堆放，并设有隔离间隔断。每个部分都
+6. 应有防漏裙脚，防漏裙脚的材料与危险废物相容，每个堆问应留有搬运通道。
+7. (3) 危险废物分类装入容器，容器及材质要满足相应的强度要求，装载危
+8. 险废物的容器必须完好无损；对于各类废液，可注入开孔直径不超过70mm并有
+9. 放气孔的桶中，容器顶部与液体表面之间保留100mm以上的空间，容器材质和衬
+10. 里要与危险废物相互不反应：盛装危险废物的容器上必须粘贴清晰表明危险废物
+11. 名称、种类、数量等的标签。对于在常温常压下不水解、不挥发的固体危险废物
+12. 可在暂贮库分别堆放，无法装入常用容器的危险废物可用防漏胶袋等盛装。
+13. 依据《危险废物贮存污染控制标准》中对危险废物贮存容器的规定，不锈钢
+14. 罐存放有机废液，废酸罐材质为外面玻璃钢内层是FRP，保证盛装废液的容器满
+15. 足相应的强度要求，并且与废液不互相反应。废液罐顶端设有水封装置，当废液
+16. 增加时罐内废气排出由管道接入相应的有机废气或酸性废气处理装置处理，保证
+17. 废液罐内废气不逸出。
+18. (4)禁止将不相容（相互反应）的危险废物在同一容器内混装。危险废物
+19. 暂存库内清理出来的泄漏物，一律按危险废物处理。废液收集罐内设置废液侧漏
+20. 感应监测系统，可以及时发现漏液并做出处理，使得废液泄漏不对周围环境产生
+21. 影响。在废液收集罐存储区设有围堰，旦发生泄漏，废液将进入围堰，并设置
+22. 有泵，泵会自动启动，把废液送入有机废水处理系统。
+23. （5）危险废物暂存库、污泥暂存区管理员须作好危险废物情况的记录，记
+24. 录上须注明危险废物的名称、来源、数量、特性和包装容器的类别、入库日期、
+25. 存放库位、废物出库日期及委托处置接收单位名称，危险废物的记录和货单在危
+26. 险废物回取后应继续保留三年。
+27. （6)按国家污染源管理要求对危险废物贮存设施进行监测。
+28. 3.5.3.2.危险废物收集、运输过程环境保护要求
+29. （1)危险废物必须妥善分类，并采用专用包装袋和周转箱、专用运输车运
+30. 送到处置中心，装卸完成后对运输车辆进行消毒。
+31. (2)运输车上配置橡胶手套、工作手套、口罩、消毒水、急救药箱、灭火
+32. 106

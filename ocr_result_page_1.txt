@@ -1,0 +1,105 @@
+OCR结果 - 第 1 页
+==================================================
+处理的图像: temp_page_0_processed.png
+原始PDF页面: 1
+
+详细结果:
+[{'input_path': 'temp_page_0_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1413, 3), dtype=uint8)}, 'dt_polys': [array([[157, 197],
+       ...,
+       [152, 331]], shape=(4, 2), dtype=int16), array([[550, 498],
+       ...,
+       [549, 561]], shape=(4, 2), dtype=int16), array([[442, 620],
+       ...,
+       [441, 688]], shape=(4, 2), dtype=int16), array([[195, 855],
+       ...,
+       [194, 933]], shape=(4, 2), dtype=int16), array([[  40,  982],
+       ...,
+       [  40, 1053]], shape=(4, 2), dtype=int16), array([[  44, 1109],
+       ...,
+       [  44, 1176]], shape=(4, 2), dtype=int16), array([[  94, 1532],
+       ...,
+       [  94, 1585]], shape=(4, 2), dtype=int16), array([[ 836, 1534],
+       ...,
+       [ 836, 1588]], shape=(4, 2), dtype=int16), array([[1163, 1529],
+       ...,
+       [1162, 1590]], shape=(4, 2), dtype=int16), array([[  95, 1656],
+       ...,
+       [  94, 1715]], shape=(4, 2), dtype=int16), array([[ 831, 1659],
+       ...,
+       [ 831, 1716]], shape=(4, 2), dtype=int16), array([[ 868, 1805],
+       ...,
+       [ 869, 1848]], shape=(4, 2), dtype=int16), array([[1046, 1801],
+       ...,
+       [1048, 1845]], shape=(4, 2), dtype=int16), array([[1215, 1798],
+       ...,
+       [1214, 1842]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['西壮族自治区监察委员会', '二〇二五年', '第十二审查调查室', '自治区监委调查钦州市委原副书记、市', '人民政府原市长王雄昌涉嫌职务犯罪的移送', '卷一百三十八：滥用职权（六）言证', '自2025年4月至2025年5月', '保管期限', '永久', '本卷共20件119页', '归档号', '全宗号', '目录号', '案卷号'], 'rec_scores': [0.998220682144165, 0.9447494745254517, 0.9995095729827881, 0.9991903901100159, 0.9990674257278442, 0.9865505695343018, 0.9986377358436584, 0.9994881749153137, 0.9996926784515381, 0.9956344366073608, 0.9978492856025696, 0.9992280602455139, 0.9991111159324646, 0.9954090714454651], 'rec_polys': [array([[157, 197],
+       ...,
+       [152, 331]], shape=(4, 2), dtype=int16), array([[550, 498],
+       ...,
+       [549, 561]], shape=(4, 2), dtype=int16), array([[442, 620],
+       ...,
+       [441, 688]], shape=(4, 2), dtype=int16), array([[195, 855],
+       ...,
+       [194, 933]], shape=(4, 2), dtype=int16), array([[  40,  982],
+       ...,
+       [  40, 1053]], shape=(4, 2), dtype=int16), array([[  44, 1109],
+       ...,
+       [  44, 1176]], shape=(4, 2), dtype=int16), array([[  94, 1532],
+       ...,
+       [  94, 1585]], shape=(4, 2), dtype=int16), array([[ 836, 1534],
+       ...,
+       [ 836, 1588]], shape=(4, 2), dtype=int16), array([[1163, 1529],
+       ...,
+       [1162, 1590]], shape=(4, 2), dtype=int16), array([[  95, 1656],
+       ...,
+       [  94, 1715]], shape=(4, 2), dtype=int16), array([[ 831, 1659],
+       ...,
+       [ 831, 1716]], shape=(4, 2), dtype=int16), array([[ 868, 1805],
+       ...,
+       [ 869, 1848]], shape=(4, 2), dtype=int16), array([[1046, 1801],
+       ...,
+       [1048, 1845]], shape=(4, 2), dtype=int16), array([[1215, 1798],
+       ...,
+       [1214, 1842]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 152, ...,  374],
+       ...,
+       [1214, ..., 1845]], shape=(14, 4), dtype=int16)}]
+
+解析后的文本:
+1. 西壮族自治区监察委员会
+2. 二〇二五年
+3. 第十二审查调查室
+4. 自治区监委调查钦州市委原副书记、市
+5. 人民政府原市长王雄昌涉嫌职务犯罪的移送
+6. 卷一百三十八：滥用职权（六）言证
+7. 自2025年4月至2025年5月
+8. 保管期限
+9. 永久
+10. 本卷共20件119页
+11. 归档号
+12. 全宗号
+13. 目录号
+14. 案卷号

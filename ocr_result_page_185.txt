@@ -1,0 +1,190 @@
+OCR结果 - 第 185 页
+==================================================
+处理的图像: temp_page_184_processed.png
+原始PDF页面: 185
+
+详细结果:
+[{'input_path': 'temp_page_184_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[1341,   18],
+       ...,
+       [1341,   80]], shape=(4, 2), dtype=int16), array([[105, 140],
+       ...,
+       [105, 182]], shape=(4, 2), dtype=int16), array([[171, 204],
+       ...,
+       [171, 242]], shape=(4, 2), dtype=int16), array([[108, 264],
+       ...,
+       [108, 304]], shape=(4, 2), dtype=int16), array([[105, 323],
+       ...,
+       [105, 363]], shape=(4, 2), dtype=int16), array([[108, 382],
+       ...,
+       [108, 420]], shape=(4, 2), dtype=int16), array([[185, 441],
+       ...,
+       [185, 476]], shape=(4, 2), dtype=int16), array([[171, 498],
+       ...,
+       [171, 532]], shape=(4, 2), dtype=int16), array([[107, 551],
+       ...,
+       [106, 589]], shape=(4, 2), dtype=int16), array([[108, 611],
+       ...,
+       [107, 642]], shape=(4, 2), dtype=int16), array([[167, 668],
+       ...,
+       [167, 703]], shape=(4, 2), dtype=int16), array([[102, 727],
+       ...,
+       [102, 758]], shape=(4, 2), dtype=int16), array([[165, 777],
+       ...,
+       [165, 808]], shape=(4, 2), dtype=int16), array([[163, 843],
+       ...,
+       [163, 876]], shape=(4, 2), dtype=int16), array([[ 99, 899],
+       ...,
+       [ 98, 930]], shape=(4, 2), dtype=int16), array([[ 97, 957],
+       ...,
+       [ 96, 988]], shape=(4, 2), dtype=int16), array([[  92, 1009],
+       ...,
+       [  92, 1049]], shape=(4, 2), dtype=int16), array([[ 176, 1076],
+       ...,
+       [ 176, 1106]], shape=(4, 2), dtype=int16), array([[ 164, 1130],
+       ...,
+       [ 164, 1161]], shape=(4, 2), dtype=int16), array([[ 114, 1184],
+       ...,
+       [ 114, 1218]], shape=(4, 2), dtype=int16), array([[ 105, 1241],
+       ...,
+       [ 105, 1271]], shape=(4, 2), dtype=int16), array([[ 104, 1296],
+       ...,
+       [ 104, 1332]], shape=(4, 2), dtype=int16), array([[ 168, 1354],
+       ...,
+       [ 168, 1384]], shape=(4, 2), dtype=int16), array([[ 105, 1410],
+       ...,
+       [ 105, 1440]], shape=(4, 2), dtype=int16), array([[ 103, 1468],
+       ...,
+       [ 102, 1499]], shape=(4, 2), dtype=int16), array([[ 164, 1517],
+       ...,
+       [ 164, 1547]], shape=(4, 2), dtype=int16), array([[ 162, 1584],
+       ...,
+       [ 162, 1614]], shape=(4, 2), dtype=int16), array([[ 161, 1641],
+       ...,
+       [ 161, 1672]], shape=(4, 2), dtype=int16), array([[ 161, 1700],
+       ...,
+       [ 161, 1732]], shape=(4, 2), dtype=int16), array([[ 162, 1759],
+       ...,
+       [ 162, 1790]], shape=(4, 2), dtype=int16), array([[ 663, 1863],
+       ...,
+       [ 663, 1890]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['182', '2.2.2.彩膜工程工艺流程及主要产污环节', '彩膜工程的生产工序主要包括：清洗工序、制作黑色矩阵（BM）工序（光阻涂布、', '紫外曝光、显影、干燥)、R/G/B三基色制作工序（光阻涂布、紫外曝光、显影、干燥)、', 'OC制作工序（光阻涂布）、ITO电极溅射镀膜工序、PS制作工序（光阻涂布、紫外曝', '光、显影、干燥)。产生污染的主要环节如下:', '(1) 清洗工序', '清洗是CF生产过程中非常重要的一道生产环节，围绕玻璃面板进行，包括玻璃基', '板的清洗、BM黑色矩阵膜、R/G/B彩色矩阵膜、广视角MVA膜、导电ITO膜、PS膜', '等涂布前清洗，以及显影时清洗。', '基板清洗（Cleanning）是利用清洗液、纯水经湿式洗净机将玻璃基板上的残余物去', '除，故此过程会产生清洗废水。', '清洗工序污染源：', '清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系', '统，经处理后回用。排放的废水根据前道工序又分为：彩膜废水、有机废水，经收集后', '分别进入废水处理站处理后排放。各类排放废水的具体分析在相关工序的产污环节分析', '中。', '(2)黑色矩阵BM膜制造工序', '本项目拟采用目前较为先进的树脂制造黑色矩阵BM膜的工艺，涂覆黑色感光树脂', '(BM光刻胶)材料，经过掩膜板曝光、显影，在玻璃基板上生成黑色网格即黑矩阵膜。', '黑矩阵与像素的位置相对应，用于遮蔽像素交界处部分因液晶分子排列素乱等原因造成', '的漏光。', '光刻过程包括涂胶、曝光、显影，过程与阵列工程一致，不再赘述。光刻涂胶及干', '燥过程由于使用光刻胶、稀释剂等有机溶剂会产生有机废气：显影工序使用的显影剂会', '产生有机废液、碱性废气，清洗会产生彩膜废水。', '黑色矩阵BM膜制造工序污染源：', '废气：碱性废气G2，进入碱性废气处理系统集中处理后排放。', '有机废气G3，进入有机废气处理系统集中处理后排放。.', '废水：彩膜废水W3，进入彩膜废水处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置。', '46'], 'rec_scores': [0.7773012518882751, 0.9795141816139221, 0.9765341281890869, 0.9600477814674377, 0.9754096865653992, 0.9437423944473267, 0.8991403579711914, 0.9960811138153076, 0.981339156627655, 0.9974737167358398, 0.9795809388160706, 0.9974814057350159, 0.9873238801956177, 0.9983182549476624, 0.995497465133667, 0.9992805123329163, 0.9955555200576782, 0.9386701583862305, 0.9943768382072449, 0.9762182831764221, 0.9972794055938721, 0.9932742714881897, 0.9956814646720886, 0.9939805269241333, 0.9959161877632141, 0.9818823933601379, 0.9844464659690857, 0.9776673913002014, 0.9959434270858765, 0.9811348915100098, 0.9995913505554199], 'rec_polys': [array([[1341,   18],
+       ...,
+       [1341,   80]], shape=(4, 2), dtype=int16), array([[105, 140],
+       ...,
+       [105, 182]], shape=(4, 2), dtype=int16), array([[171, 204],
+       ...,
+       [171, 242]], shape=(4, 2), dtype=int16), array([[108, 264],
+       ...,
+       [108, 304]], shape=(4, 2), dtype=int16), array([[105, 323],
+       ...,
+       [105, 363]], shape=(4, 2), dtype=int16), array([[108, 382],
+       ...,
+       [108, 420]], shape=(4, 2), dtype=int16), array([[185, 441],
+       ...,
+       [185, 476]], shape=(4, 2), dtype=int16), array([[171, 498],
+       ...,
+       [171, 532]], shape=(4, 2), dtype=int16), array([[107, 551],
+       ...,
+       [106, 589]], shape=(4, 2), dtype=int16), array([[108, 611],
+       ...,
+       [107, 642]], shape=(4, 2), dtype=int16), array([[167, 668],
+       ...,
+       [167, 703]], shape=(4, 2), dtype=int16), array([[102, 727],
+       ...,
+       [102, 758]], shape=(4, 2), dtype=int16), array([[165, 777],
+       ...,
+       [165, 808]], shape=(4, 2), dtype=int16), array([[163, 843],
+       ...,
+       [163, 876]], shape=(4, 2), dtype=int16), array([[ 99, 899],
+       ...,
+       [ 98, 930]], shape=(4, 2), dtype=int16), array([[ 97, 957],
+       ...,
+       [ 96, 988]], shape=(4, 2), dtype=int16), array([[  92, 1009],
+       ...,
+       [  92, 1049]], shape=(4, 2), dtype=int16), array([[ 176, 1076],
+       ...,
+       [ 176, 1106]], shape=(4, 2), dtype=int16), array([[ 164, 1130],
+       ...,
+       [ 164, 1161]], shape=(4, 2), dtype=int16), array([[ 114, 1184],
+       ...,
+       [ 114, 1218]], shape=(4, 2), dtype=int16), array([[ 105, 1241],
+       ...,
+       [ 105, 1271]], shape=(4, 2), dtype=int16), array([[ 104, 1296],
+       ...,
+       [ 104, 1332]], shape=(4, 2), dtype=int16), array([[ 168, 1354],
+       ...,
+       [ 168, 1384]], shape=(4, 2), dtype=int16), array([[ 105, 1410],
+       ...,
+       [ 105, 1440]], shape=(4, 2), dtype=int16), array([[ 103, 1468],
+       ...,
+       [ 102, 1499]], shape=(4, 2), dtype=int16), array([[ 164, 1517],
+       ...,
+       [ 164, 1547]], shape=(4, 2), dtype=int16), array([[ 162, 1584],
+       ...,
+       [ 162, 1614]], shape=(4, 2), dtype=int16), array([[ 161, 1641],
+       ...,
+       [ 161, 1672]], shape=(4, 2), dtype=int16), array([[ 161, 1700],
+       ...,
+       [ 161, 1732]], shape=(4, 2), dtype=int16), array([[ 162, 1759],
+       ...,
+       [ 162, 1790]], shape=(4, 2), dtype=int16), array([[ 663, 1863],
+       ...,
+       [ 663, 1890]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1341, ...,   80],
+       ...,
+       [ 663, ..., 1890]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 182
+2. 2.2.2.彩膜工程工艺流程及主要产污环节
+3. 彩膜工程的生产工序主要包括：清洗工序、制作黑色矩阵（BM）工序（光阻涂布、
+4. 紫外曝光、显影、干燥)、R/G/B三基色制作工序（光阻涂布、紫外曝光、显影、干燥)、
+5. OC制作工序（光阻涂布）、ITO电极溅射镀膜工序、PS制作工序（光阻涂布、紫外曝
+6. 光、显影、干燥)。产生污染的主要环节如下:
+7. (1) 清洗工序
+8. 清洗是CF生产过程中非常重要的一道生产环节，围绕玻璃面板进行，包括玻璃基
+9. 板的清洗、BM黑色矩阵膜、R/G/B彩色矩阵膜、广视角MVA膜、导电ITO膜、PS膜
+10. 等涂布前清洗，以及显影时清洗。
+11. 基板清洗（Cleanning）是利用清洗液、纯水经湿式洗净机将玻璃基板上的残余物去
+12. 除，故此过程会产生清洗废水。
+13. 清洗工序污染源：
+14. 清洗工序排水分为可回用水和排放废水。可回用水经收集后进入工艺清洗水回收系
+15. 统，经处理后回用。排放的废水根据前道工序又分为：彩膜废水、有机废水，经收集后
+16. 分别进入废水处理站处理后排放。各类排放废水的具体分析在相关工序的产污环节分析
+17. 中。
+18. (2)黑色矩阵BM膜制造工序
+19. 本项目拟采用目前较为先进的树脂制造黑色矩阵BM膜的工艺，涂覆黑色感光树脂
+20. (BM光刻胶)材料，经过掩膜板曝光、显影，在玻璃基板上生成黑色网格即黑矩阵膜。
+21. 黑矩阵与像素的位置相对应，用于遮蔽像素交界处部分因液晶分子排列素乱等原因造成
+22. 的漏光。
+23. 光刻过程包括涂胶、曝光、显影，过程与阵列工程一致，不再赘述。光刻涂胶及干
+24. 燥过程由于使用光刻胶、稀释剂等有机溶剂会产生有机废气：显影工序使用的显影剂会
+25. 产生有机废液、碱性废气，清洗会产生彩膜废水。
+26. 黑色矩阵BM膜制造工序污染源：
+27. 废气：碱性废气G2，进入碱性废气处理系统集中处理后排放。
+28. 有机废气G3，进入有机废气处理系统集中处理后排放。.
+29. 废水：彩膜废水W3，进入彩膜废水处理系统集中处理后排放。
+30. 固体废物：有机废液S2，作为危废废物收集、处置。
+31. 46

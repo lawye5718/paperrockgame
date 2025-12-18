@@ -1,0 +1,130 @@
+OCR结果 - 第 165 页
+==================================================
+处理的图像: temp_page_164_processed.png
+原始PDF页面: 165
+
+详细结果:
+[{'input_path': 'temp_page_164_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[190, 151],
+       ...,
+       [189, 199]], shape=(4, 2), dtype=int16), array([[192, 229],
+       ...,
+       [191, 279]], shape=(4, 2), dtype=int16), array([[196, 292],
+       ...,
+       [196, 341]], shape=(4, 2), dtype=int16), array([[1014,  662],
+       ...,
+       [1014,  700]], shape=(4, 2), dtype=int16), array([[ 216,  987],
+       ...,
+       [ 215, 1007]], shape=(4, 2), dtype=int16), array([[ 433,  989],
+       ...,
+       [ 433, 1003]], shape=(4, 2), dtype=int16), array([[ 595,  989],
+       ...,
+       [ 595, 1003]], shape=(4, 2), dtype=int16), array([[ 215, 1016],
+       ...,
+       [ 215, 1036]], shape=(4, 2), dtype=int16), array([[ 376, 1016],
+       ...,
+       [ 376, 1034]], shape=(4, 2), dtype=int16), array([[ 427, 1013],
+       ...,
+       [ 428, 1035]], shape=(4, 2), dtype=int16), array([[ 214, 1043],
+       ...,
+       [ 214, 1060]], shape=(4, 2), dtype=int16), array([[ 430, 1040],
+       ...,
+       [ 430, 1059]], shape=(4, 2), dtype=int16), array([[ 213, 1070],
+       ...,
+       [ 213, 1088]], shape=(4, 2), dtype=int16), array([[ 427, 1067],
+       ...,
+       [ 427, 1089]], shape=(4, 2), dtype=int16), array([[ 499, 1124],
+       ...,
+       [ 499, 1152]], shape=(4, 2), dtype=int16), array([[ 148, 1171],
+       ...,
+       [ 148, 1203]], shape=(4, 2), dtype=int16), array([[ 208, 1224],
+       ...,
+       [ 208, 1271]], shape=(4, 2), dtype=int16), array([[ 143, 1282],
+       ...,
+       [ 143, 1327]], shape=(4, 2), dtype=int16), array([[ 694, 1970],
+       ...,
+       [ 694, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['该调压站计划于2016年10月竣工。', '③建设进展', '规划管网目前处于建设阶段。', '本项目', '燃气鸟中压调压站', '动气', '保', '规地气息压管递', 'D+200', '串气管径', '重状气中压营源', '内源', '酷气中压主干需', '淘城', '图1.9-3项目周边燃气供应管网图', '1.9.2.5.工艺气体供应', '大宗气体(氮气、氧气、氢气、氩气、氮气)全部由专业气体公司供应，在厂', '区南侧设置大宗气站，采用空气分离的方式制取大宗气体，供应厂区工艺是需求。', '25'], 'rec_scores': [0.9817860126495361, 0.9995624423027039, 0.9795213341712952, 0.9998745918273926, 0.8116858601570129, 0.6348734498023987, 0.2026863992214203, 0.6113714575767517, 0.8305862545967102, 0.7462835311889648, 0.7951245307922363, 0.6387970447540283, 0.770241916179657, 0.4744848310947418, 0.9966791868209839, 0.9855884909629822, 0.9357612729072571, 0.9858484268188477, 0.9998549222946167], 'rec_polys': [array([[190, 151],
+       ...,
+       [189, 199]], shape=(4, 2), dtype=int16), array([[192, 229],
+       ...,
+       [191, 279]], shape=(4, 2), dtype=int16), array([[196, 292],
+       ...,
+       [196, 341]], shape=(4, 2), dtype=int16), array([[1014,  662],
+       ...,
+       [1014,  700]], shape=(4, 2), dtype=int16), array([[ 216,  987],
+       ...,
+       [ 215, 1007]], shape=(4, 2), dtype=int16), array([[ 433,  989],
+       ...,
+       [ 433, 1003]], shape=(4, 2), dtype=int16), array([[ 595,  989],
+       ...,
+       [ 595, 1003]], shape=(4, 2), dtype=int16), array([[ 215, 1016],
+       ...,
+       [ 215, 1036]], shape=(4, 2), dtype=int16), array([[ 376, 1016],
+       ...,
+       [ 376, 1034]], shape=(4, 2), dtype=int16), array([[ 427, 1013],
+       ...,
+       [ 428, 1035]], shape=(4, 2), dtype=int16), array([[ 214, 1043],
+       ...,
+       [ 214, 1060]], shape=(4, 2), dtype=int16), array([[ 430, 1040],
+       ...,
+       [ 430, 1059]], shape=(4, 2), dtype=int16), array([[ 213, 1070],
+       ...,
+       [ 213, 1088]], shape=(4, 2), dtype=int16), array([[ 427, 1067],
+       ...,
+       [ 427, 1089]], shape=(4, 2), dtype=int16), array([[ 499, 1124],
+       ...,
+       [ 499, 1152]], shape=(4, 2), dtype=int16), array([[ 148, 1171],
+       ...,
+       [ 148, 1203]], shape=(4, 2), dtype=int16), array([[ 208, 1224],
+       ...,
+       [ 208, 1271]], shape=(4, 2), dtype=int16), array([[ 143, 1282],
+       ...,
+       [ 143, 1327]], shape=(4, 2), dtype=int16), array([[ 694, 1970],
+       ...,
+       [ 694, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 189, ...,  209],
+       ...,
+       [ 694, ..., 2000]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 该调压站计划于2016年10月竣工。
+2. ③建设进展
+3. 规划管网目前处于建设阶段。
+4. 本项目
+5. 燃气鸟中压调压站
+6. 动气
+7. 保
+8. 规地气息压管递
+9. D+200
+10. 串气管径
+11. 重状气中压营源
+12. 内源
+13. 酷气中压主干需
+14. 淘城
+15. 图1.9-3项目周边燃气供应管网图
+16. 1.9.2.5.工艺气体供应
+17. 大宗气体(氮气、氧气、氢气、氩气、氮气)全部由专业气体公司供应，在厂
+18. 区南侧设置大宗气站，采用空气分离的方式制取大宗气体，供应厂区工艺是需求。
+19. 25

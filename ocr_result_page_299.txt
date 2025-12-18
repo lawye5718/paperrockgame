@@ -1,0 +1,125 @@
+OCR结果 - 第 299 页
+==================================================
+处理的图像: temp_page_298_processed.png
+原始PDF页面: 299
+
+详细结果:
+[{'input_path': 'temp_page_298_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[485, 108],
+       ...,
+       [484, 169]], shape=(4, 2), dtype=int16), array([[529, 184],
+       ...,
+       [527, 274]], shape=(4, 2), dtype=int16), array([[789, 393],
+       ...,
+       [789, 448]], shape=(4, 2), dtype=int16), array([[159, 532],
+       ...,
+       [157, 597]], shape=(4, 2), dtype=int16), array([[250, 634],
+       ...,
+       [250, 684]], shape=(4, 2), dtype=int16), array([[162, 716],
+       ...,
+       [162, 764]], shape=(4, 2), dtype=int16), array([[173, 783],
+       ...,
+       [171, 854]], shape=(4, 2), dtype=int16), array([[1197,  898],
+       ...,
+       [1196,  950]], shape=(4, 2), dtype=int16), array([[ 152,  974],
+       ...,
+       [ 152, 1028]], shape=(4, 2), dtype=int16), array([[ 151, 1057],
+       ...,
+       [ 149, 1110]], shape=(4, 2), dtype=int16), array([[1219, 1275],
+       ...,
+       [1219, 1318]], shape=(4, 2), dtype=int16), array([[ 817, 1570],
+       ...,
+       [ 817, 1620]], shape=(4, 2), dtype=int16), array([[ 545, 1621],
+       ...,
+       [ 545, 1649]], shape=(4, 2), dtype=int16), array([[ 954, 1645],
+       ...,
+       [ 952, 1721]], shape=(4, 2), dtype=int16), array([[ 497, 1655],
+       ...,
+       [ 497, 1711]], shape=(4, 2), dtype=int16), array([[ 510, 1713],
+       ...,
+       [ 510, 1743]], shape=(4, 2), dtype=int16), array([[ 768, 1706],
+       ...,
+       [ 768, 1741]], shape=(4, 2), dtype=int16), array([[ 594, 1760],
+       ...,
+       [ 595, 1818]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西壮族自治区监察委员会', '调取证据通知书', '桂监调证〔2025】120946号', '广西中铁州产国区泰成投资有限公司', '根据《中华人民共和国监察法》第十八条第一款、第二十八', '条第一款之规定，我委需要对在你处的下列证据材料：', '关球嘉超薄玻璃基板深加工厂房代建项目资全用情况', '予以调取。', '请将上列证据材料和调取证据通知书回执于25年7月16日', '前送交我委。', '目', '日收到。', '心', '费H', '提供证据的单位或者个人：', '11', 'J', '第二联时卷'], 'rec_scores': [0.9975634217262268, 0.9996939897537231, 0.9324743747711182, 0.6897560358047485, 0.9990915060043335, 0.9882391095161438, 0.6018562316894531, 0.9958224296569824, 0.9562395811080933, 0.9983617663383484, 0.4781920909881592, 0.9980054497718811, 0.16610155999660492, 0.2941725254058838, 0.9641022086143494, 0.5176621675491333, 0.1868392676115036, 0.8980594873428345], 'rec_polys': [array([[485, 108],
+       ...,
+       [484, 169]], shape=(4, 2), dtype=int16), array([[529, 184],
+       ...,
+       [527, 274]], shape=(4, 2), dtype=int16), array([[789, 393],
+       ...,
+       [789, 448]], shape=(4, 2), dtype=int16), array([[159, 532],
+       ...,
+       [157, 597]], shape=(4, 2), dtype=int16), array([[250, 634],
+       ...,
+       [250, 684]], shape=(4, 2), dtype=int16), array([[162, 716],
+       ...,
+       [162, 764]], shape=(4, 2), dtype=int16), array([[173, 783],
+       ...,
+       [171, 854]], shape=(4, 2), dtype=int16), array([[1197,  898],
+       ...,
+       [1196,  950]], shape=(4, 2), dtype=int16), array([[ 152,  974],
+       ...,
+       [ 152, 1028]], shape=(4, 2), dtype=int16), array([[ 151, 1057],
+       ...,
+       [ 149, 1110]], shape=(4, 2), dtype=int16), array([[1219, 1275],
+       ...,
+       [1219, 1318]], shape=(4, 2), dtype=int16), array([[ 817, 1570],
+       ...,
+       [ 817, 1620]], shape=(4, 2), dtype=int16), array([[ 545, 1621],
+       ...,
+       [ 545, 1649]], shape=(4, 2), dtype=int16), array([[ 954, 1645],
+       ...,
+       [ 952, 1721]], shape=(4, 2), dtype=int16), array([[ 497, 1655],
+       ...,
+       [ 497, 1711]], shape=(4, 2), dtype=int16), array([[ 510, 1713],
+       ...,
+       [ 510, 1743]], shape=(4, 2), dtype=int16), array([[ 768, 1706],
+       ...,
+       [ 768, 1741]], shape=(4, 2), dtype=int16), array([[ 594, 1760],
+       ...,
+       [ 595, 1818]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'rec_boxes': array([[ 484, ...,  181],
+       ...,
+       [ 594, ..., 1818]], shape=(18, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西壮族自治区监察委员会
+2. 调取证据通知书
+3. 桂监调证〔2025】120946号
+4. 广西中铁州产国区泰成投资有限公司
+5. 根据《中华人民共和国监察法》第十八条第一款、第二十八
+6. 条第一款之规定，我委需要对在你处的下列证据材料：
+7. 关球嘉超薄玻璃基板深加工厂房代建项目资全用情况
+8. 予以调取。
+9. 请将上列证据材料和调取证据通知书回执于25年7月16日
+10. 前送交我委。
+11. 目
+12. 日收到。
+13. 心
+14. 费H
+15. 提供证据的单位或者个人：
+16. 11
+17. J
+18. 第二联时卷

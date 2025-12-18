@@ -1,0 +1,150 @@
+OCR结果 - 第 124 页
+==================================================
+处理的图像: temp_page_123_processed.png
+原始PDF页面: 124
+
+详细结果:
+[{'input_path': 'temp_page_123_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[254, ..., 254],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1298,    4],
+       ...,
+       [1298,   61]], shape=(4, 2), dtype=int16), array([[145, 180],
+       ...,
+       [146, 229]], shape=(4, 2), dtype=int16), array([[224, 253],
+       ...,
+       [225, 301]], shape=(4, 2), dtype=int16), array([[226, 327],
+       ...,
+       [226, 374]], shape=(4, 2), dtype=int16), array([[147, 398],
+       ...,
+       [148, 443]], shape=(4, 2), dtype=int16), array([[150, 469],
+       ...,
+       [149, 510]], shape=(4, 2), dtype=int16), array([[227, 541],
+       ...,
+       [227, 583]], shape=(4, 2), dtype=int16), array([[227, 613],
+       ...,
+       [227, 653]], shape=(4, 2), dtype=int16), array([[149, 681],
+       ...,
+       [148, 722]], shape=(4, 2), dtype=int16), array([[148, 753],
+       ...,
+       [147, 794]], shape=(4, 2), dtype=int16), array([[148, 823],
+       ...,
+       [147, 866]], shape=(4, 2), dtype=int16), array([[229, 898],
+       ...,
+       [230, 940]], shape=(4, 2), dtype=int16), array([[ 229,  969],
+       ...,
+       [ 229, 1010]], shape=(4, 2), dtype=int16), array([[ 153, 1038],
+       ...,
+       [ 153, 1079]], shape=(4, 2), dtype=int16), array([[ 152, 1105],
+       ...,
+       [ 151, 1146]], shape=(4, 2), dtype=int16), array([[ 155, 1173],
+       ...,
+       [ 154, 1214]], shape=(4, 2), dtype=int16), array([[ 154, 1244],
+       ...,
+       [ 153, 1284]], shape=(4, 2), dtype=int16), array([[ 155, 1314],
+       ...,
+       [ 154, 1355]], shape=(4, 2), dtype=int16), array([[ 227, 1454],
+       ...,
+       [ 226, 1496]], shape=(4, 2), dtype=int16), array([[ 419, 1525],
+       ...,
+       [ 418, 1569]], shape=(4, 2), dtype=int16), array([[ 419, 1595],
+       ...,
+       [ 418, 1640]], shape=(4, 2), dtype=int16), array([[ 417, 1671],
+       ...,
+       [ 417, 1716]], shape=(4, 2), dtype=int16), array([[ 216, 1738],
+       ...,
+       [ 215, 1785]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['12', '司相关手续。', '五、关于项目用地土地平整', '会议要求，请社会服务局主动与泰嘉公司对接，了解项目', '规划、设计情况，与泰嘉公司确定剩余地块是否需要回填，配', '合项目建设计划，尽快完成土地平整工作，并达到交付条件。', '六、关于服务招聘事宜', '会议要求，请组织人事处主动与泰嘉公司对接，详细向企', '业介绍园区的社会保险及人才引进政策，了解企业人才需求情', '况及人才引进计划，整合现有招聘资源和渠道，将泰嘉公司的', '招聘纳入园区统一招聘计划，尽快帮助企业解决人才招聘困难。', '七、关于建设高效沟通服务机制', '会议提出，请泰嘉公司根据项目实际情况，尽快确定项目', '推进计划，按推进计划加快各项工作推进，取得实际成效及时', '将项目的进展情况和工作成果报项目服务领导小组知悉，对项', '目推进过程中遇到的困难和问题，可随时向项目服务领导小组', '反映，以便领导小组及相关服务单位及时了解情况，第一时间', '协调、解决，推动项目按计划早开工、早建设。', '参会人员：经济发展局张本生、杨喜强，国土市政规划局韩文', '兵，财政局吴锡东，投资合作局覃耿、郭庆辉，组', '织人事处钟桂连，社会服务局张建德，行政审', '批服务局柯钧、张波。', '列席人员：广西泰嘉光电科技有限公司张致嘉、黄敏。'], 'rec_scores': [0.7451316118240356, 0.999214231967926, 0.9987173676490784, 0.9983421564102173, 0.9972800612449646, 0.9988086819648743, 0.997120201587677, 0.9988293647766113, 0.9970831274986267, 0.997704029083252, 0.9982242584228516, 0.9985547065734863, 0.9978362917900085, 0.9980601072311401, 0.9984898567199707, 0.9965497255325317, 0.9976792931556702, 0.9973763823509216, 0.989200234413147, 0.9863870143890381, 0.9940268397331238, 0.9805103540420532, 0.9934902191162109], 'rec_polys': [array([[1298,    4],
+       ...,
+       [1298,   61]], shape=(4, 2), dtype=int16), array([[145, 180],
+       ...,
+       [146, 229]], shape=(4, 2), dtype=int16), array([[224, 253],
+       ...,
+       [225, 301]], shape=(4, 2), dtype=int16), array([[226, 327],
+       ...,
+       [226, 374]], shape=(4, 2), dtype=int16), array([[147, 398],
+       ...,
+       [148, 443]], shape=(4, 2), dtype=int16), array([[150, 469],
+       ...,
+       [149, 510]], shape=(4, 2), dtype=int16), array([[227, 541],
+       ...,
+       [227, 583]], shape=(4, 2), dtype=int16), array([[227, 613],
+       ...,
+       [227, 653]], shape=(4, 2), dtype=int16), array([[149, 681],
+       ...,
+       [148, 722]], shape=(4, 2), dtype=int16), array([[148, 753],
+       ...,
+       [147, 794]], shape=(4, 2), dtype=int16), array([[148, 823],
+       ...,
+       [147, 866]], shape=(4, 2), dtype=int16), array([[229, 898],
+       ...,
+       [230, 940]], shape=(4, 2), dtype=int16), array([[ 229,  969],
+       ...,
+       [ 229, 1010]], shape=(4, 2), dtype=int16), array([[ 153, 1038],
+       ...,
+       [ 153, 1079]], shape=(4, 2), dtype=int16), array([[ 152, 1105],
+       ...,
+       [ 151, 1146]], shape=(4, 2), dtype=int16), array([[ 155, 1173],
+       ...,
+       [ 154, 1214]], shape=(4, 2), dtype=int16), array([[ 154, 1244],
+       ...,
+       [ 153, 1284]], shape=(4, 2), dtype=int16), array([[ 155, 1314],
+       ...,
+       [ 154, 1355]], shape=(4, 2), dtype=int16), array([[ 227, 1454],
+       ...,
+       [ 226, 1496]], shape=(4, 2), dtype=int16), array([[ 419, 1525],
+       ...,
+       [ 418, 1569]], shape=(4, 2), dtype=int16), array([[ 419, 1595],
+       ...,
+       [ 418, 1640]], shape=(4, 2), dtype=int16), array([[ 417, 1671],
+       ...,
+       [ 417, 1716]], shape=(4, 2), dtype=int16), array([[ 216, 1738],
+       ...,
+       [ 215, 1785]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1298, ...,   61],
+       ...,
+       [ 215, ..., 1809]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 12
+2. 司相关手续。
+3. 五、关于项目用地土地平整
+4. 会议要求，请社会服务局主动与泰嘉公司对接，了解项目
+5. 规划、设计情况，与泰嘉公司确定剩余地块是否需要回填，配
+6. 合项目建设计划，尽快完成土地平整工作，并达到交付条件。
+7. 六、关于服务招聘事宜
+8. 会议要求，请组织人事处主动与泰嘉公司对接，详细向企
+9. 业介绍园区的社会保险及人才引进政策，了解企业人才需求情
+10. 况及人才引进计划，整合现有招聘资源和渠道，将泰嘉公司的
+11. 招聘纳入园区统一招聘计划，尽快帮助企业解决人才招聘困难。
+12. 七、关于建设高效沟通服务机制
+13. 会议提出，请泰嘉公司根据项目实际情况，尽快确定项目
+14. 推进计划，按推进计划加快各项工作推进，取得实际成效及时
+15. 将项目的进展情况和工作成果报项目服务领导小组知悉，对项
+16. 目推进过程中遇到的困难和问题，可随时向项目服务领导小组
+17. 反映，以便领导小组及相关服务单位及时了解情况，第一时间
+18. 协调、解决，推动项目按计划早开工、早建设。
+19. 参会人员：经济发展局张本生、杨喜强，国土市政规划局韩文
+20. 兵，财政局吴锡东，投资合作局覃耿、郭庆辉，组
+21. 织人事处钟桂连，社会服务局张建德，行政审
+22. 批服务局柯钧、张波。
+23. 列席人员：广西泰嘉光电科技有限公司张致嘉、黄敏。

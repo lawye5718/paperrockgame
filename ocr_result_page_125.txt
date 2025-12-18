@@ -1,0 +1,155 @@
+OCR结果 - 第 125 页
+==================================================
+处理的图像: temp_page_124_processed.png
+原始PDF页面: 125
+
+详细结果:
+[{'input_path': 'temp_page_124_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1289,   53],
+       ...,
+       [1289,  179]], shape=(4, 2), dtype=int16), array([[150, 160],
+       ...,
+       [147, 277]], shape=(4, 2), dtype=int16), array([[774, 336],
+       ...,
+       [773, 394]], shape=(4, 2), dtype=int16), array([[332, 411],
+       ...,
+       [331, 484]], shape=(4, 2), dtype=int16), array([[545, 477],
+       ...,
+       [544, 548]], shape=(4, 2), dtype=int16), array([[199, 620],
+       ...,
+       [199, 661]], shape=(4, 2), dtype=int16), array([[282, 683],
+       ...,
+       [282, 728]], shape=(4, 2), dtype=int16), array([[199, 745],
+       ...,
+       [199, 789]], shape=(4, 2), dtype=int16), array([[200, 807],
+       ...,
+       [200, 853]], shape=(4, 2), dtype=int16), array([[199, 868],
+       ...,
+       [199, 915]], shape=(4, 2), dtype=int16), array([[198, 932],
+       ...,
+       [198, 980]], shape=(4, 2), dtype=int16), array([[   0,  982],
+       ...,
+       [   0, 1010]], shape=(4, 2), dtype=int16), array([[ 200,  999],
+       ...,
+       [ 200, 1036]], shape=(4, 2), dtype=int16), array([[ 275, 1058],
+       ...,
+       [ 275, 1104]], shape=(4, 2), dtype=int16), array([[ 197, 1121],
+       ...,
+       [ 197, 1165]], shape=(4, 2), dtype=int16), array([[ 195, 1184],
+       ...,
+       [ 195, 1229]], shape=(4, 2), dtype=int16), array([[ 196, 1246],
+       ...,
+       [ 196, 1287]], shape=(4, 2), dtype=int16), array([[ 266, 1312],
+       ...,
+       [ 266, 1356]], shape=(4, 2), dtype=int16), array([[ 192, 1376],
+       ...,
+       [ 192, 1417]], shape=(4, 2), dtype=int16), array([[ 269, 1437],
+       ...,
+       [ 269, 1482]], shape=(4, 2), dtype=int16), array([[ 184, 1501],
+       ...,
+       [ 184, 1546]], shape=(4, 2), dtype=int16), array([[ 255, 1628],
+       ...,
+       [ 256, 1683]], shape=(4, 2), dtype=int16), array([[ 172, 1690],
+       ...,
+       [ 172, 1748]], shape=(4, 2), dtype=int16), array([[ 874, 1827],
+       ...,
+       [ 876, 1886]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['123', '中国一马来西亚钦州产业园区管理委员会财政局', '中马园财局发【2019]29号', '关于下达超薄玻璃基板深加工项目', '扶持资金的通知', '广西泰嘉光电科技有限公司：', '根据中马钦州产业园区管委会2019年第2次主任办公会议', '精神，现下达你公司超薄玻璃基板深加工项目扶持资金3000万', '元，从2017年中央补助资金（产业扶持基金）中列支。此项经', '费列入2019年政府收支功能分类科目“2120399其他城乡社区', '公共设施支出”、政府经济分类科目“50799其他对企业补助”。', '[', '现就有关事项通知如下：', '一、请按照《关于修订中马钦州产业园区中央财政补助资', '金管理暂行办法的通知》（桂财预【2016]17号）等有关规定', '使用资金，切实加强资金管理，资金一经下达，不得随意调整，', '确保专款专用、发挥实效。', '二、请认真做好财政补助资金使用绩效自评，真实、完整', '地保存相关资料档案，以备查验。', '三、我局将对项目建设进行跟踪管理，对资金的管理和使', '用进行监督检查，保证资金安全和规范使用。', '附件：关于修订中马钦州产业园区中央财政补助资金管理', '暂行办法的通知(桂财预2016]17号）', '2019年月2日'], 'rec_scores': [0.9947568774223328, 0.9923833012580872, 0.891971230506897, 0.9985512495040894, 0.999729573726654, 0.9916176199913025, 0.9975128173828125, 0.9946507215499878, 0.9751375913619995, 0.9908740520477295, 0.9889088869094849, 0.5243327617645264, 0.991338312625885, 0.9948602914810181, 0.9511492252349854, 0.9973167777061462, 0.997018575668335, 0.9963555932044983, 0.9969193935394287, 0.9983922839164734, 0.9991112947463989, 0.9929121136665344, 0.9263105392456055, 0.8746966123580933], 'rec_polys': [array([[1289,   53],
+       ...,
+       [1289,  179]], shape=(4, 2), dtype=int16), array([[150, 160],
+       ...,
+       [147, 277]], shape=(4, 2), dtype=int16), array([[774, 336],
+       ...,
+       [773, 394]], shape=(4, 2), dtype=int16), array([[332, 411],
+       ...,
+       [331, 484]], shape=(4, 2), dtype=int16), array([[545, 477],
+       ...,
+       [544, 548]], shape=(4, 2), dtype=int16), array([[199, 620],
+       ...,
+       [199, 661]], shape=(4, 2), dtype=int16), array([[282, 683],
+       ...,
+       [282, 728]], shape=(4, 2), dtype=int16), array([[199, 745],
+       ...,
+       [199, 789]], shape=(4, 2), dtype=int16), array([[200, 807],
+       ...,
+       [200, 853]], shape=(4, 2), dtype=int16), array([[199, 868],
+       ...,
+       [199, 915]], shape=(4, 2), dtype=int16), array([[198, 932],
+       ...,
+       [198, 980]], shape=(4, 2), dtype=int16), array([[   0,  982],
+       ...,
+       [   0, 1010]], shape=(4, 2), dtype=int16), array([[ 200,  999],
+       ...,
+       [ 200, 1036]], shape=(4, 2), dtype=int16), array([[ 275, 1058],
+       ...,
+       [ 275, 1104]], shape=(4, 2), dtype=int16), array([[ 197, 1121],
+       ...,
+       [ 197, 1165]], shape=(4, 2), dtype=int16), array([[ 195, 1184],
+       ...,
+       [ 195, 1229]], shape=(4, 2), dtype=int16), array([[ 196, 1246],
+       ...,
+       [ 196, 1287]], shape=(4, 2), dtype=int16), array([[ 266, 1312],
+       ...,
+       [ 266, 1356]], shape=(4, 2), dtype=int16), array([[ 192, 1376],
+       ...,
+       [ 192, 1417]], shape=(4, 2), dtype=int16), array([[ 269, 1437],
+       ...,
+       [ 269, 1482]], shape=(4, 2), dtype=int16), array([[ 184, 1501],
+       ...,
+       [ 184, 1546]], shape=(4, 2), dtype=int16), array([[ 255, 1628],
+       ...,
+       [ 256, 1683]], shape=(4, 2), dtype=int16), array([[ 172, 1690],
+       ...,
+       [ 172, 1748]], shape=(4, 2), dtype=int16), array([[ 874, 1827],
+       ...,
+       [ 876, 1886]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1289, ...,  179],
+       ...,
+       [ 874, ..., 1886]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 123
+2. 中国一马来西亚钦州产业园区管理委员会财政局
+3. 中马园财局发【2019]29号
+4. 关于下达超薄玻璃基板深加工项目
+5. 扶持资金的通知
+6. 广西泰嘉光电科技有限公司：
+7. 根据中马钦州产业园区管委会2019年第2次主任办公会议
+8. 精神，现下达你公司超薄玻璃基板深加工项目扶持资金3000万
+9. 元，从2017年中央补助资金（产业扶持基金）中列支。此项经
+10. 费列入2019年政府收支功能分类科目“2120399其他城乡社区
+11. 公共设施支出”、政府经济分类科目“50799其他对企业补助”。
+12. [
+13. 现就有关事项通知如下：
+14. 一、请按照《关于修订中马钦州产业园区中央财政补助资
+15. 金管理暂行办法的通知》（桂财预【2016]17号）等有关规定
+16. 使用资金，切实加强资金管理，资金一经下达，不得随意调整，
+17. 确保专款专用、发挥实效。
+18. 二、请认真做好财政补助资金使用绩效自评，真实、完整
+19. 地保存相关资料档案，以备查验。
+20. 三、我局将对项目建设进行跟踪管理，对资金的管理和使
+21. 用进行监督检查，保证资金安全和规范使用。
+22. 附件：关于修订中马钦州产业园区中央财政补助资金管理
+23. 暂行办法的通知(桂财预2016]17号）
+24. 2019年月2日

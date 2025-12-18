@@ -1,0 +1,190 @@
+OCR结果 - 第 240 页
+==================================================
+处理的图像: temp_page_239_processed.png
+原始PDF页面: 240
+
+详细结果:
+[{'input_path': 'temp_page_239_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[207, 155],
+       ...,
+       [207, 200]], shape=(4, 2), dtype=int16), array([[130, 219],
+       ...,
+       [130, 259]], shape=(4, 2), dtype=int16), array([[213, 286],
+       ...,
+       [213, 324]], shape=(4, 2), dtype=int16), array([[134, 343],
+       ...,
+       [134, 384]], shape=(4, 2), dtype=int16), array([[139, 404],
+       ...,
+       [139, 435]], shape=(4, 2), dtype=int16), array([[216, 461],
+       ...,
+       [216, 493]], shape=(4, 2), dtype=int16), array([[215, 518],
+       ...,
+       [215, 552]], shape=(4, 2), dtype=int16), array([[138, 572],
+       ...,
+       [138, 607]], shape=(4, 2), dtype=int16), array([[139, 630],
+       ...,
+       [139, 664]], shape=(4, 2), dtype=int16), array([[145, 690],
+       ...,
+       [145, 720]], shape=(4, 2), dtype=int16), array([[221, 748],
+       ...,
+       [221, 781]], shape=(4, 2), dtype=int16), array([[145, 805],
+       ...,
+       [145, 836]], shape=(4, 2), dtype=int16), array([[205, 864],
+       ...,
+       [205, 897]], shape=(4, 2), dtype=int16), array([[207, 922],
+       ...,
+       [207, 953]], shape=(4, 2), dtype=int16), array([[ 148,  979],
+       ...,
+       [ 148, 1010]], shape=(4, 2), dtype=int16), array([[ 210, 1038],
+       ...,
+       [ 210, 1065]], shape=(4, 2), dtype=int16), array([[ 145, 1088],
+       ...,
+       [ 145, 1126]], shape=(4, 2), dtype=int16), array([[ 226, 1148],
+       ...,
+       [ 226, 1178]], shape=(4, 2), dtype=int16), array([[ 151, 1203],
+       ...,
+       [ 151, 1233]], shape=(4, 2), dtype=int16), array([[ 150, 1256],
+       ...,
+       [ 150, 1287]], shape=(4, 2), dtype=int16), array([[ 225, 1314],
+       ...,
+       [ 225, 1345]], shape=(4, 2), dtype=int16), array([[ 148, 1365],
+       ...,
+       [ 148, 1403]], shape=(4, 2), dtype=int16), array([[ 149, 1422],
+       ...,
+       [ 149, 1453]], shape=(4, 2), dtype=int16), array([[ 228, 1483],
+       ...,
+       [ 228, 1510]], shape=(4, 2), dtype=int16), array([[ 149, 1534],
+       ...,
+       [ 149, 1566]], shape=(4, 2), dtype=int16), array([[ 223, 1592],
+       ...,
+       [ 223, 1622]], shape=(4, 2), dtype=int16), array([[ 143, 1647],
+       ...,
+       [ 143, 1682]], shape=(4, 2), dtype=int16), array([[ 207, 1707],
+       ...,
+       [ 206, 1739]], shape=(4, 2), dtype=int16), array([[ 208, 1762],
+       ...,
+       [ 208, 1796]], shape=(4, 2), dtype=int16), array([[ 148, 1819],
+       ...,
+       [ 148, 1852]], shape=(4, 2), dtype=int16), array([[ 673, 1863],
+       ...,
+       [ 673, 1891]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['(1) 力学性能高：环氧树脂具有很强的内聚力，分子结构致密，所以它的', '力学性能高于酚醛树脂和不饱和聚酯等通用型热固性树脂。', '(2) 附着力强：环氧树脂固化体系中含有活性极大的环氧基、羟基以及醚', '键、胺键、酯键等极性基团，赋子环氧固化物对金属、陶瓷、玻璃、混凝士、木', '材等极性基材以优良的附着力。', '(3)优良的电绝缘性：环氧树脂是热固性树脂中介电性能最好的品种之一。', '(4)稳定性好，抗化学药品性优良：环氧固化物具有优良的化学稳定性。', '其耐碱、酸、盐等多种介质腐蚀的性能优于不饱和聚酯树脂、酚醛树脂等热固性', '树脂。因此环氧树脂大量用作防腐蚀底漆，又因环氧树脂固化物呈三维网状结构，', '义能耐油类等的浸渍，大量应用于油槽、油轮、飞机的整体油箱内璧衬里等。', '(5)耐热性好：环氧固化物的耐热性一般为80~100℃。环氧树脂的耐热品', '种可达200℃或更高。', '2、PE膜', 'PE膜即聚乙烯膜，是塑料材料中用量最大的品种，它是由聚乙烯合成的高', '分子材料。基本分为两类：低密度聚乙烯LDPE；高密度聚乙烯HDPE。', 'PE膜化学稳定性好，具有较高的刚性和韧性，机械强度好，其具有以下特', '点：', '（1)防渗系数高：PE防渗膜具有普通防水材料无法比拟的防渗效果，PE防', '渗膜具有高强抗拉伸机械性，它优良的弹性和变形能力使其非常适用于膨胀或收', '缩基面，可有效克服基面的不均匀沉降。', '（2)化学稳定性：具有优异的化学稳定性，被广泛用于污水处理，化学反', '应池，垃圾填埋场。耐高低温，耐沥青，油及焦油，耐酸、碱、盐等80多种强酸', '强碱化学介质腐蚀。', '（3）耐老化性能：具有优秀的抗老化、抗紫外线、抗分解能力，可裸露使', '用，为环境防渗提供很好的材料保证。', '(4)高机械强度：具有良好机械强度，断裂拉伸强度28MP，断裂延伸率', '700%.', '3、FRP', 'FRP，纤维增强复合塑料，中文称做玻璃钢。FRP复合材料是由纤维材料与', '基体材料按一定的比例混合，经过特别的模具挤压、拉拔而形成的高性能型材料。', '101'], 'rec_scores': [0.9721832275390625, 0.998318076133728, 0.9730602502822876, 0.9828112721443176, 0.9899610280990601, 0.9703329801559448, 0.9868786931037903, 0.9963314533233643, 0.9890594482421875, 0.9590888023376465, 0.9693190455436707, 0.9732845425605774, 0.9985953569412231, 0.9948242902755737, 0.9719274044036865, 0.9964963793754578, 0.8316062688827515, 0.9749683737754822, 0.9986645579338074, 0.997455358505249, 0.9728338122367859, 0.9800390601158142, 0.9985300898551941, 0.9818057417869568, 0.9985637664794922, 0.9825330376625061, 0.914707362651825, 0.9972041249275208, 0.9941055178642273, 0.9922996163368225, 0.9993991851806641], 'rec_polys': [array([[207, 155],
+       ...,
+       [207, 200]], shape=(4, 2), dtype=int16), array([[130, 219],
+       ...,
+       [130, 259]], shape=(4, 2), dtype=int16), array([[213, 286],
+       ...,
+       [213, 324]], shape=(4, 2), dtype=int16), array([[134, 343],
+       ...,
+       [134, 384]], shape=(4, 2), dtype=int16), array([[139, 404],
+       ...,
+       [139, 435]], shape=(4, 2), dtype=int16), array([[216, 461],
+       ...,
+       [216, 493]], shape=(4, 2), dtype=int16), array([[215, 518],
+       ...,
+       [215, 552]], shape=(4, 2), dtype=int16), array([[138, 572],
+       ...,
+       [138, 607]], shape=(4, 2), dtype=int16), array([[139, 630],
+       ...,
+       [139, 664]], shape=(4, 2), dtype=int16), array([[145, 690],
+       ...,
+       [145, 720]], shape=(4, 2), dtype=int16), array([[221, 748],
+       ...,
+       [221, 781]], shape=(4, 2), dtype=int16), array([[145, 805],
+       ...,
+       [145, 836]], shape=(4, 2), dtype=int16), array([[205, 864],
+       ...,
+       [205, 897]], shape=(4, 2), dtype=int16), array([[207, 922],
+       ...,
+       [207, 953]], shape=(4, 2), dtype=int16), array([[ 148,  979],
+       ...,
+       [ 148, 1010]], shape=(4, 2), dtype=int16), array([[ 210, 1038],
+       ...,
+       [ 210, 1065]], shape=(4, 2), dtype=int16), array([[ 145, 1088],
+       ...,
+       [ 145, 1126]], shape=(4, 2), dtype=int16), array([[ 226, 1148],
+       ...,
+       [ 226, 1178]], shape=(4, 2), dtype=int16), array([[ 151, 1203],
+       ...,
+       [ 151, 1233]], shape=(4, 2), dtype=int16), array([[ 150, 1256],
+       ...,
+       [ 150, 1287]], shape=(4, 2), dtype=int16), array([[ 225, 1314],
+       ...,
+       [ 225, 1345]], shape=(4, 2), dtype=int16), array([[ 148, 1365],
+       ...,
+       [ 148, 1403]], shape=(4, 2), dtype=int16), array([[ 149, 1422],
+       ...,
+       [ 149, 1453]], shape=(4, 2), dtype=int16), array([[ 228, 1483],
+       ...,
+       [ 228, 1510]], shape=(4, 2), dtype=int16), array([[ 149, 1534],
+       ...,
+       [ 149, 1566]], shape=(4, 2), dtype=int16), array([[ 223, 1592],
+       ...,
+       [ 223, 1622]], shape=(4, 2), dtype=int16), array([[ 143, 1647],
+       ...,
+       [ 143, 1682]], shape=(4, 2), dtype=int16), array([[ 207, 1707],
+       ...,
+       [ 206, 1739]], shape=(4, 2), dtype=int16), array([[ 208, 1762],
+       ...,
+       [ 208, 1796]], shape=(4, 2), dtype=int16), array([[ 148, 1819],
+       ...,
+       [ 148, 1852]], shape=(4, 2), dtype=int16), array([[ 673, 1863],
+       ...,
+       [ 673, 1891]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 207, ...,  200],
+       ...,
+       [ 673, ..., 1891]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. (1) 力学性能高：环氧树脂具有很强的内聚力，分子结构致密，所以它的
+2. 力学性能高于酚醛树脂和不饱和聚酯等通用型热固性树脂。
+3. (2) 附着力强：环氧树脂固化体系中含有活性极大的环氧基、羟基以及醚
+4. 键、胺键、酯键等极性基团，赋子环氧固化物对金属、陶瓷、玻璃、混凝士、木
+5. 材等极性基材以优良的附着力。
+6. (3)优良的电绝缘性：环氧树脂是热固性树脂中介电性能最好的品种之一。
+7. (4)稳定性好，抗化学药品性优良：环氧固化物具有优良的化学稳定性。
+8. 其耐碱、酸、盐等多种介质腐蚀的性能优于不饱和聚酯树脂、酚醛树脂等热固性
+9. 树脂。因此环氧树脂大量用作防腐蚀底漆，又因环氧树脂固化物呈三维网状结构，
+10. 义能耐油类等的浸渍，大量应用于油槽、油轮、飞机的整体油箱内璧衬里等。
+11. (5)耐热性好：环氧固化物的耐热性一般为80~100℃。环氧树脂的耐热品
+12. 种可达200℃或更高。
+13. 2、PE膜
+14. PE膜即聚乙烯膜，是塑料材料中用量最大的品种，它是由聚乙烯合成的高
+15. 分子材料。基本分为两类：低密度聚乙烯LDPE；高密度聚乙烯HDPE。
+16. PE膜化学稳定性好，具有较高的刚性和韧性，机械强度好，其具有以下特
+17. 点：
+18. （1)防渗系数高：PE防渗膜具有普通防水材料无法比拟的防渗效果，PE防
+19. 渗膜具有高强抗拉伸机械性，它优良的弹性和变形能力使其非常适用于膨胀或收
+20. 缩基面，可有效克服基面的不均匀沉降。
+21. （2)化学稳定性：具有优异的化学稳定性，被广泛用于污水处理，化学反
+22. 应池，垃圾填埋场。耐高低温，耐沥青，油及焦油，耐酸、碱、盐等80多种强酸
+23. 强碱化学介质腐蚀。
+24. （3）耐老化性能：具有优秀的抗老化、抗紫外线、抗分解能力，可裸露使
+25. 用，为环境防渗提供很好的材料保证。
+26. (4)高机械强度：具有良好机械强度，断裂拉伸强度28MP，断裂延伸率
+27. 700%.
+28. 3、FRP
+29. FRP，纤维增强复合塑料，中文称做玻璃钢。FRP复合材料是由纤维材料与
+30. 基体材料按一定的比例混合，经过特别的模具挤压、拉拔而形成的高性能型材料。
+31. 101

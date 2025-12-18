@@ -1,0 +1,190 @@
+OCR结果 - 第 219 页
+==================================================
+处理的图像: temp_page_218_processed.png
+原始PDF页面: 219
+
+详细结果:
+[{'input_path': 'temp_page_218_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[1395,   42],
+       ...,
+       [1395,   78]], shape=(4, 2), dtype=int16), array([[139, 167],
+       ...,
+       [139, 217]], shape=(4, 2), dtype=int16), array([[142, 236],
+       ...,
+       [142, 280]], shape=(4, 2), dtype=int16), array([[145, 303],
+       ...,
+       [145, 340]], shape=(4, 2), dtype=int16), array([[146, 368],
+       ...,
+       [146, 402]], shape=(4, 2), dtype=int16), array([[212, 417],
+       ...,
+       [212, 451]], shape=(4, 2), dtype=int16), array([[149, 474],
+       ...,
+       [149, 508]], shape=(4, 2), dtype=int16), array([[211, 542],
+       ...,
+       [211, 576]], shape=(4, 2), dtype=int16), array([[227, 601],
+       ...,
+       [227, 635]], shape=(4, 2), dtype=int16), array([[211, 656],
+       ...,
+       [211, 690]], shape=(4, 2), dtype=int16), array([[148, 711],
+       ...,
+       [148, 749]], shape=(4, 2), dtype=int16), array([[149, 773],
+       ...,
+       [149, 804]], shape=(4, 2), dtype=int16), array([[212, 832],
+       ...,
+       [212, 863]], shape=(4, 2), dtype=int16), array([[213, 888],
+       ...,
+       [213, 919]], shape=(4, 2), dtype=int16), array([[148, 942],
+       ...,
+       [148, 976]], shape=(4, 2), dtype=int16), array([[ 215, 1006],
+       ...,
+       [ 215, 1030]], shape=(4, 2), dtype=int16), array([[ 150, 1056],
+       ...,
+       [ 149, 1087]], shape=(4, 2), dtype=int16), array([[ 212, 1117],
+       ...,
+       [ 212, 1145]], shape=(4, 2), dtype=int16), array([[ 212, 1170],
+       ...,
+       [ 212, 1200]], shape=(4, 2), dtype=int16), array([[ 150, 1223],
+       ...,
+       [ 150, 1257]], shape=(4, 2), dtype=int16), array([[ 150, 1280],
+       ...,
+       [ 150, 1314]], shape=(4, 2), dtype=int16), array([[ 151, 1337],
+       ...,
+       [ 151, 1368]], shape=(4, 2), dtype=int16), array([[ 146, 1388],
+       ...,
+       [ 146, 1426]], shape=(4, 2), dtype=int16), array([[ 211, 1447],
+       ...,
+       [ 211, 1478]], shape=(4, 2), dtype=int16), array([[ 150, 1499],
+       ...,
+       [ 150, 1530]], shape=(4, 2), dtype=int16), array([[ 208, 1553],
+       ...,
+       [ 208, 1590]], shape=(4, 2), dtype=int16), array([[ 145, 1602],
+       ...,
+       [ 145, 1646]], shape=(4, 2), dtype=int16), array([[ 145, 1657],
+       ...,
+       [ 145, 1702]], shape=(4, 2), dtype=int16), array([[ 144, 1715],
+       ...,
+       [ 144, 1758]], shape=(4, 2), dtype=int16), array([[ 223, 1774],
+       ...,
+       [ 221, 1812]], shape=(4, 2), dtype=int16), array([[ 666, 1873],
+       ...,
+       [ 666, 1904]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2', '空泵、水泵等强噪声源均布置在密闭厂房内；冷却塔布置在动力厂房楼顶，冷却', '塔选用低噪声设备；风机选用低噪声设备、设备基础加减振垫、进出口采用软连', '接并加装消声器、加装隔声罩。', '2.5.5.固体废物产生、治理措施及排放情况分析', '本项目建成投产后，产生的固体废物分为一般工业固体废物、危险废物和生', '活垃圾，产生量合计71703.8t/a。固废分类、来源、产生量及处置情况见表2.5-15。', '现将本项目固体废物产生及排放情况分类核算如下：', '(1)一般工业固体废物', '共33277Ua，包括生产过程中产生的一般工业固体废物、废水处理过程中产', '生的污泥。生产过程中产生的一般工业固体废物暂存于危险品库内，废水处理污', '泥暂存于废水站污泥间内。', '1）生产过程中产生的一般工业固体废物', '本项目生产准备及工艺过程中产生的一般工业固体废物主要包括：废包装材', '料、残次品及废玻璃、废背光源、金属边框、偏光片、屏蔽盖板等生产废物。', '上述固体废物因其尚有一定的回收利用价值，因此将由专业废品回收公司进', '行回收处理。', '2）废水处理过程中产生的污泥', '本项目废水处理站的含磷废水、含氟废水、彩膜废水处理系统产生的污泥作', '为一般固废进行管理。根据合肥京东方6代线、10.5代线的运行情况来看，成分', '为磷酸钙、磷酸钙、颜料，不属于危险废物鉴别标准中的有毒物质，作为一般固', '废进行管理。由于污泥产生量较大，必须加以综合利用，实现废弃物的资源化利', '用。', '物化废水处理系统产生的污泥采用板框压滤方式脱水、有机废水处理系统产', '生的污泥采用离心分离方式脱水。', '类比同类型的京东方各工厂种各类污泥的处理方式：B1（北京）、B4（北', '京)：水泥厂处置，B2（成都)：用于建材的原料，B3（合肥）、B5（合肥)：', '用于建材、肥料的原料，B6（鄂尔多斯）：卫生填埋，B8（重庆）：水泥厂燃', '烧处理。从各厂的处置方式来看，水泥厂燃烧及用于建材制作是比较常用的方法。', '(2) 危险废物', '80'], 'rec_scores': [0.4436025619506836, 0.9899479746818542, 0.9919962286949158, 0.9964660406112671, 0.9773247838020325, 0.9860086441040039, 0.9752171635627747, 0.9926626086235046, 0.9759818911552429, 0.9818085432052612, 0.998018741607666, 0.9987009167671204, 0.9747595191001892, 0.9910368323326111, 0.9969807863235474, 0.9968159794807434, 0.998856782913208, 0.9924814105033875, 0.9828330278396606, 0.9851365089416504, 0.9853652119636536, 0.9976146221160889, 0.9925647377967834, 0.9978069067001343, 0.9989656805992126, 0.9782282710075378, 0.9094873666763306, 0.9563283920288086, 0.9830635786056519, 0.9217627644538879, 0.9993548393249512], 'rec_polys': [array([[1395,   42],
+       ...,
+       [1395,   78]], shape=(4, 2), dtype=int16), array([[139, 167],
+       ...,
+       [139, 217]], shape=(4, 2), dtype=int16), array([[142, 236],
+       ...,
+       [142, 280]], shape=(4, 2), dtype=int16), array([[145, 303],
+       ...,
+       [145, 340]], shape=(4, 2), dtype=int16), array([[146, 368],
+       ...,
+       [146, 402]], shape=(4, 2), dtype=int16), array([[212, 417],
+       ...,
+       [212, 451]], shape=(4, 2), dtype=int16), array([[149, 474],
+       ...,
+       [149, 508]], shape=(4, 2), dtype=int16), array([[211, 542],
+       ...,
+       [211, 576]], shape=(4, 2), dtype=int16), array([[227, 601],
+       ...,
+       [227, 635]], shape=(4, 2), dtype=int16), array([[211, 656],
+       ...,
+       [211, 690]], shape=(4, 2), dtype=int16), array([[148, 711],
+       ...,
+       [148, 749]], shape=(4, 2), dtype=int16), array([[149, 773],
+       ...,
+       [149, 804]], shape=(4, 2), dtype=int16), array([[212, 832],
+       ...,
+       [212, 863]], shape=(4, 2), dtype=int16), array([[213, 888],
+       ...,
+       [213, 919]], shape=(4, 2), dtype=int16), array([[148, 942],
+       ...,
+       [148, 976]], shape=(4, 2), dtype=int16), array([[ 215, 1006],
+       ...,
+       [ 215, 1030]], shape=(4, 2), dtype=int16), array([[ 150, 1056],
+       ...,
+       [ 149, 1087]], shape=(4, 2), dtype=int16), array([[ 212, 1117],
+       ...,
+       [ 212, 1145]], shape=(4, 2), dtype=int16), array([[ 212, 1170],
+       ...,
+       [ 212, 1200]], shape=(4, 2), dtype=int16), array([[ 150, 1223],
+       ...,
+       [ 150, 1257]], shape=(4, 2), dtype=int16), array([[ 150, 1280],
+       ...,
+       [ 150, 1314]], shape=(4, 2), dtype=int16), array([[ 151, 1337],
+       ...,
+       [ 151, 1368]], shape=(4, 2), dtype=int16), array([[ 146, 1388],
+       ...,
+       [ 146, 1426]], shape=(4, 2), dtype=int16), array([[ 211, 1447],
+       ...,
+       [ 211, 1478]], shape=(4, 2), dtype=int16), array([[ 150, 1499],
+       ...,
+       [ 150, 1530]], shape=(4, 2), dtype=int16), array([[ 208, 1553],
+       ...,
+       [ 208, 1590]], shape=(4, 2), dtype=int16), array([[ 145, 1602],
+       ...,
+       [ 145, 1646]], shape=(4, 2), dtype=int16), array([[ 145, 1657],
+       ...,
+       [ 145, 1702]], shape=(4, 2), dtype=int16), array([[ 144, 1715],
+       ...,
+       [ 144, 1758]], shape=(4, 2), dtype=int16), array([[ 223, 1774],
+       ...,
+       [ 221, 1812]], shape=(4, 2), dtype=int16), array([[ 666, 1873],
+       ...,
+       [ 666, 1904]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1395, ...,   78],
+       ...,
+       [ 666, ..., 1904]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2
+2. 空泵、水泵等强噪声源均布置在密闭厂房内；冷却塔布置在动力厂房楼顶，冷却
+3. 塔选用低噪声设备；风机选用低噪声设备、设备基础加减振垫、进出口采用软连
+4. 接并加装消声器、加装隔声罩。
+5. 2.5.5.固体废物产生、治理措施及排放情况分析
+6. 本项目建成投产后，产生的固体废物分为一般工业固体废物、危险废物和生
+7. 活垃圾，产生量合计71703.8t/a。固废分类、来源、产生量及处置情况见表2.5-15。
+8. 现将本项目固体废物产生及排放情况分类核算如下：
+9. (1)一般工业固体废物
+10. 共33277Ua，包括生产过程中产生的一般工业固体废物、废水处理过程中产
+11. 生的污泥。生产过程中产生的一般工业固体废物暂存于危险品库内，废水处理污
+12. 泥暂存于废水站污泥间内。
+13. 1）生产过程中产生的一般工业固体废物
+14. 本项目生产准备及工艺过程中产生的一般工业固体废物主要包括：废包装材
+15. 料、残次品及废玻璃、废背光源、金属边框、偏光片、屏蔽盖板等生产废物。
+16. 上述固体废物因其尚有一定的回收利用价值，因此将由专业废品回收公司进
+17. 行回收处理。
+18. 2）废水处理过程中产生的污泥
+19. 本项目废水处理站的含磷废水、含氟废水、彩膜废水处理系统产生的污泥作
+20. 为一般固废进行管理。根据合肥京东方6代线、10.5代线的运行情况来看，成分
+21. 为磷酸钙、磷酸钙、颜料，不属于危险废物鉴别标准中的有毒物质，作为一般固
+22. 废进行管理。由于污泥产生量较大，必须加以综合利用，实现废弃物的资源化利
+23. 用。
+24. 物化废水处理系统产生的污泥采用板框压滤方式脱水、有机废水处理系统产
+25. 生的污泥采用离心分离方式脱水。
+26. 类比同类型的京东方各工厂种各类污泥的处理方式：B1（北京）、B4（北
+27. 京)：水泥厂处置，B2（成都)：用于建材的原料，B3（合肥）、B5（合肥)：
+28. 用于建材、肥料的原料，B6（鄂尔多斯）：卫生填埋，B8（重庆）：水泥厂燃
+29. 烧处理。从各厂的处置方式来看，水泥厂燃烧及用于建材制作是比较常用的方法。
+30. (2) 危险废物
+31. 80

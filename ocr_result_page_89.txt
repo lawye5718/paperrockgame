@@ -1,0 +1,220 @@
+OCR结果 - 第 89 页
+==================================================
+处理的图像: temp_page_88_processed.png
+原始PDF页面: 89
+
+详细结果:
+[{'input_path': 'temp_page_88_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[119,  35],
+       ...,
+       [118,  73]], shape=(4, 2), dtype=int16), array([[973,  36],
+       ...,
+       [975,  77]], shape=(4, 2), dtype=int16), array([[1311,   32],
+       ...,
+       [1301,  136]], shape=(4, 2), dtype=int16), array([[182, 145],
+       ...,
+       [183, 203]], shape=(4, 2), dtype=int16), array([[130, 211],
+       ...,
+       [129, 252]], shape=(4, 2), dtype=int16), array([[187, 286],
+       ...,
+       [188, 331]], shape=(4, 2), dtype=int16), array([[129, 337],
+       ...,
+       [128, 375]], shape=(4, 2), dtype=int16), array([[193, 402],
+       ...,
+       [193, 433]], shape=(4, 2), dtype=int16), array([[189, 456],
+       ...,
+       [188, 491]], shape=(4, 2), dtype=int16), array([[188, 513],
+       ...,
+       [188, 546]], shape=(4, 2), dtype=int16), array([[126, 613],
+       ...,
+       [126, 661]], shape=(4, 2), dtype=int16), array([[452, 662],
+       ...,
+       [452, 685]], shape=(4, 2), dtype=int16), array([[193, 685],
+       ...,
+       [193, 716]], shape=(4, 2), dtype=int16), array([[192, 742],
+       ...,
+       [193, 776]], shape=(4, 2), dtype=int16), array([[204, 800],
+       ...,
+       [204, 831]], shape=(4, 2), dtype=int16), array([[193, 858],
+       ...,
+       [193, 890]], shape=(4, 2), dtype=int16), array([[204, 923],
+       ...,
+       [204, 953]], shape=(4, 2), dtype=int16), array([[ 193,  979],
+       ...,
+       [ 193, 1013]], shape=(4, 2), dtype=int16), array([[ 206, 1041],
+       ...,
+       [ 206, 1072]], shape=(4, 2), dtype=int16), array([[ 196, 1099],
+       ...,
+       [ 196, 1129]], shape=(4, 2), dtype=int16), array([[ 133, 1152],
+       ...,
+       [ 133, 1182]], shape=(4, 2), dtype=int16), array([[ 197, 1208],
+       ...,
+       [ 197, 1238]], shape=(4, 2), dtype=int16), array([[ 210, 1263],
+       ...,
+       [ 210, 1294]], shape=(4, 2), dtype=int16), array([[ 133, 1315],
+       ...,
+       [ 133, 1349]], shape=(4, 2), dtype=int16), array([[ 134, 1371],
+       ...,
+       [ 134, 1402]], shape=(4, 2), dtype=int16), array([[ 209, 1435],
+       ...,
+       [ 209, 1466]], shape=(4, 2), dtype=int16), array([[ 207, 1495],
+       ...,
+       [ 207, 1526]], shape=(4, 2), dtype=int16), array([[ 132, 1548],
+       ...,
+       [ 132, 1581]], shape=(4, 2), dtype=int16), array([[ 206, 1610],
+       ...,
+       [ 206, 1641]], shape=(4, 2), dtype=int16), array([[ 132, 1669],
+       ...,
+       [ 132, 1701]], shape=(4, 2), dtype=int16), array([[ 192, 1733],
+       ...,
+       [ 192, 1767]], shape=(4, 2), dtype=int16), array([[ 192, 1793],
+       ...,
+       [ 192, 1825]], shape=(4, 2), dtype=int16), array([[ 128, 1918],
+       ...,
+       [ 125, 1961]], shape=(4, 2), dtype=int16), array([[ 204, 1930],
+       ...,
+       [ 204, 1962]], shape=(4, 2), dtype=int16), array([[ 592, 1934],
+       ...,
+       [ 592, 1965]], shape=(4, 2), dtype=int16), array([[1216, 1945],
+       ...,
+       [1216, 1978]], shape=(4, 2), dtype=int16), array([[ 127, 1963],
+       ...,
+       [ 126, 1981]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西泰襄光电科技有限公司机器设备价值评估', '中阳评报字[2019]第205号', '87', '2、无重大变化假设：是假定国家有关利率、汇率、赋税基准及税率、政策性征收费', '用等不发生重大变化。', '3、无不利影响假设：是假定无其他人力不可抗拒因素及不可预见因素对产权持有人', '的待估资产造成重大不利影响。', '当上述评估假设发生变化时，评估结论一般会失效。', '十、评估结论', '经评估后，委托评估的广西钦州保税港区尊绅贸易有限公司第二期出资投入广西泰', '的评估结果为1064065029.00元', '1', '各项目评估结论详见附后资产清查评估明细表。', '十一、特别事项说明', '(一)产权瑕疵', '本评估机构和资产评估师不发表关于评估对象产权方面问题的意见。', '（二）未决事项、法律纠纷等不确定因素', '本项目评估涉及的资产无资产评估师知悉的未决事项，法律纠纷等不确定因素。', '（三）重大期后事项；', '本项目采用成本法进行评估，在评估基准日至评估报告有效期内，资产价格标准发生', '重大变化，并对评估结论产生严重影响时，委托方应及时聘请评估机构重新确定评估结论。', '十二、评估报告使用限制说明', '（一）本评估报告只能用于评估报告载明的评估目的和用途，当用于其它目的，本报', '告评估结果无效：由使用者错误用于其他目的和用途所导致的有关损失，评估机构和资产', '评估师不承担责任。', '（二）本评估报告只能由评估报告载明的评估报告使用者使用。', '(三）未征得出具评估报告的评估机构同意，评估报告的内容不得被摘抄、引用或披', '露于公开媒体，法律、法规规定以及相关当事方另有约定的除外。', '（四）本资产评估报告自评估基准日起有效期为一年，只有当评估基准日与经济行为', '实现日相距不超过一年时，才可以使用评估报告。', '十三、评估报告日', '本评估报告日为2019年3月18日，于该日期，资产评估师形成最终专业意见.', '2', '广西中阳资产评估事务所有限公司', 'anyli Dogig As fgmisnl amiere Oa,Ld', '-2', ''], 'rec_scores': [0.9189389944076538, 0.9384681582450867, 0.8624769449234009, 0.9951326251029968, 0.9957559704780579, 0.9932689070701599, 0.9961727857589722, 0.993851363658905, 0.9983810782432556, 0.9935579299926758, 0.8667532205581665, 0.6393758058547974, 0.9597595930099487, 0.9970678687095642, 0.8540100455284119, 0.99718177318573, 0.9765670299530029, 0.9835915565490723, 0.9658842086791992, 0.9979026317596436, 0.9796954989433289, 0.9768149852752686, 0.9798719882965088, 0.9852494597434998, 0.9860546588897705, 0.9795061349868774, 0.9644287824630737, 0.9915599226951599, 0.9733119606971741, 0.9957124590873718, 0.9968349933624268, 0.9791225790977478, 0.5589504241943359, 0.9776248931884766, 0.46934738755226135, 0.7540216445922852, 0.0], 'rec_polys': [array([[119,  35],
+       ...,
+       [118,  73]], shape=(4, 2), dtype=int16), array([[973,  36],
+       ...,
+       [975,  77]], shape=(4, 2), dtype=int16), array([[1311,   32],
+       ...,
+       [1301,  136]], shape=(4, 2), dtype=int16), array([[182, 145],
+       ...,
+       [183, 203]], shape=(4, 2), dtype=int16), array([[130, 211],
+       ...,
+       [129, 252]], shape=(4, 2), dtype=int16), array([[187, 286],
+       ...,
+       [188, 331]], shape=(4, 2), dtype=int16), array([[129, 337],
+       ...,
+       [128, 375]], shape=(4, 2), dtype=int16), array([[193, 402],
+       ...,
+       [193, 433]], shape=(4, 2), dtype=int16), array([[189, 456],
+       ...,
+       [188, 491]], shape=(4, 2), dtype=int16), array([[188, 513],
+       ...,
+       [188, 546]], shape=(4, 2), dtype=int16), array([[126, 613],
+       ...,
+       [126, 661]], shape=(4, 2), dtype=int16), array([[452, 662],
+       ...,
+       [452, 685]], shape=(4, 2), dtype=int16), array([[193, 685],
+       ...,
+       [193, 716]], shape=(4, 2), dtype=int16), array([[192, 742],
+       ...,
+       [193, 776]], shape=(4, 2), dtype=int16), array([[204, 800],
+       ...,
+       [204, 831]], shape=(4, 2), dtype=int16), array([[193, 858],
+       ...,
+       [193, 890]], shape=(4, 2), dtype=int16), array([[204, 923],
+       ...,
+       [204, 953]], shape=(4, 2), dtype=int16), array([[ 193,  979],
+       ...,
+       [ 193, 1013]], shape=(4, 2), dtype=int16), array([[ 206, 1041],
+       ...,
+       [ 206, 1072]], shape=(4, 2), dtype=int16), array([[ 196, 1099],
+       ...,
+       [ 196, 1129]], shape=(4, 2), dtype=int16), array([[ 133, 1152],
+       ...,
+       [ 133, 1182]], shape=(4, 2), dtype=int16), array([[ 197, 1208],
+       ...,
+       [ 197, 1238]], shape=(4, 2), dtype=int16), array([[ 210, 1263],
+       ...,
+       [ 210, 1294]], shape=(4, 2), dtype=int16), array([[ 133, 1315],
+       ...,
+       [ 133, 1349]], shape=(4, 2), dtype=int16), array([[ 134, 1371],
+       ...,
+       [ 134, 1402]], shape=(4, 2), dtype=int16), array([[ 209, 1435],
+       ...,
+       [ 209, 1466]], shape=(4, 2), dtype=int16), array([[ 207, 1495],
+       ...,
+       [ 207, 1526]], shape=(4, 2), dtype=int16), array([[ 132, 1548],
+       ...,
+       [ 132, 1581]], shape=(4, 2), dtype=int16), array([[ 206, 1610],
+       ...,
+       [ 206, 1641]], shape=(4, 2), dtype=int16), array([[ 132, 1669],
+       ...,
+       [ 132, 1701]], shape=(4, 2), dtype=int16), array([[ 192, 1733],
+       ...,
+       [ 192, 1767]], shape=(4, 2), dtype=int16), array([[ 192, 1793],
+       ...,
+       [ 192, 1825]], shape=(4, 2), dtype=int16), array([[ 128, 1918],
+       ...,
+       [ 125, 1961]], shape=(4, 2), dtype=int16), array([[ 204, 1930],
+       ...,
+       [ 204, 1962]], shape=(4, 2), dtype=int16), array([[ 592, 1934],
+       ...,
+       [ 592, 1965]], shape=(4, 2), dtype=int16), array([[1216, 1945],
+       ...,
+       [1216, 1978]], shape=(4, 2), dtype=int16), array([[ 127, 1963],
+       ...,
+       [ 126, 1981]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[ 118, ...,   84],
+       ...,
+       [ 126, ..., 1984]], shape=(37, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西泰襄光电科技有限公司机器设备价值评估
+2. 中阳评报字[2019]第205号
+3. 87
+4. 2、无重大变化假设：是假定国家有关利率、汇率、赋税基准及税率、政策性征收费
+5. 用等不发生重大变化。
+6. 3、无不利影响假设：是假定无其他人力不可抗拒因素及不可预见因素对产权持有人
+7. 的待估资产造成重大不利影响。
+8. 当上述评估假设发生变化时，评估结论一般会失效。
+9. 十、评估结论
+10. 经评估后，委托评估的广西钦州保税港区尊绅贸易有限公司第二期出资投入广西泰
+11. 的评估结果为1064065029.00元
+12. 1
+13. 各项目评估结论详见附后资产清查评估明细表。
+14. 十一、特别事项说明
+15. (一)产权瑕疵
+16. 本评估机构和资产评估师不发表关于评估对象产权方面问题的意见。
+17. （二）未决事项、法律纠纷等不确定因素
+18. 本项目评估涉及的资产无资产评估师知悉的未决事项，法律纠纷等不确定因素。
+19. （三）重大期后事项；
+20. 本项目采用成本法进行评估，在评估基准日至评估报告有效期内，资产价格标准发生
+21. 重大变化，并对评估结论产生严重影响时，委托方应及时聘请评估机构重新确定评估结论。
+22. 十二、评估报告使用限制说明
+23. （一）本评估报告只能用于评估报告载明的评估目的和用途，当用于其它目的，本报
+24. 告评估结果无效：由使用者错误用于其他目的和用途所导致的有关损失，评估机构和资产
+25. 评估师不承担责任。
+26. （二）本评估报告只能由评估报告载明的评估报告使用者使用。
+27. (三）未征得出具评估报告的评估机构同意，评估报告的内容不得被摘抄、引用或披
+28. 露于公开媒体，法律、法规规定以及相关当事方另有约定的除外。
+29. （四）本资产评估报告自评估基准日起有效期为一年，只有当评估基准日与经济行为
+30. 实现日相距不超过一年时，才可以使用评估报告。
+31. 十三、评估报告日
+32. 本评估报告日为2019年3月18日，于该日期，资产评估师形成最终专业意见.
+33. 2
+34. 广西中阳资产评估事务所有限公司
+35. anyli Dogig As fgmisnl amiere Oa,Ld
+36. -2
+37. 

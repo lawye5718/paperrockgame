@@ -1,0 +1,190 @@
+OCR结果 - 第 212 页
+==================================================
+处理的图像: temp_page_211_processed.png
+原始PDF页面: 212
+
+详细结果:
+[{'input_path': 'temp_page_211_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1411, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1411, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1411, 3), dtype=uint8)}, 'dt_polys': [array([[27, 40],
+       ...,
+       [27, 54]], shape=(4, 2), dtype=int16), array([[124, 166],
+       ...,
+       [124, 214]], shape=(4, 2), dtype=int16), array([[128, 234],
+       ...,
+       [128, 275]], shape=(4, 2), dtype=int16), array([[129, 296],
+       ...,
+       [129, 341]], shape=(4, 2), dtype=int16), array([[199, 365],
+       ...,
+       [199, 399]], shape=(4, 2), dtype=int16), array([[134, 413],
+       ...,
+       [132, 455]], shape=(4, 2), dtype=int16), array([[202, 480],
+       ...,
+       [201, 511]], shape=(4, 2), dtype=int16), array([[217, 537],
+       ...,
+       [216, 568]], shape=(4, 2), dtype=int16), array([[200, 593],
+       ...,
+       [200, 627]], shape=(4, 2), dtype=int16), array([[139, 649],
+       ...,
+       [139, 683]], shape=(4, 2), dtype=int16), array([[140, 708],
+       ...,
+       [140, 742]], shape=(4, 2), dtype=int16), array([[142, 766],
+       ...,
+       [142, 797]], shape=(4, 2), dtype=int16), array([[205, 824],
+       ...,
+       [204, 858]], shape=(4, 2), dtype=int16), array([[144, 882],
+       ...,
+       [144, 913]], shape=(4, 2), dtype=int16), array([[144, 937],
+       ...,
+       [144, 973]], shape=(4, 2), dtype=int16), array([[ 145,  997],
+       ...,
+       [ 145, 1025]], shape=(4, 2), dtype=int16), array([[ 206, 1052],
+       ...,
+       [ 205, 1086]], shape=(4, 2), dtype=int16), array([[ 142, 1102],
+       ...,
+       [ 140, 1143]], shape=(4, 2), dtype=int16), array([[ 207, 1165],
+       ...,
+       [ 206, 1195]], shape=(4, 2), dtype=int16), array([[ 222, 1224],
+       ...,
+       [ 221, 1252]], shape=(4, 2), dtype=int16), array([[ 206, 1278],
+       ...,
+       [ 205, 1316]], shape=(4, 2), dtype=int16), array([[ 143, 1334],
+       ...,
+       [ 143, 1371]], shape=(4, 2), dtype=int16), array([[ 143, 1390],
+       ...,
+       [ 143, 1428]], shape=(4, 2), dtype=int16), array([[ 143, 1444],
+       ...,
+       [ 142, 1479]], shape=(4, 2), dtype=int16), array([[ 207, 1504],
+       ...,
+       [ 206, 1535]], shape=(4, 2), dtype=int16), array([[ 145, 1555],
+       ...,
+       [ 144, 1590]], shape=(4, 2), dtype=int16), array([[ 144, 1610],
+       ...,
+       [ 143, 1647]], shape=(4, 2), dtype=int16), array([[ 142, 1667],
+       ...,
+       [ 141, 1700]], shape=(4, 2), dtype=int16), array([[ 205, 1726],
+       ...,
+       [ 204, 1763]], shape=(4, 2), dtype=int16), array([[ 140, 1779],
+       ...,
+       [ 139, 1820]], shape=(4, 2), dtype=int16), array([[ 669, 1887],
+       ...,
+       [ 669, 1917]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['v', '管送到污水处理站，进入含氟废水处理系统处理，再进入有机废水处理系统，经', '厂区总排口排放。含氟废水处理系统采用化学沉淀法处理，处理效率约80%~90%。', '根据项目资料，含氟废水处理系统设计方案如下：', '设置含氟废水处理系统1套，处理能力160m3h，处理后进入有机废水处理', '系统。', '含氟废水污染物产生及排放情况见表2.6-9、表2.6-10。', '(3）彩膜废水治理措施及排放情况', '彩膜废水W3来源：主要来白于彩膜工序制作BM黑色矩阵膜、R/G/B彩色', '矩阵膜使用R、G、B颜料后的清洗，在其清洗过程中产生带定色度的彩膜废', '水。主要污染物：CODcr、BOD_{s}、SS，排放量为4275m{/d，其中彩膜废水4075m{}/d，', '加药补充水200m3/d，连续排放。', '治理措施：产生彩膜废水的工艺设备均设置密闭收集管，通过支管汇集到总', '管送到污水处理站，进入彩膜废水处理系统处理，再进入有机废水处理系统，经', '厂区总排口排放。彩膜废水处理系统采用絮凝沉淀法处理。根据项口资料，彩膜', '废水处理系统设计方案如下：', '设置彩膜废水处理系统1套，处理能力220m3h，处理后进入有机废水处理', '系统。', '彩膜废水污染物产生及排放情况见表2.6-9、表2.6-10。', '(4）含磷废水治理措施及排放情况', '含磷废水W4来源：含磷废水来自阵列工序使用铝靶材溅射沉积，沉积在面', '板上的铝经铝刻蚀液进行刻蚀，铝刻蚀液含有磷酸，在其刻蚀及清洗过程中产生', '含磷废水:主要污染物为磷酸盐、CODcr、BOD_{₃、SS。含磷废水排放量为3934m{3/d$', '连续排放。', '治理措施：产生含磷废水的工艺设备均设置密闭收集管，通过支管汇集到总', '管送到污水处理站，进入含磷废水处理系统处理，再进入有机废水处理系统，经', '厂区总排口排放。含磷废水处理系统采用化学沉淀法处理，处理效率约90%。根', '据项目资料，含磷废水处理系统设计方案如下：', '设置含磷废水处理系统1套，处理能力200m{3/h，处理后进入有机废水处理', '系统。', '73'], 'rec_scores': [0.3676876723766327, 0.9970628023147583, 0.9834275841712952, 0.9734167456626892, 0.9703546762466431, 0.9971441626548767, 0.982257068157196, 0.9534593820571899, 0.978635847568512, 0.9850258827209473, 0.84815913438797, 0.950158417224884, 0.994266152381897, 0.9975878000259399, 0.9883421659469604, 0.9961806535720825, 0.9717038869857788, 0.9961881637573242, 0.9939308762550354, 0.958897054195404, 0.9787840247154236, 0.9975408315658569, 0.8783528804779053, 0.9982503056526184, 0.9949559569358826, 0.9992427229881287, 0.98277348279953, 0.9916917681694031, 0.9454883933067322, 0.9962623715400696, 0.9989104270935059], 'rec_polys': [array([[27, 40],
+       ...,
+       [27, 54]], shape=(4, 2), dtype=int16), array([[124, 166],
+       ...,
+       [124, 214]], shape=(4, 2), dtype=int16), array([[128, 234],
+       ...,
+       [128, 275]], shape=(4, 2), dtype=int16), array([[129, 296],
+       ...,
+       [129, 341]], shape=(4, 2), dtype=int16), array([[199, 365],
+       ...,
+       [199, 399]], shape=(4, 2), dtype=int16), array([[134, 413],
+       ...,
+       [132, 455]], shape=(4, 2), dtype=int16), array([[202, 480],
+       ...,
+       [201, 511]], shape=(4, 2), dtype=int16), array([[217, 537],
+       ...,
+       [216, 568]], shape=(4, 2), dtype=int16), array([[200, 593],
+       ...,
+       [200, 627]], shape=(4, 2), dtype=int16), array([[139, 649],
+       ...,
+       [139, 683]], shape=(4, 2), dtype=int16), array([[140, 708],
+       ...,
+       [140, 742]], shape=(4, 2), dtype=int16), array([[142, 766],
+       ...,
+       [142, 797]], shape=(4, 2), dtype=int16), array([[205, 824],
+       ...,
+       [204, 858]], shape=(4, 2), dtype=int16), array([[144, 882],
+       ...,
+       [144, 913]], shape=(4, 2), dtype=int16), array([[144, 937],
+       ...,
+       [144, 973]], shape=(4, 2), dtype=int16), array([[ 145,  997],
+       ...,
+       [ 145, 1025]], shape=(4, 2), dtype=int16), array([[ 206, 1052],
+       ...,
+       [ 205, 1086]], shape=(4, 2), dtype=int16), array([[ 142, 1102],
+       ...,
+       [ 140, 1143]], shape=(4, 2), dtype=int16), array([[ 207, 1165],
+       ...,
+       [ 206, 1195]], shape=(4, 2), dtype=int16), array([[ 222, 1224],
+       ...,
+       [ 221, 1252]], shape=(4, 2), dtype=int16), array([[ 206, 1278],
+       ...,
+       [ 205, 1316]], shape=(4, 2), dtype=int16), array([[ 143, 1334],
+       ...,
+       [ 143, 1371]], shape=(4, 2), dtype=int16), array([[ 143, 1390],
+       ...,
+       [ 143, 1428]], shape=(4, 2), dtype=int16), array([[ 143, 1444],
+       ...,
+       [ 142, 1479]], shape=(4, 2), dtype=int16), array([[ 207, 1504],
+       ...,
+       [ 206, 1535]], shape=(4, 2), dtype=int16), array([[ 145, 1555],
+       ...,
+       [ 144, 1590]], shape=(4, 2), dtype=int16), array([[ 144, 1610],
+       ...,
+       [ 143, 1647]], shape=(4, 2), dtype=int16), array([[ 142, 1667],
+       ...,
+       [ 141, 1700]], shape=(4, 2), dtype=int16), array([[ 205, 1726],
+       ...,
+       [ 204, 1763]], shape=(4, 2), dtype=int16), array([[ 140, 1779],
+       ...,
+       [ 139, 1820]], shape=(4, 2), dtype=int16), array([[ 669, 1887],
+       ...,
+       [ 669, 1917]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[  27, ...,   54],
+       ...,
+       [ 669, ..., 1917]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. v
+2. 管送到污水处理站，进入含氟废水处理系统处理，再进入有机废水处理系统，经
+3. 厂区总排口排放。含氟废水处理系统采用化学沉淀法处理，处理效率约80%~90%。
+4. 根据项目资料，含氟废水处理系统设计方案如下：
+5. 设置含氟废水处理系统1套，处理能力160m3h，处理后进入有机废水处理
+6. 系统。
+7. 含氟废水污染物产生及排放情况见表2.6-9、表2.6-10。
+8. (3）彩膜废水治理措施及排放情况
+9. 彩膜废水W3来源：主要来白于彩膜工序制作BM黑色矩阵膜、R/G/B彩色
+10. 矩阵膜使用R、G、B颜料后的清洗，在其清洗过程中产生带定色度的彩膜废
+11. 水。主要污染物：CODcr、BOD_{s}、SS，排放量为4275m{/d，其中彩膜废水4075m{}/d，
+12. 加药补充水200m3/d，连续排放。
+13. 治理措施：产生彩膜废水的工艺设备均设置密闭收集管，通过支管汇集到总
+14. 管送到污水处理站，进入彩膜废水处理系统处理，再进入有机废水处理系统，经
+15. 厂区总排口排放。彩膜废水处理系统采用絮凝沉淀法处理。根据项口资料，彩膜
+16. 废水处理系统设计方案如下：
+17. 设置彩膜废水处理系统1套，处理能力220m3h，处理后进入有机废水处理
+18. 系统。
+19. 彩膜废水污染物产生及排放情况见表2.6-9、表2.6-10。
+20. (4）含磷废水治理措施及排放情况
+21. 含磷废水W4来源：含磷废水来自阵列工序使用铝靶材溅射沉积，沉积在面
+22. 板上的铝经铝刻蚀液进行刻蚀，铝刻蚀液含有磷酸，在其刻蚀及清洗过程中产生
+23. 含磷废水:主要污染物为磷酸盐、CODcr、BOD_{₃、SS。含磷废水排放量为3934m{3/d$
+24. 连续排放。
+25. 治理措施：产生含磷废水的工艺设备均设置密闭收集管，通过支管汇集到总
+26. 管送到污水处理站，进入含磷废水处理系统处理，再进入有机废水处理系统，经
+27. 厂区总排口排放。含磷废水处理系统采用化学沉淀法处理，处理效率约90%。根
+28. 据项目资料，含磷废水处理系统设计方案如下：
+29. 设置含磷废水处理系统1套，处理能力200m{3/h，处理后进入有机废水处理
+30. 系统。
+31. 73

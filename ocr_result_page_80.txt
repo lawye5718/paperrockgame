@@ -1,0 +1,100 @@
+OCR结果 - 第 80 页
+==================================================
+处理的图像: temp_page_79_processed.png
+原始PDF页面: 80
+
+详细结果:
+[{'input_path': 'temp_page_79_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[1253,    0],
+       ...,
+       [1253,  122]], shape=(4, 2), dtype=int16), array([[235, 173],
+       ...,
+       [234, 220]], shape=(4, 2), dtype=int16), array([[144, 241],
+       ...,
+       [143, 288]], shape=(4, 2), dtype=int16), array([[224, 308],
+       ...,
+       [223, 365]], shape=(4, 2), dtype=int16), array([[328, 365],
+       ...,
+       [328, 439]], shape=(4, 2), dtype=int16), array([[595, 364],
+       ...,
+       [598, 446]], shape=(4, 2), dtype=int16), array([[746, 535],
+       ...,
+       [748, 608]], shape=(4, 2), dtype=int16), array([[742, 617],
+       ...,
+       [740, 668]], shape=(4, 2), dtype=int16), array([[106, 796],
+       ...,
+       [112, 923]], shape=(4, 2), dtype=int16), array([[729, 796],
+       ...,
+       [729, 925]], shape=(4, 2), dtype=int16), array([[786, 913],
+       ...,
+       [786, 979]], shape=(4, 2), dtype=int16), array([[  72, 1860],
+       ...,
+       [  72, 1992]], shape=(4, 2), dtype=int16), array([[1022, 1926],
+       ...,
+       [1023, 1975]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['7', '问：你看一下笔录，和你说的是否相符？如果记载有遗漏', '或者差错，可以提出补充或者改正。核对无误后请签字确认。', '答：好的。', '笔录共6页', '我已看过与我说的相符。', '被询问人：可文正', '2025年6月c0日', '询问人：杨朝唐', '记录人：唐讲', '2025年6月10日', '被询问人：可斌', '第 6页共6页'], 'rec_scores': [0.997157096862793, 0.9840365052223206, 0.9984785914421082, 0.9583107233047485, 0.9564865231513977, 0.9332048892974854, 0.7488858103752136, 0.9772884249687195, 0.8305351138114929, 0.8508545756340027, 0.9670275449752808, 0.8545312881469727, 0.9294599294662476], 'rec_polys': [array([[1253,    0],
+       ...,
+       [1253,  122]], shape=(4, 2), dtype=int16), array([[235, 173],
+       ...,
+       [234, 220]], shape=(4, 2), dtype=int16), array([[144, 241],
+       ...,
+       [143, 288]], shape=(4, 2), dtype=int16), array([[224, 308],
+       ...,
+       [223, 365]], shape=(4, 2), dtype=int16), array([[328, 365],
+       ...,
+       [328, 439]], shape=(4, 2), dtype=int16), array([[595, 364],
+       ...,
+       [598, 446]], shape=(4, 2), dtype=int16), array([[746, 535],
+       ...,
+       [748, 608]], shape=(4, 2), dtype=int16), array([[742, 617],
+       ...,
+       [740, 668]], shape=(4, 2), dtype=int16), array([[106, 796],
+       ...,
+       [112, 923]], shape=(4, 2), dtype=int16), array([[729, 796],
+       ...,
+       [729, 925]], shape=(4, 2), dtype=int16), array([[786, 913],
+       ...,
+       [786, 979]], shape=(4, 2), dtype=int16), array([[  72, 1860],
+       ...,
+       [  72, 1992]], shape=(4, 2), dtype=int16), array([[1022, 1926],
+       ...,
+       [1023, 1975]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1253, ...,  122],
+       ...,
+       [1022, ..., 1975]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. 7
+2. 问：你看一下笔录，和你说的是否相符？如果记载有遗漏
+3. 或者差错，可以提出补充或者改正。核对无误后请签字确认。
+4. 答：好的。
+5. 笔录共6页
+6. 我已看过与我说的相符。
+7. 被询问人：可文正
+8. 2025年6月c0日
+9. 询问人：杨朝唐
+10. 记录人：唐讲
+11. 2025年6月10日
+12. 被询问人：可斌
+13. 第 6页共6页

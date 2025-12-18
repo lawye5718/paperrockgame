@@ -1,0 +1,115 @@
+OCR结果 - 第 254 页
+==================================================
+处理的图像: temp_page_253_processed.png
+原始PDF页面: 254
+
+详细结果:
+[{'input_path': 'temp_page_253_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1415, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1415, 2000, 3), dtype=uint8), 'output_img': array([[[254, ..., 254],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1415, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[ 68, 181],
+       ...,
+       [ 66, 221]], shape=(4, 2), dtype=int16), array([[271, 186],
+       ...,
+       [270, 226]], shape=(4, 2), dtype=int16), array([[552, 188],
+       ...,
+       [553, 224]], shape=(4, 2), dtype=int16), array([[1114,  190],
+       ...,
+       [1114,  224]], shape=(4, 2), dtype=int16), array([[1753,  190],
+       ...,
+       [1754,  228]], shape=(4, 2), dtype=int16), array([[440, 228],
+       ...,
+       [439, 262]], shape=(4, 2), dtype=int16), array([[436, 270],
+       ...,
+       [435, 300]], shape=(4, 2), dtype=int16), array([[434, 311],
+       ...,
+       [433, 343]], shape=(4, 2), dtype=int16), array([[433, 354],
+       ...,
+       [432, 385]], shape=(4, 2), dtype=int16), array([[432, 393],
+       ...,
+       [431, 427]], shape=(4, 2), dtype=int16), array([[432, 431],
+       ...,
+       [432, 462]], shape=(4, 2), dtype=int16), array([[432, 468],
+       ...,
+       [431, 502]], shape=(4, 2), dtype=int16), array([[435, 510],
+       ...,
+       [434, 544]], shape=(4, 2), dtype=int16), array([[ 51, 544],
+       ...,
+       [ 49, 582]], shape=(4, 2), dtype=int16), array([[833, 554],
+       ...,
+       [832, 591]], shape=(4, 2), dtype=int16), array([[ 960, 1338],
+       ...,
+       [ 960, 1371]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['项目', '名称', '控制因子', '处理方案、工艺', '执行标准', '设置人员防护设备，如1：门备式呼吸器、面甲、防护服等，并设有安全淋浴和洗眼器', '特气库内气体抽风装置，斥连接至厂务废气处理系统，气体输送采用双层套管。', '氨管车停放区域设置水喷淋设施。', '氯气钢瓶存放区域设置碱液池。', '设置消防报警系统，包括感烟系统、应急疏散系统、空内外消防装置系统、排烟系统和应急照', '明及疏散指示系统。', '项目废水处理系统中设有3个事改应急池，单个容积为6000m，总容积为18000m', '设置有毒有害气体在线监控系统。', '绿化', '！区绿化', '115'], 'rec_scores': [0.9996964335441589, 0.9998109340667725, 0.9991256594657898, 0.9992495775222778, 0.9984946846961975, 0.9524340629577637, 0.9728140830993652, 0.9944647550582886, 0.9260867238044739, 0.9861388802528381, 0.9915056228637695, 0.898912250995636, 0.9785066843032837, 0.9990946650505066, 0.9650604128837585, 0.9968340992927551], 'rec_polys': [array([[ 68, 181],
+       ...,
+       [ 66, 221]], shape=(4, 2), dtype=int16), array([[271, 186],
+       ...,
+       [270, 226]], shape=(4, 2), dtype=int16), array([[552, 188],
+       ...,
+       [553, 224]], shape=(4, 2), dtype=int16), array([[1114,  190],
+       ...,
+       [1114,  224]], shape=(4, 2), dtype=int16), array([[1753,  190],
+       ...,
+       [1754,  228]], shape=(4, 2), dtype=int16), array([[440, 228],
+       ...,
+       [439, 262]], shape=(4, 2), dtype=int16), array([[436, 270],
+       ...,
+       [435, 300]], shape=(4, 2), dtype=int16), array([[434, 311],
+       ...,
+       [433, 343]], shape=(4, 2), dtype=int16), array([[433, 354],
+       ...,
+       [432, 385]], shape=(4, 2), dtype=int16), array([[432, 393],
+       ...,
+       [431, 427]], shape=(4, 2), dtype=int16), array([[432, 431],
+       ...,
+       [432, 462]], shape=(4, 2), dtype=int16), array([[432, 468],
+       ...,
+       [431, 502]], shape=(4, 2), dtype=int16), array([[435, 510],
+       ...,
+       [434, 544]], shape=(4, 2), dtype=int16), array([[ 51, 544],
+       ...,
+       [ 49, 582]], shape=(4, 2), dtype=int16), array([[833, 554],
+       ...,
+       [832, 591]], shape=(4, 2), dtype=int16), array([[ 960, 1338],
+       ...,
+       [ 960, 1371]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[  66, ...,  224],
+       ...,
+       [ 960, ..., 1371]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 项目
+2. 名称
+3. 控制因子
+4. 处理方案、工艺
+5. 执行标准
+6. 设置人员防护设备，如1：门备式呼吸器、面甲、防护服等，并设有安全淋浴和洗眼器
+7. 特气库内气体抽风装置，斥连接至厂务废气处理系统，气体输送采用双层套管。
+8. 氨管车停放区域设置水喷淋设施。
+9. 氯气钢瓶存放区域设置碱液池。
+10. 设置消防报警系统，包括感烟系统、应急疏散系统、空内外消防装置系统、排烟系统和应急照
+11. 明及疏散指示系统。
+12. 项目废水处理系统中设有3个事改应急池，单个容积为6000m，总容积为18000m
+13. 设置有毒有害气体在线监控系统。
+14. 绿化
+15. ！区绿化
+16. 115

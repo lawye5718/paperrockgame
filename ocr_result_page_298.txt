@@ -1,0 +1,185 @@
+OCR结果 - 第 298 页
+==================================================
+处理的图像: temp_page_297_processed.png
+原始PDF页面: 298
+
+详细结果:
+[{'input_path': 'temp_page_297_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[1301,   16],
+       ...,
+       [1303,   92]], shape=(4, 2), dtype=int16), array([[218,  60],
+       ...,
+       [218, 110]], shape=(4, 2), dtype=int16), array([[700,  72],
+       ...,
+       [698, 132]], shape=(4, 2), dtype=int16), array([[225, 110],
+       ...,
+       [225, 131]], shape=(4, 2), dtype=int16), array([[134, 173],
+       ...,
+       [133, 208]], shape=(4, 2), dtype=int16), array([[755, 178],
+       ...,
+       [754, 216]], shape=(4, 2), dtype=int16), array([[136, 215],
+       ...,
+       [135, 247]], shape=(4, 2), dtype=int16), array([[757, 217],
+       ...,
+       [756, 251]], shape=(4, 2), dtype=int16), array([[134, 250],
+       ...,
+       [134, 284]], shape=(4, 2), dtype=int16), array([[235, 265],
+       ...,
+       [235, 286]], shape=(4, 2), dtype=int16), array([[135, 287],
+       ...,
+       [135, 320]], shape=(4, 2), dtype=int16), array([[136, 320],
+       ...,
+       [135, 354]], shape=(4, 2), dtype=int16), array([[135, 357],
+       ...,
+       [135, 391]], shape=(4, 2), dtype=int16), array([[135, 393],
+       ...,
+       [134, 424]], shape=(4, 2), dtype=int16), array([[134, 429],
+       ...,
+       [133, 460]], shape=(4, 2), dtype=int16), array([[1392,  427],
+       ...,
+       [1392,  493]], shape=(4, 2), dtype=int16), array([[136, 466],
+       ...,
+       [135, 494]], shape=(4, 2), dtype=int16), array([[288, 470],
+       ...,
+       [287, 499]], shape=(4, 2), dtype=int16), array([[134, 499],
+       ...,
+       [133, 530]], shape=(4, 2), dtype=int16), array([[1388,  535],
+       ...,
+       [1388,  574]], shape=(4, 2), dtype=int16), array([[1081,  571],
+       ...,
+       [1081,  608]], shape=(4, 2), dtype=int16), array([[1152,  572],
+       ...,
+       [1150,  609]], shape=(4, 2), dtype=int16), array([[1138,  611],
+       ...,
+       [1138,  653]], shape=(4, 2), dtype=int16), array([[1314,  688],
+       ...,
+       [1314,  715]], shape=(4, 2), dtype=int16), array([[131, 806],
+       ...,
+       [130, 835]], shape=(4, 2), dtype=int16), array([[128, 840],
+       ...,
+       [127, 871]], shape=(4, 2), dtype=int16), array([[122, 872],
+       ...,
+       [121, 912]], shape=(4, 2), dtype=int16), array([[555, 887],
+       ...,
+       [553, 922]], shape=(4, 2), dtype=int16), array([[968, 902],
+       ...,
+       [967, 939]], shape=(4, 2), dtype=int16), array([[   0, 1824],
+       ...,
+       [   0, 1853]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['付息', '中国农业发展银行', '记账凭证', 'AORICULTURAL OEVELOPMENT BANK OF CHINA', '借贷标志：借', '表内外标志：表内', '核算机构编号：450799001', '币种：人民币', '账号', '15015900115013100000010300021', '账号名称：广西中马钦州产业园区泰成投资有限公司应解汇款及临时存款', '对方账号：45079900102200000000066', '对方账号名称：广西中马钦州产业园区泰成投资有限公司', '记账金额：575,788.89', '摘要描述：归还贷款', '办', '全局流水号：', '999910012503211261653242', '核心流水号：9250321023949960', '彩', '借：', '4310', '贷：', '二', '日期：2025-04-1011:52:02', '交易机构：450799001中国农业发展银行钦州市分行', '经办柜员号：', '复核柜员：', '授权柜员：', '-'], 'rec_scores': [0.6517386436462402, 0.994489312171936, 0.9995025396347046, 0.8967371582984924, 0.9872052073478699, 0.9748936891555786, 0.9709428548812866, 0.998575747013092, 0.8531811833381653, 0.7120038270950317, 0.9692986011505127, 0.9105599522590637, 0.9815290570259094, 0.9573013782501221, 0.9742828011512756, 0.14757899940013885, 0.9830694198608398, 0.9632946848869324, 0.983589768409729, 0.1787228286266327, 0.9727011919021606, 0.9994862079620361, 0.8912739753723145, 0.15033535659313202, 0.9894886016845703, 0.9889838099479675, 0.9160787463188171, 0.8434645533561707, 0.9084833264350891, 0.5595355033874512], 'rec_polys': [array([[1301,   16],
+       ...,
+       [1303,   92]], shape=(4, 2), dtype=int16), array([[218,  60],
+       ...,
+       [218, 110]], shape=(4, 2), dtype=int16), array([[700,  72],
+       ...,
+       [698, 132]], shape=(4, 2), dtype=int16), array([[225, 110],
+       ...,
+       [225, 131]], shape=(4, 2), dtype=int16), array([[134, 173],
+       ...,
+       [133, 208]], shape=(4, 2), dtype=int16), array([[755, 178],
+       ...,
+       [754, 216]], shape=(4, 2), dtype=int16), array([[136, 215],
+       ...,
+       [135, 247]], shape=(4, 2), dtype=int16), array([[757, 217],
+       ...,
+       [756, 251]], shape=(4, 2), dtype=int16), array([[134, 250],
+       ...,
+       [134, 284]], shape=(4, 2), dtype=int16), array([[235, 265],
+       ...,
+       [235, 286]], shape=(4, 2), dtype=int16), array([[135, 287],
+       ...,
+       [135, 320]], shape=(4, 2), dtype=int16), array([[136, 320],
+       ...,
+       [135, 354]], shape=(4, 2), dtype=int16), array([[135, 357],
+       ...,
+       [135, 391]], shape=(4, 2), dtype=int16), array([[135, 393],
+       ...,
+       [134, 424]], shape=(4, 2), dtype=int16), array([[134, 429],
+       ...,
+       [133, 460]], shape=(4, 2), dtype=int16), array([[1392,  427],
+       ...,
+       [1392,  493]], shape=(4, 2), dtype=int16), array([[136, 466],
+       ...,
+       [135, 494]], shape=(4, 2), dtype=int16), array([[288, 470],
+       ...,
+       [287, 499]], shape=(4, 2), dtype=int16), array([[134, 499],
+       ...,
+       [133, 530]], shape=(4, 2), dtype=int16), array([[1388,  535],
+       ...,
+       [1388,  574]], shape=(4, 2), dtype=int16), array([[1081,  571],
+       ...,
+       [1081,  608]], shape=(4, 2), dtype=int16), array([[1152,  572],
+       ...,
+       [1150,  609]], shape=(4, 2), dtype=int16), array([[1138,  611],
+       ...,
+       [1138,  653]], shape=(4, 2), dtype=int16), array([[1314,  688],
+       ...,
+       [1314,  715]], shape=(4, 2), dtype=int16), array([[131, 806],
+       ...,
+       [130, 835]], shape=(4, 2), dtype=int16), array([[128, 840],
+       ...,
+       [127, 871]], shape=(4, 2), dtype=int16), array([[122, 872],
+       ...,
+       [121, 912]], shape=(4, 2), dtype=int16), array([[555, 887],
+       ...,
+       [553, 922]], shape=(4, 2), dtype=int16), array([[968, 902],
+       ...,
+       [967, 939]], shape=(4, 2), dtype=int16), array([[   0, 1824],
+       ...,
+       [   0, 1853]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1301, ...,   92],
+       ...,
+       [   0, ..., 1853]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 付息
+2. 中国农业发展银行
+3. 记账凭证
+4. AORICULTURAL OEVELOPMENT BANK OF CHINA
+5. 借贷标志：借
+6. 表内外标志：表内
+7. 核算机构编号：450799001
+8. 币种：人民币
+9. 账号
+10. 15015900115013100000010300021
+11. 账号名称：广西中马钦州产业园区泰成投资有限公司应解汇款及临时存款
+12. 对方账号：45079900102200000000066
+13. 对方账号名称：广西中马钦州产业园区泰成投资有限公司
+14. 记账金额：575,788.89
+15. 摘要描述：归还贷款
+16. 办
+17. 全局流水号：
+18. 999910012503211261653242
+19. 核心流水号：9250321023949960
+20. 彩
+21. 借：
+22. 4310
+23. 贷：
+24. 二
+25. 日期：2025-04-1011:52:02
+26. 交易机构：450799001中国农业发展银行钦州市分行
+27. 经办柜员号：
+28. 复核柜员：
+29. 授权柜员：
+30. -

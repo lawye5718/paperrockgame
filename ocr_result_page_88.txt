@@ -1,0 +1,215 @@
+OCR结果 - 第 88 页
+==================================================
+处理的图像: temp_page_87_processed.png
+原始PDF页面: 88
+
+详细结果:
+[{'input_path': 'temp_page_87_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[140,   1],
+       ...,
+       [140,  24]], shape=(4, 2), dtype=int16), array([[987,   3],
+       ...,
+       [985,  37]], shape=(4, 2), dtype=int16), array([[ 13,  26],
+       ...,
+       [ 20, 130]], shape=(4, 2), dtype=int16), array([[184,  84],
+       ...,
+       [183, 129]], shape=(4, 2), dtype=int16), array([[124, 151],
+       ...,
+       [123, 189]], shape=(4, 2), dtype=int16), array([[184, 227],
+       ...,
+       [184, 261]], shape=(4, 2), dtype=int16), array([[184, 294],
+       ...,
+       [184, 329]], shape=(4, 2), dtype=int16), array([[200, 361],
+       ...,
+       [200, 392]], shape=(4, 2), dtype=int16), array([[187, 423],
+       ...,
+       [187, 453]], shape=(4, 2), dtype=int16), array([[127, 477],
+       ...,
+       [126, 510]], shape=(4, 2), dtype=int16), array([[128, 535],
+       ...,
+       [127, 566]], shape=(4, 2), dtype=int16), array([[201, 604],
+       ...,
+       [201, 634]], shape=(4, 2), dtype=int16), array([[189, 665],
+       ...,
+       [189, 695]], shape=(4, 2), dtype=int16), array([[132, 721],
+       ...,
+       [132, 752]], shape=(4, 2), dtype=int16), array([[131, 777],
+       ...,
+       [131, 808]], shape=(4, 2), dtype=int16), array([[128, 830],
+       ...,
+       [127, 871]], shape=(4, 2), dtype=int16), array([[190, 898],
+       ...,
+       [190, 930]], shape=(4, 2), dtype=int16), array([[203, 958],
+       ...,
+       [203, 989]], shape=(4, 2), dtype=int16), array([[ 191, 1018],
+       ...,
+       [ 191, 1049]], shape=(4, 2), dtype=int16), array([[ 130, 1071],
+       ...,
+       [ 130, 1104]], shape=(4, 2), dtype=int16), array([[ 124, 1122],
+       ...,
+       [ 123, 1163]], shape=(4, 2), dtype=int16), array([[ 183, 1186],
+       ...,
+       [ 182, 1226]], shape=(4, 2), dtype=int16), array([[ 187, 1252],
+       ...,
+       [ 187, 1283]], shape=(4, 2), dtype=int16), array([[ 129, 1307],
+       ...,
+       [ 129, 1338]], shape=(4, 2), dtype=int16), array([[ 182, 1369],
+       ...,
+       [ 181, 1399]], shape=(4, 2), dtype=int16), array([[ 184, 1427],
+       ...,
+       [ 184, 1465]], shape=(4, 2), dtype=int16), array([[ 126, 1483],
+       ...,
+       [ 126, 1516]], shape=(4, 2), dtype=int16), array([[ 124, 1535],
+       ...,
+       [ 123, 1571]], shape=(4, 2), dtype=int16), array([[ 196, 1605],
+       ...,
+       [ 196, 1633]], shape=(4, 2), dtype=int16), array([[ 178, 1664],
+       ...,
+       [ 177, 1704]], shape=(4, 2), dtype=int16), array([[ 121, 1718],
+       ...,
+       [ 120, 1763]], shape=(4, 2), dtype=int16), array([[ 123, 1779],
+       ...,
+       [ 122, 1816]], shape=(4, 2), dtype=int16), array([[ 130, 1922],
+       ...,
+       [ 127, 1953]], shape=(4, 2), dtype=int16), array([[ 192, 1929],
+       ...,
+       [ 190, 1960]], shape=(4, 2), dtype=int16), array([[ 119, 1958],
+       ...,
+       [ 118, 1976]], shape=(4, 2), dtype=int16), array([[ 581, 1953],
+       ...,
+       [ 580, 1982]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['西乘量光电科技育展公司机设设备价值评石', '中阳评报字2019]第205号', '', '1、对评估对象机器设备进行逐台清点核实，了解评估对象的型号、性能参数、技术', '指标等有关情况；', '2、制作现场勘察记录，拍摄现场勘察照片；', '3、进行市场调研，收集电子产品生产行业和与评估对象的有关的市场价格信息。', '（三）评定估算阶段', '对收集的评估资料进行必要分析、归纳和整理，形成评定估算的依据：根据评估对象、', '价值类型、评估资料收集情况等相关条件，选择适用的评估方法，选取相应的公式和参数', '进行分析、计算和判断，形成初步评估结果。', '（四）编制和提交评估报告阶段', '通过以上步骤进行分析、计算和判断，形成初步评估结论，并参照间类资产及产品的', '市场状况对形成的初步评估结论进行综合的验证分析，形成最终评估结论，并根据法律、', '法规和资产评估准则的要求编制评估报告，按三级审核程序审核报告、审核无误后向委托', '方提交。', '九、评估假设', '(一)一般假设', '1、资产持续使用假设：假定被评估的资产日后能按原设计用途和使用的方式、规模、', '频度、环境等情况继续使用，或者在有所改变的基础上使用，相应确定评估方法、参数和', '依据。', '2、交易假设', '交易假设是假定所有待评估资产已经处在交易的过程中，评估师根据待评估资产的交', '易条件等模拟市场进行估价。交易假设是资产评估得以进行的一个最基本的前提假设。', '3、公开市场假设', '公开市场假设是假定在市场上交易的资产，或拟在市场上交易的资产，资产交易双方', '彼此地位平等，彼此都有获取足够市场信息的机会和时间，以便于对资产的功能、用途及', '其交易价格等作出理智的判断。公开市场假设以资产在市场上可以公开买卖为基础。', '（二）评估中的其他假设', '1、经济环境稳定假设：是假定评估基准日后国家现行的有关法律法规及政策、国家', '宏观经济形势无重大变化，本次交易各方所处地区的政治、经济和社会环境无重大变化，', '无其他不可预测和不可抗力因素造成的重大不利影响。', '', '广西中阳责产评估事务所有限公司', 'HLMGYA', 'Angti Zhgitg Ascts Afmin Ofre C,l.td'], 'rec_scores': [0.6635435819625854, 0.8920267224311829, 0.0, 0.9947918057441711, 0.9652841091156006, 0.9582789540290833, 0.9939794540405273, 0.9221199750900269, 0.9783951640129089, 0.9903532862663269, 0.9930540919303894, 0.9450202584266663, 0.9841126203536987, 0.9936946034431458, 0.9962400794029236, 0.9949469566345215, 0.9940292239189148, 0.9038113951683044, 0.9854924082756042, 0.9942613244056702, 0.9867016673088074, 0.9951410293579102, 0.9955980181694031, 0.9928380846977234, 0.9932054281234741, 0.9946765303611755, 0.9854733347892761, 0.9940072894096375, 0.9689764380455017, 0.9860212802886963, 0.9945486187934875, 0.9992236495018005, 0.0, 0.8992366790771484, 0.4830016791820526, 0.5222562551498413], 'rec_polys': [array([[140,   1],
+       ...,
+       [140,  24]], shape=(4, 2), dtype=int16), array([[987,   3],
+       ...,
+       [985,  37]], shape=(4, 2), dtype=int16), array([[ 13,  26],
+       ...,
+       [ 20, 130]], shape=(4, 2), dtype=int16), array([[184,  84],
+       ...,
+       [183, 129]], shape=(4, 2), dtype=int16), array([[124, 151],
+       ...,
+       [123, 189]], shape=(4, 2), dtype=int16), array([[184, 227],
+       ...,
+       [184, 261]], shape=(4, 2), dtype=int16), array([[184, 294],
+       ...,
+       [184, 329]], shape=(4, 2), dtype=int16), array([[200, 361],
+       ...,
+       [200, 392]], shape=(4, 2), dtype=int16), array([[187, 423],
+       ...,
+       [187, 453]], shape=(4, 2), dtype=int16), array([[127, 477],
+       ...,
+       [126, 510]], shape=(4, 2), dtype=int16), array([[128, 535],
+       ...,
+       [127, 566]], shape=(4, 2), dtype=int16), array([[201, 604],
+       ...,
+       [201, 634]], shape=(4, 2), dtype=int16), array([[189, 665],
+       ...,
+       [189, 695]], shape=(4, 2), dtype=int16), array([[132, 721],
+       ...,
+       [132, 752]], shape=(4, 2), dtype=int16), array([[131, 777],
+       ...,
+       [131, 808]], shape=(4, 2), dtype=int16), array([[128, 830],
+       ...,
+       [127, 871]], shape=(4, 2), dtype=int16), array([[190, 898],
+       ...,
+       [190, 930]], shape=(4, 2), dtype=int16), array([[203, 958],
+       ...,
+       [203, 989]], shape=(4, 2), dtype=int16), array([[ 191, 1018],
+       ...,
+       [ 191, 1049]], shape=(4, 2), dtype=int16), array([[ 130, 1071],
+       ...,
+       [ 130, 1104]], shape=(4, 2), dtype=int16), array([[ 124, 1122],
+       ...,
+       [ 123, 1163]], shape=(4, 2), dtype=int16), array([[ 183, 1186],
+       ...,
+       [ 182, 1226]], shape=(4, 2), dtype=int16), array([[ 187, 1252],
+       ...,
+       [ 187, 1283]], shape=(4, 2), dtype=int16), array([[ 129, 1307],
+       ...,
+       [ 129, 1338]], shape=(4, 2), dtype=int16), array([[ 182, 1369],
+       ...,
+       [ 181, 1399]], shape=(4, 2), dtype=int16), array([[ 184, 1427],
+       ...,
+       [ 184, 1465]], shape=(4, 2), dtype=int16), array([[ 126, 1483],
+       ...,
+       [ 126, 1516]], shape=(4, 2), dtype=int16), array([[ 124, 1535],
+       ...,
+       [ 123, 1571]], shape=(4, 2), dtype=int16), array([[ 196, 1605],
+       ...,
+       [ 196, 1633]], shape=(4, 2), dtype=int16), array([[ 178, 1664],
+       ...,
+       [ 177, 1704]], shape=(4, 2), dtype=int16), array([[ 121, 1718],
+       ...,
+       [ 120, 1763]], shape=(4, 2), dtype=int16), array([[ 123, 1779],
+       ...,
+       [ 122, 1816]], shape=(4, 2), dtype=int16), array([[ 130, 1922],
+       ...,
+       [ 127, 1953]], shape=(4, 2), dtype=int16), array([[ 192, 1929],
+       ...,
+       [ 190, 1960]], shape=(4, 2), dtype=int16), array([[ 119, 1958],
+       ...,
+       [ 118, 1976]], shape=(4, 2), dtype=int16), array([[ 581, 1953],
+       ...,
+       [ 580, 1982]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 'rec_boxes': array([[ 140, ...,   24],
+       ...,
+       [ 580, ..., 1997]], shape=(36, 4), dtype=int16)}]
+
+解析后的文本:
+1. 西乘量光电科技育展公司机设设备价值评石
+2. 中阳评报字2019]第205号
+3. 
+4. 1、对评估对象机器设备进行逐台清点核实，了解评估对象的型号、性能参数、技术
+5. 指标等有关情况；
+6. 2、制作现场勘察记录，拍摄现场勘察照片；
+7. 3、进行市场调研，收集电子产品生产行业和与评估对象的有关的市场价格信息。
+8. （三）评定估算阶段
+9. 对收集的评估资料进行必要分析、归纳和整理，形成评定估算的依据：根据评估对象、
+10. 价值类型、评估资料收集情况等相关条件，选择适用的评估方法，选取相应的公式和参数
+11. 进行分析、计算和判断，形成初步评估结果。
+12. （四）编制和提交评估报告阶段
+13. 通过以上步骤进行分析、计算和判断，形成初步评估结论，并参照间类资产及产品的
+14. 市场状况对形成的初步评估结论进行综合的验证分析，形成最终评估结论，并根据法律、
+15. 法规和资产评估准则的要求编制评估报告，按三级审核程序审核报告、审核无误后向委托
+16. 方提交。
+17. 九、评估假设
+18. (一)一般假设
+19. 1、资产持续使用假设：假定被评估的资产日后能按原设计用途和使用的方式、规模、
+20. 频度、环境等情况继续使用，或者在有所改变的基础上使用，相应确定评估方法、参数和
+21. 依据。
+22. 2、交易假设
+23. 交易假设是假定所有待评估资产已经处在交易的过程中，评估师根据待评估资产的交
+24. 易条件等模拟市场进行估价。交易假设是资产评估得以进行的一个最基本的前提假设。
+25. 3、公开市场假设
+26. 公开市场假设是假定在市场上交易的资产，或拟在市场上交易的资产，资产交易双方
+27. 彼此地位平等，彼此都有获取足够市场信息的机会和时间，以便于对资产的功能、用途及
+28. 其交易价格等作出理智的判断。公开市场假设以资产在市场上可以公开买卖为基础。
+29. （二）评估中的其他假设
+30. 1、经济环境稳定假设：是假定评估基准日后国家现行的有关法律法规及政策、国家
+31. 宏观经济形势无重大变化，本次交易各方所处地区的政治、经济和社会环境无重大变化，
+32. 无其他不可预测和不可抗力因素造成的重大不利影响。
+33. 
+34. 广西中阳责产评估事务所有限公司
+35. HLMGYA
+36. Angti Zhgitg Ascts Afmin Ofre C,l.td

@@ -1,0 +1,165 @@
+OCR结果 - 第 44 页
+==================================================
+处理的图像: temp_page_43_processed.png
+原始PDF页面: 44
+
+详细结果:
+[{'input_path': 'temp_page_43_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[512, 114],
+       ...,
+       [512, 161]], shape=(4, 2), dtype=int16), array([[1180,  191],
+       ...,
+       [1189,  241]], shape=(4, 2), dtype=int16), array([[241, 217],
+       ...,
+       [241, 285]], shape=(4, 2), dtype=int16), array([[395, 279],
+       ...,
+       [395, 320]], shape=(4, 2), dtype=int16), array([[162, 303],
+       ...,
+       [163, 361]], shape=(4, 2), dtype=int16), array([[158, 375],
+       ...,
+       [158, 432]], shape=(4, 2), dtype=int16), array([[159, 445],
+       ...,
+       [157, 500]], shape=(4, 2), dtype=int16), array([[441, 593],
+       ...,
+       [441, 642]], shape=(4, 2), dtype=int16), array([[243, 745],
+       ...,
+       [243, 789]], shape=(4, 2), dtype=int16), array([[158, 818],
+       ...,
+       [157, 861]], shape=(4, 2), dtype=int16), array([[244, 896],
+       ...,
+       [244, 936]], shape=(4, 2), dtype=int16), array([[ 158,  968],
+       ...,
+       [ 159, 1014]], shape=(4, 2), dtype=int16), array([[ 245, 1041],
+       ...,
+       [ 245, 1082]], shape=(4, 2), dtype=int16), array([[ 162, 1112],
+       ...,
+       [ 163, 1157]], shape=(4, 2), dtype=int16), array([[ 245, 1185],
+       ...,
+       [ 245, 1226]], shape=(4, 2), dtype=int16), array([[ 163, 1252],
+       ...,
+       [ 162, 1303]], shape=(4, 2), dtype=int16), array([[ 247, 1333],
+       ...,
+       [ 247, 1373]], shape=(4, 2), dtype=int16), array([[ 161, 1407],
+       ...,
+       [ 162, 1450]], shape=(4, 2), dtype=int16), array([[ 245, 1480],
+       ...,
+       [ 246, 1524]], shape=(4, 2), dtype=int16), array([[ 164, 1552],
+       ...,
+       [ 165, 1599]], shape=(4, 2), dtype=int16), array([[ 164, 1625],
+       ...,
+       [ 165, 1673]], shape=(4, 2), dtype=int16), array([[ 236, 1691],
+       ...,
+       [ 237, 1745]], shape=(4, 2), dtype=int16), array([[ 162, 1769],
+       ...,
+       [ 163, 1816]], shape=(4, 2), dtype=int16), array([[ 233, 1838],
+       ...,
+       [ 234, 1899]], shape=(4, 2), dtype=int16), array([[1025, 1904],
+       ...,
+       [1025, 1959]], shape=(4, 2), dtype=int16), array([[ 696, 1946],
+       ...,
+       [ 696, 1971]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['第十条委托贷款担保', '公司', '10.1回主台同委托贷款担保人为深训市合泰科的担保', '保记', '方式为连带责(连带责任保证/抵押/质押)，由甲方与担保人就', '担保形式和担保人（物)达成一致，另行签定保在/抵押/成', '台', '第十一条甲方的权利和义务', '11.1甲方应自行确定委托贷款的借款人（丙方），并对', '丙方资质、贷款项目、担保人资质、抵质押物等进行审查。', '11.2甲方应确保委托资金来源合法合规且甲方有权自', '主支配，并按合同约定及时向乙方提供委托资金。', '11.3甲方监督丙方按照合同约定使用贷款资金，确保贷', '其用注台法合规，并承担丙方的信用风险。', '11.4甲方有权要求丙方提供与本合同项下委托货款有', '的资料。', '11.5甲方有权检查本台同项下委托贷款的使用情况，了', '解丙方经营活动、财务状况、提供担保和债务纠纷等情况。', '11.6甲与有权委托乙方从丙方账户中扣收本台同项下', '委托贷共本金，利息、复利、罚息、违约金，损害赔', '会专为实理债权所发生的所有费用。', '11.7当内方不按本台同履行义务时，专有权委托方', '专计，开有权提营收同托货', '11.8内专发术合同担保人的经营活动、期说', '', '1'], 'rec_scores': [0.9988180994987488, 0.9460837841033936, 0.7942177653312683, 0.6876082420349121, 0.8778626918792725, 0.9045565128326416, 0.6216551661491394, 0.9959228038787842, 0.9662340879440308, 0.9858987331390381, 0.9858694672584534, 0.9755472540855408, 0.9575747847557068, 0.9258366823196411, 0.9434940218925476, 0.9921962022781372, 0.9661427140235901, 0.9870572686195374, 0.8840342164039612, 0.6872170567512512, 0.8545145988464355, 0.8179254531860352, 0.5603911280632019, 0.730100154876709, 0.0, 0.24402941763401031], 'rec_polys': [array([[512, 114],
+       ...,
+       [512, 161]], shape=(4, 2), dtype=int16), array([[1180,  191],
+       ...,
+       [1189,  241]], shape=(4, 2), dtype=int16), array([[241, 217],
+       ...,
+       [241, 285]], shape=(4, 2), dtype=int16), array([[395, 279],
+       ...,
+       [395, 320]], shape=(4, 2), dtype=int16), array([[162, 303],
+       ...,
+       [163, 361]], shape=(4, 2), dtype=int16), array([[158, 375],
+       ...,
+       [158, 432]], shape=(4, 2), dtype=int16), array([[159, 445],
+       ...,
+       [157, 500]], shape=(4, 2), dtype=int16), array([[441, 593],
+       ...,
+       [441, 642]], shape=(4, 2), dtype=int16), array([[243, 745],
+       ...,
+       [243, 789]], shape=(4, 2), dtype=int16), array([[158, 818],
+       ...,
+       [157, 861]], shape=(4, 2), dtype=int16), array([[244, 896],
+       ...,
+       [244, 936]], shape=(4, 2), dtype=int16), array([[ 158,  968],
+       ...,
+       [ 159, 1014]], shape=(4, 2), dtype=int16), array([[ 245, 1041],
+       ...,
+       [ 245, 1082]], shape=(4, 2), dtype=int16), array([[ 162, 1112],
+       ...,
+       [ 163, 1157]], shape=(4, 2), dtype=int16), array([[ 245, 1185],
+       ...,
+       [ 245, 1226]], shape=(4, 2), dtype=int16), array([[ 163, 1252],
+       ...,
+       [ 162, 1303]], shape=(4, 2), dtype=int16), array([[ 247, 1333],
+       ...,
+       [ 247, 1373]], shape=(4, 2), dtype=int16), array([[ 161, 1407],
+       ...,
+       [ 162, 1450]], shape=(4, 2), dtype=int16), array([[ 245, 1480],
+       ...,
+       [ 246, 1524]], shape=(4, 2), dtype=int16), array([[ 164, 1552],
+       ...,
+       [ 165, 1599]], shape=(4, 2), dtype=int16), array([[ 164, 1625],
+       ...,
+       [ 165, 1673]], shape=(4, 2), dtype=int16), array([[ 236, 1691],
+       ...,
+       [ 237, 1745]], shape=(4, 2), dtype=int16), array([[ 162, 1769],
+       ...,
+       [ 163, 1816]], shape=(4, 2), dtype=int16), array([[ 233, 1838],
+       ...,
+       [ 234, 1899]], shape=(4, 2), dtype=int16), array([[1025, 1904],
+       ...,
+       [1025, 1959]], shape=(4, 2), dtype=int16), array([[ 696, 1946],
+       ...,
+       [ 696, 1971]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], 'rec_boxes': array([[ 512, ...,  161],
+       ...,
+       [ 696, ..., 1971]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 第十条委托贷款担保
+2. 公司
+3. 10.1回主台同委托贷款担保人为深训市合泰科的担保
+4. 保记
+5. 方式为连带责(连带责任保证/抵押/质押)，由甲方与担保人就
+6. 担保形式和担保人（物)达成一致，另行签定保在/抵押/成
+7. 台
+8. 第十一条甲方的权利和义务
+9. 11.1甲方应自行确定委托贷款的借款人（丙方），并对
+10. 丙方资质、贷款项目、担保人资质、抵质押物等进行审查。
+11. 11.2甲方应确保委托资金来源合法合规且甲方有权自
+12. 主支配，并按合同约定及时向乙方提供委托资金。
+13. 11.3甲方监督丙方按照合同约定使用贷款资金，确保贷
+14. 其用注台法合规，并承担丙方的信用风险。
+15. 11.4甲方有权要求丙方提供与本合同项下委托货款有
+16. 的资料。
+17. 11.5甲方有权检查本台同项下委托贷款的使用情况，了
+18. 解丙方经营活动、财务状况、提供担保和债务纠纷等情况。
+19. 11.6甲与有权委托乙方从丙方账户中扣收本台同项下
+20. 委托贷共本金，利息、复利、罚息、违约金，损害赔
+21. 会专为实理债权所发生的所有费用。
+22. 11.7当内方不按本台同履行义务时，专有权委托方
+23. 专计，开有权提营收同托货
+24. 11.8内专发术合同担保人的经营活动、期说
+25. 
+26. 1

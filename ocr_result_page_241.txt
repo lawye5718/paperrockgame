@@ -1,0 +1,175 @@
+OCR结果 - 第 241 页
+==================================================
+处理的图像: temp_page_240_processed.png
+原始PDF页面: 241
+
+详细结果:
+[{'input_path': 'temp_page_240_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1425, 3), dtype=uint8)}, 'dt_polys': [array([[155, 141],
+       ...,
+       [154, 195]], shape=(4, 2), dtype=int16), array([[160, 211],
+       ...,
+       [159, 252]], shape=(4, 2), dtype=int16), array([[229, 281],
+       ...,
+       [228, 318]], shape=(4, 2), dtype=int16), array([[164, 339],
+       ...,
+       [163, 377]], shape=(4, 2), dtype=int16), array([[227, 401],
+       ...,
+       [226, 434]], shape=(4, 2), dtype=int16), array([[160, 453],
+       ...,
+       [159, 487]], shape=(4, 2), dtype=int16), array([[159, 508],
+       ...,
+       [158, 545]], shape=(4, 2), dtype=int16), array([[223, 569],
+       ...,
+       [223, 604]], shape=(4, 2), dtype=int16), array([[157, 623],
+       ...,
+       [156, 662]], shape=(4, 2), dtype=int16), array([[156, 696],
+       ...,
+       [156, 729]], shape=(4, 2), dtype=int16), array([[221, 745],
+       ...,
+       [221, 782]], shape=(4, 2), dtype=int16), array([[158, 804],
+       ...,
+       [157, 839]], shape=(4, 2), dtype=int16), array([[158, 862],
+       ...,
+       [157, 896]], shape=(4, 2), dtype=int16), array([[158, 920],
+       ...,
+       [157, 954]], shape=(4, 2), dtype=int16), array([[ 160,  980],
+       ...,
+       [ 159, 1011]], shape=(4, 2), dtype=int16), array([[ 220, 1039],
+       ...,
+       [ 220, 1071]], shape=(4, 2), dtype=int16), array([[ 160, 1098],
+       ...,
+       [ 160, 1127]], shape=(4, 2), dtype=int16), array([[ 158, 1224],
+       ...,
+       [ 157, 1258]], shape=(4, 2), dtype=int16), array([[ 157, 1294],
+       ...,
+       [ 156, 1324]], shape=(4, 2), dtype=int16), array([[ 220, 1342],
+       ...,
+       [ 220, 1376]], shape=(4, 2), dtype=int16), array([[ 159, 1397],
+       ...,
+       [ 158, 1430]], shape=(4, 2), dtype=int16), array([[ 220, 1457],
+       ...,
+       [ 220, 1491]], shape=(4, 2), dtype=int16), array([[ 158, 1509],
+       ...,
+       [ 157, 1546]], shape=(4, 2), dtype=int16), array([[ 155, 1563],
+       ...,
+       [ 154, 1604]], shape=(4, 2), dtype=int16), array([[ 154, 1619],
+       ...,
+       [ 153, 1660]], shape=(4, 2), dtype=int16), array([[ 153, 1676],
+       ...,
+       [ 152, 1718]], shape=(4, 2), dtype=int16), array([[ 154, 1737],
+       ...,
+       [ 153, 1775]], shape=(4, 2), dtype=int16), array([[ 667, 1898],
+       ...,
+       [ 667, 1931]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['质轻而硬，不导电，机械强度高，同收利用少，耐腐蚀。FRP材料抗腐蚀、抗疲', '劳性能好，可以在酸、碱、氯盐和潮湿的环境中长期使用。', '项目采用防渗材料（环氧树脂、PE膜和FRP）的防渗特性保证了项目采用的', '各种化学药品及废水即使产生泄露也不会对地面造成腐蚀从而导致地下水污染。', '而废水处理站所有废水处理构筑物底、侧面均采用防渗、防腐处理；废水输', '送全部采用管道，视废水水质的不同选择合适材质并作表面防腐、防锈蚀处理，', '减轻管道腐蚀造成的渗漏；并进行定期检查，确保消除跑、冒、滴、漏现象发生；', '分区防渗的措施针对不同区域的防渗需求选用不同材料，措施合理可行且较', '为经济。', '3.3.2.防止泄露及收集措施', '项目废液存储罐区内设有废液回收系统，该系统由若干废液收集罐组成，主', '要收集高浓度化学废液，所有收集罐均设有液位计，当液位达到一定值时系统会', '报警，防止废液泄露。为了防止液体化学品泄露，项目综合动力站、废液存储罐', '区、废水处理站、危险废物暂存库、冷库、化学品库、化学品车间（包括CCSS)', '设有经过防渗、防腐处理的地沟、围堰。', '地沟、事围堰能阻拦泄露的化学品及废液溢出建筑物，能有效避免化学品及', '废液泄露后造成地下水污染，处置措施合理可行。', '3.4.噪声污染防治对策分析', '3.4.1.噪声控制措施简述', '本工程的噪声污染源主要米自辅助动力设备，如空压机、冷却塔、真空泵、', '应急发电机、风机等。', '本项目在设计上选择低噪声设备，合理布置噪声源：冷冻机组、应急发电机、', '空压机、真空泵等强噪声源均布置在密闭厂房内；风机布置于厂房屋顶，针对排', '风管道进出口加柔性软接头，排风机外壳设隔声罩；冷却塔布置在动力厂房屋顶；', '应急发电机房布置在动力厂房内。同时对发电机房、空压机房、冷冻机房和废气', '处理装置、冷却塔噪声等进行治理，尽可能降低生产设备噪声对周围环境的影响。', '本项目动力设备的噪声治理措施分述如下：', '102'], 'rec_scores': [0.978942334651947, 0.9923337697982788, 0.9833385944366455, 0.9977291822433472, 0.9936755895614624, 0.9950698614120483, 0.9857597351074219, 0.9933315515518188, 0.998098611831665, 0.9615072011947632, 0.9961971044540405, 0.9984020590782166, 0.9938237071037292, 0.9752437472343445, 0.9976377487182617, 0.9959236979484558, 0.991599977016449, 0.9987287521362305, 0.9884466528892517, 0.9703600406646729, 0.9756096005439758, 0.9888767004013062, 0.9849316477775574, 0.970257043838501, 0.9965693950653076, 0.9917013645172119, 0.9883943796157837, 0.9998769164085388], 'rec_polys': [array([[155, 141],
+       ...,
+       [154, 195]], shape=(4, 2), dtype=int16), array([[160, 211],
+       ...,
+       [159, 252]], shape=(4, 2), dtype=int16), array([[229, 281],
+       ...,
+       [228, 318]], shape=(4, 2), dtype=int16), array([[164, 339],
+       ...,
+       [163, 377]], shape=(4, 2), dtype=int16), array([[227, 401],
+       ...,
+       [226, 434]], shape=(4, 2), dtype=int16), array([[160, 453],
+       ...,
+       [159, 487]], shape=(4, 2), dtype=int16), array([[159, 508],
+       ...,
+       [158, 545]], shape=(4, 2), dtype=int16), array([[223, 569],
+       ...,
+       [223, 604]], shape=(4, 2), dtype=int16), array([[157, 623],
+       ...,
+       [156, 662]], shape=(4, 2), dtype=int16), array([[156, 696],
+       ...,
+       [156, 729]], shape=(4, 2), dtype=int16), array([[221, 745],
+       ...,
+       [221, 782]], shape=(4, 2), dtype=int16), array([[158, 804],
+       ...,
+       [157, 839]], shape=(4, 2), dtype=int16), array([[158, 862],
+       ...,
+       [157, 896]], shape=(4, 2), dtype=int16), array([[158, 920],
+       ...,
+       [157, 954]], shape=(4, 2), dtype=int16), array([[ 160,  980],
+       ...,
+       [ 159, 1011]], shape=(4, 2), dtype=int16), array([[ 220, 1039],
+       ...,
+       [ 220, 1071]], shape=(4, 2), dtype=int16), array([[ 160, 1098],
+       ...,
+       [ 160, 1127]], shape=(4, 2), dtype=int16), array([[ 158, 1224],
+       ...,
+       [ 157, 1258]], shape=(4, 2), dtype=int16), array([[ 157, 1294],
+       ...,
+       [ 156, 1324]], shape=(4, 2), dtype=int16), array([[ 220, 1342],
+       ...,
+       [ 220, 1376]], shape=(4, 2), dtype=int16), array([[ 159, 1397],
+       ...,
+       [ 158, 1430]], shape=(4, 2), dtype=int16), array([[ 220, 1457],
+       ...,
+       [ 220, 1491]], shape=(4, 2), dtype=int16), array([[ 158, 1509],
+       ...,
+       [ 157, 1546]], shape=(4, 2), dtype=int16), array([[ 155, 1563],
+       ...,
+       [ 154, 1604]], shape=(4, 2), dtype=int16), array([[ 154, 1619],
+       ...,
+       [ 153, 1660]], shape=(4, 2), dtype=int16), array([[ 153, 1676],
+       ...,
+       [ 152, 1718]], shape=(4, 2), dtype=int16), array([[ 154, 1737],
+       ...,
+       [ 153, 1775]], shape=(4, 2), dtype=int16), array([[ 667, 1898],
+       ...,
+       [ 667, 1931]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 154, ...,  218],
+       ...,
+       [ 667, ..., 1931]], shape=(28, 4), dtype=int16)}]
+
+解析后的文本:
+1. 质轻而硬，不导电，机械强度高，同收利用少，耐腐蚀。FRP材料抗腐蚀、抗疲
+2. 劳性能好，可以在酸、碱、氯盐和潮湿的环境中长期使用。
+3. 项目采用防渗材料（环氧树脂、PE膜和FRP）的防渗特性保证了项目采用的
+4. 各种化学药品及废水即使产生泄露也不会对地面造成腐蚀从而导致地下水污染。
+5. 而废水处理站所有废水处理构筑物底、侧面均采用防渗、防腐处理；废水输
+6. 送全部采用管道，视废水水质的不同选择合适材质并作表面防腐、防锈蚀处理，
+7. 减轻管道腐蚀造成的渗漏；并进行定期检查，确保消除跑、冒、滴、漏现象发生；
+8. 分区防渗的措施针对不同区域的防渗需求选用不同材料，措施合理可行且较
+9. 为经济。
+10. 3.3.2.防止泄露及收集措施
+11. 项目废液存储罐区内设有废液回收系统，该系统由若干废液收集罐组成，主
+12. 要收集高浓度化学废液，所有收集罐均设有液位计，当液位达到一定值时系统会
+13. 报警，防止废液泄露。为了防止液体化学品泄露，项目综合动力站、废液存储罐
+14. 区、废水处理站、危险废物暂存库、冷库、化学品库、化学品车间（包括CCSS)
+15. 设有经过防渗、防腐处理的地沟、围堰。
+16. 地沟、事围堰能阻拦泄露的化学品及废液溢出建筑物，能有效避免化学品及
+17. 废液泄露后造成地下水污染，处置措施合理可行。
+18. 3.4.噪声污染防治对策分析
+19. 3.4.1.噪声控制措施简述
+20. 本工程的噪声污染源主要米自辅助动力设备，如空压机、冷却塔、真空泵、
+21. 应急发电机、风机等。
+22. 本项目在设计上选择低噪声设备，合理布置噪声源：冷冻机组、应急发电机、
+23. 空压机、真空泵等强噪声源均布置在密闭厂房内；风机布置于厂房屋顶，针对排
+24. 风管道进出口加柔性软接头，排风机外壳设隔声罩；冷却塔布置在动力厂房屋顶；
+25. 应急发电机房布置在动力厂房内。同时对发电机房、空压机房、冷冻机房和废气
+26. 处理装置、冷却塔噪声等进行治理，尽可能降低生产设备噪声对周围环境的影响。
+27. 本项目动力设备的噪声治理措施分述如下：
+28. 102

@@ -1,0 +1,110 @@
+OCR结果 - 第 103 页
+==================================================
+处理的图像: temp_page_102_processed.png
+原始PDF页面: 103
+
+详细结果:
+[{'input_path': 'temp_page_102_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8)}, 'dt_polys': [array([[734,  21],
+       ...,
+       [732,  67]], shape=(4, 2), dtype=int16), array([[204, 320],
+       ...,
+       [204, 357]], shape=(4, 2), dtype=int16), array([[200, 417],
+       ...,
+       [200, 457]], shape=(4, 2), dtype=int16), array([[196, 529],
+       ...,
+       [196, 573]], shape=(4, 2), dtype=int16), array([[199, 594],
+       ...,
+       [199, 639]], shape=(4, 2), dtype=int16), array([[202, 732],
+       ...,
+       [202, 763]], shape=(4, 2), dtype=int16), array([[176, 778],
+       ...,
+       [176, 791]], shape=(4, 2), dtype=int16), array([[255, 771],
+       ...,
+       [255, 814]], shape=(4, 2), dtype=int16), array([[647, 948],
+       ...,
+       [648, 985]], shape=(4, 2), dtype=int16), array([[ 290, 1066],
+       ...,
+       [ 290, 1080]], shape=(4, 2), dtype=int16), array([[1105, 1093],
+       ...,
+       [1105, 1170]], shape=(4, 2), dtype=int16), array([[ 204, 1110],
+       ...,
+       [ 204, 1154]], shape=(4, 2), dtype=int16), array([[ 190, 1501],
+       ...,
+       [ 190, 1546]], shape=(4, 2), dtype=int16), array([[ 275, 1558],
+       ...,
+       [ 275, 1590]], shape=(4, 2), dtype=int16), array([[ 204, 1607],
+       ...,
+       [ 204, 1656]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['耀', '1', '打', '112', '本用于', '', '.', '', '', '二', '科', ' ', '广西铁州保', '&', ''], 'rec_scores': [0.6075802445411682, 0.38456499576568604, 0.4364856481552124, 0.47213467955589294, 0.6403767466545105, 0.0, 0.09460438042879105, 0.0, 0.0, 0.20788989961147308, 0.9293063879013062, 0.5150569677352905, 0.8608322143554688, 0.24850666522979736, 0.0], 'rec_polys': [array([[734,  21],
+       ...,
+       [732,  67]], shape=(4, 2), dtype=int16), array([[204, 320],
+       ...,
+       [204, 357]], shape=(4, 2), dtype=int16), array([[200, 417],
+       ...,
+       [200, 457]], shape=(4, 2), dtype=int16), array([[196, 529],
+       ...,
+       [196, 573]], shape=(4, 2), dtype=int16), array([[199, 594],
+       ...,
+       [199, 639]], shape=(4, 2), dtype=int16), array([[202, 732],
+       ...,
+       [202, 763]], shape=(4, 2), dtype=int16), array([[176, 778],
+       ...,
+       [176, 791]], shape=(4, 2), dtype=int16), array([[255, 771],
+       ...,
+       [255, 814]], shape=(4, 2), dtype=int16), array([[647, 948],
+       ...,
+       [648, 985]], shape=(4, 2), dtype=int16), array([[ 290, 1066],
+       ...,
+       [ 290, 1080]], shape=(4, 2), dtype=int16), array([[1105, 1093],
+       ...,
+       [1105, 1170]], shape=(4, 2), dtype=int16), array([[ 204, 1110],
+       ...,
+       [ 204, 1154]], shape=(4, 2), dtype=int16), array([[ 190, 1501],
+       ...,
+       [ 190, 1546]], shape=(4, 2), dtype=int16), array([[ 275, 1558],
+       ...,
+       [ 275, 1590]], shape=(4, 2), dtype=int16), array([[ 204, 1607],
+       ...,
+       [ 204, 1656]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 732, ...,   70],
+       ...,
+       [ 204, ..., 1659]], shape=(15, 4), dtype=int16)}]
+
+解析后的文本:
+1. 耀
+2. 1
+3. 打
+4. 112
+5. 本用于
+6. 
+7. .
+8. 
+9. 
+10. 二
+11. 科
+12.  
+13. 广西铁州保
+14. &
+15. 

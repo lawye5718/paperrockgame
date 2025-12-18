@@ -1,0 +1,200 @@
+OCR结果 - 第 55 页
+==================================================
+处理的图像: temp_page_54_processed.png
+原始PDF页面: 55
+
+详细结果:
+[{'input_path': 'temp_page_54_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[229, 341],
+       ...,
+       [230, 409]], shape=(4, 2), dtype=int16), array([[216, 491],
+       ...,
+       [215, 548]], shape=(4, 2), dtype=int16), array([[1053,  492],
+       ...,
+       [1053,  546]], shape=(4, 2), dtype=int16), array([[218, 566],
+       ...,
+       [217, 616]], shape=(4, 2), dtype=int16), array([[238, 639],
+       ...,
+       [239, 694]], shape=(4, 2), dtype=int16), array([[1055,  639],
+       ...,
+       [1054,  694]], shape=(4, 2), dtype=int16), array([[236, 716],
+       ...,
+       [236, 763]], shape=(4, 2), dtype=int16), array([[647, 889],
+       ...,
+       [650, 963]], shape=(4, 2), dtype=int16), array([[702, 890],
+       ...,
+       [684, 951]], shape=(4, 2), dtype=int16), array([[ 542,  914],
+       ...,
+       [ 580, 1009]], shape=(4, 2), dtype=int16), array([[224, 938],
+       ...,
+       [224, 994]], shape=(4, 2), dtype=int16), array([[430, 933],
+       ...,
+       [432, 995]], shape=(4, 2), dtype=int16), array([[ 224, 1008],
+       ...,
+       [ 224, 1071]], shape=(4, 2), dtype=int16), array([[ 253, 1089],
+       ...,
+       [ 253, 1133]], shape=(4, 2), dtype=int16), array([[1059, 1089],
+       ...,
+       [1060, 1141]], shape=(4, 2), dtype=int16), array([[ 146, 1158],
+       ...,
+       [ 146, 1213]], shape=(4, 2), dtype=int16), array([[ 241, 1305],
+       ...,
+       [ 240, 1354]], shape=(4, 2), dtype=int16), array([[ 612, 1477],
+       ...,
+       [ 649, 1665]], shape=(4, 2), dtype=int16), array([[ 617, 1473],
+       ...,
+       [ 609, 1539]], shape=(4, 2), dtype=int16), array([[ 234, 1520],
+       ...,
+       [ 233, 1569]], shape=(4, 2), dtype=int16), array([[1027, 1524],
+       ...,
+       [1027, 1580]], shape=(4, 2), dtype=int16), array([[ 436, 1574],
+       ...,
+       [ 516, 1658]], shape=(4, 2), dtype=int16), array([[ 242, 1595],
+       ...,
+       [ 242, 1637]], shape=(4, 2), dtype=int16), array([[ 525, 1615],
+       ...,
+       [ 484, 1698]], shape=(4, 2), dtype=int16), array([[ 488, 1640],
+       ...,
+       [ 515, 1677]], shape=(4, 2), dtype=int16), array([[ 265, 1658],
+       ...,
+       [ 263, 1704]], shape=(4, 2), dtype=int16), array([[1027, 1668],
+       ...,
+       [1027, 1724]], shape=(4, 2), dtype=int16), array([[ 994, 1782],
+       ...,
+       [1003, 1881]], shape=(4, 2), dtype=int16), array([[ 246, 1799],
+       ...,
+       [ 245, 1841]], shape=(4, 2), dtype=int16), array([[1102, 1879],
+       ...,
+       [1102, 1974]], shape=(4, 2), dtype=int16), array([[1267, 1886],
+       ...,
+       [1265, 1964]], shape=(4, 2), dtype=int16), array([[ 683, 1939],
+       ...,
+       [ 683, 1966]], shape=(4, 2), dtype=int16), array([[ 941, 1947],
+       ...,
+       [ 941, 1993]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['(本页无正文，为《委托贷款借款合同》签署页)', '甲方：', '(盖章)', '法定代表人', '(或委托代理人))', '(签字）', '2018年11月30日', '银', '行', '华夏', '乙方：', '(盖章', '法定代表人/主要负责', '(或委托代理人)', '(签字或盖', '章）', '2018年1月30日', '武', '技', '丙亏：', '(盖章)', '泰光电科', '法定代表人：', '东莞苏', '4', '(或委托代理', '(签字)', '2证', '2018年11月30日', '', '1', '20', ''], 'rec_scores': [0.8985846042633057, 0.9402075409889221, 0.8869407176971436, 0.9984105825424194, 0.8829522132873535, 0.7662071585655212, 0.8751907348632812, 0.5514901280403137, 0.9976512789726257, 0.955683708190918, 0.9584035277366638, 0.8081457018852234, 0.9633280038833618, 0.8716518878936768, 0.7159576416015625, 0.7568446397781372, 0.9124544262886047, 0.18887768685817719, 0.9959827661514282, 0.8198849558830261, 0.8310076594352722, 0.9410380125045776, 0.9876375198364258, 0.4891665279865265, 0.3095017671585083, 0.9674736857414246, 0.8806870579719543, 0.4881252646446228, 0.8140867352485657, 0.0, 0.6743001341819763, 0.9390919208526611, 0.0], 'rec_polys': [array([[229, 341],
+       ...,
+       [230, 409]], shape=(4, 2), dtype=int16), array([[216, 491],
+       ...,
+       [215, 548]], shape=(4, 2), dtype=int16), array([[1053,  492],
+       ...,
+       [1053,  546]], shape=(4, 2), dtype=int16), array([[218, 566],
+       ...,
+       [217, 616]], shape=(4, 2), dtype=int16), array([[238, 639],
+       ...,
+       [239, 694]], shape=(4, 2), dtype=int16), array([[1055,  639],
+       ...,
+       [1054,  694]], shape=(4, 2), dtype=int16), array([[236, 716],
+       ...,
+       [236, 763]], shape=(4, 2), dtype=int16), array([[647, 889],
+       ...,
+       [650, 963]], shape=(4, 2), dtype=int16), array([[702, 890],
+       ...,
+       [684, 951]], shape=(4, 2), dtype=int16), array([[ 542,  914],
+       ...,
+       [ 580, 1009]], shape=(4, 2), dtype=int16), array([[224, 938],
+       ...,
+       [224, 994]], shape=(4, 2), dtype=int16), array([[430, 933],
+       ...,
+       [432, 995]], shape=(4, 2), dtype=int16), array([[ 224, 1008],
+       ...,
+       [ 224, 1071]], shape=(4, 2), dtype=int16), array([[ 253, 1089],
+       ...,
+       [ 253, 1133]], shape=(4, 2), dtype=int16), array([[1059, 1089],
+       ...,
+       [1060, 1141]], shape=(4, 2), dtype=int16), array([[ 146, 1158],
+       ...,
+       [ 146, 1213]], shape=(4, 2), dtype=int16), array([[ 241, 1305],
+       ...,
+       [ 240, 1354]], shape=(4, 2), dtype=int16), array([[ 612, 1477],
+       ...,
+       [ 649, 1665]], shape=(4, 2), dtype=int16), array([[ 617, 1473],
+       ...,
+       [ 609, 1539]], shape=(4, 2), dtype=int16), array([[ 234, 1520],
+       ...,
+       [ 233, 1569]], shape=(4, 2), dtype=int16), array([[1027, 1524],
+       ...,
+       [1027, 1580]], shape=(4, 2), dtype=int16), array([[ 436, 1574],
+       ...,
+       [ 516, 1658]], shape=(4, 2), dtype=int16), array([[ 242, 1595],
+       ...,
+       [ 242, 1637]], shape=(4, 2), dtype=int16), array([[ 525, 1615],
+       ...,
+       [ 484, 1698]], shape=(4, 2), dtype=int16), array([[ 488, 1640],
+       ...,
+       [ 515, 1677]], shape=(4, 2), dtype=int16), array([[ 265, 1658],
+       ...,
+       [ 263, 1704]], shape=(4, 2), dtype=int16), array([[1027, 1668],
+       ...,
+       [1027, 1724]], shape=(4, 2), dtype=int16), array([[ 994, 1782],
+       ...,
+       [1003, 1881]], shape=(4, 2), dtype=int16), array([[ 246, 1799],
+       ...,
+       [ 245, 1841]], shape=(4, 2), dtype=int16), array([[1102, 1879],
+       ...,
+       [1102, 1974]], shape=(4, 2), dtype=int16), array([[1267, 1886],
+       ...,
+       [1265, 1964]], shape=(4, 2), dtype=int16), array([[ 683, 1939],
+       ...,
+       [ 683, 1966]], shape=(4, 2), dtype=int16), array([[ 941, 1947],
+       ...,
+       [ 941, 1993]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 229, ...,  409],
+       ...,
+       [ 941, ..., 1993]], shape=(33, 4), dtype=int16)}]
+
+解析后的文本:
+1. (本页无正文，为《委托贷款借款合同》签署页)
+2. 甲方：
+3. (盖章)
+4. 法定代表人
+5. (或委托代理人))
+6. (签字）
+7. 2018年11月30日
+8. 银
+9. 行
+10. 华夏
+11. 乙方：
+12. (盖章
+13. 法定代表人/主要负责
+14. (或委托代理人)
+15. (签字或盖
+16. 章）
+17. 2018年1月30日
+18. 武
+19. 技
+20. 丙亏：
+21. (盖章)
+22. 泰光电科
+23. 法定代表人：
+24. 东莞苏
+25. 4
+26. (或委托代理
+27. (签字)
+28. 2证
+29. 2018年11月30日
+30. 
+31. 1
+32. 20
+33. 

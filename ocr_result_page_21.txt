@@ -1,0 +1,115 @@
+OCR结果 - 第 21 页
+==================================================
+处理的图像: temp_page_20_processed.png
+原始PDF页面: 21
+
+详细结果:
+[{'input_path': 'temp_page_20_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[545,  85],
+       ...,
+       [544, 142]], shape=(4, 2), dtype=int16), array([[229, 235],
+       ...,
+       [229, 269]], shape=(4, 2), dtype=int16), array([[153, 300],
+       ...,
+       [152, 338]], shape=(4, 2), dtype=int16), array([[151, 367],
+       ...,
+       [150, 404]], shape=(4, 2), dtype=int16), array([[222, 436],
+       ...,
+       [222, 474]], shape=(4, 2), dtype=int16), array([[146, 501],
+       ...,
+       [145, 542]], shape=(4, 2), dtype=int16), array([[222, 576],
+       ...,
+       [222, 620]], shape=(4, 2), dtype=int16), array([[148, 646],
+       ...,
+       [147, 691]], shape=(4, 2), dtype=int16), array([[224, 720],
+       ...,
+       [224, 764]], shape=(4, 2), dtype=int16), array([[224, 793],
+       ...,
+       [224, 841]], shape=(4, 2), dtype=int16), array([[156, 867],
+       ...,
+       [155, 905]], shape=(4, 2), dtype=int16), array([[227, 938],
+       ...,
+       [228, 986]], shape=(4, 2), dtype=int16), array([[ 224, 1007],
+       ...,
+       [ 225, 1059]], shape=(4, 2), dtype=int16), array([[ 150, 1077],
+       ...,
+       [ 151, 1129]], shape=(4, 2), dtype=int16), array([[1082, 1767],
+       ...,
+       [1077, 1772]], shape=(4, 2), dtype=int16), array([[ 511, 1830],
+       ...,
+       [ 534, 1998]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['特别提示', '银行已采取加粗、加黑、突出显示等合理方式提请合同当事人注', '意本合同项下免除或限制其责任的条款，并对有关条款予以充分说明；', '各方对本合同所有条款内容的理解不存在异议。', '为了维护您的利益，请在签署本合同前，仔细阅读本合同的各条', '款，并特别注意如下事项：', '1.合同当事人有权选择本合同条款或选择其他合同，但在签署本', '合同后即视为同意并接受本合同全部条款；', '2.本合同中关于各方的义务及违约责任承担条款；', '3.确保您为依法成立、合法存续的法人，或得到法人合法授权的', '分支机构或其他组织；', '4.应确保您提交的申请文件及资料真实、合法、有效；', '5.您应本着诚实、信用的原则，签订本合同，并承诺按本合同的', '约定履行义务。', '1', '何斌②'], 'rec_scores': [0.999120831489563, 0.9974221587181091, 0.9827498197555542, 0.9988441467285156, 0.9986709952354431, 0.9850807785987854, 0.9939892292022705, 0.9914919137954712, 0.9920071363449097, 0.9988913536071777, 0.9521719813346863, 0.9843857288360596, 0.9909290075302124, 0.9911545515060425, 0.2286786288022995, 0.7708158493041992], 'rec_polys': [array([[545,  85],
+       ...,
+       [544, 142]], shape=(4, 2), dtype=int16), array([[229, 235],
+       ...,
+       [229, 269]], shape=(4, 2), dtype=int16), array([[153, 300],
+       ...,
+       [152, 338]], shape=(4, 2), dtype=int16), array([[151, 367],
+       ...,
+       [150, 404]], shape=(4, 2), dtype=int16), array([[222, 436],
+       ...,
+       [222, 474]], shape=(4, 2), dtype=int16), array([[146, 501],
+       ...,
+       [145, 542]], shape=(4, 2), dtype=int16), array([[222, 576],
+       ...,
+       [222, 620]], shape=(4, 2), dtype=int16), array([[148, 646],
+       ...,
+       [147, 691]], shape=(4, 2), dtype=int16), array([[224, 720],
+       ...,
+       [224, 764]], shape=(4, 2), dtype=int16), array([[224, 793],
+       ...,
+       [224, 841]], shape=(4, 2), dtype=int16), array([[156, 867],
+       ...,
+       [155, 905]], shape=(4, 2), dtype=int16), array([[227, 938],
+       ...,
+       [228, 986]], shape=(4, 2), dtype=int16), array([[ 224, 1007],
+       ...,
+       [ 225, 1059]], shape=(4, 2), dtype=int16), array([[ 150, 1077],
+       ...,
+       [ 151, 1129]], shape=(4, 2), dtype=int16), array([[1082, 1767],
+       ...,
+       [1077, 1772]], shape=(4, 2), dtype=int16), array([[ 511, 1830],
+       ...,
+       [ 534, 1998]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], 'rec_boxes': array([[ 544, ...,  151],
+       ...,
+       [ 511, ..., 1998]], shape=(16, 4), dtype=int16)}]
+
+解析后的文本:
+1. 特别提示
+2. 银行已采取加粗、加黑、突出显示等合理方式提请合同当事人注
+3. 意本合同项下免除或限制其责任的条款，并对有关条款予以充分说明；
+4. 各方对本合同所有条款内容的理解不存在异议。
+5. 为了维护您的利益，请在签署本合同前，仔细阅读本合同的各条
+6. 款，并特别注意如下事项：
+7. 1.合同当事人有权选择本合同条款或选择其他合同，但在签署本
+8. 合同后即视为同意并接受本合同全部条款；
+9. 2.本合同中关于各方的义务及违约责任承担条款；
+10. 3.确保您为依法成立、合法存续的法人，或得到法人合法授权的
+11. 分支机构或其他组织；
+12. 4.应确保您提交的申请文件及资料真实、合法、有效；
+13. 5.您应本着诚实、信用的原则，签订本合同，并承诺按本合同的
+14. 约定履行义务。
+15. 1
+16. 何斌②

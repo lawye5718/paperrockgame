@@ -1,0 +1,200 @@
+OCR结果 - 第 301 页
+==================================================
+处理的图像: temp_page_300_processed.png
+原始PDF页面: 301
+
+详细结果:
+[{'input_path': 'temp_page_300_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[920,  23],
+       ...,
+       [915,  95]], shape=(4, 2), dtype=int16), array([[1122,   32],
+       ...,
+       [1116,  100]], shape=(4, 2), dtype=int16), array([[913,  89],
+       ...,
+       [908, 163]], shape=(4, 2), dtype=int16), array([[1135,   89],
+       ...,
+       [1146,  216]], shape=(4, 2), dtype=int16), array([[1320,  169],
+       ...,
+       [1321,  211]], shape=(4, 2), dtype=int16), array([[150, 208],
+       ...,
+       [148, 307]], shape=(4, 2), dtype=int16), array([[594, 301],
+       ...,
+       [593, 376]], shape=(4, 2), dtype=int16), array([[847, 300],
+       ...,
+       [847, 316]], shape=(4, 2), dtype=int16), array([[1218,  293],
+       ...,
+       [1221,  386]], shape=(4, 2), dtype=int16), array([[830, 363],
+       ...,
+       [818, 400]], shape=(4, 2), dtype=int16), array([[1287,  381],
+       ...,
+       [1289,  463]], shape=(4, 2), dtype=int16), array([[799, 440],
+       ...,
+       [809, 456]], shape=(4, 2), dtype=int16), array([[224, 455],
+       ...,
+       [223, 509]], shape=(4, 2), dtype=int16), array([[134, 524],
+       ...,
+       [132, 570]], shape=(4, 2), dtype=int16), array([[221, 597],
+       ...,
+       [220, 645]], shape=(4, 2), dtype=int16), array([[219, 666],
+       ...,
+       [218, 709]], shape=(4, 2), dtype=int16), array([[136, 734],
+       ...,
+       [135, 778]], shape=(4, 2), dtype=int16), array([[137, 803],
+       ...,
+       [136, 847]], shape=(4, 2), dtype=int16), array([[140, 875],
+       ...,
+       [139, 916]], shape=(4, 2), dtype=int16), array([[226, 948],
+       ...,
+       [227, 989]], shape=(4, 2), dtype=int16), array([[ 238, 1012],
+       ...,
+       [ 237, 1056]], shape=(4, 2), dtype=int16), array([[ 141, 1080],
+       ...,
+       [ 140, 1122]], shape=(4, 2), dtype=int16), array([[ 237, 1147],
+       ...,
+       [ 236, 1191]], shape=(4, 2), dtype=int16), array([[ 138, 1215],
+       ...,
+       [ 137, 1256]], shape=(4, 2), dtype=int16), array([[ 138, 1283],
+       ...,
+       [ 137, 1323]], shape=(4, 2), dtype=int16), array([[ 138, 1350],
+       ...,
+       [ 137, 1390]], shape=(4, 2), dtype=int16), array([[ 137, 1417],
+       ...,
+       [ 136, 1457]], shape=(4, 2), dtype=int16), array([[ 135, 1483],
+       ...,
+       [ 134, 1526]], shape=(4, 2), dtype=int16), array([[ 234, 1553],
+       ...,
+       [ 233, 1594]], shape=(4, 2), dtype=int16), array([[ 137, 1616],
+       ...,
+       [ 136, 1660]], shape=(4, 2), dtype=int16), array([[ 135, 1684],
+       ...,
+       [ 134, 1728]], shape=(4, 2), dtype=int16), array([[ 135, 1750],
+       ...,
+       [ 134, 1794]], shape=(4, 2), dtype=int16), array([[ 134, 1816],
+       ...,
+       [ 133, 1861]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['此复印件共', '与原件一致.', '原件存于我单', '', '202', '泰嘉超薄玻璃基板深加工房代建项目资金', '使用精况', '', '提取人：本', '四', '胡晓华', '582', '泰嘉7.5代超薄玻璃基板深加工厂房代建项目资金使用情', '况如下：', '一、泰嘉超薄玻璃基板深加工项目计划投资规模', '泰嘉超薄玻璃基板深加工项目投资规模：勘察设计等建设', '其他费（含勘察费）0.73亿元，建安工程费36.69亿元（不含', '产品生产设备购置费），监理费0.28亿元，土地费用0.72亿', '元，合计38.42亿元。', '二、资金筹集情况', '（一）截止2025年6月30日，钦州市财政筹集并拨付厂', '房代建专项资金共计66730万元。', '（二）钦州市人民政府与广西建工集团有限责任公司签订', '的《建设超薄玻璃基板深加工项目战略合作协议》及补充合作', '协议约定“在补缺总额度10亿元人民币范围内，乙方保证本项', '目不因工程进度款支付问题出现停工”。根据约定，截止2025', '年6月30日广西建工集团有限责任公司累计代垫工程进度款', '1.58亿元。', '（三）取得中国农业发展银行钦州分行（以下简称“农发', '行”）15.6亿融资贷款。截止2025年6月30日，农发行已发', '放贷款9.323亿元，其中2.65亿元为共管资金（已支付到广西', '建工账户，需要建设单位泰成公司同意才能使用，共管资金累', '计已用0.47亿元，余额2.18亿元）。'], 'rec_scores': [0.9891474843025208, 0.8050188422203064, 0.9256401062011719, 0.0, 0.8171893954277039, 0.928521990776062, 0.7272844314575195, 0.0, 0.776663064956665, 0.0997721403837204, 0.8580393195152283, 0.8431183695793152, 0.9970995783805847, 0.9640096426010132, 0.9983603954315186, 0.9981038570404053, 0.9884513020515442, 0.9881598949432373, 0.9976077079772949, 0.9948117733001709, 0.9635985493659973, 0.9979676604270935, 0.9933825731277466, 0.9966817498207092, 0.9979261755943298, 0.9965028166770935, 0.996736466884613, 0.9976896643638611, 0.9925033450126648, 0.9884698390960693, 0.9941601157188416, 0.9993749260902405, 0.9926409721374512], 'rec_polys': [array([[920,  23],
+       ...,
+       [915,  95]], shape=(4, 2), dtype=int16), array([[1122,   32],
+       ...,
+       [1116,  100]], shape=(4, 2), dtype=int16), array([[913,  89],
+       ...,
+       [908, 163]], shape=(4, 2), dtype=int16), array([[1135,   89],
+       ...,
+       [1146,  216]], shape=(4, 2), dtype=int16), array([[1320,  169],
+       ...,
+       [1321,  211]], shape=(4, 2), dtype=int16), array([[150, 208],
+       ...,
+       [148, 307]], shape=(4, 2), dtype=int16), array([[594, 301],
+       ...,
+       [593, 376]], shape=(4, 2), dtype=int16), array([[847, 300],
+       ...,
+       [847, 316]], shape=(4, 2), dtype=int16), array([[1218,  293],
+       ...,
+       [1221,  386]], shape=(4, 2), dtype=int16), array([[830, 363],
+       ...,
+       [818, 400]], shape=(4, 2), dtype=int16), array([[1287,  381],
+       ...,
+       [1289,  463]], shape=(4, 2), dtype=int16), array([[799, 440],
+       ...,
+       [809, 456]], shape=(4, 2), dtype=int16), array([[224, 455],
+       ...,
+       [223, 509]], shape=(4, 2), dtype=int16), array([[134, 524],
+       ...,
+       [132, 570]], shape=(4, 2), dtype=int16), array([[221, 597],
+       ...,
+       [220, 645]], shape=(4, 2), dtype=int16), array([[219, 666],
+       ...,
+       [218, 709]], shape=(4, 2), dtype=int16), array([[136, 734],
+       ...,
+       [135, 778]], shape=(4, 2), dtype=int16), array([[137, 803],
+       ...,
+       [136, 847]], shape=(4, 2), dtype=int16), array([[140, 875],
+       ...,
+       [139, 916]], shape=(4, 2), dtype=int16), array([[226, 948],
+       ...,
+       [227, 989]], shape=(4, 2), dtype=int16), array([[ 238, 1012],
+       ...,
+       [ 237, 1056]], shape=(4, 2), dtype=int16), array([[ 141, 1080],
+       ...,
+       [ 140, 1122]], shape=(4, 2), dtype=int16), array([[ 237, 1147],
+       ...,
+       [ 236, 1191]], shape=(4, 2), dtype=int16), array([[ 138, 1215],
+       ...,
+       [ 137, 1256]], shape=(4, 2), dtype=int16), array([[ 138, 1283],
+       ...,
+       [ 137, 1323]], shape=(4, 2), dtype=int16), array([[ 138, 1350],
+       ...,
+       [ 137, 1390]], shape=(4, 2), dtype=int16), array([[ 137, 1417],
+       ...,
+       [ 136, 1457]], shape=(4, 2), dtype=int16), array([[ 135, 1483],
+       ...,
+       [ 134, 1526]], shape=(4, 2), dtype=int16), array([[ 234, 1553],
+       ...,
+       [ 233, 1594]], shape=(4, 2), dtype=int16), array([[ 137, 1616],
+       ...,
+       [ 136, 1660]], shape=(4, 2), dtype=int16), array([[ 135, 1684],
+       ...,
+       [ 134, 1728]], shape=(4, 2), dtype=int16), array([[ 135, 1750],
+       ...,
+       [ 134, 1794]], shape=(4, 2), dtype=int16), array([[ 134, 1816],
+       ...,
+       [ 133, 1861]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 915, ...,  105],
+       ...,
+       [ 133, ..., 1869]], shape=(33, 4), dtype=int16)}]
+
+解析后的文本:
+1. 此复印件共
+2. 与原件一致.
+3. 原件存于我单
+4. 
+5. 202
+6. 泰嘉超薄玻璃基板深加工房代建项目资金
+7. 使用精况
+8. 
+9. 提取人：本
+10. 四
+11. 胡晓华
+12. 582
+13. 泰嘉7.5代超薄玻璃基板深加工厂房代建项目资金使用情
+14. 况如下：
+15. 一、泰嘉超薄玻璃基板深加工项目计划投资规模
+16. 泰嘉超薄玻璃基板深加工项目投资规模：勘察设计等建设
+17. 其他费（含勘察费）0.73亿元，建安工程费36.69亿元（不含
+18. 产品生产设备购置费），监理费0.28亿元，土地费用0.72亿
+19. 元，合计38.42亿元。
+20. 二、资金筹集情况
+21. （一）截止2025年6月30日，钦州市财政筹集并拨付厂
+22. 房代建专项资金共计66730万元。
+23. （二）钦州市人民政府与广西建工集团有限责任公司签订
+24. 的《建设超薄玻璃基板深加工项目战略合作协议》及补充合作
+25. 协议约定“在补缺总额度10亿元人民币范围内，乙方保证本项
+26. 目不因工程进度款支付问题出现停工”。根据约定，截止2025
+27. 年6月30日广西建工集团有限责任公司累计代垫工程进度款
+28. 1.58亿元。
+29. （三）取得中国农业发展银行钦州分行（以下简称“农发
+30. 行”）15.6亿融资贷款。截止2025年6月30日，农发行已发
+31. 放贷款9.323亿元，其中2.65亿元为共管资金（已支付到广西
+32. 建工账户，需要建设单位泰成公司同意才能使用，共管资金累
+33. 计已用0.47亿元，余额2.18亿元）。

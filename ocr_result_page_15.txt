@@ -1,0 +1,165 @@
+OCR结果 - 第 15 页
+==================================================
+处理的图像: temp_page_14_processed.png
+原始PDF页面: 15
+
+详细结果:
+[{'input_path': 'temp_page_14_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1315,    0],
+       ...,
+       [1315,   75]], shape=(4, 2), dtype=int16), array([[136, 195],
+       ...,
+       [135, 243]], shape=(4, 2), dtype=int16), array([[136, 267],
+       ...,
+       [135, 310]], shape=(4, 2), dtype=int16), array([[137, 337],
+       ...,
+       [136, 381]], shape=(4, 2), dtype=int16), array([[228, 405],
+       ...,
+       [227, 453]], shape=(4, 2), dtype=int16), array([[132, 467],
+       ...,
+       [130, 522]], shape=(4, 2), dtype=int16), array([[222, 546],
+       ...,
+       [221, 591]], shape=(4, 2), dtype=int16), array([[137, 615],
+       ...,
+       [136, 656]], shape=(4, 2), dtype=int16), array([[137, 685],
+       ...,
+       [136, 726]], shape=(4, 2), dtype=int16), array([[137, 754],
+       ...,
+       [136, 795]], shape=(4, 2), dtype=int16), array([[136, 822],
+       ...,
+       [135, 867]], shape=(4, 2), dtype=int16), array([[129, 889],
+       ...,
+       [129, 945]], shape=(4, 2), dtype=int16), array([[ 228,  967],
+       ...,
+       [ 227, 1011]], shape=(4, 2), dtype=int16), array([[ 137, 1036],
+       ...,
+       [ 136, 1076]], shape=(4, 2), dtype=int16), array([[ 221, 1106],
+       ...,
+       [ 221, 1147]], shape=(4, 2), dtype=int16), array([[ 135, 1174],
+       ...,
+       [ 134, 1215]], shape=(4, 2), dtype=int16), array([[ 134, 1243],
+       ...,
+       [ 133, 1287]], shape=(4, 2), dtype=int16), array([[ 136, 1313],
+       ...,
+       [ 135, 1355]], shape=(4, 2), dtype=int16), array([[ 136, 1384],
+       ...,
+       [ 135, 1425]], shape=(4, 2), dtype=int16), array([[ 132, 1454],
+       ...,
+       [ 132, 1495]], shape=(4, 2), dtype=int16), array([[ 131, 1520],
+       ...,
+       [ 131, 1563]], shape=(4, 2), dtype=int16), array([[ 133, 1589],
+       ...,
+       [ 132, 1633]], shape=(4, 2), dtype=int16), array([[ 132, 1658],
+       ...,
+       [ 131, 1703]], shape=(4, 2), dtype=int16), array([[ 133, 1728],
+       ...,
+       [ 132, 1771]], shape=(4, 2), dtype=int16), array([[ 117, 1843],
+       ...,
+       [ 117, 1956]], shape=(4, 2), dtype=int16), array([[ 929, 1892],
+       ...,
+       [ 929, 1936]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['12', '贷款本金由广西泰嘉公司于2021年6月28日一次性还清。”我', '们根据该合同委托贷款的约定转8000万元给桂林银行钦州分', '行，具体资金往来以三方的财务转账凭证为准。', '问：请说说你们自贸开投集团是如何委托贷款给广西泰嘉公', '司？', '答：好的。自贸开投集团直接转8000万元给桂林银行钦州', '分行，桂林银行钦州分行再将8000万元贷款给广西泰嘉公司，', '广西泰嘉公司每月按协议约定时间将贷款利息转到银行账户，银', '行再将利息转到自贸开投集团账户上，贷款所有风险由自贸开投', '集团承担，银行属于个中间人角色，整个委托放贷过程就是这样', '的。', '问：请你说说委托桂林银行钦州分行贷款到期后该笔委托', '贷款的后续情况?', '答：好的。这次委托贷款准备到期的时候，广西泰嘉公司也', '提出了延长贷款期限，但银行拒绝了延期申请。银行向我反馈，', '广西泰嘉公司连8000万元贷款的每月几十万利息经常逾期不', '交，每个月都要银行去催还利息，所以银行不愿意给广西泰嘉公', '司做贷款延期。我知道广西泰嘉公司的贷款延期申请被银行拒绝', '后，马上找到王雄昌汇报这个事情，王雄昌说这个贷款不能断，', '要继续给广西泰嘉公司办理贷款，广西泰嘉项目不能停下来。王', '雄昌要求我们自贸开投集团、桂林银行和广西泰嘉公司研究新的', '委托贷款方案。经三方研究决定以广西泰嘉公司对该笔委托贷款', '要用2套生产设备提供抵押担保、以时控关联方深圳市合丰泰科', '签名新文武', '第10页共14页'], 'rec_scores': [0.807624101638794, 0.9883556365966797, 0.9971996545791626, 0.9993268251419067, 0.997650682926178, 0.9114242792129517, 0.9940947890281677, 0.9948909282684326, 0.9986763596534729, 0.9981144666671753, 0.9987887144088745, 0.9951297044754028, 0.9980772137641907, 0.9537347555160522, 0.9962695240974426, 0.995553195476532, 0.9981371760368347, 0.9968623518943787, 0.997549831867218, 0.9945935010910034, 0.9978240728378296, 0.9973518252372742, 0.9977754950523376, 0.9963126182556152, 0.7632904052734375, 0.9985633492469788], 'rec_polys': [array([[1315,    0],
+       ...,
+       [1315,   75]], shape=(4, 2), dtype=int16), array([[136, 195],
+       ...,
+       [135, 243]], shape=(4, 2), dtype=int16), array([[136, 267],
+       ...,
+       [135, 310]], shape=(4, 2), dtype=int16), array([[137, 337],
+       ...,
+       [136, 381]], shape=(4, 2), dtype=int16), array([[228, 405],
+       ...,
+       [227, 453]], shape=(4, 2), dtype=int16), array([[132, 467],
+       ...,
+       [130, 522]], shape=(4, 2), dtype=int16), array([[222, 546],
+       ...,
+       [221, 591]], shape=(4, 2), dtype=int16), array([[137, 615],
+       ...,
+       [136, 656]], shape=(4, 2), dtype=int16), array([[137, 685],
+       ...,
+       [136, 726]], shape=(4, 2), dtype=int16), array([[137, 754],
+       ...,
+       [136, 795]], shape=(4, 2), dtype=int16), array([[136, 822],
+       ...,
+       [135, 867]], shape=(4, 2), dtype=int16), array([[129, 889],
+       ...,
+       [129, 945]], shape=(4, 2), dtype=int16), array([[ 228,  967],
+       ...,
+       [ 227, 1011]], shape=(4, 2), dtype=int16), array([[ 137, 1036],
+       ...,
+       [ 136, 1076]], shape=(4, 2), dtype=int16), array([[ 221, 1106],
+       ...,
+       [ 221, 1147]], shape=(4, 2), dtype=int16), array([[ 135, 1174],
+       ...,
+       [ 134, 1215]], shape=(4, 2), dtype=int16), array([[ 134, 1243],
+       ...,
+       [ 133, 1287]], shape=(4, 2), dtype=int16), array([[ 136, 1313],
+       ...,
+       [ 135, 1355]], shape=(4, 2), dtype=int16), array([[ 136, 1384],
+       ...,
+       [ 135, 1425]], shape=(4, 2), dtype=int16), array([[ 132, 1454],
+       ...,
+       [ 132, 1495]], shape=(4, 2), dtype=int16), array([[ 131, 1520],
+       ...,
+       [ 131, 1563]], shape=(4, 2), dtype=int16), array([[ 133, 1589],
+       ...,
+       [ 132, 1633]], shape=(4, 2), dtype=int16), array([[ 132, 1658],
+       ...,
+       [ 131, 1703]], shape=(4, 2), dtype=int16), array([[ 133, 1728],
+       ...,
+       [ 132, 1771]], shape=(4, 2), dtype=int16), array([[ 117, 1843],
+       ...,
+       [ 117, 1956]], shape=(4, 2), dtype=int16), array([[ 929, 1892],
+       ...,
+       [ 929, 1936]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1315, ...,   75],
+       ...,
+       [ 929, ..., 1936]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 12
+2. 贷款本金由广西泰嘉公司于2021年6月28日一次性还清。”我
+3. 们根据该合同委托贷款的约定转8000万元给桂林银行钦州分
+4. 行，具体资金往来以三方的财务转账凭证为准。
+5. 问：请说说你们自贸开投集团是如何委托贷款给广西泰嘉公
+6. 司？
+7. 答：好的。自贸开投集团直接转8000万元给桂林银行钦州
+8. 分行，桂林银行钦州分行再将8000万元贷款给广西泰嘉公司，
+9. 广西泰嘉公司每月按协议约定时间将贷款利息转到银行账户，银
+10. 行再将利息转到自贸开投集团账户上，贷款所有风险由自贸开投
+11. 集团承担，银行属于个中间人角色，整个委托放贷过程就是这样
+12. 的。
+13. 问：请你说说委托桂林银行钦州分行贷款到期后该笔委托
+14. 贷款的后续情况?
+15. 答：好的。这次委托贷款准备到期的时候，广西泰嘉公司也
+16. 提出了延长贷款期限，但银行拒绝了延期申请。银行向我反馈，
+17. 广西泰嘉公司连8000万元贷款的每月几十万利息经常逾期不
+18. 交，每个月都要银行去催还利息，所以银行不愿意给广西泰嘉公
+19. 司做贷款延期。我知道广西泰嘉公司的贷款延期申请被银行拒绝
+20. 后，马上找到王雄昌汇报这个事情，王雄昌说这个贷款不能断，
+21. 要继续给广西泰嘉公司办理贷款，广西泰嘉项目不能停下来。王
+22. 雄昌要求我们自贸开投集团、桂林银行和广西泰嘉公司研究新的
+23. 委托贷款方案。经三方研究决定以广西泰嘉公司对该笔委托贷款
+24. 要用2套生产设备提供抵押担保、以时控关联方深圳市合丰泰科
+25. 签名新文武
+26. 第10页共14页

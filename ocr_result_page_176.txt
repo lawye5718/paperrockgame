@@ -1,0 +1,90 @@
+OCR结果 - 第 176 页
+==================================================
+处理的图像: temp_page_175_processed.png
+原始PDF页面: 176
+
+详细结果:
+[{'input_path': 'temp_page_175_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[248, 100],
+       ...,
+       [248, 118]], shape=(4, 2), dtype=int16), array([[945, 197],
+       ...,
+       [945, 240]], shape=(4, 2), dtype=int16), array([[519, 554],
+       ...,
+       [519, 628]], shape=(4, 2), dtype=int16), array([[1334,  556],
+       ...,
+       [1334,  628]], shape=(4, 2), dtype=int16), array([[488, 633],
+       ...,
+       [489, 711]], shape=(4, 2), dtype=int16), array([[1260,  631],
+       ...,
+       [1260,  708]], shape=(4, 2), dtype=int16), array([[1795,  949],
+       ...,
+       [1795,  971]], shape=(4, 2), dtype=int16), array([[ 926, 1114],
+       ...,
+       [ 926, 1152]], shape=(4, 2), dtype=int16), array([[ 320, 1224],
+       ...,
+       [ 320, 1243]], shape=(4, 2), dtype=int16), array([[ 794, 1271],
+       ...,
+       [ 794, 1302]], shape=(4, 2), dtype=int16), array([[1046, 1307],
+       ...,
+       [1046, 1335]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', 'ISUPPORT', '2FCELL', '2FCF', '工艺生产区', '工艺生产区', '1', 'SUPPORTAREAI', '1', '图2.1-10彩膜工序及成盒工序工艺区划图', '36'], 'rec_scores': [0.9221414923667908, 0.7922254204750061, 0.9907510876655579, 0.9800344109535217, 0.999462902545929, 0.9990583658218384, 0.4017222821712494, 0.9236624836921692, 0.9607552886009216, 0.9677231311798096, 0.8080558776855469], 'rec_polys': [array([[248, 100],
+       ...,
+       [248, 118]], shape=(4, 2), dtype=int16), array([[945, 197],
+       ...,
+       [945, 240]], shape=(4, 2), dtype=int16), array([[519, 554],
+       ...,
+       [519, 628]], shape=(4, 2), dtype=int16), array([[1334,  556],
+       ...,
+       [1334,  628]], shape=(4, 2), dtype=int16), array([[488, 633],
+       ...,
+       [489, 711]], shape=(4, 2), dtype=int16), array([[1260,  631],
+       ...,
+       [1260,  708]], shape=(4, 2), dtype=int16), array([[1795,  949],
+       ...,
+       [1795,  971]], shape=(4, 2), dtype=int16), array([[ 926, 1114],
+       ...,
+       [ 926, 1152]], shape=(4, 2), dtype=int16), array([[ 320, 1224],
+       ...,
+       [ 320, 1243]], shape=(4, 2), dtype=int16), array([[ 794, 1271],
+       ...,
+       [ 794, 1302]], shape=(4, 2), dtype=int16), array([[1046, 1307],
+       ...,
+       [1046, 1335]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 'rec_boxes': array([[ 248, ...,  118],
+       ...,
+       [1046, ..., 1335]], shape=(11, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. ISUPPORT
+3. 2FCELL
+4. 2FCF
+5. 工艺生产区
+6. 工艺生产区
+7. 1
+8. SUPPORTAREAI
+9. 1
+10. 图2.1-10彩膜工序及成盒工序工艺区划图
+11. 36

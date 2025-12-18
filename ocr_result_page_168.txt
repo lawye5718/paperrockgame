@@ -1,0 +1,120 @@
+OCR结果 - 第 168 页
+==================================================
+处理的图像: temp_page_167_processed.png
+原始PDF页面: 168
+
+详细结果:
+[{'input_path': 'temp_page_167_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[128, 149],
+       ...,
+       [129, 194]], shape=(4, 2), dtype=int16), array([[132, 212],
+       ...,
+       [133, 246]], shape=(4, 2), dtype=int16), array([[194, 267],
+       ...,
+       [194, 304]], shape=(4, 2), dtype=int16), array([[132, 323],
+       ...,
+       [132, 360]], shape=(4, 2), dtype=int16), array([[193, 381],
+       ...,
+       [193, 414]], shape=(4, 2), dtype=int16), array([[133, 433],
+       ...,
+       [132, 468]], shape=(4, 2), dtype=int16), array([[130, 487],
+       ...,
+       [129, 524]], shape=(4, 2), dtype=int16), array([[131, 542],
+       ...,
+       [130, 580]], shape=(4, 2), dtype=int16), array([[134, 600],
+       ...,
+       [133, 634]], shape=(4, 2), dtype=int16), array([[133, 656],
+       ...,
+       [132, 690]], shape=(4, 2), dtype=int16), array([[132, 713],
+       ...,
+       [131, 750]], shape=(4, 2), dtype=int16), array([[133, 770],
+       ...,
+       [132, 808]], shape=(4, 2), dtype=int16), array([[128, 827],
+       ...,
+       [128, 867]], shape=(4, 2), dtype=int16), array([[127, 884],
+       ...,
+       [128, 924]], shape=(4, 2), dtype=int16), array([[126, 947],
+       ...,
+       [127, 983]], shape=(4, 2), dtype=int16), array([[ 187, 1004],
+       ...,
+       [ 187, 1037]], shape=(4, 2), dtype=int16), array([[ 705, 1966],
+       ...,
+       [ 705, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['时起电路开关作用，它们按顺序把图像信号传输至像素，薄膜晶体管阵列由不同材料和', '形状的薄膜层叠构成，包括5次薄膜沉积和光刻过程。', '阵列生产区（4F)负责阵列基板的生产，工序包括玻璃基板清洗、溅射、PECVD（等', '离子体化学气相沉积）、光刻、刻蚀、剥离等。', '阵列工程使用外购的专用玻璃基板，在经过充分清洗后首先通过溅射镀膜的方法形', '成金属膜，即在近似真空环境中，用电场加速惰性元素离子攻击金属靶材，金属原子被', '溅射出来，沉积到玻璃基板上形成金属薄膜，接下来的光刻过程是把薄膜加工成一定形', '状，在已形成的金属薄膜上均匀涂覆一层光刻胶，然后透过类似照相底片的掩膜板曝光，', '光刻胶曝光部分被显影液溶解，留下部分图案即呈现所需形状，把基板放入对应腐蚀液', '或腐蚀气体中进行刻蚀，没有光刻胶覆盖的薄膜就会被腐蚀掉，最后用化学剥离液去除', '残余的光刻胶，留下了所需形状的金属薄膜，即完成一次光刻。其后通过等离子增强化', '学气相沉积（PECVD)在基板上形成半导体膜或绝缘体薄膜，即通过特定气体在等离子', '体状态下反应，生成物附着在基板表面形成绝缘体或半导体薄膜，通过光刻过程将绝缘', '体或半导体薄膜加工成所需形状。薄膜淀积和光刻过程反复进行5次，各层不同材料和', '形状的薄膜在玻璃基板上层叠构成薄膜晶体管阵列，TFT基板制作完成。', '阵列工艺技术简图见图2.1-4。', '28'], 'rec_scores': [0.9936607480049133, 0.9954862594604492, 0.9655758142471313, 0.9787318110466003, 0.9973865151405334, 0.9979745745658875, 0.9974677562713623, 0.9824655055999756, 0.9841876029968262, 0.9981234669685364, 0.9974651336669922, 0.9800516366958618, 0.9975442290306091, 0.9965843558311462, 0.9966523051261902, 0.995010495185852, 0.9993763566017151], 'rec_polys': [array([[128, 149],
+       ...,
+       [129, 194]], shape=(4, 2), dtype=int16), array([[132, 212],
+       ...,
+       [133, 246]], shape=(4, 2), dtype=int16), array([[194, 267],
+       ...,
+       [194, 304]], shape=(4, 2), dtype=int16), array([[132, 323],
+       ...,
+       [132, 360]], shape=(4, 2), dtype=int16), array([[193, 381],
+       ...,
+       [193, 414]], shape=(4, 2), dtype=int16), array([[133, 433],
+       ...,
+       [132, 468]], shape=(4, 2), dtype=int16), array([[130, 487],
+       ...,
+       [129, 524]], shape=(4, 2), dtype=int16), array([[131, 542],
+       ...,
+       [130, 580]], shape=(4, 2), dtype=int16), array([[134, 600],
+       ...,
+       [133, 634]], shape=(4, 2), dtype=int16), array([[133, 656],
+       ...,
+       [132, 690]], shape=(4, 2), dtype=int16), array([[132, 713],
+       ...,
+       [131, 750]], shape=(4, 2), dtype=int16), array([[133, 770],
+       ...,
+       [132, 808]], shape=(4, 2), dtype=int16), array([[128, 827],
+       ...,
+       [128, 867]], shape=(4, 2), dtype=int16), array([[127, 884],
+       ...,
+       [128, 924]], shape=(4, 2), dtype=int16), array([[126, 947],
+       ...,
+       [127, 983]], shape=(4, 2), dtype=int16), array([[ 187, 1004],
+       ...,
+       [ 187, 1037]], shape=(4, 2), dtype=int16), array([[ 705, 1966],
+       ...,
+       [ 705, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 128, ...,  194],
+       ...,
+       [ 705, ..., 2000]], shape=(17, 4), dtype=int16)}]
+
+解析后的文本:
+1. 时起电路开关作用，它们按顺序把图像信号传输至像素，薄膜晶体管阵列由不同材料和
+2. 形状的薄膜层叠构成，包括5次薄膜沉积和光刻过程。
+3. 阵列生产区（4F)负责阵列基板的生产，工序包括玻璃基板清洗、溅射、PECVD（等
+4. 离子体化学气相沉积）、光刻、刻蚀、剥离等。
+5. 阵列工程使用外购的专用玻璃基板，在经过充分清洗后首先通过溅射镀膜的方法形
+6. 成金属膜，即在近似真空环境中，用电场加速惰性元素离子攻击金属靶材，金属原子被
+7. 溅射出来，沉积到玻璃基板上形成金属薄膜，接下来的光刻过程是把薄膜加工成一定形
+8. 状，在已形成的金属薄膜上均匀涂覆一层光刻胶，然后透过类似照相底片的掩膜板曝光，
+9. 光刻胶曝光部分被显影液溶解，留下部分图案即呈现所需形状，把基板放入对应腐蚀液
+10. 或腐蚀气体中进行刻蚀，没有光刻胶覆盖的薄膜就会被腐蚀掉，最后用化学剥离液去除
+11. 残余的光刻胶，留下了所需形状的金属薄膜，即完成一次光刻。其后通过等离子增强化
+12. 学气相沉积（PECVD)在基板上形成半导体膜或绝缘体薄膜，即通过特定气体在等离子
+13. 体状态下反应，生成物附着在基板表面形成绝缘体或半导体薄膜，通过光刻过程将绝缘
+14. 体或半导体薄膜加工成所需形状。薄膜淀积和光刻过程反复进行5次，各层不同材料和
+15. 形状的薄膜在玻璃基板上层叠构成薄膜晶体管阵列，TFT基板制作完成。
+16. 阵列工艺技术简图见图2.1-4。
+17. 28

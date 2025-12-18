@@ -1,0 +1,155 @@
+OCR结果 - 第 95 页
+==================================================
+处理的图像: temp_page_94_processed.png
+原始PDF页面: 95
+
+详细结果:
+[{'input_path': 'temp_page_94_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[382, 172],
+       ...,
+       [380, 258]], shape=(4, 2), dtype=int16), array([[148, 308],
+       ...,
+       [147, 349]], shape=(4, 2), dtype=int16), array([[202, 376],
+       ...,
+       [202, 420]], shape=(4, 2), dtype=int16), array([[150, 433],
+       ...,
+       [150, 481]], shape=(4, 2), dtype=int16), array([[152, 496],
+       ...,
+       [152, 537]], shape=(4, 2), dtype=int16), array([[205, 559],
+       ...,
+       [205, 596]], shape=(4, 2), dtype=int16), array([[205, 621],
+       ...,
+       [205, 652]], shape=(4, 2), dtype=int16), array([[155, 681],
+       ...,
+       [155, 713]], shape=(4, 2), dtype=int16), array([[205, 741],
+       ...,
+       [205, 776]], shape=(4, 2), dtype=int16), array([[156, 806],
+       ...,
+       [156, 838]], shape=(4, 2), dtype=int16), array([[206, 869],
+       ...,
+       [207, 900]], shape=(4, 2), dtype=int16), array([[204, 934],
+       ...,
+       [205, 965]], shape=(4, 2), dtype=int16), array([[ 190, 1052],
+       ...,
+       [ 190, 1089]], shape=(4, 2), dtype=int16), array([[ 284, 1054],
+       ...,
+       [ 284, 1086]], shape=(4, 2), dtype=int16), array([[ 290, 1113],
+       ...,
+       [ 290, 1144]], shape=(4, 2), dtype=int16), array([[ 290, 1173],
+       ...,
+       [ 290, 1206]], shape=(4, 2), dtype=int16), array([[ 292, 1228],
+       ...,
+       [ 293, 1262]], shape=(4, 2), dtype=int16), array([[ 297, 1291],
+       ...,
+       [ 298, 1321]], shape=(4, 2), dtype=int16), array([[1118, 1559],
+       ...,
+       [1120, 1595]], shape=(4, 2), dtype=int16), array([[ 636, 1572],
+       ...,
+       [ 638, 1612]], shape=(4, 2), dtype=int16), array([[1074, 1611],
+       ...,
+       [1078, 1692]], shape=(4, 2), dtype=int16), array([[ 650, 1648],
+       ...,
+       [ 652, 1687]], shape=(4, 2), dtype=int16), array([[1075, 1662],
+       ...,
+       [1079, 1752]], shape=(4, 2), dtype=int16), array([[ 654, 1717],
+       ...,
+       [ 656, 1758]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['委托方和资产占有方承诺函', '广西中阳资产评估事务所有限公司：', '因了解投资人以实物出资形式投入企业的设备类资产的市场公允价值之事宜涉', '及的固定资产——机器设备的市场价值进行评估。为确保资产评估机构客观、公正、合', '理地进行资产评估，本公司以及本公司经营者特承诺如下，并承担相应的法律责任：', '1、资产评估及其涉及的经济行为符合国家规定；', '2、本公司填报的所有委估对象资料是真实、合法的，如因提供的资料虚假，由此', '造成的责任由本公司及本公司经营者负完全责任，与贵评估机构无关；', '3、本公司对申报评估资产的权属负法律责任，如因申报评估资产发生权利纠纷与', '贵评估机构无关；', '4、所提供的其他评估资料真实；', '5、不于预评估工作。', '附：', '（1）营业执照；', '（2）固定资产———机器设备清单。', '(3)评估对象《买卖协议》、付款凭证；', '(4) 评估对象通关（进境）文件；', '(5)《注资设备移交及验收证明》.', '限公司', '委托方：广西泰嘉光电科技有', '辰许', '法人代表：', '宇', '日期：2019年3月14日'], 'rec_scores': [0.9983763694763184, 0.988847017288208, 0.9976451992988586, 0.9920934438705444, 0.9916021823883057, 0.987852156162262, 0.9962831139564514, 0.9799370169639587, 0.9860848188400269, 0.9621257781982422, 0.9851311445236206, 0.9827963709831238, 0.9471043348312378, 0.8975275754928589, 0.8821520209312439, 0.9109588265419006, 0.9187583923339844, 0.9508638978004456, 0.9993348717689514, 0.9120984673500061, 0.8265236616134644, 0.9634808301925659, 0.3307199776172638, 0.992339015007019], 'rec_polys': [array([[382, 172],
+       ...,
+       [380, 258]], shape=(4, 2), dtype=int16), array([[148, 308],
+       ...,
+       [147, 349]], shape=(4, 2), dtype=int16), array([[202, 376],
+       ...,
+       [202, 420]], shape=(4, 2), dtype=int16), array([[150, 433],
+       ...,
+       [150, 481]], shape=(4, 2), dtype=int16), array([[152, 496],
+       ...,
+       [152, 537]], shape=(4, 2), dtype=int16), array([[205, 559],
+       ...,
+       [205, 596]], shape=(4, 2), dtype=int16), array([[205, 621],
+       ...,
+       [205, 652]], shape=(4, 2), dtype=int16), array([[155, 681],
+       ...,
+       [155, 713]], shape=(4, 2), dtype=int16), array([[205, 741],
+       ...,
+       [205, 776]], shape=(4, 2), dtype=int16), array([[156, 806],
+       ...,
+       [156, 838]], shape=(4, 2), dtype=int16), array([[206, 869],
+       ...,
+       [207, 900]], shape=(4, 2), dtype=int16), array([[204, 934],
+       ...,
+       [205, 965]], shape=(4, 2), dtype=int16), array([[ 190, 1052],
+       ...,
+       [ 190, 1089]], shape=(4, 2), dtype=int16), array([[ 284, 1054],
+       ...,
+       [ 284, 1086]], shape=(4, 2), dtype=int16), array([[ 290, 1113],
+       ...,
+       [ 290, 1144]], shape=(4, 2), dtype=int16), array([[ 290, 1173],
+       ...,
+       [ 290, 1206]], shape=(4, 2), dtype=int16), array([[ 292, 1228],
+       ...,
+       [ 293, 1262]], shape=(4, 2), dtype=int16), array([[ 297, 1291],
+       ...,
+       [ 298, 1321]], shape=(4, 2), dtype=int16), array([[1118, 1559],
+       ...,
+       [1120, 1595]], shape=(4, 2), dtype=int16), array([[ 636, 1572],
+       ...,
+       [ 638, 1612]], shape=(4, 2), dtype=int16), array([[1074, 1611],
+       ...,
+       [1078, 1692]], shape=(4, 2), dtype=int16), array([[ 650, 1648],
+       ...,
+       [ 652, 1687]], shape=(4, 2), dtype=int16), array([[1075, 1662],
+       ...,
+       [1079, 1752]], shape=(4, 2), dtype=int16), array([[ 654, 1717],
+       ...,
+       [ 656, 1758]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 380, ...,  272],
+       ...,
+       [ 654, ..., 1758]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 委托方和资产占有方承诺函
+2. 广西中阳资产评估事务所有限公司：
+3. 因了解投资人以实物出资形式投入企业的设备类资产的市场公允价值之事宜涉
+4. 及的固定资产——机器设备的市场价值进行评估。为确保资产评估机构客观、公正、合
+5. 理地进行资产评估，本公司以及本公司经营者特承诺如下，并承担相应的法律责任：
+6. 1、资产评估及其涉及的经济行为符合国家规定；
+7. 2、本公司填报的所有委估对象资料是真实、合法的，如因提供的资料虚假，由此
+8. 造成的责任由本公司及本公司经营者负完全责任，与贵评估机构无关；
+9. 3、本公司对申报评估资产的权属负法律责任，如因申报评估资产发生权利纠纷与
+10. 贵评估机构无关；
+11. 4、所提供的其他评估资料真实；
+12. 5、不于预评估工作。
+13. 附：
+14. （1）营业执照；
+15. （2）固定资产———机器设备清单。
+16. (3)评估对象《买卖协议》、付款凭证；
+17. (4) 评估对象通关（进境）文件；
+18. (5)《注资设备移交及验收证明》.
+19. 限公司
+20. 委托方：广西泰嘉光电科技有
+21. 辰许
+22. 法人代表：
+23. 宇
+24. 日期：2019年3月14日

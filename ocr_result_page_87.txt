@@ -1,0 +1,195 @@
+OCR结果 - 第 87 页
+==================================================
+处理的图像: temp_page_86_processed.png
+原始PDF页面: 87
+
+详细结果:
+[{'input_path': 'temp_page_86_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[424, 256],
+       ...,
+       [426, 317]], shape=(4, 2), dtype=int16), array([[343, 329],
+       ...,
+       [346, 429]], shape=(4, 2), dtype=int16), array([[134, 513],
+       ...,
+       [135, 567]], shape=(4, 2), dtype=int16), array([[135, 599],
+       ...,
+       [135, 645]], shape=(4, 2), dtype=int16), array([[358, 592],
+       ...,
+       [359, 646]], shape=(4, 2), dtype=int16), array([[1030,  632],
+       ...,
+       [1030,  706]], shape=(4, 2), dtype=int16), array([[364, 645],
+       ...,
+       [367, 723]], shape=(4, 2), dtype=int16), array([[755, 655],
+       ...,
+       [755, 705]], shape=(4, 2), dtype=int16), array([[133, 665],
+       ...,
+       [133, 718]], shape=(4, 2), dtype=int16), array([[422, 737],
+       ...,
+       [424, 789]], shape=(4, 2), dtype=int16), array([[653, 731],
+       ...,
+       [655, 785]], shape=(4, 2), dtype=int16), array([[821, 728],
+       ...,
+       [821, 783]], shape=(4, 2), dtype=int16), array([[1166,  728],
+       ...,
+       [1168,  781]], shape=(4, 2), dtype=int16), array([[135, 744],
+       ...,
+       [135, 790]], shape=(4, 2), dtype=int16), array([[133, 815],
+       ...,
+       [134, 863]], shape=(4, 2), dtype=int16), array([[131, 889],
+       ...,
+       [132, 937]], shape=(4, 2), dtype=int16), array([[ 133,  962],
+       ...,
+       [ 134, 1009]], shape=(4, 2), dtype=int16), array([[ 133, 1033],
+       ...,
+       [ 134, 1084]], shape=(4, 2), dtype=int16), array([[ 995, 1099],
+       ...,
+       [ 995, 1146]], shape=(4, 2), dtype=int16), array([[ 134, 1109],
+       ...,
+       [ 135, 1153]], shape=(4, 2), dtype=int16), array([[ 134, 1178],
+       ...,
+       [ 135, 1226]], shape=(4, 2), dtype=int16), array([[ 134, 1249],
+       ...,
+       [ 135, 1295]], shape=(4, 2), dtype=int16), array([[ 392, 1250],
+       ...,
+       [ 393, 1288]], shape=(4, 2), dtype=int16), array([[ 220, 1404],
+       ...,
+       [ 220, 1449]], shape=(4, 2), dtype=int16), array([[ 132, 1473],
+       ...,
+       [ 132, 1520]], shape=(4, 2), dtype=int16), array([[ 134, 1544],
+       ...,
+       [ 134, 1589]], shape=(4, 2), dtype=int16), array([[ 129, 1609],
+       ...,
+       [ 128, 1660]], shape=(4, 2), dtype=int16), array([[ 213, 1684],
+       ...,
+       [ 213, 1732]], shape=(4, 2), dtype=int16), array([[ 215, 1756],
+       ...,
+       [ 215, 1805]], shape=(4, 2), dtype=int16), array([[ 126, 1897],
+       ...,
+       [ 128, 1949]], shape=(4, 2), dtype=int16), array([[ 946, 1899],
+       ...,
+       [ 946, 1935]], shape=(4, 2), dtype=int16), array([[1044, 1898],
+       ...,
+       [1044, 1938]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['广西壮族自治区监察委员会', '询问笔录', '询问时间：2025年4月27日19时08分至27日19时51分', '询问地点：', '南宁市民族大道54号2号楼2号温馨谈话室', '苏邦伟', '张勇、苏邦伟', '记录人：', '询问人：', '章太武', '性别：', '男年龄：', '50岁', '被询问人：', '工作单位、职务：中国（广西）自由贸易试验区钦州港片区', '管理委员会自然资源局和建设局副局长、协理局长（聘任），', '广西钦州保税港区管理委员会二级调研员', '政治面貌：中共党员', '否', '是否党代表、人大代表、政协委员：', '住址：钦州市钦北区皇庭翡翠湾6栋705号', '联系方式：', '18907771079', '问：（出示工作证件）我们是广西壮族自治区监察委员会的', '调查人员，现依法对你进行询问。你应如实回答我们的提问，故', '意作伪证或者隐匿证据要负相应的法律责任。以上告知事项你清', '楚了吗？', '答：我清楚了。', '问：你目前的身体和精神状况如何？能否接受询问?', '签名:', '第 1页', '共4页'], 'rec_scores': [0.9981648921966553, 0.9967697858810425, 0.9835159182548523, 0.9235175251960754, 0.9971956014633179, 0.922482967376709, 0.8736238479614258, 0.9890702366828918, 0.9614311456680298, 0.9991390109062195, 0.9651038646697998, 0.9325717687606812, 0.9993007779121399, 0.9625051617622375, 0.9857642650604248, 0.9908817410469055, 0.9956368207931519, 0.9962459206581116, 0.9337537288665771, 0.9887540340423584, 0.9942024350166321, 0.9932416081428528, 0.999823808670044, 0.9853864908218384, 0.9966629147529602, 0.99803626537323, 0.893284261226654, 0.9913290143013, 0.9718402624130249, 0.8704125881195068, 0.9465258121490479, 0.9989364743232727], 'rec_polys': [array([[424, 256],
+       ...,
+       [426, 317]], shape=(4, 2), dtype=int16), array([[343, 329],
+       ...,
+       [346, 429]], shape=(4, 2), dtype=int16), array([[134, 513],
+       ...,
+       [135, 567]], shape=(4, 2), dtype=int16), array([[135, 599],
+       ...,
+       [135, 645]], shape=(4, 2), dtype=int16), array([[358, 592],
+       ...,
+       [359, 646]], shape=(4, 2), dtype=int16), array([[1030,  632],
+       ...,
+       [1030,  706]], shape=(4, 2), dtype=int16), array([[364, 645],
+       ...,
+       [367, 723]], shape=(4, 2), dtype=int16), array([[755, 655],
+       ...,
+       [755, 705]], shape=(4, 2), dtype=int16), array([[133, 665],
+       ...,
+       [133, 718]], shape=(4, 2), dtype=int16), array([[422, 737],
+       ...,
+       [424, 789]], shape=(4, 2), dtype=int16), array([[653, 731],
+       ...,
+       [655, 785]], shape=(4, 2), dtype=int16), array([[821, 728],
+       ...,
+       [821, 783]], shape=(4, 2), dtype=int16), array([[1166,  728],
+       ...,
+       [1168,  781]], shape=(4, 2), dtype=int16), array([[135, 744],
+       ...,
+       [135, 790]], shape=(4, 2), dtype=int16), array([[133, 815],
+       ...,
+       [134, 863]], shape=(4, 2), dtype=int16), array([[131, 889],
+       ...,
+       [132, 937]], shape=(4, 2), dtype=int16), array([[ 133,  962],
+       ...,
+       [ 134, 1009]], shape=(4, 2), dtype=int16), array([[ 133, 1033],
+       ...,
+       [ 134, 1084]], shape=(4, 2), dtype=int16), array([[ 995, 1099],
+       ...,
+       [ 995, 1146]], shape=(4, 2), dtype=int16), array([[ 134, 1109],
+       ...,
+       [ 135, 1153]], shape=(4, 2), dtype=int16), array([[ 134, 1178],
+       ...,
+       [ 135, 1226]], shape=(4, 2), dtype=int16), array([[ 134, 1249],
+       ...,
+       [ 135, 1295]], shape=(4, 2), dtype=int16), array([[ 392, 1250],
+       ...,
+       [ 393, 1288]], shape=(4, 2), dtype=int16), array([[ 220, 1404],
+       ...,
+       [ 220, 1449]], shape=(4, 2), dtype=int16), array([[ 132, 1473],
+       ...,
+       [ 132, 1520]], shape=(4, 2), dtype=int16), array([[ 134, 1544],
+       ...,
+       [ 134, 1589]], shape=(4, 2), dtype=int16), array([[ 129, 1609],
+       ...,
+       [ 128, 1660]], shape=(4, 2), dtype=int16), array([[ 213, 1684],
+       ...,
+       [ 213, 1732]], shape=(4, 2), dtype=int16), array([[ 215, 1756],
+       ...,
+       [ 215, 1805]], shape=(4, 2), dtype=int16), array([[ 126, 1897],
+       ...,
+       [ 128, 1949]], shape=(4, 2), dtype=int16), array([[ 946, 1899],
+       ...,
+       [ 946, 1935]], shape=(4, 2), dtype=int16), array([[1044, 1898],
+       ...,
+       [1044, 1938]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 424, ...,  317],
+       ...,
+       [1044, ..., 1938]], shape=(32, 4), dtype=int16)}]
+
+解析后的文本:
+1. 广西壮族自治区监察委员会
+2. 询问笔录
+3. 询问时间：2025年4月27日19时08分至27日19时51分
+4. 询问地点：
+5. 南宁市民族大道54号2号楼2号温馨谈话室
+6. 苏邦伟
+7. 张勇、苏邦伟
+8. 记录人：
+9. 询问人：
+10. 章太武
+11. 性别：
+12. 男年龄：
+13. 50岁
+14. 被询问人：
+15. 工作单位、职务：中国（广西）自由贸易试验区钦州港片区
+16. 管理委员会自然资源局和建设局副局长、协理局长（聘任），
+17. 广西钦州保税港区管理委员会二级调研员
+18. 政治面貌：中共党员
+19. 否
+20. 是否党代表、人大代表、政协委员：
+21. 住址：钦州市钦北区皇庭翡翠湾6栋705号
+22. 联系方式：
+23. 18907771079
+24. 问：（出示工作证件）我们是广西壮族自治区监察委员会的
+25. 调查人员，现依法对你进行询问。你应如实回答我们的提问，故
+26. 意作伪证或者隐匿证据要负相应的法律责任。以上告知事项你清
+27. 楚了吗？
+28. 答：我清楚了。
+29. 问：你目前的身体和精神状况如何？能否接受询问?
+30. 签名:
+31. 第 1页
+32. 共4页

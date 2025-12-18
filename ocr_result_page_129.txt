@@ -1,0 +1,130 @@
+OCR结果 - 第 129 页
+==================================================
+处理的图像: temp_page_128_processed.png
+原始PDF页面: 129
+
+详细结果:
+[{'input_path': 'temp_page_128_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1442, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1442, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1442, 3), dtype=uint8)}, 'dt_polys': [array([[175, 190],
+       ...,
+       [174, 249]], shape=(4, 2), dtype=int16), array([[175, 268],
+       ...,
+       [174, 325]], shape=(4, 2), dtype=int16), array([[176, 345],
+       ...,
+       [175, 400]], shape=(4, 2), dtype=int16), array([[260, 428],
+       ...,
+       [259, 473]], shape=(4, 2), dtype=int16), array([[172, 496],
+       ...,
+       [171, 543]], shape=(4, 2), dtype=int16), array([[170, 568],
+       ...,
+       [169, 616]], shape=(4, 2), dtype=int16), array([[169, 641],
+       ...,
+       [168, 688]], shape=(4, 2), dtype=int16), array([[166, 716],
+       ...,
+       [165, 764]], shape=(4, 2), dtype=int16), array([[165, 792],
+       ...,
+       [164, 836]], shape=(4, 2), dtype=int16), array([[163, 868],
+       ...,
+       [162, 912]], shape=(4, 2), dtype=int16), array([[244, 948],
+       ...,
+       [243, 989]], shape=(4, 2), dtype=int16), array([[ 161, 1021],
+       ...,
+       [ 160, 1065]], shape=(4, 2), dtype=int16), array([[ 162, 1100],
+       ...,
+       [ 161, 1141]], shape=(4, 2), dtype=int16), array([[ 162, 1175],
+       ...,
+       [ 161, 1217]], shape=(4, 2), dtype=int16), array([[ 237, 1255],
+       ...,
+       [ 236, 1298]], shape=(4, 2), dtype=int16), array([[ 158, 1329],
+       ...,
+       [ 158, 1373]], shape=(4, 2), dtype=int16), array([[ 232, 1480],
+       ...,
+       [ 231, 1528]], shape=(4, 2), dtype=int16), array([[ 862, 1701],
+       ...,
+       [ 863, 1764]], shape=(4, 2), dtype=int16), array([[ 833, 1777],
+       ...,
+       [ 834, 1838]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['通知》（钦市财预[2016]122号)中下达的新增建设用地土地有', '偿使用费安排的补助资金3.5亿元，收入科目调整为“1100208', '结算补助收入”，支出根据具体方向按规定列相关科目。', '三、请按照我局《关于提前下达2017年中马钦州产业园中', '央补助资金的通知》(钦市财预〔2016]122号)、《关于印发中马', '钦州产业园区中央财政补助资金中期财政规划（2016-2018年）', '的通知》（桂财预〔2016]15号）和《关于修订中马钦州产业园', '区中央财政补助资金管理暂行办法的通知》（桂财预[2016]17', '号）等有关要求，认真做好资金管理、信息公开和绩效评价等工', '作，在确保资金安全的前提下，落实阶段性目标和最终目标。', '四、请加强资金分配、使用管理和监督检查，明确相关支出', '标准、资金申请和拨付程序，适时组织开展专项检查和绩效评估，', '并参考检查和评估结果建立通报和约谈机制，按规定切实加快支', '出进度并提高资金使用效益。', '五、请于2018年3月8日前，将中央补助资金安排使用项', '目进展情况、自查结果报告等一并报送我局（预算科)。', '附件：2017年中马钦州产业园区中央补助资金项目安排表', '钦州市财政局', '20年5月11'], 'rec_scores': [0.9439283609390259, 0.9954397082328796, 0.9944469332695007, 0.995019257068634, 0.9274098873138428, 0.9838458299636841, 0.9394870400428772, 0.9509574174880981, 0.9969311356544495, 0.9975928664207458, 0.9945391416549683, 0.9965022802352905, 0.9990750551223755, 0.9955734610557556, 0.998524010181427, 0.9578429460525513, 0.9963119626045227, 0.9599217772483826, 0.9714884757995605], 'rec_polys': [array([[175, 190],
+       ...,
+       [174, 249]], shape=(4, 2), dtype=int16), array([[175, 268],
+       ...,
+       [174, 325]], shape=(4, 2), dtype=int16), array([[176, 345],
+       ...,
+       [175, 400]], shape=(4, 2), dtype=int16), array([[260, 428],
+       ...,
+       [259, 473]], shape=(4, 2), dtype=int16), array([[172, 496],
+       ...,
+       [171, 543]], shape=(4, 2), dtype=int16), array([[170, 568],
+       ...,
+       [169, 616]], shape=(4, 2), dtype=int16), array([[169, 641],
+       ...,
+       [168, 688]], shape=(4, 2), dtype=int16), array([[166, 716],
+       ...,
+       [165, 764]], shape=(4, 2), dtype=int16), array([[165, 792],
+       ...,
+       [164, 836]], shape=(4, 2), dtype=int16), array([[163, 868],
+       ...,
+       [162, 912]], shape=(4, 2), dtype=int16), array([[244, 948],
+       ...,
+       [243, 989]], shape=(4, 2), dtype=int16), array([[ 161, 1021],
+       ...,
+       [ 160, 1065]], shape=(4, 2), dtype=int16), array([[ 162, 1100],
+       ...,
+       [ 161, 1141]], shape=(4, 2), dtype=int16), array([[ 162, 1175],
+       ...,
+       [ 161, 1217]], shape=(4, 2), dtype=int16), array([[ 237, 1255],
+       ...,
+       [ 236, 1298]], shape=(4, 2), dtype=int16), array([[ 158, 1329],
+       ...,
+       [ 158, 1373]], shape=(4, 2), dtype=int16), array([[ 232, 1480],
+       ...,
+       [ 231, 1528]], shape=(4, 2), dtype=int16), array([[ 862, 1701],
+       ...,
+       [ 863, 1764]], shape=(4, 2), dtype=int16), array([[ 833, 1777],
+       ...,
+       [ 834, 1838]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 174, ...,  278],
+       ...,
+       [ 833, ..., 1838]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 通知》（钦市财预[2016]122号)中下达的新增建设用地土地有
+2. 偿使用费安排的补助资金3.5亿元，收入科目调整为“1100208
+3. 结算补助收入”，支出根据具体方向按规定列相关科目。
+4. 三、请按照我局《关于提前下达2017年中马钦州产业园中
+5. 央补助资金的通知》(钦市财预〔2016]122号)、《关于印发中马
+6. 钦州产业园区中央财政补助资金中期财政规划（2016-2018年）
+7. 的通知》（桂财预〔2016]15号）和《关于修订中马钦州产业园
+8. 区中央财政补助资金管理暂行办法的通知》（桂财预[2016]17
+9. 号）等有关要求，认真做好资金管理、信息公开和绩效评价等工
+10. 作，在确保资金安全的前提下，落实阶段性目标和最终目标。
+11. 四、请加强资金分配、使用管理和监督检查，明确相关支出
+12. 标准、资金申请和拨付程序，适时组织开展专项检查和绩效评估，
+13. 并参考检查和评估结果建立通报和约谈机制，按规定切实加快支
+14. 出进度并提高资金使用效益。
+15. 五、请于2018年3月8日前，将中央补助资金安排使用项
+16. 目进展情况、自查结果报告等一并报送我局（预算科)。
+17. 附件：2017年中马钦州产业园区中央补助资金项目安排表
+18. 钦州市财政局
+19. 20年5月11

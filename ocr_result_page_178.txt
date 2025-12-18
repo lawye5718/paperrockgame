@@ -1,0 +1,185 @@
+OCR结果 - 第 178 页
+==================================================
+处理的图像: temp_page_177_processed.png
+原始PDF页面: 178
+
+详细结果:
+[{'input_path': 'temp_page_177_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[180, 165],
+       ...,
+       [180, 227]], shape=(4, 2), dtype=int16), array([[120, 229],
+       ...,
+       [120, 287]], shape=(4, 2), dtype=int16), array([[124, 296],
+       ...,
+       [124, 348]], shape=(4, 2), dtype=int16), array([[127, 353],
+       ...,
+       [127, 404]], shape=(4, 2), dtype=int16), array([[131, 411],
+       ...,
+       [131, 458]], shape=(4, 2), dtype=int16), array([[131, 467],
+       ...,
+       [131, 508]], shape=(4, 2), dtype=int16), array([[195, 526],
+       ...,
+       [194, 563]], shape=(4, 2), dtype=int16), array([[194, 582],
+       ...,
+       [194, 624]], shape=(4, 2), dtype=int16), array([[137, 644],
+       ...,
+       [137, 675]], shape=(4, 2), dtype=int16), array([[213, 705],
+       ...,
+       [213, 740]], shape=(4, 2), dtype=int16), array([[202, 766],
+       ...,
+       [202, 797]], shape=(4, 2), dtype=int16), array([[202, 821],
+       ...,
+       [202, 854]], shape=(4, 2), dtype=int16), array([[142, 879],
+       ...,
+       [142, 909]], shape=(4, 2), dtype=int16), array([[144, 936],
+       ...,
+       [144, 964]], shape=(4, 2), dtype=int16), array([[ 145,  992],
+       ...,
+       [ 145, 1021]], shape=(4, 2), dtype=int16), array([[ 145, 1048],
+       ...,
+       [ 145, 1078]], shape=(4, 2), dtype=int16), array([[ 144, 1102],
+       ...,
+       [ 144, 1134]], shape=(4, 2), dtype=int16), array([[ 203, 1160],
+       ...,
+       [ 203, 1193]], shape=(4, 2), dtype=int16), array([[ 143, 1212],
+       ...,
+       [ 143, 1249]], shape=(4, 2), dtype=int16), array([[ 142, 1266],
+       ...,
+       [ 142, 1307]], shape=(4, 2), dtype=int16), array([[ 144, 1324],
+       ...,
+       [ 144, 1361]], shape=(4, 2), dtype=int16), array([[ 144, 1381],
+       ...,
+       [ 144, 1416]], shape=(4, 2), dtype=int16), array([[ 145, 1439],
+       ...,
+       [ 145, 1470]], shape=(4, 2), dtype=int16), array([[ 144, 1493],
+       ...,
+       [ 144, 1524]], shape=(4, 2), dtype=int16), array([[ 204, 1551],
+       ...,
+       [ 204, 1584]], shape=(4, 2), dtype=int16), array([[ 141, 1603],
+       ...,
+       [ 141, 1643]], shape=(4, 2), dtype=int16), array([[ 142, 1660],
+       ...,
+       [ 142, 1702]], shape=(4, 2), dtype=int16), array([[ 141, 1717],
+       ...,
+       [ 141, 1757]], shape=(4, 2), dtype=int16), array([[ 201, 1775],
+       ...,
+       [ 201, 1823]], shape=(4, 2), dtype=int16), array([[ 696, 1881],
+       ...,
+       [ 696, 1912]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['本项目使用的特种气体有硅烷、磷化氢、三氟化氮、氨等，纯度要求极高。在CVD', '工序中的反应器中，反应气体（SiH₁、PH₃3、NF3、N₂2O、NIb等）和携带气体（H2、O_2、', 'Ar、N{2}等)不断流过反应室，大部分特殊气体发生反应消耗，并产生气态副产物（如HF', '等），未反应的气体由于混入大量废气，成分复杂，难以再回收利用，该工序由于使用', '含氟特种气体产生含氟废气及其他特殊废气：这些气体将连同气态副产物先经设备自带', '的POU处理设备处理后，然后再排入特殊废气处理设施处理后排放。', '化学气相沉积工序污染源：', '废气：特殊废气G4，分类收集，经过设备白带POU设备处理后，再经过特殊废气', '处理设施集中处理后排放。', '(4)光刻工序', '光刻过程包括涂胶、曝光、显影、清洗步骤。', '涂胶是在清洗后的玻璃基板表面均匀涂上一层光刻胶。光刻胶主要由对光与能量非', '常敏感的高分子聚合物和有机溶剂（稀释剂）组成，前者是光刻胶的主体，主要成份为', '酚醛树脂、单甲醚乙酸酯等，后者是光刻胶的介质，主要成份为乙酸丁酯等。为使光刻', '胶牢固附着在玻璃面板表面，均匀涂胶后要进行烘干，烘干温度较低，光刻胶巾的有机', '溶剂挥发成为有机废气，而光刻胶中的高分子聚合物和光敏剂等作为涂层牢固地附着在', '基质表面。', '光刻胶又称光致抗蚀剂，由感光树脂、增感剂和溶剂三种主要成分组成的对光敏感', '的混合液体。感光树脂经光照后，在曝光区能很快地发生光固化反应，使得这种材料的', '物理性能，特别是溶解性、亲合性等发生明显变化。经适当的溶剂处理，溶去可溶性部', '分，得到所需图像。曝光就是利用光刻胶的这种特性，使用光刻机、将事先设计好的电', '路通过掩模版以照像术透射到面板表面，使部分光刻胶得到光照，另外部分光刻胶得不', '到光照，从而改变光刻胶性质，光刻涂胶及烘干过程中由于使用稀释剂等有机溶剂从而', '产生有机废气。', '显影是用显影液（一定浓度的四甲基氢氧化铵TMAH溶液）将感光的光刻胶去除，', '在光刻胶上形成了沟槽，使下面的膜层暴露出来，以便于下一道工序进行刻蚀：而没有', '感光的光刻胶则不会被清洗下来，从而使下面的膜层得以保护。显影过程中由于使用碱', '性溶剂从而产生碱性废气及有机废液。显影后的清洗产生有机废水。', '由于光刻胶使用后纯度难以满足工艺要求，本项目设有光刻胶废液回收系统，将其', '39'], 'rec_scores': [0.9584373235702515, 0.8157413601875305, 0.9381086826324463, 0.9766755104064941, 0.9804551005363464, 0.9893925786018372, 0.9645235538482666, 0.9794321060180664, 0.998746931552887, 0.8859613537788391, 0.9918670654296875, 0.9918992519378662, 0.9958838224411011, 0.9939928650856018, 0.985266923904419, 0.99609375, 0.9980713725090027, 0.996827244758606, 0.995866596698761, 0.9965441823005676, 0.9956132769584656, 0.9966922402381897, 0.9896675944328308, 0.9979546666145325, 0.9798822999000549, 0.9842684864997864, 0.994428813457489, 0.9978621602058411, 0.99845951795578, 0.9996987581253052], 'rec_polys': [array([[180, 165],
+       ...,
+       [180, 227]], shape=(4, 2), dtype=int16), array([[120, 229],
+       ...,
+       [120, 287]], shape=(4, 2), dtype=int16), array([[124, 296],
+       ...,
+       [124, 348]], shape=(4, 2), dtype=int16), array([[127, 353],
+       ...,
+       [127, 404]], shape=(4, 2), dtype=int16), array([[131, 411],
+       ...,
+       [131, 458]], shape=(4, 2), dtype=int16), array([[131, 467],
+       ...,
+       [131, 508]], shape=(4, 2), dtype=int16), array([[195, 526],
+       ...,
+       [194, 563]], shape=(4, 2), dtype=int16), array([[194, 582],
+       ...,
+       [194, 624]], shape=(4, 2), dtype=int16), array([[137, 644],
+       ...,
+       [137, 675]], shape=(4, 2), dtype=int16), array([[213, 705],
+       ...,
+       [213, 740]], shape=(4, 2), dtype=int16), array([[202, 766],
+       ...,
+       [202, 797]], shape=(4, 2), dtype=int16), array([[202, 821],
+       ...,
+       [202, 854]], shape=(4, 2), dtype=int16), array([[142, 879],
+       ...,
+       [142, 909]], shape=(4, 2), dtype=int16), array([[144, 936],
+       ...,
+       [144, 964]], shape=(4, 2), dtype=int16), array([[ 145,  992],
+       ...,
+       [ 145, 1021]], shape=(4, 2), dtype=int16), array([[ 145, 1048],
+       ...,
+       [ 145, 1078]], shape=(4, 2), dtype=int16), array([[ 144, 1102],
+       ...,
+       [ 144, 1134]], shape=(4, 2), dtype=int16), array([[ 203, 1160],
+       ...,
+       [ 203, 1193]], shape=(4, 2), dtype=int16), array([[ 143, 1212],
+       ...,
+       [ 143, 1249]], shape=(4, 2), dtype=int16), array([[ 142, 1266],
+       ...,
+       [ 142, 1307]], shape=(4, 2), dtype=int16), array([[ 144, 1324],
+       ...,
+       [ 144, 1361]], shape=(4, 2), dtype=int16), array([[ 144, 1381],
+       ...,
+       [ 144, 1416]], shape=(4, 2), dtype=int16), array([[ 145, 1439],
+       ...,
+       [ 145, 1470]], shape=(4, 2), dtype=int16), array([[ 144, 1493],
+       ...,
+       [ 144, 1524]], shape=(4, 2), dtype=int16), array([[ 204, 1551],
+       ...,
+       [ 204, 1584]], shape=(4, 2), dtype=int16), array([[ 141, 1603],
+       ...,
+       [ 141, 1643]], shape=(4, 2), dtype=int16), array([[ 142, 1660],
+       ...,
+       [ 142, 1702]], shape=(4, 2), dtype=int16), array([[ 141, 1717],
+       ...,
+       [ 141, 1757]], shape=(4, 2), dtype=int16), array([[ 201, 1775],
+       ...,
+       [ 201, 1823]], shape=(4, 2), dtype=int16), array([[ 696, 1881],
+       ...,
+       [ 696, 1912]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 180, ...,  231],
+       ...,
+       [ 696, ..., 1912]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 本项目使用的特种气体有硅烷、磷化氢、三氟化氮、氨等，纯度要求极高。在CVD
+2. 工序中的反应器中，反应气体（SiH₁、PH₃3、NF3、N₂2O、NIb等）和携带气体（H2、O_2、
+3. Ar、N{2}等)不断流过反应室，大部分特殊气体发生反应消耗，并产生气态副产物（如HF
+4. 等），未反应的气体由于混入大量废气，成分复杂，难以再回收利用，该工序由于使用
+5. 含氟特种气体产生含氟废气及其他特殊废气：这些气体将连同气态副产物先经设备自带
+6. 的POU处理设备处理后，然后再排入特殊废气处理设施处理后排放。
+7. 化学气相沉积工序污染源：
+8. 废气：特殊废气G4，分类收集，经过设备白带POU设备处理后，再经过特殊废气
+9. 处理设施集中处理后排放。
+10. (4)光刻工序
+11. 光刻过程包括涂胶、曝光、显影、清洗步骤。
+12. 涂胶是在清洗后的玻璃基板表面均匀涂上一层光刻胶。光刻胶主要由对光与能量非
+13. 常敏感的高分子聚合物和有机溶剂（稀释剂）组成，前者是光刻胶的主体，主要成份为
+14. 酚醛树脂、单甲醚乙酸酯等，后者是光刻胶的介质，主要成份为乙酸丁酯等。为使光刻
+15. 胶牢固附着在玻璃面板表面，均匀涂胶后要进行烘干，烘干温度较低，光刻胶巾的有机
+16. 溶剂挥发成为有机废气，而光刻胶中的高分子聚合物和光敏剂等作为涂层牢固地附着在
+17. 基质表面。
+18. 光刻胶又称光致抗蚀剂，由感光树脂、增感剂和溶剂三种主要成分组成的对光敏感
+19. 的混合液体。感光树脂经光照后，在曝光区能很快地发生光固化反应，使得这种材料的
+20. 物理性能，特别是溶解性、亲合性等发生明显变化。经适当的溶剂处理，溶去可溶性部
+21. 分，得到所需图像。曝光就是利用光刻胶的这种特性，使用光刻机、将事先设计好的电
+22. 路通过掩模版以照像术透射到面板表面，使部分光刻胶得到光照，另外部分光刻胶得不
+23. 到光照，从而改变光刻胶性质，光刻涂胶及烘干过程中由于使用稀释剂等有机溶剂从而
+24. 产生有机废气。
+25. 显影是用显影液（一定浓度的四甲基氢氧化铵TMAH溶液）将感光的光刻胶去除，
+26. 在光刻胶上形成了沟槽，使下面的膜层暴露出来，以便于下一道工序进行刻蚀：而没有
+27. 感光的光刻胶则不会被清洗下来，从而使下面的膜层得以保护。显影过程中由于使用碱
+28. 性溶剂从而产生碱性废气及有机废液。显影后的清洗产生有机废水。
+29. 由于光刻胶使用后纯度难以满足工艺要求，本项目设有光刻胶废液回收系统，将其
+30. 39

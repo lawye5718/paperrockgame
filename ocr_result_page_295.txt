@@ -1,0 +1,70 @@
+OCR结果 - 第 295 页
+==================================================
+处理的图像: temp_page_294_processed.png
+原始PDF页面: 295
+
+详细结果:
+[{'input_path': 'temp_page_294_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1420, 3), dtype=uint8)}, 'dt_polys': [array([[523,  16],
+       ...,
+       [522, 116]], shape=(4, 2), dtype=int16), array([[133, 279],
+       ...,
+       [132, 327]], shape=(4, 2), dtype=int16), array([[ 990, 1584],
+       ...,
+       [ 984, 1696]], shape=(4, 2), dtype=int16), array([[ 742, 1650],
+       ...,
+       [ 741, 1704]], shape=(4, 2), dtype=int16), array([[ 992, 1696],
+       ...,
+       [ 992, 1800]], shape=(4, 2), dtype=int16), array([[ 740, 1733],
+       ...,
+       [ 740, 1787]], shape=(4, 2), dtype=int16), array([[ 743, 1810],
+       ...,
+       [ 742, 1870]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['卷内备考表', '本卷情况说明：', '悦勇', '立卷人:', '刘德意', '检查人:', '立卷时间：2025.8.11'], 'rec_scores': [0.9973264932632446, 0.9545669555664062, 0.5214793682098389, 0.8915129899978638, 0.7393390536308289, 0.9428471326828003, 0.910189688205719], 'rec_polys': [array([[523,  16],
+       ...,
+       [522, 116]], shape=(4, 2), dtype=int16), array([[133, 279],
+       ...,
+       [132, 327]], shape=(4, 2), dtype=int16), array([[ 990, 1584],
+       ...,
+       [ 984, 1696]], shape=(4, 2), dtype=int16), array([[ 742, 1650],
+       ...,
+       [ 741, 1704]], shape=(4, 2), dtype=int16), array([[ 992, 1696],
+       ...,
+       [ 992, 1800]], shape=(4, 2), dtype=int16), array([[ 740, 1733],
+       ...,
+       [ 740, 1787]], shape=(4, 2), dtype=int16), array([[ 743, 1810],
+       ...,
+       [ 742, 1870]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 522, ...,  118],
+       ...,
+       [ 742, ..., 1873]], shape=(7, 4), dtype=int16)}]
+
+解析后的文本:
+1. 卷内备考表
+2. 本卷情况说明：
+3. 悦勇
+4. 立卷人:
+5. 刘德意
+6. 检查人:
+7. 立卷时间：2025.8.11

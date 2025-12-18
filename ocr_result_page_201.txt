@@ -1,0 +1,100 @@
+OCR结果 - 第 201 页
+==================================================
+处理的图像: temp_page_200_processed.png
+原始PDF页面: 201
+
+详细结果:
+[{'input_path': 'temp_page_200_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1416, 3), dtype=uint8)}, 'dt_polys': [array([[128, 152],
+       ...,
+       [128, 196]], shape=(4, 2), dtype=int16), array([[128, 212],
+       ...,
+       [128, 257]], shape=(4, 2), dtype=int16), array([[129, 271],
+       ...,
+       [129, 315]], shape=(4, 2), dtype=int16), array([[129, 327],
+       ...,
+       [129, 372]], shape=(4, 2), dtype=int16), array([[129, 383],
+       ...,
+       [127, 423]], shape=(4, 2), dtype=int16), array([[  0, 418],
+       ...,
+       [  0, 438]], shape=(4, 2), dtype=int16), array([[193, 447],
+       ...,
+       [193, 482]], shape=(4, 2), dtype=int16), array([[193, 503],
+       ...,
+       [193, 539]], shape=(4, 2), dtype=int16), array([[130, 556],
+       ...,
+       [130, 594]], shape=(4, 2), dtype=int16), array([[129, 611],
+       ...,
+       [129, 651]], shape=(4, 2), dtype=int16), array([[128, 668],
+       ...,
+       [128, 706]], shape=(4, 2), dtype=int16), array([[123, 725],
+       ...,
+       [123, 766]], shape=(4, 2), dtype=int16), array([[ 701, 1969],
+       ...,
+       [ 701, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['处理后达标排放。生产废气分为四类：酸性废气、碱性废气、有机废气、特殊废气。', '其中生产厂房设4个排气筒：分别为酸性废气排气筒、碱性废气排气简、有机废气排气', '筒、特殊废气排气筒；化学品车间在化学品配送过程中产生的废气经收集后送至生产厂', '房的废气处理装置处理后排放；特气车间的应急排风送至生产厂房的废气处理装置处理', '后排放。', '2', '辅助设施废气主要为：废水处理站臭气。', '本项目生产车间为洁净室，全封闭式操作。生产废气经排风系统分别排放至废气处', '理系统进行处理，再通过排气筒排放。生产工艺分区布置，废气分质收集处理，覆盖面', '大，基本消除了工艺废气的无组织排放。一般排气区域不使用化学品，仅为空调通风及', '热交换排气，经收集后由厂房屋面排气筒排放，有微量的有机物（非甲烷总烃、', 'VOCs<0.5mg/m^3)，接近环境值，不含其他污染物。', '62'], 'rec_scores': [0.9952211380004883, 0.9699507355690002, 0.9824284911155701, 0.9860370755195618, 0.9984071254730225, 0.11141587048768997, 0.9960402250289917, 0.9972836375236511, 0.9908608794212341, 0.9977124929428101, 0.9648298025131226, 0.921080470085144, 0.999336838722229], 'rec_polys': [array([[128, 152],
+       ...,
+       [128, 196]], shape=(4, 2), dtype=int16), array([[128, 212],
+       ...,
+       [128, 257]], shape=(4, 2), dtype=int16), array([[129, 271],
+       ...,
+       [129, 315]], shape=(4, 2), dtype=int16), array([[129, 327],
+       ...,
+       [129, 372]], shape=(4, 2), dtype=int16), array([[129, 383],
+       ...,
+       [127, 423]], shape=(4, 2), dtype=int16), array([[  0, 418],
+       ...,
+       [  0, 438]], shape=(4, 2), dtype=int16), array([[193, 447],
+       ...,
+       [193, 482]], shape=(4, 2), dtype=int16), array([[193, 503],
+       ...,
+       [193, 539]], shape=(4, 2), dtype=int16), array([[130, 556],
+       ...,
+       [130, 594]], shape=(4, 2), dtype=int16), array([[129, 611],
+       ...,
+       [129, 651]], shape=(4, 2), dtype=int16), array([[128, 668],
+       ...,
+       [128, 706]], shape=(4, 2), dtype=int16), array([[123, 725],
+       ...,
+       [123, 766]], shape=(4, 2), dtype=int16), array([[ 701, 1969],
+       ...,
+       [ 701, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 128, ...,  207],
+       ...,
+       [ 701, ..., 1999]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. 处理后达标排放。生产废气分为四类：酸性废气、碱性废气、有机废气、特殊废气。
+2. 其中生产厂房设4个排气筒：分别为酸性废气排气筒、碱性废气排气简、有机废气排气
+3. 筒、特殊废气排气筒；化学品车间在化学品配送过程中产生的废气经收集后送至生产厂
+4. 房的废气处理装置处理后排放；特气车间的应急排风送至生产厂房的废气处理装置处理
+5. 后排放。
+6. 2
+7. 辅助设施废气主要为：废水处理站臭气。
+8. 本项目生产车间为洁净室，全封闭式操作。生产废气经排风系统分别排放至废气处
+9. 理系统进行处理，再通过排气筒排放。生产工艺分区布置，废气分质收集处理，覆盖面
+10. 大，基本消除了工艺废气的无组织排放。一般排气区域不使用化学品，仅为空调通风及
+11. 热交换排气，经收集后由厂房屋面排气筒排放，有微量的有机物（非甲烷总烃、
+12. VOCs<0.5mg/m^3)，接近环境值，不含其他污染物。
+13. 62

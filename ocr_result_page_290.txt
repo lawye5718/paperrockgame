@@ -1,0 +1,125 @@
+OCR结果 - 第 290 页
+==================================================
+处理的图像: temp_page_289_processed.png
+原始PDF页面: 290
+
+详细结果:
+[{'input_path': 'temp_page_289_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 180, 'rot_img': array([[[  0, ...,   0],
+        ...,
+        [  0, ...,   0]],
+
+       ...,
+
+       [[  0, ...,   0],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1421, 2000, 3), dtype=uint8)}, 'dt_polys': [array([[878,   1],
+       ...,
+       [878,   8]], shape=(4, 2), dtype=int16), array([[1035,    0],
+       ...,
+       [1035,   10]], shape=(4, 2), dtype=int16), array([[66, 41],
+       ...,
+       [65, 73]], shape=(4, 2), dtype=int16), array([[266,  45],
+       ...,
+       [265,  77]], shape=(4, 2), dtype=int16), array([[105,  93],
+       ...,
+       [105, 132]], shape=(4, 2), dtype=int16), array([[ 73, 149],
+       ...,
+       [ 72, 189]], shape=(4, 2), dtype=int16), array([[103, 204],
+       ...,
+       [103, 243]], shape=(4, 2), dtype=int16), array([[100, 258],
+       ...,
+       [100, 298]], shape=(4, 2), dtype=int16), array([[150, 321],
+       ...,
+       [149, 380]], shape=(4, 2), dtype=int16), array([[1384,  320],
+       ...,
+       [1384,  336]], shape=(4, 2), dtype=int16), array([[414, 412],
+       ...,
+       [414, 440]], shape=(4, 2), dtype=int16), array([[1927,  469],
+       ...,
+       [1927,  495]], shape=(4, 2), dtype=int16), array([[279, 542],
+       ...,
+       [272, 573]], shape=(4, 2), dtype=int16), array([[313, 744],
+       ...,
+       [321, 752]], shape=(4, 2), dtype=int16), array([[ 746, 1084],
+       ...,
+       [ 746, 1099]], shape=(4, 2), dtype=int16), array([[1055, 1113],
+       ...,
+       [1055, 1141]], shape=(4, 2), dtype=int16), array([[1484, 1109],
+       ...,
+       [1473, 1126]], shape=(4, 2), dtype=int16), array([[1622, 1197],
+       ...,
+       [1615, 1211]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['.', '-TD', '000100', '0:', '1.壤监测点', '地下水监测点', '草', '大气监测点', '图例', '业', '全容', '围王', '4', '4', '1', '控银资村', '', ''], 'rec_scores': [0.44781067967414856, 0.4841364324092865, 0.5459215044975281, 0.7089143991470337, 0.8908221125602722, 0.9681075215339661, 0.14754725992679596, 0.8796309232711792, 0.9993102550506592, 0.23309984803199768, 0.5340696573257446, 0.5208966732025146, 0.20860348641872406, 0.26005819439888, 0.403997540473938, 0.513133704662323, 0.0, 0.0], 'rec_polys': [array([[878,   1],
+       ...,
+       [878,   8]], shape=(4, 2), dtype=int16), array([[1035,    0],
+       ...,
+       [1035,   10]], shape=(4, 2), dtype=int16), array([[66, 41],
+       ...,
+       [65, 73]], shape=(4, 2), dtype=int16), array([[266,  45],
+       ...,
+       [265,  77]], shape=(4, 2), dtype=int16), array([[105,  93],
+       ...,
+       [105, 132]], shape=(4, 2), dtype=int16), array([[ 73, 149],
+       ...,
+       [ 72, 189]], shape=(4, 2), dtype=int16), array([[103, 204],
+       ...,
+       [103, 243]], shape=(4, 2), dtype=int16), array([[100, 258],
+       ...,
+       [100, 298]], shape=(4, 2), dtype=int16), array([[150, 321],
+       ...,
+       [149, 380]], shape=(4, 2), dtype=int16), array([[1384,  320],
+       ...,
+       [1384,  336]], shape=(4, 2), dtype=int16), array([[414, 412],
+       ...,
+       [414, 440]], shape=(4, 2), dtype=int16), array([[1927,  469],
+       ...,
+       [1927,  495]], shape=(4, 2), dtype=int16), array([[279, 542],
+       ...,
+       [272, 573]], shape=(4, 2), dtype=int16), array([[313, 744],
+       ...,
+       [321, 752]], shape=(4, 2), dtype=int16), array([[ 746, 1084],
+       ...,
+       [ 746, 1099]], shape=(4, 2), dtype=int16), array([[1055, 1113],
+       ...,
+       [1055, 1141]], shape=(4, 2), dtype=int16), array([[1484, 1109],
+       ...,
+       [1473, 1126]], shape=(4, 2), dtype=int16), array([[1622, 1197],
+       ...,
+       [1615, 1211]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1], 'rec_boxes': array([[ 878, ...,    8],
+       ...,
+       [1615, ..., 1256]], shape=(18, 4), dtype=int16)}]
+
+解析后的文本:
+1. .
+2. -TD
+3. 000100
+4. 0:
+5. 1.壤监测点
+6. 地下水监测点
+7. 草
+8. 大气监测点
+9. 图例
+10. 业
+11. 全容
+12. 围王
+13. 4
+14. 4
+15. 1
+16. 控银资村
+17. 
+18. 

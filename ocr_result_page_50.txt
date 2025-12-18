@@ -1,0 +1,165 @@
+OCR结果 - 第 50 页
+==================================================
+处理的图像: temp_page_49_processed.png
+原始PDF页面: 50
+
+详细结果:
+[{'input_path': 'temp_page_49_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1339,    3],
+       ...,
+       [1329,  115]], shape=(4, 2), dtype=int16), array([[181, 140],
+       ...,
+       [181, 183]], shape=(4, 2), dtype=int16), array([[262, 214],
+       ...,
+       [262, 258]], shape=(4, 2), dtype=int16), array([[176, 287],
+       ...,
+       [176, 329]], shape=(4, 2), dtype=int16), array([[259, 359],
+       ...,
+       [259, 403]], shape=(4, 2), dtype=int16), array([[172, 426],
+       ...,
+       [172, 471]], shape=(4, 2), dtype=int16), array([[164, 494],
+       ...,
+       [164, 541]], shape=(4, 2), dtype=int16), array([[167, 564],
+       ...,
+       [167, 610]], shape=(4, 2), dtype=int16), array([[253, 639],
+       ...,
+       [253, 684]], shape=(4, 2), dtype=int16), array([[163, 709],
+       ...,
+       [163, 753]], shape=(4, 2), dtype=int16), array([[250, 783],
+       ...,
+       [249, 831]], shape=(4, 2), dtype=int16), array([[165, 853],
+       ...,
+       [165, 897]], shape=(4, 2), dtype=int16), array([[165, 921],
+       ...,
+       [165, 967]], shape=(4, 2), dtype=int16), array([[ 253,  996],
+       ...,
+       [ 253, 1040]], shape=(4, 2), dtype=int16), array([[ 163, 1064],
+       ...,
+       [ 163, 1108]], shape=(4, 2), dtype=int16), array([[ 164, 1134],
+       ...,
+       [ 164, 1177]], shape=(4, 2), dtype=int16), array([[ 165, 1205],
+       ...,
+       [ 165, 1245]], shape=(4, 2), dtype=int16), array([[ 161, 1271],
+       ...,
+       [ 161, 1322]], shape=(4, 2), dtype=int16), array([[ 248, 1347],
+       ...,
+       [ 248, 1387]], shape=(4, 2), dtype=int16), array([[ 161, 1417],
+       ...,
+       [ 161, 1462]], shape=(4, 2), dtype=int16), array([[ 162, 1490],
+       ...,
+       [ 162, 1531]], shape=(4, 2), dtype=int16), array([[ 239, 1557],
+       ...,
+       [ 238, 1605]], shape=(4, 2), dtype=int16), array([[ 152, 1630],
+       ...,
+       [ 152, 1677]], shape=(4, 2), dtype=int16), array([[ 156, 1705],
+       ...,
+       [ 156, 1753]], shape=(4, 2), dtype=int16), array([[ 352, 1785],
+       ...,
+       [ 352, 1830]], shape=(4, 2), dtype=int16), array([[ 683, 1945],
+       ...,
+       [ 683, 1979]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['47', '货款余额、担保情况等资料；', '17.1.3拒绝接受甲方和乙.方对委托贷款使用情况和有', '关生产、经营、财务活动的监督。', '17.2在台同育效期内，丙方发生下列情况之一的，即视', '为违约行为，甲方有权委托乙方停止发放委托贷款，并有权', '提前收回委托贷款。对丙方违约使用的委托贷款，根据违约', '使用的天数按以下约定计收罚息，直到本息清偿为止：', '17.2.1未按台同约定期限清偿委托贷款本金和利息的，', '按照年利率18.75%计收逾期利息及复利；', '17.2.2未按合同约定用途使用委托贷款的；套取委托贷', '款用于借贷车取非法收入的；采取欺诈手段骗取委托贷款的', '按照年利率21.875%计收罚息及复利；', '17.3丙方经营方式、自身体制或法律地位发生变化，未', '按约定通知甲方，未落实甲方书面同意的本合同项下债务的', '清偿责任或未提供甲方认可的新的担保，甲方有权委托乙方', '停止发放委托贷款，并有权提前收回委托贷款，依法采取其', '他措施。', '17.4丙方所作声明与保证不真实，不准确或有重大隐瞒', '的，均视为违约。甲方有权委托乙方停止发放委托贷款，并', '有权提前收回委托贷款，依法采取其他措施。', '17.5丙不按本合同或担保合同的约定履行共任何一', '义多，奶得专实理本台同项下债权时，甲方有托', '止发款托货载，年有权提前收回委托货共，按术合间', '', '1'], 'rec_scores': [0.9319332838058472, 0.9130292534828186, 0.9664397239685059, 0.9876387119293213, 0.9701276421546936, 0.9502925872802734, 0.9809376001358032, 0.9746559262275696, 0.9740361571311951, 0.9335362315177917, 0.982476532459259, 0.9835190176963806, 0.9511386752128601, 0.9621282815933228, 0.9858249425888062, 0.9709685444831848, 0.9828054904937744, 0.95732182264328, 0.9567579627037048, 0.9527224898338318, 0.9610906839370728, 0.8728334903717041, 0.7712479829788208, 0.7070148587226868, 0.0, 0.8437566161155701], 'rec_polys': [array([[1339,    3],
+       ...,
+       [1329,  115]], shape=(4, 2), dtype=int16), array([[181, 140],
+       ...,
+       [181, 183]], shape=(4, 2), dtype=int16), array([[262, 214],
+       ...,
+       [262, 258]], shape=(4, 2), dtype=int16), array([[176, 287],
+       ...,
+       [176, 329]], shape=(4, 2), dtype=int16), array([[259, 359],
+       ...,
+       [259, 403]], shape=(4, 2), dtype=int16), array([[172, 426],
+       ...,
+       [172, 471]], shape=(4, 2), dtype=int16), array([[164, 494],
+       ...,
+       [164, 541]], shape=(4, 2), dtype=int16), array([[167, 564],
+       ...,
+       [167, 610]], shape=(4, 2), dtype=int16), array([[253, 639],
+       ...,
+       [253, 684]], shape=(4, 2), dtype=int16), array([[163, 709],
+       ...,
+       [163, 753]], shape=(4, 2), dtype=int16), array([[250, 783],
+       ...,
+       [249, 831]], shape=(4, 2), dtype=int16), array([[165, 853],
+       ...,
+       [165, 897]], shape=(4, 2), dtype=int16), array([[165, 921],
+       ...,
+       [165, 967]], shape=(4, 2), dtype=int16), array([[ 253,  996],
+       ...,
+       [ 253, 1040]], shape=(4, 2), dtype=int16), array([[ 163, 1064],
+       ...,
+       [ 163, 1108]], shape=(4, 2), dtype=int16), array([[ 164, 1134],
+       ...,
+       [ 164, 1177]], shape=(4, 2), dtype=int16), array([[ 165, 1205],
+       ...,
+       [ 165, 1245]], shape=(4, 2), dtype=int16), array([[ 161, 1271],
+       ...,
+       [ 161, 1322]], shape=(4, 2), dtype=int16), array([[ 248, 1347],
+       ...,
+       [ 248, 1387]], shape=(4, 2), dtype=int16), array([[ 161, 1417],
+       ...,
+       [ 161, 1462]], shape=(4, 2), dtype=int16), array([[ 162, 1490],
+       ...,
+       [ 162, 1531]], shape=(4, 2), dtype=int16), array([[ 239, 1557],
+       ...,
+       [ 238, 1605]], shape=(4, 2), dtype=int16), array([[ 152, 1630],
+       ...,
+       [ 152, 1677]], shape=(4, 2), dtype=int16), array([[ 156, 1705],
+       ...,
+       [ 156, 1753]], shape=(4, 2), dtype=int16), array([[ 352, 1785],
+       ...,
+       [ 352, 1830]], shape=(4, 2), dtype=int16), array([[ 683, 1945],
+       ...,
+       [ 683, 1979]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], 'rec_boxes': array([[1329, ...,  123],
+       ...,
+       [ 683, ..., 1979]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 47
+2. 货款余额、担保情况等资料；
+3. 17.1.3拒绝接受甲方和乙.方对委托贷款使用情况和有
+4. 关生产、经营、财务活动的监督。
+5. 17.2在台同育效期内，丙方发生下列情况之一的，即视
+6. 为违约行为，甲方有权委托乙方停止发放委托贷款，并有权
+7. 提前收回委托贷款。对丙方违约使用的委托贷款，根据违约
+8. 使用的天数按以下约定计收罚息，直到本息清偿为止：
+9. 17.2.1未按台同约定期限清偿委托贷款本金和利息的，
+10. 按照年利率18.75%计收逾期利息及复利；
+11. 17.2.2未按合同约定用途使用委托贷款的；套取委托贷
+12. 款用于借贷车取非法收入的；采取欺诈手段骗取委托贷款的
+13. 按照年利率21.875%计收罚息及复利；
+14. 17.3丙方经营方式、自身体制或法律地位发生变化，未
+15. 按约定通知甲方，未落实甲方书面同意的本合同项下债务的
+16. 清偿责任或未提供甲方认可的新的担保，甲方有权委托乙方
+17. 停止发放委托贷款，并有权提前收回委托贷款，依法采取其
+18. 他措施。
+19. 17.4丙方所作声明与保证不真实，不准确或有重大隐瞒
+20. 的，均视为违约。甲方有权委托乙方停止发放委托贷款，并
+21. 有权提前收回委托贷款，依法采取其他措施。
+22. 17.5丙不按本合同或担保合同的约定履行共任何一
+23. 义多，奶得专实理本台同项下债权时，甲方有托
+24. 止发款托货载，年有权提前收回委托货共，按术合间
+25. 
+26. 1

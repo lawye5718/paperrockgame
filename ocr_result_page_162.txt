@@ -1,0 +1,190 @@
+OCR结果 - 第 162 页
+==================================================
+处理的图像: temp_page_161_processed.png
+原始PDF页面: 162
+
+详细结果:
+[{'input_path': 'temp_page_161_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[195, 111],
+       ...,
+       [195, 152]], shape=(4, 2), dtype=int16), array([[195, 168],
+       ...,
+       [194, 217]], shape=(4, 2), dtype=int16), array([[133, 235],
+       ...,
+       [133, 283]], shape=(4, 2), dtype=int16), array([[135, 299],
+       ...,
+       [135, 347]], shape=(4, 2), dtype=int16), array([[139, 367],
+       ...,
+       [139, 410]], shape=(4, 2), dtype=int16), array([[997, 788],
+       ...,
+       [997, 825]], shape=(4, 2), dtype=int16), array([[ 167, 1019],
+       ...,
+       [ 165, 1043]], shape=(4, 2), dtype=int16), array([[ 216, 1053],
+       ...,
+       [ 216, 1071]], shape=(4, 2), dtype=int16), array([[ 415, 1050],
+       ...,
+       [ 415, 1071]], shape=(4, 2), dtype=int16), array([[ 216, 1082],
+       ...,
+       [ 216, 1100]], shape=(4, 2), dtype=int16), array([[ 414, 1079],
+       ...,
+       [ 414, 1101]], shape=(4, 2), dtype=int16), array([[ 161, 1109],
+       ...,
+       [ 161, 1127]], shape=(4, 2), dtype=int16), array([[ 216, 1110],
+       ...,
+       [ 216, 1128]], shape=(4, 2), dtype=int16), array([[ 415, 1107],
+       ...,
+       [ 415, 1130]], shape=(4, 2), dtype=int16), array([[ 160, 1136],
+       ...,
+       [ 159, 1153]], shape=(4, 2), dtype=int16), array([[ 215, 1138],
+       ...,
+       [ 215, 1158]], shape=(4, 2), dtype=int16), array([[ 419, 1136],
+       ...,
+       [ 419, 1157]], shape=(4, 2), dtype=int16), array([[ 523, 1177],
+       ...,
+       [ 523, 1207]], shape=(4, 2), dtype=int16), array([[ 232, 1233],
+       ...,
+       [ 232, 1264]], shape=(4, 2), dtype=int16), array([[ 221, 1292],
+       ...,
+       [ 221, 1326]], shape=(4, 2), dtype=int16), array([[ 156, 1350],
+       ...,
+       [ 156, 1383]], shape=(4, 2), dtype=int16), array([[ 158, 1408],
+       ...,
+       [ 158, 1438]], shape=(4, 2), dtype=int16), array([[ 159, 1463],
+       ...,
+       [ 159, 1493]], shape=(4, 2), dtype=int16), array([[ 158, 1517],
+       ...,
+       [ 158, 1549]], shape=(4, 2), dtype=int16), array([[   0, 1564],
+       ...,
+       [   0, 1581]], shape=(4, 2), dtype=int16), array([[ 234, 1575],
+       ...,
+       [ 234, 1603]], shape=(4, 2), dtype=int16), array([[ 219, 1627],
+       ...,
+       [ 219, 1658]], shape=(4, 2), dtype=int16), array([[ 226, 1684],
+       ...,
+       [ 226, 1714]], shape=(4, 2), dtype=int16), array([[ 161, 1737],
+       ...,
+       [ 161, 1767]], shape=(4, 2), dtype=int16), array([[ 161, 1790],
+       ...,
+       [ 161, 1822]], shape=(4, 2), dtype=int16), array([[ 674, 1844],
+       ...,
+       [ 674, 1874]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['②园区雨水', '地块西侧友谊大道规划建设 D1200-D2000 雨水管道，地块东侧锦绣大道规', '划建设 D1650-D2000 雨水管道，均是由北向南排入金鼓江东支流：北侧马莱大', '道规划建设D1650-D1800 雨水管道，南侧云顶大街规划建设D1650-D2600雨水', '管道，均是由东向西排入金鼓江中支流。', '本項目', '重别', '现状水管通', '海水方向', '规圳水量道', '内', '01200', '雨水管行', '海域', '.P', '捧洪沟尺寸', '规泡脚', '图1.9-2项目周边雨水管网图', '（2）厂内排水及污水处理', '本项目日排水量为24310m3/d，生产废水根据水质情况分别收集，排入厂区', '污水处理厂分别经物化法、生化法处理：生活污水经化粪池、隔油池处理后，所', '有废水统一排入园区污水管网，最终排入钦州市大榄坪污水处理厂。本项目设1', '个污水排放口。污水排放口位于西侧厂界，废水处理站的西侧，污水排放口位置', '具体见总平面布置图1.6-1，区污水管网示意图见图1.9-3。', '1', '（3）园区排水系统及污水处理', '①钦州市大榄坪污水处理厂概况', '大榄坪污水处理厂位于港区大榄坪1业园区第八大道和五号路交汇处，设计', '日污水处理能力为25万立方米/日。项目一次规划分期实施，首期工程规模5万', '立方米/日，2009年6月开工建设，2010年10月建成投产。处理工艺采用', '22'], 'rec_scores': [0.9983790516853333, 0.9580022096633911, 0.9733374714851379, 0.9696829915046692, 0.9983075261116028, 0.9877460598945618, 0.7631912231445312, 0.8095859289169312, 0.7062984704971313, 0.7518588304519653, 0.9942917823791504, 0.8871777653694153, 0.8622564077377319, 0.6987451314926147, 0.42568033933639526, 0.7295883297920227, 0.18575458228588104, 0.9909996390342712, 0.9234418869018555, 0.9572114944458008, 0.9970276951789856, 0.9552950263023376, 0.9963747262954712, 0.9887095093727112, 0.21194574236869812, 0.9709976315498352, 0.996282696723938, 0.9728659391403198, 0.9958689212799072, 0.9729646444320679, 0.9994301795959473], 'rec_polys': [array([[195, 111],
+       ...,
+       [195, 152]], shape=(4, 2), dtype=int16), array([[195, 168],
+       ...,
+       [194, 217]], shape=(4, 2), dtype=int16), array([[133, 235],
+       ...,
+       [133, 283]], shape=(4, 2), dtype=int16), array([[135, 299],
+       ...,
+       [135, 347]], shape=(4, 2), dtype=int16), array([[139, 367],
+       ...,
+       [139, 410]], shape=(4, 2), dtype=int16), array([[997, 788],
+       ...,
+       [997, 825]], shape=(4, 2), dtype=int16), array([[ 167, 1019],
+       ...,
+       [ 165, 1043]], shape=(4, 2), dtype=int16), array([[ 216, 1053],
+       ...,
+       [ 216, 1071]], shape=(4, 2), dtype=int16), array([[ 415, 1050],
+       ...,
+       [ 415, 1071]], shape=(4, 2), dtype=int16), array([[ 216, 1082],
+       ...,
+       [ 216, 1100]], shape=(4, 2), dtype=int16), array([[ 414, 1079],
+       ...,
+       [ 414, 1101]], shape=(4, 2), dtype=int16), array([[ 161, 1109],
+       ...,
+       [ 161, 1127]], shape=(4, 2), dtype=int16), array([[ 216, 1110],
+       ...,
+       [ 216, 1128]], shape=(4, 2), dtype=int16), array([[ 415, 1107],
+       ...,
+       [ 415, 1130]], shape=(4, 2), dtype=int16), array([[ 160, 1136],
+       ...,
+       [ 159, 1153]], shape=(4, 2), dtype=int16), array([[ 215, 1138],
+       ...,
+       [ 215, 1158]], shape=(4, 2), dtype=int16), array([[ 419, 1136],
+       ...,
+       [ 419, 1157]], shape=(4, 2), dtype=int16), array([[ 523, 1177],
+       ...,
+       [ 523, 1207]], shape=(4, 2), dtype=int16), array([[ 232, 1233],
+       ...,
+       [ 232, 1264]], shape=(4, 2), dtype=int16), array([[ 221, 1292],
+       ...,
+       [ 221, 1326]], shape=(4, 2), dtype=int16), array([[ 156, 1350],
+       ...,
+       [ 156, 1383]], shape=(4, 2), dtype=int16), array([[ 158, 1408],
+       ...,
+       [ 158, 1438]], shape=(4, 2), dtype=int16), array([[ 159, 1463],
+       ...,
+       [ 159, 1493]], shape=(4, 2), dtype=int16), array([[ 158, 1517],
+       ...,
+       [ 158, 1549]], shape=(4, 2), dtype=int16), array([[   0, 1564],
+       ...,
+       [   0, 1581]], shape=(4, 2), dtype=int16), array([[ 234, 1575],
+       ...,
+       [ 234, 1603]], shape=(4, 2), dtype=int16), array([[ 219, 1627],
+       ...,
+       [ 219, 1658]], shape=(4, 2), dtype=int16), array([[ 226, 1684],
+       ...,
+       [ 226, 1714]], shape=(4, 2), dtype=int16), array([[ 161, 1737],
+       ...,
+       [ 161, 1767]], shape=(4, 2), dtype=int16), array([[ 161, 1790],
+       ...,
+       [ 161, 1822]], shape=(4, 2), dtype=int16), array([[ 674, 1844],
+       ...,
+       [ 674, 1874]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 195, ...,  152],
+       ...,
+       [ 674, ..., 1874]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. ②园区雨水
+2. 地块西侧友谊大道规划建设 D1200-D2000 雨水管道，地块东侧锦绣大道规
+3. 划建设 D1650-D2000 雨水管道，均是由北向南排入金鼓江东支流：北侧马莱大
+4. 道规划建设D1650-D1800 雨水管道，南侧云顶大街规划建设D1650-D2600雨水
+5. 管道，均是由东向西排入金鼓江中支流。
+6. 本項目
+7. 重别
+8. 现状水管通
+9. 海水方向
+10. 规圳水量道
+11. 内
+12. 01200
+13. 雨水管行
+14. 海域
+15. .P
+16. 捧洪沟尺寸
+17. 规泡脚
+18. 图1.9-2项目周边雨水管网图
+19. （2）厂内排水及污水处理
+20. 本项目日排水量为24310m3/d，生产废水根据水质情况分别收集，排入厂区
+21. 污水处理厂分别经物化法、生化法处理：生活污水经化粪池、隔油池处理后，所
+22. 有废水统一排入园区污水管网，最终排入钦州市大榄坪污水处理厂。本项目设1
+23. 个污水排放口。污水排放口位于西侧厂界，废水处理站的西侧，污水排放口位置
+24. 具体见总平面布置图1.6-1，区污水管网示意图见图1.9-3。
+25. 1
+26. （3）园区排水系统及污水处理
+27. ①钦州市大榄坪污水处理厂概况
+28. 大榄坪污水处理厂位于港区大榄坪1业园区第八大道和五号路交汇处，设计
+29. 日污水处理能力为25万立方米/日。项目一次规划分期实施，首期工程规模5万
+30. 立方米/日，2009年6月开工建设，2010年10月建成投产。处理工艺采用
+31. 22

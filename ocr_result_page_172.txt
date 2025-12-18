@@ -1,0 +1,160 @@
+OCR结果 - 第 172 页
+==================================================
+处理的图像: temp_page_171_processed.png
+原始PDF页面: 172
+
+详细结果:
+[{'input_path': 'temp_page_171_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[487, 138],
+       ...,
+       [485, 182]], shape=(4, 2), dtype=int16), array([[1040,  145],
+       ...,
+       [1039,  188]], shape=(4, 2), dtype=int16), array([[509, 249],
+       ...,
+       [508, 296]], shape=(4, 2), dtype=int16), array([[1036,  294],
+       ...,
+       [1035,  334]], shape=(4, 2), dtype=int16), array([[394, 363],
+       ...,
+       [393, 401]], shape=(4, 2), dtype=int16), array([[414, 475],
+       ...,
+       [413, 511]], shape=(4, 2), dtype=int16), array([[1132,  508],
+       ...,
+       [1132,  519]], shape=(4, 2), dtype=int16), array([[413, 590],
+       ...,
+       [412, 628]], shape=(4, 2), dtype=int16), array([[1050,  595],
+       ...,
+       [1050,  638]], shape=(4, 2), dtype=int16), array([[471, 707],
+       ...,
+       [469, 747]], shape=(4, 2), dtype=int16), array([[1021,  719],
+       ...,
+       [1020,  760]], shape=(4, 2), dtype=int16), array([[486, 818],
+       ...,
+       [484, 861]], shape=(4, 2), dtype=int16), array([[404, 928],
+       ...,
+       [403, 970]], shape=(4, 2), dtype=int16), array([[1008, 1008],
+       ...,
+       [1008, 1048]], shape=(4, 2), dtype=int16), array([[ 453, 1057],
+       ...,
+       [ 452, 1098]], shape=(4, 2), dtype=int16), array([[1000, 1151],
+       ...,
+       [1000, 1191]], shape=(4, 2), dtype=int16), array([[ 398, 1168],
+       ...,
+       [ 398, 1207]], shape=(4, 2), dtype=int16), array([[ 442, 1290],
+       ...,
+       [ 442, 1331]], shape=(4, 2), dtype=int16), array([[1021, 1294],
+       ...,
+       [1020, 1332]], shape=(4, 2), dtype=int16), array([[ 491, 1347],
+       ...,
+       [ 491, 1393]], shape=(4, 2), dtype=int16), array([[ 410, 1406],
+       ...,
+       [ 410, 1446]], shape=(4, 2), dtype=int16), array([[1013, 1432],
+       ...,
+       [1013, 1476]], shape=(4, 2), dtype=int16), array([[ 537, 1715],
+       ...,
+       [ 536, 1749]], shape=(4, 2), dtype=int16), array([[ 685, 1717],
+       ...,
+       [ 685, 1747]], shape=(4, 2), dtype=int16), array([[ 706, 1916],
+       ...,
+       [ 706, 1946]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['玻璃基板', '光阻涂布', '清洗', '紫外曝光', '制作黑色矩阵(BM)', 'R/G/B三基色制作', 'T5.', '第一次检查/修补', '干燥', 'OC制作', '光阻涂布', '清洗', 'ITO电极溅射镀膜', '光阻涂布', 'PS制作', '紫外曝光', '第二次检查/修补', '最终检查', '显影', '↑', '彩膜玻璃成品', '干燥', '图2.1-6', '彩色工艺技术简图', '32'], 'rec_scores': [0.9998267889022827, 0.9976998567581177, 0.9989160299301147, 0.9938583970069885, 0.857448399066925, 0.9788211584091187, 0.49551334977149963, 0.9935382008552551, 0.9998470544815063, 0.9848140478134155, 0.997981071472168, 0.9994486570358276, 0.9923324584960938, 0.9973642826080322, 0.9946895241737366, 0.9365911483764648, 0.9963438510894775, 0.9921330213546753, 0.9994052648544312, 0.9526478052139282, 0.9992079734802246, 0.9997189044952393, 0.9969751238822937, 0.9972230792045593, 0.9970724582672119], 'rec_polys': [array([[487, 138],
+       ...,
+       [485, 182]], shape=(4, 2), dtype=int16), array([[1040,  145],
+       ...,
+       [1039,  188]], shape=(4, 2), dtype=int16), array([[509, 249],
+       ...,
+       [508, 296]], shape=(4, 2), dtype=int16), array([[1036,  294],
+       ...,
+       [1035,  334]], shape=(4, 2), dtype=int16), array([[394, 363],
+       ...,
+       [393, 401]], shape=(4, 2), dtype=int16), array([[414, 475],
+       ...,
+       [413, 511]], shape=(4, 2), dtype=int16), array([[1132,  508],
+       ...,
+       [1132,  519]], shape=(4, 2), dtype=int16), array([[413, 590],
+       ...,
+       [412, 628]], shape=(4, 2), dtype=int16), array([[1050,  595],
+       ...,
+       [1050,  638]], shape=(4, 2), dtype=int16), array([[471, 707],
+       ...,
+       [469, 747]], shape=(4, 2), dtype=int16), array([[1021,  719],
+       ...,
+       [1020,  760]], shape=(4, 2), dtype=int16), array([[486, 818],
+       ...,
+       [484, 861]], shape=(4, 2), dtype=int16), array([[404, 928],
+       ...,
+       [403, 970]], shape=(4, 2), dtype=int16), array([[1008, 1008],
+       ...,
+       [1008, 1048]], shape=(4, 2), dtype=int16), array([[ 453, 1057],
+       ...,
+       [ 452, 1098]], shape=(4, 2), dtype=int16), array([[1000, 1151],
+       ...,
+       [1000, 1191]], shape=(4, 2), dtype=int16), array([[ 398, 1168],
+       ...,
+       [ 398, 1207]], shape=(4, 2), dtype=int16), array([[ 442, 1290],
+       ...,
+       [ 442, 1331]], shape=(4, 2), dtype=int16), array([[1021, 1294],
+       ...,
+       [1020, 1332]], shape=(4, 2), dtype=int16), array([[ 491, 1347],
+       ...,
+       [ 491, 1393]], shape=(4, 2), dtype=int16), array([[ 410, 1406],
+       ...,
+       [ 410, 1446]], shape=(4, 2), dtype=int16), array([[1013, 1432],
+       ...,
+       [1013, 1476]], shape=(4, 2), dtype=int16), array([[ 537, 1715],
+       ...,
+       [ 536, 1749]], shape=(4, 2), dtype=int16), array([[ 685, 1717],
+       ...,
+       [ 685, 1747]], shape=(4, 2), dtype=int16), array([[ 706, 1916],
+       ...,
+       [ 706, 1946]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 485, ...,  186],
+       ...,
+       [ 706, ..., 1946]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 玻璃基板
+2. 光阻涂布
+3. 清洗
+4. 紫外曝光
+5. 制作黑色矩阵(BM)
+6. R/G/B三基色制作
+7. T5.
+8. 第一次检查/修补
+9. 干燥
+10. OC制作
+11. 光阻涂布
+12. 清洗
+13. ITO电极溅射镀膜
+14. 光阻涂布
+15. PS制作
+16. 紫外曝光
+17. 第二次检查/修补
+18. 最终检查
+19. 显影
+20. ↑
+21. 彩膜玻璃成品
+22. 干燥
+23. 图2.1-6
+24. 彩色工艺技术简图
+25. 32

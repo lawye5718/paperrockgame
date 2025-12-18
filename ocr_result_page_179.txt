@@ -1,0 +1,185 @@
+OCR结果 - 第 179 页
+==================================================
+处理的图像: temp_page_178_processed.png
+原始PDF页面: 179
+
+详细结果:
+[{'input_path': 'temp_page_178_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[107, 146],
+       ...,
+       [107, 187]], shape=(4, 2), dtype=int16), array([[110, 207],
+       ...,
+       [110, 249]], shape=(4, 2), dtype=int16), array([[107, 266],
+       ...,
+       [106, 310]], shape=(4, 2), dtype=int16), array([[110, 325],
+       ...,
+       [108, 361]], shape=(4, 2), dtype=int16), array([[177, 389],
+       ...,
+       [176, 423]], shape=(4, 2), dtype=int16), array([[178, 443],
+       ...,
+       [177, 477]], shape=(4, 2), dtype=int16), array([[178, 500],
+       ...,
+       [177, 533]], shape=(4, 2), dtype=int16), array([[178, 554],
+       ...,
+       [177, 588]], shape=(4, 2), dtype=int16), array([[178, 610],
+       ...,
+       [177, 645]], shape=(4, 2), dtype=int16), array([[189, 672],
+       ...,
+       [189, 703]], shape=(4, 2), dtype=int16), array([[173, 726],
+       ...,
+       [172, 763]], shape=(4, 2), dtype=int16), array([[172, 787],
+       ...,
+       [172, 821]], shape=(4, 2), dtype=int16), array([[105, 841],
+       ...,
+       [105, 876]], shape=(4, 2), dtype=int16), array([[166, 901],
+       ...,
+       [166, 935]], shape=(4, 2), dtype=int16), array([[104, 959],
+       ...,
+       [104, 989]], shape=(4, 2), dtype=int16), array([[ 166, 1018],
+       ...,
+       [ 166, 1048]], shape=(4, 2), dtype=int16), array([[ 162, 1074],
+       ...,
+       [ 162, 1108]], shape=(4, 2), dtype=int16), array([[ 161, 1132],
+       ...,
+       [ 161, 1166]], shape=(4, 2), dtype=int16), array([[ 159, 1189],
+       ...,
+       [ 159, 1224]], shape=(4, 2), dtype=int16), array([[ 286, 1250],
+       ...,
+       [ 286, 1282]], shape=(4, 2), dtype=int16), array([[ 287, 1311],
+       ...,
+       [ 287, 1342]], shape=(4, 2), dtype=int16), array([[ 158, 1365],
+       ...,
+       [ 158, 1404]], shape=(4, 2), dtype=int16), array([[ 284, 1427],
+       ...,
+       [ 284, 1465]], shape=(4, 2), dtype=int16), array([[ 286, 1487],
+       ...,
+       [ 286, 1522]], shape=(4, 2), dtype=int16), array([[ 161, 1540],
+       ...,
+       [ 161, 1578]], shape=(4, 2), dtype=int16), array([[  96, 1595],
+       ...,
+       [  96, 1635]], shape=(4, 2), dtype=int16), array([[  98, 1653],
+       ...,
+       [  98, 1693]], shape=(4, 2), dtype=int16), array([[  95, 1710],
+       ...,
+       [  96, 1754]], shape=(4, 2), dtype=int16), array([[ 158, 1768],
+       ...,
+       [ 158, 1812]], shape=(4, 2), dtype=int16), array([[ 680, 1863],
+       ...,
+       [ 680, 1894]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['通过管道系统回收到废液间，光刻胶废液最终委托给具有处理资质的危险废物处置单位', '回收处置，减轻了有机废水处理负荷。高浓度的显影液则通过工艺设备自带的回收系统', '将其重复回用，大大减少了物料消耗，在生产过程中从源头有效地减少了废水、污染物', '的排放量。', '光刻工序污染源：', '废气：碱性废气G2，经过碱性废气处理设施集中处理后排放。', '有机废气G3，经过有机废气处理设施集中处理后排放。', '废水：有机废水W5，进入有机废水处理系统集中处理后排放。', '固体废物：有机废液S2，作为危废废物收集、处置。', '(5)刻蚀工序', '刻蚀工序分为湿法刻蚀（WE）和干法刻蚀（DE）。', '光刻过的玻璃面板进入刻蚀工序。刻蚀的目的是将光刻后暴露出的薄膜去除，使面', '板基底显露出来。刻蚀的方法分为湿法刻蚀和干法刻蚀。', '①湿法刻蚀（WE）是使用酸作刻蚀剂通过化学反应的方法对基材腐蚀的过程，对', '不同的去除物质使用不同的酸作为刻蚀液。', '本项目使用酸性刻蚀液有：', 'AI 刻蚀液—主要成分是硝酸HNO_{₃3、磷酸H_₃}PO_{₄、乙酸CH_₃COOH', 'ITO刻蚀液—硫酸H₂SO_{₄、乙酸CH_₃COOH的混合酸', '铝刻蚀：', '4AI+2HNO₃→2Al₂O₃+N₂+H2', 'A₂O₃+2H₃PO₄→2Al(PO4)+3H₂O', '铟、锡刻蚀：', 'In2O₃+3H₂SO₄→In₂(SO4)₃+3H₂O', 'SnO2+H₂SO₄→SnSO4+H₂O', '刻蚀过程中，使用过的高浓度刻蚀液通过刻蚀机自带的回收系统重复回用，当其浓', '度难以满足工艺要求时，再通过刻蚀废液回收系统将其通过管道系统回收到废液间。AI', '刻蚀废液因含一定的磷酸，从而进入含磷废水处理系统。不能利用的ITO或铝刻蚀废液', '最终委托给具有处理资质的危废处置单位回收处置。', '②干法刻蚀(DE)是在等离子气态(气体放电、射线辐照、光电离、激光等离子体、', '40'], 'rec_scores': [0.998508870601654, 0.9831516146659851, 0.9949352145195007, 0.9982932806015015, 0.951223611831665, 0.9961096048355103, 0.998171329498291, 0.9956397414207458, 0.9939360618591309, 0.9220505356788635, 0.9479765295982361, 0.9965712428092957, 0.9973510503768921, 0.994918704032898, 0.9991011619567871, 0.9955146908760071, 0.8357174396514893, 0.918449342250824, 0.9442594051361084, 0.913124680519104, 0.8709588050842285, 0.9255394339561462, 0.8504424095153809, 0.9046028256416321, 0.9986675977706909, 0.9896519780158997, 0.9978350400924683, 0.9988236427307129, 0.9729233980178833, 0.9997245669364929], 'rec_polys': [array([[107, 146],
+       ...,
+       [107, 187]], shape=(4, 2), dtype=int16), array([[110, 207],
+       ...,
+       [110, 249]], shape=(4, 2), dtype=int16), array([[107, 266],
+       ...,
+       [106, 310]], shape=(4, 2), dtype=int16), array([[110, 325],
+       ...,
+       [108, 361]], shape=(4, 2), dtype=int16), array([[177, 389],
+       ...,
+       [176, 423]], shape=(4, 2), dtype=int16), array([[178, 443],
+       ...,
+       [177, 477]], shape=(4, 2), dtype=int16), array([[178, 500],
+       ...,
+       [177, 533]], shape=(4, 2), dtype=int16), array([[178, 554],
+       ...,
+       [177, 588]], shape=(4, 2), dtype=int16), array([[178, 610],
+       ...,
+       [177, 645]], shape=(4, 2), dtype=int16), array([[189, 672],
+       ...,
+       [189, 703]], shape=(4, 2), dtype=int16), array([[173, 726],
+       ...,
+       [172, 763]], shape=(4, 2), dtype=int16), array([[172, 787],
+       ...,
+       [172, 821]], shape=(4, 2), dtype=int16), array([[105, 841],
+       ...,
+       [105, 876]], shape=(4, 2), dtype=int16), array([[166, 901],
+       ...,
+       [166, 935]], shape=(4, 2), dtype=int16), array([[104, 959],
+       ...,
+       [104, 989]], shape=(4, 2), dtype=int16), array([[ 166, 1018],
+       ...,
+       [ 166, 1048]], shape=(4, 2), dtype=int16), array([[ 162, 1074],
+       ...,
+       [ 162, 1108]], shape=(4, 2), dtype=int16), array([[ 161, 1132],
+       ...,
+       [ 161, 1166]], shape=(4, 2), dtype=int16), array([[ 159, 1189],
+       ...,
+       [ 159, 1224]], shape=(4, 2), dtype=int16), array([[ 286, 1250],
+       ...,
+       [ 286, 1282]], shape=(4, 2), dtype=int16), array([[ 287, 1311],
+       ...,
+       [ 287, 1342]], shape=(4, 2), dtype=int16), array([[ 158, 1365],
+       ...,
+       [ 158, 1404]], shape=(4, 2), dtype=int16), array([[ 284, 1427],
+       ...,
+       [ 284, 1465]], shape=(4, 2), dtype=int16), array([[ 286, 1487],
+       ...,
+       [ 286, 1522]], shape=(4, 2), dtype=int16), array([[ 161, 1540],
+       ...,
+       [ 161, 1578]], shape=(4, 2), dtype=int16), array([[  96, 1595],
+       ...,
+       [  96, 1635]], shape=(4, 2), dtype=int16), array([[  98, 1653],
+       ...,
+       [  98, 1693]], shape=(4, 2), dtype=int16), array([[  95, 1710],
+       ...,
+       [  96, 1754]], shape=(4, 2), dtype=int16), array([[ 158, 1768],
+       ...,
+       [ 158, 1812]], shape=(4, 2), dtype=int16), array([[ 680, 1863],
+       ...,
+       [ 680, 1894]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 107, ...,  209],
+       ...,
+       [ 680, ..., 1894]], shape=(30, 4), dtype=int16)}]
+
+解析后的文本:
+1. 通过管道系统回收到废液间，光刻胶废液最终委托给具有处理资质的危险废物处置单位
+2. 回收处置，减轻了有机废水处理负荷。高浓度的显影液则通过工艺设备自带的回收系统
+3. 将其重复回用，大大减少了物料消耗，在生产过程中从源头有效地减少了废水、污染物
+4. 的排放量。
+5. 光刻工序污染源：
+6. 废气：碱性废气G2，经过碱性废气处理设施集中处理后排放。
+7. 有机废气G3，经过有机废气处理设施集中处理后排放。
+8. 废水：有机废水W5，进入有机废水处理系统集中处理后排放。
+9. 固体废物：有机废液S2，作为危废废物收集、处置。
+10. (5)刻蚀工序
+11. 刻蚀工序分为湿法刻蚀（WE）和干法刻蚀（DE）。
+12. 光刻过的玻璃面板进入刻蚀工序。刻蚀的目的是将光刻后暴露出的薄膜去除，使面
+13. 板基底显露出来。刻蚀的方法分为湿法刻蚀和干法刻蚀。
+14. ①湿法刻蚀（WE）是使用酸作刻蚀剂通过化学反应的方法对基材腐蚀的过程，对
+15. 不同的去除物质使用不同的酸作为刻蚀液。
+16. 本项目使用酸性刻蚀液有：
+17. AI 刻蚀液—主要成分是硝酸HNO_{₃3、磷酸H_₃}PO_{₄、乙酸CH_₃COOH
+18. ITO刻蚀液—硫酸H₂SO_{₄、乙酸CH_₃COOH的混合酸
+19. 铝刻蚀：
+20. 4AI+2HNO₃→2Al₂O₃+N₂+H2
+21. A₂O₃+2H₃PO₄→2Al(PO4)+3H₂O
+22. 铟、锡刻蚀：
+23. In2O₃+3H₂SO₄→In₂(SO4)₃+3H₂O
+24. SnO2+H₂SO₄→SnSO4+H₂O
+25. 刻蚀过程中，使用过的高浓度刻蚀液通过刻蚀机自带的回收系统重复回用，当其浓
+26. 度难以满足工艺要求时，再通过刻蚀废液回收系统将其通过管道系统回收到废液间。AI
+27. 刻蚀废液因含一定的磷酸，从而进入含磷废水处理系统。不能利用的ITO或铝刻蚀废液
+28. 最终委托给具有处理资质的危废处置单位回收处置。
+29. ②干法刻蚀(DE)是在等离子气态(气体放电、射线辐照、光电离、激光等离子体、
+30. 40

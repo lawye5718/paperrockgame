@@ -1,0 +1,165 @@
+OCR结果 - 第 77 页
+==================================================
+处理的图像: temp_page_76_processed.png
+原始PDF页面: 77
+
+详细结果:
+[{'input_path': 'temp_page_76_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1426, 3), dtype=uint8)}, 'dt_polys': [array([[1280,   15],
+       ...,
+       [1289,  162]], shape=(4, 2), dtype=int16), array([[213, 201],
+       ...,
+       [213, 247]], shape=(4, 2), dtype=int16), array([[128, 269],
+       ...,
+       [128, 316]], shape=(4, 2), dtype=int16), array([[127, 341],
+       ...,
+       [127, 388]], shape=(4, 2), dtype=int16), array([[125, 410],
+       ...,
+       [125, 458]], shape=(4, 2), dtype=int16), array([[125, 481],
+       ...,
+       [125, 528]], shape=(4, 2), dtype=int16), array([[126, 553],
+       ...,
+       [126, 598]], shape=(4, 2), dtype=int16), array([[125, 625],
+       ...,
+       [125, 669]], shape=(4, 2), dtype=int16), array([[121, 692],
+       ...,
+       [119, 744]], shape=(4, 2), dtype=int16), array([[210, 774],
+       ...,
+       [210, 820]], shape=(4, 2), dtype=int16), array([[123, 846],
+       ...,
+       [123, 890]], shape=(4, 2), dtype=int16), array([[126, 921],
+       ...,
+       [126, 963]], shape=(4, 2), dtype=int16), array([[ 208,  994],
+       ...,
+       [ 208, 1038]], shape=(4, 2), dtype=int16), array([[ 126, 1067],
+       ...,
+       [ 126, 1107]], shape=(4, 2), dtype=int16), array([[ 127, 1138],
+       ...,
+       [ 127, 1179]], shape=(4, 2), dtype=int16), array([[ 127, 1207],
+       ...,
+       [ 127, 1251]], shape=(4, 2), dtype=int16), array([[ 126, 1279],
+       ...,
+       [ 126, 1324]], shape=(4, 2), dtype=int16), array([[ 124, 1351],
+       ...,
+       [ 124, 1395]], shape=(4, 2), dtype=int16), array([[ 126, 1425],
+       ...,
+       [ 126, 1469]], shape=(4, 2), dtype=int16), array([[ 124, 1494],
+       ...,
+       [ 124, 1543]], shape=(4, 2), dtype=int16), array([[ 124, 1566],
+       ...,
+       [ 124, 1616]], shape=(4, 2), dtype=int16), array([[ 118, 1638],
+       ...,
+       [ 119, 1693]], shape=(4, 2), dtype=int16), array([[ 120, 1719],
+       ...,
+       [ 122, 1764]], shape=(4, 2), dtype=int16), array([[ 202, 1791],
+       ...,
+       [ 204, 1842]], shape=(4, 2), dtype=int16), array([[1005, 1866],
+       ...,
+       [1006, 1908]], shape=(4, 2), dtype=int16), array([[ 110, 1887],
+       ...,
+       [ 112, 1942]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['74', '答：我要向监察机关反映：2018年下半年我先后主持和参', '加了两个会议，第一个会议是：我根据王雄昌的安排，主持召', '开了钦保投集团合丰泰项目专题会议，会议内容是根据王雄昌', '的要求审议通过委托贷款的方式借给东莞合丰泰公司8000万元', '事项；第二个会议是：2018年下半年，我参加了王雄昌主持召', '开的钦州保税港区管委会主任办公会议，会议的主要内容是研', '究增加钦保投集团注册资本金问题及向钦保投集团注入资本金', '的问题。', '问：现向你出示自治区监委调查人员依法调取的广西钦保', '投资集团有限责任公司合丰泰项目专题会议纪要复印件，共1', '页，请你仔细查看并作出说明?', '答：（何斌接过出示材料....1分钟后）经我仔细查看，这是', '我上面所讲的第一个会议的会议纪要。这是我按照王雄昌的要', '求召开的讨论东莞市合丰泰光电科技有限公司资金支持模式的', '会议，会议时间是2018年11月14日。我按照王雄昌的要求让', '钦保投集团的财务部拟了一份请示，请示的主要内容就是把', '8000万元以委托贷款的方式借给东莞合丰泰公司，会议审议这', '份请示事项，会议研究决定原则同意签订委托贷款合同。我记', '得在上会前，黄宝宇提了反对意见，我就对黄宝宇说把8000万', '元贷款给东莞合丰泰公司是王雄昌定的，我们只是走个形式，', '8000万元是管委会的钱，也不是我们集团的钱，按照王雄昌的', '指示办好这件事就行。', '问：黄宝字是什么人?', '第 3页共 6页', '被询问人：'], 'rec_scores': [0.9963746070861816, 0.994124174118042, 0.9943985939025879, 0.9983733892440796, 0.9982427954673767, 0.9952722787857056, 0.9984202980995178, 0.9988953471183777, 0.9972299337387085, 0.9949327111244202, 0.9984241724014282, 0.9655216932296753, 0.8889814019203186, 0.9980591535568237, 0.9981933832168579, 0.9956763386726379, 0.9960235953330994, 0.9984151721000671, 0.9986529350280762, 0.9913522601127625, 0.9959288239479065, 0.9985016584396362, 0.9967057108879089, 0.9138344526290894, 0.8844659328460693, 0.9254983067512512], 'rec_polys': [array([[1280,   15],
+       ...,
+       [1289,  162]], shape=(4, 2), dtype=int16), array([[213, 201],
+       ...,
+       [213, 247]], shape=(4, 2), dtype=int16), array([[128, 269],
+       ...,
+       [128, 316]], shape=(4, 2), dtype=int16), array([[127, 341],
+       ...,
+       [127, 388]], shape=(4, 2), dtype=int16), array([[125, 410],
+       ...,
+       [125, 458]], shape=(4, 2), dtype=int16), array([[125, 481],
+       ...,
+       [125, 528]], shape=(4, 2), dtype=int16), array([[126, 553],
+       ...,
+       [126, 598]], shape=(4, 2), dtype=int16), array([[125, 625],
+       ...,
+       [125, 669]], shape=(4, 2), dtype=int16), array([[121, 692],
+       ...,
+       [119, 744]], shape=(4, 2), dtype=int16), array([[210, 774],
+       ...,
+       [210, 820]], shape=(4, 2), dtype=int16), array([[123, 846],
+       ...,
+       [123, 890]], shape=(4, 2), dtype=int16), array([[126, 921],
+       ...,
+       [126, 963]], shape=(4, 2), dtype=int16), array([[ 208,  994],
+       ...,
+       [ 208, 1038]], shape=(4, 2), dtype=int16), array([[ 126, 1067],
+       ...,
+       [ 126, 1107]], shape=(4, 2), dtype=int16), array([[ 127, 1138],
+       ...,
+       [ 127, 1179]], shape=(4, 2), dtype=int16), array([[ 127, 1207],
+       ...,
+       [ 127, 1251]], shape=(4, 2), dtype=int16), array([[ 126, 1279],
+       ...,
+       [ 126, 1324]], shape=(4, 2), dtype=int16), array([[ 124, 1351],
+       ...,
+       [ 124, 1395]], shape=(4, 2), dtype=int16), array([[ 126, 1425],
+       ...,
+       [ 126, 1469]], shape=(4, 2), dtype=int16), array([[ 124, 1494],
+       ...,
+       [ 124, 1543]], shape=(4, 2), dtype=int16), array([[ 124, 1566],
+       ...,
+       [ 124, 1616]], shape=(4, 2), dtype=int16), array([[ 118, 1638],
+       ...,
+       [ 119, 1693]], shape=(4, 2), dtype=int16), array([[ 120, 1719],
+       ...,
+       [ 122, 1764]], shape=(4, 2), dtype=int16), array([[ 202, 1791],
+       ...,
+       [ 204, 1842]], shape=(4, 2), dtype=int16), array([[1005, 1866],
+       ...,
+       [1006, 1908]], shape=(4, 2), dtype=int16), array([[ 110, 1887],
+       ...,
+       [ 112, 1942]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1280, ...,  162],
+       ...,
+       [ 110, ..., 1942]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 74
+2. 答：我要向监察机关反映：2018年下半年我先后主持和参
+3. 加了两个会议，第一个会议是：我根据王雄昌的安排，主持召
+4. 开了钦保投集团合丰泰项目专题会议，会议内容是根据王雄昌
+5. 的要求审议通过委托贷款的方式借给东莞合丰泰公司8000万元
+6. 事项；第二个会议是：2018年下半年，我参加了王雄昌主持召
+7. 开的钦州保税港区管委会主任办公会议，会议的主要内容是研
+8. 究增加钦保投集团注册资本金问题及向钦保投集团注入资本金
+9. 的问题。
+10. 问：现向你出示自治区监委调查人员依法调取的广西钦保
+11. 投资集团有限责任公司合丰泰项目专题会议纪要复印件，共1
+12. 页，请你仔细查看并作出说明?
+13. 答：（何斌接过出示材料....1分钟后）经我仔细查看，这是
+14. 我上面所讲的第一个会议的会议纪要。这是我按照王雄昌的要
+15. 求召开的讨论东莞市合丰泰光电科技有限公司资金支持模式的
+16. 会议，会议时间是2018年11月14日。我按照王雄昌的要求让
+17. 钦保投集团的财务部拟了一份请示，请示的主要内容就是把
+18. 8000万元以委托贷款的方式借给东莞合丰泰公司，会议审议这
+19. 份请示事项，会议研究决定原则同意签订委托贷款合同。我记
+20. 得在上会前，黄宝宇提了反对意见，我就对黄宝宇说把8000万
+21. 元贷款给东莞合丰泰公司是王雄昌定的，我们只是走个形式，
+22. 8000万元是管委会的钱，也不是我们集团的钱，按照王雄昌的
+23. 指示办好这件事就行。
+24. 问：黄宝字是什么人?
+25. 第 3页共 6页
+26. 被询问人：

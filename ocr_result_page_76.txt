@@ -1,0 +1,160 @@
+OCR结果 - 第 76 页
+==================================================
+处理的图像: temp_page_75_processed.png
+原始PDF页面: 76
+
+详细结果:
+[{'input_path': 'temp_page_75_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1419, 3), dtype=uint8)}, 'dt_polys': [array([[1300,   15],
+       ...,
+       [1300,  131]], shape=(4, 2), dtype=int16), array([[216, 210],
+       ...,
+       [215, 262]], shape=(4, 2), dtype=int16), array([[130, 278],
+       ...,
+       [128, 330]], shape=(4, 2), dtype=int16), array([[217, 357],
+       ...,
+       [216, 409]], shape=(4, 2), dtype=int16), array([[121, 423],
+       ...,
+       [121, 481]], shape=(4, 2), dtype=int16), array([[215, 502],
+       ...,
+       [213, 550]], shape=(4, 2), dtype=int16), array([[215, 573],
+       ...,
+       [214, 624]], shape=(4, 2), dtype=int16), array([[212, 647],
+       ...,
+       [211, 697]], shape=(4, 2), dtype=int16), array([[128, 717],
+       ...,
+       [127, 768]], shape=(4, 2), dtype=int16), array([[131, 792],
+       ...,
+       [130, 839]], shape=(4, 2), dtype=int16), array([[130, 867],
+       ...,
+       [130, 912]], shape=(4, 2), dtype=int16), array([[127, 941],
+       ...,
+       [127, 985]], shape=(4, 2), dtype=int16), array([[ 131, 1014],
+       ...,
+       [ 131, 1057]], shape=(4, 2), dtype=int16), array([[ 132, 1085],
+       ...,
+       [ 132, 1128]], shape=(4, 2), dtype=int16), array([[ 131, 1155],
+       ...,
+       [ 131, 1198]], shape=(4, 2), dtype=int16), array([[ 215, 1225],
+       ...,
+       [ 215, 1273]], shape=(4, 2), dtype=int16), array([[ 132, 1299],
+       ...,
+       [ 132, 1340]], shape=(4, 2), dtype=int16), array([[ 215, 1368],
+       ...,
+       [ 215, 1413]], shape=(4, 2), dtype=int16), array([[ 135, 1439],
+       ...,
+       [ 135, 1482]], shape=(4, 2), dtype=int16), array([[ 134, 1507],
+       ...,
+       [ 134, 1552]], shape=(4, 2), dtype=int16), array([[ 132, 1578],
+       ...,
+       [ 132, 1622]], shape=(4, 2), dtype=int16), array([[ 130, 1648],
+       ...,
+       [ 130, 1696]], shape=(4, 2), dtype=int16), array([[ 125, 1719],
+       ...,
+       [ 125, 1773]], shape=(4, 2), dtype=int16), array([[ 211, 1793],
+       ...,
+       [ 212, 1843]], shape=(4, 2), dtype=int16), array([[1004, 1878],
+       ...,
+       [1004, 1916]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['73', '答：我目前的身体和精神状态良好，可以准确表达自己的', '意思，可以接受询问。', '问：根据相关规定，你有申请回避的权利，你是否申请回', '避？', '答：我不需要申请回避。', '问：说一下你的个人基本情况?', '答：我叫何斌，男，1978年7月生，汉族，广西浦北人，', '身份证号：510704197807090015，在职研究生学历。1998年10', '月参加工作，1998年3月加入中国共产党，系广西中马钦州产', '业园区投资控股集团有限公司原副总经理。我因严重违纪违法，', '2025年3月，被开除党籍、开除公职；我不是党代表、人大代', '表，我原来担任的钦州市第六届政协委员也被撤销了。我的', '家庭住址是南宁市青秀区民乐路3号。2025年3月，我因涉嫌', '受贿罪被移送检察机关，现羁押于北海市第二看守所。', '问：此前你向监察机关反映的关于广西泰嘉超薄玻璃基板', '深加工项目（以下简称广西泰嘉项目）的情况，是否属实？', '答：属实。王雄昌让我安排广西钦保投资集团有限责任公', '司（以下简称钦保投集团）通过委托贷款的方式借给东莞市合', '丰泰光电科技有限公司（以下简称东莞合丰泰公司）8000万元', '人民币（以下未标明币种的均为人民币）这个问题，之前我已', '经如实向监察机关反映了，今天我还要向监察机关反映一些问', '题。', '问：你今天有什么问题要向监察机关反映?', '第2页共6页'], 'rec_scores': [0.9418299794197083, 0.9946691989898682, 0.9963334202766418, 0.9971238970756531, 0.8762158751487732, 0.9949871301651001, 0.9749339818954468, 0.9883663058280945, 0.9921435117721558, 0.9880637526512146, 0.9979341626167297, 0.9955685138702393, 0.9968553185462952, 0.9946585297584534, 0.998056948184967, 0.9975423216819763, 0.9777440428733826, 0.9968487620353699, 0.9956106543540955, 0.9931829571723938, 0.9951512217521667, 0.9978557229042053, 0.9947132468223572, 0.974574625492096, 0.9997530579566956], 'rec_polys': [array([[1300,   15],
+       ...,
+       [1300,  131]], shape=(4, 2), dtype=int16), array([[216, 210],
+       ...,
+       [215, 262]], shape=(4, 2), dtype=int16), array([[130, 278],
+       ...,
+       [128, 330]], shape=(4, 2), dtype=int16), array([[217, 357],
+       ...,
+       [216, 409]], shape=(4, 2), dtype=int16), array([[121, 423],
+       ...,
+       [121, 481]], shape=(4, 2), dtype=int16), array([[215, 502],
+       ...,
+       [213, 550]], shape=(4, 2), dtype=int16), array([[215, 573],
+       ...,
+       [214, 624]], shape=(4, 2), dtype=int16), array([[212, 647],
+       ...,
+       [211, 697]], shape=(4, 2), dtype=int16), array([[128, 717],
+       ...,
+       [127, 768]], shape=(4, 2), dtype=int16), array([[131, 792],
+       ...,
+       [130, 839]], shape=(4, 2), dtype=int16), array([[130, 867],
+       ...,
+       [130, 912]], shape=(4, 2), dtype=int16), array([[127, 941],
+       ...,
+       [127, 985]], shape=(4, 2), dtype=int16), array([[ 131, 1014],
+       ...,
+       [ 131, 1057]], shape=(4, 2), dtype=int16), array([[ 132, 1085],
+       ...,
+       [ 132, 1128]], shape=(4, 2), dtype=int16), array([[ 131, 1155],
+       ...,
+       [ 131, 1198]], shape=(4, 2), dtype=int16), array([[ 215, 1225],
+       ...,
+       [ 215, 1273]], shape=(4, 2), dtype=int16), array([[ 132, 1299],
+       ...,
+       [ 132, 1340]], shape=(4, 2), dtype=int16), array([[ 215, 1368],
+       ...,
+       [ 215, 1413]], shape=(4, 2), dtype=int16), array([[ 135, 1439],
+       ...,
+       [ 135, 1482]], shape=(4, 2), dtype=int16), array([[ 134, 1507],
+       ...,
+       [ 134, 1552]], shape=(4, 2), dtype=int16), array([[ 132, 1578],
+       ...,
+       [ 132, 1622]], shape=(4, 2), dtype=int16), array([[ 130, 1648],
+       ...,
+       [ 130, 1696]], shape=(4, 2), dtype=int16), array([[ 125, 1719],
+       ...,
+       [ 125, 1773]], shape=(4, 2), dtype=int16), array([[ 211, 1793],
+       ...,
+       [ 212, 1843]], shape=(4, 2), dtype=int16), array([[1004, 1878],
+       ...,
+       [1004, 1916]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1300, ...,  131],
+       ...,
+       [1004, ..., 1916]], shape=(25, 4), dtype=int16)}]
+
+解析后的文本:
+1. 73
+2. 答：我目前的身体和精神状态良好，可以准确表达自己的
+3. 意思，可以接受询问。
+4. 问：根据相关规定，你有申请回避的权利，你是否申请回
+5. 避？
+6. 答：我不需要申请回避。
+7. 问：说一下你的个人基本情况?
+8. 答：我叫何斌，男，1978年7月生，汉族，广西浦北人，
+9. 身份证号：510704197807090015，在职研究生学历。1998年10
+10. 月参加工作，1998年3月加入中国共产党，系广西中马钦州产
+11. 业园区投资控股集团有限公司原副总经理。我因严重违纪违法，
+12. 2025年3月，被开除党籍、开除公职；我不是党代表、人大代
+13. 表，我原来担任的钦州市第六届政协委员也被撤销了。我的
+14. 家庭住址是南宁市青秀区民乐路3号。2025年3月，我因涉嫌
+15. 受贿罪被移送检察机关，现羁押于北海市第二看守所。
+16. 问：此前你向监察机关反映的关于广西泰嘉超薄玻璃基板
+17. 深加工项目（以下简称广西泰嘉项目）的情况，是否属实？
+18. 答：属实。王雄昌让我安排广西钦保投资集团有限责任公
+19. 司（以下简称钦保投集团）通过委托贷款的方式借给东莞市合
+20. 丰泰光电科技有限公司（以下简称东莞合丰泰公司）8000万元
+21. 人民币（以下未标明币种的均为人民币）这个问题，之前我已
+22. 经如实向监察机关反映了，今天我还要向监察机关反映一些问
+23. 题。
+24. 问：你今天有什么问题要向监察机关反映?
+25. 第2页共6页

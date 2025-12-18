@@ -1,0 +1,205 @@
+OCR结果 - 第 195 页
+==================================================
+处理的图像: temp_page_194_processed.png
+原始PDF页面: 195
+
+详细结果:
+[{'input_path': 'temp_page_194_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[104, 108],
+       ...,
+       [102, 151]], shape=(4, 2), dtype=int16), array([[174, 176],
+       ...,
+       [173, 213]], shape=(4, 2), dtype=int16), array([[112, 236],
+       ...,
+       [112, 274]], shape=(4, 2), dtype=int16), array([[191, 299],
+       ...,
+       [191, 334]], shape=(4, 2), dtype=int16), array([[176, 358],
+       ...,
+       [175, 397]], shape=(4, 2), dtype=int16), array([[180, 420],
+       ...,
+       [180, 454]], shape=(4, 2), dtype=int16), array([[180, 478],
+       ...,
+       [180, 513]], shape=(4, 2), dtype=int16), array([[118, 534],
+       ...,
+       [118, 570]], shape=(4, 2), dtype=int16), array([[119, 591],
+       ...,
+       [119, 629]], shape=(4, 2), dtype=int16), array([[121, 653],
+       ...,
+       [121, 687]], shape=(4, 2), dtype=int16), array([[183, 713],
+       ...,
+       [183, 748]], shape=(4, 2), dtype=int16), array([[987, 822],
+       ...,
+       [987, 864]], shape=(4, 2), dtype=int16), array([[1220,  832],
+       ...,
+       [1221,  862]], shape=(4, 2), dtype=int16), array([[298, 942],
+       ...,
+       [298, 970]], shape=(4, 2), dtype=int16), array([[947, 943],
+       ...,
+       [947, 971]], shape=(4, 2), dtype=int16), array([[1111,  942],
+       ...,
+       [1112,  971]], shape=(4, 2), dtype=int16), array([[ 181,  996],
+       ...,
+       [ 181, 1031]], shape=(4, 2), dtype=int16), array([[ 117, 1056],
+       ...,
+       [ 117, 1090]], shape=(4, 2), dtype=int16), array([[ 122, 1114],
+       ...,
+       [ 122, 1148]], shape=(4, 2), dtype=int16), array([[ 124, 1171],
+       ...,
+       [ 124, 1202]], shape=(4, 2), dtype=int16), array([[ 185, 1227],
+       ...,
+       [ 185, 1261]], shape=(4, 2), dtype=int16), array([[1040, 1313],
+       ...,
+       [1040, 1323]], shape=(4, 2), dtype=int16), array([[ 119, 1345],
+       ...,
+       [ 119, 1420]], shape=(4, 2), dtype=int16), array([[ 561, 1385],
+       ...,
+       [ 561, 1397]], shape=(4, 2), dtype=int16), array([[ 551, 1400],
+       ...,
+       [ 551, 1414]], shape=(4, 2), dtype=int16), array([[ 445, 1476],
+       ...,
+       [ 445, 1501]], shape=(4, 2), dtype=int16), array([[ 597, 1475],
+       ...,
+       [ 596, 1503]], shape=(4, 2), dtype=int16), array([[1001, 1476],
+       ...,
+       [1000, 1504]], shape=(4, 2), dtype=int16), array([[ 175, 1541],
+       ...,
+       [ 175, 1575]], shape=(4, 2), dtype=int16), array([[ 179, 1601],
+       ...,
+       [ 179, 1632]], shape=(4, 2), dtype=int16), array([[ 111, 1655],
+       ...,
+       [ 111, 1690]], shape=(4, 2), dtype=int16), array([[ 111, 1716],
+       ...,
+       [ 111, 1750]], shape=(4, 2), dtype=int16), array([[ 111, 1773],
+       ...,
+       [ 111, 1807]], shape=(4, 2), dtype=int16), array([[ 678, 1871],
+       ...,
+       [ 680, 1901]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['2.3.水平衡分析', '根据建设单位提供的设计方案等相关技术资料，总用水量为31978m/d，包括生产', '用水为30978m3/d，生活及绿化用水为1000m^3/d。', '（1）生产用水系统', '1）纯水系统', '本项目自建纯水制备系统，包括初纯水系统、超纯水系统。', '初纯水系统：初纯水系统主要供超纯水制备使用，系统制备能力为2200m3/h，采用', '两级反渗透工艺，出水水质要求为2MΩcm，23℃，供水压力为0.25±0.05MPa；系统日', '供水量为48919m^{3/d，RO浓水产生量约20%，12230m{3/d，进入RO浓水回收系统，经', '处理后回用至初纯水系统：再生反洗排水约5%，3180m/d，排入酸碱中和处理系统。', '初纯水制备工艺流程为：', '-', '纯水系统', '板式换热线', '保安过涂器', '两錄反滲透', '超纯水系统：超纯水系统主要用于生产厂房工艺用水、空调加湿，系统制备能力为', '2100m{3/h，采用MB+抛光混床+超滤T艺，出水水质要求为18MΩcm，23±0.5度，供水', '压力为0.25±0.05MPa：日供水量为48627m{3/d，其中生产工艺用水46427m{3/d，空调加湿', '用水2200m{3}/d：反洗排水约292m{3/d，排入酸碱中和处理系统。', '超纯水制备工艺流程为：', 'f', '', '=', '', 'UDI Tank', '板式换热器', '蜂赋超滤', '2)常温冷却水系统', '本系统为冷冻机组等动力设备用冷却水循环系统。循环水量为21200mh，508800', 'm^³/d，供回水温度为32/37.5℃。使用门来水作为补允水，补充水量按循环水量的1%计，', '约5088m{3/d，其中冷却塔的蒸发损耗量约4070m^{3/d，排污水量约1017m^{3/d，进入最终中', '和处理系统。', '56'], 'rec_scores': [0.9995113015174866, 0.9943139553070068, 0.9165489077568054, 0.9101406931877136, 0.944500744342804, 0.9980500340461731, 0.9750531911849976, 0.9796754717826843, 0.8801388740539551, 0.9772968888282776, 0.9592767357826233, 0.2996436059474945, 0.970041811466217, 0.8199244737625122, 0.6764708161354065, 0.6632687449455261, 0.9942862391471863, 0.942870020866394, 0.9180765748023987, 0.8989638090133667, 0.9880691170692444, 0.6567041873931885, 0.0, 0.17450766265392303, 0.0, 0.948290228843689, 0.9422928094863892, 0.4829995036125183, 0.973133385181427, 0.9905669093132019, 0.9116590023040771, 0.8676549792289734, 0.9990525841712952, 0.9992614984512329], 'rec_polys': [array([[104, 108],
+       ...,
+       [102, 151]], shape=(4, 2), dtype=int16), array([[174, 176],
+       ...,
+       [173, 213]], shape=(4, 2), dtype=int16), array([[112, 236],
+       ...,
+       [112, 274]], shape=(4, 2), dtype=int16), array([[191, 299],
+       ...,
+       [191, 334]], shape=(4, 2), dtype=int16), array([[176, 358],
+       ...,
+       [175, 397]], shape=(4, 2), dtype=int16), array([[180, 420],
+       ...,
+       [180, 454]], shape=(4, 2), dtype=int16), array([[180, 478],
+       ...,
+       [180, 513]], shape=(4, 2), dtype=int16), array([[118, 534],
+       ...,
+       [118, 570]], shape=(4, 2), dtype=int16), array([[119, 591],
+       ...,
+       [119, 629]], shape=(4, 2), dtype=int16), array([[121, 653],
+       ...,
+       [121, 687]], shape=(4, 2), dtype=int16), array([[183, 713],
+       ...,
+       [183, 748]], shape=(4, 2), dtype=int16), array([[987, 822],
+       ...,
+       [987, 864]], shape=(4, 2), dtype=int16), array([[1220,  832],
+       ...,
+       [1221,  862]], shape=(4, 2), dtype=int16), array([[298, 942],
+       ...,
+       [298, 970]], shape=(4, 2), dtype=int16), array([[947, 943],
+       ...,
+       [947, 971]], shape=(4, 2), dtype=int16), array([[1111,  942],
+       ...,
+       [1112,  971]], shape=(4, 2), dtype=int16), array([[ 181,  996],
+       ...,
+       [ 181, 1031]], shape=(4, 2), dtype=int16), array([[ 117, 1056],
+       ...,
+       [ 117, 1090]], shape=(4, 2), dtype=int16), array([[ 122, 1114],
+       ...,
+       [ 122, 1148]], shape=(4, 2), dtype=int16), array([[ 124, 1171],
+       ...,
+       [ 124, 1202]], shape=(4, 2), dtype=int16), array([[ 185, 1227],
+       ...,
+       [ 185, 1261]], shape=(4, 2), dtype=int16), array([[1040, 1313],
+       ...,
+       [1040, 1323]], shape=(4, 2), dtype=int16), array([[ 119, 1345],
+       ...,
+       [ 119, 1420]], shape=(4, 2), dtype=int16), array([[ 561, 1385],
+       ...,
+       [ 561, 1397]], shape=(4, 2), dtype=int16), array([[ 551, 1400],
+       ...,
+       [ 551, 1414]], shape=(4, 2), dtype=int16), array([[ 445, 1476],
+       ...,
+       [ 445, 1501]], shape=(4, 2), dtype=int16), array([[ 597, 1475],
+       ...,
+       [ 596, 1503]], shape=(4, 2), dtype=int16), array([[1001, 1476],
+       ...,
+       [1000, 1504]], shape=(4, 2), dtype=int16), array([[ 175, 1541],
+       ...,
+       [ 175, 1575]], shape=(4, 2), dtype=int16), array([[ 179, 1601],
+       ...,
+       [ 179, 1632]], shape=(4, 2), dtype=int16), array([[ 111, 1655],
+       ...,
+       [ 111, 1690]], shape=(4, 2), dtype=int16), array([[ 111, 1716],
+       ...,
+       [ 111, 1750]], shape=(4, 2), dtype=int16), array([[ 111, 1773],
+       ...,
+       [ 111, 1807]], shape=(4, 2), dtype=int16), array([[ 678, 1871],
+       ...,
+       [ 680, 1901]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 102, ...,  161],
+       ...,
+       [ 678, ..., 1901]], shape=(34, 4), dtype=int16)}]
+
+解析后的文本:
+1. 2.3.水平衡分析
+2. 根据建设单位提供的设计方案等相关技术资料，总用水量为31978m/d，包括生产
+3. 用水为30978m3/d，生活及绿化用水为1000m^3/d。
+4. （1）生产用水系统
+5. 1）纯水系统
+6. 本项目自建纯水制备系统，包括初纯水系统、超纯水系统。
+7. 初纯水系统：初纯水系统主要供超纯水制备使用，系统制备能力为2200m3/h，采用
+8. 两级反渗透工艺，出水水质要求为2MΩcm，23℃，供水压力为0.25±0.05MPa；系统日
+9. 供水量为48919m^{3/d，RO浓水产生量约20%，12230m{3/d，进入RO浓水回收系统，经
+10. 处理后回用至初纯水系统：再生反洗排水约5%，3180m/d，排入酸碱中和处理系统。
+11. 初纯水制备工艺流程为：
+12. -
+13. 纯水系统
+14. 板式换热线
+15. 保安过涂器
+16. 两錄反滲透
+17. 超纯水系统：超纯水系统主要用于生产厂房工艺用水、空调加湿，系统制备能力为
+18. 2100m{3/h，采用MB+抛光混床+超滤T艺，出水水质要求为18MΩcm，23±0.5度，供水
+19. 压力为0.25±0.05MPa：日供水量为48627m{3/d，其中生产工艺用水46427m{3/d，空调加湿
+20. 用水2200m{3}/d：反洗排水约292m{3/d，排入酸碱中和处理系统。
+21. 超纯水制备工艺流程为：
+22. f
+23. 
+24. =
+25. 
+26. UDI Tank
+27. 板式换热器
+28. 蜂赋超滤
+29. 2)常温冷却水系统
+30. 本系统为冷冻机组等动力设备用冷却水循环系统。循环水量为21200mh，508800
+31. m^³/d，供回水温度为32/37.5℃。使用门来水作为补允水，补充水量按循环水量的1%计，
+32. 约5088m{3/d，其中冷却塔的蒸发损耗量约4070m^{3/d，排污水量约1017m^{3/d，进入最终中
+33. 和处理系统。
+34. 56

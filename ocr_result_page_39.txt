@@ -1,0 +1,180 @@
+OCR结果 - 第 39 页
+==================================================
+处理的图像: temp_page_38_processed.png
+原始PDF页面: 39
+
+详细结果:
+[{'input_path': 'temp_page_38_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1351,   51],
+       ...,
+       [1342,  167]], shape=(4, 2), dtype=int16), array([[139, 105],
+       ...,
+       [140, 178]], shape=(4, 2), dtype=int16), array([[494, 241],
+       ...,
+       [492, 291]], shape=(4, 2), dtype=int16), array([[665, 246],
+       ...,
+       [664, 291]], shape=(4, 2), dtype=int16), array([[216, 356],
+       ...,
+       [216, 411]], shape=(4, 2), dtype=int16), array([[144, 429],
+       ...,
+       [145, 485]], shape=(4, 2), dtype=int16), array([[1113,  432],
+       ...,
+       [1111,  482]], shape=(4, 2), dtype=int16), array([[145, 503],
+       ...,
+       [144, 547]], shape=(4, 2), dtype=int16), array([[490, 622],
+       ...,
+       [490, 670]], shape=(4, 2), dtype=int16), array([[211, 713],
+       ...,
+       [211, 798]], shape=(4, 2), dtype=int16), array([[220, 817],
+       ...,
+       [220, 864]], shape=(4, 2), dtype=int16), array([[138, 887],
+       ...,
+       [138, 945]], shape=(4, 2), dtype=int16), array([[ 225,  969],
+       ...,
+       [ 225, 1012]], shape=(4, 2), dtype=int16), array([[ 313,  967],
+       ...,
+       [ 313, 1011]], shape=(4, 2), dtype=int16), array([[ 147, 1042],
+       ...,
+       [ 148, 1084]], shape=(4, 2), dtype=int16), array([[ 225, 1110],
+       ...,
+       [ 225, 1160]], shape=(4, 2), dtype=int16), array([[ 147, 1186],
+       ...,
+       [ 148, 1230]], shape=(4, 2), dtype=int16), array([[ 225, 1245],
+       ...,
+       [ 226, 1317]], shape=(4, 2), dtype=int16), array([[ 229, 1326],
+       ...,
+       [ 230, 1387]], shape=(4, 2), dtype=int16), array([[ 233, 1404],
+       ...,
+       [ 234, 1459]], shape=(4, 2), dtype=int16), array([[ 235, 1478],
+       ...,
+       [ 236, 1529]], shape=(4, 2), dtype=int16), array([[ 232, 1545],
+       ...,
+       [ 233, 1606]], shape=(4, 2), dtype=int16), array([[1188, 1571],
+       ...,
+       [1188, 1591]], shape=(4, 2), dtype=int16), array([[ 230, 1619],
+       ...,
+       [ 230, 1666]], shape=(4, 2), dtype=int16), array([[ 157, 1694],
+       ...,
+       [ 158, 1734]], shape=(4, 2), dtype=int16), array([[ 234, 1763],
+       ...,
+       [ 234, 1807]], shape=(4, 2), dtype=int16), array([[ 237, 1817],
+       ...,
+       [ 236, 1876]], shape=(4, 2), dtype=int16), array([[ 800, 1875],
+       ...,
+       [ 802, 2000]], shape=(4, 2), dtype=int16), array([[ 693, 1956],
+       ...,
+       [ 693, 1980]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['力', '写)改万元整', '第三条', '委托贷款用途', '3.1本合同项下委托贷款仅限用', '于购灵材料发员工工支运仓费同', '，未经', '甲方书面同意，丙方不得改变委托贷款用途。', '第四条委托贷款期限', '4.1本合同项下委托贷款期限为壹拾贷个月。', '4.2本合同项下委托贷款丙方选择按如下约定方式发', '放：', '凶', '一次划付。乙方于年月H，将本台同', '项下贷款一次划入丙方账户。', '分次划付。乙方按下列次序、时间、金额，将本台', '同项下贷款分次划入丙方账户：', '第一次：2018年12月3日，金额长任7元整', '第二次：218年12月7日，金额任万元整', '第三次：2019年3月4日，金额贰佰任拾万元整', '第四次：2019年6月3日，金额贰伯伍拾7元整；', '第五次：2019年9月3日，金额伍佰万元整', 'C', '4.3实际委托贷款期限起始日与上述约定不一致时，以', '借款凭证所记载的委托贷款发放日为准。', '4.4本台同项下委托贷款按如下方式发放：', '丙方自主支付方式，乙方协助丙方向甲方提供资金流', '有对', '1'], 'rec_scores': [0.40248656272888184, 0.7624914050102234, 0.999863862991333, 0.9973152279853821, 0.9641077518463135, 0.32939237356185913, 0.9398923516273499, 0.9954727292060852, 0.9994297027587891, 0.8945539593696594, 0.993844211101532, 0.9237554669380188, 0.25716349482536316, 0.8846625685691833, 0.9963502883911133, 0.9807195067405701, 0.9953440427780151, 0.8364244103431702, 0.8866675496101379, 0.8187935948371887, 0.7932652831077576, 0.8444331288337708, 0.8997217416763306, 0.9929249286651611, 0.9976961612701416, 0.9843473434448242, 0.9172214269638062, 0.4609587788581848, 0.9657207727432251], 'rec_polys': [array([[1351,   51],
+       ...,
+       [1342,  167]], shape=(4, 2), dtype=int16), array([[139, 105],
+       ...,
+       [140, 178]], shape=(4, 2), dtype=int16), array([[494, 241],
+       ...,
+       [492, 291]], shape=(4, 2), dtype=int16), array([[665, 246],
+       ...,
+       [664, 291]], shape=(4, 2), dtype=int16), array([[216, 356],
+       ...,
+       [216, 411]], shape=(4, 2), dtype=int16), array([[144, 429],
+       ...,
+       [145, 485]], shape=(4, 2), dtype=int16), array([[1113,  432],
+       ...,
+       [1111,  482]], shape=(4, 2), dtype=int16), array([[145, 503],
+       ...,
+       [144, 547]], shape=(4, 2), dtype=int16), array([[490, 622],
+       ...,
+       [490, 670]], shape=(4, 2), dtype=int16), array([[211, 713],
+       ...,
+       [211, 798]], shape=(4, 2), dtype=int16), array([[220, 817],
+       ...,
+       [220, 864]], shape=(4, 2), dtype=int16), array([[138, 887],
+       ...,
+       [138, 945]], shape=(4, 2), dtype=int16), array([[ 225,  969],
+       ...,
+       [ 225, 1012]], shape=(4, 2), dtype=int16), array([[ 313,  967],
+       ...,
+       [ 313, 1011]], shape=(4, 2), dtype=int16), array([[ 147, 1042],
+       ...,
+       [ 148, 1084]], shape=(4, 2), dtype=int16), array([[ 225, 1110],
+       ...,
+       [ 225, 1160]], shape=(4, 2), dtype=int16), array([[ 147, 1186],
+       ...,
+       [ 148, 1230]], shape=(4, 2), dtype=int16), array([[ 225, 1245],
+       ...,
+       [ 226, 1317]], shape=(4, 2), dtype=int16), array([[ 229, 1326],
+       ...,
+       [ 230, 1387]], shape=(4, 2), dtype=int16), array([[ 233, 1404],
+       ...,
+       [ 234, 1459]], shape=(4, 2), dtype=int16), array([[ 235, 1478],
+       ...,
+       [ 236, 1529]], shape=(4, 2), dtype=int16), array([[ 232, 1545],
+       ...,
+       [ 233, 1606]], shape=(4, 2), dtype=int16), array([[1188, 1571],
+       ...,
+       [1188, 1591]], shape=(4, 2), dtype=int16), array([[ 230, 1619],
+       ...,
+       [ 230, 1666]], shape=(4, 2), dtype=int16), array([[ 157, 1694],
+       ...,
+       [ 158, 1734]], shape=(4, 2), dtype=int16), array([[ 234, 1763],
+       ...,
+       [ 234, 1807]], shape=(4, 2), dtype=int16), array([[ 237, 1817],
+       ...,
+       [ 236, 1876]], shape=(4, 2), dtype=int16), array([[ 800, 1875],
+       ...,
+       [ 802, 2000]], shape=(4, 2), dtype=int16), array([[ 693, 1956],
+       ...,
+       [ 693, 1980]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1342, ...,  173],
+       ...,
+       [ 693, ..., 1980]], shape=(29, 4), dtype=int16)}]
+
+解析后的文本:
+1. 力
+2. 写)改万元整
+3. 第三条
+4. 委托贷款用途
+5. 3.1本合同项下委托贷款仅限用
+6. 于购灵材料发员工工支运仓费同
+7. ，未经
+8. 甲方书面同意，丙方不得改变委托贷款用途。
+9. 第四条委托贷款期限
+10. 4.1本合同项下委托贷款期限为壹拾贷个月。
+11. 4.2本合同项下委托贷款丙方选择按如下约定方式发
+12. 放：
+13. 凶
+14. 一次划付。乙方于年月H，将本台同
+15. 项下贷款一次划入丙方账户。
+16. 分次划付。乙方按下列次序、时间、金额，将本台
+17. 同项下贷款分次划入丙方账户：
+18. 第一次：2018年12月3日，金额长任7元整
+19. 第二次：218年12月7日，金额任万元整
+20. 第三次：2019年3月4日，金额贰佰任拾万元整
+21. 第四次：2019年6月3日，金额贰伯伍拾7元整；
+22. 第五次：2019年9月3日，金额伍佰万元整
+23. C
+24. 4.3实际委托贷款期限起始日与上述约定不一致时，以
+25. 借款凭证所记载的委托贷款发放日为准。
+26. 4.4本台同项下委托贷款按如下方式发放：
+27. 丙方自主支付方式，乙方协助丙方向甲方提供资金流
+28. 有对
+29. 1

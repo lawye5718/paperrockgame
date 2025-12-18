@@ -1,0 +1,130 @@
+OCR结果 - 第 261 页
+==================================================
+处理的图像: temp_page_260_processed.png
+原始PDF页面: 261
+
+详细结果:
+[{'input_path': 'temp_page_260_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[122,  87],
+       ...,
+       [122, 116]], shape=(4, 2), dtype=int16), array([[1123,   93],
+       ...,
+       [1123,  120]], shape=(4, 2), dtype=int16), array([[623, 136],
+       ...,
+       [623, 182]], shape=(4, 2), dtype=int16), array([[176, 219],
+       ...,
+       [176, 256]], shape=(4, 2), dtype=int16), array([[170, 293],
+       ...,
+       [170, 335]], shape=(4, 2), dtype=int16), array([[ 99, 368],
+       ...,
+       [ 98, 408]], shape=(4, 2), dtype=int16), array([[164, 445],
+       ...,
+       [164, 492]], shape=(4, 2), dtype=int16), array([[171, 526],
+       ...,
+       [171, 564]], shape=(4, 2), dtype=int16), array([[103, 604],
+       ...,
+       [103, 645]], shape=(4, 2), dtype=int16), array([[172, 686],
+       ...,
+       [172, 724]], shape=(4, 2), dtype=int16), array([[101, 762],
+       ...,
+       [101, 802]], shape=(4, 2), dtype=int16), array([[ 99, 842],
+       ...,
+       [ 99, 880]], shape=(4, 2), dtype=int16), array([[165, 924],
+       ...,
+       [165, 962]], shape=(4, 2), dtype=int16), array([[ 164, 1005],
+       ...,
+       [ 164, 1042]], shape=(4, 2), dtype=int16), array([[ 160, 1085],
+       ...,
+       [ 160, 1125]], shape=(4, 2), dtype=int16), array([[  90, 1575],
+       ...,
+       [  90, 1619]], shape=(4, 2), dtype=int16), array([[  91, 1656],
+       ...,
+       [  89, 1698]], shape=(4, 2), dtype=int16), array([[  93, 1735],
+       ...,
+       [  91, 1777]], shape=(4, 2), dtype=int16), array([[  94, 1816],
+       ...,
+       [  92, 1854]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['报告编号：LHHJ20191104（105)01', '第2页共19页', '报告说明', '1．本报告仅对本次采样/送检样品检测结果负责。', '2.委托单位如未提出特别说明及要求者，本公司的所有检测过程，遵循现', '行的、有效的检测技术规范。', '3.本报告无MA章、本公司检验检测专用章和骑缝章无效。', '4．本报告无编写、审核、签发人的签名无效；报告涂改、增删、伪造、缺', '页、插入无效。', '5.若对本次报告结果的质量有疑问，可以向本公司查询。对本检测报告有', '异议，可在检测报告发出之日起十日内向本公司提出书面复核申请：对于性能', '不稳定、不易留样的样品，恕不受理复检。', '6．本公司对报告中的信息负责，客户提供的信息除外。', '7.本次检测报告书一式叁份，委托方贰份，本公司壹份。', '8.未经本公司书面批准，不得复制（全文复制除外）本报告。', '单位地址：玉林市二环东路东侧经济开发区东区标准化厂区4#厂房', '邮政编码：537000', '咨询电话：0775-2332947', '传真电话：0775-2332947'], 'rec_scores': [0.9439188838005066, 0.9982077479362488, 0.9994146823883057, 0.9853242635726929, 0.9882981181144714, 0.9986861944198608, 0.9743114113807678, 0.980765163898468, 0.9975134134292603, 0.9901289343833923, 0.9966317415237427, 0.9946434497833252, 0.9790282249450684, 0.9805062413215637, 0.9779089093208313, 0.9983571171760559, 0.997114360332489, 0.9845816493034363, 0.9972750544548035], 'rec_polys': [array([[122,  87],
+       ...,
+       [122, 116]], shape=(4, 2), dtype=int16), array([[1123,   93],
+       ...,
+       [1123,  120]], shape=(4, 2), dtype=int16), array([[623, 136],
+       ...,
+       [623, 182]], shape=(4, 2), dtype=int16), array([[176, 219],
+       ...,
+       [176, 256]], shape=(4, 2), dtype=int16), array([[170, 293],
+       ...,
+       [170, 335]], shape=(4, 2), dtype=int16), array([[ 99, 368],
+       ...,
+       [ 98, 408]], shape=(4, 2), dtype=int16), array([[164, 445],
+       ...,
+       [164, 492]], shape=(4, 2), dtype=int16), array([[171, 526],
+       ...,
+       [171, 564]], shape=(4, 2), dtype=int16), array([[103, 604],
+       ...,
+       [103, 645]], shape=(4, 2), dtype=int16), array([[172, 686],
+       ...,
+       [172, 724]], shape=(4, 2), dtype=int16), array([[101, 762],
+       ...,
+       [101, 802]], shape=(4, 2), dtype=int16), array([[ 99, 842],
+       ...,
+       [ 99, 880]], shape=(4, 2), dtype=int16), array([[165, 924],
+       ...,
+       [165, 962]], shape=(4, 2), dtype=int16), array([[ 164, 1005],
+       ...,
+       [ 164, 1042]], shape=(4, 2), dtype=int16), array([[ 160, 1085],
+       ...,
+       [ 160, 1125]], shape=(4, 2), dtype=int16), array([[  90, 1575],
+       ...,
+       [  90, 1619]], shape=(4, 2), dtype=int16), array([[  91, 1656],
+       ...,
+       [  89, 1698]], shape=(4, 2), dtype=int16), array([[  93, 1735],
+       ...,
+       [  91, 1777]], shape=(4, 2), dtype=int16), array([[  94, 1816],
+       ...,
+       [  92, 1854]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 122, ...,  124],
+       ...,
+       [  92, ..., 1868]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. 报告编号：LHHJ20191104（105)01
+2. 第2页共19页
+3. 报告说明
+4. 1．本报告仅对本次采样/送检样品检测结果负责。
+5. 2.委托单位如未提出特别说明及要求者，本公司的所有检测过程，遵循现
+6. 行的、有效的检测技术规范。
+7. 3.本报告无MA章、本公司检验检测专用章和骑缝章无效。
+8. 4．本报告无编写、审核、签发人的签名无效；报告涂改、增删、伪造、缺
+9. 页、插入无效。
+10. 5.若对本次报告结果的质量有疑问，可以向本公司查询。对本检测报告有
+11. 异议，可在检测报告发出之日起十日内向本公司提出书面复核申请：对于性能
+12. 不稳定、不易留样的样品，恕不受理复检。
+13. 6．本公司对报告中的信息负责，客户提供的信息除外。
+14. 7.本次检测报告书一式叁份，委托方贰份，本公司壹份。
+15. 8.未经本公司书面批准，不得复制（全文复制除外）本报告。
+16. 单位地址：玉林市二环东路东侧经济开发区东区标准化厂区4#厂房
+17. 邮政编码：537000
+18. 咨询电话：0775-2332947
+19. 传真电话：0775-2332947

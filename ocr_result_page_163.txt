@@ -1,0 +1,130 @@
+OCR结果 - 第 163 页
+==================================================
+处理的图像: temp_page_162_processed.png
+原始PDF页面: 163
+
+详细结果:
+[{'input_path': 'temp_page_162_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1418, 3), dtype=uint8)}, 'dt_polys': [array([[130, 125],
+       ...,
+       [129, 182]], shape=(4, 2), dtype=int16), array([[123, 190],
+       ...,
+       [123, 238]], shape=(4, 2), dtype=int16), array([[142, 257],
+       ...,
+       [141, 291]], shape=(4, 2), dtype=int16), array([[191, 318],
+       ...,
+       [190, 353]], shape=(4, 2), dtype=int16), array([[195, 379],
+       ...,
+       [194, 413]], shape=(4, 2), dtype=int16), array([[124, 429],
+       ...,
+       [122, 470]], shape=(4, 2), dtype=int16), array([[193, 495],
+       ...,
+       [192, 526]], shape=(4, 2), dtype=int16), array([[195, 553],
+       ...,
+       [194, 587]], shape=(4, 2), dtype=int16), array([[131, 607],
+       ...,
+       [131, 644]], shape=(4, 2), dtype=int16), array([[127, 661],
+       ...,
+       [125, 703]], shape=(4, 2), dtype=int16), array([[211, 733],
+       ...,
+       [210, 765]], shape=(4, 2), dtype=int16), array([[196, 790],
+       ...,
+       [195, 824]], shape=(4, 2), dtype=int16), array([[193, 848],
+       ...,
+       [193, 888]], shape=(4, 2), dtype=int16), array([[133, 902],
+       ...,
+       [132, 939]], shape=(4, 2), dtype=int16), array([[193, 964],
+       ...,
+       [192, 999]], shape=(4, 2), dtype=int16), array([[ 194, 1021],
+       ...,
+       [ 193, 1056]], shape=(4, 2), dtype=int16), array([[ 190, 1076],
+       ...,
+       [ 189, 1113]], shape=(4, 2), dtype=int16), array([[ 191, 1125],
+       ...,
+       [ 190, 1159]], shape=(4, 2), dtype=int16), array([[ 684, 1968],
+       ...,
+       [ 682, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['“AVA/O微曝氧化沟”工艺，出水水质要求大道《城镇污水处理厂污染物排放', '标准》一级B标准后，经污水管道排往钦州港大榄坪污水深海排放区', '(GX070DIV)。', '②大榄坪污水处理厂目前处理负荷', '目前负荷仅5%以内，因此，钦州市大榄坪污水处理厂有能力接受本项目的', '排水。', '③对厂区污水处理装置相关要求', '由于钦州市大榄坪污水处理厂主要针对常规污染物的去除，对本项目特征污', '染物处理效率低，因此环评建议项目废水特征污染物应在本厂处理，并实现达标', '排放。', '（3）污水管道', '①排水管网建设情况', '项目地块西侧道路敷设的D1650污水主干管，最终沿道路进入5#污水泵站，', '最终排入大榄坪污水处理厂。', '②建设时序安排', '规划管网计划于2020年7月建成。', '③建设进展', '规划管网目前处于建设阶段。', '23'], 'rec_scores': [0.9490818381309509, 0.9913967847824097, 0.9566876888275146, 0.9814475774765015, 0.9907770156860352, 0.9980707168579102, 0.9983488917350769, 0.9887045621871948, 0.9988225698471069, 0.9978299736976624, 0.9157631993293762, 0.9984915852546692, 0.9904711246490479, 0.99683678150177, 0.9987779855728149, 0.9985140562057495, 0.9993664026260376, 0.997740626335144, 0.9998347759246826], 'rec_polys': [array([[130, 125],
+       ...,
+       [129, 182]], shape=(4, 2), dtype=int16), array([[123, 190],
+       ...,
+       [123, 238]], shape=(4, 2), dtype=int16), array([[142, 257],
+       ...,
+       [141, 291]], shape=(4, 2), dtype=int16), array([[191, 318],
+       ...,
+       [190, 353]], shape=(4, 2), dtype=int16), array([[195, 379],
+       ...,
+       [194, 413]], shape=(4, 2), dtype=int16), array([[124, 429],
+       ...,
+       [122, 470]], shape=(4, 2), dtype=int16), array([[193, 495],
+       ...,
+       [192, 526]], shape=(4, 2), dtype=int16), array([[195, 553],
+       ...,
+       [194, 587]], shape=(4, 2), dtype=int16), array([[131, 607],
+       ...,
+       [131, 644]], shape=(4, 2), dtype=int16), array([[127, 661],
+       ...,
+       [125, 703]], shape=(4, 2), dtype=int16), array([[211, 733],
+       ...,
+       [210, 765]], shape=(4, 2), dtype=int16), array([[196, 790],
+       ...,
+       [195, 824]], shape=(4, 2), dtype=int16), array([[193, 848],
+       ...,
+       [193, 888]], shape=(4, 2), dtype=int16), array([[133, 902],
+       ...,
+       [132, 939]], shape=(4, 2), dtype=int16), array([[193, 964],
+       ...,
+       [192, 999]], shape=(4, 2), dtype=int16), array([[ 194, 1021],
+       ...,
+       [ 193, 1056]], shape=(4, 2), dtype=int16), array([[ 190, 1076],
+       ...,
+       [ 189, 1113]], shape=(4, 2), dtype=int16), array([[ 191, 1125],
+       ...,
+       [ 190, 1159]], shape=(4, 2), dtype=int16), array([[ 684, 1968],
+       ...,
+       [ 682, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 129, ...,  200],
+       ...,
+       [ 682, ..., 2000]], shape=(19, 4), dtype=int16)}]
+
+解析后的文本:
+1. “AVA/O微曝氧化沟”工艺，出水水质要求大道《城镇污水处理厂污染物排放
+2. 标准》一级B标准后，经污水管道排往钦州港大榄坪污水深海排放区
+3. (GX070DIV)。
+4. ②大榄坪污水处理厂目前处理负荷
+5. 目前负荷仅5%以内，因此，钦州市大榄坪污水处理厂有能力接受本项目的
+6. 排水。
+7. ③对厂区污水处理装置相关要求
+8. 由于钦州市大榄坪污水处理厂主要针对常规污染物的去除，对本项目特征污
+9. 染物处理效率低，因此环评建议项目废水特征污染物应在本厂处理，并实现达标
+10. 排放。
+11. （3）污水管道
+12. ①排水管网建设情况
+13. 项目地块西侧道路敷设的D1650污水主干管，最终沿道路进入5#污水泵站，
+14. 最终排入大榄坪污水处理厂。
+15. ②建设时序安排
+16. 规划管网计划于2020年7月建成。
+17. ③建设进展
+18. 规划管网目前处于建设阶段。
+19. 23

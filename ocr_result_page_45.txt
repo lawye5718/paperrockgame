@@ -1,0 +1,155 @@
+OCR结果 - 第 45 页
+==================================================
+处理的图像: temp_page_44_processed.png
+原始PDF页面: 45
+
+详细结果:
+[{'input_path': 'temp_page_44_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [254, ..., 254]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1372,   64],
+       ...,
+       [1372,  152]], shape=(4, 2), dtype=int16), array([[148, 147],
+       ...,
+       [149, 196]], shape=(4, 2), dtype=int16), array([[147, 224],
+       ...,
+       [147, 272]], shape=(4, 2), dtype=int16), array([[151, 300],
+       ...,
+       [152, 346]], shape=(4, 2), dtype=int16), array([[149, 373],
+       ...,
+       [149, 417]], shape=(4, 2), dtype=int16), array([[233, 447],
+       ...,
+       [233, 491]], shape=(4, 2), dtype=int16), array([[151, 516],
+       ...,
+       [151, 560]], shape=(4, 2), dtype=int16), array([[148, 584],
+       ...,
+       [147, 628]], shape=(4, 2), dtype=int16), array([[151, 654],
+       ...,
+       [150, 699]], shape=(4, 2), dtype=int16), array([[235, 729],
+       ...,
+       [235, 773]], shape=(4, 2), dtype=int16), array([[152, 799],
+       ...,
+       [151, 841]], shape=(4, 2), dtype=int16), array([[234, 867],
+       ...,
+       [234, 915]], shape=(4, 2), dtype=int16), array([[153, 942],
+       ...,
+       [153, 985]], shape=(4, 2), dtype=int16), array([[ 429, 1082],
+       ...,
+       [ 429, 1122]], shape=(4, 2), dtype=int16), array([[ 230, 1224],
+       ...,
+       [ 230, 1265]], shape=(4, 2), dtype=int16), array([[ 144, 1293],
+       ...,
+       [ 145, 1338]], shape=(4, 2), dtype=int16), array([[ 144, 1364],
+       ...,
+       [ 145, 1404]], shape=(4, 2), dtype=int16), array([[ 229, 1433],
+       ...,
+       [ 229, 1474]], shape=(4, 2), dtype=int16), array([[ 145, 1500],
+       ...,
+       [ 144, 1541]], shape=(4, 2), dtype=int16), array([[ 225, 1571],
+       ...,
+       [ 225, 1615]], shape=(4, 2), dtype=int16), array([[ 142, 1636],
+       ...,
+       [ 141, 1681]], shape=(4, 2), dtype=int16), array([[ 224, 1708],
+       ...,
+       [ 224, 1755]], shape=(4, 2), dtype=int16), array([[ 145, 1776],
+       ...,
+       [ 146, 1824]], shape=(4, 2), dtype=int16), array([[ 675, 1917],
+       ...,
+       [ 675, 1945]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['41', '化，与他人发生债务纠纷，或保证人丧失承担连带责任能力', '抵（质）押财产损毁、灭失或明显减值，以及发生其它危', '委托贷款安全的情况时，甲方有权委托乙方停止发放委托货', '款，并有权提前收回委托贷款。', '11.9当丙方经营方式、自身体制或法律地位发生变化，', '危及委托贷款安全时，甲方有权委托乙方停止发放委托贷', '款，并有权提前收回委托贷款，依法采取相应措施，实现本', '合同项下债权。', '11.10甲方应对丙方提供的债权、债务、生产、经营情', '况保密。但法律另有规定者除外。', '11.11甲方负责贷款的催收及保全工作，乙方仅按照与', '甲方签订的（委托贷款委托合同》履行协助贷款收回义务。', '第十二条乙方的权利和义务', '12.1乙方有权按甲方委托从丙方账户中扣收本合同项', '下其应还委托贷款本金、利息、复利、罚息、违约金、损害', '赔偿金及甲方为实现债权所发生的所有费用。', '12.2乙方有权要求甲方按时存入本合同项下委托贷款', '发放所需的资金。', '12.3乙方有权按甲方委托停止发放委托贷款，并/或提', '前收回委托贷款。', '12.4乙.方应按本合同约定及时办理委托贷款发效、体助', '监督使用和协助收回委托贷款本息手续', '10'], 'rec_scores': [0.9245126247406006, 0.9935207962989807, 0.935731828212738, 0.9725483655929565, 0.9986056685447693, 0.9770857691764832, 0.9975245594978333, 0.9969311356544495, 0.9984957575798035, 0.9937015175819397, 0.9986469745635986, 0.9916639924049377, 0.9608850479125977, 0.9988077282905579, 0.9965465664863586, 0.985893964767456, 0.9985653758049011, 0.9942135810852051, 0.9992105960845947, 0.9947294592857361, 0.9986406564712524, 0.8861979842185974, 0.9224972724914551, 0.9816420078277588], 'rec_polys': [array([[1372,   64],
+       ...,
+       [1372,  152]], shape=(4, 2), dtype=int16), array([[148, 147],
+       ...,
+       [149, 196]], shape=(4, 2), dtype=int16), array([[147, 224],
+       ...,
+       [147, 272]], shape=(4, 2), dtype=int16), array([[151, 300],
+       ...,
+       [152, 346]], shape=(4, 2), dtype=int16), array([[149, 373],
+       ...,
+       [149, 417]], shape=(4, 2), dtype=int16), array([[233, 447],
+       ...,
+       [233, 491]], shape=(4, 2), dtype=int16), array([[151, 516],
+       ...,
+       [151, 560]], shape=(4, 2), dtype=int16), array([[148, 584],
+       ...,
+       [147, 628]], shape=(4, 2), dtype=int16), array([[151, 654],
+       ...,
+       [150, 699]], shape=(4, 2), dtype=int16), array([[235, 729],
+       ...,
+       [235, 773]], shape=(4, 2), dtype=int16), array([[152, 799],
+       ...,
+       [151, 841]], shape=(4, 2), dtype=int16), array([[234, 867],
+       ...,
+       [234, 915]], shape=(4, 2), dtype=int16), array([[153, 942],
+       ...,
+       [153, 985]], shape=(4, 2), dtype=int16), array([[ 429, 1082],
+       ...,
+       [ 429, 1122]], shape=(4, 2), dtype=int16), array([[ 230, 1224],
+       ...,
+       [ 230, 1265]], shape=(4, 2), dtype=int16), array([[ 144, 1293],
+       ...,
+       [ 145, 1338]], shape=(4, 2), dtype=int16), array([[ 144, 1364],
+       ...,
+       [ 145, 1404]], shape=(4, 2), dtype=int16), array([[ 229, 1433],
+       ...,
+       [ 229, 1474]], shape=(4, 2), dtype=int16), array([[ 145, 1500],
+       ...,
+       [ 144, 1541]], shape=(4, 2), dtype=int16), array([[ 225, 1571],
+       ...,
+       [ 225, 1615]], shape=(4, 2), dtype=int16), array([[ 142, 1636],
+       ...,
+       [ 141, 1681]], shape=(4, 2), dtype=int16), array([[ 224, 1708],
+       ...,
+       [ 224, 1755]], shape=(4, 2), dtype=int16), array([[ 145, 1776],
+       ...,
+       [ 146, 1824]], shape=(4, 2), dtype=int16), array([[ 675, 1917],
+       ...,
+       [ 675, 1945]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1372, ...,  152],
+       ...,
+       [ 675, ..., 1945]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 41
+2. 化，与他人发生债务纠纷，或保证人丧失承担连带责任能力
+3. 抵（质）押财产损毁、灭失或明显减值，以及发生其它危
+4. 委托贷款安全的情况时，甲方有权委托乙方停止发放委托货
+5. 款，并有权提前收回委托贷款。
+6. 11.9当丙方经营方式、自身体制或法律地位发生变化，
+7. 危及委托贷款安全时，甲方有权委托乙方停止发放委托贷
+8. 款，并有权提前收回委托贷款，依法采取相应措施，实现本
+9. 合同项下债权。
+10. 11.10甲方应对丙方提供的债权、债务、生产、经营情
+11. 况保密。但法律另有规定者除外。
+12. 11.11甲方负责贷款的催收及保全工作，乙方仅按照与
+13. 甲方签订的（委托贷款委托合同》履行协助贷款收回义务。
+14. 第十二条乙方的权利和义务
+15. 12.1乙方有权按甲方委托从丙方账户中扣收本合同项
+16. 下其应还委托贷款本金、利息、复利、罚息、违约金、损害
+17. 赔偿金及甲方为实现债权所发生的所有费用。
+18. 12.2乙方有权要求甲方按时存入本合同项下委托贷款
+19. 发放所需的资金。
+20. 12.3乙方有权按甲方委托停止发放委托贷款，并/或提
+21. 前收回委托贷款。
+22. 12.4乙.方应按本合同约定及时办理委托贷款发效、体助
+23. 监督使用和协助收回委托贷款本息手续
+24. 10

@@ -1,0 +1,150 @@
+OCR结果 - 第 120 页
+==================================================
+处理的图像: temp_page_119_processed.png
+原始PDF页面: 120
+
+详细结果:
+[{'input_path': 'temp_page_119_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[1315,   49],
+       ...,
+       [1319,  129]], shape=(4, 2), dtype=int16), array([[159, 187],
+       ...,
+       [159, 276]], shape=(4, 2), dtype=int16), array([[532, 290],
+       ...,
+       [531, 341]], shape=(4, 2), dtype=int16), array([[232, 435],
+       ...,
+       [231, 483]], shape=(4, 2), dtype=int16), array([[156, 506],
+       ...,
+       [156, 547]], shape=(4, 2), dtype=int16), array([[159, 577],
+       ...,
+       [159, 619]], shape=(4, 2), dtype=int16), array([[161, 647],
+       ...,
+       [161, 688]], shape=(4, 2), dtype=int16), array([[161, 718],
+       ...,
+       [161, 759]], shape=(4, 2), dtype=int16), array([[241, 787],
+       ...,
+       [241, 832]], shape=(4, 2), dtype=int16), array([[159, 856],
+       ...,
+       [159, 900]], shape=(4, 2), dtype=int16), array([[157, 924],
+       ...,
+       [157, 968]], shape=(4, 2), dtype=int16), array([[ 158,  995],
+       ...,
+       [ 158, 1036]], shape=(4, 2), dtype=int16), array([[ 157, 1062],
+       ...,
+       [ 157, 1103]], shape=(4, 2), dtype=int16), array([[ 237, 1132],
+       ...,
+       [ 237, 1173]], shape=(4, 2), dtype=int16), array([[ 234, 1198],
+       ...,
+       [ 234, 1241]], shape=(4, 2), dtype=int16), array([[ 151, 1266],
+       ...,
+       [ 151, 1310]], shape=(4, 2), dtype=int16), array([[ 151, 1337],
+       ...,
+       [ 151, 1381]], shape=(4, 2), dtype=int16), array([[ 149, 1406],
+       ...,
+       [ 149, 1454]], shape=(4, 2), dtype=int16), array([[ 147, 1477],
+       ...,
+       [ 147, 1525]], shape=(4, 2), dtype=int16), array([[ 225, 1549],
+       ...,
+       [ 224, 1598]], shape=(4, 2), dtype=int16), array([[ 221, 1620],
+       ...,
+       [ 222, 1671]], shape=(4, 2), dtype=int16), array([[ 141, 1692],
+       ...,
+       [ 141, 1746]], shape=(4, 2), dtype=int16), array([[ 135, 1765],
+       ...,
+       [ 136, 1823]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['118', '超薄玻璃基板深加工项目服务对接会议纪要', '(2019年3月15日）', '3月8日上午，园区管委会常务副主任高朴在公共服务中心', 'A222会议室主持召开超薄玻璃基板深加工项目推进服务对接', '会。园区管委会副巡视员谢东刚，经济发展局、财政局、投资', '合作局、广西泰嘉光电科技有限公司（以下简称“泰嘉公司”）', '主要负责人和相关人员参会。', '会议听取泰嘉项目组近期工作计划及项目推进过程中遇到', '的困难，并就项目扶持资金落实、项目公司以设备形式注资等', '服务事项进行逐一落实，要求各负责部门主动与泰嘉项目组及', '相关协调单位对接，按照计划配合泰嘉项目加快推进，按照时', '间节点完成相关服务工作。现纪要如下：', '一、项目扶持资金落实', '会议确定，园区管委会将依据双方协议精神给予泰嘉公司', '3000万元人民币项目资金扶持。请泰嘉公司尽快组织完成设备', '注资或土地购买等工作，以达成资金拨付条件；请财政局按照', '园区财政资金管理相关规定主动与泰嘉公司对接，帮助企业完', '善相关资料，尽快兑现园区管委会给予项目公司的资金扶持。', '二、关于完善园区项目公司注资手续', '超薄玻璃基板深加工项目在园区的项目公司（广西泰嘉光', '电科技有限公司）已经于2018年12月完成工商注册，项目设', '备的采购公司为广西钦州保税港区尊绅贸易有限公司（以下简'], 'rec_scores': [0.9971645474433899, 0.9914430379867554, 0.9427655339241028, 0.993263840675354, 0.9961263537406921, 0.9959387183189392, 0.9900957345962524, 0.999336302280426, 0.9992626309394836, 0.9988594651222229, 0.9955716133117676, 0.9982061982154846, 0.985161542892456, 0.9988111257553101, 0.9960842728614807, 0.9987852573394775, 0.998420000076294, 0.9992937445640564, 0.997829794883728, 0.9989880323410034, 0.9927564859390259, 0.9858644008636475, 0.9942706227302551], 'rec_polys': [array([[1315,   49],
+       ...,
+       [1319,  129]], shape=(4, 2), dtype=int16), array([[159, 187],
+       ...,
+       [159, 276]], shape=(4, 2), dtype=int16), array([[532, 290],
+       ...,
+       [531, 341]], shape=(4, 2), dtype=int16), array([[232, 435],
+       ...,
+       [231, 483]], shape=(4, 2), dtype=int16), array([[156, 506],
+       ...,
+       [156, 547]], shape=(4, 2), dtype=int16), array([[159, 577],
+       ...,
+       [159, 619]], shape=(4, 2), dtype=int16), array([[161, 647],
+       ...,
+       [161, 688]], shape=(4, 2), dtype=int16), array([[161, 718],
+       ...,
+       [161, 759]], shape=(4, 2), dtype=int16), array([[241, 787],
+       ...,
+       [241, 832]], shape=(4, 2), dtype=int16), array([[159, 856],
+       ...,
+       [159, 900]], shape=(4, 2), dtype=int16), array([[157, 924],
+       ...,
+       [157, 968]], shape=(4, 2), dtype=int16), array([[ 158,  995],
+       ...,
+       [ 158, 1036]], shape=(4, 2), dtype=int16), array([[ 157, 1062],
+       ...,
+       [ 157, 1103]], shape=(4, 2), dtype=int16), array([[ 237, 1132],
+       ...,
+       [ 237, 1173]], shape=(4, 2), dtype=int16), array([[ 234, 1198],
+       ...,
+       [ 234, 1241]], shape=(4, 2), dtype=int16), array([[ 151, 1266],
+       ...,
+       [ 151, 1310]], shape=(4, 2), dtype=int16), array([[ 151, 1337],
+       ...,
+       [ 151, 1381]], shape=(4, 2), dtype=int16), array([[ 149, 1406],
+       ...,
+       [ 149, 1454]], shape=(4, 2), dtype=int16), array([[ 147, 1477],
+       ...,
+       [ 147, 1525]], shape=(4, 2), dtype=int16), array([[ 225, 1549],
+       ...,
+       [ 224, 1598]], shape=(4, 2), dtype=int16), array([[ 221, 1620],
+       ...,
+       [ 222, 1671]], shape=(4, 2), dtype=int16), array([[ 141, 1692],
+       ...,
+       [ 141, 1746]], shape=(4, 2), dtype=int16), array([[ 135, 1765],
+       ...,
+       [ 136, 1823]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1315, ...,  129],
+       ...,
+       [ 135, ..., 1823]], shape=(23, 4), dtype=int16)}]
+
+解析后的文本:
+1. 118
+2. 超薄玻璃基板深加工项目服务对接会议纪要
+3. (2019年3月15日）
+4. 3月8日上午，园区管委会常务副主任高朴在公共服务中心
+5. A222会议室主持召开超薄玻璃基板深加工项目推进服务对接
+6. 会。园区管委会副巡视员谢东刚，经济发展局、财政局、投资
+7. 合作局、广西泰嘉光电科技有限公司（以下简称“泰嘉公司”）
+8. 主要负责人和相关人员参会。
+9. 会议听取泰嘉项目组近期工作计划及项目推进过程中遇到
+10. 的困难，并就项目扶持资金落实、项目公司以设备形式注资等
+11. 服务事项进行逐一落实，要求各负责部门主动与泰嘉项目组及
+12. 相关协调单位对接，按照计划配合泰嘉项目加快推进，按照时
+13. 间节点完成相关服务工作。现纪要如下：
+14. 一、项目扶持资金落实
+15. 会议确定，园区管委会将依据双方协议精神给予泰嘉公司
+16. 3000万元人民币项目资金扶持。请泰嘉公司尽快组织完成设备
+17. 注资或土地购买等工作，以达成资金拨付条件；请财政局按照
+18. 园区财政资金管理相关规定主动与泰嘉公司对接，帮助企业完
+19. 善相关资料，尽快兑现园区管委会给予项目公司的资金扶持。
+20. 二、关于完善园区项目公司注资手续
+21. 超薄玻璃基板深加工项目在园区的项目公司（广西泰嘉光
+22. 电科技有限公司）已经于2018年12月完成工商注册，项目设
+23. 备的采购公司为广西钦州保税港区尊绅贸易有限公司（以下简

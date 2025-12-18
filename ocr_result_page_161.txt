@@ -1,0 +1,190 @@
+OCR结果 - 第 161 页
+==================================================
+处理的图像: temp_page_160_processed.png
+原始PDF页面: 161
+
+详细结果:
+[{'input_path': 'temp_page_160_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1415, 3), dtype=uint8)}, 'dt_polys': [array([[ 3, 30],
+       ...,
+       [ 3, 37]], shape=(4, 2), dtype=int16), array([[124, 105],
+       ...,
+       [124, 146]], shape=(4, 2), dtype=int16), array([[123, 173],
+       ...,
+       [124, 210]], shape=(4, 2), dtype=int16), array([[188, 224],
+       ...,
+       [188, 263]], shape=(4, 2), dtype=int16), array([[190, 299],
+       ...,
+       [191, 339]], shape=(4, 2), dtype=int16), array([[190, 350],
+       ...,
+       [190, 389]], shape=(4, 2), dtype=int16), array([[193, 412],
+       ...,
+       [194, 451]], shape=(4, 2), dtype=int16), array([[947, 752],
+       ...,
+       [947, 793]], shape=(4, 2), dtype=int16), array([[ 158, 1007],
+       ...,
+       [ 158, 1021]], shape=(4, 2), dtype=int16), array([[ 391, 1025],
+       ...,
+       [ 391, 1046]], shape=(4, 2), dtype=int16), array([[ 499, 1018],
+       ...,
+       [ 498, 1038]], shape=(4, 2), dtype=int16), array([[ 201, 1032],
+       ...,
+       [ 201, 1051]], shape=(4, 2), dtype=int16), array([[ 202, 1056],
+       ...,
+       [ 202, 1075]], shape=(4, 2), dtype=int16), array([[ 346, 1054],
+       ...,
+       [ 346, 1070]], shape=(4, 2), dtype=int16), array([[ 392, 1050],
+       ...,
+       [ 392, 1070]], shape=(4, 2), dtype=int16), array([[ 201, 1082],
+       ...,
+       [ 201, 1100]], shape=(4, 2), dtype=int16), array([[ 394, 1078],
+       ...,
+       [ 394, 1097]], shape=(4, 2), dtype=int16), array([[ 200, 1106],
+       ...,
+       [ 200, 1123]], shape=(4, 2), dtype=int16), array([[ 500, 1147],
+       ...,
+       [ 501, 1178]], shape=(4, 2), dtype=int16), array([[ 143, 1202],
+       ...,
+       [ 143, 1237]], shape=(4, 2), dtype=int16), array([[ 209, 1259],
+       ...,
+       [ 209, 1292]], shape=(4, 2), dtype=int16), array([[ 148, 1320],
+       ...,
+       [ 148, 1350]], shape=(4, 2), dtype=int16), array([[ 221, 1385],
+       ...,
+       [ 221, 1420]], shape=(4, 2), dtype=int16), array([[ 208, 1442],
+       ...,
+       [ 208, 1477]], shape=(4, 2), dtype=int16), array([[ 210, 1502],
+       ...,
+       [ 210, 1533]], shape=(4, 2), dtype=int16), array([[ 210, 1559],
+       ...,
+       [ 210, 1589]], shape=(4, 2), dtype=int16), array([[ 162, 1615],
+       ...,
+       [ 162, 1645]], shape=(4, 2), dtype=int16), array([[ 149, 1667],
+       ...,
+       [ 149, 1702]], shape=(4, 2), dtype=int16), array([[ 152, 1724],
+       ...,
+       [ 152, 1758]], shape=(4, 2), dtype=int16), array([[ 153, 1779],
+       ...,
+       [ 153, 1816]], shape=(4, 2), dtype=int16), array([[ 670, 1863],
+       ...,
+       [ 670, 1893]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['1', '东侧锦绣大道规划建设DN400的给水支管、南侧云顶大街规划建设DN300的给', '水支管，确保项目供水充足。', '②建设时序安排', '规划管网计划于2020年7月建成。', '③建设进展', '规划管网目前处于建设阶段。', '本项目', 'N', '水健道', '', '快哈水王干背道', '状吃水管', 'N.', '哈水', '到水水算通', '内前', '水王王管通', '图1.9-1本项目周边给水管网图', '1.9.2.2.排水', '本项目厂区排水为雨污分流，雨水收集后排入园区雨水管网，污水收集后经', '厂区污水处理厂处理后排入园区污水管网。', '(1)雨水', '①区雨水', '雨水收集后经厂区雨水总排放口，排入园区雨水管网。', '本项目雨水排放口沿北侧马莱大道、西侧友谊大道共设置5个雨水排放口', '(A-E），每个排放口均设置阀门，其中A、C两个雨水排放口处各设置1个雨水', '收集池，共2个，每个池子容积180m3，事故时关闭阀门，平时对雨水收集池内', '的雨水进行监控，异常时报警并关闭阀门，事故水经收集后泵至事故水池，保证', '事故水不外排，经废水站处理达标后排放。厂区雨水管网示意图见图1.9-2。', '21'], 'rec_scores': [0.39477983117103577, 0.9906893372535706, 0.9991756081581116, 0.9968971014022827, 0.9971020817756653, 0.9990863800048828, 0.9940924048423767, 0.9996099472045898, 0.06873966753482819, 0.550718367099762, 0.0, 0.49062687158584595, 0.7540854215621948, 0.548839807510376, 0.904159426689148, 0.5710698962211609, 0.5051636099815369, 0.6141495108604431, 0.9977141618728638, 0.9982150197029114, 0.9986382722854614, 0.9987993836402893, 0.8851963877677917, 0.9982260465621948, 0.9979293942451477, 0.9949783086776733, 0.9667298793792725, 0.9821295738220215, 0.9988291263580322, 0.9960474371910095, 0.9997079372406006], 'rec_polys': [array([[ 3, 30],
+       ...,
+       [ 3, 37]], shape=(4, 2), dtype=int16), array([[124, 105],
+       ...,
+       [124, 146]], shape=(4, 2), dtype=int16), array([[123, 173],
+       ...,
+       [124, 210]], shape=(4, 2), dtype=int16), array([[188, 224],
+       ...,
+       [188, 263]], shape=(4, 2), dtype=int16), array([[190, 299],
+       ...,
+       [191, 339]], shape=(4, 2), dtype=int16), array([[190, 350],
+       ...,
+       [190, 389]], shape=(4, 2), dtype=int16), array([[193, 412],
+       ...,
+       [194, 451]], shape=(4, 2), dtype=int16), array([[947, 752],
+       ...,
+       [947, 793]], shape=(4, 2), dtype=int16), array([[ 158, 1007],
+       ...,
+       [ 158, 1021]], shape=(4, 2), dtype=int16), array([[ 391, 1025],
+       ...,
+       [ 391, 1046]], shape=(4, 2), dtype=int16), array([[ 499, 1018],
+       ...,
+       [ 498, 1038]], shape=(4, 2), dtype=int16), array([[ 201, 1032],
+       ...,
+       [ 201, 1051]], shape=(4, 2), dtype=int16), array([[ 202, 1056],
+       ...,
+       [ 202, 1075]], shape=(4, 2), dtype=int16), array([[ 346, 1054],
+       ...,
+       [ 346, 1070]], shape=(4, 2), dtype=int16), array([[ 392, 1050],
+       ...,
+       [ 392, 1070]], shape=(4, 2), dtype=int16), array([[ 201, 1082],
+       ...,
+       [ 201, 1100]], shape=(4, 2), dtype=int16), array([[ 394, 1078],
+       ...,
+       [ 394, 1097]], shape=(4, 2), dtype=int16), array([[ 200, 1106],
+       ...,
+       [ 200, 1123]], shape=(4, 2), dtype=int16), array([[ 500, 1147],
+       ...,
+       [ 501, 1178]], shape=(4, 2), dtype=int16), array([[ 143, 1202],
+       ...,
+       [ 143, 1237]], shape=(4, 2), dtype=int16), array([[ 209, 1259],
+       ...,
+       [ 209, 1292]], shape=(4, 2), dtype=int16), array([[ 148, 1320],
+       ...,
+       [ 148, 1350]], shape=(4, 2), dtype=int16), array([[ 221, 1385],
+       ...,
+       [ 221, 1420]], shape=(4, 2), dtype=int16), array([[ 208, 1442],
+       ...,
+       [ 208, 1477]], shape=(4, 2), dtype=int16), array([[ 210, 1502],
+       ...,
+       [ 210, 1533]], shape=(4, 2), dtype=int16), array([[ 210, 1559],
+       ...,
+       [ 210, 1589]], shape=(4, 2), dtype=int16), array([[ 162, 1615],
+       ...,
+       [ 162, 1645]], shape=(4, 2), dtype=int16), array([[ 149, 1667],
+       ...,
+       [ 149, 1702]], shape=(4, 2), dtype=int16), array([[ 152, 1724],
+       ...,
+       [ 152, 1758]], shape=(4, 2), dtype=int16), array([[ 153, 1779],
+       ...,
+       [ 153, 1816]], shape=(4, 2), dtype=int16), array([[ 670, 1863],
+       ...,
+       [ 670, 1893]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[   3, ...,   37],
+       ...,
+       [ 670, ..., 1893]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 1
+2. 东侧锦绣大道规划建设DN400的给水支管、南侧云顶大街规划建设DN300的给
+3. 水支管，确保项目供水充足。
+4. ②建设时序安排
+5. 规划管网计划于2020年7月建成。
+6. ③建设进展
+7. 规划管网目前处于建设阶段。
+8. 本项目
+9. N
+10. 水健道
+11. 
+12. 快哈水王干背道
+13. 状吃水管
+14. N.
+15. 哈水
+16. 到水水算通
+17. 内前
+18. 水王王管通
+19. 图1.9-1本项目周边给水管网图
+20. 1.9.2.2.排水
+21. 本项目厂区排水为雨污分流，雨水收集后排入园区雨水管网，污水收集后经
+22. 厂区污水处理厂处理后排入园区污水管网。
+23. (1)雨水
+24. ①区雨水
+25. 雨水收集后经厂区雨水总排放口，排入园区雨水管网。
+26. 本项目雨水排放口沿北侧马莱大道、西侧友谊大道共设置5个雨水排放口
+27. (A-E），每个排放口均设置阀门，其中A、C两个雨水排放口处各设置1个雨水
+28. 收集池，共2个，每个池子容积180m3，事故时关闭阀门，平时对雨水收集池内
+29. 的雨水进行监控，异常时报警并关闭阀门，事故水经收集后泵至事故水池，保证
+30. 事故水不外排，经废水站处理达标后排放。厂区雨水管网示意图见图1.9-2。
+31. 21

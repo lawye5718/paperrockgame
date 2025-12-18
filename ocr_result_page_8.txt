@@ -1,0 +1,165 @@
+OCR结果 - 第 8 页
+==================================================
+处理的图像: temp_page_7_processed.png
+原始PDF页面: 8
+
+详细结果:
+[{'input_path': 'temp_page_7_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1427, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1427, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1427, 3), dtype=uint8)}, 'dt_polys': [array([[1305,    0],
+       ...,
+       [1310,  103]], shape=(4, 2), dtype=int16), array([[141, 183],
+       ...,
+       [141, 235]], shape=(4, 2), dtype=int16), array([[139, 253],
+       ...,
+       [139, 303]], shape=(4, 2), dtype=int16), array([[140, 323],
+       ...,
+       [140, 371]], shape=(4, 2), dtype=int16), array([[139, 392],
+       ...,
+       [139, 439]], shape=(4, 2), dtype=int16), array([[138, 461],
+       ...,
+       [138, 506]], shape=(4, 2), dtype=int16), array([[139, 529],
+       ...,
+       [139, 574]], shape=(4, 2), dtype=int16), array([[134, 599],
+       ...,
+       [134, 644]], shape=(4, 2), dtype=int16), array([[136, 670],
+       ...,
+       [136, 714]], shape=(4, 2), dtype=int16), array([[135, 739],
+       ...,
+       [135, 784]], shape=(4, 2), dtype=int16), array([[220, 812],
+       ...,
+       [220, 856]], shape=(4, 2), dtype=int16), array([[134, 883],
+       ...,
+       [134, 927]], shape=(4, 2), dtype=int16), array([[ 215,  950],
+       ...,
+       [ 215, 1003]], shape=(4, 2), dtype=int16), array([[ 219, 1025],
+       ...,
+       [ 219, 1072]], shape=(4, 2), dtype=int16), array([[ 219, 1096],
+       ...,
+       [ 219, 1141]], shape=(4, 2), dtype=int16), array([[ 135, 1167],
+       ...,
+       [ 135, 1208]], shape=(4, 2), dtype=int16), array([[ 136, 1234],
+       ...,
+       [ 136, 1279]], shape=(4, 2), dtype=int16), array([[ 132, 1302],
+       ...,
+       [ 132, 1351]], shape=(4, 2), dtype=int16), array([[ 222, 1376],
+       ...,
+       [ 222, 1421]], shape=(4, 2), dtype=int16), array([[ 219, 1444],
+       ...,
+       [ 219, 1491]], shape=(4, 2), dtype=int16), array([[ 135, 1514],
+       ...,
+       [ 135, 1558]], shape=(4, 2), dtype=int16), array([[ 136, 1584],
+       ...,
+       [ 136, 1628]], shape=(4, 2), dtype=int16), array([[ 136, 1651],
+       ...,
+       [ 136, 1699]], shape=(4, 2), dtype=int16), array([[ 139, 1725],
+       ...,
+       [ 139, 1766]], shape=(4, 2), dtype=int16), array([[ 121, 1851],
+       ...,
+       [ 121, 1979]], shape=(4, 2), dtype=int16), array([[ 939, 1873],
+       ...,
+       [ 938, 1914]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['工', '工作；2015年11月至2018年5月，任广西钦州保税港区管理', '委员会投资促进处副处长；2018年5月至2019年11月，任广', '西钦保投资集团有限责任公司执行董事、总经理；2019年11月', '至2021年4月，任广西自贸区钦州港片区开发投资集团有限责', '任公司执行董事、总经理；2021年4月至2024年9月，任广西', '中马钦州产业园区投资控股集团有限公司党委委员、副总经理；', '2024年9月因涉嫌严重违纪违法，被自治区纪委监委立案审查', '调查并采取留置措施；2025年3月，我因涉嫌受贿罪被移送检', '察机关，现羁押于北海市第二看守所。', '问：今天我们向你了解一些关于广西泰嘉超薄玻璃基板深加', '工项目（以下简称广西泰嘉项目）的情况，请你如实回答?', '答：好的。', '问：请你说一下广西泰嘉项目的基本情况?', '答：广西泰嘉项目是从事液晶显示器生产，这个项目号称价', '值近百亿，属于钦州市里的重点投资项目，市政府非常关注，由', '市领导王雄昌牵头引进并主推，钦州市对整个项目给予了大量的', '财力支持。', '问：请你说说王雄昌的个人情况?', '答：王雄昌，男，现年50多岁，他是广西钦州市委副书记、', '市人民政府市长，曾任广西钦州保税港区管理委员会、中国（广', '西）自由贸易试验区钦州港片区常务副主任等职务。王雄昌长期', '担任我的领导，我时常向他汇报工作，他比较认可我。我和他私', '底下关系也很好，相互间没有矛盾。', '签名：何斌', '第3页共14页'], 'rec_scores': [0.2559819519519806, 0.9966062903404236, 0.9553179740905762, 0.996374785900116, 0.996641218662262, 0.9969428777694702, 0.9954360723495483, 0.998018205165863, 0.9956411719322205, 0.9985098838806152, 0.9803129434585571, 0.9866015911102295, 0.9903632402420044, 0.9851292967796326, 0.9967111945152283, 0.9989423751831055, 0.9931725263595581, 0.9989898800849915, 0.9789266586303711, 0.9926233887672424, 0.9965267777442932, 0.9941869974136353, 0.9977893829345703, 0.997098982334137, 0.8540357351303101, 0.966428279876709], 'rec_polys': [array([[1305,    0],
+       ...,
+       [1310,  103]], shape=(4, 2), dtype=int16), array([[141, 183],
+       ...,
+       [141, 235]], shape=(4, 2), dtype=int16), array([[139, 253],
+       ...,
+       [139, 303]], shape=(4, 2), dtype=int16), array([[140, 323],
+       ...,
+       [140, 371]], shape=(4, 2), dtype=int16), array([[139, 392],
+       ...,
+       [139, 439]], shape=(4, 2), dtype=int16), array([[138, 461],
+       ...,
+       [138, 506]], shape=(4, 2), dtype=int16), array([[139, 529],
+       ...,
+       [139, 574]], shape=(4, 2), dtype=int16), array([[134, 599],
+       ...,
+       [134, 644]], shape=(4, 2), dtype=int16), array([[136, 670],
+       ...,
+       [136, 714]], shape=(4, 2), dtype=int16), array([[135, 739],
+       ...,
+       [135, 784]], shape=(4, 2), dtype=int16), array([[220, 812],
+       ...,
+       [220, 856]], shape=(4, 2), dtype=int16), array([[134, 883],
+       ...,
+       [134, 927]], shape=(4, 2), dtype=int16), array([[ 215,  950],
+       ...,
+       [ 215, 1003]], shape=(4, 2), dtype=int16), array([[ 219, 1025],
+       ...,
+       [ 219, 1072]], shape=(4, 2), dtype=int16), array([[ 219, 1096],
+       ...,
+       [ 219, 1141]], shape=(4, 2), dtype=int16), array([[ 135, 1167],
+       ...,
+       [ 135, 1208]], shape=(4, 2), dtype=int16), array([[ 136, 1234],
+       ...,
+       [ 136, 1279]], shape=(4, 2), dtype=int16), array([[ 132, 1302],
+       ...,
+       [ 132, 1351]], shape=(4, 2), dtype=int16), array([[ 222, 1376],
+       ...,
+       [ 222, 1421]], shape=(4, 2), dtype=int16), array([[ 219, 1444],
+       ...,
+       [ 219, 1491]], shape=(4, 2), dtype=int16), array([[ 135, 1514],
+       ...,
+       [ 135, 1558]], shape=(4, 2), dtype=int16), array([[ 136, 1584],
+       ...,
+       [ 136, 1628]], shape=(4, 2), dtype=int16), array([[ 136, 1651],
+       ...,
+       [ 136, 1699]], shape=(4, 2), dtype=int16), array([[ 139, 1725],
+       ...,
+       [ 139, 1766]], shape=(4, 2), dtype=int16), array([[ 121, 1851],
+       ...,
+       [ 121, 1979]], shape=(4, 2), dtype=int16), array([[ 939, 1873],
+       ...,
+       [ 938, 1914]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1305, ...,  103],
+       ...,
+       [ 938, ..., 1918]], shape=(26, 4), dtype=int16)}]
+
+解析后的文本:
+1. 工
+2. 工作；2015年11月至2018年5月，任广西钦州保税港区管理
+3. 委员会投资促进处副处长；2018年5月至2019年11月，任广
+4. 西钦保投资集团有限责任公司执行董事、总经理；2019年11月
+5. 至2021年4月，任广西自贸区钦州港片区开发投资集团有限责
+6. 任公司执行董事、总经理；2021年4月至2024年9月，任广西
+7. 中马钦州产业园区投资控股集团有限公司党委委员、副总经理；
+8. 2024年9月因涉嫌严重违纪违法，被自治区纪委监委立案审查
+9. 调查并采取留置措施；2025年3月，我因涉嫌受贿罪被移送检
+10. 察机关，现羁押于北海市第二看守所。
+11. 问：今天我们向你了解一些关于广西泰嘉超薄玻璃基板深加
+12. 工项目（以下简称广西泰嘉项目）的情况，请你如实回答?
+13. 答：好的。
+14. 问：请你说一下广西泰嘉项目的基本情况?
+15. 答：广西泰嘉项目是从事液晶显示器生产，这个项目号称价
+16. 值近百亿，属于钦州市里的重点投资项目，市政府非常关注，由
+17. 市领导王雄昌牵头引进并主推，钦州市对整个项目给予了大量的
+18. 财力支持。
+19. 问：请你说说王雄昌的个人情况?
+20. 答：王雄昌，男，现年50多岁，他是广西钦州市委副书记、
+21. 市人民政府市长，曾任广西钦州保税港区管理委员会、中国（广
+22. 西）自由贸易试验区钦州港片区常务副主任等职务。王雄昌长期
+23. 担任我的领导，我时常向他汇报工作，他比较认可我。我和他私
+24. 底下关系也很好，相互间没有矛盾。
+25. 签名：何斌
+26. 第3页共14页

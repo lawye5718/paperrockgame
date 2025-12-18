@@ -1,0 +1,170 @@
+OCR结果 - 第 17 页
+==================================================
+处理的图像: temp_page_16_processed.png
+原始PDF页面: 17
+
+详细结果:
+[{'input_path': 'temp_page_16_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1371,    0],
+       ...,
+       [1350,   56]], shape=(4, 2), dtype=int16), array([[222, 194],
+       ...,
+       [222, 239]], shape=(4, 2), dtype=int16), array([[138, 263],
+       ...,
+       [137, 304]], shape=(4, 2), dtype=int16), array([[136, 327],
+       ...,
+       [135, 372]], shape=(4, 2), dtype=int16), array([[135, 394],
+       ...,
+       [134, 438]], shape=(4, 2), dtype=int16), array([[135, 460],
+       ...,
+       [134, 505]], shape=(4, 2), dtype=int16), array([[129, 523],
+       ...,
+       [127, 573]], shape=(4, 2), dtype=int16), array([[220, 597],
+       ...,
+       [219, 644]], shape=(4, 2), dtype=int16), array([[221, 665],
+       ...,
+       [220, 709]], shape=(4, 2), dtype=int16), array([[136, 733],
+       ...,
+       [135, 774]], shape=(4, 2), dtype=int16), array([[136, 798],
+       ...,
+       [135, 842]], shape=(4, 2), dtype=int16), array([[137, 867],
+       ...,
+       [136, 910]], shape=(4, 2), dtype=int16), array([[137, 933],
+       ...,
+       [136, 978]], shape=(4, 2), dtype=int16), array([[ 138, 1000],
+       ...,
+       [ 137, 1044]], shape=(4, 2), dtype=int16), array([[ 139, 1066],
+       ...,
+       [ 138, 1108]], shape=(4, 2), dtype=int16), array([[ 141, 1132],
+       ...,
+       [ 140, 1173]], shape=(4, 2), dtype=int16), array([[ 138, 1196],
+       ...,
+       [ 137, 1240]], shape=(4, 2), dtype=int16), array([[ 140, 1264],
+       ...,
+       [ 139, 1305]], shape=(4, 2), dtype=int16), array([[ 138, 1331],
+       ...,
+       [ 137, 1372]], shape=(4, 2), dtype=int16), array([[ 137, 1396],
+       ...,
+       [ 136, 1440]], shape=(4, 2), dtype=int16), array([[ 133, 1461],
+       ...,
+       [ 132, 1507]], shape=(4, 2), dtype=int16), array([[ 135, 1528],
+       ...,
+       [ 134, 1572]], shape=(4, 2), dtype=int16), array([[ 131, 1591],
+       ...,
+       [ 130, 1638]], shape=(4, 2), dtype=int16), array([[ 131, 1656],
+       ...,
+       [ 130, 1703]], shape=(4, 2), dtype=int16), array([[ 131, 1723],
+       ...,
+       [ 130, 1770]], shape=(4, 2), dtype=int16), array([[ 121, 1866],
+       ...,
+       [ 124, 1930]], shape=(4, 2), dtype=int16), array([[ 928, 1887],
+       ...,
+       [ 928, 1931]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['4', '答：2018年11月，广西泰嘉项目第一次办理贷款业务签合', '同的时候，广西泰嘉公司还没有成立，所以由东莞合丰泰公司与', '银行签订合同。2020年7月，签订第二次办理贷款业务签合同', '时，广西泰嘉公司已经成立。虽然两次委托贷款签订合同不是同', '一个公司，但东莞合丰泰公司和广西泰嘉公司的实际控制人均为', '许于辰。', '问：请你说说桂林银行第二次委托贷款8000万元的情况?', '答：好的，我们三方签订第二次委托贷款合同后，银行反馈', '广西泰嘉公司每个月几十万元的利息经常逾期不交，利息催收工', '作越来越难，这个情况我给王雄昌汇报，王雄昌每次都说知道了，', '只要设备在保税港仓库，就在我们钦州保税港管委会的控制下，', '让我不需要担心。但我其实从开始8000万元委托贷款办理后就', '听到银行跟我反馈合丰泰公司资金实力差、利息常常逾期、银行', '催款很难等情况，我就觉得合丰泰公司以及他们公司的实控人许', '于辰的资金实力有问题，这个引到钦州的百亿项目是存在很大风', '险的，这8000万元的用途也可以体现这一点，连一个运费都要', '我们帮他们给，简直是“空手套白狼”，接着的利息也经常逾期，', '更加体现对方资金实力差，后来项目也确实出问题了。2022年5', '月，浙江警方来钦州办理关于许于辰的案件，浙江湖州泰嘉项目', '爆雷，对我们的影响是2022年6月第二次委托贷款期到期后广', '西泰嘉公司逾期不归还8000万元。我们分析广西泰嘉公司应该', '是没有钱归还这8000万元贷款了。我也向王雄昌汇报了具体情', '况，期间为了续贷需要资金过桥还是后期的泰嘉已经爆雷时，王', '雄昌都想协调市财政局用财政资金来帮广嘉公司还钱，财政局不', '签名：可证', '第12页共14页'], 'rec_scores': [0.8492962718009949, 0.9981028437614441, 0.9963642954826355, 0.9982244968414307, 0.9974890947341919, 0.9973716139793396, 0.9977717399597168, 0.9914902448654175, 0.996268630027771, 0.9968863129615784, 0.9833852052688599, 0.988420844078064, 0.9987545609474182, 0.9985741972923279, 0.9972167611122131, 0.9914790987968445, 0.9954224824905396, 0.9879767298698425, 0.9959015250205994, 0.9994084239006042, 0.9981397986412048, 0.9866634011268616, 0.9954143166542053, 0.9973165392875671, 0.9968146681785583, 0.7917469143867493, 0.9987664222717285], 'rec_polys': [array([[1371,    0],
+       ...,
+       [1350,   56]], shape=(4, 2), dtype=int16), array([[222, 194],
+       ...,
+       [222, 239]], shape=(4, 2), dtype=int16), array([[138, 263],
+       ...,
+       [137, 304]], shape=(4, 2), dtype=int16), array([[136, 327],
+       ...,
+       [135, 372]], shape=(4, 2), dtype=int16), array([[135, 394],
+       ...,
+       [134, 438]], shape=(4, 2), dtype=int16), array([[135, 460],
+       ...,
+       [134, 505]], shape=(4, 2), dtype=int16), array([[129, 523],
+       ...,
+       [127, 573]], shape=(4, 2), dtype=int16), array([[220, 597],
+       ...,
+       [219, 644]], shape=(4, 2), dtype=int16), array([[221, 665],
+       ...,
+       [220, 709]], shape=(4, 2), dtype=int16), array([[136, 733],
+       ...,
+       [135, 774]], shape=(4, 2), dtype=int16), array([[136, 798],
+       ...,
+       [135, 842]], shape=(4, 2), dtype=int16), array([[137, 867],
+       ...,
+       [136, 910]], shape=(4, 2), dtype=int16), array([[137, 933],
+       ...,
+       [136, 978]], shape=(4, 2), dtype=int16), array([[ 138, 1000],
+       ...,
+       [ 137, 1044]], shape=(4, 2), dtype=int16), array([[ 139, 1066],
+       ...,
+       [ 138, 1108]], shape=(4, 2), dtype=int16), array([[ 141, 1132],
+       ...,
+       [ 140, 1173]], shape=(4, 2), dtype=int16), array([[ 138, 1196],
+       ...,
+       [ 137, 1240]], shape=(4, 2), dtype=int16), array([[ 140, 1264],
+       ...,
+       [ 139, 1305]], shape=(4, 2), dtype=int16), array([[ 138, 1331],
+       ...,
+       [ 137, 1372]], shape=(4, 2), dtype=int16), array([[ 137, 1396],
+       ...,
+       [ 136, 1440]], shape=(4, 2), dtype=int16), array([[ 133, 1461],
+       ...,
+       [ 132, 1507]], shape=(4, 2), dtype=int16), array([[ 135, 1528],
+       ...,
+       [ 134, 1572]], shape=(4, 2), dtype=int16), array([[ 131, 1591],
+       ...,
+       [ 130, 1638]], shape=(4, 2), dtype=int16), array([[ 131, 1656],
+       ...,
+       [ 130, 1703]], shape=(4, 2), dtype=int16), array([[ 131, 1723],
+       ...,
+       [ 130, 1770]], shape=(4, 2), dtype=int16), array([[ 121, 1866],
+       ...,
+       [ 124, 1930]], shape=(4, 2), dtype=int16), array([[ 928, 1887],
+       ...,
+       [ 928, 1931]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1350, ...,   73],
+       ...,
+       [ 928, ..., 1931]], shape=(27, 4), dtype=int16)}]
+
+解析后的文本:
+1. 4
+2. 答：2018年11月，广西泰嘉项目第一次办理贷款业务签合
+3. 同的时候，广西泰嘉公司还没有成立，所以由东莞合丰泰公司与
+4. 银行签订合同。2020年7月，签订第二次办理贷款业务签合同
+5. 时，广西泰嘉公司已经成立。虽然两次委托贷款签订合同不是同
+6. 一个公司，但东莞合丰泰公司和广西泰嘉公司的实际控制人均为
+7. 许于辰。
+8. 问：请你说说桂林银行第二次委托贷款8000万元的情况?
+9. 答：好的，我们三方签订第二次委托贷款合同后，银行反馈
+10. 广西泰嘉公司每个月几十万元的利息经常逾期不交，利息催收工
+11. 作越来越难，这个情况我给王雄昌汇报，王雄昌每次都说知道了，
+12. 只要设备在保税港仓库，就在我们钦州保税港管委会的控制下，
+13. 让我不需要担心。但我其实从开始8000万元委托贷款办理后就
+14. 听到银行跟我反馈合丰泰公司资金实力差、利息常常逾期、银行
+15. 催款很难等情况，我就觉得合丰泰公司以及他们公司的实控人许
+16. 于辰的资金实力有问题，这个引到钦州的百亿项目是存在很大风
+17. 险的，这8000万元的用途也可以体现这一点，连一个运费都要
+18. 我们帮他们给，简直是“空手套白狼”，接着的利息也经常逾期，
+19. 更加体现对方资金实力差，后来项目也确实出问题了。2022年5
+20. 月，浙江警方来钦州办理关于许于辰的案件，浙江湖州泰嘉项目
+21. 爆雷，对我们的影响是2022年6月第二次委托贷款期到期后广
+22. 西泰嘉公司逾期不归还8000万元。我们分析广西泰嘉公司应该
+23. 是没有钱归还这8000万元贷款了。我也向王雄昌汇报了具体情
+24. 况，期间为了续贷需要资金过桥还是后期的泰嘉已经爆雷时，王
+25. 雄昌都想协调市财政局用财政资金来帮广嘉公司还钱，财政局不
+26. 签名：可证
+27. 第12页共14页

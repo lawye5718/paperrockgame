@@ -1,0 +1,135 @@
+OCR结果 - 第 213 页
+==================================================
+处理的图像: temp_page_212_processed.png
+原始PDF页面: 213
+
+详细结果:
+[{'input_path': 'temp_page_212_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1417, 3), dtype=uint8)}, 'dt_polys': [array([[209, 133],
+       ...,
+       [210, 174]], shape=(4, 2), dtype=int16), array([[229, 198],
+       ...,
+       [230, 235]], shape=(4, 2), dtype=int16), array([[215, 258],
+       ...,
+       [216, 296]], shape=(4, 2), dtype=int16), array([[153, 316],
+       ...,
+       [153, 354]], shape=(4, 2), dtype=int16), array([[153, 374],
+       ...,
+       [153, 411]], shape=(4, 2), dtype=int16), array([[156, 433],
+       ...,
+       [156, 468]], shape=(4, 2), dtype=int16), array([[218, 489],
+       ...,
+       [219, 522]], shape=(4, 2), dtype=int16), array([[155, 544],
+       ...,
+       [155, 578]], shape=(4, 2), dtype=int16), array([[156, 604],
+       ...,
+       [156, 634]], shape=(4, 2), dtype=int16), array([[155, 661],
+       ...,
+       [155, 691]], shape=(4, 2), dtype=int16), array([[220, 717],
+       ...,
+       [220, 749]], shape=(4, 2), dtype=int16), array([[153, 773],
+       ...,
+       [153, 813]], shape=(4, 2), dtype=int16), array([[219, 834],
+       ...,
+       [220, 869]], shape=(4, 2), dtype=int16), array([[235, 895],
+       ...,
+       [236, 928]], shape=(4, 2), dtype=int16), array([[220, 953],
+       ...,
+       [221, 988]], shape=(4, 2), dtype=int16), array([[ 157, 1009],
+       ...,
+       [ 157, 1046]], shape=(4, 2), dtype=int16), array([[ 220, 1065],
+       ...,
+       [ 221, 1102]], shape=(4, 2), dtype=int16), array([[ 160, 1119],
+       ...,
+       [ 160, 1154]], shape=(4, 2), dtype=int16), array([[ 222, 1173],
+       ...,
+       [ 221, 1210]], shape=(4, 2), dtype=int16), array([[ 710, 1972],
+       ...,
+       [ 710, 1999]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['含磷废水污染物产生及排放情况见表2.6-9、表2.6-10。', '(5）有机废水治理措施及排放情况', '有机废水W5来源：主要来自各生产线湿法刻蚀及清洗过程，主要污染物:', 'CODcr，排放量为2331m^{3/d，连续排放。此外，彩膜废水4275m{3/d，含磷废水', '3934m3/d，含氟废水3188m3/d，分别经处理后纳入有机废水处理系统，有机废水', '处理系统综合处理量为13828m3/d。', '治理措施：产生有机废水的工艺设备均设置密闭收集管，通过支管汇集到总', '管送到污水处理站，进入有机废水处理系统处理，经厂区总排口排放。有机废水', '处理系统采用生化法处理，处理效率约70%~90%。根据项目资料，有机废水处', '理系统设计方案如下：', '设置有机废水处理系统1套，处理能力720mh，处理后进入最终中和处理', '系统。', '有机废水污染物产生及排放情况见表2.6-9、表2.6-10。', '(6）冷却塔排污水治理措施及排放情况', '冷却塔排污水W6来源：主要来自冷却水循环系统排污，主要污染物：无机', '盐类，排放量为1017m{3/d，连续排放。直接排入最终中和处理系统。', '治理措施：冷却水循环系统设置密闭收集管，排污水通过支管汇集到总管送', '到污水处理站，进入最终中和处理系统，经厂区总排口排放。', '冷却塔排污水污染物产生及排放情况见表2.6-10。', '74'], 'rec_scores': [0.9967800378799438, 0.9513982534408569, 0.9730682373046875, 0.9060666561126709, 0.962439239025116, 0.8821755647659302, 0.995976448059082, 0.9980953931808472, 0.9974154829978943, 0.9954694509506226, 0.992169976234436, 0.9975099563598633, 0.9803438186645508, 0.9532656073570251, 0.988595187664032, 0.9601436257362366, 0.9955894947052002, 0.9944483637809753, 0.9970241785049438, 0.9993142485618591], 'rec_polys': [array([[209, 133],
+       ...,
+       [210, 174]], shape=(4, 2), dtype=int16), array([[229, 198],
+       ...,
+       [230, 235]], shape=(4, 2), dtype=int16), array([[215, 258],
+       ...,
+       [216, 296]], shape=(4, 2), dtype=int16), array([[153, 316],
+       ...,
+       [153, 354]], shape=(4, 2), dtype=int16), array([[153, 374],
+       ...,
+       [153, 411]], shape=(4, 2), dtype=int16), array([[156, 433],
+       ...,
+       [156, 468]], shape=(4, 2), dtype=int16), array([[218, 489],
+       ...,
+       [219, 522]], shape=(4, 2), dtype=int16), array([[155, 544],
+       ...,
+       [155, 578]], shape=(4, 2), dtype=int16), array([[156, 604],
+       ...,
+       [156, 634]], shape=(4, 2), dtype=int16), array([[155, 661],
+       ...,
+       [155, 691]], shape=(4, 2), dtype=int16), array([[220, 717],
+       ...,
+       [220, 749]], shape=(4, 2), dtype=int16), array([[153, 773],
+       ...,
+       [153, 813]], shape=(4, 2), dtype=int16), array([[219, 834],
+       ...,
+       [220, 869]], shape=(4, 2), dtype=int16), array([[235, 895],
+       ...,
+       [236, 928]], shape=(4, 2), dtype=int16), array([[220, 953],
+       ...,
+       [221, 988]], shape=(4, 2), dtype=int16), array([[ 157, 1009],
+       ...,
+       [ 157, 1046]], shape=(4, 2), dtype=int16), array([[ 220, 1065],
+       ...,
+       [ 221, 1102]], shape=(4, 2), dtype=int16), array([[ 160, 1119],
+       ...,
+       [ 160, 1154]], shape=(4, 2), dtype=int16), array([[ 222, 1173],
+       ...,
+       [ 221, 1210]], shape=(4, 2), dtype=int16), array([[ 710, 1972],
+       ...,
+       [ 710, 1999]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 209, ...,  174],
+       ...,
+       [ 710, ..., 1999]], shape=(20, 4), dtype=int16)}]
+
+解析后的文本:
+1. 含磷废水污染物产生及排放情况见表2.6-9、表2.6-10。
+2. (5）有机废水治理措施及排放情况
+3. 有机废水W5来源：主要来自各生产线湿法刻蚀及清洗过程，主要污染物:
+4. CODcr，排放量为2331m^{3/d，连续排放。此外，彩膜废水4275m{3/d，含磷废水
+5. 3934m3/d，含氟废水3188m3/d，分别经处理后纳入有机废水处理系统，有机废水
+6. 处理系统综合处理量为13828m3/d。
+7. 治理措施：产生有机废水的工艺设备均设置密闭收集管，通过支管汇集到总
+8. 管送到污水处理站，进入有机废水处理系统处理，经厂区总排口排放。有机废水
+9. 处理系统采用生化法处理，处理效率约70%~90%。根据项目资料，有机废水处
+10. 理系统设计方案如下：
+11. 设置有机废水处理系统1套，处理能力720mh，处理后进入最终中和处理
+12. 系统。
+13. 有机废水污染物产生及排放情况见表2.6-9、表2.6-10。
+14. (6）冷却塔排污水治理措施及排放情况
+15. 冷却塔排污水W6来源：主要来自冷却水循环系统排污，主要污染物：无机
+16. 盐类，排放量为1017m{3/d，连续排放。直接排入最终中和处理系统。
+17. 治理措施：冷却水循环系统设置密闭收集管，排污水通过支管汇集到总管送
+18. 到污水处理站，进入最终中和处理系统，经厂区总排口排放。
+19. 冷却塔排污水污染物产生及排放情况见表2.6-10。
+20. 74

@@ -1,0 +1,100 @@
+OCR结果 - 第 72 页
+==================================================
+处理的图像: temp_page_71_processed.png
+原始PDF页面: 72
+
+详细结果:
+[{'input_path': 'temp_page_71_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1422, 3), dtype=uint8)}, 'dt_polys': [array([[1341,    0],
+       ...,
+       [1333,  101]], shape=(4, 2), dtype=int16), array([[204, 176],
+       ...,
+       [204, 231]], shape=(4, 2), dtype=int16), array([[200, 426],
+       ...,
+       [201, 470]], shape=(4, 2), dtype=int16), array([[732, 449],
+       ...,
+       [737, 623]], shape=(4, 2), dtype=int16), array([[199, 538],
+       ...,
+       [200, 585]], shape=(4, 2), dtype=int16), array([[665, 660],
+       ...,
+       [660, 722]], shape=(4, 2), dtype=int16), array([[205, 717],
+       ...,
+       [206, 763]], shape=(4, 2), dtype=int16), array([[737, 800],
+       ...,
+       [734, 825]], shape=(4, 2), dtype=int16), array([[ 205, 1023],
+       ...,
+       [ 205, 1066]], shape=(4, 2), dtype=int16), array([[ 196, 1132],
+       ...,
+       [ 195, 1173]], shape=(4, 2), dtype=int16), array([[ 615, 1271],
+       ...,
+       [ 611, 1362]], shape=(4, 2), dtype=int16), array([[1094, 1315],
+       ...,
+       [1094, 1355]], shape=(4, 2), dtype=int16), array([[1167, 1949],
+       ...,
+       [1167, 2000]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['6°', '(以下无正文)', '甲方（盖章/自然人签字）：', '许派', '法定代表人/授权代理人（签章）:', '2', '乙方（盖章）', '', '丙方（盖章）：', '负责人（签章）：', '签署日期：2020年6月29', '日', ''], 'rec_scores': [0.6156386733055115, 0.8848138451576233, 0.9369723200798035, 0.21755319833755493, 0.9345519542694092, 0.1574273407459259, 0.9855051040649414, 0.0, 0.9681626558303833, 0.9407158493995667, 0.9515053033828735, 0.9918332099914551, 0.0], 'rec_polys': [array([[1341,    0],
+       ...,
+       [1333,  101]], shape=(4, 2), dtype=int16), array([[204, 176],
+       ...,
+       [204, 231]], shape=(4, 2), dtype=int16), array([[200, 426],
+       ...,
+       [201, 470]], shape=(4, 2), dtype=int16), array([[732, 449],
+       ...,
+       [737, 623]], shape=(4, 2), dtype=int16), array([[199, 538],
+       ...,
+       [200, 585]], shape=(4, 2), dtype=int16), array([[665, 660],
+       ...,
+       [660, 722]], shape=(4, 2), dtype=int16), array([[205, 717],
+       ...,
+       [206, 763]], shape=(4, 2), dtype=int16), array([[737, 800],
+       ...,
+       [734, 825]], shape=(4, 2), dtype=int16), array([[ 205, 1023],
+       ...,
+       [ 205, 1066]], shape=(4, 2), dtype=int16), array([[ 196, 1132],
+       ...,
+       [ 195, 1173]], shape=(4, 2), dtype=int16), array([[ 615, 1271],
+       ...,
+       [ 611, 1362]], shape=(4, 2), dtype=int16), array([[1094, 1315],
+       ...,
+       [1094, 1355]], shape=(4, 2), dtype=int16), array([[1167, 1949],
+       ...,
+       [1167, 2000]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1333, ...,  107],
+       ...,
+       [1167, ..., 2000]], shape=(13, 4), dtype=int16)}]
+
+解析后的文本:
+1. 6°
+2. (以下无正文)
+3. 甲方（盖章/自然人签字）：
+4. 许派
+5. 法定代表人/授权代理人（签章）:
+6. 2
+7. 乙方（盖章）
+8. 
+9. 丙方（盖章）：
+10. 负责人（签章）：
+11. 签署日期：2020年6月29
+12. 日
+13. 

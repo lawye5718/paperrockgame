@@ -1,0 +1,145 @@
+OCR结果 - 第 47 页
+==================================================
+处理的图像: temp_page_46_processed.png
+原始PDF页面: 47
+
+详细结果:
+[{'input_path': 'temp_page_46_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(1999, 1421, 3), dtype=uint8)}, 'dt_polys': [array([[429, 314],
+       ...,
+       [430, 361]], shape=(4, 2), dtype=int16), array([[236, 460],
+       ...,
+       [237, 503]], shape=(4, 2), dtype=int16), array([[236, 527],
+       ...,
+       [236, 568]], shape=(4, 2), dtype=int16), array([[151, 592],
+       ...,
+       [151, 636]], shape=(4, 2), dtype=int16), array([[153, 663],
+       ...,
+       [153, 707]], shape=(4, 2), dtype=int16), array([[150, 733],
+       ...,
+       [150, 780]], shape=(4, 2), dtype=int16), array([[150, 804],
+       ...,
+       [150, 848]], shape=(4, 2), dtype=int16), array([[149, 875],
+       ...,
+       [149, 919]], shape=(4, 2), dtype=int16), array([[236, 945],
+       ...,
+       [236, 989]], shape=(4, 2), dtype=int16), array([[ 149, 1014],
+       ...,
+       [ 150, 1061]], shape=(4, 2), dtype=int16), array([[ 233, 1083],
+       ...,
+       [ 233, 1131]], shape=(4, 2), dtype=int16), array([[ 233, 1153],
+       ...,
+       [ 233, 1200]], shape=(4, 2), dtype=int16), array([[ 147, 1224],
+       ...,
+       [ 148, 1272]], shape=(4, 2), dtype=int16), array([[ 152, 1296],
+       ...,
+       [ 153, 1339]], shape=(4, 2), dtype=int16), array([[ 151, 1365],
+       ...,
+       [ 152, 1410]], shape=(4, 2), dtype=int16), array([[ 153, 1438],
+       ...,
+       [ 154, 1478]], shape=(4, 2), dtype=int16), array([[ 150, 1506],
+       ...,
+       [ 151, 1548]], shape=(4, 2), dtype=int16), array([[ 149, 1573],
+       ...,
+       [ 150, 1618]], shape=(4, 2), dtype=int16), array([[ 152, 1639],
+       ...,
+       [ 151, 1681]], shape=(4, 2), dtype=int16), array([[ 234, 1711],
+       ...,
+       [ 235, 1755]], shape=(4, 2), dtype=int16), array([[ 148, 1779],
+       ...,
+       [ 149, 1827]], shape=(4, 2), dtype=int16), array([[ 684, 1913],
+       ...,
+       [ 684, 1944]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['第十三条丙方的权利和义务', '13.1丙方有权按本合同约定提取和使用委托贷款。', '13.2丙方应按本合同约定用途使用委托贷款，资金用途', '应符合法律法规、国家宏观调控和产业政策。资金用途不得', '为以下方面：生产、经营或投资国家禁止的领域和用途；从', '事债券、期货、金融衍生品、资产管理产品等投资；作为注', '册资本金、注册验资；用于股本权益性投资或增资扩股（监', '管部门另有规定的除外)；其他违反监管规定的用途。', '13.3丙方应按甲方要求，配合贷前调查、贷中审查和贷', '后检查，及时提供甲方要求的相关材料。', '13.4丙方应按本合同约定归还委托贷款本息。', '13.5丙方应在包括但不限于承包、租赁、托管、资产重', '组、债务重组、股份制改造、联营、合并（兼并）、分立、', '产权有偿转让、合资（合作）、减少注册资本或申请停业整', '顿、申请解散（或撤销）、申请破产等经营方式、自身体制', '和法律地位发生变化的三十日以前，书面通知甲方，并落实', '经甲方书面同意的本合同项下债务的清偿责任，或提供经用', '方认可的新的担保，否则在清偿本合同项下全部债务之前下', '得进行上述活动。', '13.6丙方应在包括但不限于被宣布停业整顿，被宣布', '同、被宣布解散（撤销）、被申请破产等自身体制和法律地', '12'], 'rec_scores': [0.997072160243988, 0.9896590113639832, 0.9855744242668152, 0.9949016571044922, 0.9915024042129517, 0.9933435916900635, 0.9947738647460938, 0.9744704365730286, 0.976688802242279, 0.9985806345939636, 0.9960923790931702, 0.9870816469192505, 0.9864871501922607, 0.9841423034667969, 0.9811789989471436, 0.9957143068313599, 0.9684852957725525, 0.9727824926376343, 0.9990651607513428, 0.9491173028945923, 0.879604697227478, 0.9757499098777771], 'rec_polys': [array([[429, 314],
+       ...,
+       [430, 361]], shape=(4, 2), dtype=int16), array([[236, 460],
+       ...,
+       [237, 503]], shape=(4, 2), dtype=int16), array([[236, 527],
+       ...,
+       [236, 568]], shape=(4, 2), dtype=int16), array([[151, 592],
+       ...,
+       [151, 636]], shape=(4, 2), dtype=int16), array([[153, 663],
+       ...,
+       [153, 707]], shape=(4, 2), dtype=int16), array([[150, 733],
+       ...,
+       [150, 780]], shape=(4, 2), dtype=int16), array([[150, 804],
+       ...,
+       [150, 848]], shape=(4, 2), dtype=int16), array([[149, 875],
+       ...,
+       [149, 919]], shape=(4, 2), dtype=int16), array([[236, 945],
+       ...,
+       [236, 989]], shape=(4, 2), dtype=int16), array([[ 149, 1014],
+       ...,
+       [ 150, 1061]], shape=(4, 2), dtype=int16), array([[ 233, 1083],
+       ...,
+       [ 233, 1131]], shape=(4, 2), dtype=int16), array([[ 233, 1153],
+       ...,
+       [ 233, 1200]], shape=(4, 2), dtype=int16), array([[ 147, 1224],
+       ...,
+       [ 148, 1272]], shape=(4, 2), dtype=int16), array([[ 152, 1296],
+       ...,
+       [ 153, 1339]], shape=(4, 2), dtype=int16), array([[ 151, 1365],
+       ...,
+       [ 152, 1410]], shape=(4, 2), dtype=int16), array([[ 153, 1438],
+       ...,
+       [ 154, 1478]], shape=(4, 2), dtype=int16), array([[ 150, 1506],
+       ...,
+       [ 151, 1548]], shape=(4, 2), dtype=int16), array([[ 149, 1573],
+       ...,
+       [ 150, 1618]], shape=(4, 2), dtype=int16), array([[ 152, 1639],
+       ...,
+       [ 151, 1681]], shape=(4, 2), dtype=int16), array([[ 234, 1711],
+       ...,
+       [ 235, 1755]], shape=(4, 2), dtype=int16), array([[ 148, 1779],
+       ...,
+       [ 149, 1827]], shape=(4, 2), dtype=int16), array([[ 684, 1913],
+       ...,
+       [ 684, 1944]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 429, ...,  361],
+       ...,
+       [ 684, ..., 1944]], shape=(22, 4), dtype=int16)}]
+
+解析后的文本:
+1. 第十三条丙方的权利和义务
+2. 13.1丙方有权按本合同约定提取和使用委托贷款。
+3. 13.2丙方应按本合同约定用途使用委托贷款，资金用途
+4. 应符合法律法规、国家宏观调控和产业政策。资金用途不得
+5. 为以下方面：生产、经营或投资国家禁止的领域和用途；从
+6. 事债券、期货、金融衍生品、资产管理产品等投资；作为注
+7. 册资本金、注册验资；用于股本权益性投资或增资扩股（监
+8. 管部门另有规定的除外)；其他违反监管规定的用途。
+9. 13.3丙方应按甲方要求，配合贷前调查、贷中审查和贷
+10. 后检查，及时提供甲方要求的相关材料。
+11. 13.4丙方应按本合同约定归还委托贷款本息。
+12. 13.5丙方应在包括但不限于承包、租赁、托管、资产重
+13. 组、债务重组、股份制改造、联营、合并（兼并）、分立、
+14. 产权有偿转让、合资（合作）、减少注册资本或申请停业整
+15. 顿、申请解散（或撤销）、申请破产等经营方式、自身体制
+16. 和法律地位发生变化的三十日以前，书面通知甲方，并落实
+17. 经甲方书面同意的本合同项下债务的清偿责任，或提供经用
+18. 方认可的新的担保，否则在清偿本合同项下全部债务之前下
+19. 得进行上述活动。
+20. 13.6丙方应在包括但不限于被宣布停业整顿，被宣布
+21. 同、被宣布解散（撤销）、被申请破产等自身体制和法律地
+22. 12

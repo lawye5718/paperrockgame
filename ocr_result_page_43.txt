@@ -1,0 +1,155 @@
+OCR结果 - 第 43 页
+==================================================
+处理的图像: temp_page_42_processed.png
+原始PDF页面: 43
+
+详细结果:
+[{'input_path': 'temp_page_42_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1423, 3), dtype=uint8)}, 'dt_polys': [array([[1346,   43],
+       ...,
+       [1346,  132]], shape=(4, 2), dtype=int16), array([[237, 152],
+       ...,
+       [236, 197]], shape=(4, 2), dtype=int16), array([[155, 222],
+       ...,
+       [155, 270]], shape=(4, 2), dtype=int16), array([[157, 296],
+       ...,
+       [157, 341]], shape=(4, 2), dtype=int16), array([[237, 365],
+       ...,
+       [236, 412]], shape=(4, 2), dtype=int16), array([[152, 431],
+       ...,
+       [151, 477]], shape=(4, 2), dtype=int16), array([[151, 504],
+       ...,
+       [150, 547]], shape=(4, 2), dtype=int16), array([[141, 567],
+       ...,
+       [140, 624]], shape=(4, 2), dtype=int16), array([[226, 645],
+       ...,
+       [225, 692]], shape=(4, 2), dtype=int16), array([[470, 792],
+       ...,
+       [470, 840]], shape=(4, 2), dtype=int16), array([[229, 943],
+       ...,
+       [230, 983]], shape=(4, 2), dtype=int16), array([[ 145, 1011],
+       ...,
+       [ 146, 1055]], shape=(4, 2), dtype=int16), array([[ 151, 1084],
+       ...,
+       [ 151, 1125]], shape=(4, 2), dtype=int16), array([[ 219, 1139],
+       ...,
+       [ 219, 1199]], shape=(4, 2), dtype=int16), array([[ 325, 1153],
+       ...,
+       [ 325, 1195]], shape=(4, 2), dtype=int16), array([[ 143, 1204],
+       ...,
+       [ 143, 1287]], shape=(4, 2), dtype=int16), array([[ 228, 1296],
+       ...,
+       [ 229, 1351]], shape=(4, 2), dtype=int16), array([[ 149, 1362],
+       ...,
+       [ 150, 1423]], shape=(4, 2), dtype=int16), array([[ 231, 1440],
+       ...,
+       [ 232, 1484]], shape=(4, 2), dtype=int16), array([[ 151, 1507],
+       ...,
+       [ 150, 1554]], shape=(4, 2), dtype=int16), array([[ 450, 1617],
+       ...,
+       [ 451, 1662]], shape=(4, 2), dtype=int16), array([[ 228, 1728],
+       ...,
+       [ 229, 1772]], shape=(4, 2), dtype=int16), array([[ 151, 1800],
+       ...,
+       [ 152, 1844]], shape=(4, 2), dtype=int16), array([[ 689, 1928],
+       ...,
+       [ 689, 1953]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['4', '7.3丙方应于还款日（付息日、还本日）将应还款项（利', '息、本金）足额存入在乙方开立的账户，乙方有权从该账户', '直接划收。如遇法定节假日，顺延至下一营业日。', '7.4乙方有权就应还款项划收未得或不足部分，从丙亏', '在华夏银行所有营业机构开立的账户中直接划收。划收款项', '币种与本合同项下币种不同时，以划收当日乙方公布的牌价', '折算。', '7.5委托贷款本金结清时，利随本清。', '第八条委托贷款手续费', '8.1对本协议项下所发生的委托贷款业务，乙方根据委', '托贷款手续繁简、金额大小、期限长短等收取手续费，手续', '费按如下约定办理：', '□', '由甲方在委托贷款发放时一次性支付，年费率为', '1.5%0;', '由甲方每季度支付一次，付费日为每季度末月20', '日，费率为每季度；', '8.2甲方不按期支付的，乙方有权从甲方账户中直接扣：', '收手续费。', '第九条委托贷款风险责任', '9.1本合同项下的委托贷款到期本息不能收回的风险负', '江由甲方承担，乙方不承担代为还本付息等任何风险责任', '8'], 'rec_scores': [0.9969382286071777, 0.9844027757644653, 0.980941653251648, 0.9962137341499329, 0.9749367237091064, 0.9920381307601929, 0.9948533177375793, 0.9927985668182373, 0.9909281134605408, 0.9994972348213196, 0.9741625189781189, 0.9883515238761902, 0.9952123165130615, 0.1908247470855713, 0.9977194666862488, 0.8759880661964417, 0.9944063425064087, 0.9834249019622803, 0.9764143228530884, 0.998623251914978, 0.9989052414894104, 0.9676960110664368, 0.904879629611969, 0.9457757472991943], 'rec_polys': [array([[1346,   43],
+       ...,
+       [1346,  132]], shape=(4, 2), dtype=int16), array([[237, 152],
+       ...,
+       [236, 197]], shape=(4, 2), dtype=int16), array([[155, 222],
+       ...,
+       [155, 270]], shape=(4, 2), dtype=int16), array([[157, 296],
+       ...,
+       [157, 341]], shape=(4, 2), dtype=int16), array([[237, 365],
+       ...,
+       [236, 412]], shape=(4, 2), dtype=int16), array([[152, 431],
+       ...,
+       [151, 477]], shape=(4, 2), dtype=int16), array([[151, 504],
+       ...,
+       [150, 547]], shape=(4, 2), dtype=int16), array([[141, 567],
+       ...,
+       [140, 624]], shape=(4, 2), dtype=int16), array([[226, 645],
+       ...,
+       [225, 692]], shape=(4, 2), dtype=int16), array([[470, 792],
+       ...,
+       [470, 840]], shape=(4, 2), dtype=int16), array([[229, 943],
+       ...,
+       [230, 983]], shape=(4, 2), dtype=int16), array([[ 145, 1011],
+       ...,
+       [ 146, 1055]], shape=(4, 2), dtype=int16), array([[ 151, 1084],
+       ...,
+       [ 151, 1125]], shape=(4, 2), dtype=int16), array([[ 219, 1139],
+       ...,
+       [ 219, 1199]], shape=(4, 2), dtype=int16), array([[ 325, 1153],
+       ...,
+       [ 325, 1195]], shape=(4, 2), dtype=int16), array([[ 143, 1204],
+       ...,
+       [ 143, 1287]], shape=(4, 2), dtype=int16), array([[ 228, 1296],
+       ...,
+       [ 229, 1351]], shape=(4, 2), dtype=int16), array([[ 149, 1362],
+       ...,
+       [ 150, 1423]], shape=(4, 2), dtype=int16), array([[ 231, 1440],
+       ...,
+       [ 232, 1484]], shape=(4, 2), dtype=int16), array([[ 151, 1507],
+       ...,
+       [ 150, 1554]], shape=(4, 2), dtype=int16), array([[ 450, 1617],
+       ...,
+       [ 451, 1662]], shape=(4, 2), dtype=int16), array([[ 228, 1728],
+       ...,
+       [ 229, 1772]], shape=(4, 2), dtype=int16), array([[ 151, 1800],
+       ...,
+       [ 152, 1844]], shape=(4, 2), dtype=int16), array([[ 689, 1928],
+       ...,
+       [ 689, 1953]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[1346, ...,  132],
+       ...,
+       [ 689, ..., 1953]], shape=(24, 4), dtype=int16)}]
+
+解析后的文本:
+1. 4
+2. 7.3丙方应于还款日（付息日、还本日）将应还款项（利
+3. 息、本金）足额存入在乙方开立的账户，乙方有权从该账户
+4. 直接划收。如遇法定节假日，顺延至下一营业日。
+5. 7.4乙方有权就应还款项划收未得或不足部分，从丙亏
+6. 在华夏银行所有营业机构开立的账户中直接划收。划收款项
+7. 币种与本合同项下币种不同时，以划收当日乙方公布的牌价
+8. 折算。
+9. 7.5委托贷款本金结清时，利随本清。
+10. 第八条委托贷款手续费
+11. 8.1对本协议项下所发生的委托贷款业务，乙方根据委
+12. 托贷款手续繁简、金额大小、期限长短等收取手续费，手续
+13. 费按如下约定办理：
+14. □
+15. 由甲方在委托贷款发放时一次性支付，年费率为
+16. 1.5%0;
+17. 由甲方每季度支付一次，付费日为每季度末月20
+18. 日，费率为每季度；
+19. 8.2甲方不按期支付的，乙方有权从甲方账户中直接扣：
+20. 收手续费。
+21. 第九条委托贷款风险责任
+22. 9.1本合同项下的委托贷款到期本息不能收回的风险负
+23. 江由甲方承担，乙方不承担代为还本付息等任何风险责任
+24. 8

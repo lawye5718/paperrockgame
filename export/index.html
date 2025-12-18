@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北海案件关系图</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #root {
+            width: 100vw;
+            height: 100vh;
+        }
+        /* 自定义节点样式 */
+        .defendant {
+            background: #ef4444;
+            color: white;
+            border: 2px solid #b91c1c;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            width: 180px;
+            text-align: center;
+        }
+        .intermediary {
+            background: #f59e0b;
+            color: white;
+            border: 1px solid #d97706;
+            padding: 8px;
+            border-radius: 6px;
+            width: 160px;
+            font-size: 12px;
+        }
+        .giver {
+            background: #3b82f6;
+            color: white;
+            border: 1px solid #1d4ed8;
+            padding: 8px;
+            border-radius: 6px;
+            width: 150px;
+            font-size: 12px;
+        }
+        .money {
+            background: #10b981;
+            color: white;
+            border: 1px solid #059669;
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 11px;
+            width: 140px;
+        }
+        .node-container {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sub-label {
+            font-size: 10px;
+            opacity: 0.8;
+        }
+        .edge-label {
+            font-size: 12px;
+            background: white;
+            padding: 2px 4px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script>
+        // 节点数据
+        const nodes = [
+            // 中心人物
+            {
+                id: '1',
+                type: 'defendant',
+                label: '被告人：王雄昌',
+                subLabel: '原钦州市长',
+                x: 600,
+                y: 50
+            },
+            // 左侧分支：特殊的"共同受贿"（低分成比例）
+            {
+                id: 'group1',
+                type: 'intermediary',
+                label: '中间人团伙 A',
+                subLabel: '廖炼炼、苏林、黎小宋',
+                x: 200,
+                y: 200
+            },
+            {
+                id: 'fact1',
+                type: 'giver',
+                label: '事实一：中建交通三公司',
+                subLabel: '总额1700万',
+                x: 100,
+                y: 350
+            },
+            {
+                id: 'fact2',
+                type: 'giver',
+                label: '事实二：麻华兴',
+                subLabel: '总额920万(实收1260万)',
+                x: 300,
+                y: 350
+            },
+            {
+                id: 'share1',
+                type: 'money',
+                label: '王分得20%',
+                subLabel: '340万 (廖炼炼保管)',
+                x: 100,
+                y: 450
+            },
+            {
+                id: 'share2',
+                type: 'money',
+                label: '王分得20%',
+                subLabel: '180万 (廖炼炼保管)',
+                x: 300,
+                y: 450
+            },
+            // 中间分支：泰嘉项目烂尾案
+            {
+                id: 'group2',
+                type: 'intermediary',
+                label: '中间人 B',
+                subLabel: '谢斌',
+                x: 600,
+                y: 200
+            },
+            {
+                id: 'fact3',
+                type: 'giver',
+                label: '事实三：许于辰(泰嘉)',
+                subLabel: '承诺1400万',
+                x: 600,
+                y: 350
+            },
+            {
+                id: 'share3',
+                type: 'money',
+                label: '主要由谢斌收受',
+                subLabel: '1000万未遂',
+                x: 600,
+                y: 450
+            },
+            // 右侧分支：行贿人保管/未遂/知情
+            {
+                id: 'fact7',
+                type: 'giver',
+                label: '事实七：王晓毅',
+                subLabel: '承诺600万',
+                x: 900,
+                y: 200
+            },
+            {
+                id: 'share7',
+                type: 'money',
+                label: '行贿人保管',
+                subLabel: '资金未实际转移',
+                x: 900,
+                y: 300
+            },
+            {
+                id: 'fact8',
+                type: 'giver',
+                label: '事实八：蒋兆国',
+                subLabel: '承诺400万',
+                x: 1100,
+                y: 200
+            },
+            {
+                id: 'share8',
+                type: 'money',
+                label: '行贿人保管',
+                subLabel: '资金未实际转移',
+                x: 1100,
+                y: 300
+            },
+            // 其他共同受贿
+            {
+                id: 'group3',
+                type: 'intermediary',
+                label: '中间人 C',
+                subLabel: '吴卫明',
+                x: 450,
+                y: 550
+            },
+            {
+                id: 'fact4',
+                type: 'giver',
+                label: '事实四：陈志涛',
+                subLabel: '994万',
+                x: 450,
+                y: 650
+            },
+            {
+                id: 'group4',
+                type: 'intermediary',
+                label: '中间人 D',
+                subLabel: '何斌(下属)',
+                x: 750,
+                y: 550
+            },
+            {
+                id: 'fact5',
+                type: 'giver',
+                label: '事实五：李瑜',
+                subLabel: '600万',
+                x: 750,
+                y: 650
+            }
+        ];
+
+        // 连接线数据
+        const edges = [
+            { id: 'e1-g1', source: '1', target: 'group1', label: '提供权力支持' },
+            { id: 'eg1-f1', source: 'group1', target: 'fact1', label: '索取/收受' },
+            { id: 'eg1-f2', source: 'group1', target: 'fact2', label: '索取/收受' },
+            { id: 'ef1-s1', source: 'fact1', target: 'share1' },
+            { id: 'ef2-s2', source: 'fact2', target: 'share2' },
+            { id: 'e1-g2', source: '1', target: 'group2', label: '引进项目/权力支持' },
+            { id: 'eg2-f3', source: 'group2', target: 'fact3' },
+            { id: 'ef3-s3', source: 'fact3', target: 'share3' },
+            { id: 'e1-f7', source: '1', target: 'fact7', label: '口头答应' },
+            { id: 'ef7-s7', source: 'fact7', target: 'share7', label: '无物理转移' },
+            { id: 'e1-f8', source: '1', target: 'fact8', label: '口头答应' },
+            { id: 'ef8-s8', source: 'fact8', target: 'share8', label: '无物理转移' },
+            { id: 'e1-g3', source: '1', target: 'group3' },
+            { id: 'eg3-f4', source: 'group3', target: 'fact4' },
+            { id: 'e1-g4', source: '1', target: 'group4' },
+            { id: 'eg4-f5', source: 'group4', target: 'fact5' }
+        ];
+
+        // 渲染函数
+        function render() {
+            const root = document.getElementById('root');
+            
+            // 创建SVG容器用于绘制连接线
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('width', '100%');
+            svg.setAttribute('height', '100%');
+            root.appendChild(svg);
+            
+            // 渲染节点
+            nodes.forEach(node => {
+                const nodeEl = document.createElement('div');
+                nodeEl.className = `node-container ${node.type}`;
+                nodeEl.style.left = `${node.x}px`;
+                nodeEl.style.top = `${node.y}px`;
+                
+                const labelEl = document.createElement('div');
+                labelEl.textContent = node.label;
+                nodeEl.appendChild(labelEl);
+                
+                if (node.subLabel) {
+                    const subLabelEl = document.createElement('div');
+                    subLabelEl.className = 'sub-label';
+                    subLabelEl.textContent = node.subLabel;
+                    nodeEl.appendChild(subLabelEl);
+                }
+                
+                root.appendChild(nodeEl);
+            });
+            
+            // 渲染连接线
+            edges.forEach(edge => {
+                const sourceNode = nodes.find(n => n.id === edge.source);
+                const targetNode = nodes.find(n => n.id === edge.target);
+                
+                if (sourceNode && targetNode) {
+                    // 计算节点中心点
+                    const sourceX = sourceNode.x + (sourceNode.type === 'defendant' ? 90 : 
+                                      sourceNode.type === 'intermediary' ? 80 : 
+                                      sourceNode.type === 'giver' ? 75 : 70);
+                    const sourceY = sourceNode.y + (sourceNode.type === 'defendant' ? 30 : 
+                                      sourceNode.type === 'intermediary' ? 25 : 
+                                      sourceNode.type === 'giver' ? 25 : 20);
+                    const targetX = targetNode.x + (targetNode.type === 'defendant' ? 90 : 
+                                      targetNode.type === 'intermediary' ? 80 : 
+                                      targetNode.type === 'giver' ? 75 : 70);
+                    const targetY = targetNode.y + (targetNode.type === 'defendant' ? 30 : 
+                                      targetNode.type === 'intermediary' ? 25 : 
+                                      targetNode.type === 'giver' ? 25 : 20);
+                    
+                    // 创建线条
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', sourceX);
+                    line.setAttribute('y1', sourceY);
+                    line.setAttribute('x2', targetX);
+                    line.setAttribute('y2', targetY);
+                    line.setAttribute('stroke', '#666');
+                    line.setAttribute('stroke-width', '2');
+                    svg.appendChild(line);
+                    
+                    // 添加箭头
+                    const arrow = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                    const angle = Math.atan2(targetY - sourceY, targetX - sourceX);
+                    const arrowSize = 6;
+                    const points = [
+                        `${targetX},${targetY}`,
+                        `${targetX - arrowSize * Math.cos(angle - Math.PI/6)},${targetY - arrowSize * Math.sin(angle - Math.PI/6)}`,
+                        `${targetX - arrowSize * Math.cos(angle + Math.PI/6)},${targetY - arrowSize * Math.sin(angle + Math.PI/6)}`
+                    ].join(' ');
+                    arrow.setAttribute('points', points);
+                    arrow.setAttribute('fill', '#666');
+                    svg.appendChild(arrow);
+                    
+                    // 添加标签
+                    if (edge.label) {
+                        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                        text.setAttribute('x', (sourceX + targetX) / 2);
+                        text.setAttribute('y', (sourceY + targetY) / 2 - 5);
+                        text.setAttribute('text-anchor', 'middle');
+                        text.setAttribute('font-size', '12');
+                        text.setAttribute('fill', '#333');
+                        text.textContent = edge.label;
+                        svg.appendChild(text);
+                    }
+                }
+            });
+        }
+
+        // 页面加载完成后渲染
+        document.addEventListener('DOMContentLoaded', render);
+    </script>
+</body>
+</html>

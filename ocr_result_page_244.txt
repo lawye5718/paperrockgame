@@ -1,0 +1,190 @@
+OCR结果 - 第 244 页
+==================================================
+处理的图像: temp_page_243_processed.png
+原始PDF页面: 244
+
+详细结果:
+[{'input_path': 'temp_page_243_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1412, 3), dtype=uint8)}, 'dt_polys': [array([[135, 113],
+       ...,
+       [134, 154]], shape=(4, 2), dtype=int16), array([[220, 183],
+       ...,
+       [218, 221]], shape=(4, 2), dtype=int16), array([[206, 248],
+       ...,
+       [205, 282]], shape=(4, 2), dtype=int16), array([[222, 309],
+       ...,
+       [221, 344]], shape=(4, 2), dtype=int16), array([[209, 368],
+       ...,
+       [209, 402]], shape=(4, 2), dtype=int16), array([[145, 420],
+       ...,
+       [144, 455]], shape=(4, 2), dtype=int16), array([[148, 477],
+       ...,
+       [147, 507]], shape=(4, 2), dtype=int16), array([[147, 531],
+       ...,
+       [146, 562]], shape=(4, 2), dtype=int16), array([[147, 588],
+       ...,
+       [146, 618]], shape=(4, 2), dtype=int16), array([[142, 639],
+       ...,
+       [142, 680]], shape=(4, 2), dtype=int16), array([[213, 702],
+       ...,
+       [212, 735]], shape=(4, 2), dtype=int16), array([[149, 760],
+       ...,
+       [148, 791]], shape=(4, 2), dtype=int16), array([[229, 820],
+       ...,
+       [229, 851]], shape=(4, 2), dtype=int16), array([[216, 876],
+       ...,
+       [216, 907]], shape=(4, 2), dtype=int16), array([[153, 933],
+       ...,
+       [153, 965]], shape=(4, 2), dtype=int16), array([[ 154,  989],
+       ...,
+       [ 153, 1020]], shape=(4, 2), dtype=int16), array([[ 152, 1046],
+       ...,
+       [ 151, 1077]], shape=(4, 2), dtype=int16), array([[ 151, 1113],
+       ...,
+       [ 150, 1141]], shape=(4, 2), dtype=int16), array([[ 216, 1158],
+       ...,
+       [ 216, 1188]], shape=(4, 2), dtype=int16), array([[ 152, 1213],
+       ...,
+       [ 151, 1244]], shape=(4, 2), dtype=int16), array([[ 164, 1270],
+       ...,
+       [ 163, 1301]], shape=(4, 2), dtype=int16), array([[ 150, 1328],
+       ...,
+       [ 149, 1359]], shape=(4, 2), dtype=int16), array([[ 150, 1383],
+       ...,
+       [ 149, 1417]], shape=(4, 2), dtype=int16), array([[ 147, 1443],
+       ...,
+       [ 147, 1474]], shape=(4, 2), dtype=int16), array([[ 211, 1495],
+       ...,
+       [ 210, 1532]], shape=(4, 2), dtype=int16), array([[ 149, 1554],
+       ...,
+       [ 148, 1586]], shape=(4, 2), dtype=int16), array([[ 209, 1608],
+       ...,
+       [ 208, 1645]], shape=(4, 2), dtype=int16), array([[ 149, 1668],
+       ...,
+       [ 148, 1699]], shape=(4, 2), dtype=int16), array([[ 226, 1726],
+       ...,
+       [ 225, 1760]], shape=(4, 2), dtype=int16), array([[ 149, 1782],
+       ...,
+       [ 148, 1816]], shape=(4, 2), dtype=int16), array([[ 672, 1831],
+       ...,
+       [ 670, 1863]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['进行收集、暂存。本项目固体废物采取的处置措施如下：', '(1)危险废物', '项目产生的危险废物均交由有危险废物处理资质的单位处置。', '(2) 待鉴定废物', '本项目废水处理系统将产生有机污泥，其性质、成分较复杂，目前尚难以判', '断其是否属于危险废物。因此，建设单位在项目试生产阶段需委托专业机构对项', '目产生的有机污泥进行采样、分析，进行毒性鉴别。若鉴别结果判定为危险废物，', '则上述污泥需交由有危险废物处理资质的单位处置：若鉴定为一般固废，则交由', '相应的单位进行资源化、无害化处置。项目建设单位需将鉴定结果交由环保局备', '案。', '上述污泥需按照危险废物管理的要求，在厂区设置单独区域暂存，暂存区需', '经过防渗、防腐处理，并设置经防渗、防腐处理的地沟或围堰。', '（3）一般废物', '一般废物中废靶材由生产厂商回收：废液晶屏、废玻璃、废背光源、废偏光', '片、废ACF、废COF、废保护膜、金属边框等由永清县美华电子废弃物处理服务', '中心：含磷污泥、彩膜污泥、含氟污泥则由相应的单位进行资源化、无害化处置；', '化粪池污泥和办公生活垃圾由环卫部门统一清运。', '3.5.3.危险固体废物储运过程的环境保护对策', '危险废物储运过程中应严格执行《危险废物转移联单管理》、《道路危险废', '物运输管理规定》、《危险品运输管理规范》、《道路运输危险货物车辆标志》、', '《医疗废物转运车技术要求》（GB19217-2003）以及《危险废物贮存污染控制', '标准》（GB18597-2001）等相关规定和要求。根据国家有关危险废物贮运法规', '要求，采取运输、储存全过程的安全和环保措施。', '3.5.3.1，危险固体废物暂存库的管理要求', '对于危险废物暂存库，按照《危险废物贮存污染控制标准》(GB18597-2001)', '进行污染控制和管理。', '项目污泥暂存区需按照《危险废物贮存污染控制标准》(GB18597-2001)', '进行污染控制和管理。', '（1)危险固废暂存库、污泥暂存区地面与裙脚采用坚固、防渗的材料建造，', '建筑材料必须与危险废物相容。危废暂存库严格按照《危险废物贮存污染控制标', '105'], 'rec_scores': [0.9625211954116821, 0.9006544947624207, 0.9979934096336365, 0.8983708620071411, 0.9868798851966858, 0.9970023036003113, 0.9748210906982422, 0.9925436973571777, 0.9957247972488403, 0.9946103096008301, 0.9990134835243225, 0.9957054853439331, 0.8815054893493652, 0.9810473322868347, 0.9963388442993164, 0.9742366075515747, 0.9973804950714111, 0.9685859084129333, 0.9967622756958008, 0.9901095628738403, 0.9814847707748413, 0.9780982732772827, 0.9977408051490784, 0.9710555672645569, 0.9703347086906433, 0.9976766705513, 0.9568461179733276, 0.9621256589889526, 0.9737480282783508, 0.9984655380249023, 0.999445915222168], 'rec_polys': [array([[135, 113],
+       ...,
+       [134, 154]], shape=(4, 2), dtype=int16), array([[220, 183],
+       ...,
+       [218, 221]], shape=(4, 2), dtype=int16), array([[206, 248],
+       ...,
+       [205, 282]], shape=(4, 2), dtype=int16), array([[222, 309],
+       ...,
+       [221, 344]], shape=(4, 2), dtype=int16), array([[209, 368],
+       ...,
+       [209, 402]], shape=(4, 2), dtype=int16), array([[145, 420],
+       ...,
+       [144, 455]], shape=(4, 2), dtype=int16), array([[148, 477],
+       ...,
+       [147, 507]], shape=(4, 2), dtype=int16), array([[147, 531],
+       ...,
+       [146, 562]], shape=(4, 2), dtype=int16), array([[147, 588],
+       ...,
+       [146, 618]], shape=(4, 2), dtype=int16), array([[142, 639],
+       ...,
+       [142, 680]], shape=(4, 2), dtype=int16), array([[213, 702],
+       ...,
+       [212, 735]], shape=(4, 2), dtype=int16), array([[149, 760],
+       ...,
+       [148, 791]], shape=(4, 2), dtype=int16), array([[229, 820],
+       ...,
+       [229, 851]], shape=(4, 2), dtype=int16), array([[216, 876],
+       ...,
+       [216, 907]], shape=(4, 2), dtype=int16), array([[153, 933],
+       ...,
+       [153, 965]], shape=(4, 2), dtype=int16), array([[ 154,  989],
+       ...,
+       [ 153, 1020]], shape=(4, 2), dtype=int16), array([[ 152, 1046],
+       ...,
+       [ 151, 1077]], shape=(4, 2), dtype=int16), array([[ 151, 1113],
+       ...,
+       [ 150, 1141]], shape=(4, 2), dtype=int16), array([[ 216, 1158],
+       ...,
+       [ 216, 1188]], shape=(4, 2), dtype=int16), array([[ 152, 1213],
+       ...,
+       [ 151, 1244]], shape=(4, 2), dtype=int16), array([[ 164, 1270],
+       ...,
+       [ 163, 1301]], shape=(4, 2), dtype=int16), array([[ 150, 1328],
+       ...,
+       [ 149, 1359]], shape=(4, 2), dtype=int16), array([[ 150, 1383],
+       ...,
+       [ 149, 1417]], shape=(4, 2), dtype=int16), array([[ 147, 1443],
+       ...,
+       [ 147, 1474]], shape=(4, 2), dtype=int16), array([[ 211, 1495],
+       ...,
+       [ 210, 1532]], shape=(4, 2), dtype=int16), array([[ 149, 1554],
+       ...,
+       [ 148, 1586]], shape=(4, 2), dtype=int16), array([[ 209, 1608],
+       ...,
+       [ 208, 1645]], shape=(4, 2), dtype=int16), array([[ 149, 1668],
+       ...,
+       [ 148, 1699]], shape=(4, 2), dtype=int16), array([[ 226, 1726],
+       ...,
+       [ 225, 1760]], shape=(4, 2), dtype=int16), array([[ 149, 1782],
+       ...,
+       [ 148, 1816]], shape=(4, 2), dtype=int16), array([[ 672, 1831],
+       ...,
+       [ 670, 1863]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'rec_boxes': array([[ 134, ...,  175],
+       ...,
+       [ 670, ..., 1866]], shape=(31, 4), dtype=int16)}]
+
+解析后的文本:
+1. 进行收集、暂存。本项目固体废物采取的处置措施如下：
+2. (1)危险废物
+3. 项目产生的危险废物均交由有危险废物处理资质的单位处置。
+4. (2) 待鉴定废物
+5. 本项目废水处理系统将产生有机污泥，其性质、成分较复杂，目前尚难以判
+6. 断其是否属于危险废物。因此，建设单位在项目试生产阶段需委托专业机构对项
+7. 目产生的有机污泥进行采样、分析，进行毒性鉴别。若鉴别结果判定为危险废物，
+8. 则上述污泥需交由有危险废物处理资质的单位处置：若鉴定为一般固废，则交由
+9. 相应的单位进行资源化、无害化处置。项目建设单位需将鉴定结果交由环保局备
+10. 案。
+11. 上述污泥需按照危险废物管理的要求，在厂区设置单独区域暂存，暂存区需
+12. 经过防渗、防腐处理，并设置经防渗、防腐处理的地沟或围堰。
+13. （3）一般废物
+14. 一般废物中废靶材由生产厂商回收：废液晶屏、废玻璃、废背光源、废偏光
+15. 片、废ACF、废COF、废保护膜、金属边框等由永清县美华电子废弃物处理服务
+16. 中心：含磷污泥、彩膜污泥、含氟污泥则由相应的单位进行资源化、无害化处置；
+17. 化粪池污泥和办公生活垃圾由环卫部门统一清运。
+18. 3.5.3.危险固体废物储运过程的环境保护对策
+19. 危险废物储运过程中应严格执行《危险废物转移联单管理》、《道路危险废
+20. 物运输管理规定》、《危险品运输管理规范》、《道路运输危险货物车辆标志》、
+21. 《医疗废物转运车技术要求》（GB19217-2003）以及《危险废物贮存污染控制
+22. 标准》（GB18597-2001）等相关规定和要求。根据国家有关危险废物贮运法规
+23. 要求，采取运输、储存全过程的安全和环保措施。
+24. 3.5.3.1，危险固体废物暂存库的管理要求
+25. 对于危险废物暂存库，按照《危险废物贮存污染控制标准》(GB18597-2001)
+26. 进行污染控制和管理。
+27. 项目污泥暂存区需按照《危险废物贮存污染控制标准》(GB18597-2001)
+28. 进行污染控制和管理。
+29. （1)危险固废暂存库、污泥暂存区地面与裙脚采用坚固、防渗的材料建造，
+30. 建筑材料必须与危险废物相容。危废暂存库严格按照《危险废物贮存污染控制标
+31. 105

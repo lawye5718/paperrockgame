@@ -1,0 +1,75 @@
+OCR结果 - 第 107 页
+==================================================
+处理的图像: temp_page_106_processed.png
+原始PDF页面: 107
+
+详细结果:
+[{'input_path': 'temp_page_106_processed.png', 'page_index': None, 'doc_preprocessor_res': {'input_path': None, 'page_index': None, 'input_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'model_settings': {'use_doc_orientation_classify': True, 'use_doc_unwarping': True}, 'angle': 0, 'rot_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8), 'output_img': array([[[255, ..., 255],
+        ...,
+        [255, ..., 255]],
+
+       ...,
+
+       [[255, ..., 255],
+        ...,
+        [255, ..., 255]]], shape=(2000, 1424, 3), dtype=uint8)}, 'dt_polys': [array([[1330,  112],
+       ...,
+       [1330,  133]], shape=(4, 2), dtype=int16), array([[ 959, 1660],
+       ...,
+       [ 959, 1677]], shape=(4, 2), dtype=int16), array([[1196, 1663],
+       ...,
+       [1196, 1680]], shape=(4, 2), dtype=int16), array([[ 895, 1793],
+       ...,
+       [ 895, 1804]], shape=(4, 2), dtype=int16), array([[1125, 1815],
+       ...,
+       [1125, 1823]], shape=(4, 2), dtype=int16), array([[1248, 1933],
+       ...,
+       [1248, 1948]], shape=(4, 2), dtype=int16), array([[1063, 1956],
+       ...,
+       [1063, 1966]], shape=(4, 2), dtype=int16), array([[1232, 1953],
+       ...,
+       [1232, 1971]], shape=(4, 2), dtype=int16)], 'model_settings': {'use_doc_preprocessor': True, 'use_textline_orientation': True}, 'text_det_params': {'limit_side_len': 64, 'limit_type': 'min', 'thresh': 0.3, 'max_side_limit': 4000, 'box_thresh': 0.6, 'unclip_ratio': 1.5}, 'text_type': 'general', 'text_rec_score_thresh': 0.0, 'return_word_box': False, 'rec_texts': ['大度心', '', '', '', 'T', '', '', ''], 'rec_scores': [0.49661850929260254, 0.0, 0.0, 0.0, 0.2028573453426361, 0.0, 0.0, 0.0], 'rec_polys': [array([[1330,  112],
+       ...,
+       [1330,  133]], shape=(4, 2), dtype=int16), array([[ 959, 1660],
+       ...,
+       [ 959, 1677]], shape=(4, 2), dtype=int16), array([[1196, 1663],
+       ...,
+       [1196, 1680]], shape=(4, 2), dtype=int16), array([[ 895, 1793],
+       ...,
+       [ 895, 1804]], shape=(4, 2), dtype=int16), array([[1125, 1815],
+       ...,
+       [1125, 1823]], shape=(4, 2), dtype=int16), array([[1248, 1933],
+       ...,
+       [1248, 1948]], shape=(4, 2), dtype=int16), array([[1063, 1956],
+       ...,
+       [1063, 1966]], shape=(4, 2), dtype=int16), array([[1232, 1953],
+       ...,
+       [1232, 1971]], shape=(4, 2), dtype=int16)], 'vis_fonts': [<paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>, <paddlex.utils.fonts.Font object at 0x10de7f9d0>], 'textline_orientation_angles': [0, 0, 0, 0, 1, 0, 0, 1], 'rec_boxes': array([[1330, ...,  133],
+       ...,
+       [1232, ..., 1971]], shape=(8, 4), dtype=int16)}]
+
+解析后的文本:
+1. 大度心
+2. 
+3. 
+4. 
+5. T
+6. 
+7. 
+8. 
