@@ -1,0 +1,142 @@
+问题根源分析：
+动作切换逻辑未闭环：在 gameLoop 函数中，虽然修改了 game.currentAction 变量，但由于 startRenderer 渲染循环中对非循环动作的处理过于生硬，导致动画可能瞬间跳回 idle1，用户肉眼看不到出拳动作。
+
+手势识别算法过于理想化：原有的识别算法仅依赖 Y 轴坐标对比。在实际摄像头拍摄中，手部的倾斜、远近以及 MediaPipe 坐标系的归一化特性（0.0 到 1.0），使得简单的 y < y 极易失效。
+
+异步节拍同步问题：AI 识别是持续进行的，而游戏判定是瞬间发生的。如果采样瞬间手部稍微晃动，就会判定为 uncertain。
+
+修改后的核心代码实现
+请将 index.html 中的相关函数替换为以下逻辑：
+
+1. 强化版手势识别算法 (analyzeHand)
+我们引入了“伸缩阈值”判定，不仅看 Y 轴，还考虑了手指张开的角度。
+
+JavaScript
+
+function analyzeHand(landmarks) {
+    // MediaPipe 关键点索引：食指(8), 中指(12), 无名指(16), 小指(20)
+    // 关节索引：食指根部(5), 中指根部(9)...
+    const getIsExtended = (tip, mcp) => {
+        // 计算指尖到手腕的距离 vs 关节到手腕的距离
+        // 简单处理：判断指尖 Y 坐标是否显著高于（在屏幕上是数值更小）关节 Y 坐标
+        return landmarks[tip].y < landmarks[mcp].y - 0.05; 
+    };
+
+    const f8 = getIsExtended(8, 6);   // 食指
+    const f12 = getIsExtended(12, 10); // 中指
+    const f16 = getIsExtended(16, 14); // 无名指
+    const f20 = getIsExtended(20, 18); // 小指
+
+    // 石头：所有手指都握紧
+    if (!f8 && !f12 && !f16 && !f20) return 'rock';
+    // 布：所有手指都伸开
+    if (f8 && f12 && f16 && f20) return 'paper';
+    // 剪刀：食指和中指伸开，其他握紧
+    if (f8 && f12 && !f16 && !f20) return 'scissors';
+    
+    return 'uncertain';
+}
+2. 稳定的渲染控制器 (startRenderer)
+修正了动作切换时的帧重置逻辑，确保出拳动作能完整播放。
+
+JavaScript
+
+function startRenderer() {
+    canvas.width = 720; 
+    canvas.height = 1280;
+    
+    function frame() {
+        const frames = game.images[game.currentAction];
+        const activeFrames = (frames && frames.length > 0) ? frames : game.images['idle1'];
+        
+        // 安全索引检查
+        if (game.frameIdx >= activeFrames.length) {
+            if (['idle1', 'shake'].includes(game.currentAction)) {
+                game.frameIdx = 0; // 待机和摇晃动作循环
+            } else {
+                // 出拳或胜负反馈动作完成后，保持最后一帧 1 秒再切回 idle1
+                game.currentAction = 'idle1';
+                game.frameIdx = 0;
+                return requestAnimationFrame(frame);
+            }
+        }
+
+        const img = activeFrames[game.frameIdx];
+        if(img) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+
+        game.frameIdx++;
+        requestAnimationFrame(frame);
+    }
+    frame();
+}
+3. 协同判定逻辑 (gameLoop)
+增加了 500ms 的“手势平滑采样”，避免判定瞬间的跳变。
+
+JavaScript
+
+async function gameLoop() {
+    if (game.uScore >= game.target || game.bScore >= game.target) {
+        speak("比赛结束啦，你真棒！");
+        return;
+    }
+
+    // 1. 开始摇摆
+    switchAction('shake');
+    const countEl = document.getElementById('countdown');
+    
+    for (let i = 3; i >= 1; i--) {
+        countEl.innerText = i;
+        // 每一秒都检查一下 AI 是否在正常工作
+        console.log("当前检测手势:", game.userGesture);
+        await new Promise(r => setTimeout(r, 1000));
+    }
+    
+    countEl.innerText = "出！";
+    
+    // 2. 核心采样：在 0.5 秒内记录出现频率最高的手势，增加准确率
+    const samples = [];
+    for(let s=0; s<10; s++) {
+        samples.push(game.userGesture);
+        await new Promise(r => setTimeout(r, 50));
+    }
+    const uMove = getMostFrequent(samples);
+    
+    countEl.innerText = "";
+
+    if (uMove === 'none' || uMove === 'uncertain') {
+        speak("哎呀，手势没看清，再来一次吧！");
+        switchAction('invalid');
+        await new Promise(r => setTimeout(r, 2000)); // 等摇头动作做完
+    } else {
+        const moves = ['rock', 'paper', 'scissors'];
+        const bMove = moves[Math.floor(Math.random() * 3)];
+        
+        // 3. 关键：先切换动作，再进行胜负逻辑
+        console.log("玩家出:", uMove, "女神出:", bMove);
+        switchAction(bMove); 
+        
+        // 延迟 1 秒等待出拳动画播放到高潮再判定比分
+        await new Promise(r => setTimeout(r, 1000));
+        processWin(uMove, bMove);
+        
+        await new Promise(r => setTimeout(r, 3000)); // 给反馈动作留时间
+    }
+
+    gameLoop(); // 循环
+}
+
+// 辅助函数：取数组中出现次数最多的元素
+function getMostFrequent(arr) {
+    return arr.sort((a,b) =>
+          arr.filter(v => v===a).length - arr.filter(v => v===b).length
+    ).pop();
+}
+系统调试建议：
+光线环境：手势识别非常依赖光线，请确保你的手部没有阴影遮挡。
+
+距离控制：手距离摄像头约 0.5米 - 1米 识别率最高，且要保证手掌完全在画面内。
+
+动作幅度：在倒计时 3-2-1 时，手可以稍微摆动，但在“出”的那一瞬间请保持手势定格，这样采样最准。

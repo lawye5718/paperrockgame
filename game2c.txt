@@ -1,0 +1,121 @@
+1. 资源存储结构确认
+根据你的描述，你的 assets 目录结构如下：
+
+/assets/rock/frames/frame_001.webp ... (约2秒，约48-60帧)
+
+/assets/paper/frames/frame_001.webp ...
+
+/assets/scissors/frames/frame_001.webp ...
+
+2. 核心改进：出拳定格逻辑
+我建议采用 “尾帧定格 + 异步阻塞” 的策略。
+
+技术实现：当渲染引擎检测到动作到达最后一帧时，停止帧增加（frameIdx），保持渲染该帧。
+
+时间控制：定格时间设置为 5秒 最为理想。这不仅能让用户看清手势，还给比分跳动和台词显示留出了足够的心理反应时间。
+
+3. 优化后的完整代码实现
+请重点替换 startRenderer 和 gameLoop 这两个核心函数：
+
+A. 增强版渲染引擎（支持尾帧定格）
+JavaScript
+
+function startRenderer() {
+    canvas.width = 720; 
+    canvas.height = 1280;
+
+    function frame() {
+        const frames = game.images[game.currentAction];
+        // 容错：如果当前文件夹没加载完，回退到 idle1
+        const activeFrames = (frames && frames.length > 0) ? frames : game.images['idle1'];
+        
+        // 关键逻辑：获取当前帧图片
+        // 使用 Math.min 确保如果 frameIdx 超过总长度，则一直停留在最后一帧
+        const currentIdx = Math.min(game.frameIdx, activeFrames.length - 1);
+        const img = activeFrames[currentIdx];
+
+        if(img) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+
+        // 帧前进逻辑
+        if (['idle1', 'shake'].includes(game.currentAction)) {
+            // 待机和摇晃动作：循环播放
+            game.frameIdx = (game.frameIdx + 1) % activeFrames.length;
+        } else {
+            // 出拳、胜负、无效动作：前进到最后一帧后停止增加（定格）
+            if (game.frameIdx < activeFrames.length - 1) {
+                game.frameIdx++;
+            }
+        }
+        requestAnimationFrame(frame);
+    }
+    frame();
+}
+B. 协同逻辑与定格时长控制
+JavaScript
+
+async function gameLoop() {
+    if (game.uScore >= game.target || game.bScore >= game.target) {
+        // 最终大胜负判定
+        const finalWinner = game.uScore > game.bScore ? 'user' : 'beauty';
+        if(finalWinner === 'beauty') {
+            switchAction('win2'); // 播放最终大捷动画
+            speak("最终还是我赢了喔，不服气再来呀！");
+        }
+        return; 
+    }
+
+    // 1. 引导阶段：摇晃
+    switchAction('shake');
+    const countEl = document.getElementById('countdown');
+    for (let i = 3; i >= 1; i--) {
+        countEl.innerText = i;
+        await new Promise(r => setTimeout(r, 1000));
+    }
+    countEl.innerText = "GO!";
+
+    // 2. 采样用户手势 (增加采样密度)
+    await new Promise(r => setTimeout(r, 200)); 
+    const uMove = game.userGesture;
+    countEl.innerText = "";
+
+    if (uMove === 'none' || uMove === 'uncertain') {
+        speak("不算喔，手势没看清楚～");
+        switchAction('invalid');
+        await new Promise(r => setTimeout(r, 3000)); // 无效动作也定格3秒
+    } else {
+        const moves = ['rock', 'paper', 'scissors'];
+        const bMove = moves[Math.floor(Math.random() * 3)];
+        
+        // 3. 执行动作：此时渲染引擎会自动播放并在最后一帧定格
+        switchAction(bMove); 
+        console.log(`对决开始：用户[${uMove}] VS 女神[${bMove}]`);
+
+        // 4. 等待动画播放并“定格展示”
+        // 延迟 1 秒等待美女做出完整动作
+        await new Promise(r => setTimeout(r, 1000)); 
+        
+        // 执行判定
+        processWin(uMove, bMove); 
+
+        // 5. 关键：定格展示时间（不低于 5 秒）
+        // 此时美女会一直保持在出拳的最后一帧，直到这个 Promise 结束
+        await new Promise(r => setTimeout(r, 5000)); 
+    }
+
+    // 6. 结束定格，回到待机状态进入下一轮
+    switchAction('idle1');
+    await new Promise(r => setTimeout(r, 500)); 
+    gameLoop();
+}
+4. 针对手机端性能的特别提示
+图片命名检查：请确保你的 WebP 命名真的是 frame_001.webp 而不是 frame_1.webp。代码中的 padStart(3, '0') 会严格寻找 001, 002 这种格式。
+
+定格的视觉优化：如果美女的出拳动作在 2 秒 WebP 的第 1.5 秒就已经完成了，建议你手动剔除 WebP 后面多余的“收手”动作，只保留到手伸直的那一帧作为结尾。这样 startRenderer 锁定的最后一帧就是最清晰的出拳手势。
+
+BO（局数）重置：在 updateMatchLimit 函数中，记得在切换局数设置时，强制调用 switchAction('idle1') 并重置分数，防止手机端 UI 状态卡死。
+
+架构师点评：
+“定格 5 秒”是一个非常明智的决定。在真人视频交互中，这种**“慢交互”**能有效抵消网络延迟和 AI 识别带来的焦躁感，让游戏更有“对弈”的仪式感。

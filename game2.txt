@@ -1,0 +1,347 @@
+针对你遇到的手机端加载慢、画面静态、以及摄像头无法启动的问题，我作为架构师，为你重新编写了这一套**生产级、分流加载、且具备自动唤醒功能**的完整代码。
+
+### 核心改进：
+
+1. **分级预加载**：优先加载 `idle1` 和 `shake`，进度条达到 100% 后立即显示“开始游戏”按钮。
+2. **强制交互触发**：通过“开始游戏”按钮解决移动端浏览器禁止自动启动视频/音效的限制。
+3. **HTTPS 唤醒提示**：针对手机端非 HTTPS 无法开启摄像头的问题，代码增加了环境自检。
+4. **全屏 9:16 适配**：使用了 `object-fit: cover` 和 `vh/vw` 组合逻辑，确保各种手机屏幕均能全屏显示。
+
+### 完整代码实现 (`index.html`)
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>AI女神：真人对弈</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+    <style>
+        :root { --primary: #ff4757; --gold: #f1c40f; }
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body { margin: 0; background: #000; color: white; font-family: -apple-system, system-ui; overflow: hidden; height: 100vh; }
+
+        /* 全屏游戏容器 */
+        #app { position: relative; width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center; }
+        
+        /* 美女渲染层 */
+        #beauty-canvas { height: 100%; width: 100%; object-fit: cover; z-index: 1; }
+
+        /* NBA 记分牌 */
+        #scoreboard {
+            position: absolute; top: env(safe-area-inset-top, 20px); left: 10px; right: 10px;
+            display: flex; justify-content: space-between; z-index: 100;
+            background: rgba(0,0,0,0.6); padding: 10px; border-radius: 12px; border-top: 3px solid var(--primary);
+        }
+        .score-unit { text-align: center; flex: 1; }
+        .score-val { font-size: 28px; font-weight: bold; color: var(--gold); }
+        .score-label { font-size: 10px; color: #ccc; text-transform: uppercase; }
+
+        /* 浮层 UI */
+        #ui-overlay { position: absolute; inset: 0; z-index: 90; display: flex; flex-direction: column; justify-content: center; align-items: center; pointer-events: none; }
+        #countdown { font-size: 120px; font-weight: 900; color: #fff; text-shadow: 0 0 20px rgba(0,0,0,0.8); }
+        #speech { background: #fff; color: #000; padding: 12px 24px; border-radius: 30px; font-weight: bold; opacity: 0; transition: 0.3s; transform: translateY(50px); }
+
+        /* 加载与启动页 */
+        #overlay-screen { position: fixed; inset: 0; background: #000; z-index: 200; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; }
+        .loader-box { width: 80%; max-width: 300px; height: 4px; background: #333; margin: 20px 0; border-radius: 2px; }
+        #loader-fill { width: 0%; height: 100%; background: var(--primary); transition: 0.2s; }
+        #btn-start { display: none; padding: 15px 40px; background: var(--primary); color: #fff; border: none; border-radius: 50px; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 0 20px rgba(255, 71, 87, 0.4); }
+
+        /* 摄像头小窗 */
+        #cam-preview { position: absolute; bottom: 20px; right: 20px; width: 100px; height: 133px; border: 2px solid #fff; border-radius: 8px; overflow: hidden; transform: rotateY(180deg); z-index: 95; }
+        video#webcam { width: 100%; height: 100%; object-fit: cover; }
+
+        /* 响应式调整 */
+        @media (orientation: landscape) { #beauty-canvas { width: auto; height: 100%; } }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div id="scoreboard">
+        <div class="score-unit">
+            <div id="u-score" class="score-val">0</div>
+            <div class="score-label">Player</div>
+        </div>
+        <div style="padding: 0 20px; border-left: 1px solid #444; border-right: 1px solid #444;">
+            <div id="match-type" style="color:var(--primary); font-weight: bold;">BO3</div>
+            <select id="limit-select" style="background:none; color:#fff; border:none; font-size:10px;" onchange="updateMatchLimit()">
+                <option value="3">3局2胜</option><option value="5">5局3胜</option><option value="9">9局5胜</option>
+            </select>
+        </div>
+        <div class="score-unit">
+            <div id="b-score" class="score-val">0</div>
+            <div class="score-label">Beauty</div>
+        </div>
+    </div>
+
+    <canvas id="beauty-canvas"></canvas>
+
+    <div id="ui-overlay">
+        <div id="countdown"></div>
+        <div id="speech">准备好了吗？</div>
+    </div>
+
+    <div id="cam-preview"><video id="webcam" autoplay playsinline muted></video></div>
+</div>
+
+<div id="overlay-screen">
+    <div id="load-info">
+        <div style="font-size: 24px; letter-spacing: 2px;">BEAUTY AI</div>
+        <div class="loader-box"><div id="loader-fill"></div></div>
+        <div id="status-text" style="font-size: 12px; color: #888;">正在同步魅力值 0%</div>
+    </div>
+    <button id="btn-start" onclick="launchGame()">开始游戏</button>
+</div>
+
+<script>
+/**
+ * 架构设计：
+ * images 对象存储所有已加载的 WebP 帧
+ * actions 定义动作映射
+ */
+const ASSETS = {
+    path: './assets',
+    priority: { idle1: 30, shake: 30 }, // 优先加载动作
+    background: { rock: 20, paper: 20, scissors: 20, invalid: 30, win1: 40, win2: 60, lose: 40 }
+};
+
+let game = {
+    uScore: 0, bScore: 0, limit: 3, target: 2,
+    currentAction: 'idle1', frameIdx: 0,
+    userGesture: 'none', isRunning: false,
+    images: {}
+};
+
+const canvas = document.getElementById('beauty-canvas');
+const ctx = canvas.getContext('2d');
+
+// 1. 智能预加载逻辑
+async function preload() {
+    const totalPriority = Object.values(ASSETS.priority).reduce((a,b)=>a+b);
+    let loaded = 0;
+
+    // A. 优先加载关键动作
+    for (let folder in ASSETS.priority) {
+        game.images[folder] = [];
+        for (let i = 1; i <= ASSETS.priority[folder]; i++) {
+            const img = new Image();
+            img.src = `${ASSETS.path}/${folder}/frames/frame_${i.toString().padStart(3, '0')}.webp`;
+            await img.decode(); // 手机端强制解码
+            game.images[folder].push(img);
+            loaded++;
+            const p = Math.floor((loaded/totalPriority) * 100);
+            document.getElementById('loader-fill').style.width = p + '%';
+            document.getElementById('status-text').innerText = `基础资源就绪 ${p}%`;
+        }
+    }
+
+    // B. 显示开始按钮（此时 idle1 已经可以渲染）
+    document.getElementById('load-info').style.display = 'none';
+    document.getElementById('btn-start').style.display = 'block';
+
+    // C. 后台静默加载其余动作
+    loadRemaining();
+}
+
+async function loadRemaining() {
+    for (let folder in ASSETS.background) {
+        game.images[folder] = [];
+        for (let i = 1; i <= ASSETS.background[folder]; i++) {
+            const img = new Image();
+            img.src = `${ASSETS.path}/${folder}/frames/frame_${i.toString().padStart(3, '0')}.webp`;
+            img.onload = () => game.images[folder][i-1] = img;
+        }
+    }
+}
+
+// 2. 渲染引擎
+function startRenderer() {
+    canvas.width = 720; 
+    canvas.height = 1280;
+    
+    function frame() {
+        const frames = game.images[game.currentAction];
+        // 如果当前动作还在加载中，容错回退到 idle1
+        const activeFrames = (frames && frames.length > 0) ? frames : game.images['idle1'];
+        const img = activeFrames[game.frameIdx % activeFrames.length];
+
+        if(img) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+
+        game.frameIdx++;
+        // 循环或切换回 idle1
+        if (game.frameIdx >= activeFrames.length) {
+            if (['idle1', 'shake'].includes(game.currentAction)) {
+                game.frameIdx = 0;
+            } else {
+                game.currentAction = 'idle1';
+                game.frameIdx = 0;
+            }
+        }
+        requestAnimationFrame(frame);
+    }
+    frame();
+}
+
+// 3. 游戏流程控制
+async function launchGame() {
+    document.getElementById('overlay-screen').style.opacity = '0';
+    setTimeout(() => document.getElementById('overlay-screen').remove(), 500);
+
+    startRenderer();
+    initAI(); // 启动摄像头
+    
+    // 延迟一秒开始第一轮
+    setTimeout(gameLoop, 2000);
+}
+
+async function gameLoop() {
+    if (game.uScore >= game.target || game.bScore >= game.target) return;
+
+    game.currentAction = 'shake';
+    game.frameIdx = 0;
+    
+    const countEl = document.getElementById('countdown');
+    for (let i = 3; i >= 1; i--) {
+        countEl.innerText = i;
+        await new Promise(r => setTimeout(r, 1000));
+    }
+    countEl.innerText = "GO!";
+
+    // 锁定瞬间手势
+    await new Promise(r => setTimeout(r, 200)); 
+    const uMove = game.userGesture;
+    countEl.innerText = "";
+
+    if (uMove === 'none' || uMove === 'uncertain') {
+        speak("不算喔，手势不清楚！");
+        game.currentAction = 'invalid';
+    } else {
+        const moves = ['rock', 'paper', 'scissors'];
+        const bMove = moves[Math.floor(Math.random()*3)];
+        game.currentAction = bMove;
+        game.frameIdx = 0;
+
+        // 判定
+        processWin(uMove, bMove);
+    }
+
+    setTimeout(gameLoop, 4000);
+}
+
+function processWin(u, b) {
+    if (u === b) { speak("平局，再来！"); return; }
+    
+    const winMap = { rock: 'scissors', paper: 'rock', scissors: 'paper' };
+    if (winMap[u] === b) {
+        game.uScore++;
+        game.currentAction = 'lose';
+        speak("你赢了这局... 哼");
+    } else {
+        game.bScore++;
+        if (game.bScore >= game.target) {
+            game.currentAction = 'win2';
+            speak("最终大捷！你输掉咯~");
+        } else {
+            game.currentAction = 'win1';
+            speak("承让，这局我赢啦！");
+        }
+    }
+    updateScoreUI();
+}
+
+function updateScoreUI() {
+    document.getElementById('u-score').innerText = game.uScore;
+    document.getElementById('b-score').innerText = game.bScore;
+}
+
+function speak(text) {
+    const s = document.getElementById('speech');
+    s.innerText = text;
+    s.style.opacity = 1;
+    s.style.transform = 'translateY(0)';
+    setTimeout(() => { s.style.opacity = 0; s.style.transform = 'translateY(50px)'; }, 2500);
+}
+
+// 4. AI 与 摄像头环境检测
+function initAI() {
+    // 检测是否为 HTTPS
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+        alert("检测到非安全连接：手机端必须在 HTTPS 环境下才能启动摄像头！");
+    }
+
+    const hands = new Hands({locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`});
+    hands.setOptions({ maxNumHands: 1, modelComplexity: 1, minDetectionConfidence: 0.75 });
+    
+    hands.onResults(results => {
+        if (results.multiHandLandmarks && results.multiHandLandmarks[0]) {
+            const marks = results.multiHandLandmarks[0];
+            const getUp = (t, p) => marks[t].y < marks[p].y;
+            const f8 = getUp(8,6), f12 = getUp(12,10), f16 = getUp(16,14), f20 = getUp(20,18);
+            
+            if (f8 && f12 && !f16 && !f20) game.userGesture = 'scissors';
+            else if (f8 && f12 && f16 && f20) game.userGesture = 'paper';
+            else if (!f8 && !f12 && !f16 && !f20) game.userGesture = 'rock';
+            else game.userGesture = 'uncertain';
+        } else {
+            game.userGesture = 'none';
+        }
+    });
+
+    const camera = new Camera(document.getElementById('webcam'), {
+        onFrame: async () => { await hands.send({image: document.getElementById('webcam')}); },
+        width: 480, height: 640
+    });
+    camera.start().catch(err => {
+        console.error("摄像头启动失败:", err);
+        speak("摄像头无法开启，请检查权限或HTTPS环境");
+    });
+}
+
+function updateMatchLimit() {
+    game.limit = parseInt(document.getElementById('limit-select').value);
+    game.target = Math.ceil(game.limit / 2);
+    document.getElementById('match-type').innerText = `BO${game.limit}`;
+    game.uScore = 0; game.bScore = 0;
+    updateScoreUI();
+}
+
+window.onload = preload;
+</script>
+</body>
+</html>
+
+```
+
+### 解决你提到的问题：
+
+1. **手机加载时间过长**：
+* **代码方案**：实现了 `smartPreload`。代码只等待最核心的 `idle1` 和 `shake` 下载完成（约 60 张 WebP）就会显示开始按钮。其他的 `win`, `lose` 等动作会在后台默默下载。
+* **资源方案**：请检查 WebP 单张大小，建议控制在 **50KB - 80KB** 之间。
+
+
+2. **手机加载后静态不动**：
+* 这是因为没有用户点击，浏览器禁用了代码逻辑。现在的代码增加了一个 `btn-start` 按钮，用户点击后才会启动渲染循环和摄像头。
+
+
+3. **无法启动摄像头**：
+* **本地开发调试**：在手机上访问时，请使用 `ngrok http 8502` 获取一个 HTTPS 地址，或者在手机 Chrome 的 `unsafely-treat-insecure-origin-as-secure` 中添加你的局域网 IP。
+
+
+4. **全屏适配**：
+* CSS 中使用了 `viewport-fit=cover` 适配刘海屏。
+* Canvas 使用 `object-fit: cover` 确保 9:16 的画面完美填充手机屏幕且不留黑边。
+
+
+
+### 接下来的步骤：
+
+将此代码保存为 `index.html`，确保你的 `assets` 目录结构与代码中的 `ASSETS` 对象一致。你可以先在电脑上用 `localhost` 测试，如果能看到待机动作循环，说明逻辑已经通了。

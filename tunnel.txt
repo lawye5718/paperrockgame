@@ -1,0 +1,87 @@
+使用 Cloudflare Tunnel (Argo Tunnel) 的核心优势在于它在你的 Mac Mini 和 Cloudflare 全球网络之间建立了一个加密的出口隧道。你不需要在路由器上做端口映射（Port Forwarding），也不需要处理复杂的 SSL 证书续签。
+
+根据你的需求，你可以在同一个隧道（Tunnel）内通过 Ingress Rules（入口规则） 同时映射两个不同的子域名到不同的本地端口。
+
+1. 前置条件
+域名托管：确保 damingxing.vip 的 DNS 解析已托管在 Cloudflare。
+
+安装工具：在 Mac Mini 上安装 cloudflared。
+
+Bash
+
+brew install cloudflare/cloudflare/cloudflared
+2. 详细配置流程
+第一步：登录与认证
+在 Mac Mini 的终端执行：
+
+Bash
+
+cloudflared tunnel login
+执行后会弹出一个浏览器窗口，选择你的域名 damingxing.vip 授权。完成后，本地会生成一个 cert.pem 文件。
+
+第二步：创建隧道
+创建一个名为 mac-mini-tunnel 的隧道（名称可自定）：
+
+Bash
+
+cloudflared tunnel create mac-mini-tunnel
+注意： 执行后会输出一个 Tunnel ID（类似于 6a123456-abcd-efgh-1234-567890abcdef），请记下它。
+
+第三步：编写配置文件 (config.yml)
+这是实现多域名映射多端口的核心。在 ~/.cloudflared/ 目录下创建一个 config.yml 文件：
+
+YAML
+
+tunnel: <你的 Tunnel ID>
+credentials-file: /Users/<你的用户名>/.cloudflared/<你的 Tunnel ID>.json
+
+ingress:
+  # 规则 1: 游戏网站
+  - hostname: rockpaper.damingxing.vip
+    service: http://localhost:8502
+  
+  # 规则 2: 发票/账单系统
+  - hostname: invoice.damingxing.vip
+    service: http://localhost:8501
+
+  # 规则 3: 兜底错误处理（必须包含）
+  - service: http_status:404
+第四步：配置 DNS 记录
+你需要告诉 Cloudflare，这两个子域名要指向这个隧道。执行以下两条命令：
+
+Bash
+
+cloudflared tunnel route dns mac-mini-tunnel rockpaper.damingxing.vip
+cloudflared tunnel route dns mac-mini-tunnel invoice.damingxing.vip
+这会在你的 Cloudflare DNS 控制台中自动创建两条 CNAME 记录。
+
+第五步：启动隧道
+手动启动测试：
+
+Bash
+
+cloudflared tunnel run mac-mini-tunnel
+如果一切正常，你的手机现在就可以通过以下地址访问了（自带 HTTPS）：
+
+https://rockpaper.damingxing.vip -> 映射到 8502
+
+https://invoice.damingxing.vip -> 映射到 8501
+
+3. 解决手机摄像头的关键点
+通过 Cloudflare Tunnel 访问后，手机端浏览器会识别到 完美的 HTTPS 证书（由 Cloudflare 提供）。
+
+环境检测：由于是标准的 HTTPS，安卓 Chrome 不再会有“不安全”限制。
+
+自动启动：在你之前上传的代码中，记得保留那个“开始游戏”按钮，因为移动端仍需要用户点击（User Gesture）才能唤醒摄像头流。
+
+4. 进阶：如何让隧道随 Mac 开机自动启动？
+在 Mac Mini 上将其注册为系统服务，这样即使重启电脑，隧道也会自动连接：
+
+Bash
+
+sudo cloudflared service install
+sudo launchctl start com.cloudflare.cloudflared
+架构师提示：
+本地端口隔离：确保你的 8502 (游戏) 和 8501 (发票) 服务在 Mac Mini 上已经正常启动并可以本地访问。
+
+Websocket 支持：如果你的发票系统或游戏使用了 Socket.io，Cloudflare Tunnel 默认支持 Websocket，无需额外配置。

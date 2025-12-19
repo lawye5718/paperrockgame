@@ -147,37 +147,38 @@ async function preloadResources() {
  * 2. 高性能渲染循环
  */
 function startRenderLoop() {
-    canvas.width = 720;
+    canvas.width = 720; 
     canvas.height = 1280;
 
-    function draw() {
+    function frame() {
         const frames = gameState.images[gameState.currentAction];
-        // 如果没有帧，则返回
-        if (!frames || frames.length === 0) {
-            requestAnimationFrame(draw);
-            return;
-        }
+        // 容错：如果当前文件夹没加载完，回退到 idle1
+        const activeFrames = (frames && frames.length > 0) ? frames : gameState.images['idle1'];
         
-        // 使用模运算确保索引不会超出范围
-        const img = frames[gameState.frameIdx % frames.length];
-        
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        // 关键逻辑：获取当前帧图片
+        // 使用 Math.min 确保如果 frameIdx 超过总长度，则一直停留在最后一帧
+        const currentIdx = Math.min(gameState.frameIdx, activeFrames.length - 1);
+        const img = activeFrames[currentIdx];
 
-        gameState.frameIdx++;
-        // 循环逻辑判定
+        if(img) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+
+        // 帧前进逻辑
         if (['idle1', 'shake'].includes(gameState.currentAction)) {
-            // 对于循环动作，持续播放
+            // 待机和摇晃动作：循环播放
+            gameState.frameIdx = (gameState.frameIdx + 1) % activeFrames.length;
         } else {
-            // 对于一次性动作，播放完后切回待机
-            if (gameState.frameIdx >= frames.length) {
-                switchAction('idle1');
+            // 出拳、胜负、无效动作：前进到最后一帧后停止增加（定格）
+            if (gameState.frameIdx < activeFrames.length - 1) {
+                gameState.frameIdx++;
             }
         }
-        requestAnimationFrame(draw);
-    }    draw();
+        requestAnimationFrame(frame);
+    }
+    frame();
 }
-
 function switchAction(act) {
     gameState.currentAction = act;
     gameState.frameIdx = 0;
@@ -187,6 +188,13 @@ function switchAction(act) {
  * 3. AI 手势识别逻辑
  */
 function startAI() {
+    // 检查浏览器是否支持媒体设备API
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        console.error('浏览器不支持媒体设备API');
+        alert('您的浏览器不支持摄像头功能，请更换现代浏览器（如Chrome、Safari、微信内置浏览器）重试');
+        return;
+    }
+
     const hands = new Hands({locateFile: (file) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`});
     hands.setOptions({ maxNumHands: 1, modelComplexity: 1, minDetectionConfidence: 0.7 });
     
@@ -202,67 +210,101 @@ function startAI() {
         onFrame: async () => { await hands.send({image: document.getElementById('webcam')}); },
         width: 480, height: 640
     });
-    camera.start();
-}
-
-function analyzeHand(landmarks) {
-    // 简易手势识别算法
-    const getUp = (tip, pip) => landmarks[tip].y < landmarks[pip].y;
-    const f8 = getUp(8, 6), f12 = getUp(12, 10), f16 = getUp(16, 14), f20 = getUp(20, 18);
     
-    if (f8 && f12 && !f16 && !f20) return 'scissors';
-    if (f8 && f12 && f16 && f20) return 'paper';
+    // 启动摄像头并处理可能的错误
+    camera.start().catch(error => {
+        console.error('启动摄像头失败:', error);
+        alert('无法访问摄像头，请检查权限设置或更换浏览器重试');
+    });
+}
+function analyzeHand(landmarks) {
+    // MediaPipe 关键点索引：食指(8), 中指(12), 无名指(16), 小指(20)
+    // 关节索引：食指根部(5), 中指根部(9)...
+    const getIsExtended = (tip, mcp) => {
+        // 计算指尖到手腕的距离 vs 关节到手腕的距离
+        // 简单处理：判断指尖 Y 坐标是否显著高于（在屏幕上是数值更小）关节 Y 坐标
+        return landmarks[tip].y < landmarks[mcp].y - 0.05; 
+    };
+
+    const f8 = getIsExtended(8, 6);   // 食指
+    const f12 = getIsExtended(12, 10); // 中指
+    const f16 = getIsExtended(16, 14); // 无名指
+    const f20 = getIsExtended(20, 18); // 小指
+
+    // 石头：所有手指都握紧
     if (!f8 && !f12 && !f16 && !f20) return 'rock';
+    // 布：所有手指都伸开
+    if (f8 && f12 && f16 && f20) return 'paper';
+    // 剪刀：食指和中指伸开，其他握紧
+    if (f8 && f12 && !f16 && !f20) return 'scissors';
+    
     return 'uncertain';
 }
-
 /**
  * 4. 游戏流程主控制 (状态机)
  */
+// 辅助函数：取数组中出现次数最多的元素
+function getMostFrequent(arr) {
+    return arr.sort((a,b) =>
+          arr.filter(v => v===a).length - arr.filter(v => v===b).length
+    ).pop();
+}
+
 async function gameFlowControl() {
     if (gameState.userScore >= gameState.targetScore || gameState.beautyScore >= gameState.targetScore) {
-        return; // 游戏已结束
+        // 最终大胜负判定
+        const finalWinner = gameState.userScore > gameState.beautyScore ? 'user' : 'beauty';
+        if(finalWinner === 'beauty') {
+            switchAction('win2'); // 播放最终大捷动画
+            speak("最终还是我赢了喔，不服气再来呀！");
+        }
+        return; 
     }
 
-    const countEl = document.getElementById('countdown');
-    
-    // 1. 准备阶段
+    // 1. 引导阶段：摇晃
     switchAction('shake');
+    const countEl = document.getElementById('countdown');
     for (let i = 3; i >= 1; i--) {
         countEl.innerText = i;
-        countEl.style.transform = 'scale(1.5)';
-        setTimeout(() => countEl.style.transform = 'scale(1)', 200);
         await new Promise(r => setTimeout(r, 1000));
     }
     countEl.innerText = "GO!";
-    
-    // 2. 采样与判定
-    await new Promise(r => setTimeout(r, 200)); // 留给用户瞬间反应时间
+
+    // 2. 采样用户手势 (增加采样密度)
+    await new Promise(r => setTimeout(r, 200)); 
     const userChoice = gameState.userGesture;
     countEl.innerText = "";
 
     if (userChoice === 'none' || userChoice === 'uncertain') {
-        speak("不算喔，手势没看清～");
+        speak("不算喔，手势没看清楚～");
         switchAction('invalid');
-        await new Promise(r => setTimeout(r, 2000));
+        await new Promise(r => setTimeout(r, 3000)); // 无效动作也定格3秒
     } else {
         const moves = ['rock', 'paper', 'scissors'];
         const beautyChoice = moves[Math.floor(Math.random() * 3)];
         
-        // 展现美女出拳动画
-        switchAction(beautyChoice);
-        await new Promise(r => setTimeout(r, 800)); // 等动画播放到关键帧
+        // 3. 执行动作：此时渲染引擎会自动播放并在最后一帧定格
+        switchAction(beautyChoice); 
+        console.log(`对决开始：用户[${userChoice}] VS 女神[${beautyChoice}]`);
 
-        // 胜负逻辑判定
+        // 4. 等待动画播放并"定格展示"
+        // 延迟 1 秒等待美女做出完整动作
+        await new Promise(r => setTimeout(r, 1000)); 
+        
+        // 执行判定
         const result = judge(userChoice, beautyChoice);
         handleResult(result);
-        await new Promise(r => setTimeout(r, 3000));
+
+        // 5. 关键：定格展示时间（不低于 5 秒）
+        // 此时美女会一直保持在出拳的最后一帧，直到这个 Promise 结束
+        await new Promise(r => setTimeout(r, 5000)); 
     }
 
-    gameFlowControl(); // 循环下一轮
-}
-
-function judge(u, b) {
+    // 6. 结束定格，回到待机状态进入下一轮
+    switchAction('idle1');
+    await new Promise(r => setTimeout(r, 500)); 
+    gameFlowControl();
+}function judge(u, b) {
     if (u === b) return 'tie';
     if ((u === 'rock' && b === 'scissors') || (u === 'paper' && b === 'rock') || (u === 'scissors' && b === 'paper')) return 'user';
     return 'beauty';
