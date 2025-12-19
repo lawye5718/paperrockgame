@@ -86,15 +86,18 @@ const CONFIG = {
     path: './assets',
     fps: 24, // 强制24帧，解决手机一闪而过的问题
     actions: {
-        idle1: 30, shake: 30, rock: 20, paper: 20, scissors: 20, 
-        invalid: 30, win1: 40, win2: 60, lose: 40
-    }
+        idle1: 1, shake: 1, rock: 1, paper: 1, scissors: 1, 
+        invalid: 1, win1: 1, win2: 1, lose: 1
+    },
+    holdDuration: 4000 // 动作停留时间（毫秒）- 4秒满足3-5秒要求
 };
 
 let store = {
     u: 0, b: 0, limit: 3, target: 2,
     act: 'idle1', idx: 0, lastTs: 0,
-    gesture: 'none', imgs: {}, loaded: false
+    gesture: 'none', imgs: {}, loaded: false,
+    actionStartTime: 0, // 记录动作开始时间
+    holdingAction: false // 标记是否正在保持动作显示
 };
 
 const canvas = document.getElementById('beauty-canvas');
@@ -105,7 +108,7 @@ async function preload() {
     // A. 优先加载 idle 和 shake (保证基础体验)
     const priority = ['idle1', 'shake'];
     let count = 0;
-    const totalP = 60; 
+    const totalP = 2; // 只有2个优先资源，每个1帧
 
     for (let f of priority) {
         store.imgs[f] = [];
@@ -153,8 +156,25 @@ function startRenderer(ts) {
         store.idx++;
         // 动作循环判定
         if (store.idx >= (frames ? frames.length : 1)) {
-            if (['idle1', 'shake'].includes(store.act)) {
-                store.idx = 0;
+            // 对于单帧图片，检查是否需要保持显示
+            const actionsThatHold = ['rock', 'paper', 'scissors', 'win1', 'win2', 'lose', 'invalid'];
+            if (actionsThatHold.includes(store.act)) {
+                if (!store.holdingAction) {
+                    // 第一次播放完，开始计时保持
+                    store.holdingAction = true;
+                    store.actionStartTime = ts;
+                }
+                // 检查是否已保持足够时间
+                if (ts - store.actionStartTime >= CONFIG.holdDuration) {
+                    store.act = 'idle1'; 
+                    store.idx = 0;
+                    store.holdingAction = false;
+                } else {
+                    // 继续显示当前帧
+                    store.idx = frames.length - 1; // 保持在最后一帧
+                }
+            } else if (['idle1', 'shake'].includes(store.act)) {
+                store.idx = 0; // 循环播放
             } else {
                 store.act = 'idle1'; 
                 store.idx = 0;
@@ -179,6 +199,7 @@ async function gameLoop() {
     if (store.u >= store.target || store.b >= store.target) return;
 
     store.act = 'shake'; store.idx = 0;
+    store.holdingAction = false; // 重置保持状态
     const countEl = document.getElementById('countdown');
 
     for (let i = 3; i >= 1; i--) {
@@ -195,6 +216,7 @@ async function gameLoop() {
     if (userMove === 'none' || userMove === 'uncertain') {
         popup("没看清楚手势喔，再来！");
         store.act = 'invalid';
+        store.idx = 0;
     } else {
         const list = ['rock', 'paper', 'scissors'];
         const bMove = list[Math.floor(Math.random()*3)];
@@ -204,7 +226,8 @@ async function gameLoop() {
         setTimeout(() => processLogic(userMove, bMove), 500);
     }
 
-    setTimeout(gameLoop, 4500);
+    // 增加等待时间以适应动作保持时长 (4000ms保持 + 1000ms缓冲)
+    setTimeout(gameLoop, CONFIG.holdDuration + 1000);
 }
 
 function processLogic(u, b) {
