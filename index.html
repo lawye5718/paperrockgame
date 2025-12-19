@@ -89,7 +89,9 @@ const CONFIG = {
         idle1: 1, shake: 1, rock: 1, paper: 1, scissors: 1, 
         invalid: 1, win1: 1, win2: 1, lose: 1
     },
-    holdDuration: 4000 // 动作停留时间（毫秒）- 4秒满足3-5秒要求
+    holdDuration: 4000, // 动作停留时间（毫秒）- 4秒满足3-5秒要求
+    gameLoopBuffer: 1000, // 游戏循环缓冲时间（毫秒）
+    actionsThatHold: ['rock', 'paper', 'scissors', 'win1', 'win2', 'lose', 'invalid'] // 需要保持显示的动作
 };
 
 let store = {
@@ -157,8 +159,7 @@ function startRenderer(ts) {
         // 动作循环判定
         if (store.idx >= (frames ? frames.length : 1)) {
             // 对于单帧图片，检查是否需要保持显示
-            const actionsThatHold = ['rock', 'paper', 'scissors', 'win1', 'win2', 'lose', 'invalid'];
-            if (actionsThatHold.includes(store.act)) {
+            if (CONFIG.actionsThatHold.includes(store.act)) {
                 if (!store.holdingAction) {
                     // 第一次播放完，开始计时保持
                     store.holdingAction = true;
@@ -170,8 +171,10 @@ function startRenderer(ts) {
                     store.idx = 0;
                     store.holdingAction = false;
                 } else {
-                    // 继续显示当前帧
-                    store.idx = frames.length - 1; // 保持在最后一帧
+                    // 继续显示当前帧 (带安全检查)
+                    if (frames && frames.length > 0) {
+                        store.idx = frames.length - 1; // 保持在最后一帧
+                    }
                 }
             } else if (['idle1', 'shake'].includes(store.act)) {
                 store.idx = 0; // 循环播放
@@ -226,8 +229,8 @@ async function gameLoop() {
         setTimeout(() => processLogic(userMove, bMove), 500);
     }
 
-    // 增加等待时间以适应动作保持时长 (4000ms保持 + 1000ms缓冲)
-    setTimeout(gameLoop, CONFIG.holdDuration + 1000);
+    // 增加等待时间以适应动作保持时长
+    setTimeout(gameLoop, CONFIG.holdDuration + CONFIG.gameLoopBuffer);
 }
 
 function processLogic(u, b) {
